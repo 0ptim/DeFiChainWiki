@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[9954],{33:e=>{e.exports=JSON.parse('{"label":"hola","permalink":"/DeFiChain-Wiki-2.0/blog/tags/hola","allTagsPath":"/DeFiChain-Wiki-2.0/blog/tags","count":1}')}}]);

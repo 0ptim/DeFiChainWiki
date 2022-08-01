@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[5845],{7952:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/DeFiChain-Wiki-2.0/blog/tags/docusaurus","allTagsPath":"/DeFiChain-Wiki-2.0/blog/tags","count":4}')}}]);
