@@ -1,55 +1,49 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
-
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/DeFiChain-Wiki-2.0/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  title: "DeFiChain Knowledgebase",
+  tagline: "",
+  url: "https://defichain.com/de",
+  baseUrl: "/DeFiChain-Wiki-2.0/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
 
   // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: '0ptim', // Usually your GitHub org/user name.
-  projectName: 'DeFiChain-Wiki-2.0', // Usually your repo name.
-  deploymentBranch : 'gh-pages',
+  organizationName: "0ptim",
+  projectName: "DeFiChain-Wiki-2.0",
+  deploymentBranch: "gh-pages",
   trailingSlash: false,
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: "https://github.com/0ptim/DeFiChain-Wiki-2.0/tree/main/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: "https://github.com/0ptim/DeFiChain-Wiki-2.0/tree/main/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -58,71 +52,71 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      docs : {
+        sidebar : {
+          autoCollapseCategories : true
+        }
+      },
       navbar: {
-        title: 'My Site',
+        title: "My Site",
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: "DeFiChain Wiki Logo",
+          src: "img/logo.png",
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
+            type: "doc",
+            docId: "intro",
+            position: "left",
+            label: "Tutorial",
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: "/blog", label: "Blog", position: "left" },
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            href: "https://github.com/0ptim/DeFiChain-Wiki-2.0",
+            label: "GitHub",
+            position: "right",
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'Docs',
+            title: "Community",
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: "Main Website",
+                href: "https://defichain.com/",
+              },
+              {
+                label: "DeFiChain Explorer",
+                href: "https://defiscan.live/",
+              },
+              {
+                label: "Twitter",
+                href: "https://twitter.com/defichain",
+              },
+              {
+                label: "Blog",
+                href: "https://blog.defichain.com/",
               },
             ],
           },
           {
-            title: 'Community',
+            title: "More",
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: "GitHub (This knowledge base)",
+                href: "https://github.com/0ptim/DeFiChain-Wiki-2.0",
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: "GitHub (DeFiChain)",
+                href: "https://github.com/DeFiCh",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} DeFiChain Knowledgebase, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
