@@ -5,7 +5,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "DeFiChain Knowledgebase",
   tagline: "",
-  url: "https://defichain.com/de",
+  url: "https://defichain.com/",
   baseUrl: "/DeFiChain-Wiki-2.0/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -36,12 +36,6 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/0ptim/DeFiChain-Wiki-2.0/tree/main/",
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/0ptim/DeFiChain-Wiki-2.0/tree/main/",
-        },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -58,7 +52,7 @@ const config = {
         }
       },
       navbar: {
-        title: "My Site",
+        title: "DeFiChain",
         logo: {
           alt: "DeFiChain Wiki Logo",
           src: "img/logo.png",
@@ -66,11 +60,10 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "intro",
+            docId: "welcome",
             position: "left",
-            label: "Tutorial",
+            label: "Knowledgebase",
           },
-          { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/0ptim/DeFiChain-Wiki-2.0",
             label: "GitHub",
