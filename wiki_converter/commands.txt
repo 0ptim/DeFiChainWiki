@@ -1,0 +1,5 @@
+docker build -t mediawiki2md .
+
+docker run -v ./output/:/src/output MediaWiki2MD sh -c "php convert.php --filename=mediawiki_dump.xml --output=./output"
+
+
