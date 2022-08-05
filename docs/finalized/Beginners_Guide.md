@@ -75,5 +75,3 @@ Passwort gesetzt wurde) in einer Datei "wallet.dat" gespeichert. Ohne
 diese und das Passwort lässt sich im Notfall nichts wieder herstellen.
 Diese Datei muss regelmäßig gesichert werden, wenn das Passwort geändert
 wurde auf jeden Fall.
-
--

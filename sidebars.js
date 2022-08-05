@@ -22,7 +22,7 @@ const sidebars = {
     {
       type: "category",
       label: "Output",
-      items: ["output_final/Backup_Wallet"],
+      items: ["output_final/Blockchain_folder"],
     },
     {
       type: "category",
@@ -40,6 +40,10 @@ const sidebars = {
         "finalized/App_on_Windows_Cloud_Server",
         "finalized/Atomic_Swap",
         "finalized/Auszahlung_DFI_in_Euro",
+        "finalized/Backup_Wallet",
+        "finalized/Beginners_Guide",
+        "finalized/Bitcoin_Anchoring",
+        "finalized/Block_Rewards",
       ],
     },
   ],
