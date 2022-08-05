@@ -3,10 +3,7 @@ title: Add old address
 permalink: /Add_old_address/
 ---
 
-1.  REDIRECT [Create addressWhen](/Create_address "wikilink") the
-    DeFiChain app restores a wallet from the BackUp, the old addresses
-    are not displayed. To display an old address again you can add it
-    manually.
+1.  REDIRECT [Create addressWhen](/Create_address "wikilink") the DeFiChain app restores a wallet from the BackUp, the old addresses are not displayed. To display an old address again you can add it manually.
 
 <!-- -->
 

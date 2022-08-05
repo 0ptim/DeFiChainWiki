@@ -13,5 +13,3 @@ Provider from the video:
 <https://www.prepaid-hoster.de/>
 
 Happy to add more information to this page.
-
-[Show this page in german](/App_auf_Windows_Cloud_Server "wikilink")

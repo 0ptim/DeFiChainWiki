@@ -12,7 +12,7 @@ verfügbar ist, haben verschiedene Community-Mitglieder eigene
 Kompilationen erstellt.
 
 Ziel dieser Seite ist es eine Übersicht über die verschiedenen
-Möglichkeiten zu geben:
+Möglichkeiten zu geben.
 
 ## DeFiNode
 
@@ -97,7 +97,3 @@ Version erhältlich.
 #### Cons
 
 - Da vollständig kompiliert, ist "Don't trust - verify" nicht gegeben
-
-[Diese Seite auf Englisch](/App_on_Raspberry-Pi "wikilink")
-
-__NOEDITSECTION__

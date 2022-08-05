@@ -12,7 +12,7 @@ Raspberrys, several community members have created their own
 compilations.
 
 The goal of this page is to give an overview of the different
-possibilities:
+possibilities.
 
 ## DeFiNode
 
@@ -95,7 +95,3 @@ fullnode are available in 32-bit and 64-bit versions respectively.
 #### Cons
 
 - Since fully compiled, "Don't trust - verify" is not given
-
-[This page in German](/App_auf_Raspberry-Pi "wikilink")
-
-__NOEDITSECTION__

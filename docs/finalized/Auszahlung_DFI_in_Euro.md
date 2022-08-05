@@ -3,50 +3,40 @@ title: Auszahlung DFI in Euro
 permalink: /Auszahlung_DFI_in_Euro/
 ---
 
-Folgende Möglichkeiten stehen Investoren zur Verfügung, DFI-Token in
-Euro umzuwandeln und auf ein Bankkonto auszahlen zu lassen:
+Folgende Möglichkeiten stehen Investoren zur Verfügung, DFI-Token in Euro umzuwandeln und auf ein Bankkonto auszahlen zu lassen.
 
 ### DFI-Direktverkauf über DFX.swiss
 
-Zum aktuellen Zeitpunkt die unkomplizierteste Methode, DFI nach EUR
-umzutauschen.
+Zum aktuellen Zeitpunkt die unkomplizierteste Methode, DFI nach EUR umzutauschen.
 
 ###### Ablauf
 
 1.  <https://dfx.swiss/>
 2.  Smartphone-App installieren
 3.  Anweisungen zur Einrichtung der Wallet befolgen
-4.  [Schritt-für-Schritt Anleitung zum
-    DFI-Verkauf](https://defichain-wiki.com/wiki/DFX_FAQ#Schritt-f.C3.BCr-Schritt_Anleitung_-_Verkaufen_bei_DFX)
+4.  [Schritt-für-Schritt Anleitung zum DFI-Verkauf](https://defichain-wiki.com/wiki/DFX_FAQ#Schritt-f.C3.BCr-Schritt_Anleitung_-_Verkaufen_bei_DFX)
 5.  DFI an die Deposit-Adresse senden
 6.  Empfangene DFI-Token werden automatisch in EUR konvertiert
-7.  Der konvertierte Betrag wird auf Bankkonto überwiesen (tägliche
-    Überweisungen)
-8.  [Hinweise zu Limits und
-    Verifizierungsanforderungen](https://defichain-wiki.com/wiki/DFX_FAQ#Verkaufsprozess:_DeFiChain_Assets_-.3E_FIAT)
-    beachten
+7.  Der konvertierte Betrag wird auf Bankkonto überwiesen (tägliche Überweisungen)
+8.  [Hinweise zu Limits und Verifizierungsanforderungen](https://defichain-wiki.com/wiki/DFX_FAQ#Verkaufsprozess:_DeFiChain_Assets_-.3E_FIAT) beachten
 
 ###### Vorteile
 
 - Unkompliziert, da ein direkter DFI-Verkauf
 - Automatisiertes Workflow durch angelegte Verkaufsrouten
-- Je nach Auszahlungshöhe kein nervendes
-  [KYC](https://de.wikipedia.org/wiki/Know_your_customer)
+- Je nach Auszahlungshöhe kein nervendes [KYC](https://de.wikipedia.org/wiki/Know_your_customer)
 - Unternehmen mit Sitz in der Schweiz, Community-driven
 - Zuverlässiger Support
 
 ###### Nachteile
 
-- Hohe Gebühr für [Offramp (Verkaufsroute): 2.9
-  %](https://dfx.swiss/de/agb/)
+- Hohe Gebühr für [Offramp (Verkaufsroute): 2.9 %](https://dfx.swiss/de/agb/)
 - Aktuell nur per Smartphone zugänglich
-- Pflichtangabe persönlicher Informationen wie Name, Post- und
-  E-Mail-Adresse, Telefonnummer
+- Pflichtangabe persönlicher Informationen wie Name, Post- und E-Mail-Adresse, Telefonnummer
 
 ### DFI-Direktverkauf über Bittrex
 
-DFI-Kauf und eben Verkauf können über die Plattform Bittrex abgewickelt
-werden.
+DFI-Kauf und eben Verkauf können über die Plattform Bittrex abgewickelt werden.
 
 ###### Ablauf
 
@@ -60,8 +50,7 @@ werden.
 
 - Unkompliziert, da ein direkter DFI-Verkauf
 - Geringe Gebühren:
-  - Umtausch [DFI/EUR: max. 0.75
-    %](https://bittrexglobal.zendesk.com/hc/en-us/articles/360009625260-Bittrex-Global-fees)
+  - Umtausch [DFI/EUR: max. 0.75 %](https://bittrexglobal.zendesk.com/hc/en-us/articles/360009625260-Bittrex-Global-fees)
   - Auszahlung: 0.0003 BTC
 - Schneller Support
 
@@ -72,19 +61,15 @@ werden.
 
 ### DFI → BTC → EUR über Exchanges
 
-Ein etwas aufwendigerer Weg DFI in EUR umzuwandeln, da mehrere Dienste
-involviert sind.
+Ein etwas aufwendigerer Weg DFI in EUR umzuwandeln, da mehrere Dienste involviert sind.
 
 ###### Ablauf
 
 1.  Account bei einer der ausgewählten
     [Exchanges](https://defichain.com/dfi) eröffnen
-    1.  Je nach Auftragshöhe und Exchange ist kein
-        [KYC](https://de.wikipedia.org/wiki/Know_your_customer)
-        erforderlich (z.B. Hotbit)
+    1.  Je nach Auftragshöhe und Exchange ist kein [KYC](https://de.wikipedia.org/wiki/Know_your_customer) erforderlich (z.B. Hotbit)
 2.  DFI empfangen und für BTC verkaufen
-3.  BTC an eine weitere Exchange senden, die BTC für Euro verkauft (z.B.
-    Binance, Bisonapp, BSDEX, Nuri)
+3.  BTC an eine weitere Exchange senden, die BTC für Euro verkauft (z.B. Binance, Bisonapp, BSDEX, Nuri)
 4.  EUR-Betrag auf eine IBAN auszahlen lassen
 
 ###### Vorteile
@@ -92,8 +77,7 @@ involviert sind.
 - Geringe Gebühren:
   - Umtausch DFI/BTC: \~ 0,5 %
   - Umtausch BTC/EUR: \~ 0,5 %
-  - Auszahlung: [Je nach
-    Exchange](https://withdrawalfees.com/coins/bitcoin)
+  - Auszahlung: [Je nach Exchange](https://withdrawalfees.com/coins/bitcoin)
 
 ###### Nachteile
 
@@ -108,8 +92,7 @@ Will man seine DFI von Cake aus für Euro verkaufen, so sind hier zwei
 Wege denkbar:
 
 1.  DFI an DFX oder Bittrex senden, gegen Euro tauschen, auszahlen
-2.  DFI über das DeFiChain-Netzwerk an eine
-    [DeFiChain-Wallet](https://defichain.com/downloads) schicken
+2.  DFI über das DeFiChain-Netzwerk an eine [DeFiChain-Wallet](https://defichain.com/downloads) schicken
     1.  In DeFiChain-Wallet DFI gegen dBTC tauschen (Gebühr: 0,2 %)
     2.  dBTC über das DeFiChain-Netzwerk zurück an Cake DeFi senden
     3.  Cake konvertiert empfangene dBTC nach BTC
