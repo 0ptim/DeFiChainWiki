@@ -34,10 +34,11 @@ Klick auf Empfangen
 Klick auf neue Adresse
 ![Klick auf neue Adresse](../media/Bildschirmfoto_2021-03-13_um_23.14.15.png)
 
-Schalter nach links alte Adresse eintragen.  
+Schalter nach links.
+Alte Adresse eintragen.  
 Benenne die Adresse mit einer beliebigen Bezeichnung.  
 Klick auf erstellen.
-![Schalter nach links alte Adresse eintragen](../media/Bildschirmfoto_2021-03-13_um_23.24.11.png)
+![Schalter nach links](../media/Bildschirmfoto_2021-03-13_um_23.24.11.png)
 
 Die alte Adresse wird jetzt wieder angezeigt.
 ![Die alte Adresse wird jetzt wieder angezeigt.](../media/Bildschirmfoto_2021-03-13_um_23.25.29.png)

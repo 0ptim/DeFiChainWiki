@@ -11,36 +11,36 @@ as Cake).
 
 ## Liquidity Mining (LM)
 
-\- Rewards are displayed as APR (before compounding)
+- Rewards are displayed as APR (before compounding)
 
 Advantages
 
-\- The risk is more diversified, as investment and rewards are in DFI or
+- The risk is more diversified, as investment and rewards are in DFI or
 DUSD and another coin or token. However, if one side of the pool goes to
 0, it is possible that you will lose all of your capital.
 
 Disadvantages
 
-\- Possible impermanent loss. However, this is negligible if you use
+- Possible impermanent loss. However, this is negligible if you use
 liquidity mining as a cash flow strategy, and rewards are designed to
 prevent loss of capital from impermanent loss.
 
 ## Staking (Solo)
 
-\- Rewards are described as APY (after compounding)
+- Rewards are described as APY (after compounding)
 
 Advantages
 
-\- DFI price is the only risk
+- DFI price is the only risk
 
-\- It is possible to freeze or lock masternodes, in order to receive 50%
+- It is possible to freeze or lock masternodes, in order to receive 50%
 more rewards (5 year) or double rewards (10 years)
 
 Disadvantages
 
-\- 20,000 DFI is required to make a masternode
+- 20,000 DFI is required to make a masternode
 
-\- Rewards are not consistent, some days the masternode may earn
+- Rewards are not consistent, some days the masternode may earn
 multiple block rewards, others none at all
 
 ## Staking (Indirect vs. Direct)
@@ -49,43 +49,43 @@ multiple block rewards, others none at all
 
 Pros
 
-\- User-friendly, designed for an investor with little experience
+- User-friendly, designed for an investor with little experience
 
-\- There is no minimum stake amount
+- There is no minimum stake amount
 
-\- May have additional VIP benefits
+- May have additional VIP benefits
 
-\- Run mainly by Dr. Julian Hosp and U-Zyn Chua, the founders of
+- Run mainly by Dr. Julian Hosp and U-Zyn Chua, the founders of
 DeFiChain
 
 Cons
 
-\- 15% fee on rewards (reduction possible through freezer lockup)
+- 15% fee on rewards (reduction possible through freezer lockup)
 
-\- Platform and centralization risk
+- Platform and centralization risk
 
-\- KYC required
+- KYC required
 
-\- Longer withdrawal due to processing by Cake and transaction time on
+- Longer withdrawal due to processing by Cake and transaction time on
 blockchain
 
 **DefiChain Wallet (Solo Staking with Masternode)**
 
 Pros
 
-\- Rapid withdrawal (only transaction time in the blockchain is
+- Rapid withdrawal (only transaction time in the blockchain is
 necessary.
 
-\- No fees on income
+- No fees on income
 
-\- No KYC required
+- No KYC required
 
-\- Non-custodial, investors hold their own keys
+- Non-custodial, investors hold their own keys
 
 Cons
 
-\- 20,000 DFI minimum stake amount
+- 20,000 DFI minimum stake amount
 
-\- Smart contract risk
+- Smart contract risk
 
-\- Less user-friendly
+- Less user-friendly

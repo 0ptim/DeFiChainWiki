@@ -744,7 +744,7 @@ Transaktionen meistens sehr zuverlässig.
 Bekannte kundenunfreudliche Banken die extra Gebühren für Ausland
 Transaktionen verlangen:
 
-\- Bank Austria
+- Bank Austria
 
 ### Werden Echtzeittransaktionen unterstützt?
 

@@ -747,7 +747,7 @@ like Revolut, for example, transactions usually work very reliably.
 Known customer-unfriendly banks that charge extra fees for foreign
 transactions:
 
-\- Bank Austria
+- Bank Austria
 
 ### Are real-time transactions supported?
 

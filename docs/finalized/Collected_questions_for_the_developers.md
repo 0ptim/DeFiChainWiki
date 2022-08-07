@@ -35,4 +35,4 @@ paper is no longer correct in all respects. On the wiki, the white paper
 should be adapted so that all information corresponds to the current
 circumstances.
 
-[--\> White paper](/White_paper "wikilink")
+[--\> White paper](./Updated_White_Paper.md)
