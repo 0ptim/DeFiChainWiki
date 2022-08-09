@@ -22,7 +22,7 @@ const sidebars = {
     {
       type: "category",
       label: "Output",
-      items: ["output_final/Masternode_service"],
+      items: ["output_final/Password_Setting"],
     },
     {
       type: "category",
@@ -88,6 +88,8 @@ const sidebars = {
         "finalized/Masternode_Uebersicht",
         "finalized/Masternode_installation_extended",
         "finalized/Masternode_installation_extended_de",
+        "finalized/Masternode_service",
+        "finalized/Original_White_Paper",
       ],
     },
   ],

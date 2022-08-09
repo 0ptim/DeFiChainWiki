@@ -128,7 +128,7 @@ The function set includes among others:
 
 ### Timeline
 
-[center](/File:Roadmap.png "wikilink")
+![](./../media/Roadmap.png)
 
 ## Background/Industry
 
@@ -186,8 +186,11 @@ requires the overhead of agents to provide trust. While some of the
 costs can be reduced, fundamentally, fintech can’t address the
 underlying issues of lack of transparency because it is dealing in the
 same financial instruments and going through the same major institutions
-as traditional finance. [center](/File:2019-defi.png "wikilink") For
-this reason, many investors have begun moving parts of their investments
+as traditional finance.
+
+![](./../media/2019-defi.png)
+
+For this reason, many investors have begun moving parts of their investments
 into cryptocurrency. Cryptocurrency, by definition has full transparency
 that traditional systems simply cannot provide. Furthermore, the amount
 of administration and bureaucracy required is minimal. Most of the
@@ -214,7 +217,8 @@ currency. Investors today want the possibility to lend, invest, and
 receive returns on their cryptocurrency investments. Well-designed DeFi
 platforms should allow the development of a variety of safe and secure
 financial instruments for the investment of cryptocurrency.
-[center](/File:Be-your-own-bank.png "wikilink")
+
+![](./../media/Be-your-own-bank.png)
 
 ### The state of DeFi
 
@@ -399,7 +403,8 @@ the system is already near capacity, it’s hard to see how it can manage
 the capacity of becoming a true DeFi network for the rest of the
 ecosystem. Something Vitalik Buterin has acknowledged in an interview:
 [<https://beincrypto.com/ethereum-founders-admit-never-designed-scalability/>.](https://beincrypto.com/ethereum-founders-admit-never-designed-scalability/)
-[center](/File:Graph.png "wikilink")
+
+![](./../media/Graph.png)
 
 ## DeFiChain Solution
 
@@ -1069,8 +1074,10 @@ transaction, Bitcoin block header and Merkle proof containing the Merkle
 root onto the newly mined block. By doing so, the staker will be
 rewarded an extra block reward in DFI, incentivising nodes to regularly
 anchor all records to the Bitcoin blockchain.
-[center](/File:Every-60-blocks.png "wikilink") DeFiChain node will
-include a built-in Bitcoin Simplified Payment Verification (SPV) client.
+
+![](./../media/Every-60-blocks.png)
+
+DeFiChain node will include a built-in Bitcoin Simplified Payment Verification (SPV) client.
 SPV clients sync the Bitcoin blockchain by downloading only block
 headers which is sufficient information for nodes to add and validate
 the anchors.
@@ -1101,7 +1108,7 @@ On DeFiChain the standardized tokens are called DeFi Standard Token
 the system, and DAT, which are asset-backed tokens created with the
 backing of cryptoassets.
 
-[<File:Custom-token.png>](/File:Custom-token.png "wikilink")
+![](./../media/Custom-token.png)
 
 ### DeFi Custom Token (DCT)
 
@@ -1194,7 +1201,7 @@ blocks are built natively on DeFiChain:
 3.  Cross-chain Exchange (XCX)
 4.  Pricing Oracles
 
-[<File:Dat-overview.png>](/File:Dat-overview.png "wikilink")
+![](./../media/Dat-overview.png)
 
 ### Loan Contract
 
@@ -1270,7 +1277,7 @@ possibility to collateralize any asset due to DeFiChain’s nature.
     has to pay back 0.5 DBTC \* 1.05 = 0.525 DBTC by the end of the
     year.
 
-[<File:Alice-pdc.png>](/File:Alice-pdc.png "wikilink")
+![](./../media/Alice-pdc.png)
 
 ### Decentralized Exchange (DEX)
 
@@ -1386,7 +1393,7 @@ Alice gets to keep the 1 BTC (minus 8000 DFI interest) and Bob now gets
 1 DBTC (plus 8000 DFI interest). Additionally Bob received the Guarantee
 of 0.1 DBTC providing him with an extra 10%.
 
-[<File:Alice-bob-xcx.png>](/File:Alice-bob-xcx.png "wikilink")
+![](./../media/Alice-bob-xcx.png)
 
 #### Second Example:
 
@@ -1513,7 +1520,7 @@ Rewards from minting a block on DeFiChain are calculated as:
 The burned token redistribution schedule is determined automatically
 every 259,200 blocks (approx. every 90 days) and works as follows:
 
-[<File:Burn.png>](/File:Burn.png "wikilink")
+![](./../media/Burn.png)
 
 Burned token redistribution for the next 259,200 blocks =
 
@@ -1555,7 +1562,7 @@ ecosystem partners, directing the development of the tools for ecosystem
 partners, and other activities to increase the number of ecosystem
 partners.
 
-[<File:Governance.png>](/File:Governance.png "wikilink")
+![](./../media/Governance.png)
 
 For clarification and transparency, Cake Pte Ltd is a private company
 located in Singapore. Cake Pte Ltd is an initial contributor as part of
@@ -1605,7 +1612,7 @@ adoption and development of DeFiChain.
 
 For any avoidance of doubt, there will NOT be a public ICO.
 
-[<File:Initial-token-distribution.png>](/File:Initial-token-distribution.png "wikilink")
+![](./../media/Initial-token-distribution.png)
 
 Further tokens will only ever be received through staking, which is
 described in the next chapter.
@@ -1737,7 +1744,7 @@ DeFiChain.
 
 ## Roadmap and Milestones
 
-[<File:Roadmap.png>](/File:Roadmap.png "wikilink")
+![](./../media/Roadmap.png)
 
 ## A Glimpse into the Future
 
