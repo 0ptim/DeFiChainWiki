@@ -1,6 +1,6 @@
 ---
 title: Investing & Trading with Decentralized Loans and Assets on DeFiChain
-permalink: /Investing_&_Trading_with_Decentralized_Loans_and_Assets_on_DeFiChain/
+permalink: /Investing_and_Trading_with_Decentralized_Loans_and_Assets_on_DeFiChain/
 ---
 
 <!-- TODO: Fix whole page -->
