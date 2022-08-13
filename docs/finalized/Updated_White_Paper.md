@@ -9,111 +9,39 @@ Everything about DeFiChain.
 
 ### Abstract:
 
-The DeFiChain Foundation is developing DeFiChain, a blockchain
-specifically dedicated to decentralized financial applications. By
-focusing on the functionality of the blockchain and dedicating it
-specifically to decentralized finance, DeFiChain provides unparalleled
-high transaction throughput, reduced risk of errors, and intelligent
-feature development specifically for the fulfillment of financial
-services on the blockchain.
+The DeFiChain Foundation is developing DeFiChain, a blockchain specifically dedicated to decentralized financial applications. By focusing on the functionality of the blockchain and dedicating it specifically to decentralized finance, DeFiChain provides unparalleled high transaction throughput, reduced risk of errors, and intelligent feature development specifically for the fulfillment of financial services on the blockchain.
 
 ### This Document is not a Prospectus
 
-This document does not constitute nor imply a prospectus of any sort. No
-wording contained herein should be construed as a solicitation for
-investment. Accordingly, this whitepaper does not pertain in any way to
-an offering of securities in any jurisdiction worldwide whatsoever.
-Rather, this whitepaper constitutes a technical description of the
-functionality of the Cake products and the development and distribution
-of DeFiChain.
+This document does not constitute nor imply a prospectus of any sort. No wording contained herein should be construed as a solicitation for investment. Accordingly, this whitepaper does not pertain in any way to an offering of securities in any jurisdiction worldwide whatsoever. Rather, this whitepaper constitutes a technical description of the functionality of the Cake products and the development and distribution of DeFiChain.
 
 ### This Document is not a final technical specification
 
-This document does not constitute nor imply a final technical
-specification of DeFiChain. Information presented on this whitepaper,
-technical or otherwise, is meant to outline the general idea of
-DeFiChain, its design and its use-cases and is subject to change with or
-without notice. For the latest up-to-date technical specification, check
-out the updates and documentations on the official website
-<https://defichain.com>.
+This document does not constitute nor imply a final technical specification of DeFiChain. Information presented on this whitepaper, technical or otherwise, is meant to outline the general idea of DeFiChain, its design and its use-cases and is subject to change with or without notice. For the latest up-to-date technical specification, check out the updates and documentations on the official website <https://defichain.com>.
 
 ## Executive summary
 
-The cryptocurrency industry is based on a simple premise: people should
-be fully in control of their finances. While it seems like a simple and
-obvious statement, the current systems are far from providing financial
-services that are truly under the control of the people who use them.
-The mission of DeFiChain is to give people (and in the future, machines,
-and devices) seamless access to decentralized financial services.
+The cryptocurrency industry is based on a simple premise: people should be fully in control of their finances. While it seems like a simple and obvious statement, the current systems are far from providing financial services that are truly under the control of the people who use them. The mission of DeFiChain is to give people (and in the future, machines, and devices) seamless access to decentralized financial services.
 
-For that purpose, we are introducing DeFiChain, a dedicated blockchain
-specifically for decentralized finance (DeFi) www.DeFichain.com.
+For that purpose, we are introducing DeFiChain, a dedicated blockchain specifically for decentralized finance (DeFi) www.DeFichain.com.
 
-By dedicating the functionality of a blockchain specifically to
-decentralized finance, DeFiChain provides high transaction throughput,
-reduced risk of errors, and intelligent feature development specifically
-for the fulfillment of Satoshi’s original intent: To create a reliable
-alternative form of financial services built on top of Bitcoin.
+By dedicating the functionality of a blockchain specifically to decentralized finance, DeFiChain provides high transaction throughput, reduced risk of errors, and intelligent feature development specifically for the fulfillment of Satoshi’s original intent: To create a reliable alternative form of financial services built on top of Bitcoin.
 
-Bitcoin, as described in the original Satoshi whitepaper, is designed as
-a form of digital cash, as a store and exchange of value. The evolution
-to Ethereum and smart contracts has allowed for tremendous new
-functionalities to be built on top of a blockchain, yet this development
-has come at a cost. The concept of one global operating system for
-everything has created a system that requires a complex codebase for
-smart contracts, slow throughput, and difficulty around the governance
-of the system.
+Bitcoin, as described in the original Satoshi whitepaper, is designed as a form of digital cash, as a store and exchange of value. The evolution to Ethereum and smart contracts has allowed for tremendous new functionalities to be built on top of a blockchain, yet this development has come at a cost. The concept of one global operating system for everything has created a system that requires a complex codebase for smart contracts, slow throughput, and difficulty around the governance of the system.
 
-DeFiChain approaches decentralized finance as a specific and critical
-segment of the blockchain community. DeFi is a dedicated blockchain that
-is optimized specifically for DeFi applications. DeFiChain is
-intentionally non-Turing-Complete and does not support any function,
-other than those needed for Decentralized Finance, resulting in a
-blockchain that provides higher throughput and better functionality
-specifically for dApps related to finance. The advantage of a non-Turing
-complete command set is that there is a much lower potential for coding
-errors of the type that have plagued Ethereum smart contracts such as
-with the DAO hack or the locked funds with Parity. While it is important
-that we have some smart contract languages that are Turing complete, in
-the area of finance, it is appropriate to restrict the capabilities of
-the language in favor of a more secure system with greatly-reduced
-attack vectors.
+DeFiChain approaches decentralized finance as a specific and critical segment of the blockchain community. DeFi is a dedicated blockchain that is optimized specifically for DeFi applications. DeFiChain is intentionally non-Turing-Complete and does not support any function, other than those needed for Decentralized Finance, resulting in a blockchain that provides higher throughput and better functionality specifically for dApps related to finance. The advantage of a non-Turing
+complete command set is that there is a much lower potential for coding errors of the type that have plagued Ethereum smart contracts such as with the DAO hack or the locked funds with Parity. While it is important that we have some smart contract languages that are Turing complete, in the area of finance, it is appropriate to restrict the capabilities of the language in favor of a more secure system with greatly-reduced attack vectors.
 
 ### The Problem
 
-Today, almost all financial services are run by banks. Investments, for
-example, by definition, is the use of capital to earn more capital.
-Investors use a bank to put their money into interest or dividend-making
-instruments in order to grow their wealth. The problems with financial
-services are increasingly becoming obvious to everyone: compounded costs
-due to middle(wo)men, slow transactions, delays for cross-border
-transactions, and inaccessibility to many sectors of the population. A
-myriad of fintech solutions have been brought in to improve the system,
-but fundamentally the underlying banking system is still in control, so
-fintech has brought only limited improvements.
+Today, almost all financial services are run by banks. Investments, for example, by definition, is the use of capital to earn more capital. Investors use a bank to put their money into interest or dividend-making instruments in order to grow their wealth. The problems with financial services are increasingly becoming obvious to everyone: compounded costs due to middle(wo)men, slow transactions, delays for cross-border transactions, and inaccessibility to many sectors of the population. A
+myriad of fintech solutions have been brought in to improve the system, but fundamentally the underlying banking system is still in control, so fintech has brought only limited improvements.
 
-Cryptocurrency and Decentralized Finance (DeFi) offer a way to start
-with a new system, circumventing the difficulties faced in changing the
-finance industry. While crypto has attracted billions in investments,
-decentralized financial services are lagging. When it comes to
-investment in cryptocurrency, crypto investors can buy and sell, but
-that’s it. The cryptocurrency itself cannot be invested in the same way
-fiat currency can be. Initial attempts to create peer-to-peer lending
-and asset tokenization so far have proven partial and unreliable, so
-investors have extremely limited options when it comes to an investment
-of their cryptoassets. The potential is enormous to provide financial
-services in crypto, the same way they are offered in fiat currency.
+Cryptocurrency and Decentralized Finance (DeFi) offer a way to start with a new system, circumventing the difficulties faced in changing the finance industry. While crypto has attracted billions in investments, decentralized financial services are lagging. When it comes to investment in cryptocurrency, crypto investors can buy and sell, but that’s it. The cryptocurrency itself cannot be invested in the same way fiat currency can be. Initial attempts to create peer-to-peer lending and asset tokenization so far have proven partial and unreliable, so investors have extremely limited options when it comes to an investment of their cryptoassets. The potential is enormous to provide financial services in crypto, the same way they are offered in fiat currency.
 
 ### The Solution
 
-DeFiChain is designed for investors in the cryptocurrency market who are
-looking to make their cryptocurrency work just like any other form of
-capital, such that they can ensure a return on investment in any market.
-DeFiChain is a dedicated non-Turing-complete blockchain, designed
-specifically for the decentralized finance (DeFi) industry. DeFi
-provides full functionality for this specific segment of the DLT
-community, sacrificing other types of functionality for simplicity,
-rapid throughput, and security.
+DeFiChain is designed for investors in the cryptocurrency market who are looking to make their cryptocurrency work just like any other form of capital, such that they can ensure a return on investment in any market. DeFiChain is a dedicated non-Turing-complete blockchain, designed specifically for the decentralized finance (DeFi) industry. DeFi provides full functionality for this specific segment of the DLT community, sacrificing other types of functionality for simplicity, rapid throughput, and security.
 
 The function set includes among others:
 
@@ -128,178 +56,56 @@ The function set includes among others:
 
 ### Timeline
 
-[center](/File:Roadmap.png "wikilink")
+![center](./../media/Roadmap.png)
 
 ## Background/Industry
 
 ### DeFi’s promises and challenges
 
-Decentralized Finance promises to provide a variety of financial
-instruments without the need for middle(wo)men to ensure that the
-services are trusted. According to the OECD, financial services
-typically make up 20–30% of total service market revenue and about [20%
-of the total gross domestic
-product](https://www.investopedia.com/terms/g/gdp.asp) in [developed
-economies](https://www.investopedia.com/terms/d/developed-economy.asp)
+Decentralized Finance promises to provide a variety of financial instruments without the need for middle(wo)men to ensure that the services are trusted. According to the OECD, financial services typically make up 20–30% of total service market revenue and about [20% of the total gross domestic product](https://www.investopedia.com/terms/g/gdp.asp) in [developed economies](https://www.investopedia.com/terms/d/developed-economy.asp)
 [(link)](https://www.investopedia.com/ask/answers/030515/what-percentage-global-economy-comprised-financial-services-sector.asp).
-This is an enormous industry dedicated to one thing: making sure that
-financial transactions are trusted. With the advent of blockchain,
-trustless systems and smart contracts can be used to replace much of the
-functionality of this industry, dramatically increasing the return on
-investment for the individual investor.
+This is an enormous industry dedicated to one thing: making sure that financial transactions are trusted. With the advent of blockchain, trustless systems and smart contracts can be used to replace much of the functionality of this industry, dramatically increasing the return on investment for the individual investor.
 
-Financial services today are providing an important service, but at a
-very high cost, and despite many fintech developments, the following
-underlying issues persist:
+Financial services today are providing an important service, but at a very high cost, and despite many fintech developments, the following underlying issues persist:
 
-- High transaction costs. Due to regulatory requirements, legacy systems
-  with complex interoperability issues, and control by large
-  institutions, transaction fees are high for the average user of
-  banking and financial services. Services that require a broker are
-  even more expensive, as agents and other types of middlemen are
-  involved.
-- Slow transactions, particularly for international transactions.
-  Although theoretically, it should only take minutes for computers to
-  transact, moving money from one institution to another can take hours
-  within a country, and it can take days between countries.
-- Lack of transparency and unfair advantages to large players. Financial
-  instruments are complex and most people do not have access to the
-  information that would allow them to make optimal decisions. Lack of
-  transparency is one of the major factors that led to the 2008
-  financial crisis and in the short term, it always leaves smaller
-  investors (the average person) at a disadvantage compared to
-  institutional investors.
-- Inaccessibility and/or higher cost to lower-income people. Financial
-  services are simply not available in many geographies, and when they
-  are, lower-income people are hit with even higher fees
-  (percentage-wise) than average.
-- Despite legislation to reduce money laundering and related crimes,
-  there is almost no evidence to suggest the current system or AML is,
-  in fact, reducing money laundering.
+- High transaction costs. Due to regulatory requirements, legacy systems with complex interoperability issues, and control by large institutions, transaction fees are high for the average user of banking and financial services. Services that require a broker are even more expensive, as agents and other types of middlemen are involved.
+- Slow transactions, particularly for international transactions. Although theoretically, it should only take minutes for computers to transact, moving money from one institution to another can take hours within a country, and it can take days between countries.
+- Lack of transparency and unfair advantages to large players. Financial instruments are complex and most people do not have access to the information that would allow them to make optimal decisions. Lack of transparency is one of the major factors that led to the 2008 financial crisis and in the short term, it always leaves smaller investors (the average person) at a disadvantage compared to institutional investors.
+- Inaccessibility and/or higher cost to lower-income people. Financial services are simply not available in many geographies, and when they are, lower-income people are hit with even higher fees (percentage-wise) than average.
+- Despite legislation to reduce money laundering and related crimes, there is almost no evidence to suggest the current system or AML is, in fact, reducing money laundering.
 
-Fintech has been attempting to address these problems, with some
-success. Fintech solutions such as online international transfer
-services, savings, and investment apps, and mobile money for underserved
-markets have begun to improve the situation. However, the change is
-incremental, and is still built on top of a system that fundamentally
-requires the overhead of agents to provide trust. While some of the
-costs can be reduced, fundamentally, fintech can’t address the
-underlying issues of lack of transparency because it is dealing in the
-same financial instruments and going through the same major institutions
-as traditional finance. [center](/File:2019-defi.png "wikilink") For
-this reason, many investors have begun moving parts of their investments
-into cryptocurrency. Cryptocurrency, by definition has full transparency
-that traditional systems simply cannot provide. Furthermore, the amount
-of administration and bureaucracy required is minimal. Most of the
-activities that were carried out by agents can be written into the code
-in decentralized financial systems. Of course, there is still some
-overhead in creating and maintaining the code, as well as maintenance of
-the networks, but the amount of bureaucracy is minimal, eliminating much
-of the cost of transacting on these systems.
+Fintech has been attempting to address these problems, with some success. Fintech solutions such as online international transfer services, savings, and investment apps, and mobile money for underserved markets have begun to improve the situation. However, the change is incremental, and is still built on top of a system that fundamentally requires the overhead of agents to provide trust. While some of the costs can be reduced, fundamentally, fintech can’t address the underlying issues of lack of transparency because it is dealing in the same financial instruments and going through the same major institutions as traditional finance.
 
-Despite the promise of decentralized finance, the technology is still
-nascent, and there are many opportunities to create a richer and more
-robust decentralized finance environment. To date, investors in
-cryptocurrency have extremely limited investment options. Promises of
-peer-to-peer lending platforms, asset tokenization and other types of
-blockchains have either failed to deliver, been hacked, or delivered a
-pared-down version of the original promise.
+![center](./../media/2019-defi.png)
 
-Today, almost universally, cryptocurrency investors have only one way to
-earn money on their capital: rise of the cryptocurrency asset. While in
-the short term, this may be a good investment, it’s not how currency is
-designed to work. The investment of capital should provide a return on
-investment, and cryptocurrency is designed to be like any other form of
-currency. Investors today want the possibility to lend, invest, and
-receive returns on their cryptocurrency investments. Well-designed DeFi
-platforms should allow the development of a variety of safe and secure
-financial instruments for the investment of cryptocurrency.
-[center](/File:Be-your-own-bank.png "wikilink")
+For this reason, many investors have begun moving parts of their investments into cryptocurrency. Cryptocurrency, by definition has full transparency that traditional systems simply cannot provide. Furthermore, the amount
+of administration and bureaucracy required is minimal. Most of the activities that were carried out by agents can be written into the code in decentralized financial systems. Of course, there is still some overhead in creating and maintaining the code, as well as maintenance of the networks, but the amount of bureaucracy is minimal, eliminating much of the cost of transacting on these systems.
+
+Despite the promise of decentralized finance, the technology is still nascent, and there are many opportunities to create a richer and more robust decentralized finance environment. To date, investors in cryptocurrency have extremely limited investment options. Promises of peer-to-peer lending platforms, asset tokenization and other types of blockchains have either failed to deliver, been hacked, or delivered a pared-down version of the original promise.
+
+Today, almost universally, cryptocurrency investors have only one way to earn money on their capital: rise of the cryptocurrency asset. While in the short term, this may be a good investment, it’s not how currency is designed to work. The investment of capital should provide a return on investment, and cryptocurrency is designed to be like any other form of currency. Investors today want the possibility to lend, invest, and receive returns on their cryptocurrency investments. Well-designed DeFi platforms should allow the development of a variety of safe and secure financial instruments for the investment of cryptocurrency.
+
+![center](./../media/Be-your-own-bank.png)
 
 ### The state of DeFi
 
-The current state of Decentralized Finance (DeFi) is populated by
-general purpose blockchains, most of which provide Turing-complete
-command sets for the development of smart contracts on the chain. While
-appropriate for many programming languages, this dogmatic pursuit of
-Turing-complete smart contracts languages has resulted in a variety of
-problems when it comes to scalability, security and robustness of the
-blockchains.
+The current state of Decentralized Finance (DeFi) is populated by general purpose blockchains, most of which provide Turing-complete command sets for the development of smart contracts on the chain. While appropriate for many programming languages, this dogmatic pursuit of Turing-complete smart contracts languages has resulted in a variety of problems when it comes to scalability, security and robustness of the blockchains.
 
-- The sheer mass of dApps on networks such as Ethereum, EOS and TRON
-  have potential (or proven) impact on other dApps on the network. The
-  most obvious example was when CryptoKitties ground the Ethereum
-  network practically to a halt. While some of the faster-throughput
-  networks say this can’t happen, it will be some time before any other
-  network reaches the critical mass of apps on Ethereum so that we can
-  prove whether this is or isn’t the case.
-- For serious financial type dApps, it’s important to know that the
-  network is being maintained and managed in a responsible and secure
-  manner. Having a blockchain that is swamped with games, gambling and
-  other types of less “mission critical” apps will ultimately influence
-  the development and direction of the blockchains. With governance
-  models that allocate power to masternodes, dev groups, and
-  token-holders, the core development team will ultimately be influenced
-  by the biggest players. Decentralized Finance apps can’t afford the
-  potential consequences of sharing a blockchain with anyone who chooses
-  to use that operating system.
-- Using Turing-complete command sets requires programmers to create
-  complex programs to develop any kind of app. For example, to create a
-  peer-to-peer lending contract on top of MakerDAO, a programmer
-  requires approximately 2000 lines of code. Any bug in that code can
-  cause loss of the funds, or some other consequence. Maintaining such a
-  large code base intrinsically means larger chances for mistakes and a
-  large attack surface for even simple apps.
+- The sheer mass of dApps on networks such as Ethereum, EOS and TRON have potential (or proven) impact on other dApps on the network. The most obvious example was when CryptoKitties ground the Ethereum network practically to a halt. While some of the faster-throughput networks say this can’t happen, it will be some time before any other network reaches the critical mass of apps on Ethereum so that we can prove whether this is or isn’t the case.
+- For serious financial type dApps, it’s important to know that the network is being maintained and managed in a responsible and secure manner. Having a blockchain that is swamped with games, gambling and other types of less “mission critical” apps will ultimately influence the development and direction of the blockchains. With governance models that allocate power to masternodes, dev groups, and token-holders, the core development team will ultimately be influenced by the biggest players. Decentralized Finance apps can’t afford the potential consequences of sharing a blockchain with anyone who chooses to use that operating system.
+- Using Turing-complete command sets requires programmers to create complex programs to develop any kind of app. For example, to create a peer-to-peer lending contract on top of MakerDAO, a programmer requires approximately 2000 lines of code. Any bug in that code can cause loss of the funds, or some other consequence. Maintaining such a large code base intrinsically means larger chances for mistakes and a large attack surface for even simple apps.
 
-The limitations of general-purpose blockchains for DeFi apps has opened
-up a market opportunity to serve this market. While cryptocurrency
-momentum has continued to rise, most of the current applications are
-still on Ethereum. Concerns about the network have already led some of
-the major projects to consider porting or working with alternative or
-additional blockchains.
+The limitations of general-purpose blockchains for DeFi apps has opened up a market opportunity to serve this market. While cryptocurrency momentum has continued to rise, most of the current applications are still on Ethereum. Concerns about the network have already led some of the major projects to consider porting or working with alternative or additional blockchains.
 
 ### DeFi’s current problems
 
-- Finance dApps require reliability and do not want to be associated
-  with blockchains that host apps such as betting, entertainment or
-  other apps that may tarnish the reputation of a blockchain at any
-  time.
-- Sudden increases in volume of any dApp on a blockchain can potentially
-  impact all the other dApps on that blockchain, either in terms of
-  throughput, transaction price, or additional impacts, as seen with
-  CryptoKitties on Ethereum.
-- General-purpose blockchains require a large amount of coding to
-  provide financial services, increasing the risk of hackability or bugs
-  in the code. Functionalities that are basic requirements for financial
-  services, such as multisig, are often difficult to implement or
-  missing on general-purpose blockchains.
-- Maintenance of a Turing-complete blockchain means that resources are
-  not focusing on the areas valued by DeFi apps.
-- Governance models of most of today’s blockchains are immature and
-  showing signs of politicization, centralization and uncertainty.
-  Without formal governance structures, the future of these blockchains
-  is uncertain. Recent discussions of upgrades and forks in both
-  Ethereum and Bitcoin have revealed the immaturity of these systems,
-  and even the leader in governance, Aragon, showed the vulnerability of
-  its on-chain governance system in the summer 2019 vote, where one
-  large “whale” token-holder changed the outcome of several proposal
-  votes at the last minute. Such vulnerabilities are unacceptable on
-  blockchains dealing with finance.
-- Regulatory standards and regulatory bodies that appropriately address
-  the needs of natively cross-border currencies and financial
-  instruments. Jurisdiction-based regulation, and regulation based on
-  legacy technology is falling short of the needs of the DeFi industry.
-  It is clear that a new legal and regulatory framework is needed to
-  protect the rights of people using these systems.
-- The blockchain industry itself has not shown the maturity to put in
-  place its own standards bodies that will provide best practices or
-  self-regulation in a way that would demonstrate the industry’s
-  reliability for decentralized finance applications. To date, attempts
-  at creating interoperability or self-regulation have been immature and
-  have not resulted in leadership or standards that could be adopted by
-  international bodies or serious regulators. The lack of
-  self-regulation leaves the industry even more vulnerable to regulation
-  from outside, making the environment risky for serious investors.
+- Finance dApps require reliability and do not want to be associated with blockchains that host apps such as betting, entertainment or other apps that may tarnish the reputation of a blockchain at any time.
+- Sudden increases in volume of any dApp on a blockchain can potentially impact all the other dApps on that blockchain, either in terms of throughput, transaction price, or additional impacts, as seen with CryptoKitties on Ethereum.
+- General-purpose blockchains require a large amount of coding to provide financial services, increasing the risk of hackability or bugs in the code. Functionalities that are basic requirements for financial services, such as multisig, are often difficult to implement or missing on general-purpose blockchains.
+- Maintenance of a Turing-complete blockchain means that resources are not focusing on the areas valued by DeFi apps.
+- Governance models of most of today’s blockchains are immature and showing signs of politicization, centralization and uncertainty. Without formal governance structures, the future of these blockchains is uncertain. Recent discussions of upgrades and forks in both Ethereum and Bitcoin have revealed the immaturity of these systems, and even the leader in governance, Aragon, showed the vulnerability of its on-chain governance system in the summer 2019 vote, where one large “whale” token-holder changed the outcome of several proposal votes at the last minute. Such vulnerabilities are unacceptable on blockchains dealing with finance.
+- Regulatory standards and regulatory bodies that appropriately address the needs of natively cross-border currencies and financial instruments. Jurisdiction-based regulation, and regulation based on legacy technology is falling short of the needs of the DeFi industry. It is clear that a new legal and regulatory framework is needed to protect the rights of people using these systems.
+- The blockchain industry itself has not shown the maturity to put in place its own standards bodies that will provide best practices or self-regulation in a way that would demonstrate the industry’s reliability for decentralized finance applications. To date, attempts at creating interoperability or self-regulation have been immature and have not resulted in leadership or standards that could be adopted by international bodies or serious regulators. The lack of self-regulation leaves the industry even more vulnerable to regulation from outside, making the environment risky for serious investors.
 
 ### Consequences in the DeFi Market
 
@@ -399,7 +205,8 @@ the system is already near capacity, it’s hard to see how it can manage
 the capacity of becoming a true DeFi network for the rest of the
 ecosystem. Something Vitalik Buterin has acknowledged in an interview:
 [<https://beincrypto.com/ethereum-founders-admit-never-designed-scalability/>.](https://beincrypto.com/ethereum-founders-admit-never-designed-scalability/)
-[center](/File:Graph.png "wikilink")
+
+![center](./../media/Graph.png)
 
 ## DeFiChain Solution
 
@@ -561,7 +368,7 @@ meanwhile get favorable conditions on the loan.
 
 An important issue for DeFi is the ability to work with a variety of
 cryptoassets, directly, on-chain. While the transaction on the chain is
-done via the native \$DFI coin, DeFiChain can use Bitcoin, Ethereum,
+done via the native $DFI coin, DeFiChain can use Bitcoin, Ethereum,
 ERC-20, or any other cryptoasset through wrapping.
 
 Wrapping allows the utilization of any digital asset such that the
@@ -629,7 +436,7 @@ periodically submit pricing data from trusted source onto DeFiChain.
 
 The decentralized exchange function will allow atomic swap of
 cryptocurrencies in a peer-to-peer fashion
-[(link)](/wikipedia:Decentralized_exchange "wikilink"). The
+[(link)](/wikipedia:Decentralized_exchange). The
 decentralized exchange function matches people for trading directly,
 without the need to buy and sell currency through an exchange. Using
 decentralized exchange reduces the risks associated with using
@@ -1069,7 +876,10 @@ transaction, Bitcoin block header and Merkle proof containing the Merkle
 root onto the newly mined block. By doing so, the staker will be
 rewarded an extra block reward in DFI, incentivising nodes to regularly
 anchor all records to the Bitcoin blockchain.
-[center](/File:Every-60-blocks.png "wikilink") DeFiChain node will
+
+![center](./../media/Every-60-blocks.png)
+
+DeFiChain node will
 include a built-in Bitcoin Simplified Payment Verification (SPV) client.
 SPV clients sync the Bitcoin blockchain by downloading only block
 headers which is sufficient information for nodes to add and validate
@@ -1101,7 +911,7 @@ On DeFiChain the standardized tokens are called DeFi Standard Token
 the system, and DAT, which are asset-backed tokens created with the
 backing of cryptoassets.
 
-[<File:Custom-token.png>](/File:Custom-token.png "wikilink")
+![](./../media/Custom-token.png)
 
 ### DeFi Custom Token (DCT)
 
@@ -1194,7 +1004,7 @@ blocks are built natively on DeFiChain:
 3.  Cross-chain Exchange (XCX)
 4.  Pricing Oracles
 
-[<File:Dat-overview.png>](/File:Dat-overview.png "wikilink")
+![](./../media/Dat-overview.png)
 
 ### Loan Contract
 
@@ -1270,7 +1080,7 @@ possibility to collateralize any asset due to DeFiChain’s nature.
     has to pay back 0.5 DBTC \* 1.05 = 0.525 DBTC by the end of the
     year.
 
-[<File:Alice-pdc.png>](/File:Alice-pdc.png "wikilink")
+![](./../media/Alice-pdc.png)
 
 ### Decentralized Exchange (DEX)
 
@@ -1386,7 +1196,7 @@ Alice gets to keep the 1 BTC (minus 8000 DFI interest) and Bob now gets
 1 DBTC (plus 8000 DFI interest). Additionally Bob received the Guarantee
 of 0.1 DBTC providing him with an extra 10%.
 
-[<File:Alice-bob-xcx.png>](/File:Alice-bob-xcx.png "wikilink")
+![](./../media/Alice-bob-xcx.png)
 
 #### Second Example:
 
@@ -1469,9 +1279,9 @@ in extra money.
 
 ------------------------------------------------------------------------
 
-## \$DFI coin
+## $DFI coin
 
-The \$DFI coin will be the integral unit of account in DeFiChain
+The $DFI coin will be the integral unit of account in DeFiChain
 ecosystem.
 
 The DeFiChain Foundation will be issuing the DeFi utility token, DFI,
@@ -1480,7 +1290,7 @@ will only ever be 1.2 billion DFIs created.
 
 DFI is divisible up to 8 decimal places.
 
-### \$DFI coin Utility
+### $DFI coin Utility
 
 - DFI is used for fee payment for all transactions and smart contracts
   on DeFiChain.
@@ -1513,7 +1323,7 @@ Rewards from minting a block on DeFiChain are calculated as:
 The burned token redistribution schedule is determined automatically
 every 259,200 blocks (approx. every 90 days) and works as follows:
 
-[<File:Burn.png>](/File:Burn.png "wikilink")
+![](./../media/Burn.png)
 
 Burned token redistribution for the next 259,200 blocks =
 
@@ -1555,7 +1365,7 @@ ecosystem partners, directing the development of the tools for ecosystem
 partners, and other activities to increase the number of ecosystem
 partners.
 
-[<File:Governance.png>](/File:Governance.png "wikilink")
+![](./../media/Governance.png)
 
 For clarification and transparency, Cake Pte Ltd is a private company
 located in Singapore. Cake Pte Ltd is an initial contributor as part of
@@ -1589,11 +1399,11 @@ decisions will be honored via simple majority vote.
 
 ### Initial Token Distribution
 
-Of the roughly 1.2 billion \$DFI coins 49% will be issued to the
+Of the roughly 1.2 billion $DFI coins 49% will be issued to the
 DeFiChain Foundation at the start. The rest will be issued to Masternode
 holders over time.
 
-Of the 49% initially issued \$DFI coins, 49% will be kept by the
+Of the 49% initially issued $DFI coins, 49% will be kept by the
 DeFiChain Foundation. The rest may be distributed to accredited
 investors, large funds and institutions, collectively known as external
 partners, to fund the initial development of DeFiChain. In order to
@@ -1605,7 +1415,7 @@ adoption and development of DeFiChain.
 
 For any avoidance of doubt, there will NOT be a public ICO.
 
-[<File:Initial-token-distribution.png>](/File:Initial-token-distribution.png "wikilink")
+![](./../media/Initial-token-distribution.png)
 
 Further tokens will only ever be received through staking, which is
 described in the next chapter.
@@ -1640,18 +1450,18 @@ following table:
 | 9    | 1,178,536,000                      | 70%                | 10           | 0.78%                | 9,196,928          | 0.89%            | 10,512,000       | 1,189,048,000                    | 99.09%   | 10,512,000         |
 | 10   | 1,189,048,000                      | 70%                | 5            | 0.52%                | 6,185,973          | 0.44%            | 5,256,000        | 1,194,304,000                    | 99.53%   | 5,256,000          |
 
-### Acquiring \$DFI coins
+### Acquiring $DFI coins
 
-\$DFI coins will be issued only to the users of DeFiChain or partners
+$DFI coins will be issued only to the users of DeFiChain or partners
 with an interest in utilizing and participating in the ecosystem. There
 will be NO public sale or public token offering. Following are the only
-ways to get \$DFI coins:
+ways to get $DFI coins:
 
 - Institutional investors, accredited investors and funds who are
   interested in the use of DeFiChain can contact the DeFi founders at
-  ([partners@defichain.com](/Mailto:partners@defichain.com "wikilink")).
+  ([partners@defichain.com](/Mailto:partners@defichain.com)).
 - Over time, DFI will be available on staking platforms (such as
-  [www.CakeDeFi.com](/www.CakeDeFi.com "wikilink")) and on selected
+  [www.CakeDeFi.com](/www.CakeDeFi.com)) and on selected
   exchanges.
 - The DeFiChain Foundation will issue airdrop tokens for users of
   DeFiChain. (Hodlers and other market makers).
@@ -1733,11 +1543,11 @@ Every project on DeFiChain will naturally bring it its own users and put
 effort towards marketing of the project, adding users and hodlers to
 DeFiChain.
 
-[partners@defichain.com](/Mailto:partners@defichain.com "wikilink")
+[partners@defichain.com](/Mailto:partners@defichain.com)
 
 ## Roadmap and Milestones
 
-[<File:Roadmap.png>](/File:Roadmap.png "wikilink")
+![](./../media/Roadmap.png)
 
 ## A Glimpse into the Future
 

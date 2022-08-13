@@ -3,10 +3,7 @@ title: Tradable dAssets on DeFiChain
 permalink: /Tradable_dAssets_on_DeFiChain/
 ---
 
-Decentralized assets are following the real world asset price. On
-DeFiChain the tickers just have a "d" as a prefix, but then uses the
-same ticker as the asset on US exchanges. The following tokens are
-currently listed on the DEX.
+Decentralized assets are following the real world asset price. On DeFiChain the tickers just have a "d" as a prefix, but then uses the same ticker as the asset on US exchanges. The following tokens are currently listed on the DEX.
 
 ### Stocks
 
