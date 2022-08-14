@@ -111,6 +111,10 @@ const config = {
                 label: "GitHub (DeFiChain)",
                 href: "https://github.com/DeFiCh",
               },
+              {
+                label: "Privacy Policy",
+                href: "https://defichain.com/privacy-policy/"
+              }
             ],
           },
         ],
