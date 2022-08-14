@@ -123,7 +123,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} DeFiChain - Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} DeFiChain Foundation`,
       },
       prism: {
         theme: lightCodeTheme,
