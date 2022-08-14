@@ -33,3 +33,20 @@
   align-items: center;
   justify-content: center;
 }
+
+.mapBackground {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  background-image: url( '/static/map.svg' );  
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: invert();
+}
+
+[data-theme="dark"] .mapBackground {
+  filter: none;
+}

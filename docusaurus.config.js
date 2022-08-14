@@ -6,14 +6,14 @@ const config = {
   title: "DeFiChain-Wiki",
   tagline: "Your knowledgebase all around the DeFiChain ecosystem.",
   url: "https://defichain.com/",
-  baseUrl: "/DeFiChain-Wiki-2.0/",
+  baseUrl: "/DeFiChain-Wiki/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
 
   // GitHub pages deployment config.
   organizationName: "0ptim",
-  projectName: "DeFiChain-Wiki-2.0",
+  projectName: "DeFiChain-Wiki",
   deploymentBranch: "gh-pages",
   trailingSlash: false,
 
@@ -34,7 +34,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/0ptim/DeFiChain-Wiki-2.0/tree/main/",
+          editUrl: "https://github.com/0ptim/DeFiChain-Wiki/tree/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -46,10 +46,10 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      docs : {
-        sidebar : {
-          autoCollapseCategories : true
-        }
+      docs: {
+        sidebar: {
+          autoCollapseCategories: true,
+        },
       },
       navbar: {
         title: "DeFiChain-Wiki",
@@ -70,9 +70,14 @@ const config = {
             position: "left",
           },
           {
-            href: "https://github.com/0ptim/DeFiChain-Wiki-2.0",
-            label: "GitHub",
+            href: "https://blog.defichain.com/",
+            label: "📰 Blog",
+          },
+          {
+            href: "https://github.com/0ptim/DeFiChain-Wiki",
             position: "right",
+            className: "header-github-link",
+            "aria-label": "GitHub repository",
           },
         ],
       },
@@ -105,7 +110,7 @@ const config = {
             items: [
               {
                 label: "GitHub (This wiki)",
-                href: "https://github.com/0ptim/DeFiChain-Wiki-2.0",
+                href: "https://github.com/0ptim/DeFiChain-Wiki",
               },
               {
                 label: "GitHub (DeFiChain)",
@@ -113,12 +118,12 @@ const config = {
               },
               {
                 label: "Privacy Policy",
-                href: "https://defichain.com/privacy-policy/"
-              }
+                href: "https://defichain.com/privacy-policy/",
+              },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} DeFiChain Wiki, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} DeFiChain - Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
