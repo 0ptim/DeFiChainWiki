@@ -17,13 +17,17 @@ function HomepageHeader() {
       <div className={clsx("container", styles.container)}>
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro"
-          >
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
+        <div className={styles.buttonHolder}>
+          <div className={styles.buttons}>
+            <Link className="button button--secondary button--lg" to="/docs">
+              Knowledgebase 📖
+            </Link>
+          </div>
+          <div className={styles.buttons}>
+            <Link className="button button--secondary button--lg" to="https://github.com/0ptim/DeFiChain-Wiki-2.0">
+              Contribute ❤
+            </Link>
+          </div>
         </div>
       </div>
     </header>
