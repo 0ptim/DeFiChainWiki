@@ -3,7 +3,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "DeFiChain Knowledgebase",
+  title: "DeFiChain-Wiki",
   tagline: "",
   url: "https://defichain.com/",
   baseUrl: "/DeFiChain-Wiki-2.0/",
@@ -52,7 +52,7 @@ const config = {
         }
       },
       navbar: {
-        title: "DeFiChain",
+        title: "DeFiChain-Wiki",
         logo: {
           alt: "DeFiChain Wiki Logo",
           src: "img/logo.png",
@@ -62,7 +62,12 @@ const config = {
             type: "doc",
             docId: "welcome",
             position: "left",
-            label: "Knowledgebase",
+            label: "📖 Knowledgebase",
+          },
+          {
+            href: "https://defiscan.live/",
+            label: "🔍 Explorer",
+            position: "left",
           },
           {
             href: "https://github.com/0ptim/DeFiChain-Wiki-2.0",
@@ -99,7 +104,7 @@ const config = {
             title: "More",
             items: [
               {
-                label: "GitHub (This knowledge base)",
+                label: "GitHub (This wiki)",
                 href: "https://github.com/0ptim/DeFiChain-Wiki-2.0",
               },
               {
@@ -109,7 +114,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} DeFiChain Knowledgebase, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} DeFiChain Wiki, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
