@@ -4,9 +4,9 @@
   right: 0px;
   left: 0px;
   bottom: 0px;
+  filter: invert();
 }
 
-/* Overriding root Infima variables */
 [data-theme="dark"] .backgroundSvg {
-  filter: invert();
+  filter: none;
 }
