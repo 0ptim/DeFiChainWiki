@@ -1,0 +1,38 @@
+{
+  "Homepage.Subtitle": {
+    "message": "Your knowledgebase all around the DeFiChain ecosystem.",
+    "description": "Subtitle is used on the homepage"
+  },
+  "Homepage.Button.Knowledgebase": {
+    "message": "Knowledgebase 📖",
+    "description": "This button is used on the home page for opening the main page of the knowledge base."
+  },
+  "Homepage.Button.Contribute": {
+    "message": "Contribute ❤",
+    "description": "This button is used on the home page."
+  },
+  "Homepage.Feature.Community.Title": {
+    "message": "Community driven",
+    "description": "Title of the: Community"
+  },
+  "Homepage.Feature.Community.Description": {
+    "message": "Everyone is invited to contribute and help maintain the wiki.",
+    "description": "Description of the: Community"
+  },
+  "Homepage.Feature.OpenSource.Title": {
+    "message": "Open Source",
+    "description": "Title of the: Open Source"
+  },
+  "Homepage.Feature.OpenSource.Description": {
+    "message": "Every page, image and even the wiki-code is completely open sourced on GitHub.",
+    "description": "Description of the: Open Source"
+  },
+  "Homepage.Feature.Searchable.Title": {
+    "message": "Searchable",
+    "description": "Title of the: Searchable"
+  },
+  "Homepage.Feature.Searchable.Description": {
+    "message": "The whole wiki is indexed and every content can be found in an instant.",
+    "description": "Description of the: Searchable"
+  }
+}

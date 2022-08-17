@@ -1,33 +1,23 @@
 import React from "react";
 import clsx from "clsx";
 import styles from "./styles.module.css";
+import { translate } from "@docusaurus/Translate";
 
 const FeatureList = [
   {
-    title: "Community driven",
+    title: translate({ id: "Homepage.Feature.Community.Title" }),
     Svg: require("@site/static/features/community.svg").default,
-    description: (
-      <>Everyone is invited to contribute and help maintain the wiki.</>
-    ),
+    description: translate({ id: "Homepage.Feature.Community.Description" }),
   },
   {
-    title: "Open Source",
+    title: translate({ id: "Homepage.Feature.OpenSource.Title" }),
     Svg: require("@site/static/features/opensource.svg").default,
-    description: (
-      <>
-        Every page, image and even the wiki-code is completely open sourced on
-        GitHub.
-      </>
-    ),
+    description: translate({ id: "Homepage.Feature.OpenSource.Description" }),
   },
   {
-    title: "Searchable",
+    title: translate({ id: "Homepage.Feature.Searchable.Title" }),
     Svg: require("@site/static/features/searchable.svg").default,
-    description: (
-      <>
-        The whole wiki is indexed and every content can be found in an instant.
-      </>
-    ),
+    description: translate({ id: "Homepage.Feature.Searchable.Description" }),
   },
 ];
 

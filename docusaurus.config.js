@@ -4,7 +4,6 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "DeFiChain-Wiki",
-  tagline: "Your knowledgebase all around the DeFiChain ecosystem.",
   url: "https://defichain.com/",
   baseUrl: "/DeFiChain-Wiki/",
   onBrokenLinks: "throw",
@@ -72,8 +71,8 @@ const config = {
             label: "📰 Blog",
           },
           {
-            type: 'localeDropdown',
-            position: 'right',
+            type: "localeDropdown",
+            position: "right",
           },
           {
             href: "https://github.com/0ptim/DeFiChain-Wiki",

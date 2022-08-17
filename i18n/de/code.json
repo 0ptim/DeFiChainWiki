@@ -1,0 +1,38 @@
+{
+  "Homepage.Subtitle": {
+    "message": "Deine Wissensdatenbank rund um das DeFiChain-Ökosystem.",
+    "description": "Subtitle is used on the homepage"
+  },
+  "Homepage.Button.Knowledgebase": {
+    "message": "Wissensdatenbank 📖",
+    "description": "Dieser Button wird auf der Haupt-Seite verwendet, um die Wissensdatenbank zu öffnen."
+  },
+  "Homepage.Button.Contribute": {
+    "message": "Mithelfen ❤",
+    "description": "Dieser Button wird auf der Haupt-Seite verwendet."
+  },
+  "Homepage.Feature.Community.Title": {
+    "message": "Community geführt",
+    "description": "Titel des Features: Community"
+  },
+  "Homepage.Feature.Community.Description": {
+    "message": "Jeder ist eingeladen mitzuhelfen und das Wiki zu verbessern.",
+    "description": "Beschreibung des Features: Community"
+  },
+  "Homepage.Feature.OpenSource.Title": {
+    "message": "Öffentlicher Code",
+    "description": "Titel des Features: Open Source"
+  },
+  "Homepage.Feature.OpenSource.Description": {
+    "message": "Jede Seite, jedes Bild und sogar der Wiki-Code ist Öffentlich auf GitHub.",
+    "description": "Beschreibung des Features: Open Source"
+  },
+  "Homepage.Feature.Searchable.Title": {
+    "message": "Durchsuchbar",
+    "description": "Titel des Features: Searchable"
+  },
+  "Homepage.Feature.Searchable.Description": {
+    "message": "Das ganze Wiki ist indexiert und der gesamte Inhalt kann im Nu durchsucht werden.",
+    "description": "Beschreibung des Features: Searchable"
+  }
+}
