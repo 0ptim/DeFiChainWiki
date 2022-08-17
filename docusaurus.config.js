@@ -22,7 +22,12 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en"],
+    locales: ["en", "de", "tr"],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-US',
+      },
+    }
   },
 
   presets: [
@@ -61,17 +66,19 @@ const config = {
           {
             type: "doc",
             docId: "welcome",
-            position: "left",
             label: "📖 Knowledgebase",
           },
           {
             href: "https://defiscan.live/",
             label: "🔍 Explorer",
-            position: "left",
           },
           {
             href: "https://blog.defichain.com/",
             label: "📰 Blog",
+          },
+          {
+            type: 'localeDropdown',
+            position: 'right',
           },
           {
             href: "https://github.com/0ptim/DeFiChain-Wiki",
