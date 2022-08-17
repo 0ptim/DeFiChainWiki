@@ -23,11 +23,6 @@ const config = {
   i18n: {
     defaultLocale: "en",
     locales: ["en", "de", "tr"],
-    localeConfigs: {
-      en: {
-        htmlLang: 'en-US',
-      },
-    }
   },
 
   presets: [
