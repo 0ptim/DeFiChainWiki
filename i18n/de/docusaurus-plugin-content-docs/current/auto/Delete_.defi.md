@@ -14,7 +14,7 @@ Mac: `/Users/skip/.defi`
 ![Inhalt löschen oder verschieben](../media/210318_1607.png)
 
 
-Wenn du den .defi Ordner nicht finden kannst, dann hilft vielleicht dieser Text: [Show hidden folders](./Versteckte_Ordner_anzeigen.md)
+Wenn du den .defi Ordner nicht finden kannst, dann hilft vielleicht dieser Text: [Show hidden folders](./Show_hidden_folders.md)
 
 
 

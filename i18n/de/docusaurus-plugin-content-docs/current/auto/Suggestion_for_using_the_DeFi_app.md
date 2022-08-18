@@ -27,6 +27,6 @@ Es empfiehlt sich dringenst das Wallet Backup (eine Datei mit .dat Endung) an me
 
 ### Blockchain Backup: {#blockchain-backup}
 
-Es empfiehlt sich, ab und zu ein Backup der Blockchain Daten zu erstellen. Die Anleitung dafür findest du [hier](/Fullnode#Create_and_use_backup_for_blockchain_data).
+Es empfiehlt sich, ab und zu ein Backup der Blockchain Daten zu erstellen. Die Anleitung dafür findest du [hier](./Fullnode.md#create-and-use-backup-for-blockchain-data).
 
 Ergänze diese Wiki Seite auch mit Deinem Wissen!
