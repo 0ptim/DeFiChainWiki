@@ -3,7 +3,7 @@ title: DFX FAQ
 permalink: /DFX_FAQ/
 ---
 
-This page contains the most frequently asked questions about DFX.swiss. Please note that this page is a community page maintained by the community and not by DFX itself.
+<!-- This page contains the most frequently asked questions about DFX.swiss. Please note that this page is a community page maintained by the community and not by DFX itself.
 
 ## General questions
 
@@ -1351,4 +1351,4 @@ During the buying and selling process we have responsibility over your
 funds to exchange them on your behalf. Before and after we have no
 access to your assets, because your assets are kept exclusively in your
 wallet, to which we have no access, because only you know your private
-key!
+key! -->

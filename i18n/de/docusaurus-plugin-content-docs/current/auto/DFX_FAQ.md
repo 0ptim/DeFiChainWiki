@@ -3,7 +3,7 @@ title: DFX FAQ
 permalink: /DFX_FAQ/
 ---
 
-Diese Seite beinhaltet die häufigsten Fragen zu DFX.swiss. Bitte
+<!-- Diese Seite beinhaltet die häufigsten Fragen zu DFX.swiss. Bitte
 beachte, dass diese Seite eine Community Seite ist, welche von der
 Community und nicht von DFX selber gepflegt wird.
 
@@ -1386,4 +1386,4 @@ Bei der DFX sind Sparpläne möglich, bei Transak nicht.
 
 ### Tokens
 
-Bei DFX kannst du auch DeFiChain Tokens handeln.
+Bei DFX kannst du auch DeFiChain Tokens handeln. -->
