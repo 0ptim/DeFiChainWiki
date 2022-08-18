@@ -8,7 +8,7 @@ permalink: /Fundamentals/
 
 
 - [Liquidity Mining 流动性挖矿](./Liquidity_Mining.md)
-- [Block Rewards 区块奖励](./redirects/Blockrewards.md)
+- [Block Rewards 区块奖励](./Block_Rewards.md)
 
 
 - [Liquidity Mining versus Staking 流动性挖矿对比质押](./Liquidity_Mining_versus_Staking.md)

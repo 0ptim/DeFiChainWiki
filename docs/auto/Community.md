@@ -7,7 +7,7 @@ permalink: /Community/
 |------------------------------------------------------------------------|
 | [Improvement Proposals](./Improvement_Proposals.md)             |
 | [Community Funding Proposals](./Community_Funding_Proposals.md) |
-| [Steuern Schweiz](./Steuern_Schweiz.md)                         |
+| [Steuern Schweiz](./Tax_Switzerland.md)                         |
 
 [Check out our Services Community projects!](./Services.md)
 

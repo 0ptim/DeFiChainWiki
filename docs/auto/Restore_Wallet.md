@@ -36,7 +36,7 @@ Select "Restore wallet from recovery seed". Enter the 24 words.
 
 #### Scenario 3: Wallet created before 2.3.0, recovery seed available, password set {#scenario-3-wallet-created-before-230-recovery-seed-available-password-set}
 
-Setting the password enables wallet encryption. As described [here](./Wallet.dat_corrupt_salvage_failed.md), a full recovery from the seed phrase is no longer possible and a .dat file is required for full restore. The seed phrase works in general but it can only restore private keys, public keys and addresses that have been created <u>before</u> encryption was enabled, i.e. the password was set.
+Setting the password enables wallet encryption. As described [here](./corrupt_salvage_failed.md), a full recovery from the seed phrase is no longer possible and a .dat file is required for full restore. The seed phrase works in general but it can only restore private keys, public keys and addresses that have been created <u>before</u> encryption was enabled, i.e. the password was set.
 
 So if you have .dat file available restore from it as in scenario 1, if not cross your fingers and restore as in scenario 2.
 

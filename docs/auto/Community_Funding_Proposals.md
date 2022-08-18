@@ -29,7 +29,7 @@ The fund will be used to make further developments (content depends on API avail
 
 DeFiChain contributes 19.9 DFI every block to a community fund to fund for community projects like these.
 
-If you are interested in applying for community fund, please reach out to [communityfund@defichain.com](/Mailto:communityfund@defichain.com "wikilink") with your proposals.
+If you are interested in applying for community fund, please reach out to [communityfund@defichain.com](Mailto:communityfund@defichain.com) with your proposals.
 
 #### Stage {#stage}
 

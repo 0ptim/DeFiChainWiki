@@ -123,7 +123,7 @@ permalink: /Cli_commands/
 
 ## Network {#network}
 
-1.  [addnode](./../Addnode.md) "node" "command"
+1.  [addnode](./Addnode.md) "node" "command"
 2.  clearbanned
 3.  disconnectnode ( "address" nodeid )
 4.  getaddednodeinfo ( "node" )

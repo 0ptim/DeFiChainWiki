@@ -7,7 +7,7 @@ permalink: /Import_BTC_private_key_to_Electrum/
 
 You can use the BTC private key in Electrum to sweep the coins to an Electrum wallet as follows:
 
-1.  Do this: [Private key read out of the app](./Private_key_read_out_of_the_app.md)
+1.  Do this: [Private key read out of the app](./Read_out_private_key.md)
 2.  Download Electrum from [electrum.org](https://electrum.org/) and then create a new standard wallet with it -\> <https://bitcoinelectrum.com/creating-an-electrum-wallet/>
 3.  Sweep the BTC private key that you got from the command `spv_dumpprivkey` selecting "Wallet - Private Keys - Sweep" in the menu. You have to prepend the key with `p2wpkh:` since the originating address is a SegWit Bech32 format. More information can be found here: <https://bitcoinelectrum.com/sweeping-your-private-keys-into-electrum/>. Example:
 

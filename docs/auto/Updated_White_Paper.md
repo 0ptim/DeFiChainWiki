@@ -436,7 +436,7 @@ periodically submit pricing data from trusted source onto DeFiChain.
 
 The decentralized exchange function will allow atomic swap of
 cryptocurrencies in a peer-to-peer fashion
-[(link)](/wikipedia:Decentralized_exchange). The
+[(link)](https://en.wikipedia.org/wiki/Decentralized_finance#Decentralized_exchanges). The
 decentralized exchange function matches people for trading directly,
 without the need to buy and sell currency through an exchange. Using
 decentralized exchange reduces the risks associated with using
@@ -1459,9 +1459,9 @@ ways to get $DFI coins:
 
 - Institutional investors, accredited investors and funds who are
   interested in the use of DeFiChain can contact the DeFi founders at
-  ([partners@defichain.com](/Mailto:partners@defichain.com)).
+  ([partners@defichain.com](Mailto:partners@defichain.com)).
 - Over time, DFI will be available on staking platforms (such as
-  [www.CakeDeFi.com](/www.CakeDeFi.com)) and on selected
+  [www.CakeDeFi.com](https://cakedefi.com/)) and on selected
   exchanges.
 - The DeFiChain Foundation will issue airdrop tokens for users of
   DeFiChain. (Hodlers and other market makers).
@@ -1543,7 +1543,7 @@ Every project on DeFiChain will naturally bring it its own users and put
 effort towards marketing of the project, adding users and hodlers to
 DeFiChain.
 
-[partners@defichain.com](/Mailto:partners@defichain.com)
+[partners@defichain.com](Mailto:partners@defichain.com)
 
 ## Roadmap and Milestones {#roadmap-and-milestones}
 
