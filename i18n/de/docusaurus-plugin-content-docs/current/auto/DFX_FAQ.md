@@ -7,10 +7,6 @@ Diese Seite beinhaltet die häufigsten Fragen zu DFX.swiss. Bitte
 beachte, dass diese Seite eine Community Seite ist, welche von der
 Community und nicht von DFX selber gepflegt wird.
 
-[--\> DFX FAQ in english \<--](/DFX_FAQ_EN "wikilink")
-
-[--\>DFX FAQ in spanisch\<--](/DFX_FAQ_ES "wikilink")
-
 ## Allgemeine Fragen
 
 ### Erhalte ich eine Übersicht aller Transaktionen, inkl. Fees, die ich während des Jahres bei der Decentralized Finance Exchange getätigt habe?

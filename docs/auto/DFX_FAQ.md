@@ -1,25 +1,17 @@
 ---
-title: DFX FAQ EN
-permalink: /DFX_FAQ_EN/
+title: DFX FAQ
+permalink: /DFX_FAQ/
 ---
 
-This page contains the most frequently asked questions about DFX.swiss.
-Please note that this page is a community page maintained by the
-community and not by DFX itself.
-
-[--\> DFX FAQ auf Deutsch \<--](/DFX_FAQ "wikilink")
-
-[--\> DFX FAQ in Spanish \<--](/DFX_FAQ_ES "wikilink")
+This page contains the most frequently asked questions about DFX.swiss. Please note that this page is a community page maintained by the community and not by DFX itself.
 
 ## General questions
 
 ### Will I receive an overview of all transactions, including fees that I have made with the Decentralized Finance Exchange during the year?
 
-Yes, you can get a transaction overview of the DFX Services (staking,
-buying & selling via fiat and referral rewards).
+Yes, you can get a transaction overview of the DFX Services (staking, buying & selling via fiat and referral rewards).
 
-You can choose between two options on the payment page under transaction
-history.
+You can choose between two options on the payment page under transaction history.
 
 - csv format as download (cointracking compatible) and
 - API for cointracking (read only API)
