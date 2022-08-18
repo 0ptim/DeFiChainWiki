@@ -53,7 +53,7 @@ As a remedy, it is recommended to work with backup solutions. Then the entire bl
 
 Problem: The app cannot be started. Error message "No data found"
 
-To find out more about the reason of the error, you can read the following text: [Debug.log](/Debug.log)
+To find out more about the reason of the error, you can read the following text: [Debug.log](./Debug.log.md)
 
 Here's what you can try: [Delete .defi](./Delete_.defi.md)
 
