@@ -4,7 +4,7 @@ permalink: /Fundamentals/
 ---
 
 - [White Paper 白皮书](./Updated_White_Paper.md)
-- [Pink Paper 粉红皮书](./Pink_Papermd)
+- [Pink Paper 粉红皮书](./Pink_Paper.md)
 
 
 - [Liquidity Mining 流动性挖矿](./Liquidity_Mining.md)
