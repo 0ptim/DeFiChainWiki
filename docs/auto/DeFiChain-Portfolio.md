@@ -5,17 +5,17 @@ permalink: /DeFiChain-Portfolio/
 
 ![](./../media/Defi-portfolio-logo.png)
 
-## Community
+## Community {#community}
 
 If you have ideas for new features, bug reports or questions do not hesitate to create an issue on [GitHub](https://github.com/DeFi-PortfolioManagement/defi-portfolio/issues) or contact the [Telegram Community](https://t.me/DeFiChainPortfolio)
 
 For an introduction to DeFiChain-Portfolio, we recommend the [video from Crypto Explained on YouTube](https://www.youtube.com/watch?v=86xO3_oFXAQ)
 
-## General
+## General {#general}
 
 Use DeFi-Portfolio to export, analyse and visualize your transactions, rewards and commissions of your liquidity mining pools or DEX transactions to interact with DeFiChain. The current version of DeFi-Portfolio is released [here](https://github.com/DeFi-PortfolioManagement/defi-portfolio/releases/) on Github.
 
-## Minimum Requirements
+## Minimum Requirements {#minimum-requirements}
 
 RAM: 4GB
 
@@ -23,7 +23,7 @@ OS: macOS 10.14, Windows 10, Ubuntu LTS 18 and above
 
 DeFiChain Node (Blockchain) v.2.3.1 (You can install the [DeFiChain Desktop Wallet](https://github.com/DeFiCh/app/releases/tag/v2.8.1) and use the SnapShot Service)
 
-## Getting started
+## Getting started {#getting-started}
 
 - Install and run the DeFi-Portfolio for [Windows](https://github.com/DeFi-PortfolioManagement/defi-portfolio/releases/download/1.6.0/defi-portfolio-Setup-1.6.0.exe),[Mac](https://github.com/DeFi-PortfolioManagement/defi-portfolio/releases/download/1.6.0/defi-portfolio-1.6.0-mac.tar) or [Linux](https://github.com/DeFi-PortfolioManagement/defi-portfolio/releases/download/1.6.0/DeFi-Portfolio-1.6.0-linux.tar).
 - Click on update database (left bottom corner) When you load the data for the first time you have to allow access.
@@ -33,7 +33,7 @@ DeFiChain Node (Blockchain) v.2.3.1 (You can install the [DeFiChain Desktop Wall
 - Now your big data will imported and you can look on the raw data, export them or analyse your rewards and commissions.
 - After closing close the defid.exe. (If not then maybe you need a full resync the next time)
 
-## Installation Windows
+## Installation Windows {#installation-windows}
 
 Download the latest version for windows: [here](https://github.com/DeFi-PortfolioManagement/defi-portfolio/releases/latest)
 
@@ -44,7 +44,7 @@ Once the installation is done a shortcut of the DeFi-Portfolio will be available
 ![](./../media/WindowsConfig2.jpg)
 ![](./../media/WindowsConfig.jpg)
 
-## Installation Mac
+## Installation Mac {#installation-mac}
 
 Download the latest version for mac: [here](https://github.com/DeFi-PortfolioManagement/defi-portfolio/releases/latest)
 
@@ -62,7 +62,7 @@ Move defi-portfolio to applications
 
 ![](../media/MacInstallation.jpg)
 
-## Installation Linux
+## Installation Linux {#installation-linux}
 
 Download the latest version for linux: [here](https://github.com/DeFi-PortfolioManagement/defi-portfolio/releases/latest)
 
@@ -73,22 +73,22 @@ Once this is done you can launch the tool.
 ![](../media/LinuxInstallation1_.png)
 ![](../media/LinuxInstallation2.png)
 
-## Functionality description
+## Functionality description {#functionality-description}
 
-#### **Update Database:**
+#### **Update Database:** {#update-database}
 
 Before you can analyse your rewards and commissions you have to paste the addresses which should be analysed. The window for pasting the addesses can either be found in the settings menu or in the menu when you click upadte data. Copy paste the addresses and add them to the list. You can also delete addresses shich should not be analysed. Once you have added all addresses click save & close. After that you can click on update database. When the blockchain is not up to date on you local system itwill be updated. After that the transactions will be read out and saved locally (appdata). While updating the database the connection to the node will be established (command line window). This will automatically close once the local data are up to date.
 
 ![](../media/Addresses.png)
 ![](../media/2021-12-22_19h01_22.png)
 
-#### **Raw Data:**
+#### **Raw Data:** {#raw-data}
 
 ![](../media/2021-12-22_18h52_59.png)
 
 All transactions are shown in tabular form. Rewards and Commissions are summarized daily with the time 23:59. When clicking on Blockheight, Blockhash, Owner or Transaction-Hash the Blockchain Explorer will be opened with the respective value. The table can be exported as a csv file. To do this, right-click on the corresponding sub-functions.
 
-##### Export to Cointracking:
+##### Export to Cointracking: {#export-to-cointracking}
 
 **Cumulate All:**
 
@@ -126,9 +126,9 @@ Example: BTC-DFI, ETH-DFI
 
 1 reward income DFI from ETH-DFI pool, 1 commission income DFI from ETH-DFI pool, 1 commission income ETH
 
-#### **Analyse Data:**
+#### **Analyse Data:** {#analyse-data}
 
-##### **Portfolio:**
+##### **Portfolio:** {#portfolio}
 
 In the first pie chart your tokens are displayed with the fiat value from the latest update. The second pie chart show the liquidity mining tokens also with the fiat value from the latest update. In the table on the right side the tokens and the liquidity mining tokens are summarized. It is displayed the amount of tokens and also the value in fiat.
 
@@ -150,13 +150,13 @@ In the first pie chart your tokens are displayed with the fiat value from the la
 
 "FIAT value (FIAT)" Same like "Crypto value" but shown in choosen FIAT currency
 
-##### Impermanent Loss
+##### Impermanent Loss {#impermanent-loss}
 
 The "impermanent loss" is the loss of coins that occurs when liquidity is provided. It’s the difference between hodling the coins versus providing liquidity with these coins.
 
 In the table the impermanent loss of each pool is shown. The current value of the coins which were put into the pool are displayed in the second column. Over time, the number of coins in the pool will decrease due to the impermanent loss. The current value of these coins are shown in the third column. The percentage of the loss can be seen in the first column.
 
-##### **Rewards**:
+##### **Rewards**: {#rewards}
 
 The rewards are displayed in graphical form. You can choose the start date and the end date. In addition, the interval (daily, weekly, monthly, yearly) can be selected and the pool share can be choosen. The plot can be switched between individual and cumulative view. The table
 can be also exported as a csv file. To do this, right-click on the corresponding sub-functions.
@@ -174,7 +174,7 @@ can be also exported as a csv file. To do this, right-click on the corresponding
 
 "DFI (FIAT)" same like "DFI" but converted to choosen FIAT currency (with daily calculated price of coingecko API)
 
-##### **Commissions**:
+##### **Commissions**: {#commissions}
 
 The commissions are displayed in graphical form. The setting options are the same as for rewards. You can select the start date and the end date. In addition, the interval (daily, weekly, monthly, yearly) can be selected and the pool share can be choosen. The plot can be switched between individual and cumulative view.
 
@@ -196,7 +196,7 @@ The commissions are displayed in graphical form. The setting options are the sam
 
 "Total (FIAT)" Total of all commissions of this line (intervall) in choosen FIAT currency
 
-##### **Overview**:
+##### **Overview**: {#overview}
 
 The overview is displayed in graphical form. The rewards and commissions are combined in one plot. You can choose the start date and the end date.You can also select the interval (daily, weekly, monthly, yearly).
 
@@ -222,7 +222,7 @@ The overview is displayed in graphical form. The rewards and commissions are com
 
 "Total" Total of reward and all commissions of this line (intervall) in choosen FIAT currency
 
-## Settings
+## Settings {#settings}
 
 The following settings can be made in the Settings menu:
 
@@ -249,13 +249,13 @@ The following settings can be made in the Settings menu:
 
 ![](../media/Settings2.png)
 
-## Help
+## Help {#help}
 
 In the help menu you will find the link to the [GitHub repository](https://github.com/DeFi-PortfolioManagement/defi-portfolio/blob/master/README.md) as well as the link to our [Telegram community](https://t.me/DeFiChainPortfolio). With the youtube link you will get to the [video about DeFiPortfolio](https://www.youtube.com/watch?v=86xO3_oFXAQ) from crypto explained. There is also the possibility to open the [DeFiChain website](https://defichain.com/).Furthermore a link to this wiki is available and a link to the [DeFiChainExplained](https://defichain-explained.com/) website.
 
 ![](../media/HelpMenu.png)
 
-## FAQs
+## FAQs {#faqs}
 
 **Q: The defid is not closing after update data. How can I close it?**
 
@@ -300,9 +300,9 @@ In the application folder following files are available: TransactionData (all da
 
 A: No,you do not need to uninstall the old version. During the installation process the files of the old version will be replaced with the files of the new version.
 
-## Roadmap 2021
+## Roadmap 2021 {#roadmap-2021}
 
-#### 2021 - Q2:
+#### 2021 - Q2: {#2021---q2}
 
 v1.5:
 
@@ -326,7 +326,7 @@ v1.6:
 - Migration import to Python
 - Stocks and other assets
 
-#### 2022 - Q1:
+#### 2022 - Q1: {#2022---q1}
 
 - Cointracking with vault & loans
 - Standard templates for „Generic Export Function“ like Cointracking, Accointing, Blockfolio, Cryptotax … etc.

@@ -3,7 +3,7 @@ title: Create address
 permalink: /Create_address/
 ---
 
-## Create a new address:
+## Create a new address: {#create-a-new-address}
 
 Click on DFI Wallet
 ![Click on DFI Wallet](../media/Bildschirmfoto_2021-03-13_um_23.13.10.png)
@@ -23,7 +23,7 @@ Click to create
 The new address is displayed
 ![The new address is displayed](../media/Bildschirmfoto_2021-03-13_um_23.15.57.png)
 
-## Display an old address again:
+## Display an old address again: {#display-an-old-address-again}
 
 Click on DFI Wallet
 ![Click on DFI Wallet](../media/Bildschirmfoto_2021-03-13_um_23.13.10.png)

@@ -3,17 +3,17 @@ title: Masternode service
 permalink: /Masternode_service/
 ---
 
-## Create a Masternode with a local APP wallet and a Masternode from a Service Provider:
+## Create a Masternode with a local APP wallet and a Masternode from a Service Provider: {#create-a-masternode-with-a-local-app-wallet-and-a-masternode-from-a-service-provider}
 
 *26 April 2021.*
 
-### For this setup you need
+### For this setup you need {#for-this-setup-you-need}
 
 - 20,011 DFI (20,000 as collateral, 10 DFI for creating the masternode and 1 DFI for applicable fees).
 - A Windows, MacBook or Linux machine with a wallet installed and synced.
 - a Legacy Operatoraddress from a Service-Provider
 
-### Setting up your APP wallet
+### Setting up your APP wallet {#setting-up-your-app-wallet}
 
 We assume that you already have a working and synchronized wallet running on your computer at home. Start it and create a new receiving address in legacy format. To do this, open the CLI (command line) in the APP and type the following command:
 
@@ -45,21 +45,21 @@ To check your balance and see the locked 20.000 DFI in the wallet, use the comma
 
 Done, congratulations, you've made it.
 
-### Check status
+### Check status {#check-status}
 
 Wait a maximum of 5 minutes and check at [mydeficha.in/masternodes.php](http://mydeficha.in/masternodes.php) if your addresses show up there. After a while the status should go from Pre-Enabled to Enabled, then you have done everything right.
 
-### HowTo monitor your Masternode
+### HowTo monitor your Masternode {#howto-monitor-your-masternode}
 
 Please contact your Service-Provider about the Status. **DO NOT USE YOUR LOCAL APP WALLET TO ENABLE OR TRY TO MANAGE YOUR MASTERNODE IN THE GUI, UNLESS YOU WANT TO RESIGN IT.**
 
 To monitor your Rewards, you can use the [DFI-Explorer](https://chainz.cryptoid.info/dfi/) and search for your Owner-Address.
 
-### Benefits to use a Service-Provider
+### Benefits to use a Service-Provider {#benefits-to-use-a-service-provider}
 
 With a Service-Provider which offer a Operatornode for you, you own your Keys and dont send your Coins to another Institution. You dont need to setup a VPS, update the Node or monitor if the Node is working. You only have to hold your Collateral in your own Wallet, create the Masternode with the Infos from the Provider and receive the Rewards directly to your Wallet.
 
-### List of Service-Providers
+### List of Service-Providers {#list-of-service-providers}
 
 - [mydeficha.in](https://mydeficha.in/)
 - <https://www.allnodes.com/>

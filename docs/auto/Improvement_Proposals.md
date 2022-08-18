@@ -5,15 +5,15 @@ permalink: /Improvement_Proposals/
 
 DeFiChain Improvement Proposals (DFIPs)
 
-## DFIPs already processed
+## DFIPs already processed {#dfips-already-processed}
 
-### DFIP \#1: Bitcoin anchor reward source and mechanics adjustments
+### DFIP \#1: Bitcoin anchor reward source and mechanics adjustments {#dfip-1-bitcoin-anchor-reward-source-and-mechanics-adjustments}
 
-#### Overview
+#### Overview {#overview}
 
 In the white paper, every 60 blocks 5 DFI is set aside to be paid out to successful Bitcoin anchoring. The paper does not mention the source of the 5 DFI. This proposal is to address the source for anchor funding and make it clear and trackable.
 
-#### Proposal
+#### Proposal {#proposal}
 
 0.1 DFI from each mined block to be accumulated in a smart contract address. This 0.1 DFI should be coming from the community part of the reward (i.e. 10% of block rewards).
 
@@ -27,7 +27,7 @@ Upon successful anchoring, the entirety of the smart contract holding (in DFI) w
 
 Upon approval, this proposal will be implemented during the next hard fork.
 
-#### Stage
+#### Stage {#stage}
 
 - Request for Comment (RFC)
 - Voting
@@ -35,7 +35,7 @@ Upon approval, this proposal will be implemented during the next hard fork.
 
 This proposal is currently on RFC stage for discussion. Once it gets the initial general understanding and acceptance, it will then proceed to voting stage. Voting will be conducted by masternodes. As this is likely one of the first votes of DeFiChain, voting instructions will be announced in due time.
 
-#### Voting
+#### Voting {#voting}
 
 Masternode snapshot will be taken at block 294,000 of DeFiChain mainnet.
 
@@ -43,13 +43,13 @@ Voting will open until Monday, 21 September 2020 00:00 UTC. Please post your vot
 
 Refer to README for voting instructions.
 
-#### Vote options
+#### Vote options {#vote-options}
 
 - Yes, I agree. Sign: `dfip-1 yes`
 - No, I do not agree. Sign: `dfip-1 no`
 - Neutral. Sign: `dfip-1 neutral`.
 
-#### Results
+#### Results {#results}
 
 21 votes received.
 
@@ -57,19 +57,19 @@ Refer to README for voting instructions.
 
 DFIP \#1 passes.
 
-### DFIP \#2: DeFi incentive funding
+### DFIP \#2: DeFi incentive funding {#dfip-2-defi-incentive-funding}
 
-#### Overview
+#### Overview {#overview-1}
 
 DeFiChain will be launching various decentralized financial (DeFi) transactions soon. As with all financial services, centralized or decentralized alike, liquidity is key in adoption. An exchange with a bare order book would not be attracting much trading action.
 
 Yield Farming is created for the same reason, to drive adoption and action for many DeFi activities, especially that of new protocols and services. DeFiChain requires a mechanism for us to drive adoption.
 
-#### Increasing miner reward
+#### Increasing miner reward {#increasing-miner-reward}
 
 With the recent move by DeFiChain Foundation to unstake all its 288 nodes, and placing them into a single publicly-verifiable address, staking reward for DeFiChain has seen a major increase in yield. Before this move, stakers receive about 25% - 28% of mining reward p.a., since the unstaking of foundation nodes, stakers now receive 50% - 60% of mining reward p.a.
 
-#### Proposal
+#### Proposal {#proposal-1}
 
 25% of miner reward to be set aside into a smart contract for DeFi incentive funding.
 
@@ -82,7 +82,7 @@ If this proposal and the previous one (#1) passes, block reward would look as fo
 
 Upon approval, this proposal will be implemented during the next hard fork.
 
-#### Stage
+#### Stage {#stage-1}
 
 - Request for Comment (RFC)
 - Voting
@@ -90,7 +90,7 @@ Upon approval, this proposal will be implemented during the next hard fork.
 
 This proposal is currently on RFC stage for discussion. Once it gets the initial general understanding and acceptance, it will then proceed to voting stage. Voting will be conducted by masternodes. As this is likely one of the first votes of DeFiChain, voting instructions will be announced in due time.
 
-#### Voting
+#### Voting {#voting-1}
 
 Masternode snapshot will be taken at block 294,000 of DeFiChain mainnet.
 
@@ -98,13 +98,13 @@ Voting will open until Monday, 21 September 2020 00:00 UTC. Please post your vot
 
 Refer to README for voting instructions.
 
-#### Vote options
+#### Vote options {#vote-options-1}
 
 - Yes, I agree. Sign: `dfip-2 yes`
 - No, I do not agree. Sign: `dfip-2 no`
 - Neutral. Sign: `dfip-2 neutral`.
 
-#### Results
+#### Results {#results-1}
 
 21 votes received.
 
@@ -112,9 +112,9 @@ Refer to README for voting instructions.
 
 DFIP \#1 passes.
 
-### DFIP \#3: Maintain liquidity mining rewards at 100 DFI per block with airdrop fund and rewards ratio adjustments
+### DFIP \#3: Maintain liquidity mining rewards at 100 DFI per block with airdrop fund and rewards ratio adjustments {#dfip-3-maintain-liquidity-mining-rewards-at-100-dfi-per-block-with-airdrop-fund-and-rewards-ratio-adjustments}
 
-#### Overview
+#### Overview {#overview-2}
 
 Shortly after launching the Decentralized Exchange in November, the Liquidity Mining Rewards had been increased to 100 DFI / block in order to kick everything off and drive fast growth.
 
@@ -124,7 +124,7 @@ These incentive rewards are currently being funded through what was decided in D
 
 That fund will be able to run for approximately another 3 weeks, before rewards then would settle to the regular 45 DFI / block.
 
-#### Proposal
+#### Proposal {#proposal-2}
 
 2 parts to this proposal:
 
@@ -139,12 +139,12 @@ That fund will be able to run for approximately another 3 weeks, before rewards 
 
 Upon approval, this proposal will be implemented during one of the the upcoming hard forks.
 
-#### Stage
+#### Stage {#stage-2}
 
 - Voting
 - Results
 
-#### Voting
+#### Voting {#voting-2}
 
 Masternode snapshot will be taken at block 556,100 of DeFiChain mainnet.
 
@@ -152,27 +152,27 @@ Voting will open until Monday, 11 January 2021 12:00 UTC. Please post your votes
 
 Refer to README for voting instructions.
 
-#### Vote options
+#### Vote options {#vote-options-2}
 
 - Yes, I agree. Sign: `dfip-3 yes`
 - No, I do not agree. Sign: `dfip-3 no`
 - Neutral. Sign: `dfip-3 neutral`.
 
-#### Results
+#### Results {#results-2}
 
 DFIP 3 passes with 15 yeses to 1 no.
 
 ETH-DFI DeFi incentives have been adjusted to 15% (+5% from 10%), and BTC-DFI to 80% (-5% from 85%). \#5 (comment)
 
-### DFIP \#4: Reduction of masternode collateral to 20,000 DFI
+### DFIP \#4: Reduction of masternode collateral to 20,000 DFI {#dfip-4-reduction-of-masternode-collateral-to-20000-dfi}
 
-#### Overview
+#### Overview {#overview-3}
 
 Currently, the collateral to run a masternode is 1,000,000 DFI.
 
 With the steady increase of price of DFI to now \$2, it is getting very costly to set up a DFI masternode, both on the collateral and on the creation fee (100 DFI).
 
-#### Proposal
+#### Proposal {#proposal-3}
 
 2 parts to this proposal:
 
@@ -181,12 +181,12 @@ With the steady increase of price of DFI to now \$2, it is getting very costly t
 
 Upon approval, this proposal will be implemented during one of the the upcoming hard forks.
 
-#### Stage
+#### Stage {#stage-3}
 
 - Voting
 - Results
 
-#### Voting
+#### Voting {#voting-3}
 
 Masternode snapshot will be taken at block 556,100 of DeFiChain mainnet.
 
@@ -194,35 +194,35 @@ Voting will open until Monday, 11 January 2021 12:00 UTC. Please post your votes
 
 Refer to README for voting instructions.
 
-#### Vote options
+#### Vote options {#vote-options-3}
 
 - Yes, I agree. Sign: `dfip-4 yes`
 - No, I do not agree. Sign: `dfip-4 no`
 - Neutral. Sign: `dfip-4 neutral`.
 
-#### Results
+#### Results {#results-3}
 
 DFIP 4 passes with 14 yeses to 1 no.
 
-### DFIP \#5: Introduction & Funding of Litecoin LTC-DFI Liquidity Pool
+### DFIP \#5: Introduction & Funding of Litecoin LTC-DFI Liquidity Pool {#dfip-5-introduction--funding-of-litecoin-ltc-dfi-liquidity-pool}
 
-#### Overview
+#### Overview {#overview-4}
 
 Decentralized exchange (DEX) has been operating for a month now at DeFiChain and it has been stable. It is time to introduce the more liquidity pool pairs to the DEX.
 
-#### Proposal
+#### Proposal {#proposal-4}
 
 1.  Introduction of Litecoin LTC-DFI Liquidity Pool.
 2.  Based on market cap of LTC, it is proposed for a funding of 2 DFI per block incentive as liquidity mining reward for this pool. Funding is sourced from the remainder of airdrop fund.
 
 Upon approval, this proposal will be implemented during one of the the upcoming hard forks, allowing LP to be funded via token deposits.
 
-#### Stage
+#### Stage {#stage-4}
 
 - Voting
 - Results
 
-#### Voting
+#### Voting {#voting-4}
 
 Masternode snapshot will be taken at block 556,100 of DeFiChain mainnet.
 
@@ -230,35 +230,35 @@ Voting will open until Monday, 11 January 2021 12:00 UTC. Please post your votes
 
 Refer to README for voting instructions.
 
-#### Vote options
+#### Vote options {#vote-options-4}
 
 - Yes, I agree. Sign: `dfip-5 yes`
 - No, I do not agree. Sign: `dfip-5 no`
 - Neutral. Sign: `dfip-5 neutral`.
 
-#### Results
+#### Results {#results-4}
 
 DFIP 5 passes with 14 yeses to 2 nos.
 
-### DFIP \#6: Introduction & Funding of Bitcoin Cash BCH-DFI Liquidity Pool
+### DFIP \#6: Introduction & Funding of Bitcoin Cash BCH-DFI Liquidity Pool {#dfip-6-introduction--funding-of-bitcoin-cash-bch-dfi-liquidity-pool}
 
-#### Overview
+#### Overview {#overview-5}
 
 Decentralized exchange (DEX) has been operating for a month now at DeFiChain and it has been stable. It is time to introduce the more liquidity pool pairs to the DEX.
 
-#### Proposal
+#### Proposal {#proposal-5}
 
 1.  Introduction of Bitcoin Cash BCH-DFI Liquidity Pool.
 2.  Based on market cap of BCH, it is proposed for a funding of 1 DFI per block incentive as liquidity mining reward for this pool. Funding is sourced from the remainder of airdrop fund.
 
 Upon approval, this proposal will be implemented during one of the the upcoming hard forks, allowing LP to be funded via token deposits.
 
-#### Stage
+#### Stage {#stage-5}
 
 - Voting
 - Results
 
-#### Voting
+#### Voting {#voting-5}
 
 Masternode snapshot will be taken at block 556,100 of DeFiChain mainnet.
 
@@ -266,37 +266,37 @@ Voting will open until Monday, 11 January 2021 12:00 UTC. Please post your votes
 
 Refer to README for voting instructions.
 
-#### Vote options
+#### Vote options {#vote-options-5}
 
 - Yes, I agree. Sign: `dfip-6 yes`
 - No, I do not agree. Sign: `dfip-6 no`
 - Neutral. Sign: `dfip-6 neutral`.
 
-#### Results
+#### Results {#results-5}
 
 DFIP 6 passes with 13 yeses to 3 nos.
 
-## Current Proposals
+## Current Proposals {#current-proposals}
 
-### DFIP \#7: Destruction of all of DeFiChain Foundation-owned DFI
+### DFIP \#7: Destruction of all of DeFiChain Foundation-owned DFI {#dfip-7-destruction-of-all-of-defichain-foundation-owned-dfi}
 
-#### Overview
+#### Overview {#overview-6}
 
 Foundation-owned DFI was initially set aside for use towards adoption and development of DeFiChain. With the establishment of on-chain governance of DeFiChain and the intention of further decentralization of DeFiChain, DeFiChain Foundation should no longer play the custodian of
 such coins and should therefore be destroyed.
 
-#### Proposal
+#### Proposal {#proposal-6}
 
 Destruction of all of foundation DFI, which is currently sitting at addres: `dJEbxbfufyPF14SC93yxiquECEfq4YSd9L` and holds 273,713,999.9999 DFI as at block 769,000.
 
 Upon approval, this proposal will be implemented during one of the the upcoming hard forks.
 
-#### Stage
+#### Stage {#stage-6}
 
 - Voting
 - Results
 
-#### Voting
+#### Voting {#voting-6}
 
 Masternode snapshot will be taken on the first block after Wednesday, 14 April 2021, 12:00 UTC.
 
@@ -304,23 +304,23 @@ Voting will open for 1 week, until first block mined after Wednesday, 21 April 2
 
 Refer to README for voting instructions.
 
-#### Vote options
+#### Vote options {#vote-options-6}
 
 - Yes, I agree. Sign: `dfip-7 yes`
 - No, I do not agree. Sign: `dfip-7 no`
 - Neutral. Sign: `dfip-7 neutral`.
 
-#### Results
+#### Results {#results-6}
 
 TBC
 
-#### Opinions in the community
+#### Opinions in the community {#opinions-in-the-community}
 
 Here you have the possibility to link different opinions from the community.
 
-### DFIP \#8: DFI emission rate beyond the first year
+### DFIP \#8: DFI emission rate beyond the first year {#dfip-8-dfi-emission-rate-beyond-the-first-year}
 
-#### Overview
+#### Overview {#overview-7}
 
 The white paper laid out the initial block reward to be 200 DFI, guaranteed for the first 1,050,000 blocks, approximately 1 year in, assuming block time is 30 seconds.
 
@@ -342,7 +342,7 @@ The current emission rate of DFI is 258.1 DFI per block, with some of it funded 
 | DOGE-DFI          | 0.1           |
 | TOTAL             | 258.1         |
 
-#### Proposal
+#### Proposal {#proposal-7}
 
 1.  Overriding that the guaranteed reward should be lowered after block 1,050,000 as laid out on whitepaper to be after May 11, 2021, 4:47:10 am UTC.
 2.  Block reward after the first year to be set out as follows, maintaining all existing rewards and incentives on the first cycle:
@@ -365,19 +365,19 @@ The current emission rate of DFI is 258.1 DFI per block, with some of it funded 
 
 Upon approval, this proposal will be implemented during one of the the upcoming hard forks, activated after May 11, 2021 4:47:10 am UTC (1 year after first block was mined). It may not be implemented immediately on the first block after the date, depending on development, but will be implemented after the aforementioned date.
 
-#### Implication
+#### Implication {#implication}
 
 The implication of this proposal if it passes would see the following:
 
 - Over 99% of the DFI will be emitted at 10 years time (11 years from block 1).
 - 1.2 billion supply cap will never be breached.
 
-#### Stage
+#### Stage {#stage-7}
 
 - Voting
 - Results
 
-#### Voting
+#### Voting {#voting-7}
 
 Masternode snapshot will be taken on the first block after Wednesday, 14 April 2021, 12:00 UTC.
 
@@ -385,23 +385,23 @@ Voting will open for 1 week, until first block mined after Wednesday, 21 April 2
 
 Refer to README for voting instructions.
 
-#### Vote options
+#### Vote options {#vote-options-7}
 
 - Yes, I agree. Sign: `dfip-8 yes`
 - No, I do not agree. Sign: `dfip-8 no`
 - Neutral. Sign: `dfip-8 neutral`.
 
-#### Results
+#### Results {#results-7}
 
 TBC
 
-#### Opinions in the community
+#### Opinions in the community {#opinions-in-the-community-1}
 
 Here you have the possibility to link different opinions from the community.
 
-### DFIP \#9: Management of community development via on-chain governance
+### DFIP \#9: Management of community development via on-chain governance {#dfip-9-management-of-community-development-via-on-chain-governance}
 
-#### Overview
+#### Overview {#overview-8}
 
 Community development fund is currently being accumulated at the rate of 19.9 DFI every block at address `dZcHjYhKtEM88TtZLjp314H2xZjkztXtRc`.
 
@@ -412,14 +412,14 @@ The goals of this proposal are:
 1.  To allow masternodes to collectively manage and own community development fund.
 2.  To create a more accessible and streamlined process of making community fund requests.
 
-#### Proposal
+#### Proposal {#proposal-8}
 
 1.  Destruction of all of community development UTXO DFI, which is currently sitting at addres: `dZcHjYhKtEM88TtZLjp314H2xZjkztXtRc`.
 2.  The same amount of the community fund be made available as starting community fund allowance that is to be managed by on-chain governance.
 
 Upon approval, this proposal will be implemented during one of the the upcoming hard forks.
 
-#### Governance summary
+#### Governance summary {#governance-summary}
 
 Voting is carried out every 70,000 blocks, roughly once every month.
 
@@ -441,7 +441,7 @@ Types of governance:
     - Fee: 50 DFI per proposal, of which half is burned
     - The other half of the fee is distributed equally among all voting masternodes to encourage voting.
 
-#### On-chain Community fund request
+#### On-chain Community fund request {#on-chain-community-fund-request}
 
 The amount at `dZcHjYhKtEM88TtZLjp314H2xZjkztXtRc` will be moved to a community balance, we will call this "Community Development Fund".
 
@@ -451,12 +451,12 @@ Voting is carried our every 70,000 blocks (at \~2335 blocks per day, that's roug
 
 User is able to submit a fund request that is to be voted by masternodes. Each fund request costs non-refundable 10 DFI. The 10 DFI is not burned, but being added to the proposal for that will be paid out to all voting masternodes to encourage participation. Each fund request can be also specify `cycle`. Cycle is defaulted to `1` for one-off fund request, this also allows for periodic fund requests where a request is for a fixed amount to be paid out every cycle (every 70,000 blocks) for the specified cycles if the funding request remains APPROVED state.
 
-#### Stage
+#### Stage {#stage-8}
 
 - Voting
 - Results
 
-#### Voting
+#### Voting {#voting-8}
 
 Masternode snapshot will be taken on the first block after Wednesday, 14 April 2021, 12:00 UTC.
 
@@ -464,23 +464,23 @@ Voting will open for 1 week, until first block mined after Wednesday, 21 April 2
 
 Refer to README for voting instructions.
 
-#### Vote options
+#### Vote options {#vote-options-8}
 
 - Yes, I agree. Sign: `dfip-9 yes`
 - No, I do not agree. Sign: `dfip-9 no`
 - Neutral. Sign: `dfip-9 neutral`.
 
-#### Results
+#### Results {#results-8}
 
 TBC
 
-#### Opinions in the community
+#### Opinions in the community {#opinions-in-the-community-2}
 
 Here you have the possibility to link different opinions from the community.
 
-### DFIP \#10: Vote of confidence: Non-fungible token (NFT) support
+### DFIP \#10: Vote of confidence: Non-fungible token (NFT) support {#dfip-10-vote-of-confidence-non-fungible-token-nft-support}
 
-#### Overview
+#### Overview {#overview-9}
 
 Non-fungible token (NFT) is getting quite some media attention lately.
 
@@ -488,18 +488,18 @@ While NFT is not quite DeFi, NFT if implemented on DeFiChain could be really int
 
 If implemented, NFT on DeFiChain should be implemented in accordance to ERC 721 for wide community acceptance. An optional library could be included to provide a simply interface for sites, such as OpenSea, that supports ERC 721 to easily support Native NFT on DeFiChain with the same interface.
 
-#### Proposal
+#### Proposal {#proposal-9}
 
 To implement and support NFT in accordance to ERC 721.
 
 Upon approval, this proposal will be implemented during one of the the upcoming hard forks.
 
-#### Stage
+#### Stage {#stage-9}
 
 - Voting
 - Results
 
-#### Voting
+#### Voting {#voting-9}
 
 Masternode snapshot will be taken on the first block after Wednesday, 14 April 2021, 12:00 UTC.
 
@@ -507,16 +507,16 @@ Voting will open for 1 week, until first block mined after Wednesday, 21 April 2
 
 Refer to README for voting instructions.
 
-#### Vote options
+#### Vote options {#vote-options-9}
 
 - Yes, I agree. Sign: `dfip-10 yes`
 - No, I do not agree. Sign: `dfip-10 no`
 - Neutral. Sign: `dfip-10 neutral`.
 
-#### Results
+#### Results {#results-9}
 
 TBC
 
-#### Opinions in the community
+#### Opinions in the community {#opinions-in-the-community-3}
 
 Here you have the possibility to link different opinions from the community.

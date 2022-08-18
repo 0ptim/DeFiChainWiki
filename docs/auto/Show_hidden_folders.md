@@ -3,7 +3,7 @@ title: Show hidden folders
 permalink: /Show_hidden_folders/
 ---
 
-## Windows
+## Windows {#windows}
 
 In the default setting hidden folders are not shown. For some troubleshooting of the DeFi App it is necessary to have access to these folders. To do this, proceed as follows.
 
@@ -16,9 +16,9 @@ In the default setting hidden folders are not shown. For some troubleshooting of
 *The hidden folders are now displayed*  
 ![The hidden folders are now displayed](./../media/Bildschirmfoto_2021-03-12_um_08.06.47.png)
 
-## Mac
+## Mac {#mac}
 
-### Hidden folders
+### Hidden folders {#hidden-folders}
 
 The following key combination can be used to display hidden folders in Mac OS.
 
@@ -31,7 +31,7 @@ The following key combination can be used to display hidden folders in Mac OS.
 *After*  
 ![After](./../media/Bildschirmfoto_2021-03-13_um_00.29.27.png)
 
-### Library
+### Library {#library}
 
 On Mac OS, access is often needed to the Library folder, which is not shown by default.
 
@@ -48,7 +48,7 @@ Do a right click and then click Show display options.
 
 After that, the Library folder will be displayed correctly.
 
-### Files in an application
+### Files in an application {#files-in-an-application}
 
 How to view files in an application. Example folder: `/Applications/defi-app.app/Contents/Resources/binary/mac`
 

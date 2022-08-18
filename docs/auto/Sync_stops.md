@@ -3,9 +3,9 @@ title: Sync stops
 permalink: /Sync_stops/
 ---
 
-## Sync stops \> 99%
+## Sync stops \> 99% {#sync-stops--99}
 
-### Wrong system time
+### Wrong system time {#wrong-system-time}
 
 If the synchronization stops just before the end (\>98%), check the [debug.log](./Debug.log.md) to see if there are any errors there.
 

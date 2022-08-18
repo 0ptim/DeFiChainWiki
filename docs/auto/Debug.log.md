@@ -12,9 +12,9 @@ If the DeFiChain App Wallet does not work properly, it can be helpful to check t
 
 Some error messages are documented below.
 
-## Wallet.dat corrupt, salvage failed
+## Wallet.dat corrupt, salvage failed {#walletdat-corrupt-salvage-failed}
 
-### Detailed error message
+### Detailed error message {#detailed-error-message}
 
 > init message: Verifying wallet(s)...
 >
@@ -37,7 +37,7 @@ Some error messages are documented below.
 >
 > Shutdown: done
 
-### Solution:
+### Solution: {#solution}
 
 1.  Restart the computer
 2.  Move the folder mentioned above to another location. In this example above: C:/Users\\%username%\Download\DeFiChain Wallets
@@ -47,18 +47,18 @@ I have not found a solution for the corrupted wallet dat file. It seems that I d
 
 Solution: Use original BackUp.
 
-## Error: Inconsistent data in default config
+## Error: Inconsistent data in default config {#error-inconsistent-data-in-default-config}
 
 We do not yet know of a simple solution to this problem. The only solution we know is to delete the app completely and reinstall it.
 
 [Delete DeFi App](./Delete_DeFi_App.md)
 
-## No data found
+## No data found {#no-data-found}
 
 We do not yet know of a simple solution to this problem. The only solution we know is to delete the app completely and reinstall it.
 
 [Delete DeFi App](./Delete_DeFi_App.md)
 
-## No space left on device
+## No space left on device {#no-space-left-on-device}
 
 The memory space is full. Some users have reported that this error message appears despite free memory. We suspect that the DeFi app is not compatible with Fusion Drive.

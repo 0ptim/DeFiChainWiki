@@ -7,7 +7,7 @@ permalink: /DeFiChain_Basics_Tutorial/
 
 This tutorial is designed with easy-to-understand language without complex words or excessive cryptocurrency jargon, for a new cryptocurrency user who has already done their research and would like to invest in DeFiChain.
 
-## A Short Introduction
+## A Short Introduction {#a-short-introduction}
 
 DeFiChain has been designed specifically for decentralized finance, and it has its own blockchain. To make our blockchain stronger, it is connected, in a way, to the Bitcoin blockchain for extra security and safety, as Bitcoin has the oldest and arguably the most secure existing blockchain.
 
@@ -30,7 +30,7 @@ Other questions/topics that might not be answered in this tutorial may be answer
 - Twitter: <https://twitter.com/defichain>
 - Check the official DeFiChain website, [defichain.com](https://defichain.com/), for more information.
 
-## How to Obtain DFI
+## How to Obtain DFI {#how-to-obtain-dfi}
 
 To obtain DFI, there are two main methods.
 
@@ -39,9 +39,9 @@ To obtain DFI, there are two main methods.
 
 Here we will describe the advantages and disadvantages of each method.
 
-### CakeDeFi
+### CakeDeFi {#cakedefi}
 
-#### Background
+#### Background {#background}
 
 Cake was founded in early 2019 by Dr. Julian Hosp and U-Zyn Chua, who also started the DeFiChain project. Cake's goal is helping users "bake cash flow with crypto while \[they\] sleep." (cakedefi.com) (verify)
 
@@ -50,7 +50,7 @@ They do also have their own subreddit and Telegram group. **These groups cannot 
 - Reddit: <https://www.reddit.com/r/cakedefi/>
 - Telegram Group: <https://t.me/CakeDeFi_EN>
 
-#### Advantages
+#### Advantages {#advantages}
 
 - Founded by same crypto investors as the project itself, so they have a great understanding of the project
 - Largest company involved with DeFiChain
@@ -58,20 +58,20 @@ They do also have their own subreddit and Telegram group. **These groups cannot 
 - Versatile platform, offers other services on DeFiChain and supports other coins such as Bitcoin and Ethereum
 - They are offering a \$30 deposit bonus on any first deposit of more than \$50, incentivizing users to start with them
 
-#### Disadvantages
+#### Disadvantages {#disadvantages}
 
 - 4% premium, according to the official DeFiChain website (defichain.com)
 - KYC is required (users need to provide proof of residence and other personal information)
 - Certain locations are prohibited from using Cake, users must ensure they are in an authorized location
 - Fees may be higher than using the blockchain, and withdrawals will take longer than using the blockchain
 
-#### Registration (more information needed)
+#### Registration (more information needed) {#registration-more-information-needed}
 
 The official registration form is at <https://app.cakedefi.com/register>. Referral codes may enable users to get a larger bonus.
 
-### Exchanges
+### Exchanges {#exchanges}
 
-#### Background
+#### Background {#background-1}
 
 You may have heard of exchanges such as Binance and Coinbase. These are two of the largest centralized exchanges in the world. However, these exchanges do not currently support DFI, so investors will have to use less prominent exchanges if they wish to get DFI using this method. Here a couple typical options the community uses to obtain their DFI:
 
@@ -93,24 +93,24 @@ You may have heard of exchanges such as Binance and Coinbase. These are two of t
 
 In addition to these traditional exchanges, users may also use [DFX.Swiss](https://dfx.swiss/en) to obtain their DFI if they have a SEPA bank account. It is a community-run business and also offers other services such as staking and trading of the tokens on DeFiChain. This will be explained more in detail in the sections below. However, their services are available only on their app, and their fees are significantly higher. They begin at 2.9% for low-volume traders and decrease to 2.4%, although there is a 1% discount if you use a referral code.
 
-#### Advantages
+#### Advantages {#advantages-1}
 
 - May be easier to use and have proven track records for exchanging all types of coins
 - Lower fees than Cake, which sells DFI at a premium of 4%.
 
-#### Disadvantages
+#### Disadvantages {#disadvantages-1}
 
 - Exchanges are not as familiar and do not specialize in DFI
 
 There are other methods of obtaining DFI, as this list is not all-inclusive, but they are not important and not of benefit for beginners to understand at the moment, and many users do not use alternative methods anyways. The two methods above are the most common and almost only ways of obtaining DFI.
 
-## The DeFiChain Ecosystem
+## The DeFiChain Ecosystem {#the-defichain-ecosystem}
 
 The DeFiChain Ecosystem is the economy or system of DeFiChain. Just like a country has an economy, blockchains have ecosystems.
 
 Unlike Bitcoin's blockchain, which only has the native coin BTC, DeFiChain has its native coin DFI as well as tokens.
 
-### Tokens
+### Tokens {#tokens}
 
 There are really two types of tokens on DeFiChain. One type can be made by anybody, but users have to pay a fee to make them. However, the fee is returned when returning the tokens. These tokens are not significant to understand, and there is no not need to pay much attention to them, as the majority of users do not use them. It is only important to know that when there is a wallet with seemingly random tokens, they are most likely part of this type. These tokens have no monetary value or use in DeFiChain, with possible exceptions for token holders.
 
@@ -216,14 +216,14 @@ rewards</p></td>
 </tbody>
 </table>
 
-## Common Topics of Confusion
+## Common Topics of Confusion {#common-topics-of-confusion}
 
 There are many ideas, concepts, and topics that may be confusing to
 beginners and average users. Here we will go through some of them, and
 remember, feel free to ask more questions in the official social media
 groups that were listed at the beginning of the article.
 
-### UTXO (more information needed) (verify)
+### UTXO (more information needed) (verify) {#utxo-more-information-needed-verify}
 
 DeFiChain uses the **u**nspent transaction (**tx**) **o**utput model, or
 UTXO. There are two types of DFI, UTXO and token. UTXO DFI can be spent

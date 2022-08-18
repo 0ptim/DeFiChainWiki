@@ -5,7 +5,7 @@ permalink: /Tradable_dAssets_on_DeFiChain/
 
 Decentralized assets are following the real world asset price. On DeFiChain the tickers just have a "d" as a prefix, but then uses the same ticker as the asset on US exchanges. The following tokens are currently listed on the DEX.
 
-### Stocks
+### Stocks {#stocks}
 
 | Ticker | Name                                | Defiscan                                | Yahoo Finance                                                        |
 |--------|-------------------------------------|-----------------------------------------|----------------------------------------------------------------------|
@@ -35,7 +35,7 @@ Decentralized assets are following the real world asset price. On DeFiChain the 
 | dTSLA  | Tesla                               | <https://defiscan.live/dex/dTSLA-DUSD>  | [Link](https://finance.yahoo.com/quote/TSLA?p=TSLA&.tsrc=fin-srch)   |
 | dXOM   | Exxon Mobil Corp                    | <https://defiscan.live/dex/dXOM-DUSD>   | [Link](https://finance.yahoo.com/quote/XOM?p=XOM&.tsrc=fin-srch)     |
 
-### ETF
+### ETF {#etf}
 
 | Ticker | Name                              | Defiscan                               | Yahoo Finance                                                      |
 |--------|-----------------------------------|----------------------------------------|--------------------------------------------------------------------|
@@ -49,7 +49,7 @@ Decentralized assets are following the real world asset price. On DeFiChain the 
 | dURTH  | iShares MSCI World ETF            | <https://defiscan.live/dex/dURTH-DUSD> | [Link](https://finance.yahoo.com/quote/URTH?p=URTH&.tsrc=fin-srch) |
 | dVOO   | Vanguard 500 Index Fund           | <https://defiscan.live/dex/dVOO-DUSD>  | [Link](https://finance.yahoo.com/quote/VOO?p=VOO&.tsrc=fin-srch)   |
 
-### Metals
+### Metals {#metals}
 
 | Ticker | Name                               | Defiscan                               | Yahoo Finance                                                      |
 |--------|------------------------------------|----------------------------------------|--------------------------------------------------------------------|
@@ -57,7 +57,7 @@ Decentralized assets are following the real world asset price. On DeFiChain the 
 | dPPLT  | abrdn Physical Platinum Shares ETF | <https://defiscan.live/dex/dPPLT-DUSD> | [Link](https://finance.yahoo.com/quote/PPLT?p=PPLT&.tsrc=fin-srch) |
 | dSLV   | iShares Silver Trust               | <https://defiscan.live/dex/dSLV-DUSD>  | [Link](https://finance.yahoo.com/quote/SLV?p=SLV&.tsrc=fin-srch)   |
 
-### Commodities
+### Commodities {#commodities}
 
 | Ticker | Name                                                            | Defiscan                               | Yahoo Finance                                                      |
 |--------|-----------------------------------------------------------------|----------------------------------------|--------------------------------------------------------------------|
@@ -65,14 +65,14 @@ Decentralized assets are following the real world asset price. On DeFiChain the 
 | dPDBC  | Invesco Optimum Yield Diversified Commodity Strategy No K-1 ETF | <https://defiscan.live/dex/dPDBC-DUSD> | [Link](https://finance.yahoo.com/quote/PDBC?p=PDBC&.tsrc=fin-srch) |
 | dURA   | Global X Uranium ETF                                            | <https://defiscan.live/dex/dURA-DUSD>  | [Link](https://finance.yahoo.com/quote/URA?p=URA&.tsrc=fin-srch)   |
 
-### Bonds
+### Bonds {#bonds}
 
 | Ticker | Name                               | Defiscan                               | Yahoo Finance                                                      |
 |--------|------------------------------------|----------------------------------------|--------------------------------------------------------------------|
 | dGOVT  | iShares U.S. Treasury Bond ETF     | <https://defiscan.live/dex/dGOVT-DUSD> | [Link](https://finance.yahoo.com/quote/GOVT?p=GOVT&.tsrc=fin-srch) |
 | dTLT   | iShares 20+ Year Treasury Bond ETF | <https://defiscan.live/dex/dTLT-DUSD>  | [Link](https://finance.yahoo.com/quote/TLT?p=TLT&.tsrc=fin-srch)   |
 
-### Real Estate
+### Real Estate {#real-estate}
 
 | Ticker | Name                     | Defiscan                              | Yahoo Finance                                                    |
 |--------|--------------------------|---------------------------------------|------------------------------------------------------------------|

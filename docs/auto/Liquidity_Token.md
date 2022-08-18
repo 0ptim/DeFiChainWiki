@@ -5,7 +5,7 @@ permalink: /Liquidity_Token/
 
 If you provide liquidity in one of the pools on u/defichain you will see liquidity tokens in your wallet. Many users have questions regarding this token, which I try to answer here.
 
-## Providing liquidity
+## Providing liquidity {#providing-liquidity}
 
 ![Liquidity token in the DefiChain Wallet](./../media/LiquidityTokenApp.png)
 
@@ -31,7 +31,7 @@ Parameter totalLiquidity: <https://api.defichain.io/v1/listpoolpairs?start=0&lim
 
 This is all you have to know, if you just want to provide liquidity and get rewards.
 
-## Advanced handling of Liquidity token
+## Advanced handling of Liquidity token {#advanced-handling-of-liquidity-token}
 
 Now we have a deeper look into the background. In the above section we chose an address for holding the liquidity token. If you don't remember it, use the command
 

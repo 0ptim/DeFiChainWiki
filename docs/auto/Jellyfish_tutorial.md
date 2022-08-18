@@ -3,7 +3,7 @@ title: Jellyfish tutorial
 permalink: /Jellyfish_tutorial/
 ---
 
-## Setting up environment from scratch
+## Setting up environment from scratch {#setting-up-environment-from-scratch}
 
 1.  Step 1 is to install an IDE for example like Visual Studio Code : <https://code.visualstudio.com/download>
 2.  Once Visual Studio Code is installed, the next step is to install the extensions for various programming and scripting languages like Java, Javascript, TypeScript etc in Visual Studio Code. Click to the settings icon on the lower left and select "Extensions" as shown below :
@@ -36,7 +36,7 @@ A new window as shown below will open. Please click to update or continue with s
 
 ![](../media/Wallet_2.jpg)
 
-## Run example with local node
+## Run example with local node {#run-example-with-local-node}
 
 1.  First step to run an example is to make sure that the wallet app is open in your PC.
 2.  Next in Visual Studio Code IDE create a new file of type javascript with an extension \*.js and copy the below lines :

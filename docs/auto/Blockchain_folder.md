@@ -3,9 +3,9 @@ title: Blockchain folder
 permalink: /Blockchain_folder/
 ---
 
-## Instructions for changing the directory of the blockchain data/snapshot for the DeFiChain
+## Instructions for changing the directory of the blockchain data/snapshot for the DeFiChain {#instructions-for-changing-the-directory-of-the-blockchain-datasnapshot-for-the-defichain}
 
-### Windows
+### Windows {#windows}
 
 Follow this procedure:
 
@@ -35,7 +35,7 @@ walletdir=D:\defichain\wallets
 
 App v2.3.3 works correctly with a moved directory.
 
-### Mac
+### Mac {#mac}
 
 Follow this procedure:
 

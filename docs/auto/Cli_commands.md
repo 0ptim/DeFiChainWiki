@@ -3,7 +3,7 @@ title: Cli commands
 permalink: /Cli_commands/
 ---
 
-## Accounts
+## Accounts {#accounts}
 
 1.  accounthistorycount ( "owner" {"no_rewards":bool,"token":"str","txtype":"str"} )
 2.  accounttoaccount "from" {"address":"str"} ( \[{"txid":"hex","vout":n},...\] )
@@ -20,7 +20,7 @@ permalink: /Cli_commands/
 12. sendutxosfrom "from" "to" amount ( "change" )
 13. utxostoaccount {"address":"str"} ( \[{"txid":"hex","vout":n},...\] )
 
-## Blockchain
+## Blockchain {#blockchain}
 
 1.  clearmempool
 2.  getbestblockhash
@@ -54,7 +54,7 @@ permalink: /Cli_commands/
 30. verifychain ( checklevel nblocks )
 31. verifytxoutproof "proof"
 
-## Control
+## Control {#control}
 
 1.  getmemoryinfo ( "mode" )
 2.  getrpcinfo
@@ -63,11 +63,11 @@ permalink: /Cli_commands/
 5.  stop
 6.  uptime
 
-## Generating
+## Generating {#generating}
 
 1.  generatetoaddress nblocks "address" ( maxtries )
 
-## Icxorderbook
+## Icxorderbook {#icxorderbook}
 
 1.  icx_claimdfchtlc ( {"dfchtlcTx":"str","seed":"str"} \[{"txid":"hex","vout":n},...\] )
 2.  icx_closeoffer "offerTx" ( \[{"txid":"hex","vout":n},...\] )
@@ -80,7 +80,7 @@ permalink: /Cli_commands/
 9.  icx_submitdfchtlc ( {"offerTx":"str","amount":n,"hash":"str","timeout":n} \[{"txid":"hex","vout":n},...\] )
 10. icx_submitexthtlc ( {"offerTx":"str","amount":n,"htlcScriptAddress":"str","hash":"str","ownerPubkey":"str","timeout":n} \[{"txid":"hex","vout":n},...\] )
 
-## Loan
+## Loan {#loan}
 
 1.  createloanscheme mincolratio interestrate "id" ( \[{"txid":"hex","vout":n},...\] )
 2.  destroyloanscheme "id" ( ACTIVATE_AFTER_BLOCK \[{"txid":"hex","vout":n},...\] )
@@ -100,7 +100,7 @@ permalink: /Cli_commands/
 16. updateloanscheme mincolratio interestrate "id" ( ACTIVATE_AFTER_BLOCK \[{"txid":"hex","vout":n},...\] )
 17. updateloantoken "token" ( {"symbol":"str","name":"str","fixedIntervalPriceId":"hex","mintable":bool,"interest":n} \[{"txid":"hex","vout":n},...\] )
 
-## Masternodes
+## Masternodes {#masternodes}
 
 1.  createmasternode "ownerAddress" ( "operatorAddress" \[{"txid":"hex","vout":n},...\] )
 2.  getanchorteams ( blockHeight )
@@ -111,7 +111,7 @@ permalink: /Cli_commands/
 7.  listmasternodes ( {"start":"hex","including_start":bool,"limit":n} verbose )
 8.  resignmasternode "mn_id" ( \[{"txid":"hex","vout":n},...\] )
 
-## Mining
+## Mining {#mining}
 
 1.  getblocktemplate ( "template_request" )
 2.  getmininginfo
@@ -121,7 +121,7 @@ permalink: /Cli_commands/
 6.  submitblock "hexdata" ( "dummy" )
 7.  submitheader "hexdata"
 
-## Network
+## Network {#network}
 
 1.  [addnode](./../Addnode.md) "node" "command"
 2.  clearbanned
@@ -137,7 +137,7 @@ permalink: /Cli_commands/
 12. setban "subnet" "command" ( bantime absolute )
 13. setnetworkactive state
 
-## Oracles
+## Oracles {#oracles}
 
 1.  appointoracle "address" \[{"currency":"str","token":"str"},...\] weightage ( \[{"txid":"hex","vout":n},...\] )
 2.  getfixedintervalprice "fixedIntervalPriceId"
@@ -151,7 +151,7 @@ permalink: /Cli_commands/
 10. setoracledata "oracleid" timestamp \[{"currency":"str","tokenAmount":"str"},...\] ( \[{"txid":"hex","vout":n},...\] )
 11. updateoracle "oracleid" "address" \[{"currency":"str","token":"str"},...\] weightage ( \[{"txid":"hex","vout":n},...\] )
 
-## Poolpair
+## Poolpair {#poolpair}
 
 1.  addpoolliquidity {"address":"str"} "shareAddress" ( \[{"txid":"hex","vout":n},...\] )
 2.  compositeswap {"from":"str","tokenFrom":"str","amountFrom":n,"to":"str","tokenTo":"str","maxPrice":n} ( \[{"txid":"hex","vout":n},...\] )
@@ -164,7 +164,7 @@ permalink: /Cli_commands/
 9.  testpoolswap ( {"from":"str","tokenFrom":"str","amountFrom":n,"to":"str","tokenTo":"str","maxPrice":n} )
 10. updatepoolpair ( {"pool":"str","status":bool,"commission":n,"ownerAddress":"str","customRewards":"str"} \[{"txid":"hex","vout":n},...\] )
 
-## Rawtransactions
+## Rawtransactions {#rawtransactions}
 
 1.  analyzepsbt "psbt"
 2.  combinepsbt \["psbt",...\]
@@ -184,7 +184,7 @@ permalink: /Cli_commands/
 16. testmempoolaccept \["rawtx",...\] ( maxfeerate )
 17. utxoupdatepsbt "psbt" ( \["",{"desc":"str","range":n or \[n,n\]},...\] )
 
-## Spv
+## Spv {#spv}
 
 1.  spv_claimhtlc "scriptaddress" "destinationaddress" "seed" ( feerate )
 2.  spv_createanchor ( \[{"txid":"hex","vout":n,"amount":n,"privkey":"str"},...\] ) "rewardAddress" ( send feerate )
@@ -219,7 +219,7 @@ permalink: /Cli_commands/
 31. spv_syncstatus
 32. spv_validateaddress "address"
 
-## Tokens
+## Tokens {#tokens}
 
 1.  createtoken ( {"symbol":"str","name":"str","isDAT":bool,"decimal":n,"limit":n,"mintable":bool,"tradeable":bool,"collateralAddress":"str"} \[{"txid":"hex","vout":n},...\] )
 2.  decodecustomtx "hexstring" ( iswitness )
@@ -229,7 +229,7 @@ permalink: /Cli_commands/
 6.  minttokens "amounts" ( \[{"txid":"hex","vout":n},...\] )
 7.  updatetoken "token" ( {"symbol":"str","name":"str","isDAT":bool,"mintable":bool,"tradeable":bool,"finalize":bool} \[{"txid":"hex","vout":n},...\] )
 
-## Util
+## Util {#util}
 
 1.  createmultisig nrequired \["key",...\] ( "address_type" )
 2.  deriveaddresses "descriptor" ( range )
@@ -239,7 +239,7 @@ permalink: /Cli_commands/
 6.  validateaddress "address"
 7.  verifymessage "address" "signature" "message"
 
-## Vault
+## Vault {#vault}
 
 1.  closevault "vaultId" "to" ( \[{"txid":"hex","vout":n},...\] )
 2.  createvault "ownerAddress" ( "loanSchemeId" \[{"txid":"hex","vout":n},...\] )
@@ -252,7 +252,7 @@ permalink: /Cli_commands/
 9.  updatevault "vaultId" {"ownerAddress":"hex","loanSchemeId":"str"} ( \[{"txid":"hex","vout":n},...\] )
 10. withdrawfromvault "vaultId" "to" "amount" ( \[{"txid":"hex","vout":n},...\] )
 
-## Wallet
+## Wallet {#wallet}
 
 1.  abandontransaction "txid"
 2.  abortrescan
@@ -310,6 +310,6 @@ permalink: /Cli_commands/
 54. walletpassphrasechange "oldpassphrase" "newpassphrase"
 55. walletprocesspsbt "psbt" ( sign "sighashtype" bip32derivs )
 
-## Zmq
+## Zmq {#zmq}
 
 1.  getzmqnotifications

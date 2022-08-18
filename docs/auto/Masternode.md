@@ -3,17 +3,17 @@ title: Masternode
 permalink: /Masternode/
 ---
 
-## DeFiChain Masternode
+## DeFiChain Masternode {#defichain-masternode}
 
 In January 2021, the Masternodes decided in [DFI Proposal #4](https://github.com/DeFiCh/dfips/issues/6) to reduce the collateral for one masternode to 20,000 DFI from 1,000,000 DFI.
 
 On March 1, 2021, the hard fork named DAKOTA was implemented in Block 678,000 and finally reduced the collateral.
 
-### How to Run a Masternode
+### How to Run a Masternode {#how-to-run-a-masternode}
 
 There are several ways to operate a Masternode in the DeFiChain Network.
 
-#### Option 1 - Ownernode at "Home"
+#### Option 1 - Ownernode at "Home" {#option-1---ownernode-at-home}
 
 The first possibility is to run the Masternode on a Personal Computer, Laptop or Apple MacBook or something similar in your Home Network. You can place the hardware, in your office, living room or even in your child's room. You can decide.
 
@@ -36,7 +36,7 @@ The only things you need:
 
 >[1] You do **NOT** have to open the Port to participate in staking, but without this open port, you don't help to stabilize the Network and no one can use your node for synchronization or other implemented features
 
-#### Option 2 - Ownernode and Operatornode at "Home"
+#### Option 2 - Ownernode and Operatornode at "Home" {#option-2---ownernode-and-operatornode-at-home}
 
 In this scenario you have two nodes or wallet apps in your home network. One machine acts as the ownernode and holds the Collateral of 20,000 DFI. This can be your Macbook, Laptop or Personal Computer. You start this machine, when you need it, only to transfer some token or use the DEX, LM or send Rewards to another address.
 
@@ -58,7 +58,7 @@ Because this Node has no coins or tokens, the security risk is much less than in
 - Open port 8555 externally for everyone to your Home-Network.
 - An unstable or slow internet connection (upload) is bad for the stability of the network
 
-#### Option 3 - Ownernode and Operatornode in a Data Center
+#### Option 3 - Ownernode and Operatornode in a Data Center {#option-3---ownernode-and-operatornode-in-a-data-center}
 
 The preferred scenario is a Hot/Cold wallet solution with the Operatornode "in the Cloud". Your APP-Wallet run at your own machine at home like in option 2. In best case with Ledgersupport as a "Cold-Wallet".
 
@@ -76,9 +76,9 @@ The operatornode is hosted in a professional tier 2 or 3 Datacenter. A simple vi
 
 - VPS needed in a data center and some knowledge to handle and update it.
 
-## Masternode Issues
+## Masternode Issues {#masternode-issues}
 
-### I have found a block, but the rewards are not apparent
+### I have found a block, but the rewards are not apparent {#i-have-found-a-block-but-the-rewards-are-not-apparent}
 
 Problem:
 

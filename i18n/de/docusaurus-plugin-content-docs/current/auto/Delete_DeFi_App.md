@@ -11,7 +11,7 @@ Um alle Dateien löschen zu können, ist es notwendig Zugriff auf versteckte Ord
 
 Folgende Ordner müssen gelöscht werden:
 
-### Windows:
+### Windows: {#windows}
 
 C:\Users\\%username%\\.defi
 ![C:\Users\\%username%\\.defi](./../media/Bildschirmfoto_2021-03-12_um_21.58.53.png)
@@ -28,7 +28,7 @@ C:\Users\\%username%\AppData\Roaming\DeFi Blockchain
 C:\Users\\%username%\AppData\Roaming\defi-app
 ![C:\Users\\%username%\AppData\Roaming\defi-app](./../media/Bildschirmfoto_2021-03-12_um_22.00.40.png)
 
-### Mac:
+### Mac: {#mac}
 
 /Applications/defi-app
 ![/Applications/defi-app](./../media/Bildschirmfoto_2021-03-13_um_00.20.40.png)

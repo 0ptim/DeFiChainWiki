@@ -3,7 +3,7 @@ title: Masternode installation erweitert
 permalink: /Masternode_installation_extended/
 ---
 
-## Installation DefiChain Masternode mit einer lokalen APP-Wallet und einer Masternode in der Cloud:
+## Installation DefiChain Masternode mit einer lokalen APP-Wallet und einer Masternode in der Cloud: {#installation-defichain-masternode-mit-einer-lokalen-app-wallet-und-einer-masternode-in-der-cloud}
 
 *Stand: 04. März 2021*
 
@@ -14,7 +14,7 @@ Für diese Installation benötigst du:
 - Ein VPS eines Providers, vorzugsweise Debian 10 (64-Bit).
 - Der VPS sollte mindestens 2-4 vCPUs haben, 4 GB (besser 8) RAM und mindestens 120GB Festpatte mit Erweiterungsmöglichkeit
 
-### Einrichtung deiner APP-Wallet
+### Einrichtung deiner APP-Wallet {#einrichtung-deiner-app-wallet}
 
 Wir gehen davon aus, das du bereits eine funktionierende und synchronisierte Wallet auf deinem Rechner zu Hause laufen hast. Starte diese und lege dir eine neue Empfangsadresse im Legacyformat an. Öffne dazu die CLI (Kommandozeile) in der APP und setze folgenden Befehl ab:
 
@@ -24,11 +24,11 @@ Als Label gibst du eine frei wählbare Bezeichnung an, z.B. "Masternode1". Alter
 
 Sende deine 20.000 DFI an diese neu erstellte Adresse in deiner Wallet.
 
-### Konfiguration des virtuellen Servers
+### Konfiguration des virtuellen Servers {#konfiguration-des-virtuellen-servers}
 
 Nun gehts das erste mal auf den VPS (Virtual Private Server). Wir gehen davon aus, das dieser bereits vom Provider deiner Wahl bereitgestellt wurde.
 
-#### System aktualisieren und absichern
+#### System aktualisieren und absichern {#system-aktualisieren-und-absichern}
 
 Logge dich per SSH als root-User auf deinem VPS ein.
 
@@ -54,7 +54,7 @@ Mit den beiden Befehlen:
 
 installieren wir die benötigten Pakete, falls sie schon installiert sind, wird uns die Kommandozeile darauf hinweisen.
 
-#### Neuen User anlegen und Rootzugang sperren
+#### Neuen User anlegen und Rootzugang sperren {#neuen-user-anlegen-und-rootzugang-sperren}
 
 Der nächste Schritt ist ein neuer User. Wir nennen ihn ganz kreativ "defichain". Du kannst den Namen frei wählen, wenn du einen anderen verwenden möchtest, passe die zwei nachfolgenden Befehlszeilen an und trage deinen gewählten Usernamen dort ein:
 
@@ -88,7 +88,7 @@ Nun starten wir den SSh-Dienst neu und haben unser System etwas abgesichert.
 
 Wollt ihr auf eurem System den Rootzugriff wieder aktivieren, müsst ihr in der gerade geänderten ssh_config den Wert von *No* wieder auf *Yes* setzen.
 
-#### Installation der Node (AIN-Version)
+#### Installation der Node (AIN-Version) {#installation-der-node-ain-version}
 
 Wir befinden uns standardmäßig in unserem Homeverzeichnis, wenn ihr den gleichen Benutzernamen wie oben vorgeschlagen genommen habt, ist dieses:
 
@@ -110,7 +110,7 @@ Nun legen wir uns ein neues Verzeichnis an und kopieren die benötigten Dateien 
 
 Das wars schon, wir haben die Node auf unserem VPS aufgesetzt. Jetzt kommt der langwierige Teil: Synchronisieren.
 
-#### Synchronisation
+#### Synchronisation {#synchronisation}
 
 Dazu starten wir die Node mit dem Befehl:
 
@@ -141,7 +141,7 @@ Nach 1-2 Minuten prüfen wir den Status erneut mit
 
 Evtl. müssen wir den Befehl im Abstand von 1-2 Minuten wiederholt eingeben, ehe die 0 verschwindet und die ersten Blöcke hereinprasseln. Sobald die synchronisierte Blockanzahl steigt, können wir uns erstmal ausgiebig selber feiern, wir sind fast am Ziel. Die Synchronisierung dauert mehrere Stunden, also spart es euch vor dem Rechner zu sitzen und den geblockcount-Befehl reinzuklopfen. Es dauert, das ist aber völlig normal in einem dezentralen System.
 
-#### Automatischen Start konfigurieren
+#### Automatischen Start konfigurieren {#automatischen-start-konfigurieren}
 
 Wir konfigurieren jetzt unseren Server noch so, das er nach einem Reboot unsere Node direkt wieder startet:
 
@@ -158,7 +158,7 @@ ist.
 
 Die aktuelle Blockhöhe könnt ihr unter <https://explorer.defichain.com> abrufen.
 
-#### Konfiguration und Erstellung der Masternode
+#### Konfiguration und Erstellung der Masternode {#konfiguration-und-erstellung-der-masternode}
 
 Ist die Synchronisation beendet, gehts an die letzten Schritte am VPS:
 
@@ -196,7 +196,7 @@ Prüfen kannst du das mit dem Befehl *TOP*, unter dem User defichain muss hier -
 
 Halleluja, das wars, unser VPS ist fertig, die Node läuft.
 
-#### Konfiguration unserer Wallet
+#### Konfiguration unserer Wallet {#konfiguration-unserer-wallet}
 
 Jetzt fehlt noch der Schritt zur Erstellung unserer Masternode im Netzwerk. Dazu gehen wir jetzt auf die lokale Wallet auf unserem Rechner.
 
@@ -220,11 +220,11 @@ Und aufgepasst und nicht erschrecken, wenn die Masternode mit dem Befehl oben er
 
 Fertig, herzlichen Glückwunsch, geschafft.
 
-#### Status prüfen
+#### Status prüfen {#status-prüfen}
 
 Warte ein paar Minuten und prüfe unter [mydeficha.in/masternodes.php](http://mydeficha.in/masternodes.php) ob deine Adressen dort auftauchen. Nach einiger Zeit (1008 Blöcke, \~8 Stunden) sollte der Status von Pre-Enabled auch auf Enabled gehen, dann hast du alles richtig gemacht.
 
-#### Node updaten
+#### Node updaten {#node-updaten}
 
 `wget https://github.com/DeFiCh/ain/releases/download/v2.6.1/defichain-2.6.1-x86_64-pc-linux-gnu.tar.gz`
 
@@ -240,7 +240,7 @@ Warte 1-2 Minuten, bis deine Node durch crontab wieder automatisch gestartet wir
 
 kannst du prüfen, ob deine Node wieder läuft und synchronisiert.
 
-#### Mehrere Masternodes auf dem selben VPS
+#### Mehrere Masternodes auf dem selben VPS {#mehrere-masternodes-auf-dem-selben-vps}
 
 Wenn du mehr als ein vollständiges Collateral (1 Collateral = 20.000 DFI) besitzt, dann kannst du mehrere Masternodes auf dem selben System laufen lassen. Jede weitere Masternode benötigt eine eigene OPERATOR_ADDRESS und eine zugehörige OWNER_ADDRESS, die das Collateral hält.
 
@@ -248,7 +248,7 @@ Du musst also eine neue OPERATOR_ADDRESS auf deinem VPS erzeugen, eine neue OWNE
 
 So wird es gemacht:
 
-###### Auf deiner DeFiChain-Wallet:
+###### Auf deiner DeFiChain-Wallet: {#auf-deiner-defichain-wallet}
 
 1.  Erzeuge eine neue Legacy-Adresse mit dem CLI-Kommando     `getnewaddress "<label>" legacy` oder über die grafische Benutzeroberfläche der App (Stelle sicher, dass du "Legacy" unter "Show advance options" ausgewählt hast!)
 2.  Diese neue Adresse wird in der "Receive"-Liste in deiner DeFiWallet App auftauchen. (Sie muss zwingend mit einer 8 beginnen, sonst handelt es sich nicht um eine Legacy-Adresse)
@@ -256,14 +256,14 @@ So wird es gemacht:
 4.  Übertrage das Collateral zu dieser Adresse (20.000 DFI + weitere 10 DFI Gebühr zur Erstellung der Masternode + 1 DFI für Transaktionsgebühren = 20.011 DFI)
 5.  Warte für einige Blöcke, bis deine Übertragung ausreichend sicher verifiziert wurde.
 
-###### Auf deinem VPS:
+###### Auf deinem VPS: {#auf-deinem-vps}
 
 1.  Erzeuge eine neue OPERATOR_ADDRESS: `/home/defichain/.defi/defi-cli getnewaddress "MySecondCoolMasternode" legacy`
 2.  Kopiere dir diese Adresse. Es ist im Folgenden die OPERATOR_ADDRESS.
 3.  Informiere deine Node über die neu erzeugte OPERATOR_ADDRESS, indem du eine neue Zeile `masternode_operator=OPERATOR_ADDRESS` zur Datei `/home/defichain/.defi/defi.conf` hinzufügst. (Behalte dabei die bereits existierenden Zeilen mit "masternode_operator" bei! Füge einfach nur eine weitere Zeile hinzu.)
 4.  Starte dein Node neu, indem du die laufenden Prozesse anhältst: `killall defi-init`
 
-###### Noch einmal auf deiner DeFiChain-Wallet
+###### Noch einmal auf deiner DeFiChain-Wallet {#noch-einmal-auf-deiner-defichain-wallet}
 
 1.  Öffne die In-App-CLI
 2.  Führe aus: `createmasternode OWNER_ADDRESS OPERATOR_ADDRESS`

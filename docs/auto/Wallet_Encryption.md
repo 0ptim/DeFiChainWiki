@@ -5,13 +5,13 @@ permalink: /Wallet_Encryption/
 
 Disclaimer: The following might contain incorrect or incomplete information. Unfortunately, the following information will only describe and explain a certain scenario and prevention but cannot provide a solution for common problems that have been reported.
 
-## Summary
+## Summary {#summary}
 
 If you created your wallet in version 2.3.0 (and did not restore from a seed phrase) backup your wallet in .dat files and store them at a safe place. Every time you change your password, backup wallet.dat again. It is recommend to backup from time to time even without changing password.
 
 If you created your wallet in an older version using a seed phrase and encrypted the wallet thereafter (either by using the command line or GUI in version 2.3.0), keep your seed phrase and backup in .dat files in a safe place. The seed used to determine addresses changes with the encryption. Every time you change your password, backup wallet.dat again. It is recommend to backup from time to time even without changing password.
 
-## Why encryption matters
+## Why encryption matters {#why-encryption-matters}
 
 The DeFiChain App stores relevant data of your wallet in a file called "wallet.dat", which is located at:
 
@@ -25,9 +25,9 @@ So users should be advised to encrypt their wallet and since version 2.3.0 the a
 
 After encryption of wallet.dat all data in the file is encrypted and can only be used in the app after unlocking the wallet.dat by entering the password. Before 2.3.0 initial encryption of the wallet.dat and temporary decryption by entering the password could be done in the command line only. Version 2.3.0 added GUI support for this.
 
-## Encryption in the DeFiChain App
+## Encryption in the DeFiChain App {#encryption-in-the-defichain-app}
 
-#### App Version up to 2.1.17
+#### App Version up to 2.1.17 {#app-version-up-to-2117}
 
 ![Seed before & after encryption](./../media/Seed_encryption.jpg)
 
@@ -41,7 +41,7 @@ How to backup with enabled encryption: Keep the mnemonic phrase and a copy of wa
 
 In short: for encrypted wallets the seed phrase is usually not enough to recover a wallet from scratch. The phrase can be used to restore the keys and addresses before encryption was turned on. Keep the phrase and a backup of wallet.dat at a safe place.
 
-#### App version 2.3.0 and later (last checked with 2.3.3)
+#### App version 2.3.0 and later (last checked with 2.3.3) {#app-version-230-and-later-last-checked-with-233}
 
 The version 2.3.0 does not use seed phrases anymore. Instead the creation of a wallet starts with setting a password and with that an encrypted wallet is created. You still can restore an existing wallet by using the old seed phrase or using a .dat file.
 

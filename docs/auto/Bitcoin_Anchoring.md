@@ -5,27 +5,27 @@ permalink: /Bitcoin_Anchoring/
 
 Information about the Bitcoin Anchoring.
 
-## Presentation of the concept with DFIP 1:
+## Presentation of the concept with DFIP 1: {#presentation-of-the-concept-with-dfip-1}
 
 - [YouTube Video English](https://www.youtube.com/watch?v=5d4h-XvXsVk)
 - [YouTube Video Deutsch](https://www.youtube.com/watch?v=Oh0QoKg_V70)
 
-## Some short FAQ information
+## Some short FAQ information {#some-short-faq-information}
 
 - No masternode is needed to set the anchor. Each user can set an anchor.
 - To see the current anchor bonus, the following command must be entered in the Console: `listcommunitybalances`
   ![listcommunitybalances](../media/210305.png)
 
-## Technical documents:
+## Technical documents: {#technical-documents}
 
 - [GitHub declaration](https://github.com/DeFiCh/ain/wiki/What-is-an-anchor%3F)
 - [Instructions to set an anchor yourself](https://github.com/DeFiCh/ain/wiki/Create-Bitcoin-Anchor)
 - [Show anchored blocks in DeFiChain Block Explorer](https://mainnet.defichain.io/#/DFI/mainnet/anchored-blocks)
 - [Another data source for anchor data](http://defichain-node.de/api/v1/listanchors/)
 
-## DeFiChain anchor history
+## DeFiChain anchor history {#defichain-anchor-history}
 
-### The first anchor:
+### The first anchor: {#the-first-anchor}
 
 - [Report on the first anchor](https://defichain.ghost.io/de/100-000-us-dollar-in-weniger-als-100-sekunden/)
 - [DFI Transaction](https://explorer.defichain.io/#/DFI/mainnet/tx/38adbb540e5f28273721ef025830d8ec0b404f91c56f873d31b96516a8990739)

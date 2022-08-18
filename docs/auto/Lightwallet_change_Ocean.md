@@ -7,7 +7,7 @@ The Lightwallet of DeFiChain interacts with the blockchain via Ocean infrastruct
 
 **Attention: Use only ocean infrastructures that you trust.**
 
-## How to change Ocean infrastructure
+## How to change Ocean infrastructure {#how-to-change-ocean-infrastructure}
 
 If you want to change the ocean infrastructure (e.g. default ocean is down and you want access to your funds), then you can do it in the settings menu.
 
@@ -21,7 +21,7 @@ In the provider menu you can enter a new endpoint URL for the ocean infrastructu
 
 ![Provider menu to change the ocean infrastructure](./../media/Lightwallet_provider_menu.jpg)
 
-## Available Ocean infrastructures
+## Available Ocean infrastructures {#available-ocean-infrastructures}
 
 1.  The default ocean infrastructure is set up and maintained by the core team. Because of the broad usage they need a lot of servers to handle the requests. There was a CFP ([CFP-2205-04](https://github.com/DeFiCh/dfips/issues/147)) to finance these servers on AWS. You can reach ocean via <https://ocean.defichain.com>
 2.  A community driven ocean infrastructure was set up by mydefichain and is also financed via a CFP ([CFP-2207-18](https://github.com/DeFiCh/dfips/issues/187)). You can use it with the link <https://ocean.mydefichain.com/>

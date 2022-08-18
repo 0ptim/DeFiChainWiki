@@ -3,9 +3,9 @@ title: Dual setup (App + Node)
 permalink: /Dual_setup_App_and_Node/
 ---
 
-## Draft for Dual Setup
+## Draft for Dual Setup {#draft-for-dual-setup}
 
-### Steps:
+### Steps: {#steps}
 
 1.  Download the latest App version and Ain version from [github](https://github.com/DeFiCh/).
 2.  Start the App and wait till the full sync has finished (You can speed up this process by downloading a blockchain snapshot: ...)

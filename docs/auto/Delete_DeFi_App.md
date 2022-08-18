@@ -11,7 +11,7 @@ To be able to delete all files, it is necessary to have access to hidden folders
 
 The following folders must be deleted:
 
-### Windows:
+### Windows: {#windows}
 
 C:\Users\\%username%\\.defi
 ![C:\Users\\%username%\\.defi](../media/Bildschirmfoto_2021-03-12_um_21.58.53.png)
@@ -28,7 +28,7 @@ C:\Users\\%username%\AppData\Roaming\DeFi Blockchain
 C:\Users\\%username%\AppData\Roaming\defi-appHint: the folder for the newer version will be "defi-wallet" instead of "defi-app
 ![C:\Users\\%username%\AppData\Roaming\defi-appHint: the folder for the newer version will be "defi-wallet" instead of "defi-app](../media/Bildschirmfoto_2021-03-12_um_22.00.40.png)
 
-### Mac:
+### Mac: {#mac}
 
 /Applications/defi-app
 ![/Applications/defi-app](../media/Bildschirmfoto_2021-03-13_um_00.20.40.png)

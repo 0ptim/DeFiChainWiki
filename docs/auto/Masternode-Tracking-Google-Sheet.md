@@ -3,17 +3,17 @@ title: Masternode-Tracking-Google-Sheet
 permalink: /Masternode-Tracking-Google-Sheet/
 ---
 
-## Masternode Tracking with Google Sheets
+## Masternode Tracking with Google Sheets {#masternode-tracking-with-google-sheets}
 
 A simple google sheets document for tracking the minted blocks of your masternodes
 
-### Link
+### Link {#link}
 
 [View document on Google Sheets](https://docs.google.com/spreadsheets/d/1P65rDCuAcJvJhTPMfI5Nbn7WbyHP8QJnwNyf1kTb3Qc/)
 
 ![thumb](./../media/Screenshot.png)
 
-### Usage
+### Usage {#usage}
 
 Make a copy of that sheet and start filling in the *COLLATERAL* addresses of your masternodes.
 

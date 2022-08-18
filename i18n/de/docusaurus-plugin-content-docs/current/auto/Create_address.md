@@ -3,7 +3,7 @@ title: Adresse erstellen
 permalink: /Create_address/
 ---
 
-## Eine neue Adresse erstellen:
+## Eine neue Adresse erstellen: {#eine-neue-adresse-erstellen}
 
 Klick auf DFI Wallet
 ![Klick auf DFI Wallet](../media/Bildschirmfoto_2021-03-13_um_23.13.10.png)
@@ -23,7 +23,7 @@ Klick auf erstellen
 Die neue Adresse wird angezeigt
 ![Die neue Adresse wird angezeigt](../media/Bildschirmfoto_2021-03-13_um_23.15.57.png)
 
-## Eine alte Adresse wieder anzeigen:
+## Eine alte Adresse wieder anzeigen: {#eine-alte-adresse-wieder-anzeigen}
 
 Klick auf DFI Wallet
 ![Klick auf DFI Wallet](../media/Bildschirmfoto_2021-03-13_um_23.13.10.png)
@@ -43,7 +43,7 @@ Klick auf erstellen.
 Die alte Adresse wird jetzt wieder angezeigt.
 ![Die alte Adresse wird jetzt wieder angezeigt.](../media/Bildschirmfoto_2021-03-13_um_23.25.29.png)
 
-## Alte Adressen finden
+## Alte Adressen finden {#alte-adressen-finden}
 
 Mit folgender Funktion können die alten Adressen über die Konsole
 herausgelesen werden:

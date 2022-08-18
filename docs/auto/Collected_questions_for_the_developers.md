@@ -3,7 +3,7 @@ title: Collected questions for the developers
 permalink: /Collected_questions_for_the_developers/
 ---
 
-### Problem:
+### Problem: {#problem}
 
 It turns out to be difficult to efficiently pass on the knowledge of the
 DeFiChain developers to the community. Important information is
@@ -14,7 +14,7 @@ not know how to best get this information to improve their own
 understanding of the technology. Questions are often asked twice,
 answered multiple times, and yet appear over and over again.
 
-### Solution:
+### Solution: {#solution}
 
 All technical questions concerning the understanding of the DeFiChain
 technology are collected here on this page. The wiki is open, so anyone

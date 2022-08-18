@@ -3,7 +3,7 @@ title: Masternode
 permalink: /Masternode/
 ---
 
-## Defichain Masternode
+## Defichain Masternode {#defichain-masternode}
 
 Im Januar 2021 stimmten die Masternode- und Stakeholder im [DFI-Vorschlag Nr. 4](https://github.com/DeFiCh/dfips/issues/6) darüber ab, das Collateral für eine Masternode auf 20000 DFI zu reduzieren.
 
@@ -11,11 +11,11 @@ Am 1. März 2021 wurde der Hardfork mit dem Namen DAKOTA in Block 678000 impleme
 
 Jetzt ist die Zeit gekommen, dass die DFI-Holder durch das Betreiben einer eigenen Masternode das Netzwerk stabiler machen und die Dezentralisierung voranbringen.
 
-### Betreiben einer Masternode
+### Betreiben einer Masternode {#betreiben-einer-masternode}
 
 Es gibt verschiedene Möglichkeiten, eine Masternode im Defichain-Netzwerk zu betreiben.
 
-#### Option 1 - Ownernode- und Operator zuhause auf einem Rechner
+#### Option 1 - Ownernode- und Operator zuhause auf einem Rechner {#option-1---ownernode--und-operator-zuhause-auf-einem-rechner}
 
 Die erste Möglichkeit besteht darin, die Masternode auf einem PC, Laptop oder Apple MacBook oder einem ähnlichen Gerät in deinem Heimnetzwerk auszuführen. Du kannst die Hardware in deinem Büro, Wohnzimmer oder sogar im Kinderzimmer betreiben, hauptsache sie läuft dauerhaft und hat eine Internetverbindung.
 
@@ -38,7 +38,7 @@ Die einzigen Dinge, die du brauchst:
 
 <small>\[1\] Du musst den Port **NICHT** öffnen, um am Staking teilzunehmen, aber ohne diesen offenen Port hilfst du nicht, das Netzwerk zu stabilisieren, und niemand kann deine Masternode für die Synchronisierung oder andere implementierte Funktionen verwenden.</small>
 
-#### Option 2 - Ownernode und Operatornode bei "Home"
+#### Option 2 - Ownernode und Operatornode bei "Home" {#option-2---ownernode-und-operatornode-bei-home}
 
 In diesem Szenario beteibst du 2 Knoten in deinem HOME-Netzwerk. Eine Maschine fungiert als Ownernode und hält die Sicherheit von 20.000 DFI. Dies kann dein Macbook, Laptop oder Personal Computer sein. Du startest diesen Computer nur bei Bedarf, um Tokens zu übertragen oder die DEX zu nutzen, LM zu verwenden oder Rewards an eine andere Adresse zu senden.
 
@@ -58,7 +58,7 @@ Die andere Maschine ist deine Operatornode. Dies kann ein anderer Laptop oder PC
 - Du öffnest den Port 8555 in dein Heim-Netzwerk und machst deine IP öffentlich.
 - Eine instabile oder langsame Internetverbindung (Upload) beeinträchtigt die Stabilität des Netzwerks
 
-#### Option 3 - Ownernode und Operatornode in einem Rechenzentrum
+#### Option 3 - Ownernode und Operatornode in einem Rechenzentrum {#option-3---ownernode-und-operatornode-in-einem-rechenzentrum}
 
 Das bevorzugte Szenario ist eine Hot / Coldwallet-Lösung mit der Operatornode "in the Cloud". Deine APP-Wallet läuft wie in Option 2 auf deinem eigenen Computer zu Hause. Im besten Fall mit Ledgersupport als "Cold-Wallet". Diese Wallet enthält das Collateral von 20.000 DFI und muss nur aktiv sein, wenn du mit deiner Wallet oder deiner Masternode agieren möchtest.
 

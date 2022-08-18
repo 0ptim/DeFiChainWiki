@@ -7,7 +7,7 @@ permalink: /DeFiChain_Intermediate_Tutorial/
 
 This is the second tutorial in the series. If you have not read the previous tutorial, you should read it [here](./DeFiChain_Basics_Tutorial.md) before reading this tutorial. In this tutorial, we will talk about DeFiChain's decentralized exchange (often just called the DEX). We also will go over staking and liquidity mining, which are two different ways of getting cashflow on your crypto.
 
-## The DEX
+## The DEX {#the-dex}
 
 Embedded in DeFiChain is a decentralized exchange. All of the dTokens are listed on the DEX and paired with either DFI or DUSD, DeFiChain's stablecoin. The DEX works almost like a traditional exchange, but there are no orderbooks and no current way to buy or sell tokens except for what would be called a market order. All the information about the DEX can be found on the wallet being used or on [defiscan.live](https://defiscan.live), which aggregates DeFiChain's data and puts it on one website. You can find data about transactions, wallet balances, and more on defiscan.live as well.
 
@@ -36,7 +36,7 @@ Now let's break down each of the columns, so we can understand what is going on.
 6.  APR: There will be more information in the liquidity mining section below. In a nutshell, this is the current rate that liquidity miners are receiving rewards for providing their assets to the pool, exposing themselves both to the risk of both assets and another risk which is known as impermanent loss. There is a calculation in order to get the APR, but it is more complex than an investor would need to know at the moment.
 7.  Commission: When a user swaps, 0.2% of their trade stays in the liquidity pool and is instead distributed proportionally to each of the liquidity miners. The APR that is listed on defiscan.live includes the commissions, which are based on the total liquidity and the 24-hour volume.
 
-## Getting Cashflow with DFI
+## Getting Cashflow with DFI {#getting-cashflow-with-dfi}
 
 While investors can simply hold their DFI, they have opportunities to use that DFI to make a greater return on their investment. There are multiple ways investors can generate more income on their DFI:
 
@@ -48,9 +48,9 @@ While investors can simply hold their DFI, they have opportunities to use that D
   - Tokenized Stocks
   - Tokenized ETFs on bonds and various markets and commodities
 
-### Staking
+### Staking {#staking}
 
-#### Introduction
+#### Introduction {#introduction}
 
 Every blockchain must ensure it is secure. If not, people will be able to write transactions sending money to themselves, spending their money twice. (Side note: this is best explained as having 1 euro, and then when you spend it you then can print another one and spend it again. This does not happen in the real world since money cannot be printed and made in such a way.)
 
@@ -60,14 +60,14 @@ So, DeFiChain is secured by thousands of what we call [masternodes](./Masternode
 
 -- verify --
 
-#### Advantages
+#### Advantages {#advantages}
 
 - Investors are helping to operate the network and make the network more decentralized
 - The only price volatility risk investors incur is in the price of DFI, unlike with liquidity mining, where investors have the price volatility of multiple coins
 - When making a masternode, investors are given the option to freeze the masternode (they may not withdraw) for 5 years, to gain 1.5x the rewards, or 10 years, to receive 2x the normal rewards
 - DFI staking has existed since the very beginning of DFI, and is the oldest form of gaining a return on an investor's investment
 
-#### Disadvantages
+#### Disadvantages {#disadvantages}
 
 - Investors must stake (put) a minimum of 20,000 DFI, the minimum required to make a masternode. Otherwise, an investor will have to give, or delegate, their DFI to a centralized entity such as Cake
 - The average APR (rewards per year) may be lower than with liquidity mining or other options
@@ -75,7 +75,7 @@ So, DeFiChain is secured by thousands of what we call [masternodes](./Masternode
 - APY decreases over time as block rewards decrease and more investors create masternodes and invest their capital, although this occurs to all methods of gaining a return on DFI.
 - If an investor is creating their own masternode, they can only compound their rewards when they gain another 20,000 DFI, meaning that they cannot simply compound once they get a block reward, as they are only allowed to invest 20,000 DFI at a time. This does not apply to centralized delegation.
 
-#### Masternodes
+#### Masternodes {#masternodes}
 
 On DeFiChain, masternodes secure the network. Every masternode gets a couple attempts every second to find a new block (hashes per second). Every unfrozen masternode gets 2 attempts per second, every 5-year frozen masternode gets 3 hashes per second, and 10-year frozen masternodes get 4 hashes per second. The system automatically adjusts so that all of the masternodes together find approximately 1 block every 30 seconds.
 
@@ -83,32 +83,32 @@ So, if the total hash rate is 50 hashes per second, the network would adjust the
 
 Staking is based on probability. Every hash has a small chance of being the right one, and masternodes get a couple of hashes every second. If you have an acceptable one, you get to write the next block. This means that there may be a masternode that gets lucky and their hashes are acceptable, while other masternodes are not having any luck at all getting the right hash. This is why above, it is written that rewards are not guaranteed. Your masternode may be lucky and receive lots of rewards in a period, and in the next it may receive close to nothing. The APY is just an estimate, just as flipping fifty coins does not mean you will get heads exactly 25 times. All fifty may be heads, all fifty could be tails.
 
-##### Advantages
+##### Advantages {#advantages-1}
 
 - All rewards you receive go straight to investors' wallets. There is no centralized entity involved and they will not need to pay fees, and in this option they actually are helping the network become decentralized
 - Non-custodial, they run your masternode, which can be done on their personal laptop. They control their keys, and no one needs to have control of them
 
-##### Disadvantages
+##### Disadvantages {#disadvantages-1}
 
 - Staking becomes less profitable the less they leave your device open to write blocks. Cake leaves their servers on 24 hours a day, every day of the year, so rewards can be earned at any time
 - 20,000 DFI must be staked, and it can only be compounded when there is another 20,000 DFI available to create another masternode
 - Rewards cannot be guaranteed; there may be periods where little rewards are found
 
-#### Centralized Delegation
+#### Centralized Delegation {#centralized-delegation}
 
 Many people do not have the capital available to create their own masternode, or cannot run it for long enough to keep it more profitable than simply delegating it. This is where entities like DFX.Swiss, Cake, and KuCoin come in. People can stake any amount of DFI and earn rewards on it, while also being able to compound it. However, these entities run the masternodes, and they are in control of how much rewards a staker receive and the keys to the staker's DFI.
 
-##### Advantages
+##### Advantages {#advantages-2}
 
 - Users can "set it and forget it," meaning that they can stake your DFI and not have to check back on it, as rewards will continue to accrue in their account
 - No minimum to stake
 
-##### Disadvantages
+##### Disadvantages {#disadvantages-2}
 
 - Users are making the network more centralized by allowing centralized entities to control your DFI
 - Fees can be significant. Exchanges such as KuCoin can take more than half of the staking profits
 
-### Liquidity Mining
+### Liquidity Mining {#liquidity-mining}
 
 Liquidity Mining is the process of adding liquidity to a "liquidity pool." This was explained a little in previous sections, but everyone who wants to earn rewards/provide liquidity places their holdings here, and receives tokens to represent their share of the pool, and users can swap from one token to another.
 
@@ -118,13 +118,13 @@ Alice is looking for a return on her DFI. Bob is a crypto investor. Currently, s
 
 Bob is anticipating that dBTC will perform worse than DFI, and he has dBTC after atomic swapping his bitcoin. He would like to own DFI instead. Luckily for him, he can swap in the dBTC-DFI pool and receive DFI instead. Bob will give the liquidity pool his bitcoin and take an equivalent DFI amount minus a fee, which is divided proportionally to each liquidity provider. Bob is now happy with his DFI, and Alice is as well, as she received a commission on her funds.
 
-#### Advantages
+#### Advantages {#advantages-3}
 
 - Help reduce slippage to users who are swapping. Slippage is the difference in tokens a swapper should get when swapping and the amount of tokens they actually receive
 - APYs are higher than staking (as of 01 March 2022)
 - Small price changes on one side of the pool is reduced due to the other side of the pool (risk is more diversified)
 
-#### Disadvantages
+#### Disadvantages {#disadvantages-3}
 
 - [Impermanent Loss](./Impermanent_Loss.md) (also called IL, read the article for more information)
 - Severe crashes in either token's price compared to the other will lead to significant losses

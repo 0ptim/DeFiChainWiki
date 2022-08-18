@@ -5,7 +5,7 @@ permalink: /Liquidity_Mining_versus_Staking/
 
 This small guide should help you decide whether to use Liquidity Mining or Staking, if you are debating the two. In addition, it also indicates the advantages and disadvantages whether you should directly use the DeFiChain or use a service provider like CakeDeFi (commonly referred to as Cake).
 
-## Liquidity Mining (LM)
+## Liquidity Mining (LM) {#liquidity-mining-lm}
 
 - Rewards are displayed as APR (before compounding)
 
@@ -17,7 +17,7 @@ This small guide should help you decide whether to use Liquidity Mining or Staki
 
 - Possible impermanent loss. However, this is negligible if you use liquidity mining as a cash flow strategy, and rewards are designed to prevent loss of capital from impermanent loss.
 
-## Staking (Solo)
+## Staking (Solo) {#staking-solo}
 
 - Rewards are described as APY (after compounding)
 
@@ -31,7 +31,7 @@ This small guide should help you decide whether to use Liquidity Mining or Staki
 - 20,000 DFI is required to make a masternode
 - Rewards are not consistent, some days the masternode may earn multiple block rewards, others none at all
 
-## Staking (Indirect vs. Direct)
+## Staking (Indirect vs. Direct) {#staking-indirect-vs-direct}
 
 **Cake:**
 

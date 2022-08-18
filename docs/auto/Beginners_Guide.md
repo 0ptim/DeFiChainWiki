@@ -20,14 +20,14 @@ Handhabung. Es geht mehr um typische Fallstricke und was man sich
 bewusst machen sollte. Es wird keine Garantie für Vollständigkeit und
 Korrektheit gegeben.
 
-### Was kann man mit der App überhaupt machen?
+### Was kann man mit der App überhaupt machen? {#was-kann-man-mit-der-app-überhaupt-machen}
 
 - DFI Bestand verwalten, DFI empfangen und versenden
 - DFI in andere Token auf der DeFiChain tauschen (DST BTC, DST ETH, ...)
 - Liquidity Mining betreiben
 - Einen Masternode betreiben
 
-### Kurze Zusammenfassung
+### Kurze Zusammenfassung {#kurze-zusammenfassung}
 
 - Die DeFiChain Wallet App ist nicht so einfach zu bedienen wie bekannte
   Wallets für Bitcoin und Ethereum
@@ -39,9 +39,9 @@ Korrektheit gegeben.
   können.
 -
 
-### Ein paar technischere Details
+### Ein paar technischere Details {#ein-paar-technischere-details}
 
-#### Fullnode Wallet
+#### Fullnode Wallet {#fullnode-wallet}
 
 Sei dir bewusst, dass es sich bei der DeFiChain um ein recht junges
 Projekt handelt, dass noch nicht so etabliert ist wie Bitcoin und
@@ -65,7 +65,7 @@ verlieren. Es ist daher wichtig, sich dessen im Voraus klar zu sein,
 damit später weniger Frust und/oder Enttäuschung vorliegen. Es ist zudem
 wichtig, sich mit dem Thema Sicherheit auseinander zu setzen.
 
-#### Sicherheit und Backup
+#### Sicherheit und Backup {#sicherheit-und-backup}
 
 Anders als bei bekannten Wallets setzt die DeFiChain Wallet seit der
 Version 2.3.0 nicht mehr eine seed phrase nach BIP39 ein, es werden also

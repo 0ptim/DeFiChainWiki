@@ -10,7 +10,7 @@ To incentivise liquidity providers, they earn two different types of revenue in 
 - DFI rewards per block (which are currently being awarded due to the fact that there is not currently enough swap commissions to provide the appropriate rewards to the liquidity providers.
 - Fees for each swap on the Decentralized Exchange (DEX)
 
-## Block rewards
+## Block rewards {#block-rewards}
 
 At the moment, 45 DFI out of 200 DFI per block are used to pay the liquidity providers. With DeFi Improvement Proposal 3 (DFIP 3) this amount was increased by 55 DFI/block from the original fixed airdrop amount. Additionally, the dLTC and dBCH pools will be rewarded from the airdrop amount. The remaining DFI amount can be found on this address: [8UAhRuUFCyFUHEPD7qvtj8Zy2HxF5HH5nb](https://dex.defichain.com/mainnet/address/8UAhRuUFCyFUHEPD7qvtj8Zy2HxF5HH5nb)
 
@@ -39,7 +39,7 @@ Block Rewards for Other Assets' Liquidity Pools
 | Block Rewards                    | ?         | ?         | ?          | ?         | ?         | ?         | ?          | ?         | ?          | ?         |
 | Bracketed Block Rewards          | ?         | ?         | ?          | ?         | ?         | ?         | ?          | ?         | ?          | ?         |
 
-## Commissions from DEX users
+## Commissions from DEX users {#commissions-from-dex-users}
 
 The second, currently smaller, part of the revenue comes from commissions from DEX users' swaps. From every swap a fee of 0.2% of the given coin is deducted and distributed proportionally to the liquidity
 providers.

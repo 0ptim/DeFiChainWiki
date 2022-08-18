@@ -3,26 +3,26 @@ title: Fullnode
 permalink: /Fullnode/
 ---
 
-## Defichain Fullnode
+## Defichain Fullnode {#defichain-fullnode}
 
 To stabilize the network, it is possible to setup a Defichain Fullnode on a virtual or physical server with a fixed IP address. A Fullnode holds the whole blockchain without acting as a masternode (no Collateral required) and other Nodes and Wallets in the network can use it to synchronize. Everyone in the community can help make the network more stable with a public Fullnode.
 
-## Requirements
+## Requirements {#requirements}
 
-### General
+### General {#general}
 
 - Fixed IP address
 - Port forwarding enabled on router (Port 8555)
 - 24/7 online
 - Stable internet connection (Upload)
 
-### Hardware
+### Hardware {#hardware}
 
 - 100 GB free disk space (SSD recommended)
 - 2-4 vCPU
 - 4 GB Memory
 
-### Software
+### Software {#software}
 
 - Debian 10, 64 Bit
 - Ubuntu 18.04 or 20.04
@@ -30,7 +30,7 @@ To stabilize the network, it is possible to setup a Defichain Fullnode on a virt
 
 Ubuntu 16.04 is no longer supported with Version 1.7.0 and higher.
 
-## List of Fullnodes
+## List of Fullnodes {#list-of-fullnodes}
 
 - [195.90.210.76:8555](http://status.defichain-masternode.com/) (Germany, Berlin)
 - [85.214.187.210:8555](http://status.defichain-masternode.com/) (Germany, Berlin)
@@ -44,11 +44,11 @@ Ubuntu 16.04 is no longer supported with Version 1.7.0 and higher.
 
 to be continued...
 
-## Fullnode Installation
+## Fullnode Installation {#fullnode-installation}
 
-#### Ubuntu 18.04/20.04
+#### Ubuntu 18.04/20.04 {#ubuntu-18042004}
 
-##### Create Swapfile
+##### Create Swapfile {#create-swapfile}
 
 *recommended for Systems less then 4 GB*
 
@@ -78,7 +78,7 @@ to be continued...
 
 `vm.swappiness=10`
 
-##### Install Fullnode
+##### Install Fullnode {#install-fullnode}
 
 [Latest Version](https://github.com/DeFiCh/ain/releases/latest)
 
@@ -94,7 +94,7 @@ to be continued...
 
 `cp ./defichain-2.3.0/bin/* ~/.defi`
 
-##### Start Fullnode
+##### Start Fullnode {#start-fullnode}
 
 *Start Fullnode*
 
@@ -104,7 +104,7 @@ to be continued...
 
 `~/.defi/defid -reindex -daemon`
 
-##### Monitor Fullnode
+##### Monitor Fullnode {#monitor-fullnode}
 
 *Check Blockcount*
 
@@ -124,9 +124,9 @@ After the node is completely synchronized, check the number of connections with 
 
 If the number of connections is 8 or less, only outbound connections are active. Check your firewall or router to see whether your full node can be reached from the Internet via port 8555. More than 8 connections mean that incoming connections are also possible and exist.
 
-## Create and use backup for blockchain data
+## Create and use backup for blockchain data {#create-and-use-backup-for-blockchain-data}
 
-### Problem description
+### Problem description {#problem-description}
 
 ![Corrupted block database](../media/Photo_2021-03-02_22-27-44.jpg)
 
@@ -134,7 +134,7 @@ Some users report that this error message occurs again and again. Afterwards, th
 
 As a remedy, it is recommended to work with backup solutions. Then the entire blockchain does not have to be reloaded, but only the blocks after creating the backup.
 
-### Create backup
+### Create backup {#create-backup}
 
 1.  Close the DeFi app
 2.  Go to the folder with the blockchain data On Windows: `C:\Users\%username%\AppData\Roaming\DeFi Blockchain` On Mac: `/Users/%username%/Library/Application Support/DeFi/` On Linux: `~/.defi`
@@ -143,7 +143,7 @@ As a remedy, it is recommended to work with backup solutions. Then the entire bl
 
 ![enhancedcs blocks chainstate](../media/2021-03-20_23.33.38.png)
 
-### Restore backup
+### Restore backup {#restore-backup}
 
 1.  Launch the DeFi app and make sure the app has started syncing.
 2.  Exit the DeFi App
@@ -154,15 +154,15 @@ As a remedy, it is recommended to work with backup solutions. Then the entire bl
 7.  Launch the DeFi App
 8.  The app should now continue at the state of the last backup.
 
-## Blockchain Snapshot Service
+## Blockchain Snapshot Service {#blockchain-snapshot-service}
 
-### Introduction
+### Introduction {#introduction}
 
 A snapshot helps in cases of corrupted blocks not to re-index the blockchain again. You will start from a much closer block to the most recent one. So, usage of a blockchain snapshot saves time and nerves not to verify each block again and again and again. It can be stored and installed locally, so that in case of issues, you can sync from that point on.
 
-### Download sources
+### Download sources {#download-sources}
 
-#### DeFiChain Fondation:
+#### DeFiChain Fondation: {#defichain-fondation}
 
 Asia:
 <https://defi-snapshots.s3-ap-southeast-1.amazonaws.com/snapshot-mainnet-1578261.zip>
@@ -185,7 +185,7 @@ Example of snapshot URL:
 
 [<https://defi-snapshots-europe.s3.eu-central-1.amazonaws.com/snapshot-mainnet-1572520.zip>](https://defi-snapshots-europe.s3.eu-central-1.amazonaws.com/snapshot-mainnet-1430890.zip)
 
-#### mydefichain.com
+#### mydefichain.com {#mydefichaincom}
 
 List all available Snapshots:
 
@@ -199,7 +199,7 @@ Mainnet: <http://snapshot-de.mydefichain.com/latest/>
 
 Testnet: <http://testnet.snapshot-de.mydefichain.com/latest/>
 
-### Installation guide
+### Installation guide {#installation-guide}
 
 <table>
 <thead>
@@ -295,7 +295,7 @@ finished.</li>
 </tbody>
 </table>
 
-#### Example commands for Linux
+#### Example commands for Linux {#example-commands-for-linux}
 
 Just replace the snapshot file with the current version from above.
 

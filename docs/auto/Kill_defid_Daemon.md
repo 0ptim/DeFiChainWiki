@@ -3,7 +3,7 @@ title: Kill defid Daemon
 permalink: /Kill_defid_Daemon/
 ---
 
-## Kill defid on Mac
+## Kill defid on Mac {#kill-defid-on-mac}
 
 If you need to stop a running DefiChain Daemon (defid), you need to kill the corresponding process. You can do that by looking for the current PID in the terminal running the command 'top'.
 

@@ -3,7 +3,7 @@ title: Versteckte Ordner anzeigen
 permalink: /Show_hidden_folders/
 ---
 
-## Windows
+## Windows {#windows}
 
 In der Standard Einstellung werden versteckte Ordner nicht angezeigt.
 Für einige Problemlösungen an der DeFi App ist es jedoch notwendig auf
@@ -18,9 +18,9 @@ diese Ordner zugreifen zu können. Dazu wie folgt vorgehen.
 *Die versteckten Ordner werden jetzt angezeigt*  
 ![Die versteckten Ordner werden jetzt angezeigt](./../media/Bildschirmfoto_2021-03-12_um_08.06.47.png)
 
-## Mac
+## Mac {#mac}
 
-### Versteckte Ordner
+### Versteckte Ordner {#versteckte-ordner}
 
 Die folgende Tastenkombination kann verwendet werden, um versteckte Ordner in Mac OS anzuzeigen.
 
@@ -33,7 +33,7 @@ Die folgende Tastenkombination kann verwendet werden, um versteckte Ordner in Ma
 *Nachher*  
 ![Nachher](./../media/Bildschirmfoto_2021-03-13_um_00.29.27.png)
 
-### Library
+### Library {#library}
 
 Unter Mac OS wird oft Zugriff auf den Library Ordner benötigt, der nicht standardmässig angezeigt wird.
 
@@ -50,7 +50,7 @@ Mache einen Rechtsklick und klicke dann auf Darstellungsoptionen einblenden
 
 Danach wird der Library Ordner korrekt angezeigt.
 
-### Dateien in einer Anwendung
+### Dateien in einer Anwendung {#dateien-in-einer-anwendung}
 
 Wie man Dateien in einer Anwendung anzeigt. z. B.: `/Applications/defi-app.app/Contents/Resources/binary/mac`
 

@@ -3,17 +3,17 @@ title: API
 permalink: /API/
 ---
 
-## General
+## General {#general}
 
 - <https://api.defichain.io/v1/stats>
 - <https://api.defichain.io/v1/stats?q=tokens.supply&pretty>
 - <https://api.defichain.io/v1/stats?network=mainnet&pretty>
 
-## Blockchain
+## Blockchain {#blockchain}
 
 <https://api.defichain.io/v1/getanchorlist?network=mainnet>
 
-### Addresses
+### Addresses {#addresses}
 
 - <http://mainnet-api.defichain.io/api/DFI/mainnet/address/8RUNjYgCHkT56t4C38YaaDvUQcY4HozdcD>
 - <http://mainnet-api.defichain.io/api/DFI/mainnet/address/8RUNjYgCHkT56t4C38YaaDvUQcY4HozdcD/balance>
@@ -23,12 +23,12 @@ permalink: /API/
 - <https://www.blockchain.com/btc/address/1FtZwEZKknoquUb6DyQHFZ6g6oomXJYEcb>
   address held by all DeFi nodes
 
-### Transactions
+### Transactions {#transactions}
 
 - <http://mainnet-api.defichain.io/api/DFI/mainnet/tx/923bfa3e400d841baa88a566bf3a348a181f1d16881fb36dd46cb8561db5dc92>
 - <http://mainnet-api.defichain.io/api/DFI/mainnet/tx/923bfa3e400d841baa88a566bf3a348a181f1d16881fb36dd46cb8561db5dc92/coins>
 
-### Blocks
+### Blocks {#blocks}
 
 - <https://api.defichain.io/v1/getBlockActivity?network=mainnet>
 - <http://mainnet-api.defichain.io/api/DFI/mainnet/block/12345>
@@ -37,9 +37,9 @@ permalink: /API/
 - <http://mainnet-api.defichain.io/api/DFI/mainnet/block?limit=500000&anchorsOnly=false>
   \<--response 200MB!
 
-## DEX (Decentraliced Exchange)
+## DEX (Decentraliced Exchange) {#dex-decentraliced-exchange}
 
-### General
+### General {#general-1}
 
 - <https://api.defichain.io/v1/listyieldfarming>
 - <https://api.defichain.io/v1/listswaps>
@@ -52,7 +52,7 @@ permalink: /API/
 - <https://api.defichain.io/v1/gettokenrichlist?id=2&network=mainnet>
 - <https://api.defichain.io/v1/getpoolpair?id=4&network=mainnet>
 
-### Important IDs
+### Important IDs {#important-ids}
 
 - DFI: id=0
 - ETH: id=1
