@@ -1,0 +1,1021 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper docs-doc-page docs-version-current plugin-docs plugin-id-default docs-doc-id-auto/Original_White_Paper">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="generator" content="Docusaurus v2.0.1">
+<title data-rh="true">Original White Paper | DeFiChain-Wiki</title><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://defichain.com//DeFiChain-Wiki/docs/auto/Original_White_Paper"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Original White Paper | DeFiChain-Wiki"><meta data-rh="true" name="description" content="White paper"><meta data-rh="true" property="og:description" content="White paper"><link data-rh="true" rel="icon" href="/DeFiChain-Wiki/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://defichain.com//DeFiChain-Wiki/docs/auto/Original_White_Paper"><link data-rh="true" rel="alternate" href="https://defichain.com//DeFiChain-Wiki/docs/auto/Original_White_Paper" hreflang="en"><link data-rh="true" rel="alternate" href="https://defichain.com//DeFiChain-Wiki/de/docs/auto/Original_White_Paper" hreflang="de"><link data-rh="true" rel="alternate" href="https://defichain.com//DeFiChain-Wiki/tr/docs/auto/Original_White_Paper" hreflang="tr"><link data-rh="true" rel="alternate" href="https://defichain.com//DeFiChain-Wiki/docs/auto/Original_White_Paper" hreflang="x-default"><link rel="stylesheet" href="/DeFiChain-Wiki/assets/css/styles.db7a83dc.css">
+<link rel="preload" href="/DeFiChain-Wiki/assets/js/runtime~main.b02053cd.js" as="script">
+<link rel="preload" href="/DeFiChain-Wiki/assets/js/main.71f6890d.js" as="script">
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();t(null!==e?e:"light")}()</script><div id="__docusaurus">
+<div role="region"><a href="#" class="skipToContent_fXgn">Skip to main content</a></div><nav class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Navigation bar toggle" class="navbar__toggle clean-btn" type="button" tabindex="0"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/DeFiChain-Wiki/"><div class="navbar__logo"><img src="/DeFiChain-Wiki/img/logo.png" alt="DeFiChain Wiki Logo" class="themedImage_ToTc themedImage--light_HNdA"><img src="/DeFiChain-Wiki/img/logo.png" alt="DeFiChain Wiki Logo" class="themedImage_ToTc themedImage--dark_i4oU"></div><b class="navbar__title text--truncate">DeFiChain-Wiki</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/DeFiChain-Wiki/docs/welcome">📖 Knowledgebase</a><a href="https://defiscan.live/" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">🔍 Explorer<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><a href="https://blog.defichain.com/" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">📰 Blog<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></div><div class="navbar__items navbar__items--right"><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" class="iconLanguage_nlXk"><path fill="currentColor" d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path></svg>English</a><ul class="dropdown__menu"><li><a href="/DeFiChain-Wiki/docs/auto/Original_White_Paper" target="_self" rel="noopener noreferrer" class="dropdown__link dropdown__link--active">English</a></li><li><a href="/DeFiChain-Wiki/de/docs/auto/Original_White_Paper" target="_self" rel="noopener noreferrer" class="dropdown__link">Deutsch</a></li><li><a href="/DeFiChain-Wiki/tr/docs/auto/Original_White_Paper" target="_self" rel="noopener noreferrer" class="dropdown__link">Türkçe</a></li></ul></div><a href="https://github.com/0ptim/DeFiChain-Wiki" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link header-github-link" aria-label="GitHub repository"></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="searchBox_ZlJk"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div class="main-wrapper mainWrapper_z2l0 docsWrapper_BCFX"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docPage__5DB"><aside class="theme-doc-sidebar-container docSidebarContainer_b6E3"><div class="sidebar_njMd"><nav class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/welcome">Welcome</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/API">API</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Addnode">Addnode</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/App_on_Raspberry-Pi">App on Raspberry-Pi</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/App_on_Windows_Cloud_Server">App on Windows Cloud Server</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Atomic_Swap">Atomic Swap</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Backup_Wallet">Backup Wallet</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Beginners_Guide">Beginners Guide</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Bitcoin_Anchoring">Bitcoin Anchoring</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Block_Rewards">Block Rewards</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Blockchain_folder">Blockchain folder</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Cli_commands">Cli commands</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Collected_questions_for_the_developers">Collected questions for the developers</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Community_Funding_Proposals">Community Funding Proposals</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Create_address">Create address</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Criticism">Criticism</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/CustomTransaction">CustomTransaction</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/DEX">DEX</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/DEX_Fee_structure">DEX Fee structure</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/DFI_Staking_at_DFX">DFI Staking at DFX</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/DFX_FAQ">DFX FAQ</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/DFX_manual_registration">DFX manual registration</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/DeFiChain-Masternode-Monitor">DeFiChain-Masternode-Monitor</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/DeFiChain-Portfolio">DeFiChain-Portfolio</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/defichain">DeFiChain</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/DeFiChain_Advanced_Tutorial">DeFiChain Advanced Tutorial</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/DeFiChain_Basics_Tutorial">DeFiChain Basics Tutorial</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/DeFiChain_Intermediate_Tutorial">DeFiChain Intermediate Tutorial</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/DeFiChain_Tutorials">DeFiChain Tutorials</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/DeFiChain_ecosystem">DeFiChain ecosystem</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/DeFi_Wallet_error_messages">DeFi Wallet error messages</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/DeFi_Wallet_errors">DeFi Wallet errors</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Debug.log">Debug.log</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Delete_.defi">Delete .defi folder</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Delete_DeFi_App">Delete DeFi App</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Dual_setup_App_and_Node">Dual setup (App + Node)</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Ecosystem">Ecosystem</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/FAQ">FAQ</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Fullnode">Fullnode</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Fundamentals">Fundamentals</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/How_to_rescue_stuck_DFI">How to &quot;rescue&quot; stuck DFI</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Impermanent_Loss">Impermanent Loss</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Import_BTC_private_key_to_Electrum">Import BTC private key to Electrum</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Improvement_Proposals">Improvement Proposals</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Jellyfish_tutorial">Jellyfish tutorial</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Kill_defid_Daemon">Kill defid Daemon</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Lightwallet_change_Ocean">Lightwallet change Ocean</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Liquidity_Mining">Liquidity Mining</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Liquidity_Mining_versus_Staking">Liquidity Mining versus Staking</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Liquidity_Token">Liquidity Token</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Masternode-Tracking-Google-Sheet">Masternode-Tracking-Google-Sheet</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Masternode">Masternode</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Masternode_installation_extended">Masternode installation extended</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Masternode_service">Masternode service</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" href="/DeFiChain-Wiki/docs/auto/Original_White_Paper">Original White Paper</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Password_Setting">Password Setting</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Payout_DFI_in_Euro">Auszahlung DFI in Euro</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Pink_Paper">Pink Paper</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Punks">Punks</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Read_out_private_key">Private key read out of the app</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Restore_Wallet">Restore Wallet</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Saiivelive">Saiive.live</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Send_all_coins">Send all coins</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Services">Services</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Sharing_is_caring_-_DeFiChain_Wiki_Updates">Sharing is caring - DeFiChain Wiki Updates</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Show_hidden_folders">Show hidden folders</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Staking">Staking</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Suggestion_for_using_the_DeFi_app">Suggestion for using the DeFi app</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Sync_stops">Sync stops</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Target_multiplier">Target multiplier</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Tax_Switzerland">Tax Switzerland</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Tradable_dAssets_on_DeFiChain">Tradable dAssets on DeFiChain</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Unable_to_start_blockchain">Unable to start blockchain</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Updated_White_Paper">Updated White Paper</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/V2.3.1">V2.3.1</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/V2.3.2">V2.3.2</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/Wallet_Encryption">Wallet Encryption</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/corrupt_salvage_failed">Wallet.dat corrupt salvage failed</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/DeFiChain-Wiki/docs/auto/listaccounts">List all addresses with a balance</a></li></ul></nav></div></aside><main class="docMainContainer_gTbr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/DeFiChain-Wiki/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_OVgt"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Original White Paper</span><meta itemprop="position" content="1"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Original White Paper</h1></header><h2 class="anchor anchorWithStickyNavbar_LWe7" id="white-paper">White paper<a class="hash-link" href="#white-paper" title="Direct link to heading">​</a></h2><p>Everything about DeFiChain.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="abstract">Abstract:<a class="hash-link" href="#abstract" title="Direct link to heading">​</a></h3><p>The DeFiChain Foundation is developing DeFiChain, a blockchain
+specifically dedicated to decentralized financial applications. By
+focusing on the functionality of the blockchain and dedicating it
+specifically to decentralized finance, DeFiChain provides unparalleled
+high transaction throughput, reduced risk of errors, and intelligent
+feature development specifically for the fulfillment of financial
+services on the blockchain.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="this-document-is-not-a-prospectus">This Document is not a Prospectus<a class="hash-link" href="#this-document-is-not-a-prospectus" title="Direct link to heading">​</a></h3><p>This document does not constitute nor imply a prospectus of any sort. No
+wording contained herein should be construed as a solicitation for
+investment. Accordingly, this whitepaper does not pertain in any way to
+an offering of securities in any jurisdiction worldwide whatsoever.
+Rather, this whitepaper constitutes a technical description of the
+functionality of the Cake products and the development and distribution
+of DeFiChain.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="this-document-is-not-a-final-technical-specification">This Document is not a final technical specification<a class="hash-link" href="#this-document-is-not-a-final-technical-specification" title="Direct link to heading">​</a></h3><p>This document does not constitute nor imply a final technical
+specification of DeFiChain. Information presented on this whitepaper,
+technical or otherwise, is meant to outline the general idea of
+DeFiChain, its design and its use-cases and is subject to change with or
+without notice. For the latest up-to-date technical specification, check
+out the updates and documentations on the official website
+<a href="https://defichain.com" target="_blank" rel="noopener noreferrer">https://defichain.com</a>.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="executive-summary">Executive summary<a class="hash-link" href="#executive-summary" title="Direct link to heading">​</a></h2><p>The cryptocurrency industry is based on a simple premise: people should
+be fully in control of their finances. While it seems like a simple and
+obvious statement, the current systems are far from providing financial
+services that are truly under the control of the people who use them.
+The mission of DeFiChain is to give people (and in the future, machines,
+and devices) seamless access to decentralized financial services.</p><p>For that purpose, we are introducing DeFiChain, a dedicated blockchain
+specifically for decentralized finance (DeFi) <a href="http://www.DeFichain.com" target="_blank" rel="noopener noreferrer">www.DeFichain.com</a>.</p><p>By dedicating the functionality of a blockchain specifically to
+decentralized finance, DeFiChain provides high transaction throughput,
+reduced risk of errors, and intelligent feature development specifically
+for the fulfillment of Satoshi’s original intent: To create a reliable
+alternative form of financial services built on top of Bitcoin.</p><p>Bitcoin, as described in the original Satoshi whitepaper, is designed as
+a form of digital cash, as a store and exchange of value. The evolution
+to Ethereum and smart contracts has allowed for tremendous new
+functionalities to be built on top of a blockchain, yet this development
+has come at a cost. The concept of one global operating system for
+everything has created a system that requires a complex codebase for
+smart contracts, slow throughput, and difficulty around the governance
+of the system.</p><p>DeFiChain approaches decentralized finance as a specific and critical
+segment of the blockchain community. DeFi is a dedicated blockchain that
+is optimized specifically for DeFi applications. DeFiChain is
+intentionally non-Turing-Complete and does not support any function,
+other than those needed for Decentralized Finance, resulting in a
+blockchain that provides higher throughput and better functionality
+specifically for dApps related to finance. The advantage of a non-Turing
+complete command set is that there is a much lower potential for coding
+errors of the type that have plagued Ethereum smart contracts such as
+with the DAO hack or the locked funds with Parity. While it is important
+that we have some smart contract languages that are Turing complete, in
+the area of finance, it is appropriate to restrict the capabilities of
+the language in favor of a more secure system with greatly-reduced
+attack vectors.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="the-problem">The Problem<a class="hash-link" href="#the-problem" title="Direct link to heading">​</a></h3><p>Today, almost all financial services are run by banks. Investments, for
+example, by definition, is the use of capital to earn more capital.
+Investors use a bank to put their money into interest or dividend-making
+instruments in order to grow their wealth. The problems with financial
+services are increasingly becoming obvious to everyone: compounded costs
+due to middle(wo)men, slow transactions, delays for cross-border
+transactions, and inaccessibility to many sectors of the population. A
+myriad of fintech solutions have been brought in to improve the system,
+but fundamentally the underlying banking system is still in control, so
+fintech has brought only limited improvements.</p><p>Cryptocurrency and Decentralized Finance (DeFi) offer a way to start
+with a new system, circumventing the difficulties faced in changing the
+finance industry. While crypto has attracted billions in investments,
+decentralized financial services are lagging. When it comes to
+investment in cryptocurrency, crypto investors can buy and sell, but
+that’s it. The cryptocurrency itself cannot be invested in the same way
+fiat currency can be. Initial attempts to create peer-to-peer lending
+and asset tokenization so far have proven partial and unreliable, so
+investors have extremely limited options when it comes to an investment
+of their cryptoassets. The potential is enormous to provide financial
+services in crypto, the same way they are offered in fiat currency.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="the-solution">The Solution<a class="hash-link" href="#the-solution" title="Direct link to heading">​</a></h3><p>DeFiChain is designed for investors in the cryptocurrency market who are
+looking to make their cryptocurrency work just like any other form of
+capital, such that they can ensure a return on investment in any market.
+DeFiChain is a dedicated non-Turing-complete blockchain, designed
+specifically for the decentralized finance (DeFi) industry. DeFi
+provides full functionality for this specific segment of the DLT
+community, sacrificing other types of functionality for simplicity,
+rapid throughput, and security.</p><p>The function set includes among others:</p><ul><li>Decentralized lending</li><li>Decentralized wrapping of tokens</li><li>Decentralized Pricing oracles</li><li>Decentralized exchanges</li><li>Transferable debts and receivables</li><li>Decentralized Non-collateralized debt</li><li>Asset tokenization</li><li>Distribution of Dividends</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="timeline">Timeline<a class="hash-link" href="#timeline" title="Direct link to heading">​</a></h3><p><img loading="lazy" src="/DeFiChain-Wiki/assets/images/Roadmap-50863d3ca30f0d0f530fca6e95fd847a.png" width="1200" height="1120" class="img_ev3q"></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="backgroundindustry">Background/Industry<a class="hash-link" href="#backgroundindustry" title="Direct link to heading">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="defis-promises-and-challenges">DeFi’s promises and challenges<a class="hash-link" href="#defis-promises-and-challenges" title="Direct link to heading">​</a></h3><p>Decentralized Finance promises to provide a variety of financial
+instruments without the need for middle(wo)men to ensure that the
+services are trusted. According to the OECD, financial services
+typically make up 20–30% of total service market revenue and about <a href="https://www.investopedia.com/terms/g/gdp.asp" target="_blank" rel="noopener noreferrer">20%
+of the total gross domestic
+product</a> in <a href="https://www.investopedia.com/terms/d/developed-economy.asp" target="_blank" rel="noopener noreferrer">developed
+economies</a>
+<a href="https://www.investopedia.com/ask/answers/030515/what-percentage-global-economy-comprised-financial-services-sector.asp" target="_blank" rel="noopener noreferrer">(link)</a>.
+This is an enormous industry dedicated to one thing: making sure that
+financial transactions are trusted. With the advent of blockchain,
+trustless systems and smart contracts can be used to replace much of the
+functionality of this industry, dramatically increasing the return on
+investment for the individual investor.</p><p>Financial services today are providing an important service, but at a
+very high cost, and despite many fintech developments, the following
+underlying issues persist:</p><ul><li>High transaction costs. Due to regulatory requirements, legacy systems
+with complex interoperability issues, and control by large
+institutions, transaction fees are high for the average user of
+banking and financial services. Services that require a broker are
+even more expensive, as agents and other types of middlemen are
+involved.</li><li>Slow transactions, particularly for international transactions.
+Although theoretically, it should only take minutes for computers to
+transact, moving money from one institution to another can take hours
+within a country, and it can take days between countries.</li><li>Lack of transparency and unfair advantages to large players. Financial
+instruments are complex and most people do not have access to the
+information that would allow them to make optimal decisions. Lack of
+transparency is one of the major factors that led to the 2008
+financial crisis and in the short term, it always leaves smaller
+investors (the average person) at a disadvantage compared to
+institutional investors.</li><li>Inaccessibility and/or higher cost to lower-income people. Financial
+services are simply not available in many geographies, and when they
+are, lower-income people are hit with even higher fees
+(percentage-wise) than average.</li><li>Despite legislation to reduce money laundering and related crimes,
+there is almost no evidence to suggest the current system or AML is,
+in fact, reducing money laundering.</li></ul><p>Fintech has been attempting to address these problems, with some
+success. Fintech solutions such as online international transfer
+services, savings, and investment apps, and mobile money for underserved
+markets have begun to improve the situation. However, the change is
+incremental, and is still built on top of a system that fundamentally
+requires the overhead of agents to provide trust. While some of the
+costs can be reduced, fundamentally, fintech can’t address the
+underlying issues of lack of transparency because it is dealing in the
+same financial instruments and going through the same major institutions
+as traditional finance.</p><p><img loading="lazy" src="/DeFiChain-Wiki/assets/images/2019-defi-14864a4a84ecd9168ccac34ffdac6d81.png" width="1200" height="708" class="img_ev3q"></p><p>For this reason, many investors have begun moving parts of their investments
+into cryptocurrency. Cryptocurrency, by definition has full transparency
+that traditional systems simply cannot provide. Furthermore, the amount
+of administration and bureaucracy required is minimal. Most of the
+activities that were carried out by agents can be written into the code
+in decentralized financial systems. Of course, there is still some
+overhead in creating and maintaining the code, as well as maintenance of
+the networks, but the amount of bureaucracy is minimal, eliminating much
+of the cost of transacting on these systems.</p><p>Despite the promise of decentralized finance, the technology is still
+nascent, and there are many opportunities to create a richer and more
+robust decentralized finance environment. To date, investors in
+cryptocurrency have extremely limited investment options. Promises of
+peer-to-peer lending platforms, asset tokenization and other types of
+blockchains have either failed to deliver, been hacked, or delivered a
+pared-down version of the original promise.</p><p>Today, almost universally, cryptocurrency investors have only one way to
+earn money on their capital: rise of the cryptocurrency asset. While in
+the short term, this may be a good investment, it’s not how currency is
+designed to work. The investment of capital should provide a return on
+investment, and cryptocurrency is designed to be like any other form of
+currency. Investors today want the possibility to lend, invest, and
+receive returns on their cryptocurrency investments. Well-designed DeFi
+platforms should allow the development of a variety of safe and secure
+financial instruments for the investment of cryptocurrency.</p><p><img loading="lazy" src="/DeFiChain-Wiki/assets/images/Be-your-own-bank-064c813f467ee1684cc9c50b66dc103c.png" width="1200" height="824" class="img_ev3q"></p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="the-state-of-defi">The state of DeFi<a class="hash-link" href="#the-state-of-defi" title="Direct link to heading">​</a></h3><p>The current state of Decentralized Finance (DeFi) is populated by
+general purpose blockchains, most of which provide Turing-complete
+command sets for the development of smart contracts on the chain. While
+appropriate for many programming languages, this dogmatic pursuit of
+Turing-complete smart contracts languages has resulted in a variety of
+problems when it comes to scalability, security and robustness of the
+blockchains.</p><ul><li>The sheer mass of dApps on networks such as Ethereum, EOS and TRON
+have potential (or proven) impact on other dApps on the network. The
+most obvious example was when CryptoKitties ground the Ethereum
+network practically to a halt. While some of the faster-throughput
+networks say this can’t happen, it will be some time before any other
+network reaches the critical mass of apps on Ethereum so that we can
+prove whether this is or isn’t the case.</li><li>For serious financial type dApps, it’s important to know that the
+network is being maintained and managed in a responsible and secure
+manner. Having a blockchain that is swamped with games, gambling and
+other types of less “mission critical” apps will ultimately influence
+the development and direction of the blockchains. With governance
+models that allocate power to masternodes, dev groups, and
+token-holders, the core development team will ultimately be influenced
+by the biggest players. Decentralized Finance apps can’t afford the
+potential consequences of sharing a blockchain with anyone who chooses
+to use that operating system.</li><li>Using Turing-complete command sets requires programmers to create
+complex programs to develop any kind of app. For example, to create a
+peer-to-peer lending contract on top of MakerDAO, a programmer
+requires approximately 2000 lines of code. Any bug in that code can
+cause loss of the funds, or some other consequence. Maintaining such a
+large code base intrinsically means larger chances for mistakes and a
+large attack surface for even simple apps.</li></ul><p>The limitations of general-purpose blockchains for DeFi apps has opened
+up a market opportunity to serve this market. While cryptocurrency
+momentum has continued to rise, most of the current applications are
+still on Ethereum. Concerns about the network have already led some of
+the major projects to consider porting or working with alternative or
+additional blockchains.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="defis-current-problems">DeFi’s current problems<a class="hash-link" href="#defis-current-problems" title="Direct link to heading">​</a></h3><ul><li>Finance dApps require reliability and do not want to be associated
+with blockchains that host apps such as betting, entertainment or
+other apps that may tarnish the reputation of a blockchain at any
+time.</li><li>Sudden increases in volume of any dApp on a blockchain can potentially
+impact all the other dApps on that blockchain, either in terms of
+throughput, transaction price, or additional impacts, as seen with
+CryptoKitties on Ethereum.</li><li>General-purpose blockchains require a large amount of coding to
+provide financial services, increasing the risk of hackability or bugs
+in the code. Functionalities that are basic requirements for financial
+services, such as multisig, are often difficult to implement or
+missing on general-purpose blockchains.</li><li>Maintenance of a Turing-complete blockchain means that resources are
+not focusing on the areas valued by DeFi apps.</li><li>Governance models of most of today’s blockchains are immature and
+showing signs of politicization, centralization and uncertainty.
+Without formal governance structures, the future of these blockchains
+is uncertain. Recent discussions of upgrades and forks in both
+Ethereum and Bitcoin have revealed the immaturity of these systems,
+and even the leader in governance, Aragon, showed the vulnerability of
+its on-chain governance system in the summer 2019 vote, where one
+large “whale” token-holder changed the outcome of several proposal
+votes at the last minute. Such vulnerabilities are unacceptable on
+blockchains dealing with finance.</li><li>Regulatory standards and regulatory bodies that appropriately address
+the needs of natively cross-border currencies and financial
+instruments. Jurisdiction-based regulation, and regulation based on
+legacy technology is falling short of the needs of the DeFi industry.
+It is clear that a new legal and regulatory framework is needed to
+protect the rights of people using these systems.</li><li>The blockchain industry itself has not shown the maturity to put in
+place its own standards bodies that will provide best practices or
+self-regulation in a way that would demonstrate the industry’s
+reliability for decentralized finance applications. To date, attempts
+at creating interoperability or self-regulation have been immature and
+have not resulted in leadership or standards that could be adopted by
+international bodies or serious regulators. The lack of
+self-regulation leaves the industry even more vulnerable to regulation
+from outside, making the environment risky for serious investors.</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="consequences-in-the-defi-market">Consequences in the DeFi Market<a class="hash-link" href="#consequences-in-the-defi-market" title="Direct link to heading">​</a></h3><ul><li>Multisig wallets are the best the industry has to provide when it
+comes to joint management of funds, and the solutions for multi-sig
+are, to some degree, kludges. Multisig tends to be leger-specific and
+not flexible for different scenarios. For example, in traditional
+finance, multi-signature accounts can assign signatories different
+levels of authority, or require different signatures for different
+transaction types and levels. Different chains take different
+approaches to adding multisig capabilities to their existing
+blockchains.<ul><li>The BIP 11: M-of-N Standard Transactions is a Bitcoin Improvement
+Proposal (BIP)designed to add multisig support to Bitcoin
+blockchain.</li><li>Ethereum provides a Turing-complete command set for development of
+multisig on chain, leading to multiple entities providing multisig
+smart contracts. Bugs such as those in the Parity multisig
+(discussed below) have resulted in untold sums in lost funds.</li></ul></li><li>As a result of the complexity of the code required for multisig, in
+2017, more than 150,000 ETH was lost to a hack in the Parity multisig
+wallet, due to an error in the code
+<a href="https://blog.zeppelin.solutions/on-the-parity-wallet-multisig-hack-405a8c12e8f7" target="_blank" rel="noopener noreferrer">(link)</a>.
+The referenced article notes ways in which this code bug could have
+been avoided, but it emphasizes the point that these complexities in
+coding cause many different attack vectors. An entire industry has
+sprouted up around smart contract auditing, because the situation is
+so vulnerable.</li><li>In the largest industry hack (or bug?!), The DAO was drained of 3.6
+million ETH due to a coding error in the smart contract holding all of
+the funds of The DAO.</li></ul><p>One of the many results is that the high risks get priced in to the
+underlying contracts leading to excessive costs for users, as can be
+seen when comparing rates from DeFi and non-DeFi examples. (For example
+8% with decentralized DAI to 1.75% with centralized USDC (dated at the
+beginning of October 2019): <a href="https://deficompare.com/" target="_blank" rel="noopener noreferrer">https://deficompare.com/</a>) Both coins
+represent 1 USD but the decentralized version ist 6.25% more expensive
+due to a priced in risk from the Ethereum contract.</p><p>The points described above are simply unacceptable for any type of
+financial transaction or investor. For that reason, it’s important to
+build dedicated services that will prevent such breaches, lower risks
+and thus cost. In the Blockchain world, having proper programming rules
+and reducing the attack vectors prevents this kind of attack.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="comparing-existing-defi-alternatives">Comparing existing DeFi alternatives<a class="hash-link" href="#comparing-existing-defi-alternatives" title="Direct link to heading">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bitcoin-why-not">Bitcoin: Why Not?<a class="hash-link" href="#bitcoin-why-not" title="Direct link to heading">​</a></h3><p>Given our optimism on Bitcoin, the first question one might ask is why
+not develop DeFi using the Bitcoin Blockchain. While Bitcoin allows only
+basic smart contracts, some projects have begun developing workarounds.
+However, the transaction costs are restrictive on the Bitcoin chain, and
+we don’t believe it is going to be appropriate for the speed required
+for financial transactions. The Bitcoin chain is currently working as
+designed as a store of value. In our opinion, sticking to that single
+purpose is the best use of the chain and it is proven over the last
+decade. Adding financial services into the main chain adds unnecessary
+complexity and may cause side effects both for DeFi and for Bitcoin that
+are undesirable. Furthermore, it is not something we think that the
+Bitcoin governance is prepared to handle, and at some point, if
+DeFiChain requirements differed from those of the miners or developers
+on the Bitcoin chain, we would be subject to their decisions.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="turing-complete-solutions-ethereum-eos-tron">Turing-complete Solutions: Ethereum, EOS, Tron…<a class="hash-link" href="#turing-complete-solutions-ethereum-eos-tron" title="Direct link to heading">​</a></h3><p>To date, a number of DeFi applications have been built on Ethereum,
+Tron, EOS and many other turing-complete chains. Since Ethereum has the
+biggest adoption it allowed the surfacing of issues that come with using
+a turing-complete blockchain for DeFi applications the fastest. The DAO
+hack was one of the first and most dramatic exposures of the
+vulnerability of using such a complex language. Anyone issuing a token
+on the network knows how difficult it is. Just to create and issue an
+ERC20 token can easily cost over 100,000 USD, considering the cost of
+smart contract auditing that is necessary for innovative solutions.
+Simply the fact that there’s an entire industry built around “smart
+contract audits” should be enough to illustrate the problem. Despite the
+fact that ERC20 is the industry standard, it’s still so easy to hack
+that it’s impossible to issue even a simple token without getting a
+high-cost professional auditor as well as a programmer.</p><p>On an even more stark note, it’s now possible to scan for exploitable
+code using automation, and a 2018 study managed to scan a million smart
+contracts, finding over 34,000 hackable smart contracts
+<a href="https://arxiv.org/pdf/1802.06038.pdf" target="_blank" rel="noopener noreferrer">(link)</a>. It’s unfathomable that
+3.4% of financial transactions would be vulnerable. While this at the
+moment seems to be a problem mainly centered around Ethereum, we believe
+most other turing-complete chains will experience the same issues once
+more use cases get adopted on top of them.</p><p>The second problem stays mostly within Ethereum, which is the network’s
+usage being already close to maximum capacity. It simply does not seem
+feasible to use the network for all of the decentralized finance
+applications. Ethereum’s market cap is a tenth of that of Bitcoin. If
+the system is already near capacity, it’s hard to see how it can manage
+the capacity of becoming a true DeFi network for the rest of the
+ecosystem. Something Vitalik Buterin has acknowledged in an interview:
+<a href="https://beincrypto.com/ethereum-founders-admit-never-designed-scalability/" target="_blank" rel="noopener noreferrer">&lt;https://beincrypto.com/ethereum-founders-admit-never-designed-scalability/&gt;.</a></p><p><img loading="lazy" src="/DeFiChain-Wiki/assets/images/Graph-5356ba4a5a35634d1c4978defa3a4754.png" width="1177" height="502" class="img_ev3q"></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="defichain-solution">DeFiChain Solution<a class="hash-link" href="#defichain-solution" title="Direct link to heading">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="staying-in-the-bitcoin-ecosystem">Staying in the Bitcoin Ecosystem<a class="hash-link" href="#staying-in-the-bitcoin-ecosystem" title="Direct link to heading">​</a></h3><p>The cryptocurrency market as a whole is difficult to predict. Most of
+the coins have become valueless, and it remains to be seen how the
+system will sustain itself after cash runs out from many of the major
+ICOs.</p><p>Despite this, our outlook on Bitcoin specifically is extremely
+optimistic. Over the last year, through market volatility, including
+instability in traditional financial markets, Bitcoin has retained its
+value, demonstrated its impermeability to attack and hackers, and gained
+increasing respect from traditional financial players.</p><p>Bitcoin is increasingly being seen as a store of value, and it is
+perceived as the standard by which other cryptocurrencies are measured.
+While people’s portfolios vary widely, Bitcoin remains the standard
+currency that almost every crypto investor holds as a major part of
+their holdings. The tremendous community and ecosystem around Bitcoin
+bode well for its long-term viability as a store of value.</p><p>For that reason, creating decentralized financial services around
+Bitcoin represents a tremendous opportunity that has yet been untapped,
+partially because of the difficulty of creating smart contracts that
+work with the Bitcoin network, and partially because of the
+fractalization of the development community to many side projects. We
+believe this tendency of the development community to jump on the newest
+developments has drawn attention away from the real story: Bitcoin is
+here to stay.</p><p>Thus, we believe, building a DeFi Blockchain on top of Bitcoin would
+bring the best out of both worlds: Bitcoin’s stability and immutability
+and DeFi-chain’s scalability and functionality.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="building-on-top-of-bitcoin">Building on Top of Bitcoin<a class="hash-link" href="#building-on-top-of-bitcoin" title="Direct link to heading">​</a></h3><p>One of the major challenges in new blockchains is creating the robust
+immutability available after a critical mass of users and blocks secure
+the chain. To provide immediate security and immutability of the
+blockchain, DeFiChain will be anchoring itself to the bitcoin
+blockchain. Every few minutes, DeFiChain saves its most recent Merkle
+tree to the Bitcoin blockchain, similar to how Rootstock (Turing
+Complete Smart contracts secured by Bitcoin <a href="https://www.rsk.co/" target="_blank" rel="noopener noreferrer">https://www.rsk.co/</a>) is
+planning on connecting to Bitcoin. In this fashion, the most recent
+chain is always fully secure and immutable, and can be checked against
+the most recent record anchored to Bitcoin. Over time, DeFiChain will
+space out the anchors at larger intervals. This anchoring mechanism
+ensures provably immutable records from day one and defends against
+attacks, hackers and vulnerabilities that can cause concern in emerging
+chains.</p><p>At the same time DeFiChain keeps its own consensus mechanism and
+function set, allowing for all those characteristics that Bitcoin does
+not inherently have. This is achieved by DeFiChain being a dedicated
+non-Turing-complete blockchain, designed specifically for the
+decentralized finance (DeFi) industry built on top of Bitcoin. DeFiChain
+provides full functionality for this specific segment of the DLT
+community, sacrificing other types of functionality for simplicity,
+rapid throughput and security.</p><p>DeFiChain utilizes a completely decentralized Proof-of-Stake mechanism
+allowing for:</p><ul><li>a massive scalable and energy conserving consensus.</li><li>fast transactions and high security</li><li>ability to create a variety of DeFi apps based on one chain, rapidly
+and with very low attack surface</li><li>multi-token support on one chain through decentralized wrapped token
+technology.</li><li>decentralized governance</li><li>independence of other financial systems and financial instruments.</li><li>fully liquid investments with no minimum size of investments, and no
+minimum lock-up periods</li></ul><p>Unlike Ethereum or other turing-complete blockchains, DeFiChain is not a
+general-purpose blockchain, and commands outside the basic set of
+functions are not allowed. Limiting the allowed commands on purpose
+provides a dramatically reduced attack surface for smart contracts,
+eliminating the obvious breaches that are made possible when programmers
+need to design complex coding for these functions. The details of these
+will be described in the next section.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="benefits-of-defichain-summary">Benefits of DeFiChain: Summary<a class="hash-link" href="#benefits-of-defichain-summary" title="Direct link to heading">​</a></h3><ul><li>Development of a variety of financial operations &amp; vehicles for
+cryptocurrency economy.</li><li>High throughput for all transactions</li><li>Safer, more secure blockchain specifically for decentralized finance..</li><li>Rapid development of dApps for decentralized finance.</li><li>Peace of mind that the blockchain is not used for any types of
+non-financial dApps, thus decisions of Foundation and core developers
+are focused 100% on decentralized financial use-cases and nothing
+else.</li><li>Rapid development of dApps with dedicated calls specifically for
+finance applications.</li><li>Minimal attack surface of financial smart contracts developed on the
+platform.</li><li>Reliable governance (off-chain and on-chain).</li><li>Highly immutable – by periodic anchoring to Bitcoin blockchain.</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="initial-dappsets">Initial dAppSets<a class="hash-link" href="#initial-dappsets" title="Direct link to heading">​</a></h3><ul><li>The initial function set includes:</li><li>Decentralized lending</li><li>Decentralized wrapping of tokens</li><li>Decentralized pricing oracles</li><li>Decentralized exchanges</li><li>Transferable debts and receivables</li><li>Decentralized non-collateralized debt</li><li>Asset tokenization</li><li>Distribution of dividends</li></ul><p>This chapter provides an overview of each of these functions and the
+following chapter covers the technical details in how this is achieved.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="decentralized-lending">Decentralized Lending<a class="hash-link" href="#decentralized-lending" title="Direct link to heading">​</a></h3><p>Decentralized lending allows individuals and groups to borrow and lend
+without the intervention of a bank. Through collateralized systems,
+decentralized lending on Ethereum reached over a quarter of a billion
+dollars in 2018.</p><p>All of these systems are based on Ethereum, meaning they are addressing
+only 15% of the market based on market capitalization. The DeFi platform
+will be addressing the entire 100% of the market by leading with
+Bitcoin, but also including the entire market through wrapping and
+pooling as described below.</p><p>The major decentralized lending platforms (Compound, Dharma, dYdX, and
+Maker) provide lending at rates ranging from 0.5% through 6%. Because
+everything is managed through smart contracts, the overhead of banks is
+eliminated, and the platforms are able to provide much better rates than
+banks. As these types of decentralized lending services become safer,
+it’s likely the market will also see an increase in peer-to-peer lending
+opportunities through dedicated applications.</p><p>The power of decentralized lending lies in the market efficiencies
+available by eliminating the middlemen and administration involved in
+lending. Furthermore, with investors concerned about minimal or even
+negative interest rates, decentralized lending protects the investors
+from that potentiality, providing market rate interest while giving
+borrowers better rates than they can get in the existing financial
+markets. Given the magnitude of credit and the role it plays in the
+economy as a whole, decentralized lending offers the potential for many
+more initiatives to borrow money based on open markets and favorable
+conditions. Easier access to lending translates into a faster-growing
+economy.</p><p>Initial implementations of decentralized lending are fully
+collateralized, and because of the volatility of cryptocurrency, most
+platforms require double or more collateral on loans. This allows people
+to take loans based on cryptocurrency they hold. They can manage their
+cash flow problems without having to sell their crypto holdings, and
+meanwhile get favorable conditions on the loan.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="decentralized-wrapping-of-tokens">Decentralized Wrapping of Tokens<a class="hash-link" href="#decentralized-wrapping-of-tokens" title="Direct link to heading">​</a></h3><p>An important issue for DeFi is the ability to work with a variety of
+cryptoassets, directly, on-chain. While the transaction on the chain is
+done via the native \$DFI coin, DeFiChain can use Bitcoin, Ethereum,
+ERC-20, or any other cryptoasset through wrapping.</p><p>Wrapping allows the utilization of any digital asset such that the
+underlying asset is maintained, but it can transact on a different
+blockchain. DeFiChain provides a decentralized wrapping mechanism which
+allows the owner of the crytpoasset to maintain pegging to the asset and
+utilize a trustless wrapping mechanism that does not rely on any third
+party as a guarantor of the wrapping or asset. The wrapped tokens can be
+easily exchanged for their original value on their respective
+blockchain.</p><p>Creating a wrapped token on DeFiChain is a rewarded activity, such that
+there is incentive for cryptocurrency holders to create wrapped tokens
+on the DeFi network as a form of rewarded decentralized financial
+investment.</p><p>Wrapping is a key capability of DeFi due to the need for
+interoperability of different types of cryptocurrencies and assets. To
+date, there are no interoperability standards between different
+currencies, and the only way to interoperate between currencies is by
+using wrapping or collateralization, which has to be provided by a third
+party. The entire point of decentralization is that people do not need
+to trust an authority, yet, today that is the main way that investors
+can interoperate between Bitcoin and Ethereum without converting from
+one coin to the other. The Polkadot protocol provides a platform for the
+development of interoperable apps, but not specifically for DeFi. As a
+new protocol, it is yet to be seen how it will be leveraged.</p><p>Without wrapping, holders would need to convert their cryptoasset to the
+DeFi currency in order to use the services offered. Obviously, for most
+investors, that’s unacceptable. The investor has put their money into
+Bitcoin, or Ethereum, or whatever else, because that is the currency
+they want to hold. The main purpose of DeFiChain is to enable financial
+transactions in any type of crypto asset, such that people can use the
+assets and coins they hold, as currency for investment in other types of
+financial vehicles.</p><p>The decentralized wrapping function is crucial in allowing people to
+hold any asset and perform investments in another currency. So, for
+example, someone holding Bitcoin could make a loan to someone who wants
+to borrow ETH, or someone who wants to hedge against the cryptocurrency
+they have could do so using a wrapping function to use some of their
+assets to purchase options in other types of assets.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="decentralized-pricing-oracles">Decentralized Pricing Oracles<a class="hash-link" href="#decentralized-pricing-oracles" title="Direct link to heading">​</a></h3><p>DeFiChain will include pricing oracles to collect data from outside
+blockchains. Oracles are used to collect data such as pricing of other
+cryptoassets
+<a href="https://cointelegraph.com/explained/blockchain-oracles-explained" target="_blank" rel="noopener noreferrer">(link)</a>.
+Oracles are an important way for blockchains to collect accurate
+information from both other blockchains and from non-crypto markets
+<a href="https://hackernoon.com/oracles-help-smart-contracts-resolve-subjective-events-d81639d8291c" target="_blank" rel="noopener noreferrer">(link)</a>.</p><p>Participating as an oracle allows earning of tokens based on the
+accuracy of the oracles. The built-in oracle function will allow smart
+contracts to determine the number of oracles, consensus percentage, and
+the parameters for rewarding oracles for the data they provide.</p><p>Oracles are eventually meant to be decentralized. However, DeFiChain
+will be launched with a few appointed trusted pricing oracles that
+periodically submit pricing data from trusted source onto DeFiChain.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="decentralized-exchanges">Decentralized Exchanges<a class="hash-link" href="#decentralized-exchanges" title="Direct link to heading">​</a></h3><p>The decentralized exchange function will allow atomic swap of
+cryptocurrencies in a peer-to-peer fashion
+<a href="https://en.wikipedia.org/wiki/Decentralized_finance#Decentralized_exchanges" target="_blank" rel="noopener noreferrer">(link)</a>. The
+decentralized exchange function matches people for trading directly,
+without the need to buy and sell currency through an exchange. Using
+decentralized exchange reduces the risks associated with using
+exchanges, and ensures that the cryptoasset doesn’t leave the
+custodianship of the token-holders. It also removes the risk of
+custodianship from the exchange itself, because the mechanism is
+peer-to-peer based on an agreed-upon price or on the market price at the
+time of the exchange.</p><p>While a number of decentralized exchanges are available on the market
+today <a href="https://coinsutra.com/best-decentralized-exchanges-dex/" target="_blank" rel="noopener noreferrer">(link)</a>,
+DeFiChain solution allows integration of atomic swap capabilities in
+third-party applications by creating a decentralized exchange as a
+service.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="transferable-debts-and-receivables">Transferable Debts and Receivables<a class="hash-link" href="#transferable-debts-and-receivables" title="Direct link to heading">​</a></h3><p>DeFiChain will offer a set of calls to work with transferable debts and
+receivables. In the centralized finance world, debts and accounts
+receivable can only be managed through financial institutions that
+handle loans. The lack of transparency of these transferable debts was
+one of the factors leading to the financial crisis of 2008.</p><p>For small and medium enterprises, this can be a particularly powerful
+tool. For example, Jane’s widget factory supplies widgets to a large car
+manufacturer, but the car manufacturer pays for those widgets on a basis
+of invoice +60. Meanwhile, Jane has to pay for the materials to produce
+the widgets, and, of course, regular salaries to her workers on a
+monthly or weekly basis. The car manufacturer will pay the invoice, but
+not in time for Jane to pay all of her expenses. Without Defi, Jane
+needs to go to the bank and pay whatever interest rates they demand,
+because she has no alternatives. The transferable receivables function
+would allow anyone to offer Jane a loan based on the receivables. Since
+many people would be able to see that the car manufacturer is a low-risk
+customer, and that they will pay their invoices, anyone who wants can
+make an offer to Jane for a better rate than the bank, creating a
+competitive market for debts and receivables based on the real risk and
+market assessment of that risk. Jane now can get a loan with great
+rates, and the lenders, likewise get excellent returns on their loans,
+despite the fact that they are loaning the money for only 30-60 days.</p><p>Blockchain adds transparency to the exchange of debts and loans based on
+receivables or other types of financial promises. DeFiChain will include
+the capability for organizations to create smart contracts that allow
+straightforward investment in such assets, so that peer-to-peer loans
+can be made without the need for a financial institution to guarantee
+these types of financial assets.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="decentralized-non-collateralized-debt">Decentralized Non-Collateralized Debt<a class="hash-link" href="#decentralized-non-collateralized-debt" title="Direct link to heading">​</a></h3><p>In the future, it will be possible to provide non-collateralized loans
+based on the reputation and other factors about borrowers. Through
+different forms of verifiable credentials, and records of an
+individual’s borrowing and repayment history, non-collateralized systems
+can be developed. Many of the identity solutions being developed today
+are looking at anonymous and pseudonymous reputation-reporting systems,
+based on a Decentralized Identifier (DID) issued by the individual, and
+Verifiable Credentials (VC) issued by known authorities who are
+reputable to provide information about the individual’s credit history.</p><p>The appropriate reputation based systems and risk assessment systems
+will need to be built out. While this will take time, perhaps years, it
+is foreseeable that this kind of system could supplement or replace
+today’s credit ratings scores.</p><p>Another potential application of this feature would be the ability to
+create non-collateralized decentralized stablecoins. The success of DAI
+and MakerDAO show the desirability of pegged stablecoins, yet the high
+level of collateralization is a deterrent to creating more such
+projects. It is feasible that through market mechanisms and staking,
+decentralized non-collateralized stablecoins can be created.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="asset-tokenization">Asset Tokenization<a class="hash-link" href="#asset-tokenization" title="Direct link to heading">​</a></h3><p>Asset tokenization is the representation of an asset, such as real
+estate or company equity, in immutable tokens on the blockchain
+<a href="https://www2.deloitte.com/lu/en/pages/technology/articles/tokenization-assets-disrupting-financial-industry.html" target="_blank" rel="noopener noreferrer">(link)</a>.
+This particular area of decentralized finance has tremendous potential
+and is one of the most exciting areas of investment for holders of
+cryptocurrency
+<a href="https://www.forbes.com/sites/laurencoleman/2019/04/25/heres-why-interest-in-tokenizing-assets-is-starting-to-surge/#2ddeec4640a5" target="_blank" rel="noopener noreferrer">(link)</a>.</p><p>While several attempts have been made at asset tokenization in the
+blockchain space, most of them have pivoted and now provide services not
+directly related to asset tokenization (LAtoken, Etherparty). Tokeny and
+Tokenize-IT advertise themselves as tokenization platforms, but as of
+the writing of this paper, their processes are still fairly manual, and
+are heavily reliant on specific localities and regulatory requirements
+for those specific jurisdictions. Other blockchains, such as Tezos, have
+been mentioned as good platforms for asset tokenization, but, as with
+other multi-use blockchains, the Turing-complete set of commands will
+create complex smart contracts that are unnecessary when using
+DeFiChain.</p><p>DeFiChain will provide a module specifically designed for asset
+tokenization, and will be particularly easy to use to tokenize assets
+such as company equity, real estate, and other valued holdings.</p><p>Recently (October 2019), the Lichtenstein Blockchain law created the
+legal basis upon which any asset can be tokenized and legally bound to
+tokens or “containers” that represent the right to the asset. The law is
+precise in its wording, describing how a container issued by a trusted
+party now can hold the legal rights to the disposal over the asset.
+Disposal over the asset is distinct from ownership or rights to the
+asset, or even control as a specific concept. The careful wording of
+this law is a breakthrough for everyone in the world of asset
+tokenization, because it will now allow someone to go to a court of law
+with a token and expect to have legal legitimacy for assets that are
+tokenized (as long as the authority granting the token is recognized as
+a trusted authority to do so). It also opens up a space for DeFiChain to
+apply for this trusted status, such that the Asset Tokenization
+capability described here can be offered as a decentralized, legal and
+authorized capability that people can trust, without having to depend on
+any centralized authority.</p><p>For more information on this law, please see Liechtenstein’s website at
+<a href="https://liechtensteinusa.org/article/liechtensteins-parliament-approves-blockchain-act-unanimously" target="_blank" rel="noopener noreferrer">https://liechtensteinusa.org/article/liechtensteins-parliament-approves-blockchain-act-unanimously</a></p><p>Examples of assets people can now tokenize using the blockchain:</p><ul><li>Securities, such as ETF investing, stocks and shares.</li><li>Shares in privately held companies.</li><li>Energy and income generating devices, such as wind turbines, solar
+farms, satellites.</li><li>Ownership in food means of production (new forms of cooperative farms
+where non-farmers could own food supply instead of commodities traded
+on exchanges)</li><li>Self-driving cars, vending machines, ATMs, pinball machines, and other
+types of revenue-generating self-regulating devices.</li><li>DAOs (Distributed Autonomous Organizations).</li><li>Small real estate investments (time shares, short-term rental
+apartments, etc.)</li><li>Large real estate investments (airports, amusement parks, apartment
+complexes, business parks)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="distribution-of-dividends">Distribution of Dividends<a class="hash-link" href="#distribution-of-dividends" title="Direct link to heading">​</a></h3><p>Any tokenized asset with return on investment can use the dividends
+distribution module to create smart contracts that pay out returns on
+the investment automatically. Using DeFiChain will allow a leap in the
+functionality of dividends distribution. It will be possible to
+implement models similar to today, where payouts are performed on a
+weekly, monthly, or quarterly basis, or models where payouts are on a
+daily, hourly or even minute-by-minute basis.</p><p>Distribution of dividends would be relevant in any type of tokenized
+asset, as described above. For example, today, a municipal government
+might do a bond issue to invest in a wind turbine to supply electricity.
+The government would take care of everything, and repay that bond
+according to the schedule. With distribution of dividends, the community
+could purchase the wind turbine directly, and distribute the dividends
+to the investors in the wind turbine. Instead of going through the
+administration required through the centralized authority (government),
+every citizen who wanted to could invest in that wind turbine, and
+dividends would be paid according to each person’s contribution to that
+investment. Eliminating overhead and fair distribution of profits would
+be major benefits for the community owning the wind turbine. In this
+case, the wind turbine is a public good, but it could also simply be a
+private investment.</p><p>Any private investment could be run this way: a pinball machine,
+self-driving taxi, real estate investment, etc. Automatic distribution
+of dividends reduces the need for administration and overhead, as well
+as eliminating uncertainty about payouts and control by a centralized
+authority.</p><p>The need for joint dividend investing is becoming increasingly relevant
+with IoT. Devices are able to create tremendous value. A self-driving
+car will be able to provide taxi services. Vending machines, sensors,
+satellites, etc., are all potentially revenue-generating devices that
+people can own together and share in the profit of together, yet until
+now the legal and financial complexity of doing so has been prohibitive.
+DeFi can simplify those processes.</p><p>Similarly, distribution of profits for a private company can be
+implemented. One of the first experiments in this area is a DAO
+(Distributed Autonomous Organization) called dOrg. dOrg is a collection
+of programmers (as well as a sales/operations team) who co-own their
+software house. Distribution of salaries is through a DAO that functions
+as a multi-sig, such that every 2 weeks, the whole organization submits
+their payment requests for work contracted, and the team votes to pass
+one anothers’ salary requests. Inside dOrg, each person holds a
+“reputation” that represents the percentage of ownership each person has
+earned (they earn ownership according to the amount of work done since
+the inception of the company). But what will happen to the profit at the
+end of the year? Presumably, each individual will have to submit a
+request for their percentage of the profits, and everyone will have to
+vote on that, too, because the DAO does not allow for automated
+distribution of profits. Using DeFiChain, the team could easily
+implement a quarterly or annual function that would automatically
+distribute the profits of the company to each person, according to their
+holdings in the company. This scheme would work even for people who were
+active in the past, but are no longer active, so they aren’t in the DAO
+any longer, but they still hold a percentage based on their past
+contributions. Other contributors might be an investor who puts money
+into the company, but does not participate.</p><p>The examples above seem logical and straightforward, but today are
+extremely time-consuming and complex. People who want to make an
+investment together in companies, real estate, or other income-deriving
+assets type of dividend distribution today is complex and requires a lot
+of manual calculations. Through the DeFi Distribution of Dividends
+functionality, it becomes not just simple, but automatic for companies
+to distribute dividends to equity owners.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="defichain-design">DeFiChain Design<a class="hash-link" href="#defichain-design" title="Direct link to heading">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="design-parameters">Design Parameters<a class="hash-link" href="#design-parameters" title="Direct link to heading">​</a></h3><p>Looking at the business requirements from the chapter before, DeFiChain
+needs to meet the following requirements:</p><ol><li>Robust and secure: built on a proven and secure blockchain.</li><li>Fast and scalable.</li><li>Includes decentralized consensus mechanism.</li><li>Provides extensible smart contract support, without a
+Turing-complete instruction set.</li><li>As immutable as possible (Block anchoring enabled.) .</li></ol><p>Each of these design principles is described in detail below.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="1-robust-and-secure">1. Robust and Secure<a class="hash-link" href="#1-robust-and-secure" title="Direct link to heading">​</a></h4><p>Bitcoin Core is the most robust and longest running blockchain in the
+world. It has been operating with no disruptions since the genesis block
+in January 2009. Furthermore, from a security standpoint, Bitcoin core
+has proven itself to be most secure blockchain with no security
+incidents, while securing the crypto asset with the highest valuation in
+the world, that is, Bitcoin (BTC). As of this writing, Bitcoin Core
+successfully secures \$150 billion worth of crypto assets, or 68% of the
+crypto asset market capitalization.</p><p>The proven security and robustness of the Bitcoin Core made it the
+blockchain of choice for DeFiChain base for extension. DeFiChain is
+built based on a fork of Bitcoin Core 0.18, specifically v0.18.1.</p><p>DeFiChain will be written in C++, and the plan is to use other
+languages, such as Rust, in the future.</p><p>While DeFiChain is a new blockchain, basing it on a Bitcoin Core fork
+results in a chain that is easy to integrate with for exchanges and apps
+that support Bitcoin.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="2-fast-and-scalable">2. Fast and Scalable<a class="hash-link" href="#2-fast-and-scalable" title="Direct link to heading">​</a></h4><p>One of the proven disadvantages of the Bitcoin blockchain has been the
+slowness of transactions on the chain. Furthermore, scalability has
+become an issue as the number of blocks on the chain increase.</p><p>In order to implement a blockchain with the required speed and
+scalability, DeFiChain fork of Bitcoin Core will include the following
+improvements:</p><ul><li>Block time: 30 seconds</li><li>Block size: 16 MB</li></ul><p>These improvements provide a transaction rate of over 2,200 transactions
+per second (tps) while maintaining manageable compute and bandwidth
+requirements to allow for decentralized operations of DeFiChain.</p><p>The following table compares Bitcoin and its forks, as well as Ethereum,
+to DeFiChain performance:</p><table><thead><tr><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td>Block time (s)</td><td>Block size (MB)</td><td>Tx block space (% of block size)</td><td>Min tx size (B)</td><td>Avg tx size (B)</td><td>Txs in a block (max)</td><td>Txs in a block (avg)</td><td>Max tps</td><td>Average tps</td></tr><tr><td>Bitcoin Core</td><td>600</td><td>1</td><td>98%</td><td>220</td><td>500</td><td>4,561.45</td><td>20,07.04</td><td>7.6</td><td>3.35</td></tr><tr><td>Bitcoin Cash</td><td>600</td><td>10</td><td>98%</td><td>220</td><td>500</td><td>45,614.55</td><td>20,070.40</td><td>76</td><td>33.45</td></tr><tr><td>Bitcoin SV</td><td>600</td><td>32</td><td>98%</td><td>220</td><td>500</td><td>145,966.55</td><td>64,225.28</td><td>243.28</td><td>107.04</td></tr><tr><td>DeFi Chain</td><td>30</td><td>16</td><td>98%</td><td>220</td><td>500</td><td>72,983.27</td><td>32,112.64</td><td>2432.78</td><td>1,070.42</td></tr><tr><td>Block time (s)</td><td>Gas limit</td><td>Tx block space (% of block size)</td><td>Min tx size (gas)</td><td>Avg tx size (gas)</td><td>Txs in a block (max)</td><td>Txs in a block (avg)</td><td>Max tps</td><td>Average tps</td><td></td></tr><tr><td>Ethereum</td><td>13.5</td><td>10m0</td><td>100%</td><td>21k</td><td>60k</td><td>476.19</td><td>166.67</td><td>35.27</td><td>12.35</td></tr></tbody></table><h4 class="anchor anchorWithStickyNavbar_LWe7" id="3-decentralized-consensus-mechanism">3. Decentralized Consensus Mechanism<a class="hash-link" href="#3-decentralized-consensus-mechanism" title="Direct link to heading">​</a></h4><p>Bitcoin Core is using Proof-of-Work (PoW) as the consensus mechanism.
+DeFiChain leverages the best aspects of PoW, that is, using hashing of
+the staking node’s ID for block creation while focusing the majority of
+the consensus on Proof-of-Stake (PoS). The major improvement in the PoW
+mechanism for DeFiChain is that staking nodes can run without investing
+in high-end servers and ultra-fast bandwidth connections. Thus,
+DeFiChain is creating the potential for easier and faster
+decentralization of the mode ownership and infrastructure.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="4-non-turing-complete-smart-contracts">4. Non-Turing-complete Smart Contracts<a class="hash-link" href="#4-non-turing-complete-smart-contracts" title="Direct link to heading">​</a></h4><p>Decentralized financial transactions are implemented through smart
+contracts. For example to ensure that borrowers repay lenders, smart
+contracts implement the conditions of lending in the code. For smart
+contract development, DeFiChain will be adding opcode support for
+decentralized financial instruction sets. The DeFi opcode complements
+and works in tangent with the Script scripting language of the existing
+Bitcoin Core protocol.</p><p>The DeFi scripting language is called Recipe, denoting the language’s
+role in describing and allowing for decentralized financial contracts.</p><p>Bitcoin Script instruction words usually start with the prefix <code>OP_*</code>.
+Recipe instruction words carry the prefix <code>DF_*</code>.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="5-immutable-through-block-anchoring">5. Immutable through Block Anchoring<a class="hash-link" href="#5-immutable-through-block-anchoring" title="Direct link to heading">​</a></h4><p>While the common discussion of immutability is a binary conversation (a
+blockchain is either immutable or not), in fact, immutability is on a
+spectrum. The level of immutability of a blockchain is related to the
+cost of a rollback or “fork out” of mined blocks, also known as a 51%
+attack.</p><p>It takes time to amass significant miners or minters to make 51% attack
+costly enough that it is generally regarded as immutable, meaning that a
+new blockchain is automatically at a disadvantage when it comes to the
+immutability of the records. Some newer blockchains have been taking
+shortcuts to increase its immutability quality, typically by
+compromising on decentralization. For example, the chains may allow only
+delegated stakers chosen by the founders, or by making the blockchain
+permissioned instead of permissionless.</p><p>DeFiChain aims to maintain decentralization quality while maintaining
+immutability. To do so, DeFiChain will anchor its block to Bitcoin
+blockchain every few blocks. This further enhances the immutability of
+DeFiChain without any compromise to the decentralized nature of the
+chain.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="consensus-algorithm">Consensus Algorithm<a class="hash-link" href="#consensus-algorithm" title="Direct link to heading">​</a></h3><h4 class="anchor anchorWithStickyNavbar_LWe7" id="proof-of-stake">Proof-of-Stake<a class="hash-link" href="#proof-of-stake" title="Direct link to heading">​</a></h4><p>DeFiChain utilizes a Proof-of-Stake (PoS) algorithm similar to Bitcoin
+Core’s original Proof-of-Work (PoW) mining algorithm. While DeFiChain is
+choosing PoS over PoW, at the same time, DeFi technology retains the
+best of the tested and proven technologies that were developed in the
+Bitcoin Core blockchain.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="masternodes-for-staking">Masternodes for Staking<a class="hash-link" href="#masternodes-for-staking" title="Direct link to heading">​</a></h4><p>To run a masternode (staking node), stakers must hold a fixed amount of
+DFI, initially set at 1,000,000. Masternodes on DeFiChain participate in
+active transaction validations and block creations. The staking amount
+is intended to be lowered with the stability and maturity of blockchain
+to encourage further decentralization.</p><p>Each staking node can perform only 1 hash per second, with the nonce
+from Bitcoin Core PoW algorithm replaced by a staker’s UTXO.</p><p>A new block is mined if it satisfies the following condition:</p><p><code>SHA256({staker’s UTXO}, {current timestamp, in seconds}, {stake modifier}) &lt; {target}</code></p><p>The stakers check this requirement each second. If the block condition
+is less than the current target, then the stakers assemble and sign a
+new block.</p><p>Staker’s UTXO require 20 confirmations before it can be accepted as a
+stake.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="stake-modifier">Stake Modifier<a class="hash-link" href="#stake-modifier" title="Direct link to heading">​</a></h4><p>A stake modifier is a collective source of random entropy. Without a
+stake modifier, the future PoS kernel would be completely predictable. A
+good stake modifier needs to be neither predictable nor influance-able
+by stakers.</p><p>DeFiChain’s staker modifier is set to be
+<code>SHA256({previous stake modifier}, {masternode ID})</code>.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="validation-of-future-and-past-headers">Validation of Future and Past Headers<a class="hash-link" href="#validation-of-future-and-past-headers" title="Direct link to heading">​</a></h4><p>Unlike PoW, block header validation requires a stakes table. Headers get
+verified in batches before full blocks are downloaded, so the stakes
+table is used to verify future stakes.</p><p>To be able to verify future headers, the blockchain needs to apply an
+additional rule, so any change of the stakes database gets written right
+away, but takes effect only after 300 blocks. As a result, any node will
+be able to verify any block header against its current stake, if a block
+header isn’t further in the future (or in the past) than 300 blocks.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="nothing-at-stake-protection">Nothing at Stake Protection<a class="hash-link" href="#nothing-at-stake-protection" title="Direct link to heading">​</a></h4><p>For PoS blockchains, there’s no limit to how many conflicting blocks a
+staker may sign. As a result, stakers may stake for every possible fork
+or branch, which weakens the finality of a PoS blockchain. This problem
+is known as a double-sign and is not possible in PoW blockchains, where
+a miner cannot mine all the possible branches without splitting mining
+capability. In PoW, this represents an intrinsic economic penalty.
+However, PoS blockchains cannot apply an inherent economic penalty for
+signing conflicting blocks on different branches.</p><p>Therefore, in order to enhance the finality of DeFiChain, in PoS, it’s
+necessary to detect double-signs and penalize them through an explicit
+mechanism.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="detection-of-double-sign">Detection of Double-sign<a class="hash-link" href="#detection-of-double-sign" title="Direct link to heading">​</a></h4><p>Each block header has a sequence number as a number of blocks that a
+particular staker has minted before a particular block. If two blocks
+are minted with the same sequence number, it means that a staker has
+double-signed, even if the blocks have different ancestors, i.e. across
+branches.</p><p>During a block’s generation, a staker has the right to include the
+double-sign proofs into his block header in exchange for only half of
+the penalty.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="double-sign-penalty">Double-sign Penalty<a class="hash-link" href="#double-sign-penalty" title="Direct link to heading">​</a></h4><p>To be able to apply a penalty to stakers who double-sign, DeFiChain has
+to disallow immediate withdrawing of stake. Thus, when a deactivation
+transaction is confirmed, DeFiChain requires 3000 blocks to pass. At a
+block time of 30 seconds, 3000 blocks is equivalent to 25 hours.</p><p>The double-sign penalty is 10 times the block rewards, deducted from the
+collateral. This also disqualifies the stakers from further staking
+immediately. The staker wanting to get back to staking has to re-put in
+fresh stake UTXO of 1,000,000 DFI. Running the official DeFiChain node
+does not cause any unintentional or accidental double-sign. Double-sign
+happens only in cases of malicious intent.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="time-drift-attack">Time Drift Attack<a class="hash-link" href="#time-drift-attack" title="Direct link to heading">​</a></h4><p>The chain uses a maximum future block time of only approx. 5 seconds, to
+protect the chain from time drift attacks, where stakers set a block
+time too far ahead in the future, in order to claim a reward for
+themselves. DeFi also uses NTP time synchronization to allow for ongoing
+adjustment to the block time.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bitcoin-anchoring">Bitcoin Anchoring<a class="hash-link" href="#bitcoin-anchoring" title="Direct link to heading">​</a></h3><p>DeFiChain stakers publish blockchain block hashes periodically to the
+Bitcoin blockchain, providing public audit and block anchoring of
+DeFiChain to the strongest, most secure blockchain in the world.</p><p>Every 60 blocks (approximately 30 minutes), a staker gets the right to
+write the Merkle root of the previous block onto the Bitcoin blockchain.
+The information written is, specifically, the txid of the Bitcoin
+transaction, Bitcoin block header and Merkle proof containing the Merkle
+root onto the newly mined block. By doing so, the staker will be
+rewarded an extra block reward in DFI, incentivising nodes to regularly
+anchor all records to the Bitcoin blockchain.</p><p><img loading="lazy" src="/DeFiChain-Wiki/assets/images/Every-60-blocks-c7928b3e51a46627d98359805d95bcd1.png" width="1200" height="580" class="img_ev3q"></p><p>DeFiChain node will include a built-in Bitcoin Simplified Payment Verification (SPV) client.
+SPV clients sync the Bitcoin blockchain by downloading only block
+headers which is sufficient information for nodes to add and validate
+the anchors.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="defi-building-blocks">DeFi Building Blocks<a class="hash-link" href="#defi-building-blocks" title="Direct link to heading">​</a></h2><p>To achieve our goals of enabling decentralized finance transactions on
+DeFiChain, the following build blocks will be included as a base native
+components on DeFiChain.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="tokenization-as-a-defi-standard-token-dst">Tokenization as a DeFi Standard Token (DST)<a class="hash-link" href="#tokenization-as-a-defi-standard-token-dst" title="Direct link to heading">​</a></h3><p>The implementation of the features described in this whitepaper is
+performed with the use of standardized tokens. This chapter describes
+the mechanics of the tokens, interaction with other cryptoassets
+(tokens), and how they are used in DeFiChain.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="cross-chain-mechanics">Cross-chain Mechanics<a class="hash-link" href="#cross-chain-mechanics" title="Direct link to heading">​</a></h3><p>DeFiChain uses token standards to bring in external tokens to DeFiChain
+in a trustless manner and allow trustless financial contracts and
+trading of all major cryptoasset tokens. The token standards are similar
+to ERC20 on Ethereum and Omni on Bitcoin blockchain. Through this
+standard, DeFiChain allows tokenization of any assets.</p><p>On DeFiChain the standardized tokens are called DeFi Standard Token
+(DST). DST tokens are of two different types: DCT, created by users of
+the system, and DAT, which are asset-backed tokens created with the
+backing of cryptoassets.</p><p><img loading="lazy" src="/DeFiChain-Wiki/assets/images/Custom-token-b2849298967993fad38ae60ee90352ce.png" width="1200" height="576" class="img_ev3q"></p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="defi-custom-token-dct">DeFi Custom Token (DCT)<a class="hash-link" href="#defi-custom-token-dct" title="Direct link to heading">​</a></h3><p>DCTs are custom tokens that can be created by any user to represent any
+project or set of smart contracts implemented on DeFiChain. Any user can
+create such a DCT. To prevent abuse, creation of any proprietary DCT
+requires the user to lock up 1,000 DFI for the time that the tokens are
+issued. The DFI is returned when the tokens are revoked and the DCT is
+cancelled.</p><p>DCT tokens are not backed intrinsically by DeFiChain. They may be backed
+through an external mechanism, but it’s essential to note that DeFiChain
+does not intrinsically back them. An example on the Ethereum blockchain
+would be DGX, which is an ERC20 token backed by gold. Ethereum does not
+back DGX, although the token is created through ERC20. The Digix
+Foundation is accountable for the value of that token. Similarly, DCT is
+the DeFi parallel to ERC20 on Ethereum. Creation and issuance of tokens
+on DeFi is simplified and the potential for errors in the smart contract
+is eliminated, because creators of DCT can set only the parameters
+below, using an easy to use scripting interface.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="dct-parameters">DCT Parameters:<a class="hash-link" href="#dct-parameters" title="Direct link to heading">​</a></h4><ul><li>DCT ID: Unique blockchain identifier for the token.</li><li>Name: Name of the tokens.</li><li>Symbol: The ticker symbol for the tokens. The DCT protocol will
+provide a reference for ensuring the choice will be a unique symbol.</li><li>Decimal places: Divisible number of decimal places for the tokens.
+This cannot be changed once it is set.</li><li>Total initial supply: Initial issue of tokens during the event
+generated.</li><li>Initial distribution list: List of addresses for distribution of
+tokens.</li><li>Minting support: yes/no</li><li>Final supply limit (optional): Immutable total supply limit. If
+minting is supporting this will define the ceiling on how many tokens
+the token owner can mint in total (some may be reserved at this time).
+If this parameter is left blank, this is an unlimited supply token.
+This cannot be changed after the initial definition of the token.</li><li>Tradeability: yes/no. This is a one-way switch allowing the token
+owner to transfer tokens during initial distribution period and also
+to decide when a token is tradeable/movable. To ensure the
+decentralized nature of DCT, once “tradeability” is set to yes, the
+owner is no longer able to reverse the tradability of a token.
+Typically, when creating a token, this should be turned to “no” until
+the initial distribution is confirmed to be accurate.</li></ul><p>Using this interface, there is no need to have a smart contract
+developer, and there is no need for a security audit.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="defi-asset-token-dat">DeFi Asset Token (DAT)<a class="hash-link" href="#defi-asset-token-dat" title="Direct link to heading">​</a></h3><p>DeFi Asset Tokens (DATs) are backed in a decentralized manner. DATs on
+DeFiChain are tokens and crypto assets external of DeFiChain, such as:</p><ul><li>DBTC, backed by BTC</li><li>DETH, backed by ETH</li><li>DXRP, backed by XRP</li><li>DUSDT, backed by USDT</li><li>DBCH, backed by BCH, etc.</li></ul><p>New DATs are introduced to the system through voting by masternodes.
+This ensures that only assets that gather the most interest amongst
+DeFiChain users get introduced.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="economic-pegging-of-dats">Economic Pegging of DATs<a class="hash-link" href="#economic-pegging-of-dats" title="Direct link to heading">​</a></h3><p>The goal of DAT is to have it represent the native asset on the other
+blockchains, e.g. 1 DBTC should represent 1 BTC.</p><p>There are two approaches to this:</p><ol><li>Stablecoin approach<ul><li>For every single issued 1 DBTC, 1 BTC has to be locked up in an
+address or a smart contract.</li><li>While this would help to build a guarantee to DBTC, it introduces
+some other issues – country-party risks and affect the
+decentralized nature of DeFi.</li></ul></li><li>Economic pegging<ul><li>By providing a strong guarantee that the DAT representing an asset
+has its price closely tracking the native asset, i.e. by holding
+DBTC, one can have a good confidence that the value of DBTC will
+track that of BTC.</li></ul></li></ol><p>In order for us to achieve economic pegging, the following building
+blocks are built natively on DeFiChain:</p><ol><li>Loan Contract</li><li>Decentralized Exchange (DEX)</li><li>Cross-chain Exchange (XCX)</li><li>Pricing Oracles</li></ol><p><img loading="lazy" src="/DeFiChain-Wiki/assets/images/Dat-overview-d26d54f9b0402d9375482e75d3dfb1ba.png" width="1200" height="608" class="img_ev3q"></p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="loan-contract">Loan Contract<a class="hash-link" href="#loan-contract" title="Direct link to heading">​</a></h3><p>Loan Contract is designed to allow the owner of the contract to take a
+collateralized loan against collateral locked in the contract. Each loan
+contract is unique to every owner (address) on DeFiChain.</p><p>Any user can open a loan contract on DeFiChain, free of charge. The user
+who opens a loan contract owns the specific contract. This ownership,
+however, is transferable.</p><p>Once a loan contract is opened, DFI can be sent to fund the loan
+collateral. Once a loan contract is funded, it allows the owner to take
+out a loan by minting DATs up to a certain collateralization ratio. The
+minimum collateralization ratio can be adjusted by DeFiChain DAO and
+starts at 150%. In other words, \$1,500 worth of collateral (in DFI),
+allows the loan contract owner to take out a maximum of \$1,000 in
+loans.</p><p>Minted DATs are subject to a floating borrowing rate. A loan contract
+has no expiry date. The owner is able to take out a loan for as long as
+they desire, as long as the collateralization ratio stays above 150% at
+all times.</p><p><code>Collateralization ratio = Collateral / (Loan + accrued interest)</code></p><p>If a loan contract falls below the 150% collateralization ratio at any
+point in time, its collateral is liquidated via Decentralized Exchange
+(DEX) to pay off accrued interest. There will be an additional 15%
+liquidation penalty to discourage loan contracts from having to be
+liquidated. It is the responsibility of the loan contract owners to
+monitor the collateralization ratio to prevent an unwanted liquidation.</p><p>If a loan contract is close to minimum collateralization ratio, the
+owner must take one of the following steps to prevent liquidation and
+having to incur 15% liquidation penalty:</p><ol><li>Deposit more DFI into the loan contract, thereby increasing its
+collateral and collateralization ratio.</li><li>Pay back some of the loan (or accrued interest), thereby decreasing
+the loan contract’s loan amount and increasing its collateralization
+ratio.</li></ol><p>Closing a loan contract entitles its owner to get back all 100% of its
+collateral. To close a loan contract, the owner has to pay back the loan
+in full, plus the accrued interest in its entity in the DAT (e.g. DBTC).
+Upon liquidation of the loan, the minted DAT is burned, and the initial
+minted DAT and the interest will be converted into DFI via the DeFi DEX
+described in this paper.</p><p>While this concept is not new to the DeFi system, what is novel is the
+possibility to collateralize any asset due to DeFiChain’s nature.</p><ol><li>Alice opens a loan contract and funds it with 150k DFI.</li><li>With DFI at \$0.10 spot rate, Alice’s loan contract now has \$15,000
+worth of collateral.</li><li>At the minimum collateralization ratio of 150% she can take out a
+maximum of \$10,000 worth of DBTC, which is pegged to BTC spot
+price.</li><li>Since the DBTC loan via loan contract accrues interest, and DBTC and
+the DFI price fluctuate, Alice decides to only take out \$5,000
+worth of DBTC, i.e. 0.5 DBTC, giving her loan contract a
+collateralization ratio of: 15000/5000 = 300%, well above 150%.</li><li>Over-collateralization allows for some room for price movements of
+DBTC. If the BTC price increases to \$15,000, Alice’s loan of 0.5
+DBTC would now be worth \$7,500. Her loan contract now has a
+collateralization ratio of: 15000/7500 = 200%, still above 150%, so
+liquidation would not be triggered even in the case of this type of
+price shift.</li><li>The interest rate for each DAT loan differs. Assuming the DBTC loan
+rate is 5% annually, taking out a loan for a year, in order to close
+her loan contract and to fully redeem her initial 150k DFI, Alice
+has to pay back 0.5 DBTC <!-- -->*<!-- --> 1.05 = 0.525 DBTC by the end of the
+year.</li></ol><p><img loading="lazy" src="data:image/png;base64,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" width="1200" height="384" class="img_ev3q"></p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="decentralized-exchange-dex">Decentralized Exchange (DEX)<a class="hash-link" href="#decentralized-exchange-dex" title="Direct link to heading">​</a></h3><p>The DeFi internal DEX provides decentralized trading for all DeFi tokens
+and DFI itself, which means that all tokens: DFI and DCT (DAT and DCT)
+can be listed on DeFiChain DEX. DEX will initially launch with DFI as
+the base trading pair, providing markets such as DBTC/DFI, DETH/DFI,
+DUSDT/DFI, etc. With increasing volume, other base trading pairs can be
+introduced, subject to a DAO approval, providing markets such as
+DETH/DBTC, DFI/DUSDT, etc.</p><p>DEX on DeFiChain operates without the need to pass custody to any
+intermediaries. Users are able to trade on their own in a trustless
+manner. One of the key differentiator about DeFiChain as compared to
+many other decentralized financial solutions is that DeFiChain is not
+only a consensus protocol facilitating DeFi, it is also comes with a
+very simple to use client user interface (UI) that allows users to
+interact directly on the blockchain without any intermediaries.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="cross-chain-exchange-xcx">Cross-chain Exchange (XCX)<a class="hash-link" href="#cross-chain-exchange-xcx" title="Direct link to heading">​</a></h3><p>A user holding DBTC might be interested in holding of actual BTC instead
+of a DeFi pegged BTC token (DBTC).</p><p>The DeFi Cross-chain Exchange (XCX) allows anyone to do exactly that.
+XCX allows listing of DATs with its native tokens, e.g. DBTC for BTC,
+DETH for ETH, DXRP for XRP. Actual transaction is carried out through
+the trustless swap of both tokens commonly known as atomic swap. Atomic
+swap guarantees that either both parties receive their exchanged coins,
+or neither transactions go through – providing a strong cryptographic
+guarantee that no one party is able to cheat the other.</p><p>We use the following terms to describe the parties in the XCX:</p><ul><li>Borrower: a person owning a DAT and wanting to get a native coin, e.g,
+a person who has DBTC and wanting to obtain BTC through the XCX.</li><li>Lender: a person owning BTC and receiving a DAT through the XCX,
+either temporarily for the duration of the XCX, or permanently, if the
+XCX expires.</li></ul><p>XCX orders contain several parameters that can be freely decided by the
+market marker (first lister of an order). For selling of DBTC for BTC
+(i.e. someone who’s interested in receiving actual BTC), the parameters
+are:</p><ul><li>Amount: Amount of coin/DAT a seller is looking for and how much DAT is
+locked up.</li><li>Premium: Amount of additional fee a coin seller stands to make from
+this trade (Premium is listed per unit amount, thus allowing for
+partial fulfillment of trade orders). Together with expiry, it can
+also be considered as lending interest to the buyer. The Premium is
+paid instantly once an XCX is matched, before expiry of the lending
+contract. Premium can be positive (+) or negative (-) depending on
+supply and demand.</li><li>Guarantee: An optional additional amount in DBTC and/or DFI that is
+locked in the XCX that will provide an extra incentive for a lender as
+it resolves in either of the following two outcomes: a. Released back
+to the borrower should the BTC amount be paid up before expiry. b.
+Release to the lender should the contract expire without the borrower
+making a payment thereby constituting an extra incentive.</li><li>Expiry: Time when the contract expires, it can be set as a date in the
+past for immediate settlement, i.e. no lending, but straight-out swap.</li><li>Native token address: Address to send BTC to for executing the
+contract.</li></ul><h4 class="anchor anchorWithStickyNavbar_LWe7" id="first-example">First Example:<a class="hash-link" href="#first-example" title="Direct link to heading">​</a></h4><p>Alice has 1 DBTC and wants 1 BTC so she can trade on a centralized
+exchange.</p><p>Bob has 1 BTC that he does not need for 1 month, hoping to generate some
+lending interest during that period of time.</p><ol><li>Alice lists the following XCX order:</li></ol><ul><li>Amount: 1 DBTC/BTC</li><li>Premium: 8,000 DFI</li><li>Guarantee: 0.1 DBTC</li><li>Expiry: December 31, 2019 – approx. 1 month.</li><li>Address: Alice lists her BTC deposit address</li></ul><ol><li>Bob accepts the offer by sending a transaction on DeFiChain.</li><li>Bob receives a confirmation on DeFiChain that his order is accepted.
+In case there are multiple order acceptance transactions.</li><li>Bob sends 1 BTC to Alice’s BTC deposit address as listed in the XCX
+order and sends a transaction on DeFiChain with the BTC txid as
+receipt. Bob also specifies a receiving BTC address on the same
+transaction for Alice to repay the 1 BTC later on.</li><li>Multiple DeFiChain stakers with BTC bridges confirm that Bob has
+indeed sent the amount as agreed and the that the txid is valid.</li><li>XCX’s premium of 8000 DFI is instantly released to Bob. Bob can do
+what he wants with the DFI straight away with no strings attached.
+It is Bob’s to keep for this trade.</li></ol><p>Now, Alice has 1 BTC and Bob has 8000 DFI. Alice also has 1 DBTC locked
+up on XCX order and Bob is the beneficiary of that BTC. Note that the
+beneficiary of an XCX is transferable, i.e. Bob is able to sell the XCX
+with Alice to a third party (this allows for decentralized debt selling
+and tokenization of receivables).</p><p>Should Alice wish to redeem her 1 DBTC from the XCX before the time is
+up, Alice will send Bob the 1 BTC she borrowed earlier to Bob’s address
+specified in the XCX and send the acknowledgment on DeFiChain. Upon
+confirmation by stakers with a BTC bridge, the XCX contract now closes
+and Alice gets her 1 DBTC back, having paid 8,000 DFIs as interest.</p><p>Bob gets his 1 BTC back (keeping his 8000 DFI as lending interest).</p><p>Should Alice wish not to redeem the XCX before the expiry, Bob gets to
+keep Alice’s 1 DBTC.</p><p>Alice gets to keep the 1 BTC (minus 8000 DFI interest) and Bob now gets
+1 DBTC (plus 8000 DFI interest). Additionally Bob received the Guarantee
+of 0.1 DBTC providing him with an extra 10%.</p><p><img loading="lazy" src="/DeFiChain-Wiki/assets/images/Alice-bob-xcx-26c4ae206f92d0add800c8e11ea18b87.png" width="1200" height="988" class="img_ev3q"></p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="second-example">Second Example:<a class="hash-link" href="#second-example" title="Direct link to heading">​</a></h4><p>In a second scenario Charlie has 1 DBTC and wants 1 BTC. He has no
+intention of paying it back and getting his DBTC back. He also does not
+want to include an additional guarantee, so he adds a higher Premium and
+an immediate Expiry. Charlie would list the following XCX order:</p><ul><li>Amount: 1 DBTC/BTC</li><li>Premium: 12000 DFI</li><li>Guarantee: None</li><li>Expiry: Immediate</li></ul><p>Dave, notices the order has no guarantee and an immediate expiry and
+knows that this XCX order expires instantly. He happily provides the
+counter-trade to Charlie, giving him 1 BTC and receiving immediately 1
+DBTC + 12000 DFI.</p><p>A Guarantee is therefore not a must, but a potential incentive for the
+lender to know whether he/she has to exchange the received funds
+afterwards or whether he/she will get the original native coins back.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="pricing-oracles">Pricing Oracles<a class="hash-link" href="#pricing-oracles" title="Direct link to heading">​</a></h3><p>A Pricing Contract is a smart contract on DeFiChain allowing multiple
+trusted and appointed parties to submit periodic price feeds of DATs and
+DFI.</p><p>Multiple Pricing Contract oracles are chosen by the DeFi DAO (explained
+in the next chapter).</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="use-case-examples">Use Case Examples<a class="hash-link" href="#use-case-examples" title="Direct link to heading">​</a></h3><p>Following are examples of how the technical implementations of DeFiChain
+can be used. This is just a list of examples. Many other applications
+can be implemented as well.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="leveraging-a-long-position">Leveraging a Long Position<a class="hash-link" href="#leveraging-a-long-position" title="Direct link to heading">​</a></h4><ol><li>Alice has 100k DFI. She likes the prospects of DFI and wants to
+leverage her position.</li><li>Alice opens a loan contract on DeFiChain and takes out a loan in
+DUSDT.</li><li>Alice sells DUSDT for more DFI.</li></ol><p>Thus Alice can obtain a compounded long position on DFI without putting
+in extra money.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="shorting-a-coin">Shorting a Coin<a class="hash-link" href="#shorting-a-coin" title="Direct link to heading">​</a></h4><ol><li>Bob wishes to short coin XXX. Bob has DFI.</li><li>Bob opens a loan contract on DeFiChain, takes out a loan in DXXX.</li><li>Bob can now either sell DXXX for DFI or DUSDT on DeFi DEX, or
+convert DXXX via XCX to sell XXX on a non-DeFi-internal exchange.</li><li>Once Bob wishes to close his short position, Bob buys back XXX
+(or DXXX) from the market, hopefully at a lower rate, closes his
+loan contract and thus completes his short of XXX.</li></ol><h4 class="anchor anchorWithStickyNavbar_LWe7" id="getting-a-loan-borrowing">Getting a Loan (Borrowing)<a class="hash-link" href="#getting-a-loan-borrowing" title="Direct link to heading">​</a></h4><ol><li>Charlie has DFI, but he needs short-term cashflow of another
+coin XXX. Charlies does not want to sell DFI for it nor does he want
+to spend fiat money to buy this coin.</li><li>Charlie takes a loan via loan contract on DeFiChain for DXXX and
+converts it to XXX.</li><li>Once he wishes to settle his loan, Charlie simply purchases XXX/DXXX
+and close his loan contract.</li></ol><h4 class="anchor anchorWithStickyNavbar_LWe7" id="lending-a-coin-for-cashflow">Lending a Coin for Cashflow<a class="hash-link" href="#lending-a-coin-for-cashflow" title="Direct link to heading">​</a></h4><ol><li>Dave has BTC that he does not need in the short-term. Dave wishes to
+generate some interest (cashflow) by lending BTC.</li><li>Dave lists BTC on XCX specifying his BTC amount, desired premium
+(interest rate) and expiry (period that he does not need his BTC).</li><li>Once a counterparty takes up Dave’s listing, Dave receives an
+instant premium in DFI.</li><li>Upon expiry, Dave would either receive his BTC back, or receive DFI
+with an additional Guarantee thereby netting more than his original
+BTC.</li></ol><hr><h2 class="anchor anchorWithStickyNavbar_LWe7" id="dfi-coin">\$DFI coin<a class="hash-link" href="#dfi-coin" title="Direct link to heading">​</a></h2><p>The \$DFI coin will be the integral unit of account in DeFiChain
+ecosystem.</p><p>The DeFiChain Foundation will be issuing the DeFi utility token, DFI,
+capped at 1,200,000,000 (1.2 billion) for throughout its lifetime. There
+will only ever be 1.2 billion DFIs created.</p><p>DFI is divisible up to 8 decimal places.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="dfi-coin-utility">\$DFI coin Utility<a class="hash-link" href="#dfi-coin-utility" title="Direct link to heading">​</a></h3><ul><li>DFI is used for fee payment for all transactions and smart contracts
+on DeFiChain.<ul><li>Fee payment for decentralized exchange transactions</li><li>Fee payment for token transfers</li></ul></li><li>Fees payment for DeFi activities:<ul><li>DEX fees</li><li>XCX fees</li><li>Lending loan interests payment</li><li>etc.</li></ul></li><li>Collateral for borrowing of other cryptoassets on DeFiChain.</li><li>1,000,000 DFI is required to run a staking node for DeFiChain.</li><li>1,000 DFI is required to create a DCT. This is refundable upon
+destruction of the DCT.</li><li>500 DFI is required to submit a proposal for DFI the community budget.
+This is non-refundable.</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="fees-from-defi-activities">Fees from DeFi Activities<a class="hash-link" href="#fees-from-defi-activities" title="Direct link to heading">​</a></h3><p>Fees from DeFi activities on DeFiChain are burned and redistributed
+through new token minting over a period of time as laid out below. This
+ensures that DeFi stakers enjoy the benefits of earning rewards from
+facilitating trustless DeFi trades on DeFiChain in a fair manner.</p><p>Rewards from minting a block on DeFiChain are calculated as:</p><ol><li>Underlying block reward schedule (see distribution schedule) +</li><li>Burned token redistribution schedule</li></ol><p>The burned token redistribution schedule is determined automatically
+every 259,200 blocks (approx. every 90 days) and works as follows:</p><p><img loading="lazy" src="/DeFiChain-Wiki/assets/images/Burn-33c4bcfbb11d60e60d58d549c50ffe65.png" width="1200" height="700" class="img_ev3q"></p><p>Burned token redistribution for the next 259,200 blocks =</p><ol><li>(Total token burned from the last 259,200 blocks <!-- -->[<!-- -->Quarter -1<!-- -->]<!-- -->) / 4<ul><li></li></ul></li><li>(Total token burned from block -518,400th to -259,200th block
+<!-- -->[<!-- -->Quarter -2<!-- -->]<!-- -->) / 4 +</li><li>(Total token burned from block -777,600th to -518,400th block
+<!-- -->[<!-- -->Quarter -3<!-- -->]<!-- -->) / 4 +</li><li>(Total token burned from block -1,036,800th to -777,600th block
+<!-- -->[<!-- -->Quarter -4<!-- -->]<!-- -->) / 4</li></ol><h3 class="anchor anchorWithStickyNavbar_LWe7" id="masternodes">Masternodes<a class="hash-link" href="#masternodes" title="Direct link to heading">​</a></h3><p>DeFi is a Proof of Stake blockchain. Initially, 1,000,000 DFI allow the
+owner to own a staking node. The returns for staking will decrease over
+time, as the volume and number of transactions compensates for the
+reduction in per-transaction staking rewards.</p><p>Nodes are entitled to:</p><ul><li>Periodic staking rewards as described later in this chapter.</li><li>Submission of votes to key decisions that govern DeFiChain in the
+governance system.</li><li>Submission of votes on how the DFI community budget is being allocated
+and distributed.</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="governance">Governance<a class="hash-link" href="#governance" title="Direct link to heading">​</a></h3><p>The DeFiChain Foundation is responsible for issuance of tokens and is
+governed by an independent board. This board will be governed by the
+DeFi masternodes voting on its members and also by giving directives on
+key decisions.</p><p>The DeFiChain Foundation awards tokens to users and groups to speed up
+adoption (see the section on initial token distribution and marketing).
+The Foundation is tasked with boosting the ecosystem, bringing in
+ecosystem partners, directing the development of the tools for ecosystem
+partners, and other activities to increase the number of ecosystem
+partners.</p><p><img loading="lazy" src="/DeFiChain-Wiki/assets/images/Governance-c8eb947b22e756459a908deeca91f6d8.png" width="1200" height="716" class="img_ev3q"></p><p>For clarification and transparency, Cake Pte Ltd is a private company
+located in Singapore. Cake Pte Ltd is an initial contributor as part of
+the ecosystem’s partners to creating services on DeFiChain.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="community-development-fund">Community Development Fund<a class="hash-link" href="#community-development-fund" title="Direct link to heading">​</a></h3><p>The DeFiChain Foundation will create a community development fund with
+up to 10% of the block rewards under management. This percentage can be
+updated by submitting a DAO proposal that will be voted on by all
+masternodes. Community development funds were popularized by DASH
+<a href="https://docs.dash.org/en/stable/governance/understanding.html" target="_blank" rel="noopener noreferrer">(link)</a>
+and are used in some selective DAOs today. The community will determine
+the use of these funds for development, marketing, or research that
+forwards the DeFi community. DFI masternodes vote for projects they like
+and the highest voted proposals every month will be funded.</p><p>It costs 500 DFI to submit a budget proposal and a proposal can be
+submitted by anyone. This fee is burned and non-refundable regardless of
+whether the budget is approved. Budgets are proposals which receive a
+net total of yes votes equal to or greater than 10% of the total
+possible votes (for example over 448 out of 4480). Budgets can be
+nullified at any time if vote totals (cast or re-cast) fall below the
+approval threshold. Budgets are processed (paid) in order of yes minus
+no votes. More popular budgets get payment priority. Voting happens on a
+monthly basis but can be changed by a masternode vote.</p><p>For governance decisions, only the Foundation may submit proposals.
+Proposals are voted in similar way as DAO budget proposals except that
+decisions will be honored via simple majority vote.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="initial-token-distribution">Initial Token Distribution<a class="hash-link" href="#initial-token-distribution" title="Direct link to heading">​</a></h3><p>Of the roughly 1.2 billion \$DFI coins 49% will be issued to the
+DeFiChain Foundation at the start. The rest will be issued to Masternode
+holders over time.</p><p>Of the 49% initially issued \$DFI coins, 49% will be kept by the
+DeFiChain Foundation. The rest may be distributed to accredited
+investors, large funds and institutions, collectively known as external
+partners, to fund the initial development of DeFiChain. In order to
+decentralize the holdings of DFIs as much as possible the DeFiChain
+Foundation may not keep more than 49% of all initially issued tokens.
+The use of potential proceedings of the tokens will be decided by the
+DeFiChain Foundation board but will exclusively be directed towards the
+adoption and development of DeFiChain.</p><p>For any avoidance of doubt, there will NOT be a public ICO.</p><p><img loading="lazy" src="data:image/png;base64,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" width="1200" height="480" class="img_ev3q"></p><p>Further tokens will only ever be received through staking, which is
+described in the next chapter.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="token-issuance-schedule-via-staking">Token Issuance Schedule via Staking<a class="hash-link" href="#token-issuance-schedule-via-staking" title="Direct link to heading">​</a></h3><p>DeFiChain is initially launched with a 200 DFI block reward, of which
+10% goes to the community fund. The Foundation pledges to guarantee this
+200 DFI block reward for at least 1,050,000 blocks since the the first
+genesis block, so approximately 1 year.</p><p>Subsequently, block rewards will be adjusted through governance vote.
+The Foundation also further pledges that there will never be more than
+1,200,000,000 (1.2 billion) DFI in circulation, unless until the DAO
+governance votes to change this limit. Therefore DFI is a deflationary
+utility token.</p><p>The proposed staking schedule for the first 10 years is according to the
+following table:</p><table><thead><tr><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>Year</td><td>Start of year token in circulation</td><td>% of supply staked</td><td>Block reward</td><td>Targeted new token %</td><td>Targeted new token</td><td>Staking return %</td><td>Actual new token</td><td>End of year token in circulation</td><td>% of cap</td><td>New token for year</td></tr><tr><td>1</td><td>490,000,000</td><td>95%</td><td>200</td><td>20.00%</td><td>98,000,000</td><td>42.91%</td><td>210,240,000</td><td>700,240,000</td><td>58.35%</td><td>210,240,000</td></tr><tr><td>2</td><td>700,240,000</td><td>85%</td><td>150</td><td>13.33%</td><td>93,365,333</td><td>22.52%</td><td>157,680,000</td><td>857,920,000</td><td>71.49%</td><td>157,680,000</td></tr><tr><td>3</td><td>857,920,000</td><td>75%</td><td>100</td><td>8.89%</td><td>76,259,556</td><td>12.25%</td><td>105,120,000</td><td>963,040,000</td><td>80.25%</td><td>105,120,000</td></tr><tr><td>4</td><td>963,040,000</td><td>70%</td><td>70</td><td>5.93%</td><td>57,069,037</td><td>7.64%</td><td>73,584,000</td><td>1,036,624,000</td><td>86.39%</td><td>73,584,000</td></tr><tr><td>5</td><td>1,036,624,000</td><td>70%</td><td>50</td><td>3.95%</td><td>40,953,047</td><td>5.07%</td><td>52,560,000</td><td>1,089,184,000</td><td>90.77%</td><td>52,560,000</td></tr><tr><td>6</td><td>1,089,184,000</td><td>70%</td><td>40</td><td>2.63%</td><td>28,686,328</td><td>3.86%</td><td>42,048,000</td><td>1,131,232,000</td><td>94.27%</td><td>42,048,000</td></tr><tr><td>7</td><td>1,131,232,000</td><td>70%</td><td>25</td><td>1.76%</td><td>19,862,510</td><td>2.32%</td><td>26,280,000</td><td>1,157,512,000</td><td>96.46%</td><td>26,280,000</td></tr><tr><td>8</td><td>1,157,512,000</td><td>70%</td><td>20</td><td>1.17%</td><td>13,549,295</td><td>1.82%</td><td>21,024,000</td><td>1,178,536,000</td><td>98.21%</td><td>21,024,000</td></tr><tr><td>9</td><td>1,178,536,000</td><td>70%</td><td>10</td><td>0.78%</td><td>9,196,928</td><td>0.89%</td><td>10,512,000</td><td>1,189,048,000</td><td>99.09%</td><td>10,512,000</td></tr><tr><td>10</td><td>1,189,048,000</td><td>70%</td><td>5</td><td>0.52%</td><td>6,185,973</td><td>0.44%</td><td>5,256,000</td><td>1,194,304,000</td><td>99.53%</td><td>5,256,000</td></tr></tbody></table><h3 class="anchor anchorWithStickyNavbar_LWe7" id="acquiring-dfi-coins">Acquiring \$DFI coins<a class="hash-link" href="#acquiring-dfi-coins" title="Direct link to heading">​</a></h3><p>\$DFI coins will be issued only to the users of DeFiChain or partners
+with an interest in utilizing and participating in the ecosystem. There
+will be NO public sale or public token offering. Following are the only
+ways to get \$DFI coins:</p><ul><li>Institutional investors, accredited investors and funds who are
+interested in the use of DeFiChain can contact the DeFi founders at
+(<a href="Mailto:partners@defichain.com" target="_blank" rel="noopener noreferrer" title="wikilink">partners@defichain.com</a>).</li><li>Over time, DFI will be available on staking platforms (such as
+<a href="https://cakedefi.com/" target="_blank" rel="noopener noreferrer" title="wikilink">www.CakeDeFi.com</a>) and on selected
+exchanges.</li><li>The DeFiChain Foundation will issue airdrop tokens for users of
+DeFiChain. (Hodlers and other market makers).</li><li>The DeFiChain Foundation gives grants to developers who are developing
+functionality for DeFiChain or dApps to run on the blockchain.</li></ul><hr><h2 class="anchor anchorWithStickyNavbar_LWe7" id="defichain-foundation">DeFiChain Foundation<a class="hash-link" href="#defichain-foundation" title="Direct link to heading">​</a></h2><p>The DeFiChain Foundation is incorporated as a company limited by
+guarantee, resembling a foundation structure which holds the DeFiChain
+Trademarks, Domains and makes sure the DFI foundation funds are used as
+instructed by the masternodes.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="marketing">Marketing<a class="hash-link" href="#marketing" title="Direct link to heading">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="target-market">Target Market<a class="hash-link" href="#target-market" title="Direct link to heading">​</a></h3><p>Unlike most other DeFi-focused initiatives, DeFiChain being built on top
+of Bitcoin can harness almost the entire crypto market without being
+limited to “smaller” chains like Ethereum etc. Thus, as of publication,
+the target market for DeFiChain are over 60-80 million cryptocurrency
+owners and we can expect that hundreds of millions of other users will
+join in the future. This group of investors is investing and holding
+cryptocurrency due to the returns as well as their belief in the future
+of the industry. As investors, they have widely done well with the rise
+in many of the cryptoassets, however, they are not able to use their
+holdings in order to get better returns. Providing DeFi services will
+allow these investors to hold the coins they believe in, and increase
+their holdings over time based on investments that go deeper than just
+currency trading.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="go-to-market-strategy">Go-to-market Strategy<a class="hash-link" href="#go-to-market-strategy" title="Direct link to heading">​</a></h3><p>The initial DeFiChain team is made up of some of the top names in the
+cryptocurrency industry, people who have made a name for themselves not
+just by delivering on their promises, but by creating a following. The
+team has built up a variety of marketing channels and has an established
+following on social media, wide distribution of books in the area of
+cryptocurrency, and deep contacts within the cryptocurrency industry.</p><p>With the experience of building up social media followings of hundreds
+of thousands of users in the course of just a few years, the team plans
+to leverage their current followers and bring them onto specific
+channels that will be the domain of DeFiChain. The team will build up a
+complete marketing engine and staff, using the same proven competence
+they displayed in the past.</p><p>Unlike other blockchains, DeFiChain will be balanced between marketing
+and technology expertise. Building the best network is only half of the
+job. DFI holders can rest assured that the marketing team has the proven
+experience in building up a marketing engine that is required for
+product success and that the tech team will be able to deliver on the
+roadmap.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="partnerships">Partnerships<a class="hash-link" href="#partnerships" title="Direct link to heading">​</a></h3><p>The DeFiChain Foundation will be tasked with assessing applications from
+ecosystem partners and providing foundation grants in the form of \$DFI
+coins to developers and contributors to DeFiChain. Many open source
+projects and blockchain developers today are looking for the right
+blockchain project in order to develop their DeFi applications, and the
+prospect of a dedicated DeFiChain, backed by industry leaders is
+appealing.</p><p>The DeFiChain Foundation will undertake a variety of efforts to choose
+the best projects for the expansion of DeFiChain:</p><ul><li>Creation of a formal application process so that worthy projects can
+apply for airdrop or foundation grants for their development</li><li>Approaching developers in the ecosystem who are doing DeFi dApps on
+other blockchains, and providing grants for them to develop their
+dApps on DeFi.</li><li>General marketing to get the word out about the availability of
+DeFiChain Foundation grants to fund worthy projects.</li></ul><p>Every project on DeFiChain will naturally bring it its own users and put
+effort towards marketing of the project, adding users and hodlers to
+DeFiChain.</p><p><a href="Mailto:partners@defichain.com" target="_blank" rel="noopener noreferrer" title="wikilink">partners@defichain.com</a></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="roadmap-and-milestones">Roadmap and Milestones<a class="hash-link" href="#roadmap-and-milestones" title="Direct link to heading">​</a></h2><p><img loading="lazy" src="/DeFiChain-Wiki/assets/images/Roadmap-50863d3ca30f0d0f530fca6e95fd847a.png" width="1200" height="1120" class="img_ev3q"></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="a-glimpse-into-the-future">A Glimpse into the Future<a class="hash-link" href="#a-glimpse-into-the-future" title="Direct link to heading">​</a></h2><p>Building on top of DeFiChain will lead to some of the most exciting
+benefits not only for first-world areas, but moreover also all those
+that need decentralized finance the most. For example, imagine Anna, who
+owns a small business in a developing economy, but who doesn’t have a
+traditional bank account. She uses mobile money and digital currencies
+to run her business, accepting payments through mobile–which makes
+perfect sense, because nobody in her province uses cash or credit cards.
+Anna uses DeFiChain to take out a loan when one of her suppliers pays
+late, saving her business. In the old days, she would have simply gone
+out of business, because no bank would loan money to her. Anna also
+invests wisely. When she is paid by the supplier, she immediately moves
+the cash into various tokenized assets to avoid the hyperinflation and
+instability of her national government’s currency, and on top of that,
+she is able to earn interest.</p><p>Anna creates a group of local businesspeople, and together they pool
+funds to help other entrepreneurs in their village. They purchase office
+space, solar panels, and a satellite to create a business center. The
+group uses DeFi to eliminate the overhead of complex legal contracts
+between them. They receive automatic dividends when the business center
+profits. Some of them reinvest in a delivery drone which charges for its
+services, and distributes the income to the investors. Others invest in
+sensor equipment that test local soil conditions, and sell the data to
+commodity markets. All of the sensors work independently and charge
+independently, and the investors simply reap the profits, all calculated
+automatically on DeFiChain.</p><p>Now, 5 years after her initial use of DeFi, Anna is able to take out a
+loan with no collateral, based on her long-term record of smart
+investments and returning loans on time, as well as assessment of her
+industry from trusted oracles. It’s a win-win situation. The lenders
+come from all over the globe, from people who want to diversify their
+investment portfolio to developing economies. The lenders don’t have to
+worry about the complexity of cross-border transactions or legal
+requirements. They escape the banking systems of their own countries,
+which moved to zero and negative-interest rates on savings. Now, these
+regular investors can be assured of returns on investments based on Anna
+and people like her, who run great businesses and can provide returns on
+people’s investments.</p><p>This is what DeFiChain is all about - To make the world a better place!</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="theme-doc-footer-edit-meta-row row"><div class="col"><a href="https://github.com/0ptim/DeFiChain-Wiki/tree/main/docs/auto/Original_White_Paper.md" target="_blank" rel="noreferrer noopener" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_vwxv"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages navigation"><a class="pagination-nav__link pagination-nav__link--prev" href="/DeFiChain-Wiki/docs/auto/Masternode_service"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Masternode service</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/DeFiChain-Wiki/docs/auto/Password_Setting"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Password Setting</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#white-paper" class="table-of-contents__link toc-highlight">White paper</a><ul><li><a href="#abstract" class="table-of-contents__link toc-highlight">Abstract:</a></li><li><a href="#this-document-is-not-a-prospectus" class="table-of-contents__link toc-highlight">This Document is not a Prospectus</a></li><li><a href="#this-document-is-not-a-final-technical-specification" class="table-of-contents__link toc-highlight">This Document is not a final technical specification</a></li></ul></li><li><a href="#executive-summary" class="table-of-contents__link toc-highlight">Executive summary</a><ul><li><a href="#the-problem" class="table-of-contents__link toc-highlight">The Problem</a></li><li><a href="#the-solution" class="table-of-contents__link toc-highlight">The Solution</a></li><li><a href="#timeline" class="table-of-contents__link toc-highlight">Timeline</a></li></ul></li><li><a href="#backgroundindustry" class="table-of-contents__link toc-highlight">Background/Industry</a><ul><li><a href="#defis-promises-and-challenges" class="table-of-contents__link toc-highlight">DeFi’s promises and challenges</a></li><li><a href="#the-state-of-defi" class="table-of-contents__link toc-highlight">The state of DeFi</a></li><li><a href="#defis-current-problems" class="table-of-contents__link toc-highlight">DeFi’s current problems</a></li><li><a href="#consequences-in-the-defi-market" class="table-of-contents__link toc-highlight">Consequences in the DeFi Market</a></li></ul></li><li><a href="#comparing-existing-defi-alternatives" class="table-of-contents__link toc-highlight">Comparing existing DeFi alternatives</a><ul><li><a href="#bitcoin-why-not" class="table-of-contents__link toc-highlight">Bitcoin: Why Not?</a></li><li><a href="#turing-complete-solutions-ethereum-eos-tron" class="table-of-contents__link toc-highlight">Turing-complete Solutions: Ethereum, EOS, Tron…</a></li></ul></li><li><a href="#defichain-solution" class="table-of-contents__link toc-highlight">DeFiChain Solution</a><ul><li><a href="#staying-in-the-bitcoin-ecosystem" class="table-of-contents__link toc-highlight">Staying in the Bitcoin Ecosystem</a></li><li><a href="#building-on-top-of-bitcoin" class="table-of-contents__link toc-highlight">Building on Top of Bitcoin</a></li><li><a href="#benefits-of-defichain-summary" class="table-of-contents__link toc-highlight">Benefits of DeFiChain: Summary</a></li><li><a href="#initial-dappsets" class="table-of-contents__link toc-highlight">Initial dAppSets</a></li><li><a href="#decentralized-lending" class="table-of-contents__link toc-highlight">Decentralized Lending</a></li><li><a href="#decentralized-wrapping-of-tokens" class="table-of-contents__link toc-highlight">Decentralized Wrapping of Tokens</a></li><li><a href="#decentralized-pricing-oracles" class="table-of-contents__link toc-highlight">Decentralized Pricing Oracles</a></li><li><a href="#decentralized-exchanges" class="table-of-contents__link toc-highlight">Decentralized Exchanges</a></li><li><a href="#transferable-debts-and-receivables" class="table-of-contents__link toc-highlight">Transferable Debts and Receivables</a></li><li><a href="#decentralized-non-collateralized-debt" class="table-of-contents__link toc-highlight">Decentralized Non-Collateralized Debt</a></li><li><a href="#asset-tokenization" class="table-of-contents__link toc-highlight">Asset Tokenization</a></li><li><a href="#distribution-of-dividends" class="table-of-contents__link toc-highlight">Distribution of Dividends</a></li></ul></li><li><a href="#defichain-design" class="table-of-contents__link toc-highlight">DeFiChain Design</a><ul><li><a href="#design-parameters" class="table-of-contents__link toc-highlight">Design Parameters</a></li><li><a href="#consensus-algorithm" class="table-of-contents__link toc-highlight">Consensus Algorithm</a></li><li><a href="#bitcoin-anchoring" class="table-of-contents__link toc-highlight">Bitcoin Anchoring</a></li></ul></li><li><a href="#defi-building-blocks" class="table-of-contents__link toc-highlight">DeFi Building Blocks</a><ul><li><a href="#tokenization-as-a-defi-standard-token-dst" class="table-of-contents__link toc-highlight">Tokenization as a DeFi Standard Token (DST)</a></li><li><a href="#cross-chain-mechanics" class="table-of-contents__link toc-highlight">Cross-chain Mechanics</a></li><li><a href="#defi-custom-token-dct" class="table-of-contents__link toc-highlight">DeFi Custom Token (DCT)</a></li><li><a href="#defi-asset-token-dat" class="table-of-contents__link toc-highlight">DeFi Asset Token (DAT)</a></li><li><a href="#economic-pegging-of-dats" class="table-of-contents__link toc-highlight">Economic Pegging of DATs</a></li><li><a href="#loan-contract" class="table-of-contents__link toc-highlight">Loan Contract</a></li><li><a href="#decentralized-exchange-dex" class="table-of-contents__link toc-highlight">Decentralized Exchange (DEX)</a></li><li><a href="#cross-chain-exchange-xcx" class="table-of-contents__link toc-highlight">Cross-chain Exchange (XCX)</a></li><li><a href="#pricing-oracles" class="table-of-contents__link toc-highlight">Pricing Oracles</a></li><li><a href="#use-case-examples" class="table-of-contents__link toc-highlight">Use Case Examples</a></li></ul></li><li><a href="#dfi-coin" class="table-of-contents__link toc-highlight">$DFI coin</a><ul><li><a href="#dfi-coin-utility" class="table-of-contents__link toc-highlight">$DFI coin Utility</a></li><li><a href="#fees-from-defi-activities" class="table-of-contents__link toc-highlight">Fees from DeFi Activities</a></li><li><a href="#masternodes" class="table-of-contents__link toc-highlight">Masternodes</a></li><li><a href="#governance" class="table-of-contents__link toc-highlight">Governance</a></li><li><a href="#community-development-fund" class="table-of-contents__link toc-highlight">Community Development Fund</a></li><li><a href="#initial-token-distribution" class="table-of-contents__link toc-highlight">Initial Token Distribution</a></li><li><a href="#token-issuance-schedule-via-staking" class="table-of-contents__link toc-highlight">Token Issuance Schedule via Staking</a></li><li><a href="#acquiring-dfi-coins" class="table-of-contents__link toc-highlight">Acquiring $DFI coins</a></li></ul></li><li><a href="#defichain-foundation" class="table-of-contents__link toc-highlight">DeFiChain Foundation</a></li><li><a href="#marketing" class="table-of-contents__link toc-highlight">Marketing</a><ul><li><a href="#target-market" class="table-of-contents__link toc-highlight">Target Market</a></li><li><a href="#go-to-market-strategy" class="table-of-contents__link toc-highlight">Go-to-market Strategy</a></li><li><a href="#partnerships" class="table-of-contents__link toc-highlight">Partnerships</a></li></ul></li><li><a href="#roadmap-and-milestones" class="table-of-contents__link toc-highlight">Roadmap and Milestones</a></li><li><a href="#a-glimpse-into-the-future" class="table-of-contents__link toc-highlight">A Glimpse into the Future</a></li></ul></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://defichain.com/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Main Website<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://defiscan.live/" target="_blank" rel="noopener noreferrer" class="footer__link-item">DeFiChain Explorer<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://twitter.com/defichain" target="_blank" rel="noopener noreferrer" class="footer__link-item">Twitter<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://blog.defichain.com/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Blog<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/0ptim/DeFiChain-Wiki" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub (This wiki)<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://github.com/DeFiCh" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub (DeFiChain)<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://defichain.com/privacy-policy/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Privacy Policy<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2022 DeFiChain Foundation</div></div></div></footer></div>
+<script src="/DeFiChain-Wiki/assets/js/runtime~main.b02053cd.js"></script>
+<script src="/DeFiChain-Wiki/assets/js/main.71f6890d.js"></script>
+</body>
+</html>
