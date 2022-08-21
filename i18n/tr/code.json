@@ -1,0 +1,39 @@
+{
+    "Homepage.Subtitle": {
+      "message": "DeFiChain ekosistemi hakkındaki tüm bilgi bankanız.",
+      "description": "Ana sayfada altyazı kullanılır"
+    },
+    "Homepage.Button.Knowledgebase": {
+      "message": "Bilgi Bankası 📖",
+      "description": "Bu düğme, bilgi tabanının ana sayfasını açmak için ana sayfada kullanılır."
+    },
+    "Homepage.Button.Contribute": {
+      "message": "Katkıda bulunun ❤",
+      "description": "Bu düğme ana sayfada kullanılır."
+    },
+    "Homepage.Feature.Community.Title": {
+      "message": "Toplum odaklı",
+      "description": "Projenin başlığı: Topluluk"
+    },
+    "Homepage.Feature.Community.Description": {
+      "message": "Herkes katkıda bulunmaya ve wiki'nin sürdürülmesine yardımcı olmaya davetlidir.",
+      "description": "Açıklaması: Topluluk"
+    },
+    "Homepage.Feature.OpenSource.Title": {
+      "message": "Açık Kaynak",
+      "description": "Başlık: Açık Kaynak"
+    },
+    "Homepage.Feature.OpenSource.Description": {
+      "message": "Her sayfa, resim ve hatta wiki kodu GitHub'da tamamen açık kaynaklıdır.",
+      "description": "Açıklaması: Açık Kaynak"
+    },
+    "Homepage.Feature.Searchable.Title": {
+      "message": "Aranabilir",
+      "description": "Başlık: Aranabilir"
+    },
+    "Homepage.Feature.Searchable.Description": {
+      "message": "Tüm wiki indekslenir ve her içerik anında bulunabilir.",
+      "description": "Açıklaması: Aranabilir"
+    }
+  }
+  
