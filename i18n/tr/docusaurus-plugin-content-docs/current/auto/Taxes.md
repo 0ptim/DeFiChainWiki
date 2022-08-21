@@ -1,6 +1,6 @@
 ---
-title: Tax Switzerland
-permalink: /Tax_Switzerland/
+title: Vergiler
+permalink: /Taxes/
 ---
 
 **Bu sayfa henüz çevrilmemiştir. Lütfen yardım edin! ❤**
