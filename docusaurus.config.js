@@ -7,7 +7,7 @@ const config = {
   url: "https://defichain.com/",
   baseUrl: "/DeFiChain-Wiki/",
   onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
+  onBrokenMarkdownLinks: "throw",
   favicon: "img/favicon.ico",
 
   // GitHub pages deployment config.
