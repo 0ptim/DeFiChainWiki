@@ -5,6 +5,6 @@ title: Welcome
 
 **Welcome to DeFiChain! ❤**
 
-Native Decentralized Finance for Bitcoin
+*Native Decentralized Finance for Bitcoin*
 
-*A blockchain dedicated to fast, intelligent and transparent decentralized financial services, accessible by everyone.*
+A blockchain dedicated to fast, intelligent and transparent decentralized financial services, accessible by everyone.
