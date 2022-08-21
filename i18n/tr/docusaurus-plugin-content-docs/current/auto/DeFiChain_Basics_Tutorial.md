@@ -1,5 +1,5 @@
 ---
-title: DeFiChain Basics Tutorial
+title: DeFiChain Temelleri Eğitimi
 permalink: /DeFiChain_Basics_Tutorial/
 ---
 

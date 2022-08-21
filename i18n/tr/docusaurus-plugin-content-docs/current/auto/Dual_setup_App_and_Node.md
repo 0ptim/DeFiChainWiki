@@ -1,5 +1,5 @@
 ---
-title: Dual setup (App + Node)
+title: İkili kurulum (App + Node)
 permalink: /Dual_setup_App_and_Node/
 ---
 

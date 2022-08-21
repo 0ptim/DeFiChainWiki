@@ -7,7 +7,7 @@ DeFiChain Improvement Proposals (DFIPs)
 
 ## DFIPs already processed {#dfips-already-processed}
 
-### DFIP \#1: Bitcoin anchor reward source and mechanics adjustments {#dfip-1-bitcoin-anchor-reward-source-and-mechanics-adjustments}
+### DFIP #1: Bitcoin anchor reward source and mechanics adjustments {#dfip-1-bitcoin-anchor-reward-source-and-mechanics-adjustments}
 
 #### Overview {#overview}
 
@@ -57,7 +57,7 @@ Refer to README for voting instructions.
 
 DFIP \#1 passes.
 
-### DFIP \#2: DeFi incentive funding {#dfip-2-defi-incentive-funding}
+### DFIP #2: DeFi incentive funding {#dfip-2-defi-incentive-funding}
 
 #### Overview {#overview-1}
 
@@ -112,7 +112,7 @@ Refer to README for voting instructions.
 
 DFIP \#1 passes.
 
-### DFIP \#3: Maintain liquidity mining rewards at 100 DFI per block with airdrop fund and rewards ratio adjustments {#dfip-3-maintain-liquidity-mining-rewards-at-100-dfi-per-block-with-airdrop-fund-and-rewards-ratio-adjustments}
+### DFIP #3: Maintain liquidity mining rewards at 100 DFI per block with airdrop fund and rewards ratio adjustments {#dfip-3-maintain-liquidity-mining-rewards-at-100-dfi-per-block-with-airdrop-fund-and-rewards-ratio-adjustments}
 
 #### Overview {#overview-2}
 
@@ -164,7 +164,7 @@ DFIP 3 passes with 15 yeses to 1 no.
 
 ETH-DFI DeFi incentives have been adjusted to 15% (+5% from 10%), and BTC-DFI to 80% (-5% from 85%). \#5 (comment)
 
-### DFIP \#4: Reduction of masternode collateral to 20,000 DFI {#dfip-4-reduction-of-masternode-collateral-to-20000-dfi}
+### DFIP #4: Reduction of masternode collateral to 20,000 DFI {#dfip-4-reduction-of-masternode-collateral-to-20000-dfi}
 
 #### Overview {#overview-3}
 
@@ -240,7 +240,7 @@ Refer to README for voting instructions.
 
 DFIP 5 passes with 14 yeses to 2 nos.
 
-### DFIP \#6: Introduction & Funding of Bitcoin Cash BCH-DFI Liquidity Pool {#dfip-6-introduction--funding-of-bitcoin-cash-bch-dfi-liquidity-pool}
+### DFIP #6: Introduction & Funding of Bitcoin Cash BCH-DFI Liquidity Pool {#dfip-6-introduction--funding-of-bitcoin-cash-bch-dfi-liquidity-pool}
 
 #### Overview {#overview-5}
 
@@ -278,7 +278,7 @@ DFIP 6 passes with 13 yeses to 3 nos.
 
 ## Current Proposals {#current-proposals}
 
-### DFIP \#7: Destruction of all of DeFiChain Foundation-owned DFI {#dfip-7-destruction-of-all-of-defichain-foundation-owned-dfi}
+### DFIP #7: Destruction of all of DeFiChain Foundation-owned DFI {#dfip-7-destruction-of-all-of-defichain-foundation-owned-dfi}
 
 #### Overview {#overview-6}
 
@@ -318,7 +318,7 @@ TBC
 
 Here you have the possibility to link different opinions from the community.
 
-### DFIP \#8: DFI emission rate beyond the first year {#dfip-8-dfi-emission-rate-beyond-the-first-year}
+### DFIP #8: DFI emission rate beyond the first year {#dfip-8-dfi-emission-rate-beyond-the-first-year}
 
 #### Overview {#overview-7}
 
@@ -399,7 +399,7 @@ TBC
 
 Here you have the possibility to link different opinions from the community.
 
-### DFIP \#9: Management of community development via on-chain governance {#dfip-9-management-of-community-development-via-on-chain-governance}
+### DFIP #9: Management of community development via on-chain governance {#dfip-9-management-of-community-development-via-on-chain-governance}
 
 #### Overview {#overview-8}
 
@@ -478,7 +478,7 @@ TBC
 
 Here you have the possibility to link different opinions from the community.
 
-### DFIP \#10: Vote of confidence: Non-fungible token (NFT) support {#dfip-10-vote-of-confidence-non-fungible-token-nft-support}
+### DFIP #10: Vote of confidence: Non-fungible token (NFT) support {#dfip-10-vote-of-confidence-non-fungible-token-nft-support}
 
 #### Overview {#overview-9}
 

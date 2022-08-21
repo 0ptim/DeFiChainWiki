@@ -1,6 +1,6 @@
 ---
-title: DEX Fee structure
-permalink: /DEX_Fee_structure/
+title: DEX Fee Structure
+permalink: /DEX_Fee_Structure/
 ---
 
 When you are swapping tokens on DeFiChain a fee is conducted. At the beginning only the part for liquidity providers - commissions - were the fee in each pool. But after successful voting on several DFIPs other fee parts were introduced for specific purposes. This article describes the current DEX fee structure on DeFiChain.
@@ -54,7 +54,7 @@ With introducing the DFI payback function for dUSD loans an additional fee of 0.
 
 With the [DFIP-2203-A](https://github.com/DeFiCh/dfips/issues/127) Futures Swaps to handle the premium and discount of the dTokens were introduced. In the same DFIP a fee of 0.1% paid in the dTokens was activated.
 
-Both parts (in sum 0.2%) are now applied for each dUSD-dToken pool and results in an overall fee of 0.4% for a swap with dTokens. The dUSD-DFI also had the 0.1% in the beginning, but due to newer DFIPs has now a different fee structure (see [DEX stabilizing fee](./DEX_Fee_structure.md#dex-stabilizing-fee).
+Both parts (in sum 0.2%) are now applied for each dUSD-dToken pool and results in an overall fee of 0.4% for a swap with dTokens. The dUSD-DFI also had the 0.1% in the beginning, but due to newer DFIPs has now a different fee structure (see [DEX stabilizing fee](#dex-stabilizing-fee).
 
 ### BTC fee {#btc-fee}
 

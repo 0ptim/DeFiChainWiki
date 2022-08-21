@@ -1,5 +1,5 @@
 ---
-title: Show hidden folders
+title: Gizli klasörleri göster
 permalink: /Show_hidden_folders/
 ---
 

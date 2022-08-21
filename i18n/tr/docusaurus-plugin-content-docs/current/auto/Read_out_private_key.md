@@ -1,5 +1,5 @@
 ---
-title: Private key read out of the app
+title: Uygulamadan okunan özel anahtar
 permalink: /Read_out_private_key/
 ---
 

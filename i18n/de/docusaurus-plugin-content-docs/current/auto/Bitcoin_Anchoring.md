@@ -1,5 +1,5 @@
 ---
-title: Bitcoin Anchoring
+title: Bitcoin-Verankerung
 permalink: /Bitcoin_Anchoring/
 ---
 

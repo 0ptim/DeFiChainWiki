@@ -1,5 +1,5 @@
 ---
-title: Collected questions for the developers
+title: Geliştiriciler için toplanan sorular
 permalink: /Collected_questions_for_the_developers/
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Send all coins
+title: Tüm paraları gönderin
 permalink: /Send_all_coins/
 ---
 

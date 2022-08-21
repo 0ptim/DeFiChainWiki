@@ -1,5 +1,5 @@
 ---
-title: Create address
+title: Adres oluştur
 permalink: /Create_address/
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Lightwallet change Ocean
+title: Lightwallet Ocean ändern
 permalink: /Lightwallet_change_Ocean/
 ---
 

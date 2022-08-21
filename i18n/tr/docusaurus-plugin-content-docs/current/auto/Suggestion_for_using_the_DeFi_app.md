@@ -1,5 +1,5 @@
 ---
-title: Suggestion for using the DeFi app
+title: DeFi uygulamasını kullanmak için öneri
 permalink: /Suggestion_for_using_the_DeFi_app/
 ---
 

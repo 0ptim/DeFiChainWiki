@@ -1,6 +1,6 @@
 ---
-title: List all addresses with a balance
-permalink: /listaccounts/
+title: Bakiyesi olan tüm adresleri listeleyin
+permalink: /Listaccounts/
 ---
 
 **Bu sayfa henüz çevrilmemiştir. Lütfen yardım edin! ❤**

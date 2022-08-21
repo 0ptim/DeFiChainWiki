@@ -1,5 +1,5 @@
 ---
-title: DeFi Wallet errors
+title: DeFi Cüzdan hataları
 permalink: /DeFi_Wallet_errors/
 ---
 

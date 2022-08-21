@@ -1,5 +1,5 @@
 ---
-title: Restore Wallet
+title: Geri Yükle Wallet
 permalink: /Restore_Wallet/
 ---
 

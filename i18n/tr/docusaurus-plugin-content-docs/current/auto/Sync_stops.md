@@ -1,5 +1,5 @@
 ---
-title: Sync stops
+title: Senkronizasyon durur
 permalink: /Sync_stops/
 ---
 

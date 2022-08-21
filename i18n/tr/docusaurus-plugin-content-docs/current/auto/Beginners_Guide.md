@@ -1,5 +1,5 @@
 ---
-title: Beginners Guide
+title: Yeni Başlayanlar İçin Rehber
 permalink: /Beginners_Guide/
 ---
 

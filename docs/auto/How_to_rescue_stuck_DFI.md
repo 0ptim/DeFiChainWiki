@@ -1,5 +1,5 @@
 ---
-title: How to "rescue" stuck DFI
+title: How To "Rescue" Stuck DFI
 permalink: /How_to_rescue_stuck_DFI/
 ---
 

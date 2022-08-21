@@ -1,5 +1,5 @@
 ---
-title: Liquidity Mining
+title: Likidite Madenciliği
 permalink: /Liquidity_Mining/
 ---
 

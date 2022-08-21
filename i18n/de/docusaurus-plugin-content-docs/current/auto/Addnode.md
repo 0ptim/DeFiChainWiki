@@ -1,5 +1,5 @@
 ---
-title: Addnode
+title: App Sync Boost
 permalink: /Addnode/
 ---
 

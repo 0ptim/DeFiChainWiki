@@ -1,6 +1,6 @@
 ---
-title: Cli commands
-permalink: /Cli_commands/
+title: CLI Komutları
+permalink: /CLI_commands/
 ---
 
 **Bu sayfa henüz çevrilmemiştir. Lütfen yardım edin! ❤**

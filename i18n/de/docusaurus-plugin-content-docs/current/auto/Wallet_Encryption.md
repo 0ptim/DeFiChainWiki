@@ -1,5 +1,5 @@
 ---
-title: Wallet Encryption
+title: Wallet-Verschlüsselung
 permalink: /Wallet_Encryption/
 ---
 

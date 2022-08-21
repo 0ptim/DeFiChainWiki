@@ -1,5 +1,5 @@
 ---
-title: Target multiplier
+title: Zielmultiplikator
 permalink: /Target_multiplier/
 ---
 

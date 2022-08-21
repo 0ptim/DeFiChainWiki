@@ -1,6 +1,6 @@
 ---
-title: Alle Adressen mit Guthaben anzeigen lassen
-permalink: /listaccounts/
+title: Alle Adressen mit einem Saldo auflisten
+permalink: /Listaccounts/
 ---
 
 Gehe in die Konsole und gebe folgenden Befehl ein: `listaccounts {} false false true`

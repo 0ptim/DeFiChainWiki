@@ -1,5 +1,5 @@
 ---
-title: App auf Windows Cloud Server
+title: Anwendung auf Windows Cloud Server
 permalink: /App_on_Windows_Cloud_Server/
 ---
 

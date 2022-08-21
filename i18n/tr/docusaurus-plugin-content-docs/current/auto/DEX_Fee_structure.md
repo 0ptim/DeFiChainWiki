@@ -1,6 +1,6 @@
 ---
-title: DEX Fee structure
-permalink: /DEX_Fee_structure/
+title: DEX Ücret Yapısı
+permalink: /DEX_Fee_Structure/
 ---
 
 DeFiChain'de token takası yaptığınızda bir ücret alınır. Başlangıçta sadece likidite madenciliği yapan likidite sağlayıcıların aldığı komisyonlar mevcuttu. Ancak, birkaç DFIP oylama sonucu olarak, belirli amaçlar doğrultusunda farklı ücretler getirildi. Bu makale, DeFiChain'deki mevcut DEX ücret yapısını açıklamaktadır.
@@ -54,7 +54,7 @@ dUSD kredileri için DFI geri ödeme işlevinin getirilmesiyle, dUSD ile yapıla
 
 [DFIP-2203-A](https://github.com/DeFiCh/dfips/issues/127) Vadeli İşlem Swapları ile dTokens'lerin prim ve indirimini işlemek için getirildi. Aynı DFIP'de, dTokens'ta ödenen %0,1'lik bir ücret etkinleştirildi.
 
-Her iki kısım da (toplamda %0.2) artık her dUSD-dToken havuzu için uygulanmaktadır ve dTokens ile takas için toplam %0.4'lük bir ücretle sonuçlanmaktadır. dUSD-DFI da başlangıçta %0,1'e sahipti, ancak daha yeni DFIP'ler nedeniyle artık farklı bir ücret yapısı var (bkz. [DEX stabilizing fee](./DEX_Fee_structure.md#dex-stabilizing-fee)).
+Her iki kısım da (toplamda %0.2) artık her dUSD-dToken havuzu için uygulanmaktadır ve dTokens ile takas için toplam %0.4'lük bir ücretle sonuçlanmaktadır. dUSD-DFI da başlangıçta %0,1'e sahipti, ancak daha yeni DFIP'ler nedeniyle artık farklı bir ücret yapısı var (bkz. [DEX stabilizing fee](#dex-stabilizing-fee)).
 
 ### BTC ücreti {#btc-fee}
 

@@ -1,5 +1,5 @@
 ---
-title: Blockchain folder
+title: Blockchain-Ordner
 permalink: /Blockchain_folder/
 ---
 

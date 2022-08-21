@@ -1,5 +1,5 @@
 ---
-title: Liquidity Mining versus Staking
+title: Likidite Madenciliğine karşı Staking
 permalink: /Liquidity_Mining_versus_Staking/
 ---
 

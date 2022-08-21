@@ -1,5 +1,5 @@
 ---
-title: Liquidity Token
+title: Likidite Jetonu
 permalink: /Liquidity_Token/
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Sharing is caring - DeFiChain Wiki Updates
-permalink: /Sharing_is_caring_-_DeFiChain_Wiki_Updates/
+permalink: /Sharing_is_caring/
 ---
 
 ## Hey DeFiChain Community, {#hey-defichain-community}

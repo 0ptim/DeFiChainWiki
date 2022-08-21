@@ -1,5 +1,5 @@
 ---
-title: Decentralized Assets
+title: Dezentralisierte Vermögenswerte
 permalink: /Decentralized_Assets/
 ---
 

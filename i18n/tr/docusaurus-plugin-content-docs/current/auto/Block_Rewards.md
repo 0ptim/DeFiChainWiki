@@ -1,5 +1,5 @@
 ---
-title: Block Rewards
+title: Blok Ödülleri
 permalink: /Block_Rewards/
 ---
 

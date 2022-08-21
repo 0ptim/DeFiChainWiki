@@ -1,5 +1,5 @@
 ---
-title: DFX manual registration
+title: DFX manuelle Registrierung
 permalink: /DFX_manual_registration/
 ---
 

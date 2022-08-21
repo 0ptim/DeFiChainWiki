@@ -1,5 +1,5 @@
 ---
-title: CustomTransaction
+title: Custom Transaction
 permalink: /CustomTransaction/
 ---
 

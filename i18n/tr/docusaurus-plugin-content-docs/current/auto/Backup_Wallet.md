@@ -1,5 +1,5 @@
 ---
-title: Backup Wallet
+title: Yedek Wallet
 permalink: /Backup_Wallet/
 ---
 

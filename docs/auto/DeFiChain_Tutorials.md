@@ -1,5 +1,5 @@
 ---
-title: DeFiChain Tutorials
+title: DeFiChain Öğreticileri
 permalink: /DeFiChain_Tutorials/
 ---
 

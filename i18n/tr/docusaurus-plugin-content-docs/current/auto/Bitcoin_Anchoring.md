@@ -1,5 +1,5 @@
 ---
-title: Bitcoin Anchoring
+title: Bitcoin Çapası
 permalink: /Bitcoin_Anchoring/
 ---
 

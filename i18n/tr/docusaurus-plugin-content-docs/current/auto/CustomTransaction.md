@@ -1,5 +1,5 @@
 ---
-title: CustomTransaction
+title: Özel İşlem
 permalink: /CustomTransaction/
 ---
 

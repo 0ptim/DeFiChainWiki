@@ -1,5 +1,5 @@
 ---
-title: Auszahlung DFI in Euro
+title: Payout DFI in Euro
 permalink: /Payout_DFI_in_Euro/
 ---
 

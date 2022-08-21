@@ -1,5 +1,5 @@
 ---
-title: DeFiChain ecosystem
+title: DeFiChain-Ökosystem
 permalink: /DeFiChain_ecosystem/
 ---
 

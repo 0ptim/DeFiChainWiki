@@ -1,5 +1,5 @@
 ---
-title: How to "rescue" stuck DFI
+title: Sıkışmış DFI Nasıl "Kurtarılır"
 permalink: /How_to_rescue_stuck_DFI/
 ---
 

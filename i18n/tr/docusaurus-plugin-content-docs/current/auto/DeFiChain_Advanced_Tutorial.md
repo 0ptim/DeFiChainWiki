@@ -1,5 +1,5 @@
 ---
-title: DeFiChain Advanced Tutorial
+title: DeFiChain Gelişmiş Öğretici
 permalink: /DeFiChain_Advanced_Tutorial/
 ---
 

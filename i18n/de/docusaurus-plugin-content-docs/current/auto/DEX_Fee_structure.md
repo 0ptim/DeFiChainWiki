@@ -1,6 +1,6 @@
 ---
 title: DEX Gebührenstruktur
-permalink: /DEX_Fee_structure/
+permalink: /DEX_Fee_Structure/
 ---
 
 Wenn Du Token auf DeFiChain tauschst, wird eine Gebühr erhoben. Am Anfang war nur der Teil für Liquiditätsanbieter – Provisionen – die Gebühr in jedem Pool. Aber nach erfolgreicher Abstimmung über mehrere DFIPs wurden andere Gebührenteile für bestimmte Zwecke eingeführt. Dieser Artikel beschreibt die aktuelle DEX-Gebührenstruktur auf DeFiChain.
@@ -54,7 +54,7 @@ Mit der Einführung der DFI-Payback-Funktion für DUSD-Darlehen wurde eine zusä
 
 Mit dem [DFIP-2203-A](https://github.com/DeFiCh/dfips/issues/127) wurden Futures Swaps zur Abwicklung des Auf- und Abschlags der dTokens eingeführt. Im selben DFIP wurde eine in den dTokens bezahlte Gebühr von 0,1% aktiviert.
 
-Beide Teile (in Summe 0,2%) werden nun für jeden DUSD-dToken-Pool aufgebracht und ergeben eine Gesamtgebühr von 0,4% für einen Swap mit dTokens. Der DUSD-DFI hatte am Anfang auch die 0,1%, hat aber aufgrund neuerer DFIPs jetzt eine andere Gebührenstruktur (siehe [DEX Stabilisierungsgebühr](./DEX_Fee_structure.md)).
+Beide Teile (in Summe 0,2%) werden nun für jeden DUSD-dToken-Pool aufgebracht und ergeben eine Gesamtgebühr von 0,4% für einen Swap mit dTokens. Der DUSD-DFI hatte am Anfang auch die 0,1%, hat aber aufgrund neuerer DFIPs jetzt eine andere Gebührenstruktur (siehe [DEX Stabilisierungsgebühr](#dex-stabilizing-fee)).
 
 ### BTC Gebühr {#btc-fee}
 

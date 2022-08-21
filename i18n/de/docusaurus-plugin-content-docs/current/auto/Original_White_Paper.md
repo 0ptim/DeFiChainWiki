@@ -1,5 +1,5 @@
 ---
-title: Original White Paper
+title: Originales White Paper
 permalink: /Original_White_Paper/
 ---
 

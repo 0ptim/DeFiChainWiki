@@ -1,5 +1,5 @@
 ---
-title: Masternode installation extended
+title: Masternode kurulumu genişletildi
 permalink: /Masternode_installation_extended/
 ---
 

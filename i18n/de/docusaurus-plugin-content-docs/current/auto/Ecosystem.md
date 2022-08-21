@@ -1,5 +1,5 @@
 ---
-title: Ecosystem
+title: Ökosystem
 permalink: /Ecosystem/
 ---
 

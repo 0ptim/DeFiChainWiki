@@ -1,6 +1,6 @@
 ---
 title: List all addresses with a balance
-permalink: /listaccounts/
+permalink: /Listaccounts/
 ---
 
 Go to the console and enter the following command: `listaccounts {} false false true`

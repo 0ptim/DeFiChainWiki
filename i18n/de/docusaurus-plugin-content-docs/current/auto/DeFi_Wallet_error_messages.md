@@ -1,5 +1,5 @@
 ---
-title: DeFi Wallet error messages
+title: DeFi Wallet Fehlermeldungen
 permalink: /DeFi_Wallet_error_messages/
 ---
 

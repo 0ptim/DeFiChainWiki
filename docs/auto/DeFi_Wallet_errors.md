@@ -1,5 +1,5 @@
 ---
-title: DeFi Wallet errors
+title: DeFi Wallet Errors
 permalink: /DeFi_Wallet_errors/
 ---
 
@@ -16,7 +16,7 @@ There are different causes for this problem and different solutions.
 
 1.  Restart the computer and try again
 2.  You can try to find out more about the problem: [Debug.log](./Debug.log.md)
-3.  In part, this approach helps: [Delete .defi](./Delete_.defi.md)
+3.  In part, this approach helps: [Delete .defi](./Delete_dot_defi.md)
 
 ## I cannot find the AppData or Library folder
 

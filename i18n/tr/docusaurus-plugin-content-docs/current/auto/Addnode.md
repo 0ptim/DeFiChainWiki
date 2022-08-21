@@ -1,5 +1,5 @@
 ---
-title: Addnode
+title: Uygulama Senkronizasyonu Artışı
 permalink: /Addnode/
 ---
 

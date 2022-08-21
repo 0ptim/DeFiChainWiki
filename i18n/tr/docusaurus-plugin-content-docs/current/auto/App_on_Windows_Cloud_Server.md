@@ -1,5 +1,5 @@
 ---
-title: App on Windows Cloud Server
+title: Windows Bulut Sunucusunda Uygulama
 permalink: /App_on_Windows_Cloud_Server/
 ---
 

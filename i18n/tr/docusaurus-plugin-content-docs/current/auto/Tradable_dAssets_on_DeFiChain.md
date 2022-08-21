@@ -1,5 +1,5 @@
 ---
-title: Tradable dAssets on DeFiChain
+title: DeFiChain üzerinde takas edilebilir dVarlıklar
 permalink: /Tradable_dAssets_on_DeFiChain/
 ---
 

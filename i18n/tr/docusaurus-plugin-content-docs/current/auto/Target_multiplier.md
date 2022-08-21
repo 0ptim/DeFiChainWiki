@@ -1,5 +1,5 @@
 ---
-title: Target multiplier
+title: Hedef çarpan
 permalink: /Target_multiplier/
 ---
 

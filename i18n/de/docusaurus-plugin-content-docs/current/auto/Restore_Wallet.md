@@ -1,5 +1,5 @@
 ---
-title: Restore Wallet
+title: Restore wiederherstellen
 permalink: /Restore_Wallet/
 ---
 

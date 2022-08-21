@@ -1,5 +1,5 @@
 ---
-title: DeFiChain Intermediate Tutorial
+title: DeFiChain Tutorial für Fortgeschrittene
 permalink: /DeFiChain_Intermediate_Tutorial/
 ---
 

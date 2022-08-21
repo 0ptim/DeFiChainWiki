@@ -1,5 +1,5 @@
 ---
-title: App auf Raspberry-Pi
+title: Anwendung auf Raspberry-Pi
 permalink: /App_on_Raspberry-Pi-Pi/
 ---
 

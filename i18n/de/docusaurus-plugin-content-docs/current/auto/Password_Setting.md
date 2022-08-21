@@ -1,5 +1,5 @@
 ---
-title: Password Setting
+title: Passwort-Einstellung
 permalink: /Password_Setting/
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Updated White Paper
+title: Aktualisiertes White Paper
 permalink: /Updated_White_Paper/
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Unable to start blockchain
+title: Blockchain kann nicht gestartet werden
 permalink: /Unable_to_start_blockchain/
 ---
 

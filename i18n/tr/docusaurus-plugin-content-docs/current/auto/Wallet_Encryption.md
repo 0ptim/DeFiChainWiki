@@ -1,5 +1,5 @@
 ---
-title: Wallet Encryption
+title: Cüzdan Şifreleme
 permalink: /Wallet_Encryption/
 ---
 

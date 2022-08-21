@@ -1,5 +1,5 @@
 ---
-title: Backup Wallet
+title: Wallet Sicherung
 permalink: /Backup_Wallet/
 ---
 

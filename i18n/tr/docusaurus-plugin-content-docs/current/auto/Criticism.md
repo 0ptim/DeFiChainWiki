@@ -1,5 +1,5 @@
 ---
-title: Criticism
+title: Eleştiri
 permalink: /Criticism/
 ---
 

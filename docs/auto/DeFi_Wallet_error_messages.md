@@ -55,7 +55,7 @@ Problem: The app cannot be started. Error message "No data found"
 
 To find out more about the reason of the error, you can read the following text: [Debug.log](./Debug.log.md)
 
-Here's what you can try: [Delete .defi](./Delete_.defi.md)
+Here's what you can try: [Delete .defi](./Delete_dot_defi.md)
 
 If it did not work, we recommend the following:
 
@@ -72,7 +72,7 @@ Problem: The app cannot be started. Error message "Unable to start blockchain"
 
 To find out more about the reason of the error, you can read the following text: [Debug.log](./Debug.log.md)
 
-Here's what you can try: [Delete .defi](./Delete_.defi.md)
+Here's what you can try: [Delete .defi](./Delete_dot_defi.md)
 
 If it did not work, we recommend the following:
 

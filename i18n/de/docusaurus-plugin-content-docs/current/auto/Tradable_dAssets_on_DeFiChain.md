@@ -1,5 +1,5 @@
 ---
-title: Tradable dAssets on DeFiChain
+title: Handelbare dAssets auf DeFiChain
 permalink: /Tradable_dAssets_on_DeFiChain/
 ---
 

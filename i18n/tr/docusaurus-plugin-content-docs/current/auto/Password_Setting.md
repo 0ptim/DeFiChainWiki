@@ -1,5 +1,5 @@
 ---
-title: Password Setting
+title: Şifre Ayarı
 permalink: /Password_Setting/
 ---
 

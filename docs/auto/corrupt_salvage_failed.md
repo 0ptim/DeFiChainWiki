@@ -1,6 +1,6 @@
 ---
 title: Wallet.dat corrupt salvage failed
-permalink: /Wallet.dat_corrupt_salvage_failed/
+permalink: /corrupt_salvage_failed/
 ---
 
 Error: Wallet.dat corrupt, salvage failed
