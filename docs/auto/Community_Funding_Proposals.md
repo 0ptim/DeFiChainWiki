@@ -5,7 +5,7 @@ permalink: /Community_Funding_Proposals/
 
 ## CFPs already processed {#cfps-already-processed}
 
-### CFP \#1: Further development of community-developed DeFiChain Dashboard {#cfp-1-further-development-of-community-developed-defichain-dashboard}
+### CFP #1: Further development of community-developed DeFiChain Dashboard {#cfp-1-further-development-of-community-developed-defichain-dashboard}
 
 #### Overview {#overview}
 
@@ -58,7 +58,7 @@ CFP 1 passes with 15 yeses to 1 no.
 
 ## Current Proposals {#current-proposals}
 
-### CFP \#2: Further development of community-developed DeFiChain Explained \[10,000 DFI\] {#cfp-2-further-development-of-community-developed-defichain-explained-10000-dfi}
+### CFP #2: Further development of community-developed DeFiChain Explained [10,000 DFI] {#cfp-2-further-development-of-community-developed-defichain-explained-10000-dfi}
 
 #### CFP Summary {#cfp-summary}
 
@@ -91,7 +91,7 @@ TBC
 
 Here you have the possibility to link different opinions from the community.
 
-### CFP \#3: Further development of community-developed DeFi Portfolio \[8,000 DFI\] {#cfp-3-further-development-of-community-developed-defi-portfolio-8000-dfi}
+### CFP #3: Further development of community-developed DeFi Portfolio [8,000 DFI] {#cfp-3-further-development-of-community-developed-defi-portfolio-8000-dfi}
 
 #### CFP Summary {#cfp-summary-1}
 
@@ -125,7 +125,7 @@ TBC
 
 Here you have the possibility to link different opinions from the community.
 
-### CFP \#4: Smart DeFi Wallet (non-custodial light wallet) \[50,000 DFI\] {#cfp-4-smart-defi-wallet-non-custodial-light-wallet-50000-dfi}
+### CFP #4: Smart DeFi Wallet (non-custodial light wallet) [50,000 DFI] {#cfp-4-smart-defi-wallet-non-custodial-light-wallet-50000-dfi}
 
 #### CFP Summary {#cfp-summary-2}
 
@@ -160,7 +160,7 @@ TBC
 
 Here you have the possibility to link different opinions from the community.
 
-### CFP \#5: Development of defichain-income.com \[5,000 DFI\] {#cfp-5-development-of-defichain-incomecom-5000-dfi}
+### CFP #5: Development of defichain-income.com [5,000 DFI] {#cfp-5-development-of-defichain-incomecom-5000-dfi}
 
 #### CFP Summary {#cfp-summary-3}
 
@@ -193,7 +193,7 @@ TBC
 
 Here you have the possibility to link different opinions from the community.
 
-### CFP \#6: Development of defichain-wiki.com \[6,500 DFI\] {#cfp-6-development-of-defichain-wikicom-6500-dfi}
+### CFP #6: Development of defichain-wiki.com [6,500 DFI] {#cfp-6-development-of-defichain-wikicom-6500-dfi}
 
 #### CFP Summary {#cfp-summary-4}
 
@@ -226,7 +226,7 @@ TBC
 
 Here you have the possibility to link different opinions from the community.
 
-### CFP \#7: Moderators \[1,800 DFI\] {#cfp-7-moderators-1800-dfi}
+### CFP #7: Moderators [1,800 DFI] {#cfp-7-moderators-1800-dfi}
 
 #### CFP Summary {#cfp-summary-5}
 
