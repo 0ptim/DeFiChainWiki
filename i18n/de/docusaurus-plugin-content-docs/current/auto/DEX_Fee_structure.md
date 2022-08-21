@@ -32,6 +32,7 @@ Auf [defiscan.live](https://defiscan.live/dex) kannst du den effektiven Jahreszi
 
 Die DEX-Stabilisierungsgebühr hängt vom relativen Anteil des Algo-dUSD-Tokens auf DeFiChain ab. Unter 50 % beträgt diese Gebühr 0 % und erhöht sich bei Werten über 50 % (siehe Grafik unten).
 
+*DEX Stabilisierungsgebühr*  
 ![DEX Stabilisierungsgebühr](./../media/DEX_stabilizing_fee.jpg)
 
 Die Formel hinter dieser Abhängigkeit lautet:

@@ -53,3 +53,15 @@ Any funds made available upon approval will be distributed to the contributors. 
 #### New Page: Tradable dAssets on DeFiChain {#new-page-tradable-dassets-on-defichain}
 *06.08.2022 - Daniel Zirkel - 400 Words, 6 Charts - 15 DFI*
 > Decentralized assets are following the real world asset price. On DeFiChain the tickers just have a "d" as a prefix, but then uses the same ticker as the asset on US exchanges. The following tokens are currently listed on the DEX.
+
+#### New Page: DeFiChain (TR) {#new-page-defichain-(tr)}
+*17.08.2022 - Ferhat - 400 Words, 10 DFI*
+> Description of DeFiChain and its functions in Turkish.
+
+#### Translation: The DEX Fee structure {#translation-the-dex-fee-structure}
+*17.08.2022	- Ferhat - 500 Words, 3 Charts, 15 DFI*
+> Translation of the DEX Fee structure in Turkish.
+
+#### New Page: LM (TR) {#new-page-lm-(tr)}
+*17.08.2022 - Ferhat - 450 Words, 1 Chart, 15 DFI*
+> Desciption of Liquidity Mining on the DeFiChain DEX in Turkish
