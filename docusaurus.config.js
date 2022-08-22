@@ -72,6 +72,10 @@ const config = {
             label: "📰 Blog",
           },
           {
+            href: "https://defichain.com/",
+            label: "🌐 Website",
+          },
+          {
             type: "localeDropdown",
             position: "right",
           },
