@@ -1,0 +1,46 @@
+{
+  "sidebar.tutorialSidebar.category.🔥 Fundamentals": {
+    "message": "🔥 Temel Bilgiler",
+    "description": "The label for category 🔥 Fundamentals in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.👨‍🎓️ Guides": {
+    "message": "👨‍🎓️ Kılavuzlar",
+    "description": "The label for category 👨‍🎓️ Guides in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.👛 DeFi Wallet": {
+    "message": "👛 DeFi Cüzdan",
+    "description": "The label for category 👛 DeFi Wallet in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Installation": {
+    "message": "Kurulum",
+    "description": "The label for category Installation in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Security": {
+    "message": "Güvenlik",
+    "description": "The label for category Security in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Usage": {
+    "message": "Kullanım",
+    "description": "The label for category Usage in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Advanced Usage": {
+    "message": "Gelişmiş kullanım",
+    "description": "The label for category Advanced Usage in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Problems": {
+    "message": "Problemler",
+    "description": "The label for category Problems in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Version Specific Hints": {
+    "message": "Sürüme özgü notlar",
+    "description": "The label for category Version Specific Hints in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.❤ Community": {
+    "message": "❤ Topluluk",
+    "description": "The label for category ❤ Community in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.DFX": {
+    "message": "DFX",
+    "description": "The label for category DFX in sidebar tutorialSidebar"
+  }
+}

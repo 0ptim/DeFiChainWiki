@@ -1,0 +1,46 @@
+{
+  "sidebar.tutorialSidebar.category.🔥 Fundamentals": {
+    "message": "🔥 Grundlagen",
+    "description": "The label for category 🔥 Fundamentals in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.👨‍🎓️ Guides": {
+    "message": "👨‍🎓️ Leitfäden",
+    "description": "The label for category 👨‍🎓️ Guides in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.👛 DeFi Wallet": {
+    "message": "👛 DeFi Wallet",
+    "description": "The label for category 👛 DeFi Wallet in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Installation": {
+    "message": "Installation",
+    "description": "The label for category Installation in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Security": {
+    "message": "Sicherheit",
+    "description": "The label for category Security in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Usage": {
+    "message": "Verwendung",
+    "description": "The label for category Usage in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Advanced Usage": {
+    "message": "Erweiterte Verwendung",
+    "description": "The label for category Advanced Usage in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Problems": {
+    "message": "Probleme",
+    "description": "The label for category Problems in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Version Specific Hints": {
+    "message": "Versionsspezifische Hinweise",
+    "description": "The label for category Version Specific Hints in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.❤ Community": {
+    "message": "❤ Gemeinschaft",
+    "description": "The label for category ❤ Community in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.DFX": {
+    "message": "DFX",
+    "description": "The label for category DFX in sidebar tutorialSidebar"
+  }
+}
