@@ -24,7 +24,7 @@ export const BackgroundAnimation = () => {
           colorMode: "lerpGradient",
           birdSize: 0.9,
           quantity: 4,
-          separation: 60,
+          separation: 100,
           backgroundAlpha: 0
         })
       );
