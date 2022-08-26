@@ -16,7 +16,7 @@ const sidebars = {
   tutorialSidebar: [
     {
       type: "doc",
-      id: "welcome",
+      id: "auto/welcome",
     },
     {
       type: "category",
