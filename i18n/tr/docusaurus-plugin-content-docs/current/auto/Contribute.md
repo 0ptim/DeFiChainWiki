@@ -37,6 +37,6 @@ Ve tekrar `Create pull request` düğmesine ikinci kez tıklayın.
 
 Bir değişikliği başarıyla gönderdiniz. 🔥
 
-**Teşekkür ederim! ❤
+**Teşekkür ederim!** ❤
 
 > Bir viki yöneticisi yakında isteğinizi inceleyecek ve kabul ya da reddedecektir.
