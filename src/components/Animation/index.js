@@ -23,7 +23,7 @@ export const BackgroundAnimation = () => {
           color2: "#00F6FF",
           colorMode: "lerpGradient",
           birdSize: 0.9,
-          quantity: 4,
+          quantity: 3,
           separation: 100,
           backgroundAlpha: 0
         })
