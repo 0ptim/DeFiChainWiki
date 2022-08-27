@@ -60,7 +60,7 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "auto/welcome",
+            docId: "auto/Welcome",
             label: "📖 Knowledgebase",
           },
           {
