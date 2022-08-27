@@ -3,7 +3,7 @@ id: welcome
 title: Welcome
 ---
 
-**Welcome to DeFiChain! ❤**
+**Welcome to DeFiChain! ❤❤❤**
 
 *Native Decentralized Finance for Bitcoin*
 
