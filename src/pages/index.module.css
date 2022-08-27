@@ -10,7 +10,7 @@
   overflow: hidden;
 }
 
-.container{
+.container {
   z-index: 1;
 }
 
@@ -40,7 +40,7 @@
   right: 0px;
   left: 0px;
   bottom: 0px;
-  background-image: url( '/static/map.svg' );  
+  background-image: url("/static/map.svg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
