@@ -16,7 +16,11 @@ const sidebars = {
   tutorialSidebar: [
     {
       type: "doc",
-      id: "auto/welcome",
+      id: "auto/Welcome",
+    },
+    {
+      type: "doc",
+      id: "auto/Contribute",
     },
     {
       type: "category",
@@ -135,7 +139,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "❤ Community",
+      label: "💝 Community",
       items: [
         "auto/Improvement_Proposals",
         "auto/Community_Funding_Proposals",

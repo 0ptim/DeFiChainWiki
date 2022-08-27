@@ -1,5 +1,5 @@
 ---
-id: welcome
+id: Welcome
 title: Willkommen
 ---
 
