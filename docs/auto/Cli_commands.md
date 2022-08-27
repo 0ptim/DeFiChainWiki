@@ -1,6 +1,6 @@
 ---
 title: CLI Commands
-permalink: /CLI_commands/
+permalink: /CLI_Commands/
 ---
 
 ## Accounts {#accounts}
