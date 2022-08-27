@@ -19,6 +19,10 @@ const sidebars = {
       id: "auto/Welcome",
     },
     {
+      type: "doc",
+      id: "auto/Contribute",
+    },
+    {
       type: "category",
       label: "🔥 Fundamentals",
       items: [
@@ -135,7 +139,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "❤ Community",
+      label: "💝 Community",
       items: [
         "auto/Improvement_Proposals",
         "auto/Community_Funding_Proposals",

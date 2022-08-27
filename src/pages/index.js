@@ -34,7 +34,7 @@ function HomepageHeader() {
           <div className={styles.buttons}>
             <Link
               className="button button--secondary button--lg"
-              to="https://github.com/0ptim/DeFiChain-Wiki"
+              to="/docs/auto/Contribute"
             >
               <Translate>Homepage.Button.Contribute</Translate>
             </Link>
