@@ -1,3 +1,5 @@
+[![Deploy to GitHub Pages](https://github.com/0ptim/DeFiChain-Wiki/actions/workflows/deploy.yml/badge.svg)](https://github.com/0ptim/DeFiChain-Wiki/actions/workflows/deploy.yml)
+
 # DeFiChain-Wiki
 > https://0ptim.github.io/DeFiChain-Wiki/
 
