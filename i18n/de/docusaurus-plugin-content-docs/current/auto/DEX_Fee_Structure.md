@@ -17,7 +17,7 @@ Das folgende Diagramm zeigt die verschiedenen Pool-Swaps (Tasuch) auf DeFiChain.
 - DEX-Stabilisierungsgebühr: 0...~34% (in Abhängigkeit des Algo-dUSD-Anteils)
 
 *DeFiChain DEX-Swaps und Gebühren*  
-![DeFiChain DEX-Swaps und Gebühren](./../media/DefiChainDEXFees.png)
+![DeFiChain DEX-Swaps und Gebühren](./../media/dexfeestructure_DE_DefiChainDEXFees.png)
 
 ### Kommisionen / Provisionen {#commissions}
 
@@ -26,14 +26,14 @@ Die Kommissions- oder Provisionsgebühr beträgt derzeit 0,2 % und wird von den 
 Auf [defiscan.live](https://defiscan.live/dex) kannst du den effektiven Jahreszins jedes Pools sehen und wenn du mit der Maus über die drei blauen Punkte fährst, wird die Verteilung zwischen Blockbelohnungen und Provisionsanteil angezeigt. Hohe Handelsvolumina (z. B. in volatilen Marktphasen) werden den Provisionsteil antreiben.
 
 *Defiscan zeigt den effektiven Jahreszins, aufgeteilt in Blockbelohnung (Rewards) und Provisionsteil (Commissions)*  
-![Defiscan zeigt den effektiven Jahreszins, aufgeteilt in Blockbelohnung (Rewards) und Provisionsteil (Commissions)](./../media/Defiscan_APR_rewardCommissions.jpg)
+![Defiscan zeigt den effektiven Jahreszins, aufgeteilt in Blockbelohnung (Rewards) und Provisionsteil (Commissions)](./../media/dexfeestructure_DE_Defiscan_APR_rewardCommissions.jpg)
 
 ### DEX stabilizing fee {#dex-stabilizing-fee}
 
 Die DEX-Stabilisierungsgebühr hängt vom relativen Anteil des Algo-dUSD-Tokens auf DeFiChain ab. Unter 50 % beträgt diese Gebühr 0 % und erhöht sich bei Werten über 50 % (siehe Grafik unten).
 
 *DEX Stabilisierungsgebühr*  
-![DEX Stabilisierungsgebühr](./../media/DEX_stabilizing_fee.jpg)
+![DEX Stabilisierungsgebühr](./../media/dexfeestructure_DE_DEX_stabilizing_fee.jpg)
 
 Die Formel hinter dieser Abhängigkeit lautet:
 

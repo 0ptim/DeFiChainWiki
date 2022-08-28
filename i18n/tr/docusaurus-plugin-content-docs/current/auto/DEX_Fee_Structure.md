@@ -17,7 +17,7 @@ Aşağıdaki şema, DeFiChain'deki swap olarak adlandırdığımız farklı havu
 - DEX sabitleme ücreti: %0...~34 (algo dUSD kısmına bağlı olarak)
 
 *DeFiChain Dex Ücretleri Şeması*  
-![DeFiChain Dex Ücretleri Şeması](./../media/DefiChainDEXFees.png)
+![DeFiChain Dex Ücretleri Şeması](./../media/dexfeestructure_TR_DefiChainDEXFees.png)
 
 ### Komisyonlar {#commissions}
 
@@ -26,14 +26,14 @@ Komisyon ücreti şu anda %0,2'dir ve kullanıcıların DEX'te takas etmek isted
 [defiscan.live](https://defiscan.live/dex) da her havuzun APR'sini ve fareyi üç mavi noktanın üzerine getirerek blok ödülleri ve komisyonlar arasındaki dağılımı görebilirsiniz. Yüksek işlem hacmi (örneğin değişken piyasa aşamalarında) komisyon kısmını etkileyecektir.
 
 *Defiscan, APR'yi blok ödül ve komisyonlara bölünmüş olarak gösteriyor*  
-![Defiscan, APR'yi blok ödül ve komisyonlara bölünmüş olarak gösteriyor](./../media/Defiscan_APR_rewardCommissions.jpg)
+![Defiscan, APR'yi blok ödül ve komisyonlara bölünmüş olarak gösteriyor](./../media/dexfeestructure_TR_Defiscan_APR_rewardCommissions.jpg)
 
 ### DEX Sabitleme Ücreti {#dex-stabilizing-fee}
 
 DEX sabitleme (dengeleme) ücreti, DeFiChain'deki algoritmik dUSD tokeninin oranına bağlıdır. Algoritmik dUSD'nin %50'nin altında olması durumunda bu ücret %0'dır ve %50'nin üzerinde seviyeye bağlı olarak aşağıdaki grafikte görüldüğü gibi artar.
 
 *Dex Sabitleme Ücreti Şeması*
-![Dex Sabitleme Ücreti Şeması](./../media/DEX_stabilizing_fee.jpg)
+![Dex Sabitleme Ücreti Şeması](./../media/dexfeestructure_TR_DEX_stabilizing_fee.jpg)
 
 Dex Sabitleme Ücreti hesaplamasının arkasındaki formül:
 
