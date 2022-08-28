@@ -84,21 +84,21 @@ Problem:
 
 I set up a masternode in the testnet and after a few hours I already found 2 blocks. But the rewards are not displayed in the wallet.
 
-![](./../media/Bildschirmfoto_2021-03-11_um_12.59.10.png)
+![](./../media/masternode_EN_1.png)
 
 Mining Rewards are displayed correctly in the explorer.
 
-![](./../media/Bildschirmfoto_2021-03-11_um_13.02.19.png)
-![](./../media/Bildschirmfoto_2021-03-11_um_13.04.39.png)
+![](./../media/masternode_EN_2.png)
+![](./../media/masternode_EN_3.png)
 
 The balance in the Wallet is smaller than the distributed rewards.
 
-![](./../media/Bildschirmfoto_2021-03-11_um_13.09.13.png)
+![](./../media/masternode_EN_4.png)
 
 Solution:
 
 DFI Rewards are only released after a certain block time has elapsed. To see the coins that have not been released yet, you need to enter the following code in the console: `getbalances`
 
-![](./../media/Photo_2021-03-11_14-55-26.jpg)
+![](./../media/masternode_EN_4.jpg)
 
 After the expiration of the blocking period, the coins will be displayed correctly in the wallet.
