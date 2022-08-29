@@ -14,30 +14,30 @@ The following folders must be deleted:
 ### Windows: {#windows}
 
 C:\Users\\%username%\\.defi
-![C:\Users\\%username%\\.defi](../media/Bildschirmfoto_2021-03-12_um_21.58.53.png)
+![C:\Users\\%username%\\.defi](../media/deletedefiapp_EN_01.png)
 
 C:\Users\\%username%\AppData\Local\defi-app-updater
-![C:\Users\\%username%\AppData\Local\defi-app-updater](../media/Bildschirmfoto_2021-03-12_um_21.59.22.png)
+![C:\Users\\%username%\AppData\Local\defi-app-updater](../media/deletedefiapp_EN_02.png)
 
 C:\Users\\%username%\AppData\Local\Programs\defi-app
-![C:\Users\\%username%\AppData\Local\Programs\defi-app](../media/Bildschirmfoto_2021-03-12_um_21.59.52.png)
+![C:\Users\\%username%\AppData\Local\Programs\defi-app](../media/deletedefiapp_EN_03.png)
 
 C:\Users\\%username%\AppData\Roaming\DeFi Blockchain
-![C:\Users\\%username%\AppData\Roaming\DeFi Blockchain](../media/Bildschirmfoto_2021-03-12_um_22.00.19.png)
+![C:\Users\\%username%\AppData\Roaming\DeFi Blockchain](../media/deletedefiapp_EN_04.png)
 
 C:\Users\\%username%\AppData\Roaming\defi-appHint: the folder for the newer version will be "defi-wallet" instead of "defi-app
-![C:\Users\\%username%\AppData\Roaming\defi-appHint: the folder for the newer version will be "defi-wallet" instead of "defi-app](../media/Bildschirmfoto_2021-03-12_um_22.00.40.png)
+![C:\Users\\%username%\AppData\Roaming\defi-appHint: the folder for the newer version will be "defi-wallet" instead of "defi-app](../media/deletedefiapp_EN_05.png)
 
 ### Mac: {#mac}
 
 /Applications/defi-app
-![/Applications/defi-app](../media/Bildschirmfoto_2021-03-13_um_00.20.40.png)
+![/Applications/defi-app](../media/deletedefiapp_EN_06.png)
 
 /Users/%username%/.defi
-![/Users/%username%/.defi](../media/Bildschirmfoto_2021-03-13_um_00.34.04.png)
+![/Users/%username%/.defi](../media/deletedefiapp_EN_07.png)
 
 /Users/%username%/Library/Application Support/DeFi
-![/Users/%username%/Library/Application Support/DeFi](../media/Bildschirmfoto_2021-03-13_um_00.35.09.png)
+![/Users/%username%/Library/Application Support/DeFi](../media/deletedefiapp_EN_08.png)
 
 /Users/%username%/Library/Application Support/defi-appHint: the folder for the newer version will be "defi-wallet" instead of "defi-app
-![/Users/%username%/Library/Application Support/defi-appHint: the folder for the newer version will be "defi-wallet" instead of "defi-app](../media/Bildschirmfoto_2021-03-13_um_00.35.291.png)
+![/Users/%username%/Library/Application Support/defi-appHint: the folder for the newer version will be "defi-wallet" instead of "defi-app](../media/deletedefiapp_EN_09.png)
