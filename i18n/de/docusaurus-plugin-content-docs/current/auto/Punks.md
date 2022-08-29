@@ -30,16 +30,16 @@ Die NFTs haben mit Punks und Jellyfishs in der DeFiChain-Community Einzug gehalt
 
 Auflistung und Verlinkung der verfügbaren DeFiChain-NFT-Angebote sowie deren Anbieter:
 
-| **NFT**                                                                      | **Beispiel**                          | **Anbieter auf Telegram**                    | **Anbieter auf Twitter**                                  |
-|------------------------------------------------------------------------------|---------------------------------------|----------------------------------------------|-----------------------------------------------------------|
-| [DFI-Punks](https://opensea.io/collection/dfi-punks)                         | ![](./../media/Punk6@20x.png)         | [@Martin8617](https://t.me/Martin8617)       | [@DFI_Punks](https://twitter.com/DFI_Punks)               |
-| [DFX-Punks](https://opensea.io/collection/dfx-punks)                         | ![](./../media/Punk64@20x.png)        | [@Martin8617](https://t.me/Martin8617)       | [@DFI_Punks](https://twitter.com/DFI_Punks)               |
-| [BTC-Punks](https://opensea.io/collection/btc-punks-1)                       | ![](./../media/Punk103@20x.png)       | [@Martin8617](https://t.me/Martin8617)       | [@DFI_Punks](https://twitter.com/DFI_Punks)               |
-| [Cake-Punks](https://opensea.io/collection/cake-punks)                       | ![](./../media/Punk106@20x.png)       | [@Martin8617](https://t.me/Martin8617)       | [@DFI_Punks](https://twitter.com/DFI_Punks)               |
-| [Saiive-Punks](https://opensea.io/collection/saiive-punks)                   | ![](./../media/Punk95@20x.png)        | [@Martin8617](https://t.me/Martin8617)       | [@DFI_Punks](https://twitter.com/DFI_Punks)               |
-| [DeFiChain Punks](https://opensea.io/collection/defichain-punks-original)    | ![](./../media/DeFiChain_Punks.gif)   |                                              | [@defichainpunks](https://www.twitter.com/defichainpunks) |
-| [DeFiChain Jelly Punks](https://opensea.io/collection/defichain-jelly-punks) | ![](./../media/Unnamed2.png)          | [@DefiChainNFTs](https://t.me/DeFiChainNFTs) | [@DeFiChainNFTs](https://www.twitter.com/DeFiChainNFTs)   |
-| [DeFiChain Jellyfish](https://opensea.io/collection/defijelly)               | ![](./../media/Unnamed3.png)          | [@DefiChainNFTs](https://t.me/DeFiChainNFTs) | [@DeFiChainNFTs](https://www.twitter.com/DeFiChainNFTs)   |
+| **NFT**                                                                      | **Beispiel**                                     | **Anbieter auf Telegram**                    | **Anbieter auf Twitter**                                  |
+|------------------------------------------------------------------------------|--------------------------------------------------|----------------------------------------------|-----------------------------------------------------------|
+| [DFI-Punks](https://opensea.io/collection/dfi-punks)                         | ![](./../media/punks_DE_1_Punk6@20x.png)         | [@Martin8617](https://t.me/Martin8617)       | [@DFI_Punks](https://twitter.com/DFI_Punks)               |
+| [DFX-Punks](https://opensea.io/collection/dfx-punks)                         | ![](./../media/punks_DE_2_Punk64@20x.png)        | [@Martin8617](https://t.me/Martin8617)       | [@DFI_Punks](https://twitter.com/DFI_Punks)               |
+| [BTC-Punks](https://opensea.io/collection/btc-punks-1)                       | ![](./../media/punks_DE_3_Punk103@20x.png)       | [@Martin8617](https://t.me/Martin8617)       | [@DFI_Punks](https://twitter.com/DFI_Punks)               |
+| [Cake-Punks](https://opensea.io/collection/cake-punks)                       | ![](./../media/punks_DE_4_Punk106@20x.png)       | [@Martin8617](https://t.me/Martin8617)       | [@DFI_Punks](https://twitter.com/DFI_Punks)               |
+| [Saiive-Punks](https://opensea.io/collection/saiive-punks)                   | ![](./../media/punks_DE_5_Punk95@20x.png)        | [@Martin8617](https://t.me/Martin8617)       | [@DFI_Punks](https://twitter.com/DFI_Punks)               |
+| [DeFiChain Punks](https://opensea.io/collection/defichain-punks-original)    | ![](./../media/DeFiChain_Punks.gif)              |                                              | [@defichainpunks](https://www.twitter.com/defichainpunks) |
+| [DeFiChain Jelly Punks](https://opensea.io/collection/defichain-jelly-punks) | ![](./../media/punks_DE_6_Unnamed2.png)          | [@DefiChainNFTs](https://t.me/DeFiChainNFTs) | [@DeFiChainNFTs](https://www.twitter.com/DeFiChainNFTs)   |
+| [DeFiChain Jellyfish](https://opensea.io/collection/defijelly)               | ![](./../media/punks_DE_7_Unnamed3.png)          | [@DefiChainNFTs](https://t.me/DeFiChainNFTs) | [@DeFiChainNFTs](https://www.twitter.com/DeFiChainNFTs)   |
 
 ## NFT auf OpenSea {#nft-auf-opensea}
 
