@@ -3,7 +3,7 @@ title: DeFiChain-Portfolio
 permalink: /DeFiChain-Portfolio/
 ---
 
-![](./../media/Defi-portfolio-logo.png)
+![](./../media/defiportfolio_1.png)
 
 ## Community {#community}
 
@@ -28,7 +28,7 @@ DeFiChain Node (Blockchain) v.2.3.1 (You can install the [DeFiChain Desktop Wall
 - Install and run the DeFi-Portfolio for [Windows](https://github.com/DeFi-PortfolioManagement/defi-portfolio/releases/download/1.6.0/defi-portfolio-Setup-1.6.0.exe),[Mac](https://github.com/DeFi-PortfolioManagement/defi-portfolio/releases/download/1.6.0/defi-portfolio-1.6.0-mac.tar) or [Linux](https://github.com/DeFi-PortfolioManagement/defi-portfolio/releases/download/1.6.0/DeFi-Portfolio-1.6.0-linux.tar).
 - Click on update database (left bottom corner) When you load the data for the first time you have to allow access.
 
-![](./../media/FirewallPermission.png)
+![](./../media/defiportfolio_2.png)
 
 - Now your big data will imported and you can look on the raw data, export them or analyse your rewards and commissions.
 - After closing close the defid.exe. (If not then maybe you need a full resync the next time)
@@ -41,8 +41,8 @@ When you start the installer Windows Defender will block the installation. Just 
 
 Once the installation is done a shortcut of the DeFi-Portfolio will be available on the desktop.
 
-![](./../media/WindowsConfig2.jpg)
-![](./../media/WindowsConfig.jpg)
+![](./../media/defiportfolio_3.jpg)
+![](./../media/defiportfolio_4.jpg)
 
 ## Installation Mac {#installation-mac}
 
@@ -50,17 +50,17 @@ Download the latest version for mac: [here](https://github.com/DeFi-PortfolioMan
 
 Open the app. The first time you open the DeFi-Portfolio, you will be presented with a security prompt. Press OK to dismiss it. Go to System Preferences and click on Security & Privacy.
 
-![](../media/Mac_Ok.png)
-![](../media/MacSystemPreferences.png)
+![](../media/defiportfolio_5.png)
+![](../media/defiportfolio_6.png)
 
 Then click on the Open Anyway. Click Open on the confirmation popup. DeFi-Portfolio will launch automatically when the installation is complete.
 
-![](../media/MacSecurityAndPrivacy.png)
-![](../media/Macopen.png)
+![](../media/defiportfolio_7.png)
+![](../media/defiportfolio_8.png)
 
 Move defi-portfolio to applications
 
-![](../media/MacInstallation.jpg)
+![](../media/defiportfolio_9.jpg)
 
 ## Installation Linux {#installation-linux}
 
@@ -70,8 +70,8 @@ Once you have downloaded the .tar package you have to extract the files. In the 
 
 Once this is done you can launch the tool.
 
-![](../media/LinuxInstallation1_.png)
-![](../media/LinuxInstallation2.png)
+![](../media/defiportfolio_10.png)
+![](../media/defiportfolio_11.png)
 
 ## Functionality description {#functionality-description}
 
@@ -79,12 +79,12 @@ Once this is done you can launch the tool.
 
 Before you can analyse your rewards and commissions you have to paste the addresses which should be analysed. The window for pasting the addesses can either be found in the settings menu or in the menu when you click upadte data. Copy paste the addresses and add them to the list. You can also delete addresses shich should not be analysed. Once you have added all addresses click save & close. After that you can click on update database. When the blockchain is not up to date on you local system itwill be updated. After that the transactions will be read out and saved locally (appdata). While updating the database the connection to the node will be established (command line window). This will automatically close once the local data are up to date.
 
-![](../media/Addresses.png)
-![](../media/2021-12-22_19h01_22.png)
+![](../media/defiportfolio_12.png)
+![](../media/defiportfolio_13.png)
 
 #### **Raw Data:** {#raw-data}
 
-![](../media/2021-12-22_18h52_59.png)
+![](../media/defiportfolio_14.png)
 
 All transactions are shown in tabular form. Rewards and Commissions are summarized daily with the time 23:59. When clicking on Blockheight, Blockhash, Owner or Transaction-Hash the Blockchain Explorer will be opened with the respective value. The table can be exported as a csv file. To do this, right-click on the corresponding sub-functions.
 
@@ -140,7 +140,7 @@ In the first pie chart your tokens are displayed with the fiat value from the la
 
 **Commissions yield:** All commissions calculated in choosen FIAT currency (Price at date of the last Update **not** daily calculated like in the other tabs)
 
-![](../media/2021-12-22_19h59_32.png)
+![](../media/defiportfolio_15.png)
 
 **Column description:**
 
@@ -161,8 +161,8 @@ In the table the impermanent loss of each pool is shown. The current value of th
 The rewards are displayed in graphical form. You can choose the start date and the end date. In addition, the interval (daily, weekly, monthly, yearly) can be selected and the pool share can be choosen. The plot can be switched between individual and cumulative view. The table
 can be also exported as a csv file. To do this, right-click on the corresponding sub-functions.
 
-![](../media/2021-12-22_19h57_46.png)
-![](../media/2021-12-22_19h57_58.png)
+![](../media/defiportfolio_16.png)
+![](../media/defiportfolio_17.png)
 
 **Column description:**
 
@@ -178,7 +178,7 @@ can be also exported as a csv file. To do this, right-click on the corresponding
 
 The commissions are displayed in graphical form. The setting options are the same as for rewards. You can select the start date and the end date. In addition, the interval (daily, weekly, monthly, yearly) can be selected and the pool share can be choosen. The plot can be switched between individual and cumulative view.
 
-![](../media/2021-12-22_19h58_27.png)
+![](../media/defiportfolio_18.png)
 
 **Column description:**
 
@@ -200,7 +200,7 @@ The commissions are displayed in graphical form. The setting options are the sam
 
 The overview is displayed in graphical form. The rewards and commissions are combined in one plot. You can choose the start date and the end date.You can also select the interval (daily, weekly, monthly, yearly).
 
-![](../media/2021-12-22_19h58_34.png)
+![](../media/defiportfolio_19.png)
 
 **Column description:**
 
@@ -247,13 +247,13 @@ The following settings can be made in the Settings menu:
   - Linux: Folder where you unzipped the .tar
 - **Addresses:** Open the address configuration window
 
-![](../media/Settings2.png)
+![](../media/defiportfolio_20.png)
 
 ## Help {#help}
 
 In the help menu you will find the link to the [GitHub repository](https://github.com/DeFi-PortfolioManagement/defi-portfolio/blob/master/README.md) as well as the link to our [Telegram community](https://t.me/DeFiChainPortfolio). With the youtube link you will get to the [video about DeFiPortfolio](https://www.youtube.com/watch?v=86xO3_oFXAQ) from crypto explained. There is also the possibility to open the [DeFiChain website](https://defichain.com/).Furthermore a link to this wiki is available and a link to the [DeFiChainExplained](https://defichain-explained.com/) website.
 
-![](../media/HelpMenu.png)
+![](../media/defiportfolio_21.png)
 
 ## FAQs {#faqs}
 
