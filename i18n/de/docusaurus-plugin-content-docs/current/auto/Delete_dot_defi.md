@@ -9,13 +9,10 @@ Gehe in den Ordner .defi und lösche den Inhalt (oder verschiebe den Inhalt an e
 
 Windows: `C:\Users\%username%\.defi`
 
-Mac: `/Users/skip/.defi`
+Mac: `/Users/%username%/.defi`
 
-![Inhalt löschen oder verschieben](../media/210318_1607.png)
-
+![Inhalt löschen oder verschieben](../media/deletedotdefi_DE_1.png)
 
 Wenn du den .defi Ordner nicht finden kannst, dann hilft vielleicht dieser Text: [Show hidden folders](./Show_hidden_folders.md)
-
-
 
 Danach den Computer neustarten und die DeFi Wallet öffnen. Teilweise funktioniert dieser Trick. Falls nicht können wir nur empfehlen alles zu löschen (ausser Backup) und die App neu zu installieren.

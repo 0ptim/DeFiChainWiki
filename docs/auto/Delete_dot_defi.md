@@ -11,8 +11,7 @@ Windows: `C:\Users\%username%\.defi`
 
 Mac: `/Users/%username%/.defi`
 
-Delete or move content
-![Delete or move content](./../media/210318_1607.png)
+![Delete or move content](./../media/deletedotdefi_EN_1.png)
 
 If you can't find the .defi folder, this text may help: [Show hidden folders](./Show_hidden_folders.md)
 
