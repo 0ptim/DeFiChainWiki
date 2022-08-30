@@ -136,6 +136,13 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      algolia: {
+        apiKey: '00a233bca9e11e8baf6f03174dd7ebb5',
+        indexName: 'defichain_wiki',
+        contextualSearch: true,
+        appId: '8RV2QHX307',
+        searchParameters: {},
+      },
     }),
 };
 

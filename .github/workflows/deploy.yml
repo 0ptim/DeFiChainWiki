@@ -36,3 +36,12 @@ jobs:
           # You can swap them out with your own user credentials.
           user_name: github-actions[bot]
           user_email: 41898282+github-actions[bot]@users.noreply.github.com
+
+  search_crawler:
+    needs: deploy
+    name: Algolia Docsearch Indexer
+    uses: darrenjennings/algolia-docsearch-action@v0.2.0
+    with:
+      algolia_application_id: ${{ secrets.ALGOLIA_APP_ID }}
+      algolia_api_key: ${{ secrets.ALGOLIA_API_KEY }}
+      file: "algolia-docsearch-config.json"
