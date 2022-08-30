@@ -39,7 +39,8 @@ jobs:
 
   search_crawler:
     needs: deploy
-    name: Algolia Docsearch Indexer    
+    name: Algolia Docsearch Indexer
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - uses: darrenjennings/algolia-docsearch-action@v0.2.0
