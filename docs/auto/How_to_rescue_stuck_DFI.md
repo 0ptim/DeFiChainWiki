@@ -11,14 +11,14 @@ If you have problems sending your DFI from the Wallet try the following **step-b
 
 Before starting we should check, if a DFI-sending problem is caused by "unwrapped" DFI
 
-![DFI-amount showed in the wallet](./../media/DFI_Wallet.webp)
+![DFI-amount showed in the wallet](./../media/rescueDFI_EN_DFI_Wallet.webp)
 
 Your DFI-Wallet is showing an DFI amount. To see, how many coins and tokens you have, you need the following 2 commands:
 
 `getbalance`  
 `gettokenbalances {} true true`
 
-![checking DFI-coins vs. DFI-token](./../media/DFI-coins_vs._DFI-token.webp)
+![checking DFI-coins vs. DFI-token](./../media/rescueDFI_EN_DFI-coins_vs._DFI-token.webp)
 
 In the above picture you see, most DFI are Token and not Coins. These Tokens cannot be transferred to another address.
 
@@ -32,7 +32,7 @@ The above shown DFI-amount are hold by one or more addresses. To find out, which
 
 You are getting a list of entries, which should look like this:
 
-![address with DFI-token](./../media/Address_with_DFI-token.webp)
+![address with DFI-token](./../media/rescueDFI_EN_Address_with_DFI-token.webp)
 
 ## Step 3: Checking all tokens on relevant address {#step-3-checking-all-tokens-on-relevant-address}
 
@@ -43,7 +43,7 @@ Before changing token to coin, please check the amount and all the other tokens 
 
 You should get the following result:
 
-![List of tokens on the address](./../media/Tokens_on_address.webp)
+![List of tokens on the address](./../media/rescueDFI_EN_Tokens_on_address.webp)
 
 ## Step 4: Converting token to coin {#step-4-converting-token-to-coin}
 
@@ -55,7 +55,7 @@ Now, we come to the last, essential step. This will convert an amount of token i
 
 **If you execute the command from Step 4, you may get the following error:**
 
-![Error when changing token to coin](./../media/Error_changing_token_to_coin.webp)
+![Error when changing token to coin](./../media/rescueDFI_EN_Error_changing_token_to_coin.webp)
 
 Then you need additional steps:
 
@@ -63,7 +63,7 @@ Then you need additional steps:
 
 Send a small amount of DFI to this address!
 
-![Sending DFI-coin to address with token, result is a Tx-hash](./../media/Result_Tx-Hash.webp)
+![Sending DFI-coin to address with token, result is a Tx-hash](./../media/rescueDFI_EN_Result_Tx-Hash.webp)
 
 You will get an Tx-Hash as a result.
 
@@ -71,19 +71,19 @@ You will get an Tx-Hash as a result.
 
 Please go to <https://explorer.defichain.io/#/DFI/mainnet/home> to check, if it is confirmed before you proceed.
 
-![Confirmations after exection of command](./../media/Check_Confirmation.webp)
+![Confirmations after exection of command](./../media/rescueDFI_EN_Check_Confirmation.webp)
 
 #### Step 4.3: Converting token to coin {#step-43-converting-token-to-coin}
 
 Now, you can run the accounttoutxos command from above again. If it is successful, you will get an Tx-hash, which can be checked in the explorer again (Step 5)
 
-![Successful execution of Token-to-Coin conversion](./../media/Token-to-Coin_conversion.webp)
+![Successful execution of Token-to-Coin conversion](./../media/rescueDFI_EN_Check_Token-to-Coin_conversion.webp)
 
 ## Step 5: Check conversion {#step-5-check-conversion}
 
 Just to be sure, everythin worked, you can run the commands getaccount address and getbalance again. In the following Picture, you see that the DFI-coin amount is now increased by 2DFI. The token were converted.
 
-[New token and coin balance](./../media/New_Balance.webp)
+[New token and coin balance](./../media/rescueDFI_EN_Check_New_Balance.webp)
 
 ## Source {#source}
 

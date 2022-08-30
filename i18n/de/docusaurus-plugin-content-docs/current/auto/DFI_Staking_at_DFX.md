@@ -3,7 +3,7 @@ title: DFI Staking bei DFX
 permalink: /DFI_Staking_at_DFX/
 ---
 
-![](./../media/1staking.jpg)
-![](./../media/2Staking.jpg)
-![](./../media/3staking.jpg)
-![](./../media/4staking.jpg)
+![](./../media/dfxstaking_DE_1.jpg)
+![](./../media/dfxstaking_DE_2.jpg)
+![](./../media/dfxstaking_DE_3.jpg)
+![](./../media/dfxstaking_DE_4.jpg)

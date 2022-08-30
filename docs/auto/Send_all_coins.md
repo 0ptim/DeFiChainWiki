@@ -6,15 +6,15 @@ permalink: /Send_all_coins/
 Instructions how to send all coins and tokens of a DeFi Wallet:
 
 *DeFi Wallet with Coin and Tokens*  
-![DeFi Wallet with Coin and Tokens](./../media/210318_1518.png)
+![DeFi Wallet with Coin and Tokens](./../media/sendallcoins_EN_01.png)
 
 To move all assets it is best to move the liquidity tokens first. To do this, open the corresponding wallet and send the assets to the new address.
 
 *Click on the DeFi Wallet and then click on Send*  
-![Click on the DeFi Wallet and then click on Send](./../media/210318_1520.png)
+![Click on the DeFi Wallet and then click on Send](./../media/sendallcoins_EN_02.png)
 
 *Insert new address, click MAX, confirm note, and then click Next and Send*  
-![Insert new address, click MAX, confirm note, and then click Next and Send](./../media/210318_1522.png)
+![Insert new address, click MAX, confirm note, and then click Next and Send](./../media/sendallcoins_EN_03.png)
 
 Note: Liquidity tokens may not be sent to exchanges or other providers. Send liquidity tokens to your own address only!
 

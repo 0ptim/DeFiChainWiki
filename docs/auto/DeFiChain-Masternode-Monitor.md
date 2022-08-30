@@ -7,7 +7,7 @@ See what's going on on your Masternodes without having the DeFiChain Wallet desk
 
 https://www.defichain-masternode-monitor.com/
 
-![thumb](./../media/Defichain-masternode-monitor-moackup.png)
+![thumb](./../media/services_EN_13_Defichain-masternode-monitor-moackup.png)
 
 ### Installation {#installation}
 

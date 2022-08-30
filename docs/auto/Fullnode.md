@@ -128,7 +128,7 @@ If the number of connections is 8 or less, only outbound connections are active.
 
 ### Problem description {#problem-description}
 
-![Corrupted block database](../media/Photo_2021-03-02_22-27-44.jpg)
+![Corrupted block database](../media/fullnode_EN_1.jpg)
 
 Some users report that this error message occurs again and again. Afterwards, the entire blockchain has to be reloaded, which is very tedious. The cause of this problem lies in the incorrect termination of the DeFi app. It is important that the app is always shut down correctly.
 
@@ -141,7 +141,7 @@ As a remedy, it is recommended to work with backup solutions. Then the entire bl
 3.  Copy the following 3 folders to another location. This is your blockchain backup. `blocks` `enhancedcs` `chainstate`
 4.  The backup is thus created.
 
-![enhancedcs blocks chainstate](../media/2021-03-20_23.33.38.png)
+![enhancedcs blocks chainstate](../media/fullnode_EN_2.png)
 
 ### Restore backup {#restore-backup}
 

@@ -56,7 +56,7 @@ The function set includes among others:
 
 ### Timeline {#timeline}
 
-![center](./../media/Roadmap.png)
+![](./../media/whitepaper_EN_1_Roadmap.png)
 
 ## Background/Industry {#backgroundindustry}
 
@@ -76,7 +76,7 @@ Financial services today are providing an important service, but at a very high 
 
 Fintech has been attempting to address these problems, with some success. Fintech solutions such as online international transfer services, savings, and investment apps, and mobile money for underserved markets have begun to improve the situation. However, the change is incremental, and is still built on top of a system that fundamentally requires the overhead of agents to provide trust. While some of the costs can be reduced, fundamentally, fintech can’t address the underlying issues of lack of transparency because it is dealing in the same financial instruments and going through the same major institutions as traditional finance.
 
-![center](./../media/2019-defi.png)
+![](./../media/whitepaper_EN_2_2019-defi.png)
 
 For this reason, many investors have begun moving parts of their investments into cryptocurrency. Cryptocurrency, by definition has full transparency that traditional systems simply cannot provide. Furthermore, the amount
 of administration and bureaucracy required is minimal. Most of the activities that were carried out by agents can be written into the code in decentralized financial systems. Of course, there is still some overhead in creating and maintaining the code, as well as maintenance of the networks, but the amount of bureaucracy is minimal, eliminating much of the cost of transacting on these systems.
@@ -85,7 +85,7 @@ Despite the promise of decentralized finance, the technology is still nascent, a
 
 Today, almost universally, cryptocurrency investors have only one way to earn money on their capital: rise of the cryptocurrency asset. While in the short term, this may be a good investment, it’s not how currency is designed to work. The investment of capital should provide a return on investment, and cryptocurrency is designed to be like any other form of currency. Investors today want the possibility to lend, invest, and receive returns on their cryptocurrency investments. Well-designed DeFi platforms should allow the development of a variety of safe and secure financial instruments for the investment of cryptocurrency.
 
-![center](./../media/Be-your-own-bank.png)
+![](./../media/whitepaper_EN_3_Be-your-own-bank.png)
 
 ### The state of DeFi {#the-state-of-defi}
 
@@ -206,7 +206,7 @@ the capacity of becoming a true DeFi network for the rest of the
 ecosystem. Something Vitalik Buterin has acknowledged in an interview:
 [<https://beincrypto.com/ethereum-founders-admit-never-designed-scalability/>.](https://beincrypto.com/ethereum-founders-admit-never-designed-scalability/)
 
-![center](./../media/Graph.png)
+![](./../media/whitepaper_EN_4_Graph.png)
 
 ## DeFiChain Solution {#defichain-solution}
 
@@ -877,7 +877,7 @@ root onto the newly mined block. By doing so, the staker will be
 rewarded an extra block reward in DFI, incentivising nodes to regularly
 anchor all records to the Bitcoin blockchain.
 
-![center](./../media/Every-60-blocks.png)
+![](./../media/whitepaper_EN_5_Every-60-blocks.png)
 
 DeFiChain node will
 include a built-in Bitcoin Simplified Payment Verification (SPV) client.
@@ -911,7 +911,7 @@ On DeFiChain the standardized tokens are called DeFi Standard Token
 the system, and DAT, which are asset-backed tokens created with the
 backing of cryptoassets.
 
-![](./../media/Custom-token.png)
+![](./../media/whitepaper_EN_6_Custom-token.png)
 
 ### DeFi Custom Token (DCT) {#defi-custom-token-dct}
 
@@ -1004,7 +1004,7 @@ blocks are built natively on DeFiChain:
 3.  Cross-chain Exchange (XCX)
 4.  Pricing Oracles
 
-![](./../media/Dat-overview.png)
+![](./../media/whitepaper_EN_7_Dat-overview.png)
 
 ### Loan Contract {#loan-contract}
 
@@ -1080,7 +1080,7 @@ possibility to collateralize any asset due to DeFiChain’s nature.
     has to pay back 0.5 DBTC \* 1.05 = 0.525 DBTC by the end of the
     year.
 
-![](./../media/Alice-pdc.png)
+![](./../media/whitepaper_EN_8_Alice-pdc.png)
 
 ### Decentralized Exchange (DEX) {#decentralized-exchange-dex}
 
@@ -1196,7 +1196,7 @@ Alice gets to keep the 1 BTC (minus 8000 DFI interest) and Bob now gets
 1 DBTC (plus 8000 DFI interest). Additionally Bob received the Guarantee
 of 0.1 DBTC providing him with an extra 10%.
 
-![](./../media/Alice-bob-xcx.png)
+![](./../media/whitepaper_EN_9_Alice-bob-xcx.png)
 
 #### Second Example: {#second-example}
 
@@ -1323,7 +1323,7 @@ Rewards from minting a block on DeFiChain are calculated as:
 The burned token redistribution schedule is determined automatically
 every 259,200 blocks (approx. every 90 days) and works as follows:
 
-![](./../media/Burn.png)
+![](./../media/whitepaper_EN_10_Burn.png)
 
 Burned token redistribution for the next 259,200 blocks =
 
@@ -1365,7 +1365,7 @@ ecosystem partners, directing the development of the tools for ecosystem
 partners, and other activities to increase the number of ecosystem
 partners.
 
-![](./../media/Governance.png)
+![](./../media/whitepaper_EN_11_Governance.png)
 
 For clarification and transparency, Cake Pte Ltd is a private company
 located in Singapore. Cake Pte Ltd is an initial contributor as part of
@@ -1415,7 +1415,7 @@ adoption and development of DeFiChain.
 
 For any avoidance of doubt, there will NOT be a public ICO.
 
-![](./../media/Initial-token-distribution.png)
+![](./../media/whitepaper_EN_12_Initial-token-distribution.png)
 
 Further tokens will only ever be received through staking, which is
 described in the next chapter.
@@ -1547,7 +1547,7 @@ DeFiChain.
 
 ## Roadmap and Milestones {#roadmap-and-milestones}
 
-![](./../media/Roadmap.png)
+![](./../media/whitepaper_EN_1_Roadmap.png)
 
 ## A Glimpse into the Future {#a-glimpse-into-the-future}
 
