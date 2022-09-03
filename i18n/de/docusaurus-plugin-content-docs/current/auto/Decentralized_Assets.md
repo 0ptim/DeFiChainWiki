@@ -1,5 +1,6 @@
 ---
 title: Dezentralisierte Vermögenswerte
+description: TODO - Kurze Beschreibung dieser Seite.
 permalink: /Decentralized_Assets/
 ---
 

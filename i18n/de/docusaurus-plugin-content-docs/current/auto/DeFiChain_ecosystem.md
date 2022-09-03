@@ -1,5 +1,6 @@
 ---
 title: DeFiChain-Ökosystem
+description: TODO - Kurze Beschreibung dieser Seite.
 permalink: /DeFiChain_ecosystem/
 ---
 

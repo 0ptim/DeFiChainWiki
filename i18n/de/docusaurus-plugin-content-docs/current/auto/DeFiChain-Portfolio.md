@@ -1,5 +1,6 @@
 ---
 title: DeFiChain-Portfolio
+description: TODO - Kurze Beschreibung dieser Seite.
 permalink: /DeFiChain-Portfolio/
 ---
 

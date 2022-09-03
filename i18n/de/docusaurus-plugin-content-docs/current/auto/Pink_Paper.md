@@ -1,5 +1,6 @@
 ---
 title: Pink Paper
+description: TODO - Kurze Beschreibung dieser Seite.
 permalink: /Pink_Paper/
 ---
 

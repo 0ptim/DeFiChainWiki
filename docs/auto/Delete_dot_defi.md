@@ -1,5 +1,6 @@
 ---
 title: Delete .defi folder
+description: TODO - Short description of this page.
 permalink: /Delete_dot_defi/
 ---
 

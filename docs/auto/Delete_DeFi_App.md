@@ -1,5 +1,6 @@
 ---
 title: Delete DeFi App
+description: TODO - Short description of this page.
 permalink: /Delete_DeFi_App/
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Community Funding Proposals
+description: TODO - Kurze Beschreibung dieser Seite.
 permalink: /Community_Funding_Proposals/
 ---
 

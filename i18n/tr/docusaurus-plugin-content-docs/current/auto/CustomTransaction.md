@@ -1,5 +1,6 @@
 ---
 title: Özel İşlem
+description: TODO - Bu sayfanın kısa açıklaması.
 permalink: /CustomTransaction/
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: DEX Ücret Yapısı
+description: TODO - Bu sayfanın kısa açıklaması.
 permalink: /DEX_Fee_Structure/
 ---
 

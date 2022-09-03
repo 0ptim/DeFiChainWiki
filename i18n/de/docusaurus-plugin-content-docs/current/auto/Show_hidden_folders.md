@@ -1,5 +1,6 @@
 ---
 title: Versteckte Ordner anzeigen
+description: TODO - Kurze Beschreibung dieser Seite.
 permalink: /Show_hidden_folders/
 ---
 

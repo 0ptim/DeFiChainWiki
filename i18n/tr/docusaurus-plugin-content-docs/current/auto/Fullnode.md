@@ -1,5 +1,6 @@
 ---
 title: Fullnode
+description: TODO - Bu sayfanın kısa açıklaması.
 permalink: /Fullnode/
 ---
 

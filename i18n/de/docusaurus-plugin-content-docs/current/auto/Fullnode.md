@@ -1,5 +1,6 @@
 ---
 title: Fullnode
+description: TODO - Kurze Beschreibung dieser Seite.
 permalink: /Fullnode/
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: DeFiChain Advanced Tutorial
+description: TODO - Short description of this page.
 permalink: /DeFiChain_Advanced_Tutorial/
 ---
 

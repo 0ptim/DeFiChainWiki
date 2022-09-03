@@ -1,5 +1,6 @@
 ---
 title: Staking
+description: TODO - Kurze Beschreibung dieser Seite.
 permalink: /Staking/
 ---
 

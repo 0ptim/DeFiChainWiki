@@ -1,5 +1,6 @@
 ---
 title: Liquidity Token
+description: TODO - Short description of this page.
 permalink: /Liquidity_Token/
 ---
 

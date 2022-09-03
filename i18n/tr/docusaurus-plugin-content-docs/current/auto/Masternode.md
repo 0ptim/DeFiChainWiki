@@ -1,5 +1,6 @@
 ---
 title: Masternode
+description: TODO - Bu sayfanın kısa açıklaması.
 permalink: /Masternode/
 ---
 

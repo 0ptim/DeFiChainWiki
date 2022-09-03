@@ -1,5 +1,6 @@
 ---
 title: DFI Staking at DFX
+description: TODO - Short description of this page.
 permalink: /DFI_Staking_at_DFX/
 ---
 

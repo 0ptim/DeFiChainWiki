@@ -1,5 +1,6 @@
 ---
 title: DeFiChain-Portfolio
+description: TODO - Bu sayfanın kısa açıklaması.
 permalink: /DeFiChain-Portfolio/
 ---
 

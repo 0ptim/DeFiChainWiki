@@ -1,5 +1,6 @@
 ---
 title: Yeni Başlayanlar İçin Rehber
+description: TODO - Bu sayfanın kısa açıklaması.
 permalink: /Beginners_Guide/
 ---
 

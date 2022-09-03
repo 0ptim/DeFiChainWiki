@@ -1,5 +1,6 @@
 ---
 title: Şifre Ayarı
+description: TODO - Bu sayfanın kısa açıklaması.
 permalink: /Password_Setting/
 ---
 

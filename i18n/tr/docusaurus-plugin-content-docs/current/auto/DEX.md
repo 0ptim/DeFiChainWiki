@@ -1,5 +1,6 @@
 ---
 title: DEX
+description: TODO - Bu sayfanın kısa açıklaması.
 permalink: /DEX/
 ---
 

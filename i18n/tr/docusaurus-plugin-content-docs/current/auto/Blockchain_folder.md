@@ -1,5 +1,6 @@
 ---
 title: Blockchain klasörü
+description: TODO - Bu sayfanın kısa açıklaması.
 permalink: /Blockchain_folder/
 ---
 

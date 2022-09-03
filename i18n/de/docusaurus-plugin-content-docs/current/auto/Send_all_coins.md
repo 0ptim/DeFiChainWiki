@@ -1,5 +1,6 @@
 ---
 title: Alle Coins versenden
+description: TODO - Kurze Beschreibung dieser Seite.
 permalink: /Send_all_coins/
 ---
 

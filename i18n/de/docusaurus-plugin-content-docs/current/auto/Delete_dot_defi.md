@@ -1,5 +1,6 @@
 ---
 title: .defi Ordner löschen
+description: TODO - Kurze Beschreibung dieser Seite.
 permalink: /Delete_dot_defi/
 ---
 

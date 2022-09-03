@@ -1,5 +1,6 @@
 ---
 title: Decentralized Assets
+description: TODO - Short description of this page.
 permalink: /Decentralized_Assets/
 ---
 

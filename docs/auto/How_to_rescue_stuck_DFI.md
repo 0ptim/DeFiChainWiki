@@ -1,5 +1,6 @@
 ---
 title: How To "Rescue" Stuck DFI
+description: TODO - Short description of this page.
 permalink: /How_to_rescue_stuck_DFI/
 ---
 

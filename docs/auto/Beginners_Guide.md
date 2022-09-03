@@ -1,5 +1,6 @@
 ---
 title: Beginners Guide
+description: TODO - Short description of this page.
 permalink: /Beginners_Guide/
 ---
 

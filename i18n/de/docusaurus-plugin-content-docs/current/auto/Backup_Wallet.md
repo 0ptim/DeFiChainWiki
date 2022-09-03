@@ -1,5 +1,6 @@
 ---
 title: Wallet Sicherung
+description: TODO - Kurze Beschreibung dieser Seite.
 permalink: /Backup_Wallet/
 ---
 

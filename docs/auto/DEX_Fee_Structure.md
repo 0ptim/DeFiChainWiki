@@ -1,5 +1,6 @@
 ---
 title: DEX Fee Structure
+description: TODO - Short description of this page.
 permalink: /DEX_Fee_Structure/
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: DeFiChain
+description: TODO - Short description of this page.
 permalink: /DeFiChain/
 ---
 

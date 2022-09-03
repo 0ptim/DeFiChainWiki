@@ -1,5 +1,6 @@
 ---
 title: Wallet.dat beschädigt Rettung fehlgeschlagen
+description: TODO - Kurze Beschreibung dieser Seite.
 permalink: /corrupt_salvage_failed/
 ---
 

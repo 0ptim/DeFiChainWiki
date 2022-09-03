@@ -1,5 +1,6 @@
 ---
 title: Original White Paper
+description: TODO - Short description of this page.
 permalink: /Original_White_Paper/
 ---
 

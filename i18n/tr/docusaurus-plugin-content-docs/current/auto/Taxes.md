@@ -1,5 +1,6 @@
 ---
 title: Vergiler
+description: TODO - Bu sayfanın kısa açıklaması.
 permalink: /Taxes/
 ---
 

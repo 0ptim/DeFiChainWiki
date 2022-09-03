@@ -1,5 +1,6 @@
 ---
 title: DeFi Wallet error messages
+description: TODO - Short description of this page.
 permalink: /DeFi_Wallet_error_messages/
 ---
 

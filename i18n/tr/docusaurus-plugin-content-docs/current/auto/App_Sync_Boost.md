@@ -1,5 +1,6 @@
 ---
 title: Uygulama Senkronizasyonu Artışı
+description: TODO - Bu sayfanın kısa açıklaması.
 permalink: /App_Sync_Boost/
 ---
 

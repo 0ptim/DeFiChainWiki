@@ -1,5 +1,6 @@
 ---
 title: Liquidity Mining
+description: TODO - Kurze Beschreibung dieser Seite.
 permalink: /Liquidity_Mining/
 ---
 

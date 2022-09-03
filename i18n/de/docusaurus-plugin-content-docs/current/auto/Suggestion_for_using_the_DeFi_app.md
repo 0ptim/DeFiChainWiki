@@ -1,5 +1,6 @@
 ---
 title: Vorschlag zur Verwendung der DeFi App
+description: TODO - Kurze Beschreibung dieser Seite.
 permalink: /Suggestion_for_using_the_DeFi_app/
 ---
 

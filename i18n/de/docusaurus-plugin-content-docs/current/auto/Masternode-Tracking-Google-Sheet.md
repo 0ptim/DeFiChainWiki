@@ -1,5 +1,6 @@
 ---
 title: Masternode-Tracking-Google-Sheet
+description: TODO - Kurze Beschreibung dieser Seite.
 permalink: /Masternode-Tracking-Google-Sheet/
 ---
 

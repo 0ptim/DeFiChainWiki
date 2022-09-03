@@ -1,5 +1,6 @@
 ---
 title: Show hidden folders
+description: TODO - Short description of this page.
 permalink: /Show_hidden_folders/
 ---
 

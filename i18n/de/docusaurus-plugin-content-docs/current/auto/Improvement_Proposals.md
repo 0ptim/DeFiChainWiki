@@ -1,5 +1,6 @@
 ---
 title: Improvement Proposals
+description: TODO - Kurze Beschreibung dieser Seite.
 permalink: /Improvement_Proposals/
 ---
 

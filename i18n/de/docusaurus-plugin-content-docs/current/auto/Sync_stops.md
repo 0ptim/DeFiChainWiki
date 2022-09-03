@@ -1,5 +1,6 @@
 ---
 title: Synchronisierung stoppt
+description: TODO - Kurze Beschreibung dieser Seite.
 permalink: /Sync_stops/
 ---
 

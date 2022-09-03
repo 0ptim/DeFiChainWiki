@@ -1,5 +1,6 @@
 ---
 title: Anwendung auf Raspberry-Pi
+description: TODO - Kurze Beschreibung dieser Seite.
 permalink: /App_on_Raspberry-Pi-Pi/
 ---
 

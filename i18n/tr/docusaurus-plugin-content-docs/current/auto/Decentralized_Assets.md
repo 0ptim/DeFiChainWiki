@@ -1,5 +1,6 @@
 ---
 title: Merkeziyetsiz Varlıklar
+description: TODO - Bu sayfanın kısa açıklaması.
 permalink: /Decentralized_Assets/
 ---
 

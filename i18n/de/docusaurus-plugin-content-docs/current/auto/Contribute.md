@@ -1,5 +1,6 @@
 ---
 title: ❤ Mithelfen-Anleitung
+description: TODO - Kurze Beschreibung dieser Seite.
 permalink: /Contribute/
 ---
 

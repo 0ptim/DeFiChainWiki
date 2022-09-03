@@ -1,5 +1,6 @@
 ---
 title: Masternode installation erweitert
+description: TODO - Kurze Beschreibung dieser Seite.
 permalink: /Masternode_installation_extended/
 ---
 

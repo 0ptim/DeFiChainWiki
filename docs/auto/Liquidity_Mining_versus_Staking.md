@@ -1,5 +1,6 @@
 ---
 title: Liquidity Mining versus Staking
+description: TODO - Short description of this page.
 permalink: /Liquidity_Mining_versus_Staking/
 ---
 

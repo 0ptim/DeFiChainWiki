@@ -1,5 +1,6 @@
 ---
 title: DeFiChain-Masternode-Monitor
+description: TODO - Short description of this page.
 permalink: /DeFiChain-Masternode-Monitor/
 ---
 

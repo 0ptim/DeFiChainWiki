@@ -1,5 +1,6 @@
 ---
 title: Ekosistem
+description: TODO - Bu sayfanın kısa açıklaması.
 permalink: /Ecosystem/
 ---
 

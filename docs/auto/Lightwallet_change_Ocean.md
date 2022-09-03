@@ -1,5 +1,6 @@
 ---
 title: Lightwallet change Ocean
+description: TODO - Short description of this page.
 permalink: /Lightwallet_change_Ocean/
 ---
 

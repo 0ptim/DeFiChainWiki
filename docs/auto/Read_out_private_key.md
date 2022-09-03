@@ -1,5 +1,6 @@
 ---
 title: Private key read out of the app
+description: TODO - Short description of this page.
 permalink: /Read_out_private_key/
 ---
 

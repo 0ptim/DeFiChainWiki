@@ -1,5 +1,6 @@
 ---
 title: Masternode service
+description: TODO - Kurze Beschreibung dieser Seite.
 permalink: /Masternode_service/
 ---
 

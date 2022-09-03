@@ -1,5 +1,6 @@
 ---
 title: Bitcoin-Verankerung
+description: TODO - Kurze Beschreibung dieser Seite.
 permalink: /Bitcoin_Anchoring/
 ---
 

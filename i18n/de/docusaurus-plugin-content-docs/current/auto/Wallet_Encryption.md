@@ -1,5 +1,6 @@
 ---
 title: Wallet-Verschlüsselung
+description: TODO - Kurze Beschreibung dieser Seite.
 permalink: /Wallet_Encryption/
 ---
 

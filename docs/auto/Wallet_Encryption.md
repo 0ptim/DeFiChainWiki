@@ -1,5 +1,6 @@
 ---
 title: Wallet Encryption
+description: TODO - Short description of this page.
 permalink: /Wallet_Encryption/
 ---
 

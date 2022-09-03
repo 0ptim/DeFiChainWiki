@@ -1,5 +1,6 @@
 ---
 title: Benutzerdefinierte Transaktion
+description: TODO - Kurze Beschreibung dieser Seite.
 permalink: /CustomTransaction/
 ---
 

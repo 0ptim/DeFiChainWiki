@@ -1,5 +1,6 @@
 ---
 title: Restore Wallet
+description: TODO - Short description of this page.
 permalink: /Restore_Wallet/
 ---
 

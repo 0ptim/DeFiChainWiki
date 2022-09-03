@@ -1,5 +1,6 @@
 ---
 title: Restore wiederherstellen
+description: TODO - Kurze Beschreibung dieser Seite.
 permalink: /Restore_Wallet/
 ---
 

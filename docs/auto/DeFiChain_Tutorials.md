@@ -1,5 +1,6 @@
 ---
 title: DeFiChain Öğreticileri
+description: TODO - Short description of this page.
 permalink: /DeFiChain_Tutorials/
 ---
 

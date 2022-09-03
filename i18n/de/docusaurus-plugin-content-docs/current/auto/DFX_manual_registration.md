@@ -1,5 +1,6 @@
 ---
 title: DFX manuelle Registrierung
+description: TODO - Kurze Beschreibung dieser Seite.
 permalink: /DFX_manual_registration/
 ---
 

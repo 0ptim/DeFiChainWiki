@@ -1,5 +1,6 @@
 ---
 title: Kritik
+description: TODO - Kurze Beschreibung dieser Seite.
 permalink: /Criticism/
 ---
 

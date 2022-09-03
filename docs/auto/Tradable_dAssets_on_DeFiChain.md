@@ -1,5 +1,6 @@
 ---
 title: Tradable dAssets on DeFiChain
+description: TODO - Short description of this page.
 permalink: /Tradable_dAssets_on_DeFiChain/
 ---
 

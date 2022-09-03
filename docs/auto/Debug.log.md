@@ -1,5 +1,6 @@
 ---
 title: Debug.log
+description: TODO - Short description of this page.
 permalink: /Debug.log/
 ---
 

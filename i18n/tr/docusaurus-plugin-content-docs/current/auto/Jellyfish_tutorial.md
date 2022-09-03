@@ -1,5 +1,6 @@
 ---
 title: Jellyfish tutorial
+description: TODO - Bu sayfanın kısa açıklaması.
 permalink: /Jellyfish_tutorial/
 ---
 

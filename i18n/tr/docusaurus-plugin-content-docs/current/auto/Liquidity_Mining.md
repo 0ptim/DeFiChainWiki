@@ -1,5 +1,6 @@
 ---
 title: Likidite Madenciliği
+description: TODO - Bu sayfanın kısa açıklaması.
 permalink: /Liquidity_Mining/
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Wallet.dat corrupt salvage failed
+description: TODO - Short description of this page.
 permalink: /corrupt_salvage_failed/
 ---
 

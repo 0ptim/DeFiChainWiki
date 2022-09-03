@@ -1,5 +1,6 @@
 ---
 title: Impermanent Loss
+description: TODO - Kurze Beschreibung dieser Seite.
 permalink: /Impermanent_Loss/
 ---
 

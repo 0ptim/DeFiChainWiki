@@ -1,5 +1,6 @@
 ---
 title: DeFiChain Tutorials
+description: TODO - Kurze Beschreibung dieser Seite.
 permalink: /DeFiChain_Tutorials/
 ---
 

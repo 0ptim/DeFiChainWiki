@@ -1,5 +1,6 @@
 ---
 title: ❤ Katkıda Bulunun-Kılavuz
+description: TODO - Bu sayfanın kısa açıklaması.
 permalink: /Contribute/
 ---
 
