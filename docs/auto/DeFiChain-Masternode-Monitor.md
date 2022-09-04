@@ -1,7 +1,6 @@
 ---
 title: DeFiChain-Masternode-Monitor
 description: TODO - Short description of this page.
-permalink: /DeFiChain-Masternode-Monitor/
 ---
 
 See what's going on on your Masternodes without having the DeFiChain Wallet desktop app running. So, you can check the activities of your masternodes right from your smartphone or any other computer with internet access.

@@ -1,7 +1,6 @@
 ---
 title: DFX manuelle Registrierung
 description: TODO - Kurze Beschreibung dieser Seite.
-permalink: /DFX_manual_registration/
 ---
 
 Diese Webseite beschreibt, wie man sich an der DFX.swiss Exchange registrieren kann.

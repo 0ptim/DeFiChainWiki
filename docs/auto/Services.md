@@ -1,7 +1,6 @@
 ---
 title: Services
 description: TODO - Short description of this page.
-permalink: /Services/
 ---
 
 Links to independent portals with DeFiChain content

@@ -1,7 +1,6 @@
 ---
 title: Updated White Paper
 description: TODO - Short description of this page.
-permalink: /Updated_White_Paper/
 ---
 
 ## White paper {#white-paper}

@@ -1,7 +1,6 @@
 ---
 title: Password Setting
 description: TODO - Short description of this page.
-permalink: /Password_Setting/
 ---
 
 The DefiChain app in version 2.3.0 offers or forces you to set a password. This will encrypt your wallet.dat file where all sensitive information, like private keys are stored. Since the leakage of the private key will enable the attacker to transfer the funds from your wallet to another one, encryption of the wallet is recommended and implemented since the beginning. In former versions the was no GUI support for this function and the command line was used to encrypt and temporarily decrypt (as described [here](https://github.com/DeFiCh/app/wiki/Wallet-Encryption)).

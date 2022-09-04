@@ -1,7 +1,6 @@
 ---
 title: Punks
 description: TODO - Short description of this page.
-permalink: /Punks/
 ---
 
 ## Introduction {#introduction}

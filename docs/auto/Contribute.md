@@ -1,7 +1,6 @@
 ---
 title: ❤ Contribute-Guide
 description: TODO - Short description of this page.
-permalink: /Contribute/
 ---
 
 ## Quick Edit

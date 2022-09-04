@@ -1,7 +1,6 @@
 ---
 title: .defi Ordner löschen
 description: TODO - Kurze Beschreibung dieser Seite.
-permalink: /Delete_dot_defi/
 ---
 
 Hier beschreibe ich eine Lösung, die ab und zu funktioniert, wenn die DeFi-Wallet nicht korrekt startet. Manchmal funktioniert auch dieser Ansatz nicht. Bitte stelle zunächst sicher, dass du ein sicheres Backup hast.

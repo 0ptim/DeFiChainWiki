@@ -1,7 +1,6 @@
 ---
 title: Masternode-Tracking-Google-Sheet
 description: TODO - Short description of this page.
-permalink: /Masternode-Tracking-Google-Sheet/
 ---
 
 ## Masternode Tracking with Google Sheets {#masternode-tracking-with-google-sheets}

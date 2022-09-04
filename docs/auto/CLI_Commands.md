@@ -1,7 +1,6 @@
 ---
 title: CLI Commands
 description: TODO - Short description of this page.
-permalink: /CLI_Commands/
 ---
 
 ## Accounts {#accounts}

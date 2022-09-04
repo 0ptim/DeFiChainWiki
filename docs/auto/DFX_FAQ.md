@@ -1,7 +1,6 @@
 ---
 title: DFX FAQ
 description: TODO - Short description of this page.
-permalink: /DFX_FAQ/
 ---
 
 <!-- This page contains the most frequently asked questions about DFX.swiss. Please note that this page is a community page maintained by the community and not by DFX itself.

@@ -1,7 +1,6 @@
 ---
 title: Sharing is caring - DeFiChain Wiki Updates
 description: TODO - Short description of this page.
-permalink: /Sharing_is_caring/
 ---
 
 ## Hey DeFiChain Community, {#hey-defichain-community}

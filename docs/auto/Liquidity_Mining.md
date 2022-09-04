@@ -1,7 +1,6 @@
 ---
 title: Liquidity Mining
 description: TODO - Short description of this page.
-permalink: /Liquidity_Mining/
 ---
 
 For the decentralized exchange on DeFiChain to work correctly, investors must provide liquidity to both sides of the liquidity pools, which is known as "liquidity mining."

@@ -1,7 +1,6 @@
 ---
 title: API
 description: TODO - Short description of this page.
-permalink: /API/
 ---
 
 ## General {#general}

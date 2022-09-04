@@ -1,7 +1,6 @@
 ---
 title: Unable to start blockchain
 description: TODO - Short description of this page.
-permalink: /Unable_to_start_blockchain/
 ---
 
 Error: Unable to start blockchain

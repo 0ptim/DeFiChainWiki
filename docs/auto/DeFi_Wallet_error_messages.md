@@ -1,7 +1,6 @@
 ---
 title: DeFi Wallet error messages
 description: TODO - Short description of this page.
-permalink: /DeFi_Wallet_error_messages/
 ---
 
 Only error messages and their solutions are documented here. For other types of problems please visit the main page [DeFi Wallet errors](./DeFi_Wallet_errors.md).

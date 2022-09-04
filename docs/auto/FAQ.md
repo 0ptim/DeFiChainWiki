@@ -1,7 +1,6 @@
 ---
 title: FAQ
 description: TODO - Short description of this page.
-permalink: /FAQ/
 ---
 
 Here you can find an overview of the most frequently asked questions.

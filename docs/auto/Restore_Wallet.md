@@ -1,7 +1,6 @@
 ---
 title: Restore Wallet
 description: TODO - Short description of this page.
-permalink: /Restore_Wallet/
 ---
 
 Upfront information: At the time this article was created the latest version of the DeFiChain app is 2.3.0. The article was updated for version 2.5.2.

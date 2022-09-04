@@ -1,7 +1,6 @@
 ---
 title: App on Raspberry-Pi
 description: TODO - Short description of this page.
-permalink: /App_on_Raspberry-Pi/
 ---
 
 In the meantime there is a growing group of Raspberry Pi owners who use

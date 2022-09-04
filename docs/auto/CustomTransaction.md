@@ -1,7 +1,6 @@
 ---
 title: Custom Transaction
 description: TODO - Short description of this page.
-permalink: /CustomTransaction/
 ---
 
 ## Introduction {#introduction}

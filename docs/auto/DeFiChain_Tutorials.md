@@ -1,7 +1,6 @@
 ---
 title: DeFiChain Öğreticileri
 description: TODO - Short description of this page.
-permalink: /DeFiChain_Tutorials/
 ---
 
 This page/directory contains the list of tutorials for DeFiChain investors, from beginners to veterans.

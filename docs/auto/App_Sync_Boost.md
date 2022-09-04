@@ -1,7 +1,6 @@
 ---
 title: App Sync Boost
 description: TODO - Short description of this page.
-permalink: /App_Sync_Boost/
 ---
 
 Sometimes the Wallet-APP in Windows, Mac or Linux need a long time to sync the whole blockchain.

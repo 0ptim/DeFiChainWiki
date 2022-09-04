@@ -1,7 +1,6 @@
 ---
 title: DeFiChain-Ökosystem
 description: TODO - Kurze Beschreibung dieser Seite.
-permalink: /DeFiChain_ecosystem/
 ---
 
 **Diese Seite wurde noch nicht übersetzt. Bitte hilf mit! ❤**

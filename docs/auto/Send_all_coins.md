@@ -1,7 +1,6 @@
 ---
 title: Send all coins
 description: TODO - Short description of this page.
-permalink: /Send_all_coins/
 ---
 
 Instructions how to send all coins and tokens of a DeFi Wallet:

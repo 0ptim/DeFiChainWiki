@@ -1,7 +1,6 @@
 ---
 title: Wallet Encryption
 description: TODO - Short description of this page.
-permalink: /Wallet_Encryption/
 ---
 
 Disclaimer: The following might contain incorrect or incomplete information. Unfortunately, the following information will only describe and explain a certain scenario and prevention but cannot provide a solution for common problems that have been reported.

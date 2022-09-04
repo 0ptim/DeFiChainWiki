@@ -1,7 +1,6 @@
 ---
 title: Beginners Guide
 description: TODO - Short description of this page.
-permalink: /Beginners_Guide/
 ---
 
 **This page was is not yet translated. Please help us out! ❤**

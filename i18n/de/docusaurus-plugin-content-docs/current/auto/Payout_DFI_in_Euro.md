@@ -1,7 +1,6 @@
 ---
 title: Auszahlung DFI in Euro
 description: TODO - Kurze Beschreibung dieser Seite.
-permalink: /Payout_DFI_in_Euro/
 ---
 
 Folgende Möglichkeiten stehen Investoren zur Verfügung, DFI-Token in Euro umzuwandeln und auf ein Bankkonto auszahlen zu lassen.

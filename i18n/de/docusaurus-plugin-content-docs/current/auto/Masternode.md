@@ -1,7 +1,6 @@
 ---
 title: Masternode
 description: TODO - Kurze Beschreibung dieser Seite.
-permalink: /Masternode/
 ---
 
 ## Defichain Masternode {#defichain-masternode}

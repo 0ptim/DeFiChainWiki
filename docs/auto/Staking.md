@@ -1,7 +1,6 @@
 ---
 title: Staking
 description: TODO - Short description of this page.
-permalink: /Staking/
 ---
 
 (Work-In-Progress)

@@ -1,7 +1,6 @@
 ---
 title: Jellyfish tutorial
 description: TODO - Short description of this page.
-permalink: /Jellyfish_tutorial/
 ---
 
 ## Setting up environment from scratch {#setting-up-environment-from-scratch}

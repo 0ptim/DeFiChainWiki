@@ -1,7 +1,6 @@
 ---
 title: DeFi App löschen
 description: TODO - Kurze Beschreibung dieser Seite.
-permalink: /Delete_DeFi_App/
 ---
 
 Anleitung um die DeFi App vollständig zu löschen.

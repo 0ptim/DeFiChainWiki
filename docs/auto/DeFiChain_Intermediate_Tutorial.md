@@ -1,7 +1,6 @@
 ---
 title: DeFiChain Intermediate Tutorial
 description: TODO - Short description of this page.
-permalink: /DeFiChain_Intermediate_Tutorial/
 ---
 
 *Part of a series on [DeFiChain Tutorials](./DeFiChain_Tutorials.md)*

@@ -1,7 +1,6 @@
 ---
 title: DEX Ücret Yapısı
 description: TODO - Bu sayfanın kısa açıklaması.
-permalink: /DEX_Fee_Structure/
 ---
 
 DeFiChain'de token takası yaptığınızda bir ücret alınır. Başlangıçta sadece likidite madenciliği yapan likidite sağlayıcıların aldığı komisyonlar mevcuttu. Ancak, birkaç DFIP oylama sonucu olarak, belirli amaçlar doğrultusunda farklı ücretler getirildi. Bu makale, DeFiChain'deki mevcut DEX ücret yapısını açıklamaktadır.
