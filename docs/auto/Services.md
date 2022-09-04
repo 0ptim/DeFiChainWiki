@@ -100,13 +100,6 @@ https://defichain-explained.com/
 
 ![](../media/services_EN_10_Explained.png)
 
-### DeFi - Portfolio Management
-Use DeFi-Portfolio to export, analyse and visualize your transactions, rewards and commissions of your liquidity mining pools or DEX transactions to interact with DeFiChain. The current version of DeFi-Portfolio is released on Github.
-
-[DeFi-PortfolioManagement](DeFiChain-Portfolio.md)
-
-![](../media/services_EN_11_PortfolioStart.png)
-
 ### DeFiChain Rewardhelper
 A simple Website which gives you the possibility to convert the CSV-Files from CAKE, DeFiChain or the DeFiPortfolio-App to a compatible format for Cointracking, Accointing, Cryptotax or Blockpit.
 
