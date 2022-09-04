@@ -14,6 +14,7 @@ Links to independent portals with DeFiChain content
 - [DefiChain Stock Rewards Calculator](https://docs.google.com/spreadsheets/d/1omT9PpxlgM0cSUWV27hIds-6fTyHsspS0Rje5J_Vhf4/edit?usp=sharing)
 - [DeFiChain Loan Rechner](https://defichain-loan-calculator.vercel.app)
 - [dStocks Quickcheck](https://dstocks-defichain.web.app)
+- [DeFiChain-Votings (CFP/DFIP-Monitoring)](https://www.defichain-votings.com/#/round/latest)
 
 ## Telegram Bots
 
