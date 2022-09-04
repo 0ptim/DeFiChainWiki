@@ -1,6 +1,6 @@
 ---
 title: DeFi Wallet Fehlermeldungen
-permalink: /DeFi_Wallet_error_messages/
+description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
 **Diese Seite wurde noch nicht übersetzt. Bitte hilf mit! ❤**

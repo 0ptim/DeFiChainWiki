@@ -1,6 +1,6 @@
 ---
 title: DEX Gebührenstruktur
-permalink: /DEX_Fee_Structure/
+description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
 Wenn Du Token auf DeFiChain tauschst, wird eine Gebühr erhoben. Am Anfang war nur der Teil für Liquiditätsanbieter – Provisionen – die Gebühr in jedem Pool. Aber nach erfolgreicher Abstimmung über mehrere DFIPs wurden andere Gebührenteile für bestimmte Zwecke eingeführt. Dieser Artikel beschreibt die aktuelle DEX-Gebührenstruktur auf DeFiChain.

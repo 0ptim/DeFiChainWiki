@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Çapası
-permalink: /Bitcoin_Anchoring/
+description: TODO - Bu sayfanın kısa açıklaması.
 ---
 
 **Bu sayfa henüz çevrilmemiştir. Lütfen yardım edin! ❤**

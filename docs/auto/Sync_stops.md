@@ -1,6 +1,6 @@
 ---
 title: Sync stops
-permalink: /Sync_stops/
+description: TODO - Short description of this page.
 ---
 
 ## Sync stops \> 99% {#sync-stops--99}

@@ -1,6 +1,6 @@
 ---
 title: Blockchain kann nicht gestartet werden
-permalink: /Unable_to_start_blockchain/
+description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
 **Diese Seite wurde noch nicht übersetzt. Bitte hilf mit! ❤**

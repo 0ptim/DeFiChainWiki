@@ -1,6 +1,6 @@
 ---
 title: Passwort-Einstellung
-permalink: /Password_Setting/
+description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
 **Diese Seite wurde noch nicht übersetzt. Bitte hilf mit! ❤**

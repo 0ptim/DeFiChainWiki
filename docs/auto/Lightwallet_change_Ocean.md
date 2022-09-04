@@ -1,6 +1,6 @@
 ---
 title: Lightwallet change Ocean
-permalink: /Lightwallet_change_Ocean/
+description: TODO - Short description of this page.
 ---
 
 The Lightwallet of DeFiChain interacts with the blockchain via Ocean infrastructure. Every user action is saved in a signed transaction and send to Ocean, which then executes it. So, a running ocean infrastructure is mandatory to have access to your funds with the Lightwallet. DeFiChain is a decentralized project and has alternatives to the standard infrastructure here as well.

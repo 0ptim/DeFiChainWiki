@@ -1,6 +1,6 @@
 ---
 title: DeFiChain Orta Düzey Eğitimi
-permalink: /DeFiChain_Intermediate_Tutorial/
+description: TODO - Bu sayfanın kısa açıklaması.
 ---
 
 **Bu sayfa henüz çevrilmemiştir. Lütfen yardım edin! ❤**

@@ -1,6 +1,6 @@
 ---
 title: Orijinaller White Paper
-permalink: /Original_White_Paper/
+description: TODO - Bu sayfanın kısa açıklaması.
 ---
 
 **Bu sayfa henüz çevrilmemiştir. Lütfen yardım edin! ❤**

@@ -1,6 +1,6 @@
 ---
 title: Liquidity Token
-permalink: /Liquidity_Token/
+description: TODO - Short description of this page.
 ---
 
 If you provide liquidity in one of the pools on u/defichain you will see liquidity tokens in your wallet. Many users have questions regarding this token, which I try to answer here.

@@ -1,6 +1,6 @@
 ---
 title: Privatkey auslesen
-permalink: /Read_out_private_key/
+description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
 Beschreibung wie der Privat Key aus der App herausgelesen werden kann.

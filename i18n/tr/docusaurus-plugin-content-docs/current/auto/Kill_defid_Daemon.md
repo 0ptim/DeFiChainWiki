@@ -1,6 +1,6 @@
 ---
 title: Kill defid Daemon
-permalink: /Kill_defid_Daemon/
+description: TODO - Bu sayfanın kısa açıklaması.
 ---
 
 **Bu sayfa henüz çevrilmemiştir. Lütfen yardım edin! ❤**

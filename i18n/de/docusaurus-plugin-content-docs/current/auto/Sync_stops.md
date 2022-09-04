@@ -1,6 +1,6 @@
 ---
 title: Synchronisierung stoppt
-permalink: /Sync_stops/
+description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
 **Diese Seite wurde noch nicht übersetzt. Bitte hilf mit! ❤**

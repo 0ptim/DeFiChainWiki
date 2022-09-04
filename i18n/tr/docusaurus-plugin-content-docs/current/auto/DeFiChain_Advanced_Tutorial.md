@@ -1,6 +1,6 @@
 ---
 title: DeFiChain Gelişmiş Öğretici
-permalink: /DeFiChain_Advanced_Tutorial/
+description: TODO - Bu sayfanın kısa açıklaması.
 ---
 
 **Bu sayfa henüz çevrilmemiştir. Lütfen yardım edin! ❤**

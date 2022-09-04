@@ -1,6 +1,6 @@
 ---
 title: Fullnode
-permalink: /Fullnode/
+description: TODO - Short description of this page.
 ---
 
 ## Defichain Fullnode {#defichain-fullnode}

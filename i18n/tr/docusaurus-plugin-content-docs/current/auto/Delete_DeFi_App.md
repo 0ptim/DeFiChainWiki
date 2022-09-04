@@ -1,6 +1,6 @@
 ---
 title: Delete DeFi App
-permalink: /Delete_DeFi_App/
+description: TODO - Bu sayfanın kısa açıklaması.
 ---
 
 **Bu sayfa henüz çevrilmemiştir. Lütfen yardım edin! ❤**

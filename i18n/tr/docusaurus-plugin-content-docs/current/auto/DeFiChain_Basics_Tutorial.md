@@ -1,6 +1,6 @@
 ---
 title: DeFiChain Temelleri Eğitimi
-permalink: /DeFiChain_Basics_Tutorial/
+description: TODO - Bu sayfanın kısa açıklaması.
 ---
 
 **Bu sayfa henüz çevrilmemiştir. Lütfen yardım edin! ❤**

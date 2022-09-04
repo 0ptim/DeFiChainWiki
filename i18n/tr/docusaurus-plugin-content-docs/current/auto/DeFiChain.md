@@ -1,6 +1,6 @@
 ---
 title: DeFiChain
-permalink: /DeFiChain/
+description: TODO - Bu sayfanın kısa açıklaması.
 ---
 
 DeFi, Merkezi Olmayan Finans anlamına gelir. Finansal hizmetleri yürütmek için güvenilir bir üçüncü tarafa ihtiyaç duymadan, insanların bu hizmetler için kendi bankası haline gelmesini ve karşı taraf risklerini ortadan kaldırmasını sağlama fikrini açıklar.

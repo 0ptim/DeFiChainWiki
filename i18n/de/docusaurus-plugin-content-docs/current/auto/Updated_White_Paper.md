@@ -1,6 +1,6 @@
 ---
 title: Aktualisiertes White Paper
-permalink: /Updated_White_Paper/
+description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
 **Diese Seite wurde noch nicht übersetzt. Bitte hilf mit! ❤**

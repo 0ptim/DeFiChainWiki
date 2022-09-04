@@ -1,6 +1,6 @@
 ---
 title: How To "Rescue" Stuck DFI
-permalink: /How_to_rescue_stuck_DFI/
+description: TODO - Short description of this page.
 ---
 
 **Disclaimer: Console should be used in care. We are not responsible if the wrong commands are issued resulting in lost coins!**

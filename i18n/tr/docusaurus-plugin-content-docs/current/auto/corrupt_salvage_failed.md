@@ -1,6 +1,6 @@
 ---
 title: Wallet.dat bozuk kurtarma başarısız oldu
-permalink: /corrupt_salvage_failed/
+description: TODO - Bu sayfanın kısa açıklaması.
 ---
 
 **Bu sayfa henüz çevrilmemiştir. Lütfen yardım edin! ❤**

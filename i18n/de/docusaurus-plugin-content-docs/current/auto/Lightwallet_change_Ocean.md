@@ -1,6 +1,6 @@
 ---
 title: Lightwallet Ocean ändern
-permalink: /Lightwallet_change_Ocean/
+description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
 **Diese Seite wurde noch nicht übersetzt. Bitte hilf mit! ❤**

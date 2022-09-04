@@ -1,6 +1,6 @@
 ---
 title: Likidite Jetonu
-permalink: /Liquidity_Token/
+description: TODO - Bu sayfanın kısa açıklaması.
 ---
 
 **Bu sayfa henüz çevrilmemiştir. Lütfen yardım edin! ❤**

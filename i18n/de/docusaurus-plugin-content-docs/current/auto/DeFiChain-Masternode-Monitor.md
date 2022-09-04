@@ -1,6 +1,6 @@
 ---
 title: DeFiChain-Masternode-Monitor
-permalink: /DeFiChain-Masternode-Monitor/
+description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
 **Diese Seite wurde noch nicht übersetzt. Bitte hilf mit! ❤**

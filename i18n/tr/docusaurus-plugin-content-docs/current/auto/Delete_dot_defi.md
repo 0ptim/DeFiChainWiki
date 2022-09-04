@@ -1,6 +1,6 @@
 ---
 title: .defi klasörünü sil
-permalink: /Delete_dot_defi/
+description: TODO - Bu sayfanın kısa açıklaması.
 ---
 
 **Bu sayfa henüz çevrilmemiştir. Lütfen yardım edin! ❤**

@@ -1,6 +1,6 @@
 ---
 title: Masternode service
-permalink: /Masternode_service/
+description: TODO - Short description of this page.
 ---
 
 ## Create a Masternode with a local APP wallet and a Masternode from a Service Provider: {#create-a-masternode-with-a-local-app-wallet-and-a-masternode-from-a-service-provider}

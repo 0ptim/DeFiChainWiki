@@ -1,6 +1,7 @@
 ---
-id: Welcome
+id: welcome
 title: Welcome
+description: Welcome to DeFiChain! ❤
 ---
 
 **Welcome to DeFiChain! ❤**

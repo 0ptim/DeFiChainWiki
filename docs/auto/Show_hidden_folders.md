@@ -1,6 +1,6 @@
 ---
 title: Show hidden folders
-permalink: /Show_hidden_folders/
+description: TODO - Short description of this page.
 ---
 
 ## Windows {#windows}

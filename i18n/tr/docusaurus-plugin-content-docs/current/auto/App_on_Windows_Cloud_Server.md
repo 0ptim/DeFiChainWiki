@@ -1,6 +1,6 @@
 ---
 title: Windows Bulut Sunucusunda Uygulama
-permalink: /App_on_Windows_Cloud_Server/
+description: TODO - Bu sayfanın kısa açıklaması.
 ---
 
 **Bu sayfa henüz çevrilmemiştir. Lütfen yardım edin! ❤**

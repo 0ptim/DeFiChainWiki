@@ -1,6 +1,6 @@
 ---
 title: Delete .defi folder
-permalink: /Delete_dot_defi/
+description: TODO - Short description of this page.
 ---
 
 Here I describe a solution that works from time to time when the DeFi wallet does not start correctly. Sometimes even this approach does not work. First, please make sure you have a secure backup.

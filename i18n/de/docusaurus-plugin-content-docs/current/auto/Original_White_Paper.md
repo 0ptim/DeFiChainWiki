@@ -1,6 +1,6 @@
 ---
 title: Originales White Paper
-permalink: /Original_White_Paper/
+description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
 **Diese Seite wurde noch nicht übersetzt. Bitte hilf mit! ❤**

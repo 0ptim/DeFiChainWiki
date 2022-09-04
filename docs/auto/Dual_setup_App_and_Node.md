@@ -1,6 +1,6 @@
 ---
 title: Dual setup (App + Node)
-permalink: /Dual_setup_App_and_Node/
+description: TODO - Short description of this page.
 ---
 
 ## Draft for Dual Setup {#draft-for-dual-setup}

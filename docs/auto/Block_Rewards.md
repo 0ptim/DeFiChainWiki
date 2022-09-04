@@ -1,6 +1,6 @@
 ---
 title: Block Rewards
-permalink: /Block_Rewards/
+description: TODO - Short description of this page.
 ---
 
 ### DeFiChain Block Rewards {#defichain-block-rewards}

@@ -1,6 +1,6 @@
 ---
 title: DeFi Wallet Errors
-permalink: /DeFi_Wallet_errors/
+description: TODO - Short description of this page.
 ---
 
 I have an error message in DeFi Wallet: : ▶ [DeFi Wallet error messages](./DeFi_Wallet_error_messages.md)
@@ -37,3 +37,9 @@ If the backup was stored in one of these folders before the update, it was most 
 To avoid such problems, it's best to read our wiki recommendation on how to use the DeFi app safely.
 
 [Suggestion for using the DeFi app](./Suggestion_for_using_the_DeFi_app.md)
+
+## The blockchain-sync doesn't complete to 100%
+
+Some users descirbe the problem that the blockchain-sync doesn't come up to 100%. Instead it always stays some blocks behind, e.g. 99.95%. In this case it can be helpful to go to the windows-settings and re-sync the Windows-System time.
+
+![](./../media/walleterrors_EN_windows-settings.png)

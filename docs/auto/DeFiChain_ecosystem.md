@@ -1,6 +1,6 @@
 ---
 title: DeFiChain ecosystem
-permalink: /DeFiChain_ecosystem/
+description: TODO - Short description of this page.
 ---
 
 ![DeFiChain ecosystem](./../media/DefiChain_EcoSystem_1.02.jpg)

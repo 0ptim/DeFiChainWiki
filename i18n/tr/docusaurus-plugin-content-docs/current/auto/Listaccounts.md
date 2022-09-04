@@ -1,6 +1,6 @@
 ---
 title: Bakiyesi olan tüm adresleri listeleyin
-permalink: /Listaccounts/
+description: TODO - Bu sayfanın kısa açıklaması.
 ---
 
 **Bu sayfa henüz çevrilmemiştir. Lütfen yardım edin! ❤**

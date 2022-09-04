@@ -18,6 +18,7 @@ function HomepageHeader() {
 
       <div className={clsx("container", styles.container)}>
         <h1 className="hero__title">{siteConfig.title}</h1>
+        <div className={styles.logo} />
         <p className="hero__subtitle">
           <Translate>Homepage.Subtitle</Translate>
         </p>
@@ -25,7 +26,7 @@ function HomepageHeader() {
           <div className={styles.buttons}>
             <Link
               className="button button--secondary button--lg"
-              to="/docs/auto/Welcome"
+              to="/docs/auto/welcome"
             >
               <Translate>Homepage.Button.Knowledgebase</Translate>
             </Link>

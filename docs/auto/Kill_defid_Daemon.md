@@ -1,6 +1,6 @@
 ---
 title: Kill defid Daemon
-permalink: /Kill_defid_Daemon/
+description: TODO - Short description of this page.
 ---
 
 ## Kill defid on Mac {#kill-defid-on-mac}

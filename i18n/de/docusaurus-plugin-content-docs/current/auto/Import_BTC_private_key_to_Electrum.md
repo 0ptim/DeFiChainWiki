@@ -1,6 +1,6 @@
 ---
 title: BTC-Privatschlüssel in Electrum importieren
-permalink: /Import_BTC_private_key_to_Electrum/
+description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
 **Diese Seite wurde noch nicht übersetzt. Bitte hilf mit! ❤**

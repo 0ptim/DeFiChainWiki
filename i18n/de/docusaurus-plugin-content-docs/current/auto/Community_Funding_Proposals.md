@@ -1,6 +1,6 @@
 ---
 title: Community Funding Proposals
-permalink: /Community_Funding_Proposals/
+description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
 **Diese Seite wurde noch nicht übersetzt. Bitte hilf mit! ❤**

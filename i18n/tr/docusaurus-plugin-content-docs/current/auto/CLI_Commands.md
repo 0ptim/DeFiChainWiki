@@ -1,6 +1,6 @@
 ---
 title: CLI Komutları
-permalink: /CLI_Commands/
+description: TODO - Bu sayfanın kısa açıklaması.
 ---
 
 **Bu sayfa henüz çevrilmemiştir. Lütfen yardım edin! ❤**

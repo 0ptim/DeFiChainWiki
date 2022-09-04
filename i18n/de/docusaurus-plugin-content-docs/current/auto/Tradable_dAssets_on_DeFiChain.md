@@ -1,6 +1,6 @@
 ---
 title: Handelbare dAssets auf DeFiChain
-permalink: /Tradable_dAssets_on_DeFiChain/
+description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
 **Diese Seite wurde noch nicht übersetzt. Bitte hilf mit! ❤**

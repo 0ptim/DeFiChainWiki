@@ -1,6 +1,6 @@
 ---
 title: Atomic Swap
-permalink: /Atomic_Swap/
+description: TODO - Short description of this page.
 ---
 
 `*** Atomic Swap is temporarily suspended ***`

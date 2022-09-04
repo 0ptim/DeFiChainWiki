@@ -1,6 +1,6 @@
 ---
 title: İkili kurulum (App + Node)
-permalink: /Dual_setup_App_and_Node/
+description: TODO - Bu sayfanın kısa açıklaması.
 ---
 
 **Bu sayfa henüz çevrilmemiştir. Lütfen yardım edin! ❤**

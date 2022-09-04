@@ -1,6 +1,6 @@
 ---
 title: Versteckte Ordner anzeigen
-permalink: /Show_hidden_folders/
+description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
 ## Windows {#windows}

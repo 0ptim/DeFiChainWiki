@@ -1,6 +1,6 @@
 ---
 title: Wallet Sicherung
-permalink: /Backup_Wallet/
+description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
 **Diese Seite wurde noch nicht übersetzt. Bitte hilf mit! ❤**

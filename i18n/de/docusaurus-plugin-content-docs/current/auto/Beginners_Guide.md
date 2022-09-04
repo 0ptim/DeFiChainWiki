@@ -1,6 +1,6 @@
 ---
 title: Leitfaden für Anfänger
-permalink: /Beginners_Guide/
+description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
 🚧 **Under construction** 🚧

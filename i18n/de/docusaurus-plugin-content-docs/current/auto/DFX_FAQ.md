@@ -1,6 +1,6 @@
 ---
 title: DFX FAQ
-permalink: /DFX_FAQ/
+description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
 <!-- Diese Seite beinhaltet die häufigsten Fragen zu DFX.swiss. Bitte

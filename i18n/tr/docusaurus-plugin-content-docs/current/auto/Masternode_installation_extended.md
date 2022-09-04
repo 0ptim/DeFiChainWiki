@@ -1,6 +1,6 @@
 ---
 title: Masternode kurulumu genişletildi
-permalink: /Masternode_installation_extended/
+description: TODO - Bu sayfanın kısa açıklaması.
 ---
 
 **Bu sayfa henüz çevrilmemiştir. Lütfen yardım edin! ❤**

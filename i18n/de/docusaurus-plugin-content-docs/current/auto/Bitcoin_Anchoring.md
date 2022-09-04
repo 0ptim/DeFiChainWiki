@@ -1,6 +1,6 @@
 ---
 title: Bitcoin-Verankerung
-permalink: /Bitcoin_Anchoring/
+description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
 **Diese Seite wurde noch nicht übersetzt. Bitte hilf mit! ❤**

@@ -1,6 +1,6 @@
 ---
 title: Euro cinsinden ödeme DFI
-permalink: /Payout_DFI_in_Euro/
+description: TODO - Bu sayfanın kısa açıklaması.
 ---
 
 **Bu sayfa henüz çevrilmemiştir. Lütfen yardım edin! ❤**

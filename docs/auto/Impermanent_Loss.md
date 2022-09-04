@@ -1,6 +1,6 @@
 ---
 title: Impermanent Loss
-permalink: /Impermanent_Loss/
+description: TODO - Short description of this page.
 ---
 
 Assets of a liquidity pool can have strong price fluctuations (in relation to each other). Arbitrageurs can arbitrage differences between exchanges, which is why liquidity pools stay balanced, but it comes at a cost to liquidity miners.

@@ -1,6 +1,6 @@
 ---
 title: Steuern
-permalink: /Taxes/
+description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
 ## 🇨🇭 Schweiz

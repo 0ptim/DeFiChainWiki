@@ -1,6 +1,6 @@
 ---
 title: Benutzerdefinierte Transaktion
-permalink: /CustomTransaction/
+description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
 **Diese Seite wurde noch nicht übersetzt. Bitte hilf mit! ❤**

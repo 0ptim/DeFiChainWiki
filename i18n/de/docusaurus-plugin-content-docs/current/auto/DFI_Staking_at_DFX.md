@@ -1,6 +1,6 @@
 ---
 title: DFI Staking bei DFX
-permalink: /DFI_Staking_at_DFX/
+description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
 ![](./../media/dfxstaking_DE_1.jpg)

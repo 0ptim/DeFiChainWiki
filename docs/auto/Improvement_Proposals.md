@@ -1,6 +1,6 @@
 ---
 title: Improvement Proposals
-permalink: /Improvement_Proposals/
+description: TODO - Short description of this page.
 ---
 
 DeFiChain Improvement Proposals (DFIPs)

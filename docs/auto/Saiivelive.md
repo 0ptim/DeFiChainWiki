@@ -1,6 +1,6 @@
 ---
 title: Saiive.live
-permalink: /Saiivelive/
+description: TODO - Short description of this page.
 ---
 
 The [saiive.live](https://www.saiive.live) - DeFi Wallet is a DeFiChain wallet from and for the community.

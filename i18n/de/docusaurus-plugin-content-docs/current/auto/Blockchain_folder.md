@@ -1,6 +1,6 @@
 ---
 title: Blockchain-Ordner
-permalink: /Blockchain_folder/
+description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
 **Diese Seite wurde noch nicht übersetzt. Bitte hilf mit! ❤**

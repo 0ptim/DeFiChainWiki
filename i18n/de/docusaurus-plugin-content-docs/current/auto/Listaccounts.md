@@ -1,6 +1,6 @@
 ---
 title: Alle Adressen mit einem Saldo auflisten
-permalink: /Listaccounts/
+description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
 Gehe in die Konsole und gebe folgenden Befehl ein: `listaccounts {} false false true`

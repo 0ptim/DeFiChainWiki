@@ -1,6 +1,6 @@
 ---
 title: DFX'te DFI Staking
-permalink: /DFI_Staking_at_DFX/
+description: TODO - Bu sayfanın kısa açıklaması.
 ---
 
 **Bu sayfa henüz çevrilmemiştir. Lütfen yardım edin! ❤**

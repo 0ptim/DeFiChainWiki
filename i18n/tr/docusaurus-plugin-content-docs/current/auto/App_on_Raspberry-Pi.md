@@ -1,6 +1,6 @@
 ---
 title: Raspberry-Pi üzerinde uygulama
-permalink: /App_on_Raspberry-Pi/
+description: TODO - Bu sayfanın kısa açıklaması.
 ---
 
 **Bu sayfa henüz çevrilmemiştir. Lütfen yardım edin! ❤**

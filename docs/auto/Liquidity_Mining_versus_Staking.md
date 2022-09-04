@@ -1,6 +1,6 @@
 ---
 title: Liquidity Mining versus Staking
-permalink: /Liquidity_Mining_versus_Staking/
+description: TODO - Short description of this page.
 ---
 
 This small guide should help you decide whether to use Liquidity Mining or Staking, if you are debating the two. In addition, it also indicates the advantages and disadvantages whether you should directly use the DeFiChain or use a service provider like CakeDeFi (commonly referred to as Cake).
@@ -33,7 +33,7 @@ This small guide should help you decide whether to use Liquidity Mining or Staki
 
 ## Staking (Indirect vs. Direct) {#staking-indirect-vs-direct}
 
-**Cake:**
+### Cake
 
 Pros
 
@@ -49,7 +49,15 @@ Cons
 - KYC required
 - Longer withdrawal due to processing by Cake and transaction time on blockchain
 
-**DefiChain Wallet (Solo Staking with Masternode)**
+### DFX.swiss
+
+See separate [Wiki-entry](./DFX_FAQ.md#staking-at-dfx).
+
+Additional Pro:
+
+- Participate in CFP/DFIP-Voting even with less than 20.000 DFI in staking
+
+### DefiChain Wallet (Solo Staking with Masternode)
 
 Pros
 

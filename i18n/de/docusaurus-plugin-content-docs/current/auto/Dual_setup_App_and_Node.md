@@ -1,6 +1,6 @@
 ---
 title: Duale Einrichtung (App + Node)
-permalink: /Dual_setup_App_and_Node/
+description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
 **Diese Seite wurde noch nicht übersetzt. Bitte hilf mit! ❤**

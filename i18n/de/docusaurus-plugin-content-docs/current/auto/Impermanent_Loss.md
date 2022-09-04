@@ -1,6 +1,6 @@
 ---
 title: Impermanent Loss
-permalink: /Impermanent_Loss/
+description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
 **Diese Seite wurde noch nicht übersetzt. Bitte hilf mit! ❤**

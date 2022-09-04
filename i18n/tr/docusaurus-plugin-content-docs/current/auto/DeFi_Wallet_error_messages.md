@@ -1,6 +1,6 @@
 ---
 title: DeFi Cüzdan hata mesajları
-permalink: /DeFi_Wallet_error_messages/
+description: TODO - Bu sayfanın kısa açıklaması.
 ---
 
 **Bu sayfa henüz çevrilmemiştir. Lütfen yardım edin! ❤**

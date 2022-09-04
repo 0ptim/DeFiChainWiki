@@ -1,6 +1,6 @@
 ---
 title: Cüzdan Şifreleme
-permalink: /Wallet_Encryption/
+description: TODO - Bu sayfanın kısa açıklaması.
 ---
 
 **Bu sayfa henüz çevrilmemiştir. Lütfen yardım edin! ❤**

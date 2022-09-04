@@ -1,7 +1,9 @@
 ---
 title: DFX FAQ
-permalink: /DFX_FAQ/
+description: TODO - Short description of this page.
 ---
+
+**This page was not yet converted from the old Wiki (MediaWiki format). Please help us out! ❤**
 
 <!-- This page contains the most frequently asked questions about DFX.swiss. Please note that this page is a community page maintained by the community and not by DFX itself.
 
@@ -905,7 +907,7 @@ Within this selling process you receive 3 confirmation emails.
 over 900 EUR you have to go through our full KYC process! DFI
 transactions over 900 EUR without completed KYC will not be processed!**
 
-## Staking at DFX
+## Staking at DFX {#staking-at-dfx}
 
 ### General information about Staking and step-by-step instructions. See [here](https://defichain-wiki.com/wiki/DFI_Staking_at_DFX)
 

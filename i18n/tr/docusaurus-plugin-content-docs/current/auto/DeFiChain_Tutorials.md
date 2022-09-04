@@ -1,6 +1,6 @@
 ---
 title: DeFiChain Tutorials
-permalink: /DeFiChain_Tutorials/
+description: TODO - Bu sayfanın kısa açıklaması.
 ---
 
 **Bu sayfa henüz çevrilmemiştir. Lütfen yardım edin! ❤**

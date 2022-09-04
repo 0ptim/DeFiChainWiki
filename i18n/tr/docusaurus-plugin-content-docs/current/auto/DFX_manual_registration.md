@@ -1,6 +1,6 @@
 ---
 title: DFX manuel kayıt
-permalink: /DFX_manual_registration/
+description: TODO - Bu sayfanın kısa açıklaması.
 ---
 
 **Bu sayfa henüz çevrilmemiştir. Lütfen yardım edin! ❤**

@@ -1,6 +1,6 @@
 ---
 title: Sıkışmış DFI Nasıl "Kurtarılır"
-permalink: /How_to_rescue_stuck_DFI/
+description: TODO - Bu sayfanın kısa açıklaması.
 ---
 
 **Bu sayfa henüz çevrilmemiştir. Lütfen yardım edin! ❤**

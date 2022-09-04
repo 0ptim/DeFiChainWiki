@@ -8,7 +8,7 @@ const config = {
   baseUrl: "/DeFiChain-Wiki/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
-  favicon: "img/favicon.ico",
+  favicon: "img/logo.svg",
 
   // GitHub pages deployment config.
   organizationName: "0ptim",
@@ -56,12 +56,12 @@ const config = {
         title: "DeFiChain-Wiki",
         logo: {
           alt: "DeFiChain Wiki Logo",
-          src: "img/logo.png",
+          src: "img/logo.svg",
         },
         items: [
           {
             type: "doc",
-            docId: "auto/Welcome",
+            docId: "auto/welcome",
             label: "📖 Knowledgebase",
           },
           {

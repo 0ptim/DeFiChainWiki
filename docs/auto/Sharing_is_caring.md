@@ -1,6 +1,6 @@
 ---
-title: Sharing is caring - DeFiChain Wiki Updates
-permalink: /Sharing_is_caring/
+title: Sharing is caring
+description: TODO - Short description of this page.
 ---
 
 ## Hey DeFiChain Community, {#hey-defichain-community}
@@ -18,12 +18,12 @@ With the adoption of the CFP "[CFP-2207-09](https://github.com/DeFiCh/dfips/issu
 - How to Invest in dStocks
 - Different strategy with vaults
 - How to handle Future-Swaps
-- Know-errors and how to handle them
+- Known-errors and how to handle them
 - Revised the structure and order in the wiki, linked pages, etc.
 
 Be creative and create new websites for the wiki. Collects information that you always wanted to collect centrally. Please pay attention to the quality. Our DeFiChain wiki should not be a dull pool of data, but should provide real added value for us as a community.
 
-### How to participat {#how-to-participat}
+### How to participate {#how-to-participat}
 
 The whole procedure should not become too complicated. You create the new content or revise the pages. Then you register your contribution with a web link in the wiki, a short description of the change, your wiki nickname and the desired DeFiChain address for the reward to [care@defichain-wiki.com](Mailto:care@defichain-wiki.com)].
 

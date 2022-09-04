@@ -1,6 +1,6 @@
 ---
 title: Import BTC private key to Electrum
-permalink: /Import_BTC_private_key_to_Electrum/
+description: TODO - Short description of this page.
 ---
 
 **Warning:** Using native BTC is still in beta and it might not be possible to do much with BTC in the DeFiWallet! Try out first if you can really do what you plan to do (receiving, swapping, sending ...). If you need to get BTC out of the app and sending doesn't work, you can use the following work around:

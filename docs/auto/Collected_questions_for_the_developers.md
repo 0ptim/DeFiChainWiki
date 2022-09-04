@@ -1,6 +1,6 @@
 ---
 title: Collected questions for the developers
-permalink: /Collected_questions_for_the_developers/
+description: TODO - Short description of this page.
 ---
 
 ### Problem: {#problem}

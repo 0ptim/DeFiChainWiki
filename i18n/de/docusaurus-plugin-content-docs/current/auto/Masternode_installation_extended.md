@@ -1,6 +1,6 @@
 ---
 title: Masternode installation erweitert
-permalink: /Masternode_installation_extended/
+description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
 ## Installation DefiChain Masternode mit einer lokalen APP-Wallet und einer Masternode in der Cloud: {#installation-defichain-masternode-mit-einer-lokalen-app-wallet-und-einer-masternode-in-der-cloud}

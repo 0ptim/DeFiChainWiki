@@ -1,6 +1,6 @@
 ---
 title: DeFiChain Tutorial für Fortgeschrittene
-permalink: /DeFiChain_Advanced_Tutorial/
+description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
 **Diese Seite wurde noch nicht übersetzt. Bitte hilf mit! ❤**

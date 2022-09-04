@@ -1,6 +1,6 @@
 ---
 title: Private key read out of the app
-permalink: /Read_out_private_key/
+description: TODO - Short description of this page.
 ---
 
 Description of how the private key can be read out of the app.

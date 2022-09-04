@@ -1,6 +1,6 @@
 ---
 title: Delete DeFi App
-permalink: /Delete_DeFi_App/
+description: TODO - Short description of this page.
 ---
 
 Instructions to completely delete the DeFi App.

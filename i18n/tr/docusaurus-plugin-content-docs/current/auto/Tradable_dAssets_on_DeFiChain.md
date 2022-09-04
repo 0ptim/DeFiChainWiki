@@ -1,6 +1,6 @@
 ---
 title: DeFiChain üzerinde takas edilebilir dVarlıklar
-permalink: /Tradable_dAssets_on_DeFiChain/
+description: TODO - Bu sayfanın kısa açıklaması.
 ---
 
 **Bu sayfa henüz çevrilmemiştir. Lütfen yardım edin! ❤**

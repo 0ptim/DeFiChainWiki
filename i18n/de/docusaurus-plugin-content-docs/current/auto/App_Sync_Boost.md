@@ -1,6 +1,6 @@
 ---
 title: App Sync Boost
-permalink: /App_Sync_Boost/
+description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
 **Diese Seite wurde noch nicht übersetzt. Bitte hilf mit! ❤**

@@ -1,6 +1,6 @@
 ---
 title: Gesammelte Fragen an die Entwickler
-permalink: /Collected_questions_for_the_developers/
+description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
 **Diese Seite wurde noch nicht übersetzt. Bitte hilf mit! ❤**

@@ -1,6 +1,6 @@
 ---
 title: Tüm paraları gönderin
-permalink: /Send_all_coins/
+description: TODO - Bu sayfanın kısa açıklaması.
 ---
 
 **Bu sayfa henüz çevrilmemiştir. Lütfen yardım edin! ❤**

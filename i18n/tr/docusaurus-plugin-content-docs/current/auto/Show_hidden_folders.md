@@ -1,6 +1,6 @@
 ---
 title: Gizli klasörleri göster
-permalink: /Show_hidden_folders/
+description: TODO - Bu sayfanın kısa açıklaması.
 ---
 
 **Bu sayfa henüz çevrilmemiştir. Lütfen yardım edin! ❤**

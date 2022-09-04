@@ -1,6 +1,6 @@
 ---
 title: Target multiplier
-permalink: /Target_multiplier/
+description: TODO - Short description of this page.
 ---
 
 This number represents the probability of a DeFiChain masternode minting the next block. The higher the number gets, the likelier the masternode will mint a block. It's like adding up lottery tickets.

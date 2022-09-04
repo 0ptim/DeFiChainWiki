@@ -1,6 +1,6 @@
 ---
 title: Create address
-permalink: /Create_address/
+description: TODO - Short description of this page.
 ---
 
 ## Create a new address: {#create-a-new-address}

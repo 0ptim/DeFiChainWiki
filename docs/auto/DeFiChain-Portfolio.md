@@ -1,6 +1,6 @@
 ---
 title: DeFiChain-Portfolio
-permalink: /DeFiChain-Portfolio/
+description: TODO - Short description of this page.
 ---
 
 ![](./../media/defiportfolio_1.png)

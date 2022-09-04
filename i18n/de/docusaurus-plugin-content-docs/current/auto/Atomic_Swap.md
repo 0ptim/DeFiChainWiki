@@ -1,6 +1,6 @@
 ---
 title: Atomic Swap
-permalink: /Atomic_Swap/
+description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
 **Diese Seite wurde noch nicht übersetzt. Bitte hilf mit! ❤**

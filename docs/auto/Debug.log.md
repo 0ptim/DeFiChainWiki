@@ -1,6 +1,6 @@
 ---
 title: Debug.log
-permalink: /Debug.log/
+description: TODO - Short description of this page.
 ---
 
 If the DeFiChain App Wallet does not work properly, it can be helpful to check the debug.log file for error messages.

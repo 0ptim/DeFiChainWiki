@@ -1,6 +1,6 @@
 ---
 title: Community Funding Proposals
-permalink: /Community_Funding_Proposals/
+description: TODO - Short description of this page.
 ---
 
 ## CFPs already processed {#cfps-already-processed}

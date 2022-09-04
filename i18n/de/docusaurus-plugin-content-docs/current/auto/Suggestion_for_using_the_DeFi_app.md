@@ -1,6 +1,6 @@
 ---
 title: Vorschlag zur Verwendung der DeFi App
-permalink: /Suggestion_for_using_the_DeFi_app/
+description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
 Dieser Text ist ein Vorschlag, wie die DeFi App am besten verwendet und betrieben werden kann. Es ist keine offizielle Empfehlung, sondern nur die subjekive Meinung einiger Community Mitglieder.

@@ -1,6 +1,6 @@
 ---
 title: Kritik
-permalink: /Criticism/
+description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
 ## Technische Probleme {#technische-probleme}

@@ -1,6 +1,6 @@
 ---
-title: Paylaşmak önemsemektir - DeFiChain Wiki Güncellemeleri
-permalink: /Sharing_is_caring/
+title: Paylaşmak önemsemektir
+description: TODO - Bu sayfanın kısa açıklaması.
 ---
 
 **Bu sayfa henüz çevrilmemiştir. Lütfen yardım edin! ❤**

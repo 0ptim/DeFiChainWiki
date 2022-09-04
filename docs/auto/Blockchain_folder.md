@@ -1,6 +1,6 @@
 ---
 title: Blockchain folder
-permalink: /Blockchain_folder/
+description: TODO - Short description of this page.
 ---
 
 ## Instructions for changing the directory of the blockchain data/snapshot for the DeFiChain {#instructions-for-changing-the-directory-of-the-blockchain-datasnapshot-for-the-defichain}

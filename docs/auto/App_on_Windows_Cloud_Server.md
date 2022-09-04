@@ -1,6 +1,6 @@
 ---
 title: App on Windows Cloud Server
-permalink: /App_on_Windows_Cloud_Server/
+description: TODO - Short description of this page.
 ---
 
 German video by Robin on how to install the DeFiChain app on a Windows Cloud Server.

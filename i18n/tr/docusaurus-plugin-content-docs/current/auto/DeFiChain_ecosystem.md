@@ -1,6 +1,6 @@
 ---
 title: DeFiChain ekosistemi
-permalink: /DeFiChain_ecosystem/
+description: TODO - Bu sayfanın kısa açıklaması.
 ---
 
 **Bu sayfa henüz çevrilmemiştir. Lütfen yardım edin! ❤**

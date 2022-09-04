@@ -1,6 +1,6 @@
 ---
 title: Payout DFI in Euro
-permalink: /Payout_DFI_in_Euro/
+description: TODO - Short description of this page.
 ---
 
-**This page was is not yet translated. Please help us out! ❤**
+**This page was not yet translated. Please help us out! ❤**

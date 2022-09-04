@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Anchoring
-permalink: /Bitcoin_Anchoring/
+description: TODO - Short description of this page.
 ---
 
 Information about the Bitcoin Anchoring.
