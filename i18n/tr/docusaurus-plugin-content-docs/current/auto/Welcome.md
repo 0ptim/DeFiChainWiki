@@ -1,7 +1,7 @@
 ---
 id: Welcome
 title: Hoş geldiniz
-description: TODO - Bu sayfanın kısa açıklaması.
+description: DeFiChain'e hoş geldiniz! ❤
 ---
 
 **DeFiChain'e hoş geldiniz! ❤**

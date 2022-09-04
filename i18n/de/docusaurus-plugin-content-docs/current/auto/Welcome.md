@@ -1,7 +1,7 @@
 ---
 id: Welcome
-description: TODO - Kurze Beschreibung dieser Seite.
 title: Willkommen
+description: Willkommen zur DeFiChain! ❤
 ---
 
 **Willkommen zur DeFiChain! ❤**
