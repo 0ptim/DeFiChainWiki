@@ -25,9 +25,9 @@ Ethereum was meant to be a general purpose platform. In principle, one could do 
 
 Detailed Information on the DEX fee structure you can find [here](DEX_Fee_structure "wikilink").
 
-## Where can I find answers to my questions in the DFI-Community?
+## Where can I find answers to my questions in the DFI-Community? {#where-can-i-find-answers}
 
-### Legit telegram-channels
+### Legit telegram-channels {#legit-telegram-channels}
 
 As there are many scammers in the crypto space, you need legit places where you can go with your questions. The following list contains the main telegram channels around defichain. Most of them are moderated. But still beware of scammers: Mostly scammers try to contact you via private messaging. So please, ignore private messages in the channels!
 
@@ -58,7 +58,7 @@ As there are many scammers in the crypto space, you need legit places where you 
 - <https://t.me/javliscom> Information from the JAVLIS-team
 - <https://t.me/DFSneo_de> Information from the DFS-neo-team (service not live yet)
 
-### Twitter
+### Twitter {#twitter}
 
 - <https://twitter.com/defichain> Main DeFiChain Twitter account
 - <https://twitter.com/cakedefi> CakeDeFi
@@ -67,13 +67,13 @@ As there are many scammers in the crypto space, you need legit places where you 
 - <https://twitter.com/DFX_Swiss> DFX-Swiss
 - <https://twitter.com/DeFiChainPromo> DeFiChain-Promo
 
-### Reddit-Community
+### Reddit-Community {#reddit-community}
 
 Reddit also offers the possibility to discuss topics and ask questions. The structure of Reddit allows a more focussed discussion on a special topic than a Telegram-chat. You can find the DeFiChain-community by clicking the following link
 
 <https://www.reddit.com/r/defiblockchain/>
 
-### Instagram
+### Instagram {#instagram}
 
 - <https://www.instagram.com/defichain.germany/?hl=de> German
 - <https://www.instagram.com/defichain.official/> International
