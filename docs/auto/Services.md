@@ -8,7 +8,8 @@ Links to independent portals with DeFiChain content
 ## Helpful Tools
 
 - [Stock Token APR](https://www.krypto-sprungbrett.com/stock-token-apr/)
-- [DEX Live Data](https://dfi.terac.de/dex)
+- [DEX Live Data I (dfi.terac.de)](https://dfi.terac.de/dex)
+- [DEX Live Data II (dfidex.live)](https://dfidex.live/)
 - [DFI UTXO Recharger](https://utxo.mydefichain.com/)
 - [Liquidity Mining Calculator](https://docs.google.com/spreadsheets/d/1gTAzSyJWnm6z7z4c77gJNb2fxG9teqaxAGaarBzAyPM/edit?usp=sharing)
 - [DefiChain Stock Rewards Calculator](https://docs.google.com/spreadsheets/d/1omT9PpxlgM0cSUWV27hIds-6fTyHsspS0Rje5J_Vhf4/edit?usp=sharing)
@@ -20,7 +21,6 @@ Links to independent portals with DeFiChain content
 
 - [DeFiChain CFP Voting](https://t.me/DFI_cfp_election_bot)
 - [DFI Signal](https://t.me/DFI_Signal_bot)
-- [DeFi Watchdog](https://t.me/DeFi_Watch_Bot)
 
 ## Other Services
 
