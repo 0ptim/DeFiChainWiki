@@ -88,9 +88,14 @@ https://defiscan.live/
 ![](../media/services_EN_8_DeFi_Scan.png)
 
 ### Defichain INCOME
-Track your Income from DeFiChain
+Track your DeFiChain-Portfolio
 
-Autoload from your addresses, masternode support, manual staking from Cake, charts, one login, and use on all devices
+- Autoload rewards and assets from your addresses
+- masternode support
+- automated DFX-Staking import
+- manual staking from Cake
+- charts
+- one login and use on all devices
 
 https://www.defichain-income.com/
 
