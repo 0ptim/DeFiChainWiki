@@ -23,7 +23,7 @@ Ethereum was meant to be a general purpose platform. In principle, one could do 
 
 ### DEX Fee Structures {#dex-fee-structures}
 
-Detailed Information on the DEX fee structure you can find [here](DEX_Fee_structure "wikilink").
+Detailed Information on the DEX fee structure you can find [here](./DEX_Fee_Structure.md).
 
 ## Where can I find answers to my questions in the DFI-Community? {#where-can-i-find-answers}
 
