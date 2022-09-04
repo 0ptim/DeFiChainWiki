@@ -4,7 +4,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "DeFiChain-Wiki",
-  url: "https://defichain.com/",
+  url: "https://0ptim.github.io",
   baseUrl: "/DeFiChain-Wiki/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
