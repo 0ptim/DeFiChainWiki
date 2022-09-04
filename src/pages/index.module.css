@@ -12,6 +12,9 @@
 
 .container {
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media screen and (max-width: 996px) {
@@ -32,6 +35,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.logo {
+  height: 100px;
+  width: 119px;
+  margin-bottom: 20px;
+  background-image: url("/static/img/logo.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .mapBackground {
