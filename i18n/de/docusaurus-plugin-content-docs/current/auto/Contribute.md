@@ -1,5 +1,5 @@
 ---
-title: ❤ Mithelfen-Anleitung
+title: Anleitung
 description: TODO - Kurze Beschreibung dieser Seite.
 ---
 

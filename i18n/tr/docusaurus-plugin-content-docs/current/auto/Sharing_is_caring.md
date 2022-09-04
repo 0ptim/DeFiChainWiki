@@ -1,5 +1,5 @@
 ---
-title: Paylaşmak önemsemektir - DeFiChain Wiki Güncellemeleri
+title: Paylaşmak önemsemektir
 description: TODO - Bu sayfanın kısa açıklaması.
 ---
 

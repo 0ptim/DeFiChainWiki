@@ -1,5 +1,5 @@
 ---
-title: ❤ Contribute-Guide
+title: Guide
 description: TODO - Short description of this page.
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: ❤ Katkıda Bulunun-Kılavuz
+title: Kılavuz
 description: TODO - Bu sayfanın kısa açıklaması.
 ---
 

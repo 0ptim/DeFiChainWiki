@@ -19,8 +19,9 @@ const sidebars = {
       id: "auto/welcome",
     },
     {
-      type: "doc",
-      id: "auto/Contribute",
+      type: "category",
+      label: "❤ Contribute",
+      items: ["auto/Sharing_is_caring", "auto/Contribute"],
     },
     {
       type: "category",
@@ -145,7 +146,6 @@ const sidebars = {
         "auto/Community_Funding_Proposals",
         "auto/Taxes",
         "auto/Services",
-        "auto/Sharing_is_caring",
         "auto/DeFiChain_ecosystem",
         "auto/DeFiChain-Masternode-Monitor",
         "auto/DeFiChain-Portfolio",

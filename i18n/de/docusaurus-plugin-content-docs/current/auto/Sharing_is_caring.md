@@ -1,5 +1,5 @@
 ---
-title: Teilen ist fürsorglich - DeFiChain Wiki Updates
+title: Teilen ist fürsorglich
 description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
