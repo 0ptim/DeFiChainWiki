@@ -65,3 +65,28 @@ Any funds made available upon approval will be distributed to the contributors. 
 #### New Page: LM (TR) {#new-page-lm-(tr)}
 *17.08.2022 - Ferhat - 450 Words, 1 Chart, 15 DFI*
 > Desciption of Liquidity Mining on the DeFiChain DEX in Turkish
+
+#### New Page: Merkeziyetsiz Varlıklar {#new-page-merkeziyetsiz-varlıklar}
+*05.09.2022 - Ferhat - 1500 Words, 3 Tables, 40(x2) DFI*
+> Overview of Decentralized Assets, minting, vaults, advantages, risks, etc.  (Turkish)
+
+#### New Page: Likidite Madenciliği ve Staking {#new-page-likidite-madenciliği-ve-staking}
+*05.09.2022 - Ferhat - 360 Words - 8(x2)[^1] DFI*
+> Turkish version of "Liquidity Mining versus Staking"
+
+#### New Page: Masternode (TR) {#new-page-masternode-tr}
+*05.09.2022 - Ferhat - 745 Words - 18(x2)[^1] DFI*
+> Turkish version of "Masternodes"
+
+#### New Page: DEX (TR) {#new-page-dex-tr}
+*05.09.2022 - Ferhat - 480 Words, 2 Charts - 15(x2)[^1] DFI*
+> Introduction to the DEX (Desktop and mobile app) in Turkish language
+
+#### New Page: Kalıcı Olmayan Kayıp {#new-page-kalıcı-olmayan-kayıp}
+*05.09.2022 - Ferhat - 475 Words - 12(x2)[^1] DFI*
+> Impermanent Loss in Turkish language
+
+#### Update: Liquidity Mining Page {#update-liquidity-mining-page}
+*05.09.2022 - SaschaGLM - 300 Words, 1 Chart - 9(x2)[^1] DFI*
+
+[^1]: DeFiChain-Wiki Double Decker Party: https://twitter.com/Kassius84/status/1566096160791711746?s=20&t=-bT7oDYRKqP8hIAlQSSYCA
