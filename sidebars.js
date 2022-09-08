@@ -20,12 +20,12 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "❤ Contribute",
+      label: "Contribute",
       items: ["auto/Sharing_is_caring", "auto/Contribute"],
     },
     {
       type: "category",
-      label: "🔥 Fundamentals",
+      label: "Fundamentals",
       items: [
         "auto/DeFiChain",
         "auto/Original_White_Paper",
@@ -50,7 +50,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "👨‍🎓️ Guides",
+      label: "Guides",
       items: [
         "auto/Beginners_Guide",
         "auto/DeFiChain_Advanced_Tutorial",
@@ -62,7 +62,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "👛 DeFi Wallet",
+      label: "DeFi Wallet",
       items: [
         {
           type: "category",
@@ -140,7 +140,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "💝 Community",
+      label: "Community",
       items: [
         "auto/Improvement_Proposals",
         "auto/Community_Funding_Proposals",

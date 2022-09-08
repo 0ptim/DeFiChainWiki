@@ -4,6 +4,9 @@
  * work well for content-centric websites.
  */
 
+/* Import main site font from google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto+Condensed:wght@700&display=swap");
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #c20085;
@@ -15,10 +18,12 @@
   --ifm-color-primary-lightest: #fc00ad;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family-base: 'Inter', sans-serif;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
+  --ifm-background-color: #161616 !important;
   --ifm-color-primary: #ff43c4;
   --ifm-color-primary-dark: #ff23ba;
   --ifm-color-primary-darker: #ff13b5;
@@ -32,6 +37,10 @@
 .hero__subtitle {
   text-shadow: 0 0 5px #0000004d;
   color: #1c1e21;
+}
+
+.hero__title {
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 [data-theme="dark"] .hero__title,

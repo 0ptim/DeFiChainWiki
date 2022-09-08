@@ -8,7 +8,7 @@ const config = {
   baseUrl: "/DeFiChain-Wiki/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
-  favicon: "img/logo.svg",
+  favicon: "img/favicon.ico",
 
   // GitHub pages deployment config.
   organizationName: "0ptim",
@@ -47,6 +47,16 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {
+          name: "og:image",
+          content: "/static/img/Open_Graph_Image.png",
+        },
+        {
+          name: "twitter:image:alt",
+          content: "The DeFiChain-Wiki logo with a subtitle saying: Your knowledgebase all around theDeFiChain ecosystem",
+        }       
+      ],
       docs: {
         sidebar: {
           autoCollapseCategories: true,
@@ -92,7 +102,7 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Community",
+            title: "Main Sources",
             items: [
               {
                 label: "Main Website",
@@ -103,12 +113,45 @@ const config = {
                 href: "https://defiscan.live/",
               },
               {
+                label: "Blog",
+                href: "https://blog.defichain.com/",
+              },
+              {
+                label: "Newsletter",
+                href: "https://c5ba029c.sibforms.com/serve/MUIEADS1VD9jeTSbGfIUoyPsNa3KLu71UW5xxDPwaHGfiveQ7kVjoZcEhKCVBzwP_2bI77gCYOv6Q3BRc2r9AASyyF8RAAF-8f8pc__eJ5-oFdMATZ2LY_S56oug5cPWpT58oVBcsqf3Pr_gmOkCXmiiUewbvX9tMvgFU-50rwv-vJ5H7tzmg5OAUvBuHS76cQJZAHv0wSIUefYJ",
+              },
+            ],
+          },
+          {
+            title: "Socials",
+            items: [
+              {
                 label: "Twitter",
                 href: "https://twitter.com/defichain",
               },
               {
-                label: "Blog",
-                href: "https://blog.defichain.com/",
+                label: "Reddit",
+                href: "https://reddit.com/r/defiblockchain/",
+              },
+              {
+                label: "Telegram",
+                href: "docs/auto/FAQ#legit-telegram-channels",
+              },
+              {
+                label: "Youtube",
+                href: "https://www.youtube.com/DeFiChain",
+              },
+              {
+                label: "Discord",
+                href: "https://discord.com/invite/py55egyaGy",
+              },
+              {
+                label: "Facebook",
+                href: "https://facebook.com/defichain.official",
+              },
+              {
+                label: "Linkedin",
+                href: "https://www.linkedin.com/company/defichain/",
               },
             ],
           },
@@ -125,7 +168,7 @@ const config = {
               },
               {
                 label: "Privacy Policy",
-                href: "https://defichain.com/privacy-policy/",
+                href: "https://defichain.com/privacy-policy",
               },
             ],
           },
@@ -137,10 +180,10 @@ const config = {
         darkTheme: darkCodeTheme,
       },
       algolia: {
-        apiKey: '00a233bca9e11e8baf6f03174dd7ebb5',
-        indexName: 'defichain_wiki',
+        apiKey: "00a233bca9e11e8baf6f03174dd7ebb5",
+        indexName: "defichain_wiki",
         contextualSearch: true,
-        appId: '8RV2QHX307',
+        appId: "8RV2QHX307",
         searchParameters: {},
       },
     }),
