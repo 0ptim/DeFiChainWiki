@@ -47,6 +47,16 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {
+          name: "og:image",
+          content: "/static/img/Open_Graph_Image.png",
+        },
+        {
+          name: "twitter:image:alt",
+          content: "The DeFiChain-Wiki logo with a subtitle saying: Your knowledgebase all around theDeFiChain ecosystem",
+        }       
+      ],
       docs: {
         sidebar: {
           autoCollapseCategories: true,
