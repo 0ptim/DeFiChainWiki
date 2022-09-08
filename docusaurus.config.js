@@ -50,7 +50,7 @@ const config = {
       metadata: [
         {
           name: "og:image",
-          content: "/img/Open_Graph_Image.png",
+          content: "https://0ptim.github.io/DeFiChain-Wiki/img/Open_Graph_Image.png",
         },
         {
           name: "twitter:image:alt",
