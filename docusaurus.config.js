@@ -50,7 +50,7 @@ const config = {
       metadata: [
         {
           name: "og:image",
-          content: "/static/img/Open_Graph_Image.png",
+          content: "/img/Open_Graph_Image.png",
         },
         {
           name: "twitter:image:alt",
