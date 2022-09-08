@@ -48,8 +48,7 @@ function HomepageHeader() {
 
 export default function Home() {
   return (
-    <Layout description="Wiki for the DeFiChain blockchain and it's ecosystem. Explanations and information around topics like DEX, Liquidity Mining, Staking, Vaults, Wallets and more."
-    >
+    <Layout description="Wiki for the DeFiChain blockchain and it's ecosystem. Explanations and information around topics like DEX, Liquidity Mining, Staking, Vaults, Wallets and more.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
