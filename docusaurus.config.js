@@ -109,7 +109,7 @@ const config = {
                 href: "https://defichain.com/",
               },
               {
-                label: "DeFiChain Explorer",
+                label: "Explorer",
                 href: "https://defiscan.live/",
               },
               {
