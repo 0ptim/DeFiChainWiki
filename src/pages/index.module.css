@@ -66,17 +66,30 @@
   color: #171717;
 }
 
-.mapBackground {
+[data-theme="dark"] .mapBackground {
+  background-color: #292929;
   position: absolute;
   top: 0px;
   right: 0px;
   left: 0px;
   bottom: 0px;
-  background-image: url("/static/map.svg");
+  background-image: url("/static/img/map_dark.svg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  filter: invert();
+}
+
+[data-theme="light"] .mapBackground {
+  background-color: #ebebeb;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  background-image: url("/static/img/map_light.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 [data-theme="dark"] .mapBackground {
