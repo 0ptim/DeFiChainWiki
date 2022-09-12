@@ -14,10 +14,7 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   tutorialSidebar: [
-    {
-      type: "doc",
-      id: "auto/welcome",
-    },
+    "auto/welcome",
     {
       type: "category",
       label: "Contribute",
