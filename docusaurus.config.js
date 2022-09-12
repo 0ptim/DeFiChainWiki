@@ -8,7 +8,7 @@ const config = {
   baseUrl: "/DeFiChain-Wiki/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
-  favicon: "img/favicon.ico",
+  favicon: "img/Favicon.ico",
 
   // GitHub pages deployment config.
   organizationName: "0ptim",
@@ -50,7 +50,7 @@ const config = {
       metadata: [
         {
           name: "og:image",
-          content: "/static/img/Open_Graph_Image.png",
+          content: "https://0ptim.github.io/DeFiChain-Wiki/img/Open_Graph_Image.png",
         },
         {
           name: "twitter:image:alt",
