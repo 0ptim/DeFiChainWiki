@@ -16,8 +16,14 @@ const sidebars = {
   tutorialSidebar: [
     "auto/welcome",
     {
-      Contribute: ["auto/Sharing_is_caring", "auto/Contribute"],
-      Fundamentals: [
+      type: "category",
+      label: "Contribute",
+      items: ["auto/Sharing_is_caring", "auto/Contribute"],
+    },
+    {
+      type: "category",
+      label: "Fundamentals",
+      items: [
         "auto/DeFiChain",
         "auto/Original_White_Paper",
         "auto/Updated_White_Paper",
@@ -38,7 +44,11 @@ const sidebars = {
         "auto/Lightwallet_change_Ocean",
         "auto/CustomTransaction",
       ],
-      Guides: [
+    },
+    {
+      type: "category",
+      label: "Guides",
+      items: [
         "auto/Beginners_Guide",
         "auto/DeFiChain_Advanced_Tutorial",
         "auto/DeFiChain_Basics_Tutorial",
@@ -46,20 +56,34 @@ const sidebars = {
         "auto/DeFiChain_Tutorials",
         "auto/Jellyfish_tutorial",
       ],
-      "DeFi Wallet": [
+    },
+    {
+      type: "category",
+      label: "DeFi Wallet",
+      items: [
         {
-          Installation: [
+          type: "category",
+          label: "Installation",
+          items: [
             "auto/App_on_Windows_Cloud_Server",
             "auto/App_on_Raspberry-Pi",
             "auto/Saiivelive",
           ],
-          Security: [
+        },
+        {
+          type: "category",
+          label: "Security",
+          items: [
             "auto/Wallet_Encryption",
             "auto/Backup_Wallet",
             "auto/Restore_Wallet",
             "auto/Password_Setting",
           ],
-          Usage: [
+        },
+        {
+          type: "category",
+          label: "Usage",
+          items: [
             "auto/Create_address",
             "auto/Listaccounts",
             "auto/Suggestion_for_using_the_DeFi_app",
@@ -67,7 +91,11 @@ const sidebars = {
             "auto/Payout_DFI_in_Euro",
             "auto/Send_all_coins",
           ],
-          "Advanced Usage": [
+        },
+        {
+          type: "category",
+          label: "Advanced Usage",
+          items: [
             "auto/API",
             "auto/CLI_Commands",
             "auto/Bitcoin_Anchoring",
@@ -80,7 +108,11 @@ const sidebars = {
             "auto/Import_BTC_private_key_to_Electrum",
             "auto/Atomic_Swap",
           ],
-          Problems: [
+        },
+        {
+          type: "category",
+          label: "Problems",
+          items: [
             "auto/Debug.log",
             "auto/DeFi_Wallet_error_messages",
             "auto/DeFi_Wallet_errors",
@@ -95,10 +127,18 @@ const sidebars = {
             "auto/Delete_dot_defi",
             "auto/Collected_questions_for_the_developers",
           ],
-          "Version Specific Hints": ["auto/V2.3.1", "auto/V2.3.2"],
+        },
+        {
+          type: "category",
+          label: "Version Specific Hints",
+          items: ["auto/V2.3.1", "auto/V2.3.2"],
         },
       ],
-      Community: [
+    },
+    {
+      type: "category",
+      label: "Community",
+      items: [
         "auto/Improvement_Proposals",
         "auto/Community_Funding_Proposals",
         "auto/Taxes",
@@ -110,7 +150,9 @@ const sidebars = {
         "auto/Masternode-Tracking-Google-Sheet",
         "auto/Masternode_service",
         {
-          DFX: [
+          type: "category",
+          label: "DFX",
+          items: [
             "auto/DFI_Staking_at_DFX",
             "auto/DFX_FAQ",
             "auto/DFX_manual_registration",
