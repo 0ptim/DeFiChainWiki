@@ -1,7 +1,15 @@
 {
-  "Homepage.Subtitle": {
-    "message": "Deine Wissensdatenbank rund um das DeFiChain-Ökosystem.",
-    "description": "Subtitle is used on the homepage"
+  "Homepage.Subtitle_beginning": {
+    "message": "Deine ",
+    "description": "Erster Teil des Untertitels."
+  },
+  "Homepage.Subtitle_highlight": {
+    "message": "Wissensdatenbank",
+    "description": "Der Teil, der in einer anderen Farbe hervorgehoben werden soll."
+  },
+  "Homepage.Subtitle_ending": {
+    "message": " rund um das DeFiChain-Ökosystem.",
+    "description": "Der letzte Teil des Untertitels."
   },
   "Homepage.Button.Knowledgebase": {
     "message": "Wissensdatenbank 📖",
