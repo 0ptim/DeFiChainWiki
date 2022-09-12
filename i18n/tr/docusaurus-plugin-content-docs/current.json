@@ -3,48 +3,96 @@
     "message": "Katkıda bulunun",
     "description": "The label for category Fundamentals in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.Contribute.link.generated-index.description": {
+    "message": "Viki'nin geliştirilmesine nasıl yardımcı olabileceğinizi öğrenin.",
+    "description": "The generated-index page description for category Contribute in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.Fundamentals": {
     "message": "Temel Bilgiler",
     "description": "The label for category Fundamentals in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Fundamentals.link.generated-index.description": {
+    "message": "DeFiChain'in temel kavramları hakkında bilgi edinin.",
+    "description": "The generated-index page description for category Fundamentals in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Guides": {
     "message": "Kılavuzlar",
     "description": "The label for category Guides in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.Guides.link.generated-index.description": {
+    "message": "Kavramları daha iyi anlamanıza yardımcı olan kılavuzlar.",
+    "description": "The generated-index page description for category Guides in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.DeFi Wallet": {
     "message": "DeFi Cüzdan",
     "description": "The label for category DeFi Wallet in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.DeFi Wallet.link.generated-index.description": {
+    "message": "DeFiChain masaüstü cüzdanı hakkında her şey.",
+    "description": "The generated-index page description for category DeFi Wallet in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Installation": {
     "message": "Kurulum",
     "description": "The label for category Installation in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.Installation.link.generated-index.description": {
+    "message": "Kurulum kılavuzları.",
+    "description": "The generated-index page description for category Installation in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.Security": {
     "message": "Güvenlik",
     "description": "The label for category Security in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Security.link.generated-index.description": {
+    "message": "Güvenlikle ilgili önemli konular.",
+    "description": "The generated-index page description for category Security in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Usage": {
     "message": "Kullanım",
     "description": "The label for category Usage in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.Usage.link.generated-index.description": {
+    "message": "DeFiChain masaüstü cüzdanı nasıl kullanılır?",
+    "description": "The generated-index page description for category Usage in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.Advanced Usage": {
     "message": "Gelişmiş kullanım",
     "description": "The label for category Advanced Usage in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Advanced Usage.link.generated-index.description": {
+    "message": "DeFiChain masaüstü cüzdanının gelişmiş kullanımı.",
+    "description": "The generated-index page description for category Advanced Usage in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Problems": {
     "message": "Problemler",
     "description": "The label for category Problems in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.Problems.link.generated-index.description": {
+    "message": "Yaygın ve bilinen sorunlar ve bunların nasıl çözüleceği.",
+    "description": "The generated-index page description for category Problems in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.Version Specific Hints": {
     "message": "Sürüme özgü notlar",
     "description": "The label for category Version Specific Hints in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Version Specific Hints.link.generated-index.description": {
+    "message": "Belirli uygulama sürümleri için bilgiler.",
+    "description": "The generated-index page description for category Version Specific Hints in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Community": {
     "message": "Topluluk",
     "description": "The label for category Community in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.Community.link.generated-index.description": {
+    "message": "Oylama, projeler ve daha fazlası.",
+    "description": "The generated-index page description for category Community in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.DFX": {
     "message": "DFX",
     "description": "The label for category DFX in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.DFX.link.generated-index.description": {
+    "message": "DFX ve nasıl kullanılacağı hakkında bilgi.",
+    "description": "The generated-index page description for category DFX in sidebar tutorialSidebar"
   }
 }
