@@ -11,12 +11,12 @@
     "message": ".",
     "description": "Alt başlığın son kısmı."
   },
-  "Homepage.Button.Knowledgebase": {
-    "message": "Bilgi Bankası 📖",
+  "Homepage.Button.Get_Started": {
+    "message": "Başlayın ▶",
     "description": "Bu düğme, bilgi tabanının ana sayfasını açmak için ana sayfada kullanılır."
   },
   "Homepage.Button.Contribute": {
-    "message": "Katkıda bulunun ❤",
+    "message": "Wiki'ye yardım edin ❤",
     "description": "Bu düğme ana sayfada kullanılır."
   },
   "Homepage.Feature.Community.Title": {
