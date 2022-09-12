@@ -17,10 +17,16 @@ function HomepageHeader() {
       <BackgroundAnimation />
 
       <div className={clsx("container", styles.container)}>
-        <h1 className="hero__title">{siteConfig.title}</h1>
         <div className={styles.logo} />
+        <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">
-          <Translate>Homepage.Subtitle</Translate>
+          <Translate>Homepage.Subtitle_beginning</Translate>
+          <span className={styles.bubble}>
+            <span className={styles.bubbleText}>
+              <Translate>Homepage.Subtitle_highlight</Translate>
+            </span>
+          </span>
+          <Translate>Homepage.Subtitle_ending</Translate>
         </p>
         <div className={styles.buttonHolder}>
           <div className={styles.buttons}>
