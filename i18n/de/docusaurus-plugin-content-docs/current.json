@@ -1,15 +1,19 @@
 {
-  "sidebar.tutorialSidebar.category.🔥 Fundamentals": {
-    "message": "🔥 Grundlagen",
-    "description": "The label for category 🔥 Fundamentals in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Contribute": {
+    "message": "Mithelfen",
+    "description": "The label for category Fundamentals in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.👨‍🎓️ Guides": {
-    "message": "👨‍🎓️ Leitfäden",
-    "description": "The label for category 👨‍🎓️ Guides in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Fundamentals": {
+    "message": "Grundlagen",
+    "description": "The label for category Fundamentals in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.👛 DeFi Wallet": {
-    "message": "👛 DeFi Wallet",
-    "description": "The label for category 👛 DeFi Wallet in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Guides": {
+    "message": "Leitfäden",
+    "description": "The label for category Guides in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.DeFi Wallet": {
+    "message": "DeFi Wallet",
+    "description": "The label for category DeFi Wallet in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Installation": {
     "message": "Installation",
@@ -35,9 +39,9 @@
     "message": "Versionsspezifische Hinweise",
     "description": "The label for category Version Specific Hints in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.❤ Community": {
-    "message": "❤ Gemeinschaft",
-    "description": "The label for category ❤ Community in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Community": {
+    "message": "Gemeinschaft",
+    "description": "The label for category Community in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.DFX": {
     "message": "DFX",
