@@ -38,6 +38,10 @@
   --ifm-color-primary-lightest: #ffa4e2;
 }
 
+.navbar__link {
+  white-space: nowrap;
+}
+
 .hero__title,
 .hero__subtitle {
   text-shadow: 0 0 5px #0000004d;
