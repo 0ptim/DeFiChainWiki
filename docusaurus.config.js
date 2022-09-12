@@ -109,7 +109,7 @@ const config = {
                 href: "https://defichain.com/",
               },
               {
-                label: "DeFiChain Explorer",
+                label: "Explorer",
                 href: "https://defiscan.live/",
               },
               {
@@ -173,7 +173,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} DeFiChain Foundation`,
+        copyright: `Copyright © ${new Date().getFullYear()} DeFiChain`,
       },
       prism: {
         theme: lightCodeTheme,

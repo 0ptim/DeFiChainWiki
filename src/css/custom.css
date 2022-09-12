@@ -21,6 +21,15 @@
   --ifm-font-family-base: 'Inter', sans-serif;
 }
 
+[data-theme="light"] .button {
+  --ifm-button-background-color: #3c3c3c;
+  color: var(--ifm-color-gray-100);
+}
+
+[data-theme="light"] .button:hover {
+  --ifm-button-background-color: #5a5a5a;
+}
+
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
   --ifm-background-color: #161616 !important;
@@ -31,6 +40,10 @@
   --ifm-color-primary-light: #ff63ce;
   --ifm-color-primary-lighter: #ff73d3;
   --ifm-color-primary-lightest: #ffa4e2;
+}
+
+.navbar__link {
+  white-space: nowrap;
 }
 
 .hero__title,

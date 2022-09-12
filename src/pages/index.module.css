@@ -38,26 +38,58 @@
 }
 
 .logo {
-  height: 100px;
-  width: 119px;
+  height: 160px;
+  width: 160px;
   margin-bottom: 20px;
-  background-image: url("/static/img/logo.svg");
+  background-image: url("/static/img/app_logo_light.svg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.mapBackground {
+[data-theme="dark"] .logo {
+  background-image: url("/static/img/app_logo_dark.svg");
+}
+
+.bubble {
+  background: linear-gradient(200deg, #fc1dae 21.58%, #00f6ff 103.79%);
+  border-radius: 10px;
+  padding: 2px 8px 4px 8px;
+}
+
+.bubbleText {
+  font-weight: 700;
+  color: #e8e8e8;
+}
+
+[data-theme="dark"] .bubbleText {
+  color: #171717;
+}
+
+[data-theme="dark"] .mapBackground {
+  background-color: #292929;
   position: absolute;
   top: 0px;
   right: 0px;
   left: 0px;
   bottom: 0px;
-  background-image: url("/static/map.svg");
+  background-image: url("/static/img/map_dark.svg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  filter: invert();
+}
+
+[data-theme="light"] .mapBackground {
+  background-color: #ebebeb;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  background-image: url("/static/img/map_light.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 [data-theme="dark"] .mapBackground {

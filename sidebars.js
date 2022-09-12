@@ -14,18 +14,23 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   tutorialSidebar: [
-    {
-      type: "doc",
-      id: "auto/welcome",
-    },
+    "auto/welcome",
     {
       type: "category",
       label: "Contribute",
+      link: {
+        type: "generated-index",
+        description: "Learn how you can help improve the wiki.",
+      },
       items: ["auto/Sharing_is_caring", "auto/Contribute"],
     },
     {
       type: "category",
       label: "Fundamentals",
+      link: {
+        type: "generated-index",
+        description: "Learn about the fundamental concepts of DeFiChain.",
+      },
       items: [
         "auto/DeFiChain",
         "auto/Original_White_Paper",
@@ -51,6 +56,11 @@ const sidebars = {
     {
       type: "category",
       label: "Guides",
+      link: {
+        type: "generated-index",
+        description:
+          "Guides which help you understand concepts better.",
+      },
       items: [
         "auto/Beginners_Guide",
         "auto/DeFiChain_Advanced_Tutorial",
@@ -63,10 +73,18 @@ const sidebars = {
     {
       type: "category",
       label: "DeFi Wallet",
+      link: {
+        type: "generated-index",
+        description: "Everything about the DeFiChain desktop wallet.",
+      },
       items: [
         {
           type: "category",
           label: "Installation",
+          link: {
+            type: "generated-index",
+            description: "Installation guides.",
+          },
           items: [
             "auto/App_on_Windows_Cloud_Server",
             "auto/App_on_Raspberry-Pi",
@@ -76,6 +94,10 @@ const sidebars = {
         {
           type: "category",
           label: "Security",
+          link: {
+            type: "generated-index",
+            description: "Important topics about security.",
+          },
           items: [
             "auto/Wallet_Encryption",
             "auto/Backup_Wallet",
@@ -86,6 +108,10 @@ const sidebars = {
         {
           type: "category",
           label: "Usage",
+          link: {
+            type: "generated-index",
+            description: "How to use the DeFiChain desktop wallet.",
+          },
           items: [
             "auto/Create_address",
             "auto/Listaccounts",
@@ -98,6 +124,10 @@ const sidebars = {
         {
           type: "category",
           label: "Advanced Usage",
+          link: {
+            type: "generated-index",
+            description: "Advanced usage of the DeFiChain desktop wallet.",
+          },
           items: [
             "auto/API",
             "auto/CLI_Commands",
@@ -115,6 +145,10 @@ const sidebars = {
         {
           type: "category",
           label: "Problems",
+          link: {
+            type: "generated-index",
+            description: "Common and known problems and how to solve them.",
+          },
           items: [
             "auto/Debug.log",
             "auto/DeFi_Wallet_error_messages",
@@ -134,6 +168,10 @@ const sidebars = {
         {
           type: "category",
           label: "Version Specific Hints",
+          link: {
+            type: "generated-index",
+            description: "Information for specific app versions.",
+          },
           items: ["auto/V2.3.1", "auto/V2.3.2"],
         },
       ],
@@ -141,6 +179,10 @@ const sidebars = {
     {
       type: "category",
       label: "Community",
+      link: {
+        type: "generated-index",
+        description: "Voting, projects and more.",
+      },
       items: [
         "auto/Improvement_Proposals",
         "auto/Community_Funding_Proposals",
@@ -155,6 +197,10 @@ const sidebars = {
         {
           type: "category",
           label: "DFX",
+          link: {
+            type: "generated-index",
+            description: "Information about DFX and how to use it.",
+          },
           items: [
             "auto/DFI_Staking_at_DFX",
             "auto/DFX_FAQ",
