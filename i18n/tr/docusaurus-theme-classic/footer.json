@@ -68,7 +68,7 @@
     "description": "The label of footer link with label=Privacy Policy linking to https://defichain.com/privacy-policy"
   },
   "copyright": {
-    "message": "Telif Hakkı © 2022 DeFiChain Foundation",
+    "message": "Telif Hakkı © 2022 DeFiChain",
     "description": "The footer copyright"
   }
 }

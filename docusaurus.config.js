@@ -173,7 +173,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} DeFiChain Foundation`,
+        copyright: `Copyright © ${new Date().getFullYear()} DeFiChain`,
       },
       prism: {
         theme: lightCodeTheme,
