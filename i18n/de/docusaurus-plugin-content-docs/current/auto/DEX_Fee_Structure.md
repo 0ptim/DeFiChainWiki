@@ -14,7 +14,7 @@ Das folgende Diagramm zeigt die verschiedenen Pool-Swaps (Tasuch) auf DeFiChain.
 - Provisionen: 0,2 %
 - dBTC-Gebühr: 0,1 %
 - DUSD/dToken-Gebühr: 0,2 %
-- DEX-Stabilisierungsgebühr: 0...~34% (in Abhängigkeit des Algo-dUSD-Anteils)
+- DEX-Stabilisierungsgebühr: 0...~31,75% (in Abhängigkeit des Algo-dUSD-Anteils)
 
 *DeFiChain DEX-Swaps und Gebühren*  
 ![DeFiChain DEX-Swaps und Gebühren](./../media/dexfeestructure_DE_DefiChainDEXFees.png)
@@ -33,20 +33,21 @@ Auf [defiscan.live](https://defiscan.live/dex) kannst du den effektiven Jahreszi
 Die DEX-Stabilisierungsgebühr hängt vom relativen Anteil des Algo-dUSD-Tokens auf DeFiChain ab. Unter 50 % beträgt diese Gebühr 0 % und erhöht sich bei Werten über 50 % (siehe Grafik unten).
 
 *DEX Stabilisierungsgebühr*  
-![DEX Stabilisierungsgebühr](./../media/dexfeestructure_DE_DEX_stabilizing_fee.jpg)
+![image](https://user-images.githubusercontent.com/113752539/190842040-6a89d1b8-af38-484f-8881-2c8d5488fc6e.png)
 
-Die Formel hinter dieser Abhängigkeit lautet:
+Die Formel lautet:
 
-``` python
-Let ALGO_DUSD_RATIO = 1 - (Loan DUSD / total DUSD supply)
-Let COEFFICIENT = 1.8
-If ALGO_DUSD_RATIO > 0.5
-   DEX stabilization fee = (COEFFICIENT ^ (ALGO_DUSD_RATIO - 0.5)) - 1
-Else
-   DEX stabilization fee = 0%
-```
+Ratio > 30%: Dex Fee = (2 ^ ((Ratio – 30)/10) -1) / 4
+Ratio <= 30%: Dex Fee = 0
 
-Mit zunehmender Stabilisierungsgebühr werden wir eine Prämie für DUSD auf DeFiChain sehen, da der Verkauf von dUSD immer teurer wird. Wenn du DUSD im Premium-Fall kaufst, erhältst du weniger DUSD als den von dir investierten Dollarwert. Und das macht das Prägen (minten) von DUSD über Tresore (vautls) und Kredite (loan) attraktiver.
+Derzeit legt das Ticker-Council die DEX-Fee manuell fest um ein sprunghaftes Verhalten zu verhindern und einen sanften Übergang von der alten zur neuen Gebühr sicherzustellen, nachdem DFIP 2208-A implementiert wurde. Details können hier nachgelesen werden:
+
+https://www.reddit.com/r/defiblockchain/comments/x7bojp/ticker_council_vote_to_smoothen_out_dex
+
+Die aktuell gültige Gebühr findest du hier:
+
+https://docs.google.com/spreadsheets/d/11yTO43MBi3WQhtrIwUSpnNMaPVIy8zVVEz8TUyI46VI/edit#gid=2139878934
+https://www.krypto-sprungbrett.com/dex-fees/
 
 ### DUSD/dToken Gebühr {#dusddtoken-fee}
 
