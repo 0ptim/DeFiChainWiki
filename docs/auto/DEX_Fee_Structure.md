@@ -32,7 +32,8 @@ On [defiscan.live](https://defiscan.live/dex) you can see the APR of each pool a
 
 The DEX stabilizing fee depends on the relative part of the algo dUSD token on DeFiChain. Below 30% this fee is 0% and increases with values higher than 30% (see graph below).
 
-![image](https://user-images.githubusercontent.com/113752539/190841864-1cbddbc3-3ead-4f98-98d9-2cde35b016c4.png)
+*DEX stabilizing fee*  
+![DEX stabilizing fee](./../media/dexfeestructure_EN_stabilizingFee.png)
 
 The formula behind this dependency is:
 
