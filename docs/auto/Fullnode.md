@@ -3,9 +3,9 @@ title: Fullnode
 description: TODO - Short description of this page.
 ---
 
-## Defichain Fullnode {#defichain-fullnode}
+## DeFiChain Fullnode {#defichain-fullnode}
 
-To stabilize the network, it is possible to setup a Defichain Fullnode on a virtual or physical server with a fixed IP address. A Fullnode holds the whole blockchain without acting as a masternode (no Collateral required) and other Nodes and Wallets in the network can use it to synchronize. Everyone in the community can help make the network more stable with a public Fullnode.
+To stabilize the network, it is possible to setup a DeFiChain Fullnode on a virtual or physical server with a fixed IP address. A Fullnode holds the whole blockchain without acting as a masternode (no Collateral required) and other Nodes and Wallets in the network can use it to synchronize. Everyone in the community can help make the network more stable with a public Fullnode.
 
 ## Requirements {#requirements}
 
@@ -82,17 +82,17 @@ to be continued...
 
 [Latest Version](https://github.com/DeFiCh/ain/releases/latest)
 
-`wget `[`https://github.com/DeFiCh/ain/releases/download/v2.3.0/defichain-2.3.0-x86_64-pc-linux-gnu.tar.gz`](https://github.com/DeFiCh/ain/releases/download/v2.3.0/defichain-2.3.0-x86_64-pc-linux-gnu.tar.gz)
+`wget https://github.com/DeFiCh/ain/releases/download/v2.10.0/defichain-2.10.0-x86_64-pc-linux-gnu.tar.gz`
 
 *unzip package*
 
-`tar -xvzf defichain-2.3.0-x86_64-pc-linux-gnu.tar.gz`
+`tar -xvzf defichain-2.10.0-x86_64-pc-linux-gnu.tar.gz`
 
 *copy to directory*
 
 `mkdir ~/.defi`
 
-`cp ./defichain-2.3.0/bin/* ~/.defi`
+`cp ./defichain-2.10.0/bin/* ~/.defi`
 
 ##### Start Fullnode {#start-fullnode}
 
@@ -100,7 +100,7 @@ to be continued...
 
 `~/.defi/defid -daemon`
 
-*When you upgrade from a previous version, please reindex the whole blockchaindata*
+*When you upgrade from a previous version, please reindex the whole blockchain data*
 
 `~/.defi/defid -reindex -daemon`
 
@@ -162,7 +162,7 @@ A snapshot helps in cases of corrupted blocks not to re-index the blockchain aga
 
 ### Download sources {#download-sources}
 
-#### DeFiChain Fondation: {#defichain-fondation}
+#### DeFiChain Foundation: {#defichain-foundation}
 
 Asia:
 <https://defi-snapshots.s3-ap-southeast-1.amazonaws.com/snapshot-mainnet-1578261.zip>
