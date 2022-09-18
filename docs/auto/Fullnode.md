@@ -176,6 +176,10 @@ A snapshot helps in cases of corrupted blocks not to re-index the blockchain aga
 
 ### Download sources {#download-sources}
 
+:::caution
+Make sure your download link always starts with https and not with http. Even if you can download the index.txt files or snapshots over http you should never do so. 
+:::
+
 #### DeFiChain Foundation: {#defichain-foundation}
 
 Asia:
