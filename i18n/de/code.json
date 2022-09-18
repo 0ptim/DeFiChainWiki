@@ -11,12 +11,12 @@
     "message": " rund um das DeFiChain-Ökosystem.",
     "description": "Der letzte Teil des Untertitels."
   },
-  "Homepage.Button.Knowledgebase": {
-    "message": "Wissensdatenbank 📖",
+  "Homepage.Button.Get_Started": {
+    "message": "Los geht's ▶",
     "description": "Dieser Button wird auf der Haupt-Seite verwendet, um die Wissensdatenbank zu öffnen."
   },
   "Homepage.Button.Contribute": {
-    "message": "Mithelfen ❤",
+    "message": "Hilf beim Wiki mit ❤",
     "description": "Dieser Button wird auf der Haupt-Seite verwendet."
   },
   "Homepage.Feature.Community.Title": {

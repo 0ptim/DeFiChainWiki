@@ -42,7 +42,7 @@ Die einzigen Dinge, die du brauchst:
 
 In diesem Szenario beteibst du 2 Knoten in deinem HOME-Netzwerk. Eine Maschine fungiert als Ownernode und hält die Sicherheit von 20.000 DFI. Dies kann dein Macbook, Laptop oder Personal Computer sein. Du startest diesen Computer nur bei Bedarf, um Tokens zu übertragen oder die DEX zu nutzen, LM zu verwenden oder Rewards an eine andere Adresse zu senden.
 
-Die andere Maschine ist deine Operatornode. Dies kann ein anderer Laptop oder PC oder Raspberry oder ein Home-Server sein. Du benötigst nur die eigentliche Nodeversion. Kein Collateral, keine Wallet-APP. Du kannst Port 8555 in deinem Router für diesen Computer öffnen, um Netzwerkservices zu präsentieren und diese Node für andere Nodes und APP-Wallets öffentlich zu machen. Da diese Node keine Coins oder Token enthält, ist das Sicherheitsrisiko viel geringer als in Szenario 1.
+Die andere Maschine ist deine Operatornode. Dies kann ein anderer Laptop oder PC oder [Raspberry](./App_on_Raspberry-Pi.md) oder ein Home-Server sein. Du benötigst nur die eigentliche Nodeversion. Kein Collateral, keine Wallet-APP. Du kannst Port 8555 in deinem Router für diesen Computer öffnen, um Netzwerkservices zu präsentieren und diese Node für andere Nodes und APP-Wallets öffentlich zu machen. Da diese Node keine Coins oder Token enthält, ist das Sicherheitsrisiko viel geringer als in Szenario 1.
 
 **Vorteile:**
 

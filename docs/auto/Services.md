@@ -29,7 +29,7 @@ Take part in the first lottery on the DeFiChain and get a chance to win DFI in w
 
 https://defichain-lottery.com/
 
-![image](https://user-images.githubusercontent.com/113752539/190886737-2ac49fa1-5003-45f9-9fd5-6d320675a839.png)
+![](./../media/services_EN_19_Lottery.png)
 
 ### DeFiChain Bridge
 Easily Move Token Between Defichain and Blockchain X

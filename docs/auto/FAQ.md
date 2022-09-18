@@ -56,6 +56,7 @@ As there are many scammers in the crypto space, you need legit places where you 
 - <https://t.me/DeFiChain_NFTs> Channel for discussions from DeFiChainNFTs (english speaking)
 - <https://t.me/DeFiChainNFTs_GER> Channel for discussions from DeFiChainNFTs (german speaking)
 - <https://t.me/javliscom> Information from the JAVLIS-team
+- <https://t.me/defichain_lottery> DeFiChain lottery
 - <https://t.me/DFSneo_de> Information from the DFS-neo-team (service not live yet)
 - <https://t.me/defiblockchain_TR> DeFiChain Turkey, DFI-channel for general DFI-discussions (turkish speaking)
 
@@ -68,6 +69,7 @@ As there are many scammers in the crypto space, you need legit places where you 
 - <https://twitter.com/DFX_Swiss> DFX-Swiss
 - <https://twitter.com/DeFiChainPromo> DeFiChain-Promo
 - <https://twitter.com/DefichainTR> DeFiChain Turkey
+- <https://twitter.com/DeFiChainHU> DeFiChain Hungary
 
 ### Reddit-Community {#reddit-community}
 
@@ -85,6 +87,12 @@ Reddit also offers the possibility to discuss topics and ask questions. The stru
 - <https://www.instagram.com/defichain_accelerator/> DeFiChain-Accelerator-Team
 - <https://www.instagram.com/cakedefi/> CakeDeFi
 - <https://www.instagram.com/defichain.tr/> DeFiChain Turkey
+
+### YouTube
+- <https://www.youtube.com/c/DeFiChain> DeFiChain (English) --> NewsShow every Wednesday
+- <https://www.youtube.com/c/DeFiChainDE> DeFiChain (Deutsch) --> NewsShow jeden Mittwoch
+- <https://www.youtube.com/c/DefiChainInfo> DeFiChain Info
+
 
 ## Problems with the Wallet APP {#problems-with-the-wallet-app}
 

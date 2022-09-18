@@ -34,19 +34,14 @@ function HomepageHeader() {
               className="button button--secondary button--lg"
               to="/docs/auto/welcome"
             >
-              <Translate>Homepage.Button.Knowledgebase</Translate>
-            </Link>
-          </div>
-
-          <div className={styles.buttons}>
-            <Link
-              className="button button--secondary button--lg"
-              to="/docs/auto/Contribute"
-            >
-              <Translate>Homepage.Button.Contribute</Translate>
+              <Translate>Homepage.Button.Get_Started</Translate>
             </Link>
           </div>
         </div>
+
+        <Link className={styles.contribute} to="/docs/auto/Sharing_is_caring">
+          <Translate>Homepage.Button.Contribute</Translate>
+        </Link>
       </div>
     </header>
   );

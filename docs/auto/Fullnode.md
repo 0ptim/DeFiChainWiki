@@ -3,9 +3,9 @@ title: Fullnode
 description: TODO - Short description of this page.
 ---
 
-## Defichain Fullnode {#defichain-fullnode}
+## DeFiChain Fullnode {#defichain-fullnode}
 
-To stabilize the network, it is possible to setup a Defichain Fullnode on a virtual or physical server with a fixed IP address. A Fullnode holds the whole blockchain without acting as a masternode (no Collateral required) and other Nodes and Wallets in the network can use it to synchronize. Everyone in the community can help make the network more stable with a public Fullnode.
+To stabilize the network, it is possible to setup a DeFiChain Fullnode on a virtual or physical server with a fixed IP address. A Fullnode holds the whole blockchain without acting as a masternode (no Collateral required) and other Nodes and Wallets in the network can use it to synchronize. Everyone in the community can help make the network more stable with a public Fullnode.
 
 ## Requirements {#requirements}
 
@@ -80,19 +80,33 @@ to be continued...
 
 ##### Install Fullnode {#install-fullnode}
 
+:::caution
+Make sure your download link always starts with https and not with http. Even if you can download the binaries over http you should never do so.
+:::
+
 [Latest Version](https://github.com/DeFiCh/ain/releases/latest)
 
-`wget `[`https://github.com/DeFiCh/ain/releases/download/v2.3.0/defichain-2.3.0-x86_64-pc-linux-gnu.tar.gz`](https://github.com/DeFiCh/ain/releases/download/v2.3.0/defichain-2.3.0-x86_64-pc-linux-gnu.tar.gz)
+`wget https://github.com/DeFiCh/ain/releases/download/v2.11.1/defichain-2.11.1-x86_64-pc-linux-gnu.tar.gz`
+
+*check your downloaded package*
+
+`wget https://github.com/DeFiCh/ain/releases/download/v2.11.1/defichain-2.11.1-x86_64-pc-linux-gnu.tar.gz.SHA256`
+
+`sha256sum -c defichain-2.11.1-x86_64-pc-linux-gnu.tar.gz.SHA256`
 
 *unzip package*
 
-`tar -xvzf defichain-2.3.0-x86_64-pc-linux-gnu.tar.gz`
+`tar -xvzf defichain-2.11.1-x86_64-pc-linux-gnu.tar.gz`
 
 *copy to directory*
 
 `mkdir ~/.defi`
 
-`cp ./defichain-2.3.0/bin/* ~/.defi`
+`cp ./defichain-2.11.1/bin/* ~/.defi`
+
+**WARNING**  
+This will work but you should avoid placing executables in ~/.defi because this is where most of you will be extracting your snapshots into. If you don't selectively pick only those files you need from your snapshot every time you could unknowningly replace key files that could cause your full node to be compromised and could even cause your funds to be stolen. If you keep important files out of your data directory they can not be overwritten by a malicious snapshot.
+
 
 ##### Start Fullnode {#start-fullnode}
 
@@ -100,7 +114,7 @@ to be continued...
 
 `~/.defi/defid -daemon`
 
-*When you upgrade from a previous version, please reindex the whole blockchaindata*
+*When you upgrade from a previous version, please reindex the whole blockchain data*
 
 `~/.defi/defid -reindex -daemon`
 
@@ -162,7 +176,11 @@ A snapshot helps in cases of corrupted blocks not to re-index the blockchain aga
 
 ### Download sources {#download-sources}
 
-#### DeFiChain Fondation: {#defichain-fondation}
+:::caution
+Make sure your download link always starts with https and not with http. Even if you can download the index.txt files or snapshots over http you should never do so. 
+:::
+
+#### DeFiChain Foundation: {#defichain-foundation}
 
 Asia:
 <https://defi-snapshots.s3-ap-southeast-1.amazonaws.com/snapshot-mainnet-1578261.zip>
@@ -189,15 +207,15 @@ Example of snapshot URL:
 
 List all available Snapshots:
 
-Mainnet: <http://snapshot-de.mydefichain.com/index.txt>
+Mainnet: <https://snapshot-de.mydefichain.com/index.txt>
 
-Testnet: <http://testnet.snapshot-de.mydefichain.com/index.txt>
+Testnet: <https://testnet.snapshot-de.mydefichain.com/index.txt>
 
 Download latest Snapshots (ZIP):
 
-Mainnet: <http://snapshot-de.mydefichain.com/latest/>
+Mainnet: <https://snapshot-de.mydefichain.com/latest/>
 
-Testnet: <http://testnet.snapshot-de.mydefichain.com/latest/>
+Testnet: <https://testnet.snapshot-de.mydefichain.com/latest/>
 
 ### Installation guide {#installation-guide}
 

@@ -11,12 +11,12 @@
     "message": " all around the DeFiChain ecosystem.",
     "description": "The end part of the subtitle."
   },
-  "Homepage.Button.Knowledgebase": {
-    "message": "Knowledgebase 📖",
+  "Homepage.Button.Get_Started": {
+    "message": "Get Started ▶",
     "description": "This button is used on the home page for opening the main page of the knowledge base."
   },
   "Homepage.Button.Contribute": {
-    "message": "Contribute ❤",
+    "message": "Help out with the wiki ❤",
     "description": "This button is used on the home page."
   },
   "Homepage.Feature.Community.Title": {
@@ -40,7 +40,7 @@
     "description": "Title of the: Searchable"
   },
   "Homepage.Feature.Searchable.Description": {
-    "message": "The whole wiki is indexed and every content can be found in an instant.",
+    "message": "The whole wiki is indexed and all the content can be found in an instant.",
     "description": "Description of the: Searchable"
   }
 }
