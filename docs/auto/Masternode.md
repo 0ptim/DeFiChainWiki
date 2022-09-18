@@ -40,7 +40,7 @@ The only things you need:
 
 In this scenario you have two nodes or wallet apps in your home network. One machine acts as the ownernode and holds the Collateral of 20,000 DFI. This can be your Macbook, Laptop or Personal Computer. You start this machine, when you need it, only to transfer some token or use the DEX, LM or send Rewards to another address.
 
-The other machine is your Operatornode. This can be another Laptop or PC or Raspberry or a home server. You only need the actual nodeversion on it. No collateral, no wallet app required. You can open Port 8555 in your router to this machine to present network services and make this node public for other nodes.
+The other machine is your Operatornode. This can be another Laptop or PC or [Raspberry](./App_on_Raspberry-Pi.md) or a home server. You only need the actual nodeversion on it. No collateral, no wallet app required. You can open Port 8555 in your router to this machine to present network services and make this node public for other nodes.
 
 Because this Node has no coins or tokens, the security risk is much less than in option 1.
 
