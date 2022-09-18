@@ -14,7 +14,7 @@ The following diagram shows the different pool swaps on DeFiChain. In general th
 - Commissions: 0.2%
 - dBTC fee: 0.1%
 - dUSD/dToken fee: 0.2%
-- DEX stabilizing fee: 0...\~34% (in dependence of the algo dUSD part)
+- DEX stabilizing fee: 0...\~31.75% (in dependence of the algo dUSD part)
 
 *DeFiChain DEX swaps and fees*  
 ![DeFiChain DEX swaps and fees](./../media/dexfeestructure_EN_DefiChainDEXFees.png)
@@ -30,23 +30,22 @@ On [defiscan.live](https://defiscan.live/dex) you can see the APR of each pool a
 
 ### DEX stabilizing fee {#dex-stabilizing-fee}
 
-The DEX stabilizing fee depends on the relative part of the algo dUSD token on DeFiChain. Below 50% this fee is 0% and increases with values higher than 50% (see graph below).
+The DEX stabilizing fee depends on the relative part of the algo dUSD token on DeFiChain. Below 30% this fee is 0% and increases with values higher than 30% (see graph below).
 
-*DEX stabilizing fee calculationThe*  
-![DEX stabilizing fee calculationThe](./../media/dexfeestructure_EN_DEX_stabilizing_fee.jpg)
+![image](https://user-images.githubusercontent.com/113752539/190841864-1cbddbc3-3ead-4f98-98d9-2cde35b016c4.png)
 
-formula behind this dependency is:
+The formula behind this dependency is:
 
-``` python
-Let ALGO_DUSD_RATIO = 1 - (Loan DUSD / total DUSD supply)
-Let COEFFICIENT = 1.8
-If ALGO_DUSD_RATIO > 0.5
-   DEX stabilization fee = (COEFFICIENT ^ (ALGO_DUSD_RATIO - 0.5)) - 1
-Else
-   DEX stabilization fee = 0%
-```
+Ratio > 30%: Dex Fee = (2 ^ ((Ratio – 30)/10) -1) / 4
+Ratio <= 30%: Dex Fee = 0
+Currently the Ticker-Council adjusts the DEX-fee manually to smoothen out the effects and avoid large jumps after the implementation of DFIP 2208-A. The details can be found here:
 
-With increasing stabilizing fee we will see a premium for dUSD on DeFiChain, because selling dUSD is getting more and more expensive. If you buy dUSD in the premium case you will get less dUSD than the dollar value you invested. And this makes minting dUSD via vaults and loans more attractive.
+https://www.reddit.com/r/defiblockchain/comments/x7bojp/ticker_council_vote_to_smoothen_out_dex/
+
+The currently charged fee can be found real-time here:
+
+https://docs.google.com/spreadsheets/d/11yTO43MBi3WQhtrIwUSpnNMaPVIy8zVVEz8TUyI46VI/edit#gid=2139878934
+https://www.krypto-sprungbrett.com/dex-fees/
 
 ### dUSD/dToken fee {#dusddtoken-fee}
 
