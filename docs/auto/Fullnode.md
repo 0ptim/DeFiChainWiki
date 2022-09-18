@@ -82,23 +82,23 @@ to be continued...
 
 [Latest Version](https://github.com/DeFiCh/ain/releases/latest)
 
-`wget https://github.com/DeFiCh/ain/releases/download/v2.10.0/defichain-2.10.0-x86_64-pc-linux-gnu.tar.gz`
+`wget https://github.com/DeFiCh/ain/releases/download/v2.11.1/defichain-2.11.1-x86_64-pc-linux-gnu.tar.gz`
 
 *check your downloaded package*
 
-`wget https://github.com/DeFiCh/ain/releases/download/v2.10.0/defichain-2.10.0-x86_64-pc-linux-gnu.tar.gz.SHA256`
+`wget https://github.com/DeFiCh/ain/releases/download/v2.11.1/defichain-2.11.1-x86_64-pc-linux-gnu.tar.gz.SHA256`
 
-`sha256sum -c defichain-2.10.0-x86_64-pc-linux-gnu.tar.gz.SHA256`
+`sha256sum -c defichain-2.11.1-x86_64-pc-linux-gnu.tar.gz.SHA256`
 
 *unzip package*
 
-`tar -xvzf defichain-2.10.0-x86_64-pc-linux-gnu.tar.gz`
+`tar -xvzf defichain-2.11.1-x86_64-pc-linux-gnu.tar.gz`
 
 *copy to directory*
 
 `mkdir ~/.defi`
 
-`cp ./defichain-2.10.0/bin/* ~/.defi`
+`cp ./defichain-2.11.1/bin/* ~/.defi`
 
 **WARNING**  
 This will work but you should avoid placing executables in ~/.defi because this is where most of you will be extracting your snapshots into. If you don't selectively pick only those files you need from your snapshot every time you could unknowningly replace key files that could cause your full node to be compromised and could even cause your funds to be stolen. If you keep important files out of your data directory they can not be overwritten by a malicious snapshot.
