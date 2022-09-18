@@ -38,7 +38,7 @@ DeFiChain ağı üzerinde Masternode işletmenin bir çok yolu var.
 
 Bu senaryoda, ev ağınızda iki node veya cüzdan uygulamanız vardır. Bir makine, sahip node (ownernode) olarak hareket eder ve 20.000 DFI Teminatına sahiptir. Bu, Macbook'unuz, Dizüstü Bilgisayarınız veya Kişisel Bilgisayarınız olabilir. Bu makineyi, ihtiyacınız olduğunda, yalnızca bir miktar jeton aktarmak veya DEX, LM kullanmak veya Ödülleri başka bir adrese göndermek için çalıştırırsınız; dolayısıyla sürekli çalışmasıne gerek yoktur.
 
-Diğer makine, operatör görevi gören Operatornode'unuzdur. Bu, başka bir Dizüstü Bilgisayar veya PC veya Raspberry veya bir ev sunucusu olabilir. Üzerinde yalnızca gerçek node sürümüne ihtiyacınız var. Teminat yok, cüzdan uygulaması gerekmez. Ağ hizmetlerini sunmak ve bu node'u diğer node'lar için genel hale getirmek için yönlendiricinizde 8555 Bağlantı Noktasını bu makineye açabilirsiniz.
+Diğer makine, operatör görevi gören Operatornode'unuzdur. Bu, başka bir Dizüstü Bilgisayar veya PC veya [Raspberry](./App_on_Raspberry-Pi.md) veya bir ev sunucusu olabilir. Üzerinde yalnızca gerçek node sürümüne ihtiyacınız var. Teminat yok, cüzdan uygulaması gerekmez. Ağ hizmetlerini sunmak ve bu node'u diğer node'lar için genel hale getirmek için yönlendiricinizde 8555 Bağlantı Noktasını bu makineye açabilirsiniz.
 
 Bu node'da jeton veya farklı kripto varlıklar bulunmadığından, güvenlik riski seçenek 1'dekinden çok daha azdır.
 
