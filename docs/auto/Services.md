@@ -24,6 +24,13 @@ Links to independent portals with DeFiChain content
 
 ## Other Services
 
+### DeFiChain Lottery
+Take part in the first lottery on the DeFiChain and get a chance to win DFI in weekly draws
+
+https://defichain-lottery.com/
+
+![image](https://user-images.githubusercontent.com/113752539/190886737-2ac49fa1-5003-45f9-9fd5-6d320675a839.png)
+
 ### DeFiChain Bridge
 Easily Move Token Between Defichain and Blockchain X
 
