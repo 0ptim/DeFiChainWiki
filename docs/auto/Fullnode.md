@@ -80,6 +80,10 @@ to be continued...
 
 ##### Install Fullnode {#install-fullnode}
 
+:::caution
+Make sure your download link always starts with https and not with http. Even if you can download the binaries over http you should never do so.
+:::
+
 [Latest Version](https://github.com/DeFiCh/ain/releases/latest)
 
 `wget https://github.com/DeFiCh/ain/releases/download/v2.11.1/defichain-2.11.1-x86_64-pc-linux-gnu.tar.gz`
