@@ -199,15 +199,15 @@ Example of snapshot URL:
 
 List all available Snapshots:
 
-Mainnet: <http://snapshot-de.mydefichain.com/index.txt>
+Mainnet: <https://snapshot-de.mydefichain.com/index.txt>
 
-Testnet: <http://testnet.snapshot-de.mydefichain.com/index.txt>
+Testnet: <https://testnet.snapshot-de.mydefichain.com/index.txt>
 
 Download latest Snapshots (ZIP):
 
-Mainnet: <http://snapshot-de.mydefichain.com/latest/>
+Mainnet: <https://snapshot-de.mydefichain.com/latest/>
 
-Testnet: <http://testnet.snapshot-de.mydefichain.com/latest/>
+Testnet: <https://testnet.snapshot-de.mydefichain.com/latest/>
 
 ### Installation guide {#installation-guide}
 
