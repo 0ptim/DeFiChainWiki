@@ -30,17 +30,24 @@ Auf [defiscan.live](https://defiscan.live/dex) kannst du den effektiven Jahreszi
 
 ### DEX stabilizing fee {#dex-stabilizing-fee}
 
-Die DEX-Stabilisierungsgebühr hängt vom relativen Anteil des Algo-dUSD-Tokens auf DeFiChain ab. Unter 50 % beträgt diese Gebühr 0 % und erhöht sich bei Werten über 50 % (siehe Grafik unten).
+Die DEX-Stabilisierungsgebühr hängt vom relativen Anteil des Algo-dUSD-Tokens auf DeFiChain ab. Unter 30 % beträgt diese Gebühr 0 % und erhöht sich bei Werten über 30 % (siehe Grafik unten).
 
 *DEX Stabilisierungsgebühr*  
 ![DEX Stabilisierungsgebühr](./../media/dexfeestructure_DE_stabilizingFee.png)
 
+:::
+
+:::info
+
 Die Formel lautet:
 
 Ratio > 30%: Dex Fee = (2 ^ ((Ratio – 30)/10) -1) / 4
+
 Ratio <= 30%: Dex Fee = 0
 
-Derzeit legt das Ticker-Council die DEX-Fee manuell fest um ein sprunghaftes Verhalten zu verhindern und einen sanften Übergang von der alten zur neuen Gebühr sicherzustellen, nachdem DFIP 2208-A implementiert wurde. Details können hier nachgelesen werden:
+:::
+
+Derzeit legt das Ticker-Council die DEX-Fee manuell fest um ein sprunghaftes Verhalten zu verhindern und einen sanften Übergang von der alten zur neuen Gebührenformel sicherzustellen, nachdem DFIP 2208-A implementiert wurde. Details können hier nachgelesen werden:
 
 https://www.reddit.com/r/defiblockchain/comments/x7bojp/ticker_council_vote_to_smoothen_out_dex
 
