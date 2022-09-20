@@ -35,16 +35,12 @@ Die DEX-Stabilisierungsgebühr hängt vom relativen Anteil des Algo-dUSD-Tokens 
 *DEX Stabilisierungsgebühr*  
 ![DEX Stabilisierungsgebühr](./../media/dexfeestructure_DE_stabilizingFee.png)
 
-:::
-
 :::info
-
 Die Formel lautet:
 
 Ratio > 30%: Dex Fee = (2 ^ ((Ratio – 30)/10) -1) / 4
 
 Ratio <= 30%: Dex Fee = 0
-
 :::
 
 Derzeit legt das Ticker-Council die DEX-Fee manuell fest um ein sprunghaftes Verhalten zu verhindern und einen sanften Übergang von der alten zur neuen Gebührenformel sicherzustellen, nachdem DFIP 2208-A implementiert wurde. Details können hier nachgelesen werden:
