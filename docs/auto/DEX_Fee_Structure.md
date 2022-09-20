@@ -35,10 +35,14 @@ The DEX stabilizing fee depends on the relative part of the algo dUSD token on D
 *DEX stabilizing fee*  
 ![DEX stabilizing fee](./../media/dexfeestructure_EN_stabilizingFee.png)
 
+:::info
 The formula behind this dependency is:
 
 Ratio > 30%: Dex Fee = (2 ^ ((Ratio – 30)/10) -1) / 4
+
 Ratio <= 30%: Dex Fee = 0
+:::
+
 Currently the Ticker-Council adjusts the DEX-fee manually to smoothen out the effects and avoid large jumps after the implementation of DFIP 2208-A. The details can be found here:
 
 https://www.reddit.com/r/defiblockchain/comments/x7bojp/ticker_council_vote_to_smoothen_out_dex/
