@@ -3,8 +3,6 @@ title: DeFiChain Basics Tutorial
 description: TODO - Short description of this page.
 ---
 
-*Part of a series on [DeFiChain Tutorials](./DeFiChain_Tutorials.md)*
-
 This tutorial is designed with easy-to-understand language without complex words or excessive cryptocurrency jargon, for a new cryptocurrency user who has already done their research and would like to invest in DeFiChain.
 
 ## A Short Introduction {#a-short-introduction}
