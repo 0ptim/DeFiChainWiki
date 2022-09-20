@@ -3,8 +3,6 @@ title: DeFiChain Advanced Tutorial
 description: TODO - Short description of this page.
 ---
 
-*Part of a series on [DeFiChain Tutorials](./DeFiChain_Tutorials.md)*
-
 In the previous [tutorial](./DeFiChain_Intermediate_Tutorial.md), we went over staking and liquidity mining and how you can get cashflow by using these investment methods. In this tutorial, we will be going in depth about vaults and auctions, which are two new features in DeFiChain. We also want to go over DeFiChain Improvement Proposals (DFIPs) and Community Funding Proposals (CFPs), two things commonly heard about in DeFiChain which could enable **you** to help change the direction of DeFiChain.
 
 ### Collateral for Vaults {#collateral-for-vaults}

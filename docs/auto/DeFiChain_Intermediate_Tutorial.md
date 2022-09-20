@@ -3,8 +3,6 @@ title: DeFiChain Intermediate Tutorial
 description: TODO - Short description of this page.
 ---
 
-*Part of a series on [DeFiChain Tutorials](./DeFiChain_Tutorials.md)*
-
 This is the second tutorial in the series. If you have not read the previous tutorial, you should read it [here](./DeFiChain_Basics_Tutorial.md) before reading this tutorial. In this tutorial, we will talk about DeFiChain's decentralized exchange (often just called the DEX). We also will go over staking and liquidity mining, which are two different ways of getting cashflow on your crypto.
 
 ## The DEX {#the-dex}
