@@ -50,12 +50,14 @@ const config = {
       metadata: [
         {
           name: "og:image",
-          content: "https://0ptim.github.io/DeFiChain-Wiki/img/Open_Graph_Image.png",
+          content:
+            "https://0ptim.github.io/DeFiChain-Wiki/img/Open_Graph_Image.png",
         },
         {
           name: "twitter:image:alt",
-          content: "The DeFiChain-Wiki logo with a subtitle saying: Your knowledgebase all around theDeFiChain ecosystem",
-        }       
+          content:
+            "The DeFiChain-Wiki logo with a subtitle saying: Your knowledgebase all around theDeFiChain ecosystem",
+        },
       ],
       docs: {
         sidebar: {
@@ -186,6 +188,15 @@ const config = {
         appId: "8RV2QHX307",
         searchParameters: {},
       },
+      plugins: [
+        "docusaurus-plugin-remote-content",
+        {
+          name: "pink", // used by CLI, must be path safe
+          sourceBaseUrl: "https://github.com/DeFiCh/pinkpaper/blob/main/emission/", // the base url for the markdown (gets prepended to all of the documents when fetching)
+          outDir: "docs/auto", // the base directory to output to.
+          documents: ["README.md"], // the file names to download
+        },
+      ],
     }),
 };
 
