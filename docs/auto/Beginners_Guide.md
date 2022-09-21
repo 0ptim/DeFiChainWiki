@@ -13,13 +13,13 @@ With a wallet-app you will be able to access your DFI-Coins, which are on the bl
 
 You can use your wallet especially for
 
--   administration of your DFI-portfolio
--   send and receive coins
--   use the DEX for swapping coins
--   use your coins for [Liquidity Mining](./Liquidity_Mining.md)
--   create a vault and manage the collateral for your loans
--   take and payback a loan
--   join future-swaps
+- administration of your DFI-portfolio
+- send and receive coins
+- use the DEX for swapping coins
+- use your coins for [Liquidity Mining](./Liquidity_Mining.md)
+- create a vault and manage the collateral for your loans
+- take and payback a loan
+- join future-swaps
 
 Currently you can choose among the following wallets
 
