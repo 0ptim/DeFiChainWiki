@@ -60,8 +60,9 @@
 }
 
 .bubbleText {
-  font-weight: 700;
+  font-weight: 800;
   color: #e8e8e8;
+  text-shadow: none;
 }
 
 [data-theme="dark"] .bubbleText {
