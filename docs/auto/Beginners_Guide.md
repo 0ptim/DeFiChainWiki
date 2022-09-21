@@ -52,7 +52,7 @@ Further information can be found here in the [DFX-Wiki-chapters](./DFX_FAQ.md)
 
 The Jellywallet is the youngest member of the DeFiChain-Wallet-family. It is a Chrome-extension. So it is great for users who prefer working with a PC or laptop instead of a smartphone.
 
-Jellywallet also uses a 24-words-seed-phrase.
+Jellywallet also uses a 24-words-seed-phrase which is full compatible with the LightWallet-seed. So you can use your wallet with a laptop as well as with a smartphone.
 
 Usage of Vaults and Loans is not possible as of today.
 
