@@ -27,11 +27,11 @@ Currently you can choose among the following wallets
 
 ![](./../media/beginnersguide_EN_01.jpg)
 
-The Light Wallet is available for your Android- and iOS-smartphone. This app doesn't syncronize the complet blockchain. So it needs less memory is faster ready for use. Furthermore the die userfriendly User Interface makes it easier to enter the DeFiChain ecosystem.
+The Light Wallet is available for your Android- and iOS-smartphone. This app doesn't syncronize the complet blockchain. So it needs less memory and is faster ready for use. Furthermore the userfriendly User Interface makes it easier to enter the DeFiChain ecosystem.
 
 The light wallet uses a 24-words-seed-phrase to grant access to your funds. Please be sure you follow the safety recommendations when using the app.
 
-The following list is not a necessarily complete on. You are completely responsible for your seed. Losing your seed means losing your funds!
+The following list is not a necessarily complete one. You are completely responsible for your seed. Losing your seed means losing your funds!
 
 - Store your 24 words safely (a word-document on any online-device like a Laptop, Smartphone is not safe)
 - Don't tell them to anyone beside maybe a person of trust for emergency cases
@@ -69,7 +69,7 @@ For a beginner the start into DeFiChain with the Full-Node-Wallet is not recomme
 
 ## Getting your first DFI-Coins ("On-ramp") {#getting-your-first-dfi-coins-on-ramp}
 
-Buying DFI-Coins, also called on-ramp,is possible on several ways as weh show in the following paragraphs. As fees are subject of changes we do not note them here and ask you to check them live on the company's websites.
+Buying DFI-Coins, also called on-ramp,is possible on several ways as we show in the following paragraphs. As fees are subject of changes we do not note them here and ask you to check them live on the company's websites.
 
 The off-ramp (changing coins into FIAT) works on the same ways except Cake.
 
@@ -99,7 +99,7 @@ As soon as the coins have arrived in your wallet (usually less than 20 minutes) 
 
 ### DFX-Swiss {#dfx-swiss}
 
-DFX-Swiss was founded by community members and offers a very easy on-ramp-service by a simple SEPA-money transfer, even in realtime. That means as soon as you transfer your funds from your bankaccount you can find your Coins a few minutes later in your wallet. Many detailed information can be found [in the DFX-chapters of this WIki](./DFX_FAQ.md).
+DFX-Swiss was founded by community members and offers a very easy on-ramp-service by a simple SEPA-money transfer, even in realtime. That means as soon as you transfer your funds from your bankaccount you can find your Coins a few minutes later in your wallet. Many detailed information can be found [in the DFX-chapters of this Wiki](./DFX_FAQ.md).
 
 ### Cake {#cake}
 
