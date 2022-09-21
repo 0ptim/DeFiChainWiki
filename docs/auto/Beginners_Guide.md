@@ -99,7 +99,7 @@ As soon as the coins have arrived in your wallet (usually less than 20 minutes) 
 
 ### DFX-Swiss {#dfx-swiss}
 
-DFX-Swiss was founded by community members and offers a very easy on-ramp-service by a simple SEPA-money transfer, even in realtime. That means as soon as you transfer your funds from your bankaccount you can find your Coins a few minutes later in your wallet. Many detailed information can be found [in the DFX-chapters of this WIki](./DFX_FAQ.md).
+DFX-Swiss was founded by community members and offers a very easy on-ramp-service by a simple SEPA-money transfer, even in realtime. That means as soon as you transfer your funds from your bankaccount you can find your Coins a few minutes later in your wallet. Many detailed information can be found [in the DFX-chapters of this Wiki](./DFX_FAQ.md).
 
 ### Cake {#cake}
 
