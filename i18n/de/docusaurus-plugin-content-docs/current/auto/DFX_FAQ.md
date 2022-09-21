@@ -3,6 +3,8 @@ title: DFX FAQ
 description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
+**Diese Seite wurde noch nicht übersetzt. Bitte hilf mit! ❤**
+
 <!-- Diese Seite beinhaltet die häufigsten Fragen zu DFX.swiss. Bitte
 beachte, dass diese Seite eine Community Seite ist, welche von der
 Community und nicht von DFX selber gepflegt wird.
