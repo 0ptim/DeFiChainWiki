@@ -47,6 +47,15 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: 'improve_the_wiki',
+        content:
+          'We are looking for community members which help improve our wiki. <a href="/DeFiChain-Wiki/docs/auto/Sharing_is_caring">Read more</a>',
+        backgroundColor: '#00F6FF',
+        textColor: '#091E42',
+        isCloseable: true,
+        
+      },
       image: 'img/Open_Graph_Image.png',
       docs: {
         sidebar: {
