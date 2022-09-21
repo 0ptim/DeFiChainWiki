@@ -47,16 +47,16 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      metadata: [
-        {
-          name: "og:image",
-          content: "https://0ptim.github.io/DeFiChain-Wiki/img/Open_Graph_Image.png",
-        },
-        {
-          name: "twitter:image:alt",
-          content: "The DeFiChain-Wiki logo with a subtitle saying: Your knowledgebase all around theDeFiChain ecosystem",
-        }       
-      ],
+      announcementBar: {
+        id: 'improve_the_wiki',
+        content:
+          'We are looking for community members which help improve our wiki. <a href="/DeFiChain-Wiki/docs/auto/Sharing_is_caring">Read more</a>',
+        backgroundColor: '#00F6FF',
+        textColor: '#091E42',
+        isCloseable: true,
+        
+      },
+      image: 'img/Open_Graph_Image.png',
       docs: {
         sidebar: {
           autoCollapseCategories: true,
@@ -178,6 +178,9 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      colorMode: {
+        respectPrefersColorScheme: true
       },
       algolia: {
         apiKey: "00a233bca9e11e8baf6f03174dd7ebb5",
