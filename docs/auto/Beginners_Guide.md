@@ -27,7 +27,7 @@ Currently you can choose among the following wallets
 
 ![](./../media/beginnersguide_EN_01.jpg)
 
-The Light Wallet is available for your Android- and iOS-smartphone. This app doesn't syncronize the complet blockchain. So it needs less memory and is faster ready for use. Furthermore the userfriendly User Interface makes it easier to enter the DeFiChain ecosystem.
+The Light Wallet is available for your Android- and iOS-smartphone. This app doesn't syncronize the complet blockchain. So it needs less memory and is faster ready for use. Furthermore the User Interface makes it easier to enter the DeFiChain ecosystem.
 
 The light wallet uses a 24-words-seed-phrase to grant access to your funds. Please be sure you follow the safety recommendations when using the app.
 
@@ -62,14 +62,14 @@ The wallet with further information can be downloaded [here](https://jellywallet
 
 For a beginner the start into DeFiChain with the Full-Node-Wallet is not recommended as the usability is not really intuitively possible. For technical oriented users who want to use a command line additionaly however it is the only option. Also when you want to run your own masternode you need the Full-Node-Wallet.
 
--   The Full-Node-Wallet is harder to use than the Wallet for the smartphon
+-   The Full-Node-Wallet is harder to use than the Wallet for the smartphone
 -   This wallet always syncronizes the whole blockchain. So it need more memory capacities and time.
 -   You do not have a 24-word-seed-phrase. The Full-Node-Wallet uses a safety-file. The so called "wallet.dat" and the password always need to be kept safe to have acces to your funds.
 -   You can download it here: <https://defichain.com/downloads> for macOS, Windows and Linux
 
 ## Getting your first DFI-Coins ("On-ramp") {#getting-your-first-dfi-coins-on-ramp}
 
-Buying DFI-Coins, also called on-ramp,is possible on several ways as we show in the following paragraphs. As fees are subject of changes we do not note them here and ask you to check them live on the company's websites.
+Buying DFI-Coins, also called on-ramp, is possible on several ways as we show in the following paragraphs. As fees are subject of changes we do not note them here and ask you to check them live on the company's websites.
 
 The off-ramp (changing coins into FIAT) works on the same ways except Cake.
 
