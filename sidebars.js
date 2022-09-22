@@ -37,6 +37,7 @@ const sidebars = {
         "auto/Updated_White_Paper",
         "auto/Pink_Paper",
         "auto/Liquidity_Mining",
+        "auto/Vaults_Loans",
         "auto/Block_Rewards",
         "auto/Liquidity_Mining_versus_Staking",
         "auto/Impermanent_Loss",
