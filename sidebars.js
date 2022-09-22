@@ -183,9 +183,8 @@ const sidebars = {
         type: "generated-index",
         description: "Voting, projects and more.",
       },
-      items: [
-        "auto/Improvement_Proposals",
-        "auto/Community_Funding_Proposals",
+      items: [        
+        "auto/Proposals",
         "auto/Taxes",
         "auto/Services",
         "auto/DeFiChain_ecosystem",
