@@ -37,6 +37,7 @@ const sidebars = {
         "auto/Updated_White_Paper",
         "auto/Pink_Paper",
         "auto/Liquidity_Mining",
+        "auto/Vaults_Loans",
         "auto/Block_Rewards",
         "auto/Liquidity_Mining_versus_Staking",
         "auto/Impermanent_Loss",
@@ -66,6 +67,7 @@ const sidebars = {
         "auto/DeFiChain_Advanced_Tutorial",
         "auto/DeFiChain_Basics_Tutorial",
         "auto/DeFiChain_Intermediate_Tutorial",
+        "auto/Investing_Trading",
         "auto/Cashflow_Options",
         "auto/Jellyfish_tutorial",
       ],
@@ -183,9 +185,8 @@ const sidebars = {
         type: "generated-index",
         description: "Voting, projects and more.",
       },
-      items: [
-        "auto/Improvement_Proposals",
-        "auto/Community_Funding_Proposals",
+      items: [        
+        "auto/Proposals",
         "auto/Taxes",
         "auto/Services",
         "auto/DeFiChain_ecosystem",
