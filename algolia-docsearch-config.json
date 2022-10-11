@@ -1,7 +1,7 @@
 {
   "index_name": "defichain_wiki",
-  "start_urls": ["https://0ptim.github.io/DeFiChainWiki/"],
-  "sitemap_urls": ["https://0ptim.github.io/DeFiChainWiki/sitemap.xml"],
+  "start_urls": ["https://defichainwiki.com/"],
+  "sitemap_urls": ["https://defichainwiki.com/sitemap.xml"],
   "sitemap_alternate_links": true,
   "selectors": {
     "lvl0": {

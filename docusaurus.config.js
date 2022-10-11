@@ -4,8 +4,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "DeFiChainWiki",
-  url: "https://0ptim.github.io",
-  baseUrl: "/DeFiChainWiki/",
+  url: "https://defichainwiki.com",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
   favicon: "img/Favicon.ico",
@@ -50,7 +50,7 @@ const config = {
       announcementBar: {
         id: 'improve_the_wiki',
         content:
-          'We are looking for community members which help improve our wiki. <a href="/DeFiChainWiki/docs/auto/Sharing_is_caring">Read more</a>',
+          'We are looking for community members which help improve our wiki. <a href="/docs/auto/Sharing_is_caring">Read more</a>',
         backgroundColor: '#00F6FF',
         textColor: '#091E42',
         isCloseable: true,
