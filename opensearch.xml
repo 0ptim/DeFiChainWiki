@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
                        xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-  <ShortName>DeFiChain-Wiki</ShortName>
-  <Description>Search DeFiChain-Wiki</Description>
+  <ShortName>DeFiChainWiki</ShortName>
+  <Description>Search DeFiChainWiki</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://0ptim.github.io/DeFiChain-Wiki/img/Favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://0ptim.github.io/DeFiChain-Wiki/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://0ptim.github.io/DeFiChain-Wiki/opensearch.xml" />
-  <moz:SearchForm>https://0ptim.github.io/DeFiChain-Wiki/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://0ptim.github.io/DeFiChainWiki/img/Favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://0ptim.github.io/DeFiChainWiki/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://0ptim.github.io/DeFiChainWiki/opensearch.xml" />
+  <moz:SearchForm>https://0ptim.github.io/DeFiChainWiki/</moz:SearchForm>
 </OpenSearchDescription>
