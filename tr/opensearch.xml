@@ -4,8 +4,8 @@
   <ShortName>DeFiChainWiki</ShortName>
   <Description>Search DeFiChainWiki</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://0ptim.github.io/DeFiChainWiki/tr/img/Favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://0ptim.github.io/DeFiChainWiki/tr/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://0ptim.github.io/DeFiChainWiki/tr/opensearch.xml" />
-  <moz:SearchForm>https://0ptim.github.io/DeFiChainWiki/tr/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://defichainwiki.com/tr/img/Favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://defichainwiki.com/tr/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://defichainwiki.com/tr/opensearch.xml" />
+  <moz:SearchForm>https://defichainwiki.com/tr/</moz:SearchForm>
 </OpenSearchDescription>
