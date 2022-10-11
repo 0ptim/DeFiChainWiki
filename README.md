@@ -1,16 +1,16 @@
-[![Deploy to GitHub Pages](https://github.com/0ptim/DeFiChain-Wiki/actions/workflows/deploy.yml/badge.svg)](https://github.com/0ptim/DeFiChain-Wiki/actions/workflows/deploy.yml)
+[![Deploy to GitHub Pages](https://github.com/0ptim/DeFiChainWiki/actions/workflows/deploy.yml/badge.svg)](https://github.com/0ptim/DeFiChainWiki/actions/workflows/deploy.yml)
 
-# DeFiChain-Wiki
-> https://0ptim.github.io/DeFiChain-Wiki/
+# DeFiChainWiki
+> https://0ptim.github.io/DeFiChainWiki/
 
-DeFiChain-Wiki, your knowledgebase all around the DeFiChain ecosystem.
+DeFiChainWiki, your knowledgebase all around the DeFiChain ecosystem.
 
 Maintained by the DeFiChain community. ❤
 
 ## Contribute
 Help us build out the wiki. Translate existing pages, add new ones, correct mistakes, everything which helps is appreciated.
 
-▶ [Here's](https://0ptim.github.io/DeFiChain-Wiki/docs/auto/Contribute) a quick guide on how to edit pages.
+▶ [Here's](https://0ptim.github.io/DeFiChainWiki/docs/auto/Contribute) a quick guide on how to edit pages.
 
 > The wiki is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.  
 > The search functionality is implemented with [Algolia](https://www.algolia.com/).

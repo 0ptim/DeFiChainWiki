@@ -96,17 +96,17 @@ Wir befinden uns standardmäßig in unserem Homeverzeichnis, wenn ihr den gleich
 
 Jetzt gehts an die Node. Ladet euch dazu die aktuelle Version direkt von GitHub herunter. Das geht mit:
 
-`wget https://github.com/DeFiCh/ain/releases/download/v2.6.1/defichain-2.6.1-x86_64-pc-linux-gnu.tar.gz`
+`wget https://github.com/DeFiCh/ain/releases/download/v2.11.1/defichain-2.11.1-x86_64-pc-linux-gnu.tar.gz`
 
 Danach entpacken wir das Paket mit dem Befehl:
 
-`tar -xvzf defichain-2.6.1-x86_64-pc-linux-gnu.tar.gz`
+`tar -xvzf defichain-2.11.1-x86_64-pc-linux-gnu.tar.gz`
 
 Nun legen wir uns ein neues Verzeichnis an und kopieren die benötigten Dateien aus dem entpackten Verzeichnis dort hinein.
 
 `mkdir /home/defichain/.defi`
 
-`cp ./defichain-2.6.1/bin/* /home/defichain/.defi`
+`cp ./defichain-2.11.1/bin/* /home/defichain/.defi`
 
 Das wars schon, wir haben die Node auf unserem VPS aufgesetzt. Jetzt kommt der langwierige Teil: Synchronisieren.
 
@@ -156,7 +156,7 @@ und springen mit der Entertaste in eine neue Zeile, das ist wichtig, ansonsten k
 Wir prüfen nochmal die Blockhöhe mit dem oben genannten Befehl (na, wer weiß ihn noch ohne spickeln?) und sind entweder zufrieden, dass es bald durch ist oder machen jetzt erstmal eine Pause, bis der Sync vollständig
 ist.
 
-Die aktuelle Blockhöhe könnt ihr unter <https://explorer.defichain.com> abrufen.
+Die aktuelle Blockhöhe könnt ihr unter https://defiscan.live/ abrufen.
 
 #### Konfiguration und Erstellung der Masternode {#konfiguration-und-erstellung-der-masternode}
 
@@ -226,13 +226,13 @@ Warte ein paar Minuten und prüfe unter [mydeficha.in/masternodes.php](http://my
 
 #### Node updaten {#node-updaten}
 
-`wget https://github.com/DeFiCh/ain/releases/download/v2.6.1/defichain-2.6.1-x86_64-pc-linux-gnu.tar.gz`
+`wget https://github.com/DeFiCh/ain/releases/download/v2.11.1/defichain-2.11.1-x86_64-pc-linux-gnu.tar.gz`
 
-`tar -xvzf defichain-2.6.1-x86_64-pc-linux-gnu.tar.gz`
+`tar -xvzf defichain-2.11.1-x86_64-pc-linux-gnu.tar.gz`
 
 `~/.defi/defi-cli stop`
 
-`cp ./defichain-2.6.1/bin/* ~/.defi/`
+`cp ./defichain-2.11.1/bin/* ~/.defi/`
 
 Warte 1-2 Minuten, bis deine Node durch crontab wieder automatisch gestartet wird. Mit dem Befehl:
 

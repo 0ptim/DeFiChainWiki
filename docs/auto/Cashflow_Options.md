@@ -26,7 +26,7 @@ Let's start with options that involve no or low risk.
 
 This is the simplest but still effective way: add any amount of DFI to your cake or DFX account and receive cashflow. They even do the auto compounding for you.
 
-If you have 20k DFI you can also run your own MN, reduces counterparty risk and increases your reward.
+If you have 20k DFI you can also run your own [Masternode](./Masternode.md), reduces counterparty risk and increases your reward.
 
 You can also lock your DFI into staking to receive additional rewards. 5 years for 35% APR or 10 years for 47% APR.
 

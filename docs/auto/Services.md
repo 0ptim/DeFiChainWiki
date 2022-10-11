@@ -130,14 +130,14 @@ See what's going on on your Masternodes without having the DeFiChain Wallet desk
 
 So, you can check the activities of your masternodes right from your smartphone or any other computer with internet access.
 
-Have a look on the corresponding [DeFiChain-Wiki page of the Masternode Monitor](./DeFiChain-Masternode-Monitor.md).
+Have a look on the corresponding [DeFiChainWiki page of the Masternode Monitor](./DeFiChain-Masternode-Monitor.md).
 
 https://www.defichain-masternode-monitor.com/
 
 ![](../media/services_EN_13_Defichain-masternode-monitor-moackup.png)
 
-### DeFiChain-Wiki
-https://defichain-wiki.com/
+### DeFiChainWiki
+https://defichainwiki.com/
 
 ![](../media/services_EN_14_Wiki.png)
 

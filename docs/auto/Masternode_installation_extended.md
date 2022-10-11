@@ -96,17 +96,17 @@ By default we are in our home directory, if you have taken the same username as 
 
 Now it's time for the node. Download the latest version directly from GitHub. You can do this with:
 
-`wget https://github.com/DeFiCh/ain/releases/download/v2.4.0/defichain-2.4.0-x86_64-pc-linux-gnu.tar.gz`
+`wget https://github.com/DeFiCh/ain/releases/download/v2.11.1/defichain-2.11.1-x86_64-pc-linux-gnu.tar.gz`
 
 Then we unpack the package with the command:
 
-`tar -xvzf defichain-2.4.0-x86_64-pc-linux-gnu.tar.gz`.
+`tar -xvzf defichain-2.11.1-x86_64-pc-linux-gnu.tar.gz`.
 
 Now we create a new directory and copy the required files from the unpacked directory into it.
 
 `mkdir /home/defichain/.defi`
 
-`cp ./defichain-2.4.0/bin/* /home/defichain/.defi`
+`cp ./defichain-2.11.1/bin/* /home/defichain/.defi`
 
 That's it, we have set up the node on our VPS. Now comes the tedious part: synchronisation.
 
@@ -154,7 +154,7 @@ and jump to a new line with the enter key, this is important, otherwise you cann
 
 We check the block height again with the above-mentioned command (well, who remembers it without spiking?) and are either satisfied that it will soon be through or take a break until the sync is complete.
 
-You can check the current block height at <https://explorer.defichain.com>.
+You can check the current block height at https://defiscan.live/.
 
 #### Configuration and creation of the masternode {#configuration-and-creation-of-the-masternode}
 
@@ -224,13 +224,13 @@ Wait a few minutes and check at [mydeficha.in/masternodes.php](http://mydeficha.
 
 #### Update node {#update-node}
 
-`wget https://github.com/DeFiCh/ain/releases/download/v2.3.1/defichain-2.3.1-x86_64-pc-linux-gnu.tar.gz`
+`wget https://github.com/DeFiCh/ain/releases/download/v2.11.1/defichain-2.11.1-x86_64-pc-linux-gnu.tar.gz`
 
-`tar -xvzf defichain-2.3.1-x86_64-pc-linux-gnu.tar.gz`
+`tar -xvzf defichain-2.11.1-x86_64-pc-linux-gnu.tar.gz`
 
 `~/.defi/defi-cli stop`
 
-`cp ./defichain-2.3.1/bin/* ~/.defi/`
+`cp ./defichain-2.11.1/bin/* ~/.defi/`
 
 Wait 1-2 minutes for your node to be restarted automatically by crontab. With the command:
 

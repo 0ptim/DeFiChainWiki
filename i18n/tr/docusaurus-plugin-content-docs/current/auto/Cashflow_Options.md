@@ -26,7 +26,7 @@ DeFiChain'de *Manuel nakit akışı seçenekleri*  
 
 Staking en basit ama yine de oldukça etkili bir seçenektir: Cake veya DFX hesabınıza istediğiniz miktarda DFI yollayıp staking sayesinde nakit akışı alın. Hatta tercih etmeniz durumunda sizin için elde ettiğiniz staking ödüllerinizi otomotik olarak tekrar staking'e ekleyerek daha avantajlı bileşik faizden yararlanmanızı sağlarlar.
 
-20 bin DFI'nız varsa kendi masternode'unuzu da çalıştırabilirsiniz.Böylece karşı taraf riskini azaltır ve ödülünüzü artırmış olursunuz.
+20 bin DFI'nız varsa kendi [masternode](./Masternode.md)'unuzu da çalıştırabilirsiniz. Böylece karşı taraf riskini azaltır ve ödülünüzü artırmış olursunuz.
 
 İlaveten stake ettiğiniz DFI'lerinizi 5 veya 10 yıllığına dondurmanız (kilitlemeniz) durumunda 1.5 veya 2 kat ödül kazanabilirsiniz. (%35 APR için 5, %47 APR için 10 yıl)
 

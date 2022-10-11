@@ -3,16 +3,16 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "DeFiChain-Wiki",
+  title: "DeFiChainWiki",
   url: "https://0ptim.github.io",
-  baseUrl: "/DeFiChain-Wiki/",
+  baseUrl: "/DeFiChainWiki/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
   favicon: "img/Favicon.ico",
 
   // GitHub pages deployment config.
   organizationName: "0ptim",
-  projectName: "DeFiChain-Wiki",
+  projectName: "DeFiChainWiki",
   deploymentBranch: "gh-pages",
   trailingSlash: false,
 
@@ -33,7 +33,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/0ptim/DeFiChain-Wiki/tree/main/",
+          editUrl: "https://github.com/0ptim/DeFiChainWiki/tree/main/",
           editLocalizedFiles: true,
           showLastUpdateTime: true,
         },
@@ -50,7 +50,7 @@ const config = {
       announcementBar: {
         id: 'improve_the_wiki',
         content:
-          'We are looking for community members which help improve our wiki. <a href="/DeFiChain-Wiki/docs/auto/Sharing_is_caring">Read more</a>',
+          'We are looking for community members which help improve our wiki. <a href="/DeFiChainWiki/docs/auto/Sharing_is_caring">Read more</a>',
         backgroundColor: '#00F6FF',
         textColor: '#091E42',
         isCloseable: true,
@@ -63,7 +63,7 @@ const config = {
         },
       },
       navbar: {
-        title: "DeFiChain-Wiki",
+        title: "DeFiChainWiki",
         logo: {
           alt: "DeFiChain Wiki Logo",
           src: "img/logo.svg",
@@ -91,7 +91,7 @@ const config = {
             position: "right",
           },
           {
-            href: "https://github.com/0ptim/DeFiChain-Wiki",
+            href: "https://github.com/0ptim/DeFiChainWiki",
             position: "right",
             className: "header-github-link",
             "aria-label": "GitHub repository",
@@ -160,7 +160,7 @@ const config = {
             items: [
               {
                 label: "GitHub (This wiki)",
-                href: "https://github.com/0ptim/DeFiChain-Wiki",
+                href: "https://github.com/0ptim/DeFiChainWiki",
               },
               {
                 label: "GitHub (DeFiChain)",

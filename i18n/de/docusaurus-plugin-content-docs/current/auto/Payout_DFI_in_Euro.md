@@ -14,11 +14,11 @@ Zum aktuellen Zeitpunkt die unkomplizierteste Methode, DFI nach EUR umzutauschen
 1.  <https://dfx.swiss/>
 2.  Smartphone-App installieren
 3.  Anweisungen zur Einrichtung der Wallet befolgen
-4.  [Schritt-für-Schritt Anleitung zum DFI-Verkauf](https://defichain-wiki.com/wiki/DFX_FAQ#Schritt-f.C3.BCr-Schritt_Anleitung_-_Verkaufen_bei_DFX)
+4.  [Schritt-für-Schritt Anleitung zum DFI-Verkauf](./DFX_FAQ.md#Schritt-f.C3.BCr-Schritt_Anleitung_-_Verkaufen_bei_DFX)
 5.  DFI an die Deposit-Adresse senden
 6.  Empfangene DFI-Token werden automatisch in EUR konvertiert
 7.  Der konvertierte Betrag wird auf Bankkonto überwiesen (tägliche Überweisungen)
-8.  [Hinweise zu Limits und Verifizierungsanforderungen](https://defichain-wiki.com/wiki/DFX_FAQ#Verkaufsprozess:_DeFiChain_Assets_-.3E_FIAT) beachten
+8.  [Hinweise zu Limits und Verifizierungsanforderungen](./DFX_FAQ.md#Verkaufsprozess:_DeFiChain_Assets_-.3E_FIAT) beachten
 
 ###### Vorteile {#vorteile}
 

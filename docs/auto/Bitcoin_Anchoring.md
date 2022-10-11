@@ -13,8 +13,9 @@ Information about the Bitcoin Anchoring.
 ## Some short FAQ information {#some-short-faq-information}
 
 - No masternode is needed to set the anchor. Each user can set an anchor.
-- To see the current anchor bonus, the following command must be entered in the Console: `listcommunitybalances`
-  ![listcommunitybalances](../media/anchoring_EN.png)
+- To see the current anchor bonus, the following command must be entered in the Console: `listcommunitybalances` 
+
+![listcommunitybalances](../media/anchoring_EN.png)
 
 ## Technical documents: {#technical-documents}
 
