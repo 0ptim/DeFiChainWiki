@@ -5,7 +5,7 @@ description: TODO - Short description of this page.
 
 ## Hey DeFiChain Community, {#hey-defichain-community}
 
-have you ever wished you had a central place for all the important information and facts about DeFiChain? A lot of information is distributed on Reddit, Github Telegram and Twitter. But it's not always easy to find all the information you need quickly and in the most up-to-date form. But there is good news. As you may already know, the DeFiChain community has its own wiki at defichain-wiki.com, which can be maintained and expanded as a community project by all of us. The less good news is, our DeFiChain Wiki needs attention and care.
+have you ever wished you had a central place for all the important information and facts about DeFiChain? A lot of information is distributed on Reddit, Github Telegram and Twitter. But it's not always easy to find all the information you need quickly and in the most up-to-date form. But there is good news. As you may already know, the DeFiChain community has its own wiki at defichainwiki.com, which can be maintained and expanded as a community project by all of us. The less good news is, our DeFiChain Wiki needs attention and care.
 
 Here we are in demand as a community. Any community member can sign up and help make our DeFiChain Wiki the all-encompassing knowledge and information database. Help and create new articles about the DeFiChain. Updates existing articles or translates them into other languages. Linking pages to bring order and structure to the wiki so that information can be found quickly and easily.
 
@@ -134,4 +134,4 @@ Any funds made available upon approval will be distributed to the contributors. 
 *21.09.2022 - Ferhat - 1150 Words - 25(x2)[^1] DFI*
 > Vaults and Loans (Turkish)
 
-[^1]: DeFiChain-Wiki Double Decker Party: https://twitter.com/Kassius84/status/1566096160791711746?s=20&t=-bT7oDYRKqP8hIAlQSSYCA
+[^1]: DeFiChainWiki Double Decker Party: https://twitter.com/Kassius84/status/1566096160791711746?s=20&t=-bT7oDYRKqP8hIAlQSSYCA

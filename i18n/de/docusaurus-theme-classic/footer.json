@@ -57,7 +57,7 @@
   },
   "link.item.label.GitHub (This wiki)": {
     "message": "GitHub (Dieses wiki)",
-    "description": "The label of footer link with label=GitHub (This wiki) linking to https://github.com/0ptim/DeFiChain-Wiki"
+    "description": "The label of footer link with label=GitHub (This wiki) linking to https://github.com/0ptim/DeFiChainWiki"
   },
   "link.item.label.GitHub (DeFiChain)": {
     "message": "GitHub (DeFiChain)",
