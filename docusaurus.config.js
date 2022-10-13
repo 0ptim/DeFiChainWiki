@@ -3,8 +3,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "DeFiChainWiki-Test",
-  url: "https://defichainwiki.com",
+  title: "DeFiChainWiki",
+  url: "https://www.defichainwiki.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
