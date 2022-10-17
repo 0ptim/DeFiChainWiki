@@ -59,6 +59,7 @@ As there are many scammers in the crypto space, you need legit places where you 
 - <https://t.me/defichain_lottery> DeFiChain lottery
 - <https://t.me/DFSneo_de> Information from the DFS-neo-team (service not live yet)
 - <https://t.me/defiblockchain_TR> DeFiChain Turkey, DFI-channel for general DFI-discussions (turkish speaking)
+- <https://t.me/defichain_community_kalender> DeFiChain Kalender (German speaking)
 
 ### Twitter {#twitter}
 
@@ -70,6 +71,8 @@ As there are many scammers in the crypto space, you need legit places where you 
 - <https://twitter.com/DeFiChainPromo> DeFiChain-Promo
 - <https://twitter.com/DefichainTR> DeFiChain Turkey
 - <https://twitter.com/DeFiChainHU> DeFiChain Hungary
+- <https://twitter.com/DeFiSeedFinder> DeFi Seed Finder - planned project for funding for-profit companies
+- <https://twitter.com/DFSneo> DFS Neo - Trading Service for dAssets
 
 ### Reddit-Community {#reddit-community}
 
