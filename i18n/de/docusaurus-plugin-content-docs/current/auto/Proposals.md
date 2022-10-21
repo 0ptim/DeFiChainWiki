@@ -23,7 +23,7 @@ Damit möglichst nur ernsthafte DFIPs zur Abstimmung gelangen ist eine Gebühr v
 
 CFPs sind Vorschläge von Community-Mitgliedern. Das Ziel ist es aus dem Community Fund (CF) Gelder zu erhalten um ein Projekt auf der DeFiChain zu realisieren und damit dem Ökosystem einen Mehrwert zu bieten. Der CF wird regelmäßig aus Block Rewards gespeist. Viele Projekte in der DeFiChain wurden zumindest teilweise aus dem CF finanziert. Eine Übersicht aller CFPs findest du auf [www.defichain-votings.com](https://www.defichain-votings.com)
 
-Den Projektfortschritt jedes CFPs könnt ihr auf [https://www.defichain-cfp-tracker.com](defichain-cfp-tracker.com) verfolgen.
+Den Projektfortschritt jedes CFPs könnt ihr auf [defichain-cfp-tracker.com](https://www.defichain-cfp-tracker.com) verfolgen.
 
 Damit möglichst nur ernsthafte CFPs eingestellt werden und auch keine überhöhten Beträge verlangt werden, muss vor der Abstimmung 1% der beantragten Summe als Gebühr gezahlt werden.
 
