@@ -23,6 +23,8 @@ To avoid not-serious DFIPs there is a fee of 50 DFI to be paid as soon as a DFIP
 
 CFPs are proposals by community members. Community proposals are used to get funding from DeFiChain's Community Fund, which is created by masternodes' block rewards. Community members can request funding for an idea with which they want to add value to the ecosystem. Many community projects in the DeFiChain ecosystem are partly funded by our community fund. You can read through all CFPs on [www.defichain-votings.com](https://www.defichain-votings.com)
 
+The current progress of every CFP can be monitored on [https://www.defichain-cfp-tracker.com/b/7Qcqu3xl/defichain-cfp-projects](defichain-cfp-tracker.com).
+
 To avoid not-serious CFPs there is a fee of 1% of the requested amount of DFI to be paid as soon as a CFP is put online.
 
 #### Discussions about CFPs {#discussions-about-cfps}
