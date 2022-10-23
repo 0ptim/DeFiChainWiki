@@ -42,7 +42,7 @@ const config = {
         },
         gtag: {
           trackingID: 'G-1RQ320FPE8',
-          anonymizeIP: true
+          anonymizeIP: false
         }
       }),
     ],
