@@ -52,6 +52,7 @@ const sidebars = {
         "auto/Tradable_dAssets_on_DeFiChain",
         "auto/Lightwallet_change_Ocean",
         "auto/CustomTransaction",
+        "auto/Future_Swap",
       ],
     },
     {
