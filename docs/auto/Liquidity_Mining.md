@@ -16,7 +16,7 @@ To incentivise liquidity providers, they earn two different types of revenue in 
 
 The emission of the block rewards changes regularly. Approximately every 11 days we have a decrease of 1.6%. The current valid distribution can be found on the DeFiChain-Analytics-Website. Just click the following link <https://www.defichain-analytics.com/general?entry=emission>  
   
-Block rewards for dToken Liquidity Pools (e.g. dTSLA-DUSD; dURTH-DUSD,..) need to be re-adjusted every month as we ususally get 4 new dToken into the ecosystem. The distribution is currently decided by the a group of DeFichain-Contributos, so-called ticker-council, as we do not have decentralized solution for that yet. You can find the current reward-distribution [by clicking this link](https://www.krypto-sprungbrett.com/stock-token-apr/).
+Block rewards for dToken Liquidity Pools (e.g. dTSLA-DUSD; dURTH-DUSD,..) need to be re-adjusted every month as we ususally get 4 new dToken into the ecosystem. The distribution is currently decided by a group of DeFichain-Contributors, the so-called ticker-council, as we do not have a decentralized solution for that yet. You can find the current reward-distribution [by clicking this link](https://www.krypto-sprungbrett.com/stock-token-apr/).
 
 ## Commissions from DEX users
 
