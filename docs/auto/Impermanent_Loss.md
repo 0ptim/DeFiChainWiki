@@ -23,7 +23,7 @@ and:
 
 <https://www.krypto-magazin.de/impermanent-loss-rechner/> (in German)
 
-Example: You use the BTC-DFI liquidity pool (Asset 1: BTC; Asset 2: DFI). The price of DFI doubles, while BTC is not changing of all, or DFI has increased against BTC by 2x. You should key in into the calculator:
+Example: You use the BTC-DFI liquidity pool (Asset 1: BTC; Asset 2: DFI). The price of DFI doubles, while BTC hast not changed at all, or DFI has increased against BTC by 2x. You should key this into the calculator:
 
 *Asset 1: 0%*
 

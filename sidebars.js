@@ -52,6 +52,7 @@ const sidebars = {
         "auto/Tradable_dAssets_on_DeFiChain",
         "auto/Lightwallet_change_Ocean",
         "auto/CustomTransaction",
+        "auto/Future_Swap",
       ],
     },
     {
@@ -194,6 +195,7 @@ const sidebars = {
         "auto/DeFiChain-Portfolio",
         "auto/Punks",
         "auto/Masternode-Tracking-Google-Sheet",
+        "auto/Community_Calendar",
         "auto/Masternode_service",
         {
           type: "category",
