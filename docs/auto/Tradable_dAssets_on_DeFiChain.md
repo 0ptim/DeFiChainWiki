@@ -5,6 +5,9 @@ description: TODO - Short description of this page.
 
 Decentralized assets are following the real world asset price. On DeFiChain the tickers just have a "d" as a prefix, but then uses the same ticker as the asset on US exchanges. The following tokens are currently listed on the DEX.
 
+Due to the current bear market, small demand and in the consequence small liquidity-pools the monthly addition of new ticker-symbols (dAssets) was changed to a quarterly addition of new tickers in October 2022.
+
+
 ### Stocks {#stocks}
 
 | Ticker | Name                                | Defiscan                                | Yahoo Finance                                                        |
@@ -34,6 +37,8 @@ Decentralized assets are following the real world asset price. On DeFiChain the 
 | dSAP   | SAP SE                              | <https://defiscan.live/dex/dSAP-DUSD>   | [Link](https://finance.yahoo.com/quote/SAP?p=SAP&.tsrc=fin-srch)     |
 | dTSLA  | Tesla                               | <https://defiscan.live/dex/dTSLA-DUSD>  | [Link](https://finance.yahoo.com/quote/TSLA?p=TSLA&.tsrc=fin-srch)   |
 | dXOM   | Exxon Mobil Corp                    | <https://defiscan.live/dex/dXOM-DUSD>   | [Link](https://finance.yahoo.com/quote/XOM?p=XOM&.tsrc=fin-srch)     |
+| dUL    | Unilever                            | <https://defiscan.live/dex/dUL-DUSD>    | [Link](https://finance.yahoo.com/quote/UL?p=UL&.tsrc=fin-srch)       |
+| dWMT   | Walmart                             | <https://defiscan.live/dex/dWMT-DUSD>   | [Link](https://finance.yahoo.com/quote/WMT?p=WMT&.tsrc=fin-srch)     |
 
 ### ETF {#etf}
 
@@ -64,6 +69,8 @@ Decentralized assets are following the real world asset price. On DeFiChain the 
 | dGSG   | iShares S&P GSCI Commodity-Indexed Trust ETF                    | <https://defiscan.live/dex/dGSG-DUSD>  | [Link](https://finance.yahoo.com/quote/GSG?p=GSG&.tsrc=fin-srch)   |
 | dPDBC  | Invesco Optimum Yield Diversified Commodity Strategy No K-1 ETF | <https://defiscan.live/dex/dPDBC-DUSD> | [Link](https://finance.yahoo.com/quote/PDBC?p=PDBC&.tsrc=fin-srch) |
 | dURA   | Global X Uranium ETF                                            | <https://defiscan.live/dex/dURA-DUSD>  | [Link](https://finance.yahoo.com/quote/URA?p=URA&.tsrc=fin-srch)   |
+| dUNG   | US Natural Gas Fund	                                           | <https://defiscan.live/dex/dUNG-DUSD>  | [Link](https://finance.yahoo.com/quote/UNG?p=UNG&.tsrc=fin-srch)   |
+| dUSO   | US Oil Fund	                                                   | <https://defiscan.live/dex/dUSO-DUSD>  | [Link](https://finance.yahoo.com/quote/USO?p=USO&.tsrc=fin-srch)   |
 
 ### Bonds {#bonds}
 
