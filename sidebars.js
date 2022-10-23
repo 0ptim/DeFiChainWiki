@@ -194,6 +194,7 @@ const sidebars = {
         "auto/DeFiChain-Portfolio",
         "auto/Punks",
         "auto/Masternode-Tracking-Google-Sheet",
+        "auto/Community_Calendar",
         "auto/Masternode_service",
         {
           type: "category",
