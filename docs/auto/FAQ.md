@@ -73,6 +73,7 @@ As there are many scammers in the crypto space, you need legit places where you 
 - <https://twitter.com/DeFiChainHU> DeFiChain Hungary
 - <https://twitter.com/DeFiSeedFinder> DeFi Seed Finder - planned project for funding for-profit companies
 - <https://twitter.com/DFSneo> DFS Neo - Trading Service for dAssets
+- <https://twitter.com/DeFiChainPoker> DeFiChain Poker Events - Play and win DFI/DUSD
 
 ### Reddit-Community {#reddit-community}
 
