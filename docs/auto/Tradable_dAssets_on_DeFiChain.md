@@ -3,9 +3,9 @@ title: Tradable dAssets on DeFiChain
 description: TODO - Short description of this page.
 ---
 
-Decentralized assets are following the real world asset price. On DeFiChain the tickers just have a "d" as a prefix, but then uses the same ticker as the asset on US exchanges. The following tokens are currently listed on the DEX.
+Decentralized assets are following the real world asset price. On DeFiChain the tickers just have a "d" as a prefix, but then use the same ticker as the asset on US exchanges. The following tokens are currently listed on the DEX.
 
-Due to the current bear market, small demand and in the consequence small liquidity-pools the monthly addition of new ticker-symbols (dAssets) was changed to a quarterly addition of new tickers in October 2022.
+Due to the current bear market, small demand and consequently small liquidity-pools, the monthly addition of new ticker-symbols (dAssets) was changed to a quarterly addition of new tickers in October 2022. (source: Youtube, DeFiChain News Show as of Oct 19, 2022)
 
 
 ### Stocks {#stocks}
