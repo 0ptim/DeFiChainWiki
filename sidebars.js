@@ -38,6 +38,7 @@ const sidebars = {
         "auto/Pink_Paper",
         "auto/Liquidity_Mining",
         "auto/Vaults_Loans",
+        "auto/Collateral_Ratio",
         "auto/Block_Rewards",
         "auto/Liquidity_Mining_versus_Staking",
         "auto/Impermanent_Loss",
@@ -71,6 +72,8 @@ const sidebars = {
         "auto/Investing_Trading",
         "auto/Cashflow_Options",
         "auto/Jellyfish_tutorial",
+        "auto/Lightwallet",
+        "auto/Testnet",
       ],
     },
     {
@@ -197,6 +200,7 @@ const sidebars = {
         "auto/Masternode-Tracking-Google-Sheet",
         "auto/Community_Calendar",
         "auto/Masternode_service",
+        "auto/LOCK_Staking",
         {
           type: "category",
           label: "DFX",
