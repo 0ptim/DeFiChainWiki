@@ -200,6 +200,7 @@ const sidebars = {
         "auto/Masternode-Tracking-Google-Sheet",
         "auto/Community_Calendar",
         "auto/Masternode_service",
+        "auto/LOCK_Staking",
         {
           type: "category",
           label: "DFX",
