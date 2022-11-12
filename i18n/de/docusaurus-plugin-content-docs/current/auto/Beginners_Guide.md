@@ -27,9 +27,9 @@ Derzeit hast du die Auswahl zwischen mehreren Wallets.
 
 ![](./../media/beginnersguide_DE_01.jpg)
 
-Die Light Wallet ist verfügbar für dein Smartphone mit Android oder iOS. Die Lightwallet synchronisiert nicht die vollständige Blockchain. Sie benötigt dadurch weniger Speicherplatz und ist schneller einsatzbereit. Darüber hinaus erleichtert die bedienerfreundliche Benutzeroberfläche den Einstieg in das DeFiChain-Ökosystem.
+Die [Light Wallet](./Lightwallet.md) ist verfügbar für dein Smartphone mit Android oder iOS. Die Lightwallet synchronisiert nicht die vollständige Blockchain. Sie benötigt dadurch weniger Speicherplatz und ist schneller einsatzbereit. Darüber hinaus erleichtert die bedienerfreundliche Benutzeroberfläche den Einstieg in das DeFiChain-Ökosystem.
 
-Die DeFiChain-Light-Wallet setzt auf eine 24-Wörter-Seed-Phrase als Zugriffsmechanismus. Bitte beachte die einschlägigen Sicherheitsvorkehrungen beim Einsatz der App.
+Die [Light Wallet](./Lightwallet.md) setzt auf eine 24-Wörter-Seed-Phrase als Zugriffsmechanismus. Bitte beachte die einschlägigen Sicherheitsvorkehrungen beim Einsatz der App.
 
 Die folgende Auflistung ist ohne Anspruch auf Vollständigkeit. Du bist allein für deinen Seed verantwortlich.
 

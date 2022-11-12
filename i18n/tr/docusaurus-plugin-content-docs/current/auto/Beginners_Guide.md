@@ -21,9 +21,11 @@ Cüzdanınızı özellikle bu amaçlar için kullanabilirsiniz:
 
 ### DeFiChain Light Wallet {#defichain-light-wallet}
 
-![](./../media/beginnersguide_TR_01.jpg)Light Wallet, Android ve iOS akıllı telefonunuz ile kullanılabilir. DeFiChain Wallet olarak telefonunuza indirebilirsiniz. Bu uygulama blok zincirinin tamamını senkronize etmez. Böylece daha az belleğe ihtiyaç duyar ve daha hızlı kullanıma hazır hale gelir. Ayrıca, kullanıcı dostu Kullanıcı Arayüzü ile DeFiChain ekosistemine girmeyi kolaylaştırır.
+![](./../media/beginnersguide_TR_01.jpg)
 
-Light Wallet, fonlarınıza erişim sağlamak için 24 kelimelik bir tohum cümlesi kullanır. Lütfen uygulamayı kullanırken güvenlik önerilerine uyduğunuzdan emin olun.
+[Light Wallet](./Lightwallet.md), Android ve iOS akıllı telefonunuz ile kullanılabilir. DeFiChain Wallet olarak telefonunuza indirebilirsiniz. Bu uygulama blok zincirinin tamamını senkronize etmez. Böylece daha az belleğe ihtiyaç duyar ve daha hızlı kullanıma hazır hale gelir. Ayrıca, kullanıcı dostu Kullanıcı Arayüzü ile DeFiChain ekosistemine girmeyi kolaylaştırır.
+
+[Light Wallet](./Lightwallet.md), fonlarınıza erişim sağlamak için 24 kelimelik bir tohum cümlesi kullanır. Lütfen uygulamayı kullanırken güvenlik önerilerine uyduğunuzdan emin olun.
 
 24 kelimelik tohumunuzdan tamamen siz sorumlusunuz. Tohumunuzu kaybetmek, paranızı kaybetmek demektir!
 
@@ -32,7 +34,7 @@ Light Wallet, fonlarınıza erişim sağlamak için 24 kelimelik bir tohum cüml
 -   Telegram'a dikkat edin. 24 kelimenizi almaya çalışan dolandırıcılar oldukça kurnazdır. Sohbette size özel mesaj yazan ve sizden bu tohum cümlesini talep eden kimseye güvenmeyin.
 -   24 kelimenizi net bir şekilde doğrulayamayacağınız bir uygulamaya veya bota girmeyin.
 
-Kullanım kolaylığı sağlamak için, DeFiChain Light Wallet cüzdanında işlemleri imzalamak için 6 haneli bir kod oluşturursunuz, böylece cüzdanı her kullandığınızda 24 kelimeye ihtiyacınız olmaz. Kodu üç kez yanlış girmeniz durumunda uygulama sıfırlanacaktır ve paranıza tekrar erişmek için 24 kelimenize ihtiyacınız olacaktır.
+Kullanım kolaylığı sağlamak için, DeFiChain [Light Wallet](./Lightwallet.md) cüzdanında işlemleri imzalamak için 6 haneli bir kod oluşturursunuz, böylece cüzdanı her kullandığınızda 24 kelimeye ihtiyacınız olmaz. Kodu üç kez yanlış girmeniz durumunda uygulama sıfırlanacaktır ve paranıza tekrar erişmek için 24 kelimenize ihtiyacınız olacaktır.
 
 ### DFX Light Wallet {#dfx-light-wallet}
 
