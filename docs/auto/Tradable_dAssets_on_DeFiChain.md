@@ -45,6 +45,7 @@ Due to the current bear market, small demand and consequently small liquidity-po
 | Ticker | Name                              | Defiscan                               | Yahoo Finance                                                      |
 |--------|-----------------------------------|----------------------------------------|--------------------------------------------------------------------|
 | dARKK  | ARK Innovation                    | <https://defiscan.live/dex/dARKK-DUSD> | [Link](https://finance.yahoo.com/quote/ARKK?p=ARKK&.tsrc=fin-srch) |
+| dARKX  | ARK Space Exporation & Innov. ETF | <https://defiscan.live/dex/dARKX-DUSD> | [Link](https://finance.yahoo.com/quote/ARKX?p=ARKX&.tsrc=fin-srch) |
 | dDAX   | Global X DAX Germany ETF          | <https://defiscan.live/dex/dDAX-DUSD>  | [Link](https://finance.yahoo.com/quote/DAX?p=DAX&.tsrc=fin-srch)   |
 | dEEM   | iShares MSCI Emerging Markets ETF | <https://defiscan.live/dex/dEEM-DUSD>  | [Link](https://finance.yahoo.com/quote/EEM?p=EEM&.tsrc=fin-srch)   |
 | dMCHI  | iShares MSCI China ETF            | <https://defiscan.live/dex/dMCHI-DUSD> | [Link](https://finance.yahoo.com/quote/MCHI?p=MCHI&.tsrc=fin-srch) |
@@ -53,6 +54,9 @@ Due to the current bear market, small demand and consequently small liquidity-po
 | dTAN   | Invesco Solar ETF                 | <https://defiscan.live/dex/dTAN-DUSD>  | [Link](https://finance.yahoo.com/quote/TAN?p=TAN&.tsrc=fin-srch)   |
 | dURTH  | iShares MSCI World ETF            | <https://defiscan.live/dex/dURTH-DUSD> | [Link](https://finance.yahoo.com/quote/URTH?p=URTH&.tsrc=fin-srch) |
 | dVOO   | Vanguard 500 Index Fund           | <https://defiscan.live/dex/dVOO-DUSD>  | [Link](https://finance.yahoo.com/quote/VOO?p=VOO&.tsrc=fin-srch)   |
+| dVBK   | Vanguard Small Cap Growth Fund    | <https://defiscan.live/dex/dVBK-DUSD>  | [Link](https://finance.yahoo.com/quote/VBK?p=VBK&.tsrc=fin-srch)   |
+| dXLE   | Energy Select Sector Fund         | <https://defiscan.live/dex/dXLE-DUSD>  | [Link](https://finance.yahoo.com/quote/XLE?p=XLE&.tsrc=fin-srch)   |
+| dXLRE  | Real Estate Select Sector Fund    | <https://defiscan.live/dex/dXLRE-DUSD> | [Link](https://finance.yahoo.com/quote/XLRE?p=XLRE&.tsrc=fin-srch) |
 
 ### Metals {#metals}
 
