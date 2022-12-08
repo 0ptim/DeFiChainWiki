@@ -178,6 +178,11 @@ const config = {
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} DeFiChain`,
+        logo: {
+          alt: "DeFiChain logo",
+          src: "img/footer-banner.svg",
+          href: "https://defichain.com/"
+        },
       },
       prism: {
         theme: lightCodeTheme,
