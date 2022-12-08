@@ -1,6 +1,6 @@
 ---
 title: Blockchain folder
-description: TODO - Short description of this page.
+description: Change the blockchain folder on Windows or on Mac. Choose if you want to resync the blockchain.
 ---
 
 ## Instructions for changing the directory of the blockchain data/snapshot for the DeFiChain {#instructions-for-changing-the-directory-of-the-blockchain-datasnapshot-for-the-defichain}
