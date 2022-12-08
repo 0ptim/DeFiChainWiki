@@ -6,7 +6,7 @@
       "version": "16"
     }
   },
-  "updateContentCommand": "npm install",
+  "onCreateCommand": "npm install",
   "postAttachCommand": "npm start",
   "portsAttributes": {
     "3000": {
