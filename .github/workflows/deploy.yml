@@ -40,9 +40,12 @@ jobs:
     needs: deploy
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: darrenjennings/algolia-docsearch-action@v0.2.0
-      with:
-        algolia_application_id: ${{ secrets.ALGOLIA_APP_ID }}
-        algolia_api_key: ${{ secrets.ALGOLIA_API_KEY }}
-        file: "algolia-docsearch-config.json"
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Crawl production site and upload index
+        uses: darrenjennings/algolia-docsearch-action@v0.2.0
+        with:
+          algolia_application_id: ${{ secrets.ALGOLIA_APP_ID }}
+          algolia_api_key: ${{ secrets.ALGOLIA_API_KEY }}
+          file: "algolia-docsearch-config.json"
