@@ -216,6 +216,26 @@ const sidebars = {
         },
       ],
     },
+    {
+      type: "category",
+      label: "External Documentation",
+      link: {
+        type: "generated-index",
+        description: "Documentation resources on other websites .",
+      },
+      items: [
+        {
+          type: "link",
+          label: "Jellyfish Documentation",
+          href: "https://jellyfish.defichain.com/"
+        },
+        {
+          type: "link",
+          label: "Chain Documentation",
+          href: "https://github.com/DeFiCh/ain/wiki "
+        }
+      ]
+    },
   ],
 };
 
