@@ -1,6 +1,10 @@
 {
-  "item.label.📖 Knowledgebase": {
-    "message": "📖 Wissensdatenbank",
-    "description": "Navbar item with label 📖 Knowledgebase"
+  "item.label.📖 Fundamentals": {
+    "message": "📖 Grundlagen",
+    "description": "Navbar item with label 📖 Fundamentals"
+  },
+  "item.label.🧭 Ecosystem": {
+    "message": "🧭 Ökosystem",
+    "description": "Navbar item with label 🧭 Ecosystem"
   }
 }

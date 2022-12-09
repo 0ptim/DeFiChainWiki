@@ -58,7 +58,6 @@ const config = {
         backgroundColor: '#00F6FF',
         textColor: '#091E42',
         isCloseable: true,
-        
       },
       image: 'img/Open_Graph_Image.png',
       colorMode: {
@@ -72,26 +71,19 @@ const config = {
       navbar: {
         title: "DeFiChainWiki",
         logo: {
-          alt: "DeFiChain Wiki Logo",
           src: "img/logo.svg",
+          alt: "DeFiChain Wiki Logo",
         },
         items: [
           {
             type: "doc",
-            docId: "auto/welcome",
-            label: "📖 Knowledgebase",
+            docId: "/category/fundamentals",
+            label: "📖 Fundamentals",
           },
           {
-            href: "https://defiscan.live/",
-            label: "🔍 Explorer",
-          },
-          {
-            href: "https://blog.defichain.com/",
-            label: "📰 Blog",
-          },
-          {
-            href: "https://defichain.com/",
-            label: "🌐 Website",
+            type: "doc",
+            docId: "auto/Ecosystem",
+            label: "🧭 Ecosystem",
           },
           {
             type: "localeDropdown",

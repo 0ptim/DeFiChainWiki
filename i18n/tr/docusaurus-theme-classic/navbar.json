@@ -1,6 +1,10 @@
 {
-  "item.label.📖 Knowledgebase": {
-    "message": "Bilgi Bankası 📖",
-    "description": "Navbar item with label 📖 Knowledgebase"
+  "item.label.📖 Fundamentals": {
+    "message": "📖 Temel Bilgiler",
+    "description": "Navbar item with label 📖 Fundamentals"
+  },
+  "item.label.🧭 Ecosystem": {
+    "message": "🧭 Ekosistem",
+    "description": "Navbar item with label 🧭 Ecosystem"
   }
 }

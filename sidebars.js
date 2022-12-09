@@ -14,16 +14,6 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   tutorialSidebar: [
-    "auto/welcome",
-    {
-      type: "category",
-      label: "Contribute",
-      link: {
-        type: "generated-index",
-        description: "Learn how you can help improve the wiki.",
-      },
-      items: ["auto/Sharing_is_caring", "auto/Contribute"],
-    },
     {
       type: "category",
       label: "Fundamentals",
@@ -32,6 +22,7 @@ const sidebars = {
         description: "Learn about the fundamental concepts of DeFiChain.",
       },
       items: [
+        "auto/Ecosystem",
         "auto/DeFiChain",
         "auto/Original_White_Paper",
         "auto/Updated_White_Paper",
@@ -43,7 +34,6 @@ const sidebars = {
         "auto/Liquidity_Mining_versus_Staking",
         "auto/Impermanent_Loss",
         "auto/FAQ",
-        "auto/Ecosystem",
         "auto/Decentralized_Assets",
         "auto/DEX",
         "auto/DEX_Fee_Structure",
@@ -235,6 +225,15 @@ const sidebars = {
           href: "https://github.com/DeFiCh/ain/wiki "
         }
       ]
+    },
+    {
+      type: "category",
+      label: "❤ Contribute",
+      link: {
+        type: "generated-index",
+        description: "Learn how you can help improve the wiki.",
+      },
+      items: ["auto/Sharing_is_caring", "auto/Contribute"],
     },
   ],
 };
