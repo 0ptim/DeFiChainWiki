@@ -3,9 +3,9 @@ title: DEX
 description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
-##  DEX und dezentraler Handel von Tokens
+## DEX und dezentraler Handel von Tokens
 
-*Was ist „die DEX“ überhaupt und wie kommt ein Handel zu Stande?*
+_Was ist „die DEX“ überhaupt und wie kommt ein Handel zu Stande?_
 
 DEX steht für **d**ezentrale **Ex**change und ist der Handelsplatz im Defichainsystem. Im Gegensatz zu einer Zentralen Exchange gibt es auf der DEX kein Orderbuch, sondern der Handel findet über Pools statt. Diese Pools sind jeweils mit 2 Assets befüllt. Das Verhältnis dieser beiden Tokens im Pool legt den aktuellen Preis für den Wechsel eines Assets in das andere fest. Das Verhältnis bestimmt also quasi den Wechselkurs.
 
