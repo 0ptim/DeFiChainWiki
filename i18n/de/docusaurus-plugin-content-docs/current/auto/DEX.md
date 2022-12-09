@@ -3,7 +3,7 @@ title: DEX
 description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
-## DEX und dezentraler Handel von Tokens
+##  DEX und dezentraler Handel von Tokens
 
 *Was ist „die DEX“ überhaupt und wie kommt ein Handel zu Stande?*
 
