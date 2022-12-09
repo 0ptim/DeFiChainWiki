@@ -6,6 +6,22 @@ on:
       - main
 
 jobs:
+  prettier:
+    name: Format files using Prettier
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+
+      - name: Prettify code
+        uses: creyD/prettier_action@v4.2
+        with:
+          prettier_options: --write **/*.{js,css,md} --end-of-line lf
+          only_changed: True
+
   test-deploy:
     name: Test deployment
     runs-on: ubuntu-latest
