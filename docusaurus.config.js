@@ -97,8 +97,14 @@ const config = {
           {
             href: "https://github.com/0ptim/DeFiChainWiki",
             position: "right",
-            className: "header-github-link",
+            className: "header-icon-link header-icon-github",
             "aria-label": "GitHub repository",
+          },
+          {
+            href: "https://t.me/+xNgu9LTrGApiZjFk",
+            position: "right",
+            className: "header-icon-link header-icon-telegram",
+            "aria-label": "Telegram group",
           },
         ],
       },
