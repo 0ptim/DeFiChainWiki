@@ -106,6 +106,10 @@ const config = {
             className: "header-icon-link header-icon-telegram",
             "aria-label": "Telegram group",
           },
+          {
+            type: 'search',
+            position: 'right',
+          },
         ],
       },
       footer: {
