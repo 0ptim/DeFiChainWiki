@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  build:
+  deploy:
     name: Create production build and deploy
     runs-on: ubuntu-latest
     steps:
