@@ -61,6 +61,9 @@ const config = {
         
       },
       image: 'img/Open_Graph_Image.png',
+      colorMode: {
+        respectPrefersColorScheme: true
+      },
       docs: {
         sidebar: {
           autoCollapseCategories: true,
