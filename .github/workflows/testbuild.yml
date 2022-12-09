@@ -3,7 +3,7 @@ name: Test Build
 on:
   pull_request:
     branches:
-      - main
+      - prettier
 
 jobs:
   prettier:
@@ -22,7 +22,7 @@ jobs:
           uses: creyD/prettier_action@v4.2
           with:
             # This part is also where you can pass other options, for example:
-            prettier_options: --write **/*.{js,css,md}
+            prettier_options: --write **/*.{js,css,md} --end-of-line lf
             only_changed: True
 
   test-deploy:
