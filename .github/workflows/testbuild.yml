@@ -23,6 +23,7 @@ jobs:
           only_changed: True
 
   test-deploy:
+    needs: prettier
     name: Test deployment
     runs-on: ubuntu-latest
     steps:
