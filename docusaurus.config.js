@@ -58,9 +58,11 @@ const config = {
         backgroundColor: '#00F6FF',
         textColor: '#091E42',
         isCloseable: true,
-        
       },
       image: 'img/Open_Graph_Image.png',
+      colorMode: {
+        respectPrefersColorScheme: true
+      },
       docs: {
         sidebar: {
           autoCollapseCategories: true,
@@ -69,26 +71,19 @@ const config = {
       navbar: {
         title: "DeFiChainWiki",
         logo: {
-          alt: "DeFiChain Wiki Logo",
           src: "img/logo.svg",
+          alt: "DeFiChain Wiki Logo",
         },
         items: [
           {
             type: "doc",
-            docId: "auto/welcome",
-            label: "📖 Knowledgebase",
+            docId: "/category/fundamentals",
+            label: "📖 Fundamentals",
           },
           {
-            href: "https://defiscan.live/",
-            label: "🔍 Explorer",
-          },
-          {
-            href: "https://blog.defichain.com/",
-            label: "📰 Blog",
-          },
-          {
-            href: "https://defichain.com/",
-            label: "🌐 Website",
+            type: "doc",
+            docId: "auto/Ecosystem",
+            label: "🧭 Ecosystem",
           },
           {
             type: "localeDropdown",
@@ -97,8 +92,18 @@ const config = {
           {
             href: "https://github.com/0ptim/DeFiChainWiki",
             position: "right",
-            className: "header-github-link",
+            className: "header-icon-link header-icon-github",
             "aria-label": "GitHub repository",
+          },
+          {
+            href: "https://t.me/+xNgu9LTrGApiZjFk",
+            position: "right",
+            className: "header-icon-link header-icon-telegram",
+            "aria-label": "Telegram group",
+          },
+          {
+            type: 'search',
+            position: 'right',
           },
         ],
       },

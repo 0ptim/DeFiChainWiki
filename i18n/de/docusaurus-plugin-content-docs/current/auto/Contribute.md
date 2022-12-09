@@ -14,7 +14,7 @@ description: TODO - Kurze Beschreibung dieser Seite.
 
 Öffne die Wiki-Seite, welche du bearbeiten möchtest.
 
-Beispielsweise die Seite ["Willkommen"](./Welcome.md).
+Beispielsweise die Seite ["Staking"](./Staking.md).
 
 ### 2. Bearbeitung starten
 

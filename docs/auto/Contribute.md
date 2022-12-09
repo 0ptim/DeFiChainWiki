@@ -14,7 +14,7 @@ description: TODO - Short description of this page.
 
 Open the page you want to edit in the Wiki.
 
-For example, the page ["Welcome"](./Welcome.md).
+For example, the page ["Staking"](./Staking.md).
 
 ### 2. Start editing
 
