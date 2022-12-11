@@ -14,7 +14,7 @@ description: Guide of how to contribute to DeFiChain Wiki. Edit pages directly o
 
 Open the page you want to edit in the Wiki.
 
-For example, the page ["Welcome"](./Welcome.md).
+For example, the page ["Staking"](./Staking.md).
 
 ### 2. Start editing
 

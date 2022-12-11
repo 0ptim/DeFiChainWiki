@@ -14,7 +14,7 @@ description: TODO - Bu sayfanın kısa açıklaması.
 
 Wiki'de düzenlemek istediğiniz sayfayı açın.
 
-Örneğin, ["Hoş geldiniz"](./Welcome.md) sayfası.
+Örneğin, ["Staking"](./Staking.md) sayfası.
 
 ### 2. Düzenlemeye başla
 
