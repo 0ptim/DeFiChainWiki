@@ -1,6 +1,6 @@
 ---
 title: Wallet.dat corrupt salvage failed
-description: Wallet.dat errormessage 'corrupt salvage failed' - How to fix this issue
+description: Wallet.dat error message 'corrupt salvage failed' - How to fix this issue
 ---
 
 Error: Wallet.dat corrupt, salvage failed
