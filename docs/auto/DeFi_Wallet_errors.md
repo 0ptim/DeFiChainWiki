@@ -1,6 +1,6 @@
 ---
 title: DeFi Wallet Errors
-description: TODO - Short description of this page.
+description: DeFiChain Wallet issues without error message. F.e. wallet not starting, AppData missing, backup overwritten, blockchain not syncing to 100%.
 ---
 
 I have an error message in DeFi Wallet: : ▶ [DeFi Wallet error messages](./DeFi_Wallet_error_messages.md)

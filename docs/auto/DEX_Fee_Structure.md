@@ -1,6 +1,6 @@
 ---
 title: DEX Fee Structure
-description: TODO - Short description of this page.
+description: DEX fee structure. Commissions, dBTC fee, dUSD/dToken fee and DEX stabilizing fee.
 ---
 
 When you are swapping tokens on DeFiChain a fee is conducted. At the beginning only the part for liquidity providers - commissions - were the fee in each pool. But after successful voting on several DFIPs other fee parts were introduced for specific purposes. This article describes the current DEX fee structure on DeFiChain.
