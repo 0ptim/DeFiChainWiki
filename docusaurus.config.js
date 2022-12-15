@@ -54,7 +54,7 @@ const config = {
       announcementBar: {
         id: "improve_the_wiki",
         content:
-          'We are looking for community members which help improve our wiki. <a href="/docs/auto/Sharing_is_caring">Read more</a>',
+          'We are looking for community members which help improve our wiki. <a href="/docs/Sharing_is_caring">Read more</a>',
         backgroundColor: "#00F6FF",
         textColor: "#091E42",
         isCloseable: true,
@@ -82,7 +82,7 @@ const config = {
           },
           {
             type: "doc",
-            docId: "auto/Ecosystem",
+            docId: "Ecosystem",
             label: "🧭 Ecosystem",
           },
           {
@@ -144,7 +144,7 @@ const config = {
               },
               {
                 label: "Telegram",
-                href: "docs/auto/FAQ#legit-telegram-channels",
+                href: "docs/FAQ#legit-telegram-channels",
               },
               {
                 label: "Youtube",
