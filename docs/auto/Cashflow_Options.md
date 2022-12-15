@@ -1,6 +1,6 @@
 ---
 title: Cashflow Options
-description: TODO - Short description of this page.
+description: Generate Cashflow in the DeFiChain ecosystem. Staking, liquidity mining and different vault strategies. 
 ---
 
 On DeFiChain, we have many great ways to provide value to the ecosystem and receive cashflow for it. Depending on your assets and risk appetite, you can choose your best fit. In this post, I try to summarize all the ways to make it easier for you to choose. Maybe you will also find some options that you missed before. With the coming update, the rewards on some options will also change, so read and find your best option.

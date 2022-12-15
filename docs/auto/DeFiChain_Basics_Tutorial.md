@@ -1,6 +1,6 @@
 ---
 title: DeFiChain Basics Tutorial
-description: TODO - Short description of this page.
+description: DeFiChain basics tutorial. An easy introduction to the DeFiChain ecosystem. What is DFI? What are dTokens?
 ---
 
 This tutorial is designed with easy-to-understand language without complex words or excessive cryptocurrency jargon, for a new cryptocurrency user who has already done their research and would like to invest in DeFiChain.

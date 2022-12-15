@@ -1,6 +1,6 @@
 ---
 title: Collected questions for the developers
-description: TODO - Short description of this page.
+description: DeFiChain-Wiki as a hub for all questions asked. Maintained by the community. 
 ---
 
 ### Problem: {#problem}

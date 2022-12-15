@@ -1,6 +1,6 @@
 ---
 title: Delete .defi folder
-description: TODO - Short description of this page.
+description: Locate the .defi folder and delete or move its contents.
 ---
 
 Here I describe a solution that works from time to time when the DeFi wallet does not start correctly. Sometimes even this approach does not work. First, please make sure you have a secure backup.

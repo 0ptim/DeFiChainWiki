@@ -1,6 +1,6 @@
 ---
 title: CLI Commands
-description: TODO - Short description of this page.
+description: List of most important CLI commands. Accounts, blockchain, control, loans, masternodes and more.
 ---
 
 ## Accounts {#accounts}

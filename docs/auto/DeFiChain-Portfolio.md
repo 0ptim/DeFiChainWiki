@@ -1,6 +1,6 @@
 ---
 title: DeFiChain-Portfolio
-description: TODO - Short description of this page.
+description: DeFiChain protfolio. Export, analyse and visualize your transactions, rewards and commissions. Mac, Windows, Linux install.
 ---
 
 ![](./../media/defiportfolio_1.png)

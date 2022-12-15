@@ -1,6 +1,6 @@
 ---
 title: Create address
-description: TODO - Short description of this page.
+description: How to create a new address to receive tokens. Display old addresses if needed.
 ---
 
 ## Create a new address: {#create-a-new-address}

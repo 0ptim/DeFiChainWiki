@@ -1,6 +1,6 @@
 ---
 title: App on Raspberry-Pi
-description: TODO - Short description of this page.
+description: Run a DeFiNode on a Raspberry Pi. Different guides of how to easily set up your own node.
 ---
 
 In the meantime there is a growing group of Raspberry Pi owners who use

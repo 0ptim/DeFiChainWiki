@@ -1,6 +1,6 @@
 ---
 title: Backup Wallet
-description: TODO - Short description of this page.
+description: Create regular backups of your DeFiChain app. Store your receive addresses.
 ---
 
 It is highly recommended to use the backup functionality of the app to create backups in regular time intervals. The backup file format is .dat and if you have chosen a password the backup file will be encrypted. It is also recommended to store all receive addresses in a text file or the like to be able to [recover them manually](./Create_address.md), which is necessary under certain circumstances.

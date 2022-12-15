@@ -1,6 +1,6 @@
 ---
 title: Guide
-description: TODO - Short description of this page.
+description: Guide of how to contribute to DeFiChain Wiki. Edit pages directly on Github and propose changes.
 ---
 
 ## Requirements

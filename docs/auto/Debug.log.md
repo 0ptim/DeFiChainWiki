@@ -1,6 +1,6 @@
 ---
 title: Debug.log
-description: TODO - Short description of this page.
+description: To find hints about errors of the DeFiChain App, locate the debug.log file. 
 ---
 
 If the DeFiChain App Wallet does not work properly, it can be helpful to check the debug.log file for error messages.

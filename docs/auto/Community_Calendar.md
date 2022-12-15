@@ -1,6 +1,6 @@
 ---
 title: Community Calendar
-description: TODO - Short description of this page.
+description: Community calendar for the German speaking community. Add it to your devices and don't miss important events.
 ---
 
 :::info

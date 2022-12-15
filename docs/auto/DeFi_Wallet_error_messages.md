@@ -1,6 +1,6 @@
 ---
 title: DeFi Wallet error messages
-description: TODO - Short description of this page.
+description: DeFiChain Wallet most common error messages. Errors about transactions, block database, nodes, and more.
 ---
 
 Only error messages and their solutions are documented here. For other types of problems please visit the main page [DeFi Wallet errors](./DeFi_Wallet_errors.md).

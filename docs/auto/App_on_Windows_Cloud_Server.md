@@ -1,6 +1,6 @@
 ---
 title: App on Windows Cloud Server
-description: TODO - Short description of this page.
+description: Host DefiChain App on a Windows Cloud Server. Full Youtube tutorial in less than 6 minutes.
 ---
 
 German video by Robin on how to install the DeFiChain app on a Windows Cloud Server.

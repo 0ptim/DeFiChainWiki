@@ -1,6 +1,6 @@
 ---
 title: DeFiChain ecosystem
-description: TODO - Short description of this page.
+description: DeFiChain ecosystem shown in a simplified graphic. Ways to get fiat in and out of the ecosystem.
 ---
 
 ![DeFiChain ecosystem](./../media/DefiChain_EcoSystem_1.02.jpg)
