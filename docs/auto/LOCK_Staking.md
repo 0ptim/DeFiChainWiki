@@ -51,3 +51,10 @@ Yes, LOCK will integrate further Staking protocols for its users in future.
 ![](./../media/lockstaking_EN_04.png)
 ![](./../media/lockstaking_EN_05.png)
 ![](./../media/lockstaking_EN_06.png)
+
+## LOCK KYC Process - STEP-by-STEP Guide
+
+![](./../media/lockstaking_EN_07.png)
+![](./../media/lockstaking_EN_08.png)
+![](./../media/lockstaking_EN_09.png)
+![](./../media/lockstaking_EN_10.png)
