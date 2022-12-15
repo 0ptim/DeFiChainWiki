@@ -135,6 +135,7 @@ const sidebars = {
             "auto/Read_out_private_key",
             "auto/Import_BTC_private_key_to_Electrum",
             "auto/Atomic_Swap",
+            "auto/Update_Masternode",
           ],
         },
         {
