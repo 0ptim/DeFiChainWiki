@@ -204,6 +204,20 @@ const config = {
         searchParameters: {},
       },
     }),
+
+  plugins: [
+    [
+      "docusaurus-plugin-remote-content",
+      {
+        name: "pink", // used by CLI, must be path safe
+        sourceBaseUrl:
+          "https://raw.githubusercontent.com/DeFiCh/pinkpaper/main/emission/", // the base url for the markdown (gets prepended to all of the documents when fetching)
+        outDir: "docs/auto/remote", // the base directory to output to.
+        documents: ["README.md"], // the file names to download
+        noRuntimeDownloads: true,
+      },
+    ],
+  ],
 };
 
 module.exports = config;

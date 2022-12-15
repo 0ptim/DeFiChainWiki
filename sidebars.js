@@ -14,6 +14,7 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   tutorialSidebar: [
+    "auto/remote/README",
     {
       type: "category",
       label: "Fundamentals",
