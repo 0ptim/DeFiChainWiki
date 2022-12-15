@@ -1,6 +1,7 @@
 [![Deploy to GitHub Pages](https://github.com/0ptim/DeFiChainWiki/actions/workflows/deploy.yml/badge.svg)](https://github.com/0ptim/DeFiChainWiki/actions/workflows/deploy.yml)
 
 # DeFiChainWiki
+
 > https://defichainwiki.com/
 
 DeFiChainWiki, your knowledgebase all around the DeFiChain ecosystem.
@@ -8,6 +9,7 @@ DeFiChainWiki, your knowledgebase all around the DeFiChain ecosystem.
 Maintained by the DeFiChain community. ❤
 
 ## Contribute
+
 Help us build out the wiki. Translate existing pages, add new ones, correct mistakes, everything which helps is appreciated.
 
 ▶ [Here's](https://defichainwiki.com/docs/auto/Contribute) a quick guide on how to edit pages.

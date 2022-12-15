@@ -27,9 +27,8 @@ Die Funktionen auf der Blockchain sind gleich wie im Mainnet. Natürlich gibt es
 
 ## DFI am Testnet ‚einzahlen‘
 
-*Wie bekommt man DFI auf seine Testnet Adresse?*
+_Wie bekommt man DFI auf seine Testnet Adresse?_
 
 Auf der Seite <https://testnet-utxo.mydefichain.com/> kann man sich alle 6 Stunden neue 1.000 DFI auf eine Testnet Adresse schicken lassen
 
 Dafür muss man nur die Testnet Adresse angeben (diese beginnt mit einem **t** und nicht **d** wie im Mainnet) und ein Capcha lösen. Die DFI werden dann zügig gesendet.
-

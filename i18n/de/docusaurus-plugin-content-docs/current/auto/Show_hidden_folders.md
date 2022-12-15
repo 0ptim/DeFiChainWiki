@@ -9,13 +9,13 @@ In der Standard Einstellung werden versteckte Ordner nicht angezeigt.
 Für einige Problemlösungen an der DeFi App ist es jedoch notwendig auf
 diese Ordner zugreifen zu können. Dazu wie folgt vorgehen.
 
-*Ansicht ohne versteckte Ordner*  
+_Ansicht ohne versteckte Ordner_  
 ![Ansicht ohne versteckte Ordner](./../media/hiddenfolder_DE_1.png)
 
-*Aktivieren der Anzeige*  
+_Aktivieren der Anzeige_  
 ![Aktivieren der Anzeige](./../media/hiddenfolder_DE_2.png)
 
-*Die versteckten Ordner werden jetzt angezeigt*  
+_Die versteckten Ordner werden jetzt angezeigt_  
 ![Die versteckten Ordner werden jetzt angezeigt](./../media/hiddenfolder_DE_3.png)
 
 ## Mac {#mac}
@@ -24,28 +24,28 @@ diese Ordner zugreifen zu können. Dazu wie folgt vorgehen.
 
 Die folgende Tastenkombination kann verwendet werden, um versteckte Ordner in Mac OS anzuzeigen.
 
-*[cmd] + [shift] + [.]*  
+_[cmd] + [shift] + [.]_  
 ![[cmd] + [shift] + [.]](./../media/hiddenfolder_DE_4.jpg)
 
-*Vorher*  
+_Vorher_  
 ![Vorher](./../media/hiddenfolder_DE_5.png)
 
-*Nachher*  
+_Nachher_  
 ![Nachher](./../media/hiddenfolder_DE_6.png)
 
 ### Library {#library}
 
 Unter Mac OS wird oft Zugriff auf den Library Ordner benötigt, der nicht standardmässig angezeigt wird.
 
-*Library Ordner*  
+_Library Ordner_  
 ![Library Ordner](./../media/hiddenfolder_DE_7.png)
 
 Mache einen Rechtsklick und klicke dann auf Darstellungsoptionen einblenden
 
-*Darstellungsoptionen einblenden*  
+_Darstellungsoptionen einblenden_  
 ![Darstellungsoptionen einblenden](./../media/hiddenfolder_DE_8.png)
 
-*Ordner Library anzeigen*  
+_Ordner Library anzeigen_  
 ![Ordner Library anzeigen](./../media/hiddenfolder_DE_9.png)
 
 Danach wird der Library Ordner korrekt angezeigt.
@@ -54,8 +54,8 @@ Danach wird der Library Ordner korrekt angezeigt.
 
 Wie man Dateien in einer Anwendung anzeigt. z. B.: `/Applications/defi-app.app/Contents/Resources/binary/mac`
 
-*Rechtsklick auf die Anwendung und dann auf Paketinhalt anzeigen*  
+_Rechtsklick auf die Anwendung und dann auf Paketinhalt anzeigen_  
 ![Rechtsklick auf die Anwendung und dann auf Paketinhalt anzeigen](./../media/hiddenfolder_DE_10.png)
 
-*Die Ordner der Anwendung werden nun angezeigt*  
+_Die Ordner der Anwendung werden nun angezeigt_  
 ![Die Ordner der Anwendung werden nun angezeigt](./../media/hiddenfolder_DE_11.png)

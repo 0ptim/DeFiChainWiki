@@ -15,7 +15,7 @@ Die delta-neutralen Strategien basieren auf 40 % APR im dToken-Pool. Diese delta
 
 Beginnen wir mit Optionen, die kein oder nur ein geringes Risiko beinhalten.
 
-*Manuelle Cashflow-Optionen auf DeFiChain*.  
+_Manuelle Cashflow-Optionen auf DeFiChain_.  
 ![Manuelle Cashflow-Optionen auf DeFiChain](./../media/cashflow_options_DE_01.png)
 
 ### Staking DFI {#staking-dfi}
@@ -60,7 +60,7 @@ Vaults auf DeFiChain sind unglaubliche Werkzeuge, aber um sie sicher zu nutzen, 
 
 Ansonsten folge mir in den Kaninchenbau.
 
-*Vault-Strategien, die manuell ausgeführt werden können*  
+_Vault-Strategien, die manuell ausgeführt werden können_  
 ![Vault-Strategien, die manuell durchgeführt werden können](./../media/cashflow_options_DE_02.png)
 
 ### dUSD-Vault + delta-neutraler LM {#dusd-vault--delta-neutral-lm}
@@ -87,7 +87,7 @@ Wenn du dich eingehender mit Bots befassen willst, ist vault-maxi eine großarti
 
 Die folgenden Strategien gehen von einer Zielsicherheitsquote von 160 % aus.
 
-*Cashflow-Optionen über vault-maxi*  
+_Cashflow-Optionen über vault-maxi_  
 ![Cashflow-Optionen über vault-maxi](../media/cashflow_options_DE_03.png)
 
 ### dUSD-Vault + delta-neutraler LM {#dusd-vault--delta-neutral-lm-1}
@@ -116,7 +116,7 @@ Bei dem Doppel-Minting werden sowohl dUSD als auch der dToken aus dem Vault gemi
 
 ## Zusammenfassung {#summary}
 
-*Übersicht über alle verschiedenen Optionen*  
+_Übersicht über alle verschiedenen Optionen_  
 ![Überblick über die verschiedenen Optionen](../media/cashflow_options_DE_04.png)
 
 Wie du sehen kannst, gibt es in diesem schönen Ökosystem mehrere Möglichkeiten für den Cashflow.

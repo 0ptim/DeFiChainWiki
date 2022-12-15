@@ -1,5 +1,5 @@
 ---
-title: Future Swap
+title: Masternode'u Güncelle
 description: TODO - Short description of this page.
 ---
 

@@ -11,7 +11,7 @@ If your error message is not documented here, or the documented solution does no
 
 ### Problem description
 
-*Error: Please wait until your transaction has been added to the next block before proceeding with a new transaction.*  
+_Error: Please wait until your transaction has been added to the next block before proceeding with a new transaction._  
 ![Error: Please wait until your transaction has been added to the next block before proceeding with a new transaction.](./../media/v232_EN_1.jpg)
 
 It is not possible to make a transaction. Often this happens during adding of liquidity in liquidity mining.
@@ -40,7 +40,7 @@ No help found? Go to [Debug.log](./Debug.log.md)
 
 ## Corrupted block database
 
-*Corrupted block database*  
+_Corrupted block database_  
 ![Corrupted block database](./../media/fullnode_EN_1.jpg)
 
 Some users report that this error message occurs again and again. Afterwards, the entire blockchain has to be reloaded, which is tedious. The cause of this problem lies in the incorrect termination of the DeFi app. It is important that the app is always shut down correctly.
@@ -131,9 +131,9 @@ The problem and the fix is documented
 
 #### Error Message
 
-Your app might be stuck in an endless loop when you want to launch it. Trying to launch it via the console might display *request failed with status code 500*. Sometimes, you might also get an *unable to start blockchain* error upon launching the app.
+Your app might be stuck in an endless loop when you want to launch it. Trying to launch it via the console might display _request failed with status code 500_. Sometimes, you might also get an _unable to start blockchain_ error upon launching the app.
 
-*Unable to start blockchain error message*  
+_Unable to start blockchain error message_  
 ![Unable to start blockchain error message](./../media/App_unable_to_start_blockchain.jpg)
 
 #### Reason for the Error
@@ -151,18 +151,18 @@ Here are a couple of steps that might help:
 5.  Disable and enable your network connection, possibly use another one temporarily
 6.  Try again
 
-If that does not help, try launching the app with the *-reindex* parameter from the command line.
+If that does not help, try launching the app with the _-reindex_ parameter from the command line.
 
 Still not working? Here are some more experimental steps:
 
-1.  Create a backup of your *wallet.dat* file (MacOS: \~/Library/ApplicationSupport/defi/wallets), preferably of the whole *defi* folder to another drive
-2.  Remove all *.dat* files in the *blocks* folder (MacOS: \~/Library/ApplicationSupport/defi/blocks). Try again.
+1.  Create a backup of your _wallet.dat_ file (MacOS: \~/Library/ApplicationSupport/defi/wallets), preferably of the whole _defi_ folder to another drive
+2.  Remove all _.dat_ files in the _blocks_ folder (MacOS: \~/Library/ApplicationSupport/defi/blocks). Try again.
 3.  Downgrade to the last version that worked for you [here](https://github.com/DeFiCh/app/releases). Try again.
-4.  Delete all wallet data from the *defi* folder, start the app again, then quit it. Now the folder structure should have been created again. Copy over *wallet.dat* from your backup and launch the app again.
+4.  Delete all wallet data from the _defi_ folder, start the app again, then quit it. Now the folder structure should have been created again. Copy over _wallet.dat_ from your backup and launch the app again.
 
 Everything failed so far? Let's start from scratch. You'll need for mnemonic seed for this.
 
-1.  Delete app data (section above), uninstall *defi-app* entirely.
+1.  Delete app data (section above), uninstall _defi-app_ entirely.
 2.  Reinstall a version you think might work (either an older specific one or the latest)
 3.  Launch the app
 4.  Recreate the wallet from mnemonic seed.

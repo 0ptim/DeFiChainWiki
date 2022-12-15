@@ -33,13 +33,13 @@ On defichain analytics you can also follow the premium over time in a chart
 
 With this measure the price of the dTokens can be held in a +-5% corridor. In case of a higher premium or discount it can get arbitraged. For the case of a premium the following trade can be done
 
--   Mint a dToken using a vault (take a loan)
--   The collateralization ratio gets calculated using the oracle price (real price without premium)
--   Sell the minted dToken on the DEX (swap to DUSD)
--   Because of the premium, you get extra DUSD
--   Do a future swap using the received DUSD to buy the dToken back paying the oracle price (cheaper because it's without premium)
--   When the future Swap gets executed you will receive more dToken than you minted
--   The loan (minted dToken) can be paid back and the additional dToken will stay in the wallet as a profit
+- Mint a dToken using a vault (take a loan)
+- The collateralization ratio gets calculated using the oracle price (real price without premium)
+- Sell the minted dToken on the DEX (swap to DUSD)
+- Because of the premium, you get extra DUSD
+- Do a future swap using the received DUSD to buy the dToken back paying the oracle price (cheaper because it's without premium)
+- When the future Swap gets executed you will receive more dToken than you minted
+- The loan (minted dToken) can be paid back and the additional dToken will stay in the wallet as a profit
 
 ### Future Swap in the Light Wallet
 
@@ -53,18 +53,18 @@ In the console view of the desktop wallet you can use the command **futureswap**
 
 Syntax:
 
-``` abap
+```abap
 futureswap "address" "amount" ( "destination" [{"txid":"hex","vout":n},...] )
 ```
 
 For example to swap 500 DUSD to Netflix token:
 
-``` abap
+```abap
 futureswap "dVvPfdjhfdjhfjd32dPWZoNYno7uBUn1KyU" "500@DUSD" dNFLX)
 ```
 
 Using the command **getpendingfutureswaps** you can check which future swaps have alread been set for a given address.
 
-``` abap
+```abap
 getpendingfutureswaps "address"
 ```

@@ -51,8 +51,7 @@ const sidebars = {
       label: "Guides",
       link: {
         type: "generated-index",
-        description:
-          "Guides which help you understand concepts better.",
+        description: "Guides which help you understand concepts better.",
       },
       items: [
         "auto/Beginners_Guide",
@@ -136,6 +135,7 @@ const sidebars = {
             "auto/Read_out_private_key",
             "auto/Import_BTC_private_key_to_Electrum",
             "auto/Atomic_Swap",
+            "auto/Update_Masternode",
           ],
         },
         {
@@ -179,7 +179,7 @@ const sidebars = {
         type: "generated-index",
         description: "Voting, projects and more.",
       },
-      items: [        
+      items: [
         "auto/Proposals",
         "auto/Taxes",
         "auto/Services",
@@ -217,14 +217,14 @@ const sidebars = {
         {
           type: "link",
           label: "Jellyfish Documentation",
-          href: "https://jellyfish.defichain.com/"
+          href: "https://jellyfish.defichain.com/",
         },
         {
           type: "link",
           label: "Chain Documentation",
-          href: "https://github.com/DeFiCh/ain/wiki "
-        }
-      ]
+          href: "https://github.com/DeFiCh/ain/wiki ",
+        },
+      ],
     },
     {
       type: "category",

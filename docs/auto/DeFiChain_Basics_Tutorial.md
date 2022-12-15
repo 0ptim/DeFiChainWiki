@@ -9,7 +9,7 @@ This tutorial is designed with easy-to-understand language without complex words
 
 DeFiChain has been designed specifically for decentralized finance, and it has its own blockchain. To make our blockchain stronger, it is connected, in a way, to the Bitcoin blockchain for extra security and safety, as Bitcoin has the oldest and arguably the most secure existing blockchain.
 
-*( -- verify below please -- )*
+_( -- verify below please -- )_
 
 The main coin of DeFiChain is DFI,
 
@@ -19,7 +19,7 @@ Here on DeFiChain, we also have non-native coins. We have decentralized tokens (
 
 There will be more information about the non-native tokens on DeFiChain in the section titled "The DeFiChain Ecosystem."
 
-*( -- verify above please -- )*
+_( -- verify above please -- )_
 
 Other questions/topics that might not be answered in this tutorial may be answered in the following tutorials, but if they are not, here are the official groups/social media of DeFiChain to ask questions and get answers. Please note: **Scammers are always present in these groups looking to steal money and personal information. Direct messages should be ignored and blocked. Community mods/admins/support will never start a conversation. Legitimacy concerns can be verified in the official groups if necessary.**
 
@@ -235,4 +235,4 @@ would make it unprofitable to liquidity mine. So, rewards are instead
 distributed by token, which does not include a transaction fee. Token
 DFI must be converted to UTXO DFI before it is possible to send any DFI.
 
-*Read the next tutorial [here](./DeFiChain_Intermediate_Tutorial.md).*
+_Read the next tutorial [here](./DeFiChain_Intermediate_Tutorial.md)._

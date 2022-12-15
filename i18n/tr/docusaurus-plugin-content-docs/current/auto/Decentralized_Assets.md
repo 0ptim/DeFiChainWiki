@@ -4,6 +4,7 @@ description: TODO - Bu sayfanın kısa açıklaması.
 ---
 
 ## Özet
+
 - DeFiChain'deki Merkeziyetsiz Varlıklar veya Token'ler, tamamen yeni ve devrim niteliğinde bir kripto yatırım şeklidir. Bu dAsset ve dToken'lar, DeFiChain blok zincirindeki herhangi biri tarafından üretilebilirler (minting). Bunun için en az %50 DFI olmak şartıyla DFI, BTC, USDT, USDC gibi varlıkları bir kasaya kilitlemeleri yeterlidir (vault).
 - Kasadaki teminatın kitlenmesiyle birlikte dToken'ler basılır (üretilir) ve merkeziyetsiz bir kredi şeklinde kullanıma hazır hale gelir. dToken üretiminde baz alılan fiyat, referans noktası olarak oracle'ların fiyatlandırılmasıyla belirlenir (örneğin, dTSLA oluşturmak için bir TSLA oracle fiyatı kullanılır). Üretilen, veya farklı bir tabirle kredi olarMerkezi Olmayan Varlıklar Nelerdir ve Nasıl Çalışırlar?ak çekilen dToken'lar daha sonra bir yatırım olarak tutulabilir , DeFiChain DEX'te işlem görebilir veya Likidite Madenciliği için kullanılabilir .
 - dToken fiyatları oracle fiyatından bağımsız ve özgürce hareket eder. DeFiChain DEX'teki dToken kuru tamamen arz ve talebe bağlı olarak şekillenir. Bir krediyi kapatmak ve teminatlı kripto para birimlerini geri almak için, ilgili dToken'ın faiziyle birlikte geri ödenmesi gerekir. Bütün bu bilgiler merkeziyetsiz kredilerin çekilme esnasında görüntülenir.
@@ -25,16 +26,17 @@ DeFiChain'de dToken'ler, DeFiChain'in merkeziyetsiz borç verme sistemine dayanm
 
 Bunun DeFiChain'de nasıl görüneceğine bir göz atalım. Örnek olarak Tesla hisselerini ele alalım: Bir Tesla payının gerçek hisse senedi sembolü TSLA olacaktır. Ancak, dToken'ların DeFiChain kullanıcıları tarafından basılma şekli nedeniyle TSLA, dTSLA olur. Yine, bir dTSLA belirtecinin tutulmasının kullanıcıya TSLA'nın sahipliğini sağlamadığını belirtmek önemlidir.
 
-|Geleneksel Hisseler                    |Merkeziyetsiz Varlıklar                                                                |
-|---------------------------------------|---------------------------------------------------------------------------------------|
-|Bir şirkette mülkiyet                  |Kripto varlıklar tarafından destekli (KASA)                                            |
-|Temettü Ödemeleri                      |Temettü Ödemeleri yok                                                                  |
-|NASDAQ gibi borsada işlem görebilme    |Merkeziyetsiz Borsada işlem görebilme (DEX)                                            |
-|Arz ve Talebe göre fiyatlandırma       |2 ayrı fiyat: DEX'de arz talebe göre fiyatlandırmanın yanında üretim fiyatı (oracle)   |
+| Geleneksel Hisseler                 | Merkeziyetsiz Varlıklar                                                              |
+| ----------------------------------- | ------------------------------------------------------------------------------------ |
+| Bir şirkette mülkiyet               | Kripto varlıklar tarafından destekli (KASA)                                          |
+| Temettü Ödemeleri                   | Temettü Ödemeleri yok                                                                |
+| NASDAQ gibi borsada işlem görebilme | Merkeziyetsiz Borsada işlem görebilme (DEX)                                          |
+| Arz ve Talebe göre fiyatlandırma    | 2 ayrı fiyat: DEX'de arz talebe göre fiyatlandırmanın yanında üretim fiyatı (oracle) |
 
 Dolayısıyla, bu dToken'lar kullanıcılar tarafından basılıyor ve herhangi bir merkezi olmayan varlığın doğal değeri, çoğunlukla kolektifin ona atfettiği değere (DEX'te ticaret yoluyla) bağlıdır. Bu dToken'lerin değişimi blok zincirler tarafından kolaylaştırılır ve bu nedenle tüm katılımcılar için eşitlikçi bir finansal sisteme doğru mantıklı bir sonraki adımdır.
 
 ### Merkeziyetsiz Varlıkları kim üretiyor?
+
 Adından da anlaşılacağı gibi, merkeziyetsiz varlıklar (kısaca: dTokenler) merkeziyetsiz bir şekilde oluşturulur. DeFiChain'de dTokenleri üreten kişiler kullanıcılarıdır. Her bir kullanıcı bir dToken'ı kendisi basabilir (veya oluşturabilir). DeFiChain blok zincirinde bir dToken oluşturmanın ön koşulu, teminatın yatırılmasıdır. Bu teminat bir Kasada tutulan DFI, BTC gibi kripto varlıklar veya DUSD, USDT veya USDC gibi stabil paraları şeklinde olabilir. Teminatın en az yarısının DFI şeklinde olması şartı vardır, geri kalanı yukarıda belirtilen madeni paralardan herhangi birinde olabilir. DeFiChain'deki dToken'ler menkul kıymetler değildir, ancak DFI, BTC vb. kripto para birimleri tarafından desteklenirler.
 
 Bu teminatlandırma, aynı zamanda, dToken'ların yoktan var edilememesini ve bu nedenle her zaman, verilen tüm jetonların toplamından daha yüksek bir ABD doları eşdeğeri ile teminatlandırılmasını sağlar. En az %200'lük bu aşırı teminatlandırma, bir Kasanın nasıl çalıştığının önemli bir parçasıdır ve her dToken'ın kripto para birimi biçiminde gerçek bir değerle desteklenmesini garanti eder.
@@ -46,6 +48,7 @@ Sayılarla örneklendirelim: Diyelim ki bir kasa açtınız ve 1.000$ değerinde
 Ancak, şimdi 750$ değerinde dTSLA jetonları oluşturursanız, o zaman, kasanızın toplam teminat tutarına göre, daha düşük bir teminatlandırma oranı olan %200'e (=1,500$) eşit bir tutarı çekersiniz. Sonuç olarak, %200'lük kredi planını kullanarak daha yüksek bir faiz oranı ödemek zorunda kalırsınız.
 
 ### Kasa (Vault) kullanarak dToken basarken neye dikkat etmek gerekir?
+
 Minimum teminatlandırma oranı, yeni dToken'ların yaratılmasında kritik bir rol oynamaktadır. Bu nedenle, sermayenin bu minimum eşiğin altına düşmemesini sağlamak, dToken oluşturan her kullanıcının kendi sorumluluğundadır. Kasanızdaki teminatın minimum eşiğin altına düşmesi durumunda, kasanız tasfiyeye alınır ve diğer kullanıcılar bir açık artırmada kasanızı veya daha doğrusu teminatınızı satın alabilir.
 
 Ancak, bir Kasa oluşturmak ve dolayısıyla bir dToken oluşturmak, favori varlıklarınızı elde etmenin tek yolu değildir. Ayrıca mobil uygulamanızdaki DEX aracılığıyla kolayca dToken satın almak da mümkündür. Bu durumda, dToken'ları daha önce kasalarında oluşturmuş olan başka birinden satın alırsınız.
@@ -60,11 +63,12 @@ Buna göre, DEX aracılığıyla bir dToken talebinin, kasalar tarafından oluş
 
 **Merkeziyetsiz varlıkların fiyatlandırılması**
 
-|Kasa Kullanılarak üretilen Varlıklar	|DEX üzerinde işlem gören Varlıklar|
-|-----------------------------------|-----------------------------------|
-| En az %150 teminatlandırılarak üretilen dToken'lerin fiyatı oracle tarafınden belirlenir ve gerçek varlığın değerini yansıtır |Arz ve Talebe göre fiyatlandırılır|
+| Kasa Kullanılarak üretilen Varlıklar                                                                                          | DEX üzerinde işlem gören Varlıklar |
+| ----------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| En az %150 teminatlandırılarak üretilen dToken'lerin fiyatı oracle tarafınden belirlenir ve gerçek varlığın değerini yansıtır | Arz ve Talebe göre fiyatlandırılır |
 
 ### dToken'lerin Artıları ve Eksileri
+
 Merkeziyetsiz varlıkların (yani dToken'lerin) en belirgin avantajı kolay erişimleridir. Gizliliğine değer veren veya bunu merkezi ticaret hesapları kurmaktan daha uygun bulan herkes, DeFiChain mobil uygulamasını indirebilir ve kimlik doğrulaması olmadan hemen yatırım yapmaya başlayabilir. Tek ihtiyacınız olan internet özellikli bir akıllı telefon ve böylece 7/24 işlem deneyimi ile sizin arasında hiçbir şey duramaz.
 
 dToken'lar akıllı telefonunuzda saklandığından, onların ellerinizden alınması konusunda endişelenmenize gerek yok; onlara her zaman erişiminiz var.
@@ -75,14 +79,14 @@ Ayrıca dToken'larınızı bir likidite havuzuna aktarabilir ve likidite sağlam
 
 Öte yandan, bir dToken yatırımcısı olarak proje riskini de asla küçümsememelisiniz. Herhangi bir dToken yeni bir merkeziyetsiz platformda sunulduğunda, tüm portföyünüzü oraya aktarmamanızı öneririz.
 
-|Avantajlar                          |Dezavantajlar                  |
-|------------------------------------|-------------------------------|
-|Erişebilirlik                       |Gerçek hisseye sahip olunmaz   |
-|DEX üzerinde 7/24 işlem yapabilme   |Temettü ödemeleri yok          |
-|Sansürlenemez                       |Proje bazında riskler          |
-|Kısmi mülkiyet	                     |                               |
-|Vergisel avantajlar	             |                               |
-|Likidite Madenciliği fırsatı	     |                               |
+| Avantajlar                        | Dezavantajlar                |
+| --------------------------------- | ---------------------------- |
+| Erişebilirlik                     | Gerçek hisseye sahip olunmaz |
+| DEX üzerinde 7/24 işlem yapabilme | Temettü ödemeleri yok        |
+| Sansürlenemez                     | Proje bazında riskler        |
+| Kısmi mülkiyet                    |                              |
+| Vergisel avantajlar               |                              |
+| Likidite Madenciliği fırsatı      |                              |
 
 Özetle, dTokenler, DeFiChain mobil uygulamasında büyük ölçekte mevcuttur. Adından da anlaşılacağı gibi, dToken'lar merkezi olmayan bir şekilde oluşturulur ve her bir kullanıcı bir dToken'i kendisi basabilir (veya oluşturabilir).
 

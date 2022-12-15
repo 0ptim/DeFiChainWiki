@@ -5,7 +5,7 @@ description: TODO - Short description of this page.
 
 ## Installation DefiChain Masternode with a local APP wallet and a masternode in the cloud: {#installation-defichain-masternode-with-a-local-app-wallet-and-a-masternode-in-the-cloud}
 
-*As of 04 March 2021.*
+_As of 04 March 2021._
 
 For this installation you need:
 
@@ -20,7 +20,7 @@ It is assumed that you already have a working, synchronised wallet running on yo
 
 `getnewaddress "<label>" legacy`.
 
-Enter a freely selectable name as the label, e.g. "Masternode1". Alternatively, you can also create the legacy address in the GUI. To do this, go to your DFI wallet, select "Receive" and + New address. Do not forget to select the address type Legacy under the advanced options. The newly created address will then start with an *8*. Please make a note of this as the *"Owner Address"*, we will need it later.
+Enter a freely selectable name as the label, e.g. "Masternode1". Alternatively, you can also create the legacy address in the GUI. To do this, go to your DFI wallet, select "Receive" and + New address. Do not forget to select the address type Legacy under the advanced options. The newly created address will then start with an _8_. Please make a note of this as the _"Owner Address"_, we will need it later.
 
 Send your 20,011 DFI (20,000 DFI collateral, 10 DFI creation fee, 1 DFI transaction fee) to this newly created address in your wallet.
 
@@ -58,11 +58,11 @@ We install the required packages, if they are already installed, the command lin
 
 The next step is to create a new user. We creatively name it "defichain". You are free to choose the name, if you want to use a different one, adapt the two command lines below and enter your chosen username there:
 
-`adduser defichain` *\<- here we create a user with the name defichain. If you choose a different username, note that your home directory will also change.*
+`adduser defichain` _\<- here we create a user with the name defichain. If you choose a different username, note that your home directory will also change._
 
-`sudo usermod -a -G sudo defichain` *\<- The new user defichain gets root rights in the system*.
+`sudo usermod -a -G sudo defichain` _\<- The new user defichain gets root rights in the system_.
 
-After assigning a password and simply confirming the requested fields such as name and company with Enter, it is time to log in with our newly created user. We leave the console with *exit* and start a new session via SSH (Putty) on our server. Now log in not with root, but with the user Defichain.
+After assigning a password and simply confirming the requested fields such as name and company with Enter, it is time to log in with our newly created user. We leave the console with _exit_ and start a new session via SSH (Putty) on our server. Now log in not with root, but with the user Defichain.
 
 Does it work? Excellent, then we lock out our root user for the time being for security reasons, so that it is difficult for attackers to get into our system:
 
@@ -86,27 +86,27 @@ Now we restart the SSh service and have secured our system a bit.
 
 `sudo systemctl restart ssh`
 
-If you want to re-enable root access on your system, you need to set the value of *No* back to *Yes* in the ssh_config you just changed.
+If you want to re-enable root access on your system, you need to set the value of _No_ back to _Yes_ in the ssh_config you just changed.
 
 #### Installing the Node (AIN version) {#installing-the-node-ain-version}
 
 By default we are in our home directory, if you have taken the same username as suggested above, this is:
 
-*/home/defichain/*
+_/home/defichain/_
 
 Now it's time for the node. Download the latest version directly from GitHub. You can do this with:
 
-`wget https://github.com/DeFiCh/ain/releases/download/v2.11.1/defichain-2.11.1-x86_64-pc-linux-gnu.tar.gz`
+`wget https://github.com/DeFiCh/ain/releases/download/v3.1.1/defichain-3.1.1-x86_64-pc-linux-gnu.tar.gz`
 
 Then we unpack the package with the command:
 
-`tar -xvzf defichain-2.11.1-x86_64-pc-linux-gnu.tar.gz`.
+`tar -xvzf defichain-3.1.1-x86_64-pc-linux-gnu.tar.gz`.
 
 Now we create a new directory and copy the required files from the unpacked directory into it.
 
 `mkdir /home/defichain/.defi`
 
-`cp ./defichain-2.11.1/bin/* /home/defichain/.defi`
+`cp ./defichain-3.1.1/bin/* /home/defichain/.defi`
 
 That's it, we have set up the node on our VPS. Now comes the tedious part: synchronisation.
 
@@ -116,7 +116,7 @@ To do this, we start the node with the command:
 
 `/home/defichain/.defi/defid -daemon`.
 
-The switch *-daemon* causes the node to run in the background and not directly in the shell and to close when we log out.
+The switch _-daemon_ causes the node to run in the background and not directly in the shell and to close when we log out.
 
 The sync process now takes some time. We check the progress with:
 
@@ -164,7 +164,7 @@ We create a new legacy address, just as we did in our local wallet. Since we don
 
 `/home/defichain/.defi/defi-cli getnewaddress "MeinecooleMasternode" legacy`.
 
-If you have typed everything correctly, you will again get a new address that starts with an *8*. We write this down as well, as the address of your *"operatornode"*.
+If you have typed everything correctly, you will again get a new address that starts with an _8_. We write this down as well, as the address of your _"operatornode"_.
 
 Now we have to change the defi.conf.
 
@@ -190,7 +190,7 @@ In order for the config to take effect, we have to restart the node. This is don
 
 This "kills" the node. And how do I restart it? You remember our crontab entry, the node restarts in maximum 1 minute.
 
-You can check this with the command *TOP*, under the user defichain there must be a defi-init - usually at the top position. Alternatively, you can also execute the getblockcount command again, if the node is running, it will give you a result.
+You can check this with the command _TOP_, under the user defichain there must be a defi-init - usually at the top position. Alternatively, you can also execute the getblockcount command again, if the node is running, it will give you a result.
 
 Hallelujah, that's it, our VPS is ready, the node is running.
 
@@ -224,13 +224,13 @@ Wait a few minutes and check at [mydeficha.in/masternodes.php](http://mydeficha.
 
 #### Update node {#update-node}
 
-`wget https://github.com/DeFiCh/ain/releases/download/v2.11.1/defichain-2.11.1-x86_64-pc-linux-gnu.tar.gz`
+`wget https://github.com/DeFiCh/ain/releases/download/v3.1.1/defichain-3.1.1-x86_64-pc-linux-gnu.tar.gz`
 
-`tar -xvzf defichain-2.11.1-x86_64-pc-linux-gnu.tar.gz`
+`tar -xvzf defichain-3.1.1-x86_64-pc-linux-gnu.tar.gz`
 
 `~/.defi/defi-cli stop`
 
-`cp ./defichain-2.11.1/bin/* ~/.defi/`
+`cp ./defichain-3.1.1/bin/* ~/.defi/`
 
 Wait 1-2 minutes for your node to be restarted automatically by crontab. With the command:
 

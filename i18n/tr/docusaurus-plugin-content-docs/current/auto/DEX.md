@@ -11,7 +11,7 @@ DeFiChain DEX, DeFiChain (DeFi Blokzinciri) üzerinde çalışan denetlenmiş, t
 
 30 Kasım 2020'de piyasaya sürülen DeFiChain DEX, şu anda DFI'nin BTC, ETH, USDT'ye ve tam ters yönde de takas edilmesine izin veriyor. DeFiChain DEX bir çok merkeziyetsiz varlıklara da yer veriyor ve topluluk düzenli olarak yeni varlıklar eklemeye devam ediyor.
 
-*DeFiChain DEX Desktop Uygulaması / Likidite Havuzları Ekranı*  
+_DeFiChain DEX Desktop Uygulaması / Likidite Havuzları Ekranı_  
 ![DeFiChain DEX Desktop Uygulaması / Likidite Havuzları Ekranı](./../media/dex_TR_desktop.jpg)
 
 DeFiChain'de, DeFi işlemleri ([Likidite madenciliği](./Liquidity_Mining.md) ve takaslar dahil), tüm node'lar tarafından doğrulanan gerçek yerel konsensüs işlemleridir. İlk katman protokolü olan DeFiChain, DeFi işlemleri için daha güçlü güvenlik ve güvenilirlik sağlar. Ayrıca, DeFiChain güvenlik için Bitcoin blok zincirine düzenli olarak çapa atar (anchoring) ve böylece Bitcoin'in tartışılmaz yüksek güvenliğinden faydalanır.
@@ -28,7 +28,7 @@ DeFi Cüzdanı desktop uygulamasının son sürümünü [defichain.com](https://
 
 Parmaklarınızın ucunda, kullanımı kolay DeFiChain cüzdanı mobil uygulamasını appstore veya google play'den indirebilir ve hemen kullanmaya başlayabilirsiniz.
 
-*Appstore DeFiChain Cüzdan Uygulaması*  
+_Appstore DeFiChain Cüzdan Uygulaması_  
 ![Appstore DeFiChain Cüzdan Uygulaması](../media/dex_TR_appstore.jpg)
 
 DeFiChain Cüzdan, merkezi olmayan finansı Bitcoin'in güvenliği ve değişmezliği ile birleştiren güvenli bir blok zinciri olan DeFiChain tarafından desteklenen açık, merkezi olmayan ve kazançlı finans ekosistemi olan #NativeDeFi'ye açılan kapınızdır.
@@ -42,9 +42,11 @@ Kolaylık ilkeleri üzerine tasarlanan Portföy sayfasını kullanarak artık De
 Cüzdan ile DEX'te [merkeziyetsiz varlıklarınızı](./Decentralized_Assets.md) (dToken) ve kripto varlıklarını sorunsuz bir şekilde takas edebilirsiniz. DFI-DUSD gibi DEX havuzlarına likidite sağlayıp merkezi olmayan borsayı güçlendirirken [likidite madenciğinin](./Liquidity_Mining.md) sağladığı yüksek getirilerden faydalanabilirsiniz.
 
 #### Merkeziyetsiz Krediler (Vault)
+
 Güven gerektirmeyen (Trustless) merkezi olmayan kredilerle daha fazla finansal potansiyelin kilidini açın ve blok zincirinde teminatlı kasalarla merkeziyetsiz varlıklara erişin. Tasfiye edilmiş kasalar için müzayedelere katılarak büyük bir değerde teminat jetonlarına erişim kazanın.
 
 #### Non-Custodial
+
 6 basamaklı bir şifre ile korunan 24 kelimelik kurtarma ifadenizin gözetimini alarak paranızın tam kontrolünü elinizde tutarsınız ve herhangi bir aracıya ihtiyaç duymazsınız..
 
 #### Faydalı İpuçları

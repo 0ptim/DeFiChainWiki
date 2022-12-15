@@ -16,7 +16,7 @@ The following diagram shows the different pool swaps on DeFiChain. In general th
 - dUSD/dToken fee: 0.2%
 - DEX stabilizing fee: 0...\~31.75% (in dependence of the algo dUSD part)
 
-*DeFiChain DEX swaps and fees*  
+_DeFiChain DEX swaps and fees_  
 ![DeFiChain DEX swaps and fees](./../media/dexfeestructure_EN_DefiChainDEXFees.png)
 
 ### Commissions {#commissions}
@@ -25,14 +25,14 @@ The commissions fee is currently 0.2% and is deducted from the tokens users want
 
 On [defiscan.live](https://defiscan.live/dex) you can see the APR of each pool and with moving the mouse over the three blue dots the distribution between block rewards and commissions part is shown. High trading volume (e.g. in volatile market phases) will drive the commissions part.
 
-*Defiscan showing the APR splitted into block reward and commissions part*  
+_Defiscan showing the APR splitted into block reward and commissions part_  
 ![Defiscan showing the APR splitted into block reward and commissions part](./../media/dexfeestructure_EN_Defiscan_APR_rewardCommissions.jpg)
 
 ### DEX stabilizing fee {#dex-stabilizing-fee}
 
 The DEX stabilizing fee depends on the relative part of the algo dUSD token on DeFiChain. Below 30% this fee is 0% and increases with values higher than 30% (see graph below).
 
-*DEX stabilizing fee*  
+_DEX stabilizing fee_  
 ![DEX stabilizing fee](./../media/dexfeestructure_EN_stabilizingFee.png)
 
 :::info
