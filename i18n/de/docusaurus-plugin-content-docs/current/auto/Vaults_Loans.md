@@ -70,6 +70,6 @@ Um zu verhindern, dass DEX-Preise gegenüber den echten Preisen außer Kontrolle
 
 Es gibt immer wieder Marktsituationen, in denen es nicht rentabel ist auf einen Vault zu bieten, weil die Token an der DEX günstiger erworben werden können. In diesem Fall bleibt der Vault in der Versteigerung und der Vault-Besitzer kann auf eine Quotenerholung hoffen, die dazu führt, dass er aus der Liquidierung genommen wird.
 
-### Werde ich liquidiert, wenn die o.a. Rahmenbedingungen für Sicherheiten nicht mehr eingehalten sind?  {#will-i-be-liquidated-when-the-collateral-rules-are-not-valid-anymore-in-my-vault}
+### Werde ich liquidiert, wenn die o.a. Rahmenbedingungen für Sicherheiten nicht mehr eingehalten sind? {#will-i-be-liquidated-when-the-collateral-rules-are-not-valid-anymore-in-my-vault}
 
 Wie oben erwähnt gibt es bestimmte Mindestanforderungen an die Besicherung der verschiedenen Loans. Durch Marktschwankungen kann es vorkommen, dass ein ursprünglich korrekt mit min. 50% DFI besicherter DUSD-Loan zwar im Wert noch über die Liquidationsgrenze steht, aber der DFI-Anteil des Collaterals unter 50% gefallen ist. Viele Nutzer befürchten in diesem Fall eine Liquidierung. Dies ist nicht der Fall. Konsequenz ist jedoch, dass keine weiteren Loans mehr aufgenommen werden können, bis die 50%-Regel wieder erfüllt ist.

@@ -24,9 +24,7 @@ It may take some minutes after the restore until your funds and assets are compl
 
 Select "Restore wallet from backup" from the app's start page. Keep in mind that your app needs to be synced before restoring can be started. Choose the .dat file you want to restore from.
 
-*Note: If you do not see an option to "Restore wallet from backup" within the app, you can click the arrowed box icon in the upper left portion of the app. This will allow you to exit the current wallet and remove it from the app. The node restarts and you will now have an option to restore the wallet from backup.*
-
-
+_Note: If you do not see an option to "Restore wallet from backup" within the app, you can click the arrowed box icon in the upper left portion of the app. This will allow you to exit the current wallet and remove it from the app. The node restarts and you will now have an option to restore the wallet from backup._
 
 ![](./../media/Remove_wallet.png)
 
@@ -46,6 +44,6 @@ In older versions, backups of the wallet have been stored in .txt format by the 
 
 To restore you need to use the command line of the app. Type the command
 
-`importwallet `*`<complete path to your .txt file>`*
+`importwallet `_`<complete path to your .txt file>`_
 
 so e.g. `importwallet c:\Users\toni\documents\defi_backup.txt`

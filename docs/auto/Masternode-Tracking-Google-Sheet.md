@@ -15,7 +15,7 @@ A simple google sheets document for tracking the minted blocks of your masternod
 
 ### Usage {#usage}
 
-Make a copy of that sheet and start filling in the *COLLATERAL* addresses of your masternodes.
+Make a copy of that sheet and start filling in the _COLLATERAL_ addresses of your masternodes.
 
 You can add or remove lines from the "Masternodes" section as you need to. Keep an eye on the dynamic fields for rewards, minted blocks and link and ensure that they'll receive their data from the right source fields.
 

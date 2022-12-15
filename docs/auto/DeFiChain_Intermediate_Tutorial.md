@@ -18,11 +18,10 @@ To use it, first locate it on the wallet you are using. A DEX dashboard might lo
 **DEX Pool Pairs**
 
 | Pair<sup>1</sup> | Total Liquidity<sup>2</sup> | Volume (24H)<sup>3</sup> | Liquidity<sup>4</sup>          | Price Ratio<sup>5</sup>             | APR<sup>6</sup> (includes commission<sup>7</sup>) |
-|------------------|-----------------------------|--------------------------|--------------------------------|-------------------------------------|---------------------------------------------------|
+| ---------------- | --------------------------- | ------------------------ | ------------------------------ | ----------------------------------- | ------------------------------------------------- |
 | dBTC-DFI         | \$306,240,605               | \$1,934,290              | 3,888 dBTC 43,704,406 DFI      | 0.00008897 dBTC/DFI 11,240 DFI/dBTC | 62.61%                                            |
 | DUSD-DFI         | \$152,173,668               | \$5,068,896              | 76,086,834 DUSD 21,861,738 DFI | 3.48 DUSD/DFI 0.2873 DFI/DUSD       | 83.37%                                            |
 | dSPY-DUSD        | \$18,399,690                | \$264,387                | 19,297 dSPY 9,199,845 DUSD     | 0.002098 dSPY/DUSD 476.7 DUSD/dSPY  | 103.69%                                           |
-
 
 Now let's break down each of the columns, so we can understand what is going on..
 
@@ -127,4 +126,4 @@ Bob is anticipating that dBTC will perform worse than DFI, and he has dBTC after
 - [Impermanent Loss](./Impermanent_Loss.md) (also called IL, read the article for more information)
 - Severe crashes in either token's price compared to the other will lead to significant losses
 
-*Read the next tutorial [here](./DeFiChain_Advanced_Tutorial.md).*
+_Read the next tutorial [here](./DeFiChain_Advanced_Tutorial.md)._

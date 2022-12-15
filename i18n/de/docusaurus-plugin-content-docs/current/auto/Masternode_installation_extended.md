@@ -5,7 +5,7 @@ description: TODO - Kurze Beschreibung dieser Seite.
 
 ## Installation DefiChain Masternode mit einer lokalen APP-Wallet und einer Masternode in der Cloud: {#installation-defichain-masternode-mit-einer-lokalen-app-wallet-und-einer-masternode-in-der-cloud}
 
-*Stand: 04. März 2021*
+_Stand: 04. März 2021_
 
 Für diese Installation benötigst du:
 
@@ -20,7 +20,7 @@ Wir gehen davon aus, das du bereits eine funktionierende und synchronisierte Wal
 
 `getnewaddress "<label>" legacy`
 
-Als Label gibst du eine frei wählbare Bezeichnung an, z.B. "Masternode1". Alternativ kannst du die Legacy-Adresse auch in der GUI anlegen. Gehe dazu auf deine DFI-Wallet, wähle "Empfangen" und + Neue Adresse. Vergiss nicht unter den erweiterten Optionen den Adresstyp Legacy auszuwählen. Die neu erstellte Adresse beginnt dann mit einer *8*. Bitte notiere dir diese als *"Owneradresse"*, wir brauchen diese später.
+Als Label gibst du eine frei wählbare Bezeichnung an, z.B. "Masternode1". Alternativ kannst du die Legacy-Adresse auch in der GUI anlegen. Gehe dazu auf deine DFI-Wallet, wähle "Empfangen" und + Neue Adresse. Vergiss nicht unter den erweiterten Optionen den Adresstyp Legacy auszuwählen. Die neu erstellte Adresse beginnt dann mit einer _8_. Bitte notiere dir diese als _"Owneradresse"_, wir brauchen diese später.
 
 Sende deine 20.000 DFI an diese neu erstellte Adresse in deiner Wallet.
 
@@ -58,11 +58,11 @@ installieren wir die benötigten Pakete, falls sie schon installiert sind, wird 
 
 Der nächste Schritt ist ein neuer User. Wir nennen ihn ganz kreativ "defichain". Du kannst den Namen frei wählen, wenn du einen anderen verwenden möchtest, passe die zwei nachfolgenden Befehlszeilen an und trage deinen gewählten Usernamen dort ein:
 
-`adduser defichain` *\<- hier legen wir einen User mit dem Namen defichain an. Solltest du einen anderen Usernamen wählen, beachte das sich nachfolgend auch dein Homeverzeichnisse ändert.*
+`adduser defichain` _\<- hier legen wir einen User mit dem Namen defichain an. Solltest du einen anderen Usernamen wählen, beachte das sich nachfolgend auch dein Homeverzeichnisse ändert._
 
-`sudo usermod -a -G sudo defichain` *\<- Der neue User defichain bekommt Root-Rechte im System*
+`sudo usermod -a -G sudo defichain` _\<- Der neue User defichain bekommt Root-Rechte im System_
 
-Nachdem wir ein Passwort vergeben haben und die abgefragten Felder wie Name und Firma einfach mit Enter bestätigen, ist es Zeit uns mit unserem neu angelegten User anzumelden. Wir verlassen die Konsole mit *exit* und starten eine neue Session per SSH (Putty) auf unseren Server. Jetzt nicht mit root, sondern mit dem User Defichain einloggen.
+Nachdem wir ein Passwort vergeben haben und die abgefragten Felder wie Name und Firma einfach mit Enter bestätigen, ist es Zeit uns mit unserem neu angelegten User anzumelden. Wir verlassen die Konsole mit _exit_ und starten eine neue Session per SSH (Putty) auf unseren Server. Jetzt nicht mit root, sondern mit dem User Defichain einloggen.
 
 Klappts? Hervorragend, dann sperren wir aus Sicherheitsgründen unseren Root-User erstmal aus, so dass es Angreifern schwer gemacht wird, in unser System zu kommen:
 
@@ -86,13 +86,13 @@ Nun starten wir den SSh-Dienst neu und haben unser System etwas abgesichert.
 
 `sudo systemctl restart ssh`
 
-Wollt ihr auf eurem System den Rootzugriff wieder aktivieren, müsst ihr in der gerade geänderten ssh_config den Wert von *No* wieder auf *Yes* setzen.
+Wollt ihr auf eurem System den Rootzugriff wieder aktivieren, müsst ihr in der gerade geänderten ssh_config den Wert von _No_ wieder auf _Yes_ setzen.
 
 #### Installation der Node (AIN-Version) {#installation-der-node-ain-version}
 
 Wir befinden uns standardmäßig in unserem Homeverzeichnis, wenn ihr den gleichen Benutzernamen wie oben vorgeschlagen genommen habt, ist dieses:
 
-*/home/defichain/*
+_/home/defichain/_
 
 Jetzt gehts an die Node. Ladet euch dazu die aktuelle Version direkt von GitHub herunter. Das geht mit:
 
@@ -116,7 +116,7 @@ Dazu starten wir die Node mit dem Befehl:
 
 `/home/defichain/.defi/defid -daemon`
 
-Der Schalter *-daemon* bewirkt, das die Node im Hintergrund ausgeführt wird und nicht direkt in der Shell läuft und sich wieder beendet, wenn wir uns ausloggen.
+Der Schalter _-daemon_ bewirkt, das die Node im Hintergrund ausgeführt wird und nicht direkt in der Shell läuft und sich wieder beendet, wenn wir uns ausloggen.
 
 Der Sync-Vorgang dauert nun einige Zeit. Wir prüfen den Fortschritt mit:
 
@@ -166,7 +166,7 @@ Wir legen uns wie auch schon in unserer lokalen Wallet eine neue Legacy-Adresse 
 
 `/home/defichain/.defi/defi-cli getnewaddress "MeinecooleMasternode" legacy`
 
-Wenn ihr alles korrekt abgetippt habt, erhaltet ihr wieder eine neue Adresse die mit einer *8* beginnt. Auch diese notieren wir uns, und zwar als Adresse eurer *"Operatornode"*
+Wenn ihr alles korrekt abgetippt habt, erhaltet ihr wieder eine neue Adresse die mit einer _8_ beginnt. Auch diese notieren wir uns, und zwar als Adresse eurer _"Operatornode"_
 
 Jetzt müssen wir noch die defi.conf anpassen.
 
@@ -192,7 +192,7 @@ Damit die Config greift, müssen wir die Node neu starten. Das passiert mit dem 
 
 Damit wird die Node "abgeschossen". Und wie starte ich sie wieder? Du erinnerst dich an unseren crontab-Eintrag, die Node startet in maximal 1 Minute erneut.
 
-Prüfen kannst du das mit dem Befehl *TOP*, unter dem User defichain muss hier - meist an oberster Stelle - eine defi-init zu finden sein. Alternativ kannst du auch den getblockcount-Befehl nochmals ausführen, wenn die Node läuft, liefert sie dir ein Ergebnis.
+Prüfen kannst du das mit dem Befehl _TOP_, unter dem User defichain muss hier - meist an oberster Stelle - eine defi-init zu finden sein. Alternativ kannst du auch den getblockcount-Befehl nochmals ausführen, wenn die Node läuft, liefert sie dir ein Ergebnis.
 
 Halleluja, das wars, unser VPS ist fertig, die Node läuft.
 
@@ -250,7 +250,7 @@ So wird es gemacht:
 
 ###### Auf deiner DeFiChain-Wallet: {#auf-deiner-defichain-wallet}
 
-1.  Erzeuge eine neue Legacy-Adresse mit dem CLI-Kommando     `getnewaddress "<label>" legacy` oder über die grafische Benutzeroberfläche der App (Stelle sicher, dass du "Legacy" unter "Show advance options" ausgewählt hast!)
+1.  Erzeuge eine neue Legacy-Adresse mit dem CLI-Kommando `getnewaddress "<label>" legacy` oder über die grafische Benutzeroberfläche der App (Stelle sicher, dass du "Legacy" unter "Show advance options" ausgewählt hast!)
 2.  Diese neue Adresse wird in der "Receive"-Liste in deiner DeFiWallet App auftauchen. (Sie muss zwingend mit einer 8 beginnen, sonst handelt es sich nicht um eine Legacy-Adresse)
 3.  Kopiere dir diese Adresse. Es ist im Folgenden die OWNER_ADDRESS.
 4.  Übertrage das Collateral zu dieser Adresse (20.000 DFI + weitere 10 DFI Gebühr zur Erstellung der Masternode + 1 DFI für Transaktionsgebühren = 20.011 DFI)

@@ -93,10 +93,10 @@ Reddit also offers the possibility to discuss topics and ask questions. The stru
 - <https://www.instagram.com/defichain.tr/> DeFiChain Turkey
 
 ### YouTube
+
 - <https://www.youtube.com/c/DeFiChain> DeFiChain (English) --> NewsShow every Wednesday
 - <https://www.youtube.com/c/DeFiChainDE> DeFiChain (Deutsch) --> NewsShow jeden Mittwoch
 - <https://www.youtube.com/c/DefiChainInfo> DeFiChain Info
-
 
 ## Problems with the Wallet APP {#problems-with-the-wallet-app}
 

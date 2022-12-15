@@ -19,4 +19,5 @@ Block Rewards für dToken-Pools (z.B. dTSLA-DUSD; dURTH-DUSD, ....) müssen mona
 ![](./../media/liquiditymining_DE_reward-reduction.png)
 
 ## Handelsgebühren von DEX-Nutzern
+
 Der zweite, derzeit noch kleinere Anteil am Ertrag des Liquidity Providers resultiert aus [Handelsgebühren](./DEX_Fee_Structure.md) ("Commissions), die die Nutzer für jede Pool-Transaktion ("Swap") zahlen müssen. Diese Gebühr wird anteilig unter den Liquidity-Providern aufgeteilt. Das Ziel ist, dass es in Zukunft deutlich mehr Handel als bisher auf der DEX gibt. Dadurch soll der regulär sinkende Anreiz aus Block Rewards durch einen Anstieg von Commissions in Zukunft mindestens ausgeglichen werden. Dadurch ist sichergestellt, dass es weiterhin Anreize für das Bereitstellen von Liquidität gibt, auch wenn es keine Block Rewards mehr gibt.

@@ -11,8 +11,8 @@ description: TODO - Short description of this page.
 ![Extensions Visual Studio Code](./../media/jellyfish_EN_1_ScreenShot_extensions.jpg)
 
 3. Next step is to install Javascript and Typescript extensions , this
-can be done by searching on the extensions search bar and selecting the
-extensions to install.
+   can be done by searching on the extensions search bar and selecting the
+   extensions to install.
 
 ![](./../media/jellyfish_EN_2_Extensions_2.jpg)
 

@@ -899,7 +899,7 @@ The following table compares Bitcoin and its forks, as well as Ethereum,
 to DeFiChain performance:
 
 |                |                |                                  |                                  |                   |                      |                      |                      |             |             |
-|----------------|----------------|----------------------------------|----------------------------------|-------------------|----------------------|----------------------|----------------------|-------------|-------------|
+| -------------- | -------------- | -------------------------------- | -------------------------------- | ----------------- | -------------------- | -------------------- | -------------------- | ----------- | ----------- |
 |                | Block time (s) | Block size (MB)                  | Tx block space (% of block size) | Min tx size (B)   | Avg tx size (B)      | Txs in a block (max) | Txs in a block (avg) | Max tps     | Average tps |
 | Bitcoin Core   | 600            | 1                                | 98%                              | 220               | 500                  | 4,561.45             | 20,07.04             | 7.6         | 3.35        |
 | Bitcoin Cash   | 600            | 10                               | 98%                              | 220               | 500                  | 45,614.55            | 20,070.40            | 76          | 33.45       |
@@ -1474,7 +1474,7 @@ in extra money.
     with an additional Guarantee thereby netting more than his original
     BTC.
 
-------------------------------------------------------------------------
+---
 
 ## \$DFI coin {#dfi-coin}
 
@@ -1525,7 +1525,7 @@ every 259,200 blocks (approx. every 90 days) and works as follows:
 Burned token redistribution for the next 259,200 blocks =
 
 1.  (Total token burned from the last 259,200 blocks \[Quarter -1\]) / 4
-    +
+    -
 2.  (Total token burned from block -518,400th to -259,200th block
     \[Quarter -2\]) / 4 +
 3.  (Total token burned from block -777,600th to -518,400th block
@@ -1634,7 +1634,7 @@ The proposed staking schedule for the first 10 years is according to the
 following table:
 
 |      |                                    |                    |              |                      |                    |                  |                  |                                  |          |                    |
-|------|------------------------------------|--------------------|--------------|----------------------|--------------------|------------------|------------------|----------------------------------|----------|--------------------|
+| ---- | ---------------------------------- | ------------------ | ------------ | -------------------- | ------------------ | ---------------- | ---------------- | -------------------------------- | -------- | ------------------ |
 | Year | Start of year token in circulation | % of supply staked | Block reward | Targeted new token % | Targeted new token | Staking return % | Actual new token | End of year token in circulation | % of cap | New token for year |
 | 1    | 490,000,000                        | 95%                | 200          | 20.00%               | 98,000,000         | 42.91%           | 210,240,000      | 700,240,000                      | 58.35%   | 210,240,000        |
 | 2    | 700,240,000                        | 85%                | 150          | 13.33%               | 93,365,333         | 22.52%           | 157,680,000      | 857,920,000                      | 71.49%   | 157,680,000        |
@@ -1665,7 +1665,7 @@ ways to get \$DFI coins:
 - The DeFiChain Foundation gives grants to developers who are developing
   functionality for DeFiChain or dApps to run on the blockchain.
 
-------------------------------------------------------------------------
+---
 
 ## DeFiChain Foundation {#defichain-foundation}
 

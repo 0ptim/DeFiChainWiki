@@ -9,8 +9,8 @@ Please consider choosing a secure password to secure your wallet and funds. Toda
 
 To be able to transfer funds you need to unlock the wallet by clicking the lock symbol and entering your password. This will unlock the wallet for the time chosen in the settings. After that the wallet will lock automatically.
 
-*Wallet unlock*  
+_Wallet unlock_  
 ![Wallet unlock](./../media/Wallet_Unlock_1.jpg)
 
-*Enter password to unlock*  
+_Enter password to unlock_  
 ![Enter password to unlock](./../media/Wallet_Unlock_2.jpg)

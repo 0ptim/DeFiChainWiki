@@ -9,13 +9,13 @@ DeFiChain ekosistemine katkı değer sağlayarak nakit akışı elde etmenin bir
 Her zaman olduğu gibi, burada yazılanlar yatırım tavsiye değildir, ödüller yazım esnasında anlık bir görüntüdür ve muhtemelen günden güne değişecektir (yukarı veya aşağı). Elbette aşağıda yer alan her seçenek, tüm zincirin sıfıra inmesi genel riskini içerir.
 :::
 
-Delta-nötr stratejiler, merkeziyetsiz varlıkların, yani dToken'lerin, havuzundaki %40 APR'ye dayanmaktadır. Bu delta-nötr stratejiler hala olası küçük bir kalıcı olmayan kayba (impermanent loss) tabidir, bu yüzden her zaman bunun için daha az değişken dToken'ların kullanılması önerilir. dToken'lerdeki %20'lik bir hareket,  havuzdaki dağılımın değişmesi nedeniyle %0,5'lik bir kayba neden olur.
+Delta-nötr stratejiler, merkeziyetsiz varlıkların, yani dToken'lerin, havuzundaki %40 APR'ye dayanmaktadır. Bu delta-nötr stratejiler hala olası küçük bir kalıcı olmayan kayba (impermanent loss) tabidir, bu yüzden her zaman bunun için daha az değişken dToken'ların kullanılması önerilir. dToken'lerdeki %20'lik bir hareket, havuzdaki dağılımın değişmesi nedeniyle %0,5'lik bir kayba neden olur.
 
 ## Basit, manuel stratejiler {#simple-manual-strategies}
 
 Sıfır veya düşük risk içeren seçeneklerle başlayalım.
 
-DeFiChain'de *Manuel nakit akışı seçenekleri*  
+DeFiChain'de _Manuel nakit akışı seçenekleri_  
 ![DeFiChain üzerinde manuel nakit akışı seçenekleri](./../media/cashflow_options_TR_01.png)
 
 ### Staking DFI {#staking-dfi}
@@ -58,8 +58,7 @@ Bu, özellikle kripto dışı varlıklara konsantre olmak istiyorsanız, çeşit
 
 DeFiChain'deki kasalar inanılmaz araçlardır, ancak onları güvenli bir şekilde kullanmak için onları iyi anlamanız gerekir. Çok karışık geliyor ve aklınıza yatmıyorsa yukardaki seçenekler sizin için daha uygun olacaktır.
 
-
-*Manuel olarak yapılabilecek kasa stratejileri*  
+_Manuel olarak yapılabilecek kasa stratejileri_  
 ![Manuel olarak yapılabilecek kasa stratejileri](./../media/cashflow_options_TR_02.png)
 
 ### Döngülü DUSD kasası {#looped-dusd-vault}
@@ -75,7 +74,7 @@ Elinizdeki DUSD'yi düşük/sıfır risk ile faizlendirmek için bu oldukça caz
 ### DUSD kasası + delta-nötr LM {#dusd-vault--delta-neutral-lm}
 
 - Yatırım: **%100 DUSD**
-- Risk: dToken'lerin fiyat hareketlerinden doğan kalıcı olmayan kayıp  + teminat oranınıza bağlı olarak kasanızı izlemeniz gerekir
+- Risk: dToken'lerin fiyat hareketlerinden doğan kalıcı olmayan kayıp + teminat oranınıza bağlı olarak kasanızı izlemeniz gerekir
 - Ödüller: DFI olarak **%28-30** (teminat oranının %180 ile %200 arasında tutulması durumunda)
 
 DUSD'nizin bir kısmını kasanıza teminat olarak yatırın ve seçtiğiniz bir dToken'ı basın. Yeni üretmiş olduğunuz dToken miktarının kalan DUSD ile aynı olmasına dikkat edin. Şimdi bunları likidite madenciliği havuzunda bir araya getirebilirsiniz. Bu delta-nötr bir stratejidir, çünkü dToken'da ne long ne de short'sunuz. Kasaya borçlusunuz, ancak aynı zamanda LM havuzunda bulunan aynı miktarda dToken'a sahipsiniz, yani istediğiniz zaman kasaya olan borcunuzu LM havuzundan ayrılarak kapatabilirsiniz.
@@ -92,13 +91,13 @@ Kasalarla ilgili ana risk, seçtiğiniz teminat oranının altına inmeniz durum
 
 Vault-maxi gibi botlar, kasanızı sürekli izleyerek ve her zaman tanımlanan aralıkta kalmasını sağlayarak burada yardımcı olabilir.
 
-Ancak botların denkleme yeni riskler de eklediğini unutmayın! (kod hataları, bulut sağlayıcı kesintileri, hack'ler vb.) **Botları yalnızca beraberinde gelen tüm riskleri anlıyor ve kabul ediyorsanız kullanın.
+Ancak botların denkleme yeni riskler de eklediğini unutmayın! (kod hataları, bulut sağlayıcı kesintileri, hack'ler vb.) \*\*Botları yalnızca beraberinde gelen tüm riskleri anlıyor ve kabul ediyorsanız kullanın.
 
 Botları daha derinlemesine incelemek istiyorsanız, vault-maxi harika bir seçenektir. v2.3 ([kurulum kılavuzu ile GitHub'da yayınlandı](https://github.com/kuegi/defichain_maxi/releases/tag/v2.3)) burada gösterilen tüm seçenekleri sağlar. Vault-maxi'nin kurulumunun çok karmaşık olmasından korkuyorsanız, bu videoyu izleyin ve kendiniz karar verin: https://youtu.be/NOeXa69Z4GU
 
 Aşağıdaki stratejiler %160'lık bir hedef teminat oranını varsaymaktadır.
 
-*Vault-maxi* aracılığıyla nakit akışı seçenekleri  
+_Vault-maxi_ aracılığıyla nakit akışı seçenekleri  
 ![Cashflow options via vault-maxi](../media/cashflow_options_TR_03.png)
 
 ### DUSD kasası + delta-nötr LM {#dusd-vault--delta-neutral-lm-1}
@@ -127,7 +126,7 @@ Strateji DUSD versiyonundaki ile aynıdır, ancak teminattan DFI kullanır ve DU
 
 ## Özet {#summary}
 
-*Tüm farklı seçeneklere genel bakış*  
+_Tüm farklı seçeneklere genel bakış_  
 ![Tüm farklı seçeneklere genel bakış](../media/cashflow_options_TR_04.png)
 
 Gördüğünüz gibi, bu güzel ekosistemde nakit akışı için birden fazla yol vardır.

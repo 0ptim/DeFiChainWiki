@@ -21,7 +21,7 @@ So, for giving the coin amounts x and y into the pool you will get liquidity tok
 
 The calculation of the token number can be approximated by the following formula: LP_token = sqrt ( x \* y )
 
-*Example: I invested 3.9842 DFI + 2.5 USDT in the liquidity pool and got 3.1571 USDT-DFI liquidity token.With the sqrt formula above it should be 3.1561, so there is a small deviation below 0,1%.*
+_Example: I invested 3.9842 DFI + 2.5 USDT in the liquidity pool and got 3.1571 USDT-DFI liquidity token.With the sqrt formula above it should be 3.1561, so there is a small deviation below 0,1%._
 
 ![Transactions of providing liquidity and getting liquidity token](./../media/liquiditytoken_EN_TransactionsLTBuy.png)
 

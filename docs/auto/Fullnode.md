@@ -50,7 +50,7 @@ to be continued...
 
 ##### Create Swapfile {#create-swapfile}
 
-*recommended for Systems less then 4 GB*
+_recommended for Systems less then 4 GB_
 
 `sudo fallocate -l 4G /swapfile`
 
@@ -60,17 +60,17 @@ to be continued...
 
 `sudo swapon /swapfile`
 
-*Check the swapfile*
+_Check the swapfile_
 
 `sudo swapon --show`
 
-*make the Swapfile permanent*
+_make the Swapfile permanent_
 
 `sudo cp /etc/fstab /etc/fstab.bak`
 
 `echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab`
 
-*Optimization*
+_Optimization_
 
 `sudo sysctl vm.swappiness=10`
 
@@ -88,17 +88,17 @@ Make sure your download link always starts with https and not with http. Even if
 
 `wget https://github.com/DeFiCh/ain/releases/download/v2.11.1/defichain-2.11.1-x86_64-pc-linux-gnu.tar.gz`
 
-*check your downloaded package*
+_check your downloaded package_
 
 `wget https://github.com/DeFiCh/ain/releases/download/v2.11.1/defichain-2.11.1-x86_64-pc-linux-gnu.tar.gz.SHA256`
 
 `sha256sum -c defichain-2.11.1-x86_64-pc-linux-gnu.tar.gz.SHA256`
 
-*unzip package*
+_unzip package_
 
 `tar -xvzf defichain-2.11.1-x86_64-pc-linux-gnu.tar.gz`
 
-*copy to directory*
+_copy to directory_
 
 `mkdir ~/.defi`
 
@@ -107,30 +107,29 @@ Make sure your download link always starts with https and not with http. Even if
 **WARNING**  
 This will work but you should avoid placing executables in ~/.defi because this is where most of you will be extracting your snapshots into. If you don't selectively pick only those files you need from your snapshot every time you could unknowningly replace key files that could cause your full node to be compromised and could even cause your funds to be stolen. If you keep important files out of your data directory they can not be overwritten by a malicious snapshot.
 
-
 ##### Start Fullnode {#start-fullnode}
 
-*Start Fullnode*
+_Start Fullnode_
 
 `~/.defi/defid -daemon`
 
-*When you upgrade from a previous version, please reindex the whole blockchain data*
+_When you upgrade from a previous version, please reindex the whole blockchain data_
 
 `~/.defi/defid -reindex -daemon`
 
 ##### Monitor Fullnode {#monitor-fullnode}
 
-*Check Blockcount*
+_Check Blockcount_
 
 `.defi/defi-cli getblockcount`
 
-*Start defid after reboot*
+_Start defid after reboot_
 
 `sudo crontab -e`
 
 `* * * * * pidof defid || ~/.defi/defid`
 
-*Is your node online?*
+_Is your node online?_
 
 After the node is completely synchronized, check the number of connections with the command below.
 
@@ -177,7 +176,7 @@ A snapshot helps in cases of corrupted blocks not to re-index the blockchain aga
 ### Download sources {#download-sources}
 
 :::caution
-Make sure your download link always starts with https and not with http. Even if you can download the index.txt files or snapshots over http you should never do so. 
+Make sure your download link always starts with https and not with http. Even if you can download the index.txt files or snapshots over http you should never do so.
 :::
 
 #### DeFiChain Foundation: {#defichain-foundation}

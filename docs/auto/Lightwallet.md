@@ -27,10 +27,10 @@ Here is a detailed user guide for the light wallet.
 
 The interface of the Light Wallet consists of 4 major categories. You can switch between those categories with the buttons at the bottom of the app.
 
--   Portfolio
--   DEX
--   Loans
--   Auctions
+- Portfolio
+- DEX
+- Loans
+- Auctions
 
 ![](./../media/lwguide_EN_portfolio.png)
 
@@ -44,7 +44,7 @@ The interface of the Light Wallet consists of 4 major categories. You can switch
 
 This is the main screen where you have an overview of the assets in your wallet.
 
-*Main screen - portfolio*  
+_Main screen - portfolio_  
 ![Main screen - portfolio](./../media/lwguide_EN_mainscreen.png)
 
 1.  You can go to the settings from here (cogwheel at the top left)
@@ -52,28 +52,28 @@ This is the main screen where you have an overview of the assets in your wallet.
 3.  You can add multiple Adresses to you wallet. Each address will get a generated icon and it is possible to label each address. The labels can help to organize your addresses but are not shared on the blockchain and not visible to others. By clicking the icon or the label you get a pop up window where you can organize your addresses (add additional ones or rename them) and select the address you want to use in the wallet. The popup also lets you copy the addresses to the clipboard.
 4.  With the Eye button you can toggle if the amounts and values of the assets are shown. For example, if you are using the wallet in public like on a train and some stranger sits beside you - you might want to hide the values.
 5.  The total worth of assets in this address. By clicking you can choose the reference currency in which the total but also all other positions in the wallet are displayed. The available options are
-    -   BTC - Bitcoin
-    -   DUSD - The stablecoin on the DeFiChain
-    -   USDC – USD Coin, it is an ERC-20-Tokens issued by the Centre consortium
-    -   USDT – Tether, an ERC-20-Tokens issued by Tether Limited, when using Tether as reference currency the dollar sign is used in all amounts over the app
-    -   DFI – The native coin of the DeFiChain
+    - BTC - Bitcoin
+    - DUSD - The stablecoin on the DeFiChain
+    - USDC – USD Coin, it is an ERC-20-Tokens issued by the Centre consortium
+    - USDT – Tether, an ERC-20-Tokens issued by Tether Limited, when using Tether as reference currency the dollar sign is used in all amounts over the app
+    - DFI – The native coin of the DeFiChain
 6.  With the little arrow you can show or hide the details on how the total worth is calculated. This is especially helpful when you are using vaults as the details show how much is in the collateral (locked in vaults) and how much loans sum up as debit
 7.  Send Button - forwards you to the send screen, described in detail bellow
 8.  Receive Button - shows the current address on the DeFiChain, lets you copy this address in to the clipboard to be able to paste it in nother app. The address is also shown as a QR code that lets you scan the address with another devices camera.
 9.  Swap Button- forwards you to the swap screen for trading one kind of token to another via the liquidity pools on the DEX, described in detail bellow
 10. Transactions - shows you the history of transactions of the current address on the blockchain. You can look up details for every transaction directly in the app or use a link to the transaction on defiscan.live
 11. Filter displayed Assets in the Portfolio. Available are the options
-    -   All tokens – show everything you got in the portfolio
-    -   dTokens – show DUSD and all stock tokens (like dTesla for Tesla or dMSTR for Microstrategy)
-    -   Crypto – show he dAssets representing crypto currencies like dBTC for Bitcoin or dETH for Etherium
-    -   LP tokens – show just the positions in liquidity mining pools (no matter if crypto or stocks) No matter which one of the 4 filters you choose, you will always see your DFI position on top.
+    - All tokens – show everything you got in the portfolio
+    - dTokens – show DUSD and all stock tokens (like dTesla for Tesla or dMSTR for Microstrategy)
+    - Crypto – show he dAssets representing crypto currencies like dBTC for Bitcoin or dETH for Etherium
+    - LP tokens – show just the positions in liquidity mining pools (no matter if crypto or stocks) No matter which one of the 4 filters you choose, you will always see your DFI position on top.
 12. Here you can select the order in which the positions of the portfolio are listed. You can select ascending or descending by value (in the chosen reference currency mentioned in point 5), by amount of token or alphabetically.
 
 #### Send
 
 With the Send button (Nr 7 on the main screen - Portfolio) you are forwarded to an interface where you can send any token in your portfolio (no matter if crypto, stock token or even pool token) to another address.
 
-*Send screen*  
+_Send screen_  
 ![Send screen](./../media/lwguide_EN_send.png)
 
 1.  Back arrow - you can always cancel the current sending and go back to the previous screen
@@ -88,7 +88,7 @@ With the Send button (Nr 7 on the main screen - Portfolio) you are forwarded to 
 
 #### Swap
 
-*LightWallet-Swap screen*  
+_LightWallet-Swap screen_  
 ![LightWallet-Swap screen](./../media/lwguide_EN_swap.png)
 
 1.  Back arrow - you can always cancel the current swap and go back to the previous screen
@@ -109,7 +109,7 @@ With the Send button (Nr 7 on the main screen - Portfolio) you are forwarded to 
 
 This 2nd tab of the app provides an overview of the trading pools of the decentralized exchange ([DEX](./DEX.md)).
 
-*Overview of the screen DEX*  
+_Overview of the screen DEX_  
 ![Overview of the screen DEX](./../media/lwguide_EN_dexoverview.png)
 
 1.  Available pairs – all the pools that are currently available are shown in the list bellow
@@ -128,7 +128,7 @@ This 2nd tab of the app provides an overview of the trading pools of the decentr
 
 One pool is displayed in the list like this
 
-*List of pools on the Dex - search result for "Ms"*  
+_List of pools on the Dex - search result for "Ms"_  
 ![List of pools on the Dex - search result for "Ms"](./../media/lwguide_EN_pools.png)
 
 1.  Next to the type icon and pool name you have the little star shaped button that lets you add this pair to your personal list of bookmarked favorites
@@ -140,7 +140,7 @@ One pool is displayed in the list like this
 
 By clicking on a pool in the list you are forwarded to a more detailed screen that provides even more information on the selected pool.
 
-*Pool Details*  
+_Pool Details_  
 ![Pool Details](./../media/lwguide_EN_pooldetails.png)
 
 1.  Link to defiscan.live showing the blockchain date of this pool token
@@ -168,7 +168,7 @@ Opening the third of the four main tabs of the app shows you an overview of the 
 2. Your vaults – Show the vaults available in your current address or create a new one
 3. Search filed – here you can use a textual search on the available token for borrowing
 
-*The following four points (4 – 7) are available on each token in the list/search results*
+_The following four points (4 – 7) are available on each token in the list/search results_
 
 4. Name/Ticker Symbol of the token, Next to the textual name there is also an icon of each token, for example the pink Dollar sign at the DUSD
 5. Current price when minting this token
@@ -184,7 +184,7 @@ Opening the third of the four main tabs of the app shows you an overview of the 
 3. Search field - here you can use a textual search to search in your vaults by vault ID
 4. Add button – redirects you to the menu for creating a new vault in this address. You will be able to define a loan schema. The creation of a new vault costs a fee of 2 DFI. 1 DFI is a kind of deposit that you would get back when closing the vault later.
 
-*The following six points (5 – 10) are available on each vault that is shown in the list of your vaults/search results*
+_The following six points (5 – 10) are available on each vault that is shown in the list of your vaults/search results_
 
 5. Preview of the coins used as collateral
 6. Total value of loans taken (Debit sum) in Dollar as the prices are taken from the oracles
@@ -212,7 +212,7 @@ Opening the third of the four main tabs of the app shows you an overview of the 
 13. Sub tab on vault details (1/3) – “Loans” – shows the loans currently taken with this vault
 14. Sub tab on vault details (1/3) – “Details” – more information and details on this vault
 
-*The following three points (15 – 17) are available on each asset type that is deposited in this vault*
+_The following three points (15 – 17) are available on each asset type that is deposited in this vault_
 
 15. Token Icon and Name, The tokens that are available as collateral are DFI, DUSD, dETH, dBTC, dUSDC and dUSDT
 16. Percentage of this token in the total collateral

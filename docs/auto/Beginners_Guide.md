@@ -62,10 +62,10 @@ The wallet with further information can be downloaded [here](https://jellywallet
 
 For a beginner the start into DeFiChain with the Full-Node-Wallet is not recommended as the usability is not really intuitively possible. For technical oriented users who want to use a command line additionaly however it is the only option. Also when you want to run your own masternode you need the Full-Node-Wallet.
 
--   The Full-Node-Wallet is harder to use than the Wallet for the smartphone
--   This wallet always syncronizes the whole blockchain. So it need more memory capacities and time.
--   You do not have a 24-word-seed-phrase. The Full-Node-Wallet uses a safety-file. The so called "wallet.dat" and the password always need to be kept safe to have acces to your funds.
--   You can download it here: <https://defichain.com/downloads> for macOS, Windows and Linux
+- The Full-Node-Wallet is harder to use than the Wallet for the smartphone
+- This wallet always syncronizes the whole blockchain. So it need more memory capacities and time.
+- You do not have a 24-word-seed-phrase. The Full-Node-Wallet uses a safety-file. The so called "wallet.dat" and the password always need to be kept safe to have acces to your funds.
+- You can download it here: <https://defichain.com/downloads> for macOS, Windows and Linux
 
 ## Getting your first DFI-Coins ("On-ramp") {#getting-your-first-dfi-coins-on-ramp}
 

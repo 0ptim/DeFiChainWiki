@@ -7,11 +7,10 @@ Decentralized assets are following the real world asset price. On DeFiChain the 
 
 Due to the current bear market, small demand and consequently small liquidity-pools, the monthly addition of new ticker-symbols (dAssets) was changed to a quarterly addition of new tickers in October 2022. (source: Youtube, DeFiChain News Show as of Oct 19, 2022)
 
-
 ### Stocks {#stocks}
 
 | Ticker | Name                                | Defiscan                                | Yahoo Finance                                                        |
-|--------|-------------------------------------|-----------------------------------------|----------------------------------------------------------------------|
+| ------ | ----------------------------------- | --------------------------------------- | -------------------------------------------------------------------- |
 | dADDYY | Adidas AG - ADR                     | <https://defiscan.live/dex/dADDYY-DUSD> | [Link](https://finance.yahoo.com/quote/ADDYY?p=ADDYY&.tsrc=fin-srch) |
 | dAMZN  | Amazon.com                          | <https://defiscan.live/dex/dAMZN-DUSD>  | [Link](https://finance.yahoo.com/quote/AMZN?p=AMZN&.tsrc=fin-srch)   |
 | dAAPL  | Apple                               | <https://defiscan.live/dex/dAAPL-DUSD>  | [Link](https://finance.yahoo.com/quote/AAPL?p=AAPL&.tsrc=fin-srch)   |
@@ -43,7 +42,7 @@ Due to the current bear market, small demand and consequently small liquidity-po
 ### ETF {#etf}
 
 | Ticker | Name                              | Defiscan                               | Yahoo Finance                                                      |
-|--------|-----------------------------------|----------------------------------------|--------------------------------------------------------------------|
+| ------ | --------------------------------- | -------------------------------------- | ------------------------------------------------------------------ |
 | dARKK  | ARK Innovation                    | <https://defiscan.live/dex/dARKK-DUSD> | [Link](https://finance.yahoo.com/quote/ARKK?p=ARKK&.tsrc=fin-srch) |
 | dARKX  | ARK Space Exporation & Innov. ETF | <https://defiscan.live/dex/dARKX-DUSD> | [Link](https://finance.yahoo.com/quote/ARKX?p=ARKX&.tsrc=fin-srch) |
 | dDAX   | Global X DAX Germany ETF          | <https://defiscan.live/dex/dDAX-DUSD>  | [Link](https://finance.yahoo.com/quote/DAX?p=DAX&.tsrc=fin-srch)   |
@@ -61,7 +60,7 @@ Due to the current bear market, small demand and consequently small liquidity-po
 ### Metals {#metals}
 
 | Ticker | Name                               | Defiscan                               | Yahoo Finance                                                      |
-|--------|------------------------------------|----------------------------------------|--------------------------------------------------------------------|
+| ------ | ---------------------------------- | -------------------------------------- | ------------------------------------------------------------------ |
 | dGLD   | SPDR Gold Shares                   | <https://defiscan.live/dex/dGLD-DUSD>  | [Link](https://finance.yahoo.com/quote/GLD?p=GLD&.tsrc=fin-srch)   |
 | dPPLT  | abrdn Physical Platinum Shares ETF | <https://defiscan.live/dex/dPPLT-DUSD> | [Link](https://finance.yahoo.com/quote/PPLT?p=PPLT&.tsrc=fin-srch) |
 | dSLV   | iShares Silver Trust               | <https://defiscan.live/dex/dSLV-DUSD>  | [Link](https://finance.yahoo.com/quote/SLV?p=SLV&.tsrc=fin-srch)   |
@@ -69,22 +68,22 @@ Due to the current bear market, small demand and consequently small liquidity-po
 ### Commodities {#commodities}
 
 | Ticker | Name                                                            | Defiscan                               | Yahoo Finance                                                      |
-|--------|-----------------------------------------------------------------|----------------------------------------|--------------------------------------------------------------------|
+| ------ | --------------------------------------------------------------- | -------------------------------------- | ------------------------------------------------------------------ |
 | dGSG   | iShares S&P GSCI Commodity-Indexed Trust ETF                    | <https://defiscan.live/dex/dGSG-DUSD>  | [Link](https://finance.yahoo.com/quote/GSG?p=GSG&.tsrc=fin-srch)   |
 | dPDBC  | Invesco Optimum Yield Diversified Commodity Strategy No K-1 ETF | <https://defiscan.live/dex/dPDBC-DUSD> | [Link](https://finance.yahoo.com/quote/PDBC?p=PDBC&.tsrc=fin-srch) |
 | dURA   | Global X Uranium ETF                                            | <https://defiscan.live/dex/dURA-DUSD>  | [Link](https://finance.yahoo.com/quote/URA?p=URA&.tsrc=fin-srch)   |
-| dUNG   | US Natural Gas Fund	                                           | <https://defiscan.live/dex/dUNG-DUSD>  | [Link](https://finance.yahoo.com/quote/UNG?p=UNG&.tsrc=fin-srch)   |
-| dUSO   | US Oil Fund	                                                   | <https://defiscan.live/dex/dUSO-DUSD>  | [Link](https://finance.yahoo.com/quote/USO?p=USO&.tsrc=fin-srch)   |
+| dUNG   | US Natural Gas Fund                                             | <https://defiscan.live/dex/dUNG-DUSD>  | [Link](https://finance.yahoo.com/quote/UNG?p=UNG&.tsrc=fin-srch)   |
+| dUSO   | US Oil Fund                                                     | <https://defiscan.live/dex/dUSO-DUSD>  | [Link](https://finance.yahoo.com/quote/USO?p=USO&.tsrc=fin-srch)   |
 
 ### Bonds {#bonds}
 
 | Ticker | Name                               | Defiscan                               | Yahoo Finance                                                      |
-|--------|------------------------------------|----------------------------------------|--------------------------------------------------------------------|
+| ------ | ---------------------------------- | -------------------------------------- | ------------------------------------------------------------------ |
 | dGOVT  | iShares U.S. Treasury Bond ETF     | <https://defiscan.live/dex/dGOVT-DUSD> | [Link](https://finance.yahoo.com/quote/GOVT?p=GOVT&.tsrc=fin-srch) |
 | dTLT   | iShares 20+ Year Treasury Bond ETF | <https://defiscan.live/dex/dTLT-DUSD>  | [Link](https://finance.yahoo.com/quote/TLT?p=TLT&.tsrc=fin-srch)   |
 
 ### Real Estate {#real-estate}
 
 | Ticker | Name                     | Defiscan                              | Yahoo Finance                                                    |
-|--------|--------------------------|---------------------------------------|------------------------------------------------------------------|
+| ------ | ------------------------ | ------------------------------------- | ---------------------------------------------------------------- |
 | dVNQ   | Vanguard Real Estate ETF | <https://defiscan.live/dex/dVNQ-DUSD> | [Link](https://finance.yahoo.com/quote/VNQ?p=VNQ&.tsrc=fin-srch) |

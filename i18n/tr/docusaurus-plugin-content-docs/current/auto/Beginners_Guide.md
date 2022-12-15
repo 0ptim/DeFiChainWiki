@@ -29,10 +29,10 @@ Cüzdanınızı özellikle bu amaçlar için kullanabilirsiniz:
 
 24 kelimelik tohumunuzdan tamamen siz sorumlusunuz. Tohumunuzu kaybetmek, paranızı kaybetmek demektir!
 
--   24 kelimenizi güvenle saklayın (Dizüstü bilgisayar veya akıllı telefon gibi herhangi bir çevrimiçi cihazda bir word belgesi veya ekran görüntüsü güvenli değildir)
--   Acil durumlar için güvenebileceğiniz bir kişi dışında kimseyle paylaşmayın
--   Telegram'a dikkat edin. 24 kelimenizi almaya çalışan dolandırıcılar oldukça kurnazdır. Sohbette size özel mesaj yazan ve sizden bu tohum cümlesini talep eden kimseye güvenmeyin.
--   24 kelimenizi net bir şekilde doğrulayamayacağınız bir uygulamaya veya bota girmeyin.
+- 24 kelimenizi güvenle saklayın (Dizüstü bilgisayar veya akıllı telefon gibi herhangi bir çevrimiçi cihazda bir word belgesi veya ekran görüntüsü güvenli değildir)
+- Acil durumlar için güvenebileceğiniz bir kişi dışında kimseyle paylaşmayın
+- Telegram'a dikkat edin. 24 kelimenizi almaya çalışan dolandırıcılar oldukça kurnazdır. Sohbette size özel mesaj yazan ve sizden bu tohum cümlesini talep eden kimseye güvenmeyin.
+- 24 kelimenizi net bir şekilde doğrulayamayacağınız bir uygulamaya veya bota girmeyin.
 
 Kullanım kolaylığı sağlamak için, DeFiChain [Light Wallet](./Lightwallet.md) cüzdanında işlemleri imzalamak için 6 haneli bir kod oluşturursunuz, böylece cüzdanı her kullandığınızda 24 kelimeye ihtiyacınız olmaz. Kodu üç kez yanlış girmeniz durumunda uygulama sıfırlanacaktır ve paranıza tekrar erişmek için 24 kelimenize ihtiyacınız olacaktır.
 
@@ -56,10 +56,10 @@ Daha fazla bilgi için cüzdanı [buradan](https://jellywallet.io/) indirilebili
 
 DeFiChain ile yeni tanışanlar için Full Node Cüzdan ile başlamak önerilmez, çünkü kullanılabilirlik konusunda diğer seçenekler kadar kolay değildir. Ancak komut satırı kullanmak isteyen teknik odaklı kullanıcılar için bu tek seçenektir. Ayrıca kendi [masternode'unuzu](./Masternode.md) çalıştırmak istediğinizde Full-Node-Cüzdanına ihtiyacınız vardır.
 
--   Full Node Cüzdan'ı kullanmak, akıllı telefon için tasarlanmış Lightwallet cüzdan'ın kullanımından daha zordur
--   Bu cüzdan her zaman tüm blok zincirini senkronize eder. Bu yüzden daha fazla bellek kapasitesine ve zamana ihtiyaç duyar.
--   24 kelimelik bir tohum cümleniz yoktur. Full Node Cüzdan bir güvenlik dosyası kullanır. Paranıza erişmek için "wallet.dat" dosyasını ve şifrenizin her zaman güvende tutulması gerekir.
--   Buradan indirebilirsiniz: https://defichain.com/downloads (macOS, Windows ve Linux)
+- Full Node Cüzdan'ı kullanmak, akıllı telefon için tasarlanmış Lightwallet cüzdan'ın kullanımından daha zordur
+- Bu cüzdan her zaman tüm blok zincirini senkronize eder. Bu yüzden daha fazla bellek kapasitesine ve zamana ihtiyaç duyar.
+- 24 kelimelik bir tohum cümleniz yoktur. Full Node Cüzdan bir güvenlik dosyası kullanır. Paranıza erişmek için "wallet.dat" dosyasını ve şifrenizin her zaman güvende tutulması gerekir.
+- Buradan indirebilirsiniz: https://defichain.com/downloads (macOS, Windows ve Linux)
 
 ## DFI Coin satın alma ("On-ramp") {#getting-your-first-dfi-coins-on-ramp}
 
@@ -73,17 +73,17 @@ Kripto borsaları, FIAT paranızı (USD, TL, gibi) Kripto para birimlerine dön�
 
 Mevcut DeFiChain aşağıdaki borsalarda listelenmiştir:
 
--   Bittrex
--   Kucoin
--   Huobi
--   bit.com
--   bybit
--   Deepcoin
--   Hotbit
--   Latoken
--   bitrue
--   Hoo
--   Uniswap
+- Bittrex
+- Kucoin
+- Huobi
+- bit.com
+- bybit
+- Deepcoin
+- Hotbit
+- Latoken
+- bitrue
+- Hoo
+- Uniswap
 
 Ayrıntılı bilgi [burada](https://defichain-ecosystem.com/de/overview/exchanges/) bulunabilir.
 

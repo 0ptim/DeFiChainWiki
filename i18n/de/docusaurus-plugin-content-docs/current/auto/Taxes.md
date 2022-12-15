@@ -5,7 +5,7 @@ description: TODO - Kurze Beschreibung dieser Seite.
 
 ## 🇨🇭 Schweiz
 
-*Dieser Text ist keine Steuerberatung!*
+_Dieser Text ist keine Steuerberatung!_
 
 ℹ Zusammenfassung der Rückmeldungen aus der Community
 
@@ -39,4 +39,4 @@ Werden die Aktivitäten einer Privatperson von der Steuerbehörde als gewerbemä
 
 Vermögen welches bei der Steuererklärung nicht deklariert wird, interessiert in der Regel solange niemand, solange es nicht ausgegeben wird. Problematisch ist immer der Verkauf. Grosse Geldeingänge auf Schweizer Bankkonten führen in der Regel zu Nachfragen durch die Bank. Wenn dann nicht plausible erklärt werden kann woher dieses Geld kommt, dann hat man ein Problem. Jeder CHF den du ausgibst, musst du erklären können woher dieser gekommen ist. Wenn du eine Immobilie kaufen willst, musst du glaubwürdig erklären können, woher du das entsprechende Vermögen hast. Wenn du also zum Beispiel deine Bitcoins Anonym verkaufst, und dann ohne Arbeit ein schönes Leben geniessen willst, dann wird die Steuerbehörde nachfragen, woher du das Geld besitzt um ohne Arbeit wohnen und leben zu können. Wenn du diese Frage dann nicht glaubhaft beantworten kannst, dann hast du ein Problem.
 
-*Alles was auf dieser Seite steht, kann falsch sein.*
+_Alles was auf dieser Seite steht, kann falsch sein._

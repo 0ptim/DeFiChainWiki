@@ -22,7 +22,6 @@ Click `Edit this page` on the bottom of the page.
 
 ![](./../media/contribute_EN_edit-this-page.png)
 
-
 ### 3. Enable Editor
 
 ![](./../media/contribute_EN_enable-editor.png)
@@ -49,4 +48,4 @@ You successfully submitted your edit. 🔥
 
 **Thank you!** ❤
 
-> *A wiki maintainer will check and accept/decline your request soon.*
+> _A wiki maintainer will check and accept/decline your request soon._

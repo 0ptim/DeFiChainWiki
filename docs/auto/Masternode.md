@@ -34,7 +34,7 @@ The only things you need:
 - If you want to make the network more stable with your masternode and want to offer services for other nodes, you have to open port 8555 externally for everyone.<sup>1</sup>
 - When you open the Port, you present your wallet.dat to the public internet, maybe a possible target for attackers.
 
->[1] You do **NOT** have to open the Port to participate in staking, but without this open port, you don't help to stabilize the Network and no one can use your node for synchronization or other implemented features
+> [1] You do **NOT** have to open the Port to participate in staking, but without this open port, you don't help to stabilize the Network and no one can use your node for synchronization or other implemented features
 
 #### Option 2 - Ownernode and Operatornode at "Home" {#option-2---ownernode-and-operatornode-at-home}
 

@@ -41,9 +41,9 @@ const config = {
           customCss: require.resolve("./src/css/custom.css"),
         },
         gtag: {
-          trackingID: 'G-1RQ320FPE8',
-          anonymizeIP: false
-        }
+          trackingID: "G-1RQ320FPE8",
+          anonymizeIP: false,
+        },
       }),
     ],
   ],
@@ -52,16 +52,16 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       announcementBar: {
-        id: 'improve_the_wiki',
+        id: "improve_the_wiki",
         content:
           'We are looking for community members which help improve our wiki. <a href="/docs/auto/Sharing_is_caring">Read more</a>',
-        backgroundColor: '#00F6FF',
-        textColor: '#091E42',
+        backgroundColor: "#00F6FF",
+        textColor: "#091E42",
         isCloseable: true,
       },
-      image: 'img/Open_Graph_Image.png',
+      image: "img/Open_Graph_Image.png",
       colorMode: {
-        respectPrefersColorScheme: true
+        respectPrefersColorScheme: true,
       },
       docs: {
         sidebar: {
@@ -102,8 +102,8 @@ const config = {
             "aria-label": "Telegram group",
           },
           {
-            type: 'search',
-            position: 'right',
+            type: "search",
+            position: "right",
           },
         ],
       },
@@ -186,7 +186,7 @@ const config = {
         logo: {
           alt: "DeFiChain logo",
           src: "img/footer-banner.svg",
-          href: "https://defichain.com/"
+          href: "https://defichain.com/",
         },
       },
       prism: {
@@ -194,7 +194,7 @@ const config = {
         darkTheme: darkCodeTheme,
       },
       colorMode: {
-        respectPrefersColorScheme: true
+        respectPrefersColorScheme: true,
       },
       algolia: {
         apiKey: "00a233bca9e11e8baf6f03174dd7ebb5",
