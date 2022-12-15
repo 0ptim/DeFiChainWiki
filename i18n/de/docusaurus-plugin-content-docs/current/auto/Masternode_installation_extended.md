@@ -96,17 +96,17 @@ _/home/defichain/_
 
 Jetzt gehts an die Node. Ladet euch dazu die aktuelle Version direkt von GitHub herunter. Das geht mit:
 
-`wget https://github.com/DeFiCh/ain/releases/download/v3.0.1/defichain-3.0.1-x86_64-pc-linux-gnu.tar.gz`
+`wget https://github.com/DeFiCh/ain/releases/download/v3.1.1/defichain-3.1.1-x86_64-pc-linux-gnu.tar.gz`
 
 Danach entpacken wir das Paket mit dem Befehl:
 
-`tar -xvzf defichain-3.0.1-x86_64-pc-linux-gnu.tar.gz`
+`tar -xvzf defichain-3.1.1-x86_64-pc-linux-gnu.tar.gz`
 
 Nun legen wir uns ein neues Verzeichnis an und kopieren die benötigten Dateien aus dem entpackten Verzeichnis dort hinein.
 
 `mkdir /home/defichain/.defi`
 
-`cp ./defichain-3.0.1/bin/* /home/defichain/.defi`
+`cp ./defichain-3.1.1/bin/* /home/defichain/.defi`
 
 Das wars schon, wir haben die Node auf unserem VPS aufgesetzt. Jetzt kommt der langwierige Teil: Synchronisieren.
 
@@ -226,13 +226,13 @@ Warte ein paar Minuten und prüfe unter [mydeficha.in/masternodes.php](http://my
 
 #### Node updaten {#node-updaten}
 
-`wget https://github.com/DeFiCh/ain/releases/download/v3.0.1/defichain-3.0.1-x86_64-pc-linux-gnu.tar.gz`
+`wget https://github.com/DeFiCh/ain/releases/download/v3.1.1/defichain-3.1.1-x86_64-pc-linux-gnu.tar.gz`
 
-`tar -xvzf defichain-3.0.1-x86_64-pc-linux-gnu.tar.gz`
+`tar -xvzf defichain-3.1.1-x86_64-pc-linux-gnu.tar.gz`
 
 `~/.defi/defi-cli stop`
 
-`cp ./defichain-3.0.1/bin/* ~/.defi/`
+`cp ./defichain-3.1.1/bin/* ~/.defi/`
 
 Warte 1-2 Minuten, bis deine Node durch crontab wieder automatisch gestartet wird. Mit dem Befehl:
 
