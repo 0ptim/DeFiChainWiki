@@ -86,7 +86,7 @@ Nun starten wir den SSh-Dienst neu und haben unser System etwas abgesichert.
 
 `sudo systemctl restart ssh`
 
-Wollt ihr auf eurem System den Rootzugriff wieder aktivieren, müsst ihr in der gerade geänderten ssh_config den Wert von _No_ wieder auf _Yes_ setzen.
+Wollt ihr auf eurem System den Rootzugriff wieder aktivieren, müsst ihr in der gerade geänderten ssh-config den Wert von _No_ wieder auf _Yes_ setzen.
 
 #### Installation der Node (AIN-Version) {#installation-der-node-ain-version}
 

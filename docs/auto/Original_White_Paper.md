@@ -1524,14 +1524,10 @@ every 259,200 blocks (approx. every 90 days) and works as follows:
 
 Burned token redistribution for the next 259,200 blocks =
 
-1.  (Total token burned from the last 259,200 blocks \[Quarter -1\]) / 4
-    -
-2.  (Total token burned from block -518,400th to -259,200th block
-    \[Quarter -2\]) / 4 +
-3.  (Total token burned from block -777,600th to -518,400th block
-    \[Quarter -3\]) / 4 +
-4.  (Total token burned from block -1,036,800th to -777,600th block
-    \[Quarter -4\]) / 4
+1.  (Total token burned from the last 259,200 blocks \[Quarter -1\]) / 4 +
+2.  (Total token burned from block -518,400th to -259,200th block \[Quarter -2\]) / 4 +
+3.  (Total token burned from block -777,600th to -518,400th block \[Quarter -3\]) / 4 +
+4.  (Total token burned from block -1,036,800th to -777,600th block \[Quarter -4\]) / 4
 
 ### Masternodes {#masternodes}
 
