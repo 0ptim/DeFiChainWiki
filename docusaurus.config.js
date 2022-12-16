@@ -144,7 +144,7 @@ const config = {
               },
               {
                 label: "Telegram",
-                href: "docs/auto/Ecosystem#telegram-channels",
+                href: "/docs/auto/Ecosystem#telegram-channels",
               },
               {
                 label: "Youtube",
