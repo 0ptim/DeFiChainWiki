@@ -96,7 +96,7 @@ const config = {
             "aria-label": "GitHub repository",
           },
           {
-            href: "https://t.me/+xNgu9LTrGApiZjFk",
+            href: "https://t.me/defichain_wiki",
             position: "right",
             className: "header-icon-link header-icon-telegram",
             "aria-label": "Telegram group",
