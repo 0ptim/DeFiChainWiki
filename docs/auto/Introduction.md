@@ -7,29 +7,31 @@ DeFi stands for Decentralized Finance. It describes the idea of enabling people 
 
 ## So what is DeFiChain?
 
-Decentralized Financial services run on blockchain technology.
+Decentralized financial services rely on blockchain technology to provide a secure, fast, and accessible infrastructure.
 
-The Bitcoin blockchain was created for a single financial service - a decentralized and censorship-resistant store of value used as a medium of exchange and perhaps in the future a unit of account. But beyond that, it lacks the technical capabilities necessary for the infrastructure of other DeFi services.
+While the Bitcoin blockchain was originally designed for decentralized and censorship-resistant value storage, it lacks the capabilities necessary for other DeFi services. Ethereum, while able to handle a wide range of functions, has faced security issues with its smart contracts.
 
-Ethereum, on the other hand, is supposed to be a general-purpose platform. In principle, anything can be done with Ethereum, making it the jack of all trades, but the master of none. DAO and issues such as parity hacking reveal the difficulty of keeping smart contracts secure due to their general and universal nature.
+:::info The solution
+DeFiChain aims to solve these problems by creating a blockchain specifically for DeFi services that prioritizes **security**, **speed**, and **accessibility**.
 
-DeFiChain is the solution to all these problems. DeFiChain is a blockchain built precisely for DeFi Services, while providing an optimal infrastructure for security, speed and access. Besides that, DeFiChain, is designed for investors in the cryptocurrency market who want their cryptocurrencies to work and generate passive income just like any other form of capital. Staking and services like liquidity mining can provide a return on investment in any market condition, not just during a bull market.
+It also allows investors in the cryptocurrency market to generate **passive income** through staking and liquidity mining, regardless of market conditions.
+:::
 
-DeFiChain highlights:
+### DeFiChain highlights
 
-- Decentralized Credit
+- Decentralized Loans
 - Decentralized wrapping of tokens
-- Oracles for Decentralized price determination
+- Oracles for decentralized price determination
 - Decentralized exchanges (DEX)
 - Transferable payables and receivables
-- Decentralized Unsecured Debt
+- Decentralized unsecured debt
 - Asset tokenization
-- Profit Distribution
+- Profit distribution
 
-## Technical Infrastructure and Main Benefits
+## Technical origin
 
-The DeFiChain, including its coin DFI, is built on top of Bitcoin as a Bitcoin fork. DFI was never sold through an ICO, instead everything was distributed through Staking. This also means that the price was never set by DeFiChain as a company - it is completely independent and is a result of supply and demand.
+DeFiChain is built on top of Bitcoin, using a fork of Bitcoin's code. Its native coin, DFI, was distributed through staking rather than an initial coin offering (ICO). This means, that the price of DFI was only ever set by real supply and demand.
 
-MainNet has been live since Bitcoin halving day in May 2020 and has been running smoothly ever since. Since DeFiChain is built on top of Bitcoin, the number one blockchain, it benefits from Bitcoin's extremely strong security and high hashing power. Compared to Ethereum and even Bitcoin, DeFiChain fees are much lower and is super fast! Since it's not multi-purpose like Ethereum, there's no congestion from games or different applications.
+DeFiChain's MainNet has been live since May 2020, and its network benefits from Bitcoin's strong security and high hashing power. Additionally, DeFiChain offers low fees and fast transaction speeds due to its use of the Proof of Stake algorithm.
 
-In short, DeFiChain brings together the best of both worlds: Bitcoin's high security and hashing power and Proof of Stake algorithm, enabling extremely fast and cheap transactions (Scalability).
+Overall, DeFiChain combines the security and power of Bitcoin with the scalability of Proof of Stake, enabling efficient and cost-effective transactions in the DeFi space.
