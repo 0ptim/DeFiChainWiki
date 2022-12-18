@@ -22,8 +22,8 @@ const sidebars = {
         description: "Learn about the fundamental concepts of DeFiChain.",
       },
       items: [
+        "auto/Introduction",
         "auto/Ecosystem",
-        "auto/DeFiChain",
         "auto/Original_White_Paper",
         "auto/Updated_White_Paper",
         "auto/Pink_Paper",
@@ -33,7 +33,6 @@ const sidebars = {
         "auto/Block_Rewards",
         "auto/Liquidity_Mining_versus_Staking",
         "auto/Impermanent_Loss",
-        "auto/FAQ",
         "auto/Decentralized_Assets",
         "auto/DEX",
         "auto/DEX_Fee_Structure",
@@ -183,7 +182,6 @@ const sidebars = {
         "auto/Proposals",
         "auto/Taxes",
         "auto/Services",
-        "auto/DeFiChain_ecosystem",
         "auto/DeFiChain-Masternode-Monitor",
         "auto/DeFiChain-Portfolio",
         "auto/Punks",
@@ -235,6 +233,7 @@ const sidebars = {
       },
       items: ["auto/Sharing_is_caring", "auto/Contribute"],
     },
+    "auto/Links"
   ],
 };
 

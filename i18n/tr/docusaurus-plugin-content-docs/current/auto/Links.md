@@ -1,6 +1,6 @@
 ---
-title: FAQ
-description: TODO - Bu sayfanın kısa açıklaması.
+title: Links
+description: TODO - Short description of this page.
 ---
 
 **Bu sayfa henüz çevrilmemiştir. Lütfen yardım edin! ❤**
