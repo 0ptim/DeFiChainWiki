@@ -1,23 +1,19 @@
 ---
-title: DeFiChain
+title: Giriş
 description: TODO - Bu sayfanın kısa açıklaması.
 ---
 
 DeFi, Merkezi Olmayan Finans anlamına gelir. Finansal hizmetleri yürütmek için güvenilir bir üçüncü tarafa ihtiyaç duymadan, insanların bu hizmetler için kendi bankası haline gelmesini ve karşı taraf risklerini ortadan kaldırmasını sağlama fikrini açıklar.
 
-**Peki DeFiChain nedir?**
+## Peki DeFiChain nedir?
 
 Merkeziyetsiz Finans hizmetleri blockchain teknolojisiyle çalışır.
 
-Bitcoin blok zinciri, tek bir finansal hizmet için oluşturuldu - bir değişim aracı olarak kullanılan merkezi olmayan ve sansüre dayanıklı değer deposu ve belki de gelecekte bir hesap birimi. Bunu diğer blok
-zincirlerinden daha iyi yapar. Ancak bunun ötesinde, diğer DeFi hizmetlerinin altyapısı için gerekli teknik yeteneklerden yoksundur.
+Bitcoin blok zinciri, tek bir finansal hizmet için oluşturuldu - bir değişim aracı olarak kullanılan merkezi olmayan ve sansüre dayanıklı değer deposu ve belki de gelecekte bir hesap birimi. Bunu diğer blok zincirlerinden daha iyi yapar. Ancak bunun ötesinde, diğer DeFi hizmetlerinin altyapısı için gerekli teknik yeteneklerden yoksundur.
 
-Öte yandan Ethereum'un genel amaçlı bir platform olması gerekiyordu. Prensip olarak, Ethereum ile her şey yapılabilir, bu da onu tüm işlemlerin krikosu, ancak hiçbirinin efendisi haline getirir. DAO ve
-parite hack gibi sorunlar, genel ve evrensel yapıları nedeniyle akıllı sözleşmeleri güvende tutmanın zorluğunu ortaya koyuyor.
+Öte yandan Ethereum'un genel amaçlı bir platform olması gerekiyordu. Prensip olarak, Ethereum ile her şey yapılabilir, bu da onu tüm işlemlerin krikosu, ancak hiçbirinin efendisi haline getirir. DAO ve parite hack gibi sorunlar, genel ve evrensel yapıları nedeniyle akıllı sözleşmeleri güvende tutmanın zorluğunu ortaya koyuyor.
 
-Bütün bu sorunlara DeFiChain çözüm getiriyor. DeFiChain, güvenlik, hız ve erişim için en uygun altyapıyı sağlarken, tam olarak DeFi Hizmetleri için oluşturulan bir block zinciridir. Bunun yanında DeFi blokzinciri,
-kripto para piyasasındaki yatırımcılar için, kripto paralarını tıpkı diğer herhangi bir sermaye türü gibi çalışmasını ve pasif gelir üretmesini isteyen yatırımcılar için tasarlanmıştır. Böylece staking ve
-likidite madenciliği gibi hizmetler sayesinde sadece boğa pazarında değil, bütün piyasa koşullarında yatırım getirisi sağlayabilirler.
+Bütün bu sorunlara DeFiChain çözüm getiriyor. DeFiChain, güvenlik, hız ve erişim için en uygun altyapıyı sağlarken, tam olarak DeFi Hizmetleri için oluşturulan bir block zinciridir. Bunun yanında DeFi blokzinciri, kripto para piyasasındaki yatırımcılar için, kripto paralarını tıpkı diğer herhangi bir sermaye türü gibi çalışmasını ve pasif gelir üretmesini isteyen yatırımcılar için tasarlanmıştır. Böylece staking ve likidite madenciliği gibi hizmetler sayesinde sadece boğa pazarında değil, bütün piyasa koşullarında yatırım getirisi sağlayabilirler.
 
 DeFiChain'in öne çıkan özellikleri:
 
@@ -30,7 +26,7 @@ DeFiChain'in öne çıkan özellikleri:
 - Varlık tokenizasyonu
 - Kâr Dağıtımı
 
-**Teknik Altyapı ve Ana Avantajlar**
+## Teknik Altyapı ve Ana Avantajlar
 
 Madeni parası DFI dahil olmak üzere DeFi Zinciri, bir BTC çatalı olarak Bitcoin'in üzerine inşa edilmiştir. DFI hiçbir zaman bir ICO aracılığıyla satılmadı, bunun yerine her şey Staking yoluyla dağıtıldı. Bu aynı zamanda fiyatın hiçbir zaman bir şirket olarak DeFiChain tarafından belirlenmediği anlamına gelir - tamamen bağımsızdır ve talep ve arzın bir sonucudur.
 

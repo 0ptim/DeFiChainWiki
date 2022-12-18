@@ -22,8 +22,8 @@ const sidebars = {
         description: "Learn about the fundamental concepts of DeFiChain.",
       },
       items: [
+        "auto/Introduction",
         "auto/Ecosystem",
-        "auto/DeFiChain",
         "auto/Original_White_Paper",
         "auto/Updated_White_Paper",
         "auto/Pink_Paper",
