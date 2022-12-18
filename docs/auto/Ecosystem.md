@@ -5,6 +5,8 @@ description: TODO - Short description of this page.
 
 **🔗 You can explore a complete list of all links on [defilinks.io ↗](https://defilinks.io/)**
 
+**🧭 For an overview on how tokens can be aquired, sold or transfered, have a look at [defichain-ecosystem.com ↗](https://defichain-ecosystem.com/)**
+
 ## 🌐 Main Website
 
 [defichain.com ↗](https://defichain.com/)
