@@ -153,3 +153,98 @@ b6dbb4bba4ec83eda09daf531d1968d4194ca39ba7273f471dd7a14303a991b9
   ] 
 } 
 ```
+## Payback
+First of all payback as much as possible using the DUSD collateral: [transaction](https://defiscan.live/transactions/7c333e497779e1dc63c578a8ff29591def8933219f90354a67c4ff0751779e3c?network=TestNet)
+```
+> paybackwithcollateral "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b"
+7c333e497779e1dc63c578a8ff29591def8933219f90354a67c4ff0751779e3c
+> waitfornewblock
+> getvault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b true
+{
+  "vaultId": "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b",
+  "loanSchemeId": "C150",
+  "ownerAddress": "tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH",
+  "state": "active",
+  "collateralAmounts": [
+    "500.00000000@DFI"
+  ],
+  "loanAmounts": [
+    "30.87450689@DUSD"
+  ],
+  "interestAmounts": [
+    "-0.00002790@DUSD"
+  ],
+  "collateralValue": 234.14012,
+  "loanValue": 30.87450689,
+  "interestValue": -0.0000279,
+  "informativeRatio": 758.36067871,
+  "collateralRatio": 758,
+  "nextCollateralRatio": 758,
+  "interestPerBlockValue": "-0.000027902214659912480974",
+  "interestsPerBlock": [
+    "-0.000027902214659912480974@DUSD"
+  ]
+}
+```
+
+Than pay the remaining with DUSD from the wallet. Its save to define an amount which is higher than the collateral [transaction](https://defiscan.live/transactions/617a5e26b231c9fd80ce2c882abd3f22a5d755140ba2b1deb4c2883b2f9bf4d0?network=TestNet)
+```
+> paybackloan {"vaultId":"40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b","from":"tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH","amounts":"31@DUSD"}
+617a5e26b231c9fd80ce2c882abd3f22a5d755140ba2b1deb4c2883b2f9bf4d0
+> waitfornewblock
+> getvault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b true
+{
+  "vaultId": "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b",
+  "loanSchemeId": "C150",
+  "ownerAddress": "tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH",
+  "state": "active",
+  "collateralAmounts": [
+    "500.00000000@DFI"
+  ],
+  "loanAmounts": [],
+  "interestAmounts": [],
+  "collateralValue": 234.14012,
+  "loanValue": 0,
+  "interestValue": 0,
+  "informativeRatio": -1,
+  "collateralRatio": -1,
+  "nextCollateralRatio": -1,
+  "interestPerBlockValue": "0.000000000000000000000000",
+  "interestsPerBlock": []
+}
+```
+
+Than payout the DFI collateral [transaction](https://defiscan.live/transactions/de1a5206cad6bdac8c75051594f7196a1452f6352de34f0e757b0d11eb30878b?network=TestNet)
+```
+> withdrawfromvault "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b" "tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH" "500@DFI"
+de1a5206cad6bdac8c75051594f7196a1452f6352de34f0e757b0d11eb30878b
+> waitfornewblock
+> getvault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b true
+{
+  "vaultId": "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b",
+  "loanSchemeId": "C150",
+  "ownerAddress": "tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH",
+  "state": "active",
+  "collateralAmounts": [],
+  "loanAmounts": [],
+  "interestAmounts": [],
+  "collateralValue": 0,
+  "loanValue": 0,
+  "interestValue": 0,
+  "informativeRatio": -1,
+  "collateralRatio": -1,
+  "nextCollateralRatio": -1,
+  "interestPerBlockValue": "0.000000000000000000000000",
+  "interestsPerBlock": []
+}
+```
+
+## Close the vault
+Optionally close the vault [transaction](https://defiscan.live/transactions/119dbe51114add775ab3ad7f1e7dd1cc44223d5798b0e0f5e37f427149862bb4?network=TestNet)
+```
+> closevault "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b" "tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH"
+119dbe51114add775ab3ad7f1e7dd1cc44223d5798b0e0f5e37f427149862bb4
+> waitfornewblock
+> listvaults {"ownerAddress":"tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH"}
+[]
+```
