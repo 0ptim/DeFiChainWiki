@@ -3,7 +3,7 @@ title: Guide to create a vault with the CLI and mint DUSD
 description: Based on the informations provided in #vaults-and-loans this guide will describes all steps on howto generate a DFI only vault to mint some DUSD to profit from the negative interest rate.
 ---
 ## Preparations
- - ensure that your wallet has at least 1DFI??? available for the vault creation.
+ - ensure that your wallet has at least 2DFI available for the vault creation. 1DFI gets burned during creation, the other DFI is payed back when the vault is closed.
  - navigate to the cli within the DefiWallet.
  - INFO: the cli is very fragile when it comes to spaces within the commands. So it is recommended to remove spaces wherever possible.
 ```
