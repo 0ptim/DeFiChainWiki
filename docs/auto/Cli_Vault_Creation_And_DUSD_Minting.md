@@ -24,9 +24,9 @@ description: Based on the informations provided in #vaults-and-loans this guide 
 ## Vault creation {#vault-generation}
 To generate a new vault the command **createvault "ownerAddress" ("loanSchemeId")** is used.
 
-For a list of all available schemes call **listloanschemes**. [transaction](https://defiscan.live/transactions/40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b?network=TestNet)
+For a list of all available schemes call **listloanschemes**. 
 
-In this example we use the default loan Scheme "*MIN150*" so we just specify the account address.
+In this example we use the default loan Scheme "*MIN150*" so we just specify the account address. [transaction](https://defiscan.live/transactions/40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b?network=TestNet)
 ```
 > createvault tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH
 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b
