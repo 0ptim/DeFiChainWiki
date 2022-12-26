@@ -23,6 +23,7 @@ description: Based on the informations provided in #vaults-and-loans this guide 
 ```
 ## Vault creation {#vault-generation}
 To generate a new vault the command **createvault "ownerAddress" ("loanSchemeId")** is used.
+
 For a list of all available schemes call **listloanschemes**. [transaction](https://defiscan.live/transactions/40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b?network=TestNet)
 
 In this example we use the default loan Scheme "*MIN150*" so we just specify the account address.
@@ -83,7 +84,8 @@ After vault generation it could be that the balances are transfered to another a
 
 ## Vault DFI deposit {#vault-deposit}
 Next deposit some DFIs into the generated vault. 
-Only tokens can be deposit in the wallet so transfer utxo to token if needed using the command **utxotoaccount {"address":"amount@token"}**: [transaction](https://defiscan.live/transactions/a80da68afc050a0671dd712dd64c044b9416650081f586c6ac13710c1e7ddc55?network=TestNet)
+
+Only tokens can be deposit into the vault so transfer utxo to token if needed using the command **utxotoaccount {"address":"amount@token"}**: [transaction](https://defiscan.live/transactions/a80da68afc050a0671dd712dd64c044b9416650081f586c6ac13710c1e7ddc55?network=TestNet)
 ```
 > utxostoaccount {"tgPJbMNsGzXVBsn57KZGGCZXsF4K88xRGB":"500@DFI"}
 a80da68afc050a0671dd712dd64c044b9416650081f586c6ac13710c1e7ddc55
@@ -104,8 +106,10 @@ Than deposit the DFI in the vault with the command **deposittovault "vaultId" "f
 
 ## Vault DUSD loan {#vault-loan}
 Now we are eligible to take a loan out of the vault. 
+
 ### Estimate loan 
 For the case you like to take as much DUSD as possible out of your vault use the **estimateloan "vaultId" {"split":n} ( targetRatio )** command.
+
 Here as an example with a split into 100% DUSD token and a collateral of at least 150% (the minimum of the choosen loan scheme).
 ```
 > estimateloan "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b" {"DUSD":1.0} 150
@@ -145,7 +149,7 @@ With the command **takeloan {"vaultId":"hex","to":"address","amounts":"str"}** t
 ```
 
 ### Loop DUSD loan
-For the case you just want to profit from the negative interest rate the taken loan DUSD tokens can be deposit into the wallet as additional collateral afterwards. [transaction](https://defiscan.live/transactions/b6dbb4bba4ec83eda09daf531d1968d4194ca39ba7273f471dd7a14303a991b9?network=TestNet)
+If you just want to profit from the negative interest rate the taken loan DUSD tokens can be deposit back into the vault as additional collateral. [transaction](https://defiscan.live/transactions/b6dbb4bba4ec83eda09daf531d1968d4194ca39ba7273f471dd7a14303a991b9?network=TestNet)
 ```
 > deposittovault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b tgPJbMNsGzXVBsn57KZGGCZXsF4K88xRGB 100@DUSD                               
 b6dbb4bba4ec83eda09daf531d1968d4194ca39ba7273f471dd7a14303a991b9  
@@ -182,6 +186,7 @@ As seen in the result we get already our first negative interest onto the DUSD l
 
 ## Payback Loan
 Because we deposit the loan DUSD tokens into the collateral we should first payback the DUSD loan with our DUSD collateral.
+
 To do so use the command **paybackwithcollateral "vaultId"** : [transaction](https://defiscan.live/transactions/7c333e497779e1dc63c578a8ff29591def8933219f90354a67c4ff0751779e3c?network=TestNet)
 ```
 > paybackwithcollateral "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b"
@@ -216,6 +221,7 @@ To do so use the command **paybackwithcollateral "vaultId"** : [transaction](htt
 ```
 
 Payback the remaining DUSD loan with DUSD tokens from the wallet using the command **paybackloan {"vaultId":"hex","from":"address","amounts":"str"}** 
+
 *Hint*: Its save to define an amount which is higher than the collateral [transaction](https://defiscan.live/transactions/617a5e26b231c9fd80ce2c882abd3f22a5d755140ba2b1deb4c2883b2f9bf4d0?network=TestNet)
 ```
 > paybackloan {"vaultId":"40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b","from":"tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH","amounts":"31@DUSD"}
@@ -246,6 +252,7 @@ Payback the remaining DUSD loan with DUSD tokens from the wallet using the comma
 ## Withdraw Collateral
 
 Withdraw the DFI collateral with the command **withdrawfromvault "vaultId" "toAddress" "amount"**.
+
 In case the vault gets closed afterwards, this step can be skipped because the **closevault** command automatically send all remaining collateral to the specified address.
 
 [transaction](https://defiscan.live/transactions/de1a5206cad6bdac8c75051594f7196a1452f6352de34f0e757b0d11eb30878b?network=TestNet)
