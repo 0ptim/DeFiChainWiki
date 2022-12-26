@@ -83,13 +83,13 @@ After vault generation it could be that the balances are transfered to another a
 
 ## Vault DFI deposit {#vault-deposit}
 Next deposit some DFIs into the generated vault. 
-Only tokens can be deposit in the wallet so transfer utxo to token if needed using the command **utxotoaccount {"address":"amount@token"}** [transaction](https://defiscan.live/transactions/a80da68afc050a0671dd712dd64c044b9416650081f586c6ac13710c1e7ddc55?network=TestNet)
+Only tokens can be deposit in the wallet so transfer utxo to token if needed using the command **utxotoaccount {"address":"amount@token"}**: [transaction](https://defiscan.live/transactions/a80da68afc050a0671dd712dd64c044b9416650081f586c6ac13710c1e7ddc55?network=TestNet)
 ```
 > utxostoaccount {"tgPJbMNsGzXVBsn57KZGGCZXsF4K88xRGB":"500@DFI"}
 a80da68afc050a0671dd712dd64c044b9416650081f586c6ac13710c1e7ddc55
 > waitfornewblock
 ```
-Than deposit the DFI in the vault [transaction](https://defiscan.live/transactions/1d025f1db8eccb9b69b0afc0f98ab576d3c7f43728bf889e048bac08db464687?network=TestNet)
+Than deposit the DFI in the vault with the command **deposittovault "vaultId" "fromAddress" "amount"**: [transaction](https://defiscan.live/transactions/1d025f1db8eccb9b69b0afc0f98ab576d3c7f43728bf889e048bac08db464687?network=TestNet)
 ```
 > deposittovault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b tgPJbMNsGzXVBsn57KZGGCZXsF4K88xRGB 500@DFI                                
 1d025f1db8eccb9b69b0afc0f98ab576d3c7f43728bf889e048bac08db464687
