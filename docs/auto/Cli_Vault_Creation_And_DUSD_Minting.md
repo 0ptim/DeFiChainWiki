@@ -148,7 +148,7 @@ With the command **takeloan {"vaultId":"hex","to":"address","amounts":"str"}** t
 } 
 ```
 
-### Loop DUSD loan
+### Loop DUSD loan {#vault-looping}
 If you just want to profit from the negative interest rate the taken loan DUSD tokens can be deposit back into the vault as additional collateral. [transaction](https://defiscan.live/transactions/b6dbb4bba4ec83eda09daf531d1968d4194ca39ba7273f471dd7a14303a991b9?network=TestNet)
 ```
 > deposittovault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b tgPJbMNsGzXVBsn57KZGGCZXsF4K88xRGB 100@DUSD                               
@@ -184,7 +184,7 @@ b6dbb4bba4ec83eda09daf531d1968d4194ca39ba7273f471dd7a14303a991b9
 ```
 As seen in the result we get already our first negative interest onto the DUSD loan, so the payback amount is not 100DUSD anymore.
 
-## Payback Loan
+## Payback Loan {#vault-payback}
 Because we deposit the loan DUSD tokens into the collateral we should first payback the DUSD loan with our DUSD collateral.
 
 To do so use the command **paybackwithcollateral "vaultId"** : [transaction](https://defiscan.live/transactions/7c333e497779e1dc63c578a8ff29591def8933219f90354a67c4ff0751779e3c?network=TestNet)
@@ -249,7 +249,7 @@ Payback the remaining DUSD loan with DUSD tokens from the wallet using the comma
 }
 ```
 
-## Withdraw Collateral
+## Withdraw Collateral {#vault-withdraw}
 
 Withdraw the DFI collateral with the command **withdrawfromvault "vaultId" "toAddress" "amount"**.
 
@@ -280,7 +280,7 @@ de1a5206cad6bdac8c75051594f7196a1452f6352de34f0e757b0d11eb30878b
 }
 ```
 
-## Close the vault
+## Close the vault {#vault-close}
 Optionally close the vault with the command **closevault "vaultId" "toAddress"**:[transaction](https://defiscan.live/transactions/119dbe51114add775ab3ad7f1e7dd1cc44223d5798b0e0f5e37f427149862bb4?network=TestNet)
 ```
 > closevault "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b" "tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH"
