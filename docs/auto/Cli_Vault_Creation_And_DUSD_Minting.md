@@ -281,7 +281,7 @@ de1a5206cad6bdac8c75051594f7196a1452f6352de34f0e757b0d11eb30878b
 ```
 
 ## Close the vault {#vault-close}
-Optionally close the vault with the command **closevault "vaultId" "toAddress"**:[transaction](https://defiscan.live/transactions/119dbe51114add775ab3ad7f1e7dd1cc44223d5798b0e0f5e37f427149862bb4?network=TestNet)
+Optionally close the vault with the command **closevault "vaultId" "toAddress"**: [transaction](https://defiscan.live/transactions/119dbe51114add775ab3ad7f1e7dd1cc44223d5798b0e0f5e37f427149862bb4?network=TestNet)
 ```
 > closevault "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b" "tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH"
 119dbe51114add775ab3ad7f1e7dd1cc44223d5798b0e0f5e37f427149862bb4
