@@ -125,6 +125,7 @@ const sidebars = {
           items: [
             "auto/API",
             "auto/CLI_Commands",
+            "auto/CLI_Vault_and_Loan",
             "auto/Bitcoin_Anchoring",
             "auto/Blockchain_folder",
             "auto/Dual_setup_App_and_Node",
@@ -135,7 +136,6 @@ const sidebars = {
             "auto/Import_BTC_private_key_to_Electrum",
             "auto/Atomic_Swap",
             "auto/Update_Masternode",
-            "auto/Cli_Vault_Creation_And_DUSD_Minting",
           ],
         },
         {

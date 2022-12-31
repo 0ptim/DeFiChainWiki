@@ -1,6 +1,6 @@
 ---
-title: Vault and dUSD loan with CLI
-description: Step-by-Step Guide for Creating, Managing, and Closing Vaults with the DeFiChain Desktop Wallet CLI
+title: Vault and loan with CLI
+description: Step-by-Step Guide for Creating, Managing, and Closing Vaults with the DeFiChain Desktop Wallet CLI.
 ---
 
 Based on the information provided in [Vaults and Loans](./Vaults_Loans.md), this guide will describe all steps on how to generate a DFI only vault to mint some dUSD to profit from the negative interest rate.
@@ -15,7 +15,7 @@ Based on the information provided in [Vaults and Loans](./Vaults_Loans.md), this
 
 ## Preparations {#preparations}
 
-- Ensure that your wallet has at least 2 DFI available for the vault creation.
+- Ensure that your wallet has at least **2 DFI available** for the vault creation.
   - 1 DFI is burned during creation, the other one is paid back when the vault is closed.
 - Unlock your wallet
 - Navigate to the CLI within the Desktop Wallet.
