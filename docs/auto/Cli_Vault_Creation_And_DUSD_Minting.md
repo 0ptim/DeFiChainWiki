@@ -1,5 +1,5 @@
 ---
-title: Guide to create a vault with the CLI and take a DUSD loan
+title: Vault and dUSD loan with CLI
 description: Based on the informations provided in #vaults-and-loans this guide will describes all steps on howto generate a DFI only vault to mint some DUSD to profit from the negative interest rate.
 ---
 
