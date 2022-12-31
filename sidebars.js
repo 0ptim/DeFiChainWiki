@@ -135,6 +135,7 @@ const sidebars = {
             "auto/Import_BTC_private_key_to_Electrum",
             "auto/Atomic_Swap",
             "auto/Update_Masternode",
+            "auto/Cli_Vault_Creation_And_DUSD_Minting",
           ],
         },
         {
@@ -233,7 +234,7 @@ const sidebars = {
       },
       items: ["auto/Sharing_is_caring", "auto/Contribute"],
     },
-    "auto/Links"
+    "auto/Links",
   ],
 };
 
