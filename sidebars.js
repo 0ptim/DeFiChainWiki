@@ -125,6 +125,7 @@ const sidebars = {
           items: [
             "auto/API",
             "auto/CLI_Commands",
+            "auto/CLI_Vault_and_Loan",
             "auto/Bitcoin_Anchoring",
             "auto/Blockchain_folder",
             "auto/Dual_setup_App_and_Node",
