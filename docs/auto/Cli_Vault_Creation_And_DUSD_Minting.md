@@ -10,11 +10,18 @@ description: Based on the information provided in #vaults-and-loans, this guide 
 - navigate to the CLI within the Desktop Wallet.
 - INFO: the CLI is very fragile when it comes to spaces within the commands. It is recommended to remove spaces wherever possible.
 
-Let's start with a new wallet on the Testnet filled with 1000 DFI from the [Testnet faucet](https://testnet-utxo.mydefichain.com/index.php)
+Let's start with a new wallet on the Testnet filled with 1000DFI from the [Testnet faucet](https://testnet-utxo.mydefichain.com/index.php).
+
+_Command_
+
+```bash
+listaddressgroupings
+```
+
+<details><summary>Example output</summary>
+<p>
 
 ```
-> listaddressgroupings
-[
   [
     [
       "tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH",
@@ -25,6 +32,9 @@ Let's start with a new wallet on the Testnet filled with 1000 DFI from the [Test
 ]
 ```
 
+</p>
+</details>
+
 ## Vault creation {#vault-generation}
 
 To generate a new vault, the command **createvault "ownerAddress" ("loanSchemeId")** is used.
@@ -33,16 +43,35 @@ For a list of all available schemes, call **listloanschemes**.
 
 In this example we use the default loan scheme "_MIN150_" so we just specify the account address. [transaction](https://defiscan.live/transactions/40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b?network=TestNet)
 
+_Command_
+
+```bash
+createvault tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH
 ```
-> createvault tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH
+
+<details><summary>Example output</summary>
+<p>
+
+```
 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b
 ```
+
+</p>
+</details>
 
 _Hint_: The transaction ID is automatically the `vaultid`
 Next, get a list of all vaults within the wallet
 
+_Command_
+
+```bash
+listvaults {"ownerAddress":"tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH"}
 ```
-> listvaults {"ownerAddress":"tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH"}
+
+<details><summary>Example output</summary>
+<p>
+
+```
 [
   {
     "vaultId": "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b",
@@ -53,10 +82,21 @@ Next, get a list of all vaults within the wallet
 ]
 ```
 
+</p>
+</details>
+
 or directly call **getvault "vaultId"** with the provided transaction ID of the vault creation step
 
+_Command_
+
+```bash
+getvault "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b"
 ```
-> getvault "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b"
+
+<details><summary>Example output</summary>
+<p>
+
+```
 {
   "vaultId": "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b",
   "loanSchemeId": "C150",
@@ -72,10 +112,21 @@ or directly call **getvault "vaultId"** with the provided transaction ID of the 
   "collateralRatio": -1
 ```
 
+</p>
+</details>
+
 After vault generation, the balances might have been transferred to another address within the wallet.
 
+_Command_
+
+```bash
+listaddressgroupings
 ```
-> listaddressgroupings
+
+<details><summary>Example output</summary>
+<p>
+
+```
 [
   [
     [
@@ -91,31 +142,80 @@ After vault generation, the balances might have been transferred to another addr
 ]
 ```
 
+</p>
+</details>
+
 ## Vault DFI deposit {#vault-deposit}
 
 Next, deposit some DFI into the generated vault.
 
 Only tokens can be deposited into the vault, so transfer UTXO to token if needed using the command **utxotoaccount {"address":"amount@token"}**: [transaction](https://defiscan.live/transactions/a80da68afc050a0671dd712dd64c044b9416650081f586c6ac13710c1e7ddc55?network=TestNet)
 
+_Command_
+
+```bash
+utxostoaccount {"tgPJbMNsGzXVBsn57KZGGCZXsF4K88xRGB":"500@DFI"}
 ```
-> utxostoaccount {"tgPJbMNsGzXVBsn57KZGGCZXsF4K88xRGB":"500@DFI"}
+
+<details><summary>Example output</summary>
+<p>
+
+```
 a80da68afc050a0671dd712dd64c044b9416650081f586c6ac13710c1e7ddc55
-> waitfornewblock
+```
+
+</p>
+</details>
+
+_Command_
+
+```bash
+waitfornewblock
 ```
 
 Then deposit the DFI in the vault with the command **deposittovault "vaultId" "fromAddress" "amount"**: [transaction](https://defiscan.live/transactions/1d025f1db8eccb9b69b0afc0f98ab576d3c7f43728bf889e048bac08db464687?network=TestNet)
 
+_Command_
+
+```bash
+deposittovault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b tgPJbMNsGzXVBsn57KZGGCZXsF4K88xRGB 500@DFI
 ```
-> deposittovault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b tgPJbMNsGzXVBsn57KZGGCZXsF4K88xRGB 500@DFI
+
+<details><summary>Example output</summary>
+<p>
+
+```
 1d025f1db8eccb9b69b0afc0f98ab576d3c7f43728bf889e048bac08db464687
-> waitfornewblock
-> getvault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b true
+```
+
+</p>
+</details>
+
+_Command_
+
+```bash
+waitfornewblock
+```
+
+_Command_
+
+```bash
+getvault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b true
+```
+
+<details><summary>Example output</summary>
+<p>
+
+```
 ...
   "collateralAmounts": [
     "500.00000000@DFI"
   ],
 ...
 ```
+
+</p>
+</details>
 
 ## Vault dUSD loan {#vault-loan}
 
@@ -127,19 +227,48 @@ For the case you like to take as much dUSD as possible out of your vault, use th
 
 Here as an example with a split into 100% dUSD token and a collateral of at least 150% (the minimum of the chosen loan scheme).
 
-```
-> estimateloan "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b" {"DUSD":1.0} 150
+_Command_
+
+```bash
+estimateloan "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b" {"DUSD":1.0} 150
 ```
 
 ### Take dUSD loan
 
 With the command **takeloan {"vaultId":"hex","to":"address","amounts":"str"}** the loan can be taken from the vault: [transaction](https://defiscan.live/transactions/5d30554b48cff80bd7937b87ae4ae2606a5c7e20902ccead6909a29ec9567fa2?network=TestNet)
 
+_Command_
+
+```bash
+takeloan {"vaultId":"40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b","to":"tgPJbMNsGzXVBsn57KZGGCZXsF4K88xRGB","amounts":"100@DUSD"}
 ```
-> takeloan {"vaultId":"40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b","to":"tgPJbMNsGzXVBsn57KZGGCZXsF4K88xRGB","amounts":"100@DUSD"}
+
+<details><summary>Example output</summary>
+<p>
+
+```
 5d30554b48cff80bd7937b87ae4ae2606a5c7e20902ccead6909a29ec9567fa2
-> waitfornewblock
-> getvault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b true
+```
+
+</p>
+</details>
+
+_Command_
+
+```bash
+waitfornewblock
+```
+
+_Command_
+
+```bash
+getvault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b true
+```
+
+<details><summary>Example output</summary>
+<p>
+
+```
 {
   "vaultId": "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b",
   "loanSchemeId": "C150",
@@ -167,15 +296,45 @@ With the command **takeloan {"vaultId":"hex","to":"address","amounts":"str"}** t
 }
 ```
 
+</p>
+</details>
+
 ### Loop dUSD loan {#vault-looping}
 
 If you just want to profit from the negative interest rate, the taken loan dUSD tokens can be deposit back into the vault as additional collateral. [transaction](https://defiscan.live/transactions/b6dbb4bba4ec83eda09daf531d1968d4194ca39ba7273f471dd7a14303a991b9?network=TestNet)
 
+_Command_
+
+```bash
+deposittovault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b tgPJbMNsGzXVBsn57KZGGCZXsF4K88xRGB 100@DUSD
 ```
-> deposittovault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b tgPJbMNsGzXVBsn57KZGGCZXsF4K88xRGB 100@DUSD
+
+<details><summary>Example output</summary>
+<p>
+
+```
 b6dbb4bba4ec83eda09daf531d1968d4194ca39ba7273f471dd7a14303a991b9
-> waitfornewblock
-> getvault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b true
+```
+
+</p>
+</details>
+
+_Command_
+
+```bash
+waitfornewblock
+```
+
+_Command_
+
+```bash
+getvault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b true
+```
+
+<details><summary>Example output</summary>
+<p>
+
+```
 {
   "vaultId": "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b",
   "loanSchemeId": "C150",
@@ -204,6 +363,9 @@ b6dbb4bba4ec83eda09daf531d1968d4194ca39ba7273f471dd7a14303a991b9
 }
 ```
 
+</p>
+</details>
+
 As seen in the result, we get already our first negative interest onto the dUSD loan, so the payback amount is not 100DUSD anymore.
 
 ## Payback Loan {#vault-payback}
@@ -212,11 +374,38 @@ Because we deposit the loan dUSD tokens into the collateral, we should first pay
 
 To do so, use the command **paybackwithcollateral "vaultId"** : [transaction](https://defiscan.live/transactions/7c333e497779e1dc63c578a8ff29591def8933219f90354a67c4ff0751779e3c?network=TestNet)
 
+_Command_
+
+```bash
+paybackwithcollateral "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b"
 ```
-> paybackwithcollateral "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b"
+
+<details><summary>Example output</summary>
+<p>
+
+```
 7c333e497779e1dc63c578a8ff29591def8933219f90354a67c4ff0751779e3c
-> waitfornewblock
-> getvault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b true
+```
+
+</p>
+</details>
+
+_Command_
+
+```bash
+waitfornewblock
+```
+
+_Command_
+
+```bash
+getvault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b true
+```
+
+<details><summary>Example output</summary>
+<p>
+
+```
 {
   "vaultId": "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b",
   "loanSchemeId": "C150",
@@ -244,15 +433,45 @@ To do so, use the command **paybackwithcollateral "vaultId"** : [transaction](ht
 }
 ```
 
+</p>
+</details>
+
 Pay the remaining dUSD loan back with dUSD tokens from the wallet using the command **paybackloan {"vaultId":"hex","from":"address","amounts":"str"}**
 
 _Hint_: It's save to define an amount which is higher than the collateral [transaction](https://defiscan.live/transactions/617a5e26b231c9fd80ce2c882abd3f22a5d755140ba2b1deb4c2883b2f9bf4d0?network=TestNet)
 
+_Command_
+
+```bash
+paybackloan {"vaultId":"40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b","from":"tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH","amounts":"31@DUSD"}
 ```
-> paybackloan {"vaultId":"40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b","from":"tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH","amounts":"31@DUSD"}
+
+<details><summary>Example output</summary>
+<p>
+
+```
 617a5e26b231c9fd80ce2c882abd3f22a5d755140ba2b1deb4c2883b2f9bf4d0
-> waitfornewblock
-> getvault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b true
+```
+
+</p>
+</details>
+
+_Command_
+
+```bash
+waitfornewblock
+```
+
+_Command_
+
+```bash
+getvault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b true
+```
+
+<details><summary>Example output</summary>
+<p>
+
+```
 {
   "vaultId": "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b",
   "loanSchemeId": "C150",
@@ -274,6 +493,9 @@ _Hint_: It's save to define an amount which is higher than the collateral [trans
 }
 ```
 
+</p>
+</details>
+
 ## Withdraw Collateral {#vault-withdraw}
 
 Withdraw the DFI collateral with the command **withdrawfromvault "vaultId" "toAddress" "amount"**.
@@ -282,11 +504,38 @@ In case the vault gets closed afterward, this step can be skipped because the **
 
 [transaction](https://defiscan.live/transactions/de1a5206cad6bdac8c75051594f7196a1452f6352de34f0e757b0d11eb30878b?network=TestNet)
 
+_Command_
+
+```bash
+withdrawfromvault "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b" "tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH" "500@DFI"
 ```
-> withdrawfromvault "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b" "tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH" "500@DFI"
+
+<details><summary>Example output</summary>
+<p>
+
+```
 de1a5206cad6bdac8c75051594f7196a1452f6352de34f0e757b0d11eb30878b
-> waitfornewblock
-> getvault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b true
+```
+
+</p>
+</details>
+
+_Command_
+
+```bash
+waitfornewblock
+```
+
+_Command_
+
+```bash
+getvault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b true
+```
+
+<details><summary>Example output</summary>
+<p>
+
+```
 {
   "vaultId": "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b",
   "loanSchemeId": "C150",
@@ -306,14 +555,47 @@ de1a5206cad6bdac8c75051594f7196a1452f6352de34f0e757b0d11eb30878b
 }
 ```
 
+</p>
+</details>
+
 ## Close the vault {#vault-close}
 
 Optionally close the vault with the command **closevault "vaultId" "toAddress"**: [transaction](https://defiscan.live/transactions/119dbe51114add775ab3ad7f1e7dd1cc44223d5798b0e0f5e37f427149862bb4?network=TestNet)
 
+_Command_
+
+```bash
+closevault "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b" "tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH"
 ```
-> closevault "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b" "tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH"
+
+<details><summary>Example output</summary>
+<p>
+
+```
 119dbe51114add775ab3ad7f1e7dd1cc44223d5798b0e0f5e37f427149862bb4
-> waitfornewblock
-> listvaults {"ownerAddress":"tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH"}
+```
+
+</p>
+</details>
+
+_Command_
+
+```bash
+waitfornewblock
+```
+
+_Command_
+
+```bash
+listvaults {"ownerAddress":"tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH"}
+```
+
+<details><summary>Example output</summary>
+<p>
+
+```
 []
 ```
+
+</p>
+</details>
