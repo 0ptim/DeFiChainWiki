@@ -21,7 +21,7 @@ jobs:
         with:
           dry: True
           only_changed: True
-          prettier_options: --end-of-line lf
+          prettier_options: --check **/*.{js,css,md} --end-of-line lf
 
   build:
     name: Create test build
