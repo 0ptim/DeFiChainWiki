@@ -1,7 +1,9 @@
 ---
 title: Vault and dUSD loan with CLI
-description: Based on the information provided in #vaults-and-loans, this guide will describe all steps on how to generate a DFI only vault to mint some dUSD to profit from the negative interest rate.
+description: Step-by-Step Guide for Creating, Managing, and Closing Vaults with the DeFiChain Desktop Wallet CLI
 ---
+
+Based on the information provided in [Vaults and Loans](./Vaults_Loans.md), this guide will describe all steps on how to generate a DFI only vault to mint some dUSD to profit from the negative interest rate.
 
 ## Key learnings {#key-learnings}
 
