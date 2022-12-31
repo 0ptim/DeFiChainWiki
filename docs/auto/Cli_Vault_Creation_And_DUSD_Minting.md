@@ -3,7 +3,15 @@ title: Vault and dUSD loan with CLI
 description: Based on the information provided in #vaults-and-loans, this guide will describe all steps on how to generate a DFI only vault to mint some dUSD to profit from the negative interest rate.
 ---
 
-## Preparations
+## Key learnings {#key-learnings}
+
+- Set up a wallet on the Testnet and ensure that it has enough DFI for the vault creation process
+- Use the CLI to create a new vault and deposit DFI into it
+- Use the CLI to estimate and take out a dUSD loan from the vault
+- Check the status of the vault and loan using the CLI
+- Repay the loan and close the vault using the CLI
+
+## Preparations {#preparations}
 
 - Ensure that your wallet has at least 2 DFI available for the vault creation.
   - 1 DFI is burned during creation, the other one is paid back when the vault is closed.
