@@ -1,16 +1,16 @@
 ---
 title: Vault and dUSD loan with CLI
-description: Based on the informations provided in #vaults-and-loans this guide will describes all steps on howto generate a DFI only vault to mint some DUSD to profit from the negative interest rate.
+description: Based on the information provided in #vaults-and-loans, this guide will describe all steps on how to generate a DFI only vault to mint some dUSD to profit from the negative interest rate.
 ---
 
 ## Preparations
 
-- ensure that your wallet has at least 2DFI available for the vault creation. 1DFI is burned during creation, the other one is payed back when the vault is closed.
+- ensure that your wallet has at least 2DFI available for the vault creation. 1DFI is burned during creation, the other one is paid back when the vault is closed.
 - unlock your wallet
-- navigate to the cli within the DefiWallet.
-- INFO: the cli is very fragile when it comes to spaces within the commands. So it is recommended to remove spaces wherever possible.
+- navigate to the CLI within the Desktop Wallet.
+- INFO: the CLI is very fragile when it comes to spaces within the commands. It is recommended to remove spaces wherever possible.
 
-So lets start with a new wallet in the testnet filled with 1000DFI from the [testnet faucet](https://testnet-utxo.mydefichain.com/index.php)
+Let's start with a new wallet on the Testnet filled with 1000 DFI from the [Testnet faucet](https://testnet-utxo.mydefichain.com/index.php)
 
 ```
 > listaddressgroupings
@@ -27,19 +27,19 @@ So lets start with a new wallet in the testnet filled with 1000DFI from the [tes
 
 ## Vault creation {#vault-generation}
 
-To generate a new vault the command **createvault "ownerAddress" ("loanSchemeId")** is used.
+To generate a new vault, the command **createvault "ownerAddress" ("loanSchemeId")** is used.
 
-For a list of all available schemes call **listloanschemes**.
+For a list of all available schemes, call **listloanschemes**.
 
-In this example we use the default loan Scheme "_MIN150_" so we just specify the account address. [transaction](https://defiscan.live/transactions/40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b?network=TestNet)
+In this example we use the default loan scheme "_MIN150_" so we just specify the account address. [transaction](https://defiscan.live/transactions/40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b?network=TestNet)
 
 ```
 > createvault tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH
 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b
 ```
 
-_Hint_: The transaction id is automatically the vaultId
-Next get a list of all vaults within the wallet
+_Hint_: The transaction ID is automatically the `vaultid`
+Next, get a list of all vaults within the wallet
 
 ```
 > listvaults {"ownerAddress":"tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH"}
@@ -53,7 +53,7 @@ Next get a list of all vaults within the wallet
 ]
 ```
 
-or directly call **getvault "vaultId"** with the provided transaction id of the vault creation step
+or directly call **getvault "vaultId"** with the provided transaction ID of the vault creation step
 
 ```
 > getvault "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b"
@@ -72,7 +72,7 @@ or directly call **getvault "vaultId"** with the provided transaction id of the 
   "collateralRatio": -1
 ```
 
-After vault generation it could be that the balances are transfered to another address within the wallet.
+After vault generation, the balances might have been transferred to another address within the wallet.
 
 ```
 > listaddressgroupings
@@ -93,9 +93,9 @@ After vault generation it could be that the balances are transfered to another a
 
 ## Vault DFI deposit {#vault-deposit}
 
-Next deposit some DFIs into the generated vault.
+Next, deposit some DFI into the generated vault.
 
-Only tokens can be deposit into the vault so transfer utxo to token if needed using the command **utxotoaccount {"address":"amount@token"}**: [transaction](https://defiscan.live/transactions/a80da68afc050a0671dd712dd64c044b9416650081f586c6ac13710c1e7ddc55?network=TestNet)
+Only tokens can be deposited into the vault, so transfer UTXO to token if needed using the command **utxotoaccount {"address":"amount@token"}**: [transaction](https://defiscan.live/transactions/a80da68afc050a0671dd712dd64c044b9416650081f586c6ac13710c1e7ddc55?network=TestNet)
 
 ```
 > utxostoaccount {"tgPJbMNsGzXVBsn57KZGGCZXsF4K88xRGB":"500@DFI"}
@@ -103,7 +103,7 @@ a80da68afc050a0671dd712dd64c044b9416650081f586c6ac13710c1e7ddc55
 > waitfornewblock
 ```
 
-Than deposit the DFI in the vault with the command **deposittovault "vaultId" "fromAddress" "amount"**: [transaction](https://defiscan.live/transactions/1d025f1db8eccb9b69b0afc0f98ab576d3c7f43728bf889e048bac08db464687?network=TestNet)
+Then deposit the DFI in the vault with the command **deposittovault "vaultId" "fromAddress" "amount"**: [transaction](https://defiscan.live/transactions/1d025f1db8eccb9b69b0afc0f98ab576d3c7f43728bf889e048bac08db464687?network=TestNet)
 
 ```
 > deposittovault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b tgPJbMNsGzXVBsn57KZGGCZXsF4K88xRGB 500@DFI
@@ -117,21 +117,21 @@ Than deposit the DFI in the vault with the command **deposittovault "vaultId" "f
 ...
 ```
 
-## Vault DUSD loan {#vault-loan}
+## Vault dUSD loan {#vault-loan}
 
 Now we are eligible to take a loan out of the vault.
 
 ### Estimate loan
 
-For the case you like to take as much DUSD as possible out of your vault use the **estimateloan "vaultId" {"split":n} ( targetRatio )** command.
+For the case you like to take as much dUSD as possible out of your vault, use the **estimateloan "vaultId" {"split":n} ( targetRatio )** command.
 
-Here as an example with a split into 100% DUSD token and a collateral of at least 150% (the minimum of the choosen loan scheme).
+Here as an example with a split into 100% dUSD token and a collateral of at least 150% (the minimum of the chosen loan scheme).
 
 ```
 > estimateloan "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b" {"DUSD":1.0} 150
 ```
 
-### Take DUSD loan
+### Take dUSD loan
 
 With the command **takeloan {"vaultId":"hex","to":"address","amounts":"str"}** the loan can be taken from the vault: [transaction](https://defiscan.live/transactions/5d30554b48cff80bd7937b87ae4ae2606a5c7e20902ccead6909a29ec9567fa2?network=TestNet)
 
@@ -167,9 +167,9 @@ With the command **takeloan {"vaultId":"hex","to":"address","amounts":"str"}** t
 }
 ```
 
-### Loop DUSD loan {#vault-looping}
+### Loop dUSD loan {#vault-looping}
 
-If you just want to profit from the negative interest rate the taken loan DUSD tokens can be deposit back into the vault as additional collateral. [transaction](https://defiscan.live/transactions/b6dbb4bba4ec83eda09daf531d1968d4194ca39ba7273f471dd7a14303a991b9?network=TestNet)
+If you just want to profit from the negative interest rate, the taken loan dUSD tokens can be deposit back into the vault as additional collateral. [transaction](https://defiscan.live/transactions/b6dbb4bba4ec83eda09daf531d1968d4194ca39ba7273f471dd7a14303a991b9?network=TestNet)
 
 ```
 > deposittovault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b tgPJbMNsGzXVBsn57KZGGCZXsF4K88xRGB 100@DUSD
@@ -204,13 +204,13 @@ b6dbb4bba4ec83eda09daf531d1968d4194ca39ba7273f471dd7a14303a991b9
 }
 ```
 
-As seen in the result we get already our first negative interest onto the DUSD loan, so the payback amount is not 100DUSD anymore.
+As seen in the result, we get already our first negative interest onto the dUSD loan, so the payback amount is not 100DUSD anymore.
 
 ## Payback Loan {#vault-payback}
 
-Because we deposit the loan DUSD tokens into the collateral we should first payback the DUSD loan with our DUSD collateral.
+Because we deposit the loan dUSD tokens into the collateral, we should first pay back the dUSD loan with our dUSD collateral.
 
-To do so use the command **paybackwithcollateral "vaultId"** : [transaction](https://defiscan.live/transactions/7c333e497779e1dc63c578a8ff29591def8933219f90354a67c4ff0751779e3c?network=TestNet)
+To do so, use the command **paybackwithcollateral "vaultId"** : [transaction](https://defiscan.live/transactions/7c333e497779e1dc63c578a8ff29591def8933219f90354a67c4ff0751779e3c?network=TestNet)
 
 ```
 > paybackwithcollateral "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b"
@@ -244,9 +244,9 @@ To do so use the command **paybackwithcollateral "vaultId"** : [transaction](htt
 }
 ```
 
-Payback the remaining DUSD loan with DUSD tokens from the wallet using the command **paybackloan {"vaultId":"hex","from":"address","amounts":"str"}**
+Pay the remaining dUSD loan back with dUSD tokens from the wallet using the command **paybackloan {"vaultId":"hex","from":"address","amounts":"str"}**
 
-_Hint_: Its save to define an amount which is higher than the collateral [transaction](https://defiscan.live/transactions/617a5e26b231c9fd80ce2c882abd3f22a5d755140ba2b1deb4c2883b2f9bf4d0?network=TestNet)
+_Hint_: It's save to define an amount which is higher than the collateral [transaction](https://defiscan.live/transactions/617a5e26b231c9fd80ce2c882abd3f22a5d755140ba2b1deb4c2883b2f9bf4d0?network=TestNet)
 
 ```
 > paybackloan {"vaultId":"40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b","from":"tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH","amounts":"31@DUSD"}
@@ -278,7 +278,7 @@ _Hint_: Its save to define an amount which is higher than the collateral [transa
 
 Withdraw the DFI collateral with the command **withdrawfromvault "vaultId" "toAddress" "amount"**.
 
-In case the vault gets closed afterwards, this step can be skipped because the **closevault** command automatically send all remaining collateral to the specified address.
+In case the vault gets closed afterward, this step can be skipped because the **closevault** command automatically send all remaining collateral to the specified address.
 
 [transaction](https://defiscan.live/transactions/de1a5206cad6bdac8c75051594f7196a1452f6352de34f0e757b0d11eb30878b?network=TestNet)
 
