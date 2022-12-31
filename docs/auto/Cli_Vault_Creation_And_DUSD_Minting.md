@@ -5,20 +5,22 @@ description: Based on the information provided in #vaults-and-loans, this guide 
 
 ## Preparations
 
-- ensure that your wallet has at least 2DFI available for the vault creation. 1DFI is burned during creation, the other one is paid back when the vault is closed.
-- unlock your wallet
-- navigate to the CLI within the Desktop Wallet.
-- INFO: the CLI is very fragile when it comes to spaces within the commands. It is recommended to remove spaces wherever possible.
+- Ensure that your wallet has at least 2 DFI available for the vault creation.
+  - 1 DFI is burned during creation, the other one is paid back when the vault is closed.
+- Unlock your wallet
+- Navigate to the CLI within the Desktop Wallet.
 
-Let's start with a new wallet on the Testnet filled with 1000DFI from the [Testnet faucet](https://testnet-utxo.mydefichain.com/index.php).
+:::caution
+The CLI is very fragile when it comes to spaces within the commands. It is recommended to remove spaces wherever possible.
+:::
 
-_Command_
+Let's start with a new wallet on the Testnet filled with 1000 DFI from the [Testnet faucet](https://testnet-utxo.mydefichain.com/index.php).
 
-```bash
+```bash title="CLI Command"
 listaddressgroupings
 ```
 
-<details><summary>Example output</summary>
+<details><summary>Expected output</summary>
 <p>
 
 ```
@@ -37,19 +39,17 @@ listaddressgroupings
 
 ## Vault creation {#vault-generation}
 
-To generate a new vault, the command **createvault "ownerAddress" ("loanSchemeId")** is used.
+To generate a new vault, the command `createvault "ownerAddress" ("loanSchemeId")` is used.
 
-For a list of all available schemes, call **listloanschemes**.
+For a list of all available schemes, call `listloanschemes`.
 
-In this example we use the default loan scheme "_MIN150_" so we just specify the account address. [transaction](https://defiscan.live/transactions/40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b?network=TestNet)
+In this example we use the default loan scheme `MIN150` so we just specify the account address. [transaction](https://defiscan.live/transactions/40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b?network=TestNet)
 
-_Command_
-
-```bash
+```bash title="CLI Command"
 createvault tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH
 ```
 
-<details><summary>Example output</summary>
+<details><summary>Expected output</summary>
 <p>
 
 ```
@@ -59,16 +59,17 @@ createvault tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH
 </p>
 </details>
 
-_Hint_: The transaction ID is automatically the `vaultid`
-Next, get a list of all vaults within the wallet
+:::tip
+The transaction ID is automatically the `vaultid`.
+:::
 
-_Command_
+Next, get a list of all vaults within the wallet.
 
-```bash
+```bash title="CLI Command"
 listvaults {"ownerAddress":"tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH"}
 ```
 
-<details><summary>Example output</summary>
+<details><summary>Expected output</summary>
 <p>
 
 ```
@@ -85,15 +86,13 @@ listvaults {"ownerAddress":"tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH"}
 </p>
 </details>
 
-or directly call **getvault "vaultId"** with the provided transaction ID of the vault creation step
+Or directly call `getvault "{vaultId}"` with the provided transaction ID of the vault creation step
 
-_Command_
-
-```bash
+```bash title="CLI Command"
 getvault "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b"
 ```
 
-<details><summary>Example output</summary>
+<details><summary>Expected output</summary>
 <p>
 
 ```
@@ -117,13 +116,11 @@ getvault "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b"
 
 After vault generation, the balances might have been transferred to another address within the wallet.
 
-_Command_
-
-```bash
+```bash title="CLI Command"
 listaddressgroupings
 ```
 
-<details><summary>Example output</summary>
+<details><summary>Expected output</summary>
 <p>
 
 ```
@@ -149,15 +146,13 @@ listaddressgroupings
 
 Next, deposit some DFI into the generated vault.
 
-Only tokens can be deposited into the vault, so transfer UTXO to token if needed using the command **utxotoaccount {"address":"amount@token"}**: [transaction](https://defiscan.live/transactions/a80da68afc050a0671dd712dd64c044b9416650081f586c6ac13710c1e7ddc55?network=TestNet)
+Only tokens can be deposited into the vault, so transfer UTXO to token if needed using the command `utxotoaccount {"address":"amount@token"}`. [transaction](https://defiscan.live/transactions/a80da68afc050a0671dd712dd64c044b9416650081f586c6ac13710c1e7ddc55?network=TestNet)
 
-_Command_
-
-```bash
+```bash title="CLI Command"
 utxostoaccount {"tgPJbMNsGzXVBsn57KZGGCZXsF4K88xRGB":"500@DFI"}
 ```
 
-<details><summary>Example output</summary>
+<details><summary>Expected output</summary>
 <p>
 
 ```
@@ -167,21 +162,17 @@ a80da68afc050a0671dd712dd64c044b9416650081f586c6ac13710c1e7ddc55
 </p>
 </details>
 
-_Command_
-
-```bash
+```bash title="CLI Command"
 waitfornewblock
 ```
 
-Then deposit the DFI in the vault with the command **deposittovault "vaultId" "fromAddress" "amount"**: [transaction](https://defiscan.live/transactions/1d025f1db8eccb9b69b0afc0f98ab576d3c7f43728bf889e048bac08db464687?network=TestNet)
+Then deposit the DFI in the vault with the command `deposittovault "vaultId" "fromAddress" "amount"`. [transaction](https://defiscan.live/transactions/1d025f1db8eccb9b69b0afc0f98ab576d3c7f43728bf889e048bac08db464687?network=TestNet)
 
-_Command_
-
-```bash
+```bash title="CLI Command"
 deposittovault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b tgPJbMNsGzXVBsn57KZGGCZXsF4K88xRGB 500@DFI
 ```
 
-<details><summary>Example output</summary>
+<details><summary>Expected output</summary>
 <p>
 
 ```
@@ -191,19 +182,15 @@ deposittovault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b 
 </p>
 </details>
 
-_Command_
-
-```bash
+```bash title="CLI Command"
 waitfornewblock
 ```
 
-_Command_
-
-```bash
+```bash title="CLI Command"
 getvault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b true
 ```
 
-<details><summary>Example output</summary>
+<details><summary>Expected output</summary>
 <p>
 
 ```
@@ -223,27 +210,23 @@ Now we are eligible to take a loan out of the vault.
 
 ### Estimate loan
 
-For the case you like to take as much dUSD as possible out of your vault, use the **estimateloan "vaultId" {"split":n} ( targetRatio )** command.
+For the case you like to take as much dUSD as possible out of your vault, use the `estimateloan "vaultId" {"split":n} targetRatio` command.
 
 Here as an example with a split into 100% dUSD token and a collateral of at least 150% (the minimum of the chosen loan scheme).
 
-_Command_
-
-```bash
+```bash title="CLI Command"
 estimateloan "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b" {"DUSD":1.0} 150
 ```
 
 ### Take dUSD loan
 
-With the command **takeloan {"vaultId":"hex","to":"address","amounts":"str"}** the loan can be taken from the vault: [transaction](https://defiscan.live/transactions/5d30554b48cff80bd7937b87ae4ae2606a5c7e20902ccead6909a29ec9567fa2?network=TestNet)
+With the command `takeloan {"vaultId":"hex","to":"address","amounts":"str"}` the loan can be taken from the vault. [transaction](https://defiscan.live/transactions/5d30554b48cff80bd7937b87ae4ae2606a5c7e20902ccead6909a29ec9567fa2?network=TestNet)
 
-_Command_
-
-```bash
+```bash title="CLI Command"
 takeloan {"vaultId":"40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b","to":"tgPJbMNsGzXVBsn57KZGGCZXsF4K88xRGB","amounts":"100@DUSD"}
 ```
 
-<details><summary>Example output</summary>
+<details><summary>Expected output</summary>
 <p>
 
 ```
@@ -253,19 +236,15 @@ takeloan {"vaultId":"40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e603312
 </p>
 </details>
 
-_Command_
-
-```bash
+```bash title="CLI Command"
 waitfornewblock
 ```
 
-_Command_
-
-```bash
+```bash title="CLI Command"
 getvault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b true
 ```
 
-<details><summary>Example output</summary>
+<details><summary>Expected output</summary>
 <p>
 
 ```
@@ -303,13 +282,11 @@ getvault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b true
 
 If you just want to profit from the negative interest rate, the taken loan dUSD tokens can be deposit back into the vault as additional collateral. [transaction](https://defiscan.live/transactions/b6dbb4bba4ec83eda09daf531d1968d4194ca39ba7273f471dd7a14303a991b9?network=TestNet)
 
-_Command_
-
-```bash
+```bash title="CLI Command"
 deposittovault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b tgPJbMNsGzXVBsn57KZGGCZXsF4K88xRGB 100@DUSD
 ```
 
-<details><summary>Example output</summary>
+<details><summary>Expected output</summary>
 <p>
 
 ```
@@ -319,19 +296,15 @@ b6dbb4bba4ec83eda09daf531d1968d4194ca39ba7273f471dd7a14303a991b9
 </p>
 </details>
 
-_Command_
-
-```bash
+```bash title="CLI Command"
 waitfornewblock
 ```
 
-_Command_
-
-```bash
+```bash title="CLI Command"
 getvault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b true
 ```
 
-<details><summary>Example output</summary>
+<details><summary>Expected output</summary>
 <p>
 
 ```
@@ -372,15 +345,13 @@ As seen in the result, we get already our first negative interest onto the dUSD 
 
 Because we deposit the loan dUSD tokens into the collateral, we should first pay back the dUSD loan with our dUSD collateral.
 
-To do so, use the command **paybackwithcollateral "vaultId"** : [transaction](https://defiscan.live/transactions/7c333e497779e1dc63c578a8ff29591def8933219f90354a67c4ff0751779e3c?network=TestNet)
+To do so, use the command `paybackwithcollateral "vaultId"`. [transaction](https://defiscan.live/transactions/7c333e497779e1dc63c578a8ff29591def8933219f90354a67c4ff0751779e3c?network=TestNet)
 
-_Command_
-
-```bash
+```bash title="CLI Command"
 paybackwithcollateral "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b"
 ```
 
-<details><summary>Example output</summary>
+<details><summary>Expected output</summary>
 <p>
 
 ```
@@ -390,19 +361,15 @@ paybackwithcollateral "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e6033
 </p>
 </details>
 
-_Command_
-
-```bash
+```bash title="CLI Command"
 waitfornewblock
 ```
-
-_Command_
 
 ```bash
 getvault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b true
 ```
 
-<details><summary>Example output</summary>
+<details><summary>Expected output</summary>
 <p>
 
 ```
@@ -436,17 +403,15 @@ getvault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b true
 </p>
 </details>
 
-Pay the remaining dUSD loan back with dUSD tokens from the wallet using the command **paybackloan {"vaultId":"hex","from":"address","amounts":"str"}**
+Pay the remaining dUSD loan back with dUSD tokens from the wallet using the command `paybackloan {"vaultId":"hex","from":"address","amounts":"str"}`
 
 _Hint_: It's save to define an amount which is higher than the collateral [transaction](https://defiscan.live/transactions/617a5e26b231c9fd80ce2c882abd3f22a5d755140ba2b1deb4c2883b2f9bf4d0?network=TestNet)
 
-_Command_
-
-```bash
+```bash title="CLI Command"
 paybackloan {"vaultId":"40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b","from":"tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH","amounts":"31@DUSD"}
 ```
 
-<details><summary>Example output</summary>
+<details><summary>Expected output</summary>
 <p>
 
 ```
@@ -456,19 +421,15 @@ paybackloan {"vaultId":"40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e603
 </p>
 </details>
 
-_Command_
-
-```bash
+```bash title="CLI Command"
 waitfornewblock
 ```
 
-_Command_
-
-```bash
+```bash title="CLI Command"
 getvault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b true
 ```
 
-<details><summary>Example output</summary>
+<details><summary>Expected output</summary>
 <p>
 
 ```
@@ -498,19 +459,17 @@ getvault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b true
 
 ## Withdraw Collateral {#vault-withdraw}
 
-Withdraw the DFI collateral with the command **withdrawfromvault "vaultId" "toAddress" "amount"**.
+Withdraw the DFI collateral with the command `withdrawfromvault "vaultId" "toAddress" "amount"`.
 
-In case the vault gets closed afterward, this step can be skipped because the **closevault** command automatically send all remaining collateral to the specified address.
+In case the vault gets closed afterward, this step can be skipped because the `closevault` command automatically send all remaining collateral to the specified address.
 
 [transaction](https://defiscan.live/transactions/de1a5206cad6bdac8c75051594f7196a1452f6352de34f0e757b0d11eb30878b?network=TestNet)
 
-_Command_
-
-```bash
+```bash title="CLI Command"
 withdrawfromvault "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b" "tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH" "500@DFI"
 ```
 
-<details><summary>Example output</summary>
+<details><summary>Expected output</summary>
 <p>
 
 ```
@@ -520,19 +479,15 @@ de1a5206cad6bdac8c75051594f7196a1452f6352de34f0e757b0d11eb30878b
 </p>
 </details>
 
-_Command_
-
-```bash
+```bash title="CLI Command"
 waitfornewblock
 ```
 
-_Command_
-
-```bash
+```bash title="CLI Command"
 getvault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b true
 ```
 
-<details><summary>Example output</summary>
+<details><summary>Expected output</summary>
 <p>
 
 ```
@@ -560,15 +515,13 @@ getvault 40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b true
 
 ## Close the vault {#vault-close}
 
-Optionally close the vault with the command **closevault "vaultId" "toAddress"**: [transaction](https://defiscan.live/transactions/119dbe51114add775ab3ad7f1e7dd1cc44223d5798b0e0f5e37f427149862bb4?network=TestNet)
+Optionally close the vault with the command `closevault "vaultId" "toAddress"`. [transaction](https://defiscan.live/transactions/119dbe51114add775ab3ad7f1e7dd1cc44223d5798b0e0f5e37f427149862bb4?network=TestNet)
 
-_Command_
-
-```bash
+```bash title="CLI Command"
 closevault "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b" "tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH"
 ```
 
-<details><summary>Example output</summary>
+<details><summary>Expected output</summary>
 <p>
 
 ```
@@ -578,19 +531,15 @@ closevault "40bfc5ce57fb7203bb89fb22aabeac4a495c364bede02606ed01e60331288b9b" "t
 </p>
 </details>
 
-_Command_
-
-```bash
+```bash title="CLI Command"
 waitfornewblock
 ```
 
-_Command_
-
-```bash
+```bash title="CLI Command"
 listvaults {"ownerAddress":"tbRQNwSTJ3rqGbFnx17ng4BuGyz3s4fEtH"}
 ```
 
-<details><summary>Example output</summary>
+<details><summary>Expected output</summary>
 <p>
 
 ```
