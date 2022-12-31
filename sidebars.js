@@ -233,7 +233,7 @@ const sidebars = {
       },
       items: ["auto/Sharing_is_caring", "auto/Contribute"],
     },
-    "auto/Links"
+    "auto/Links",
   ],
 };
 
