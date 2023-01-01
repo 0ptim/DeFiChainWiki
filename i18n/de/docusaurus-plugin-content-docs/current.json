@@ -39,11 +39,11 @@
     "message": "Lesen Sie die technischen Unterlagen über DeFiChain.",
     "description": "The generated-index page description for category Papers in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Contribute": {
-    "message": "Mithelfen",
+  "sidebar.tutorialSidebar.category.❤ Contribute": {
+    "message": "❤ Mithelfen",
     "description": "The label for category Fundamentals in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Contribute.link.generated-index.description": {
+  "sidebar.tutorialSidebar.category.❤ Contribute.link.generated-index.description": {
     "message": "Erfahre, wie du zur Verbesserung des Wikis beitragen kannst.",
     "description": "The generated-index page description for category Contribute in sidebar tutorialSidebar"
   },

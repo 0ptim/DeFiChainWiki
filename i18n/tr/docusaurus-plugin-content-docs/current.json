@@ -39,11 +39,11 @@
     "message": "DeFiChain hakkındaki teknik makaleleri okuyun.",
     "description": "The generated-index page description for category Papers in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Contribute": {
-    "message": "Katkıda bulunun",
+  "sidebar.tutorialSidebar.category.❤ Contribute": {
+    "message": "❤ Katkıda bulunun",
     "description": "The label for category Fundamentals in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Contribute.link.generated-index.description": {
+  "sidebar.tutorialSidebar.category.❤ Contribute.link.generated-index.description": {
     "message": "Viki'nin geliştirilmesine nasıl yardımcı olabileceğinizi öğrenin.",
     "description": "The generated-index page description for category Contribute in sidebar tutorialSidebar"
   },
