@@ -256,7 +256,7 @@ const sidebars = {
       label: "External Documentation",
       link: {
         type: "generated-index",
-        description: "Documentation resources on other websites .",
+        description: "Documentation resources on other websites.",
       },
       items: [
         {

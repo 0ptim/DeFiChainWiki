@@ -134,5 +134,13 @@
   "sidebar.tutorialSidebar.category.DFX.link.generated-index.description": {
     "message": "Informationen über DFX und die Verwendung der App.",
     "description": "The generated-index page description for category DFX in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.External Documentation": {
+    "message": "Externe Dokumentationen",
+    "description": "The label for category External Documentation in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.External Documentation.link.generated-index.description": {
+    "message": "Dokumentationsressourcen auf anderen Websites.",
+    "description": "The generated-index page description for category External Documentation in sidebar tutorialSidebar"
   }
 }

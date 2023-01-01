@@ -134,5 +134,13 @@
   "sidebar.tutorialSidebar.category.DFX.link.generated-index.description": {
     "message": "DFX ve nasıl kullanılacağı hakkında bilgi.",
     "description": "The generated-index page description for category DFX in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.External Documentation": {
+    "message": "Harici Dokümantasyon",
+    "description": "The label for category External Documentation in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.External Documentation.link.generated-index.description": {
+    "message": "Diğer web sitelerindeki dokümantasyon kaynakları.",
+    "description": "The generated-index page description for category External Documentation in sidebar tutorialSidebar"
   }
 }
