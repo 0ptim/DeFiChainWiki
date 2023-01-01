@@ -15,6 +15,16 @@ The official DeFiChain website.
 
 ![](./../media/ecosystem_website.png)
 
+## 💬 Telegram
+
+[t.me/defiblockchain ↗](https://t.me/defiblockchain)
+
+The official DeFiChain international Telegram group.
+
+![](./../media/ecosystem_telegram.png)
+
+_You can find a list of all Telegram groups [here](./Links.md#telegram-channels)._
+
 ## 🔍 Blockchain Explorer
 
 [defiscan.live ↗](https://defiscan.live/)
@@ -47,7 +57,7 @@ Follow DeFiChain on Instagram to get the latest news on your timeline.
 
 ![](./../media/ecosystem_instagram.png)
 
-## 💬 On Reddit
+## 🗣️ On Reddit
 
 [Reddit ↗](https://reddit.com/r/defiblockchain/)
 
