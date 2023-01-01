@@ -15,16 +15,6 @@ The official DeFiChain website.
 
 ![](./../media/ecosystem_website.png)
 
-## 💬 Telegram
-
-[t.me/defiblockchain ↗](https://t.me/defiblockchain)
-
-The official DeFiChain international Telegram group.
-
-![](./../media/ecosystem_telegram.png)
-
-_You can find a list of all Telegram groups [here](./Links.md#telegram-channels)._
-
 ## 🔍 Blockchain Explorer
 
 [defiscan.live ↗](https://defiscan.live/)
@@ -40,6 +30,16 @@ The main blockchain explorer. See wallet addresses, blocks, transactions, liquid
 Blog which covers the latest topics around DeFiChain.
 
 ![](./../media/ecosystem_blog.png)
+
+## 💬 Telegram
+
+[t.me/defiblockchain ↗](https://t.me/defiblockchain)
+
+The official DeFiChain international Telegram group.
+
+![](./../media/ecosystem_telegram.png)
+
+_You can find a list of all Telegram groups [here](./Links.md#telegram-channels)._
 
 ## 🎬 On YouTube
 
