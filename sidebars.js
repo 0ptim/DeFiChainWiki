@@ -24,25 +24,68 @@ const sidebars = {
       items: [
         "auto/Introduction",
         "auto/Ecosystem",
-        "auto/Original_White_Paper",
-        "auto/Updated_White_Paper",
-        "auto/Pink_Paper",
-        "auto/Liquidity_Mining",
-        "auto/Vaults_Loans",
-        "auto/Collateral_Ratio",
         "auto/Block_Rewards",
-        "auto/Liquidity_Mining_versus_Staking",
-        "auto/Impermanent_Loss",
-        "auto/Decentralized_Assets",
-        "auto/DEX",
-        "auto/DEX_Fee_Structure",
-        "auto/Liquidity_Token",
-        "auto/Staking",
-        "auto/Target_multiplier",
-        "auto/Tradable_dAssets_on_DeFiChain",
-        "auto/Lightwallet_change_Ocean",
-        "auto/CustomTransaction",
-        "auto/Future_Swap",
+        {
+          type: "category",
+          label: "Staking",
+          link: {
+            type: "generated-index",
+            description:
+              "Generate yield and help secure the network by staking.",
+          },
+          items: ["auto/Staking", "auto/Target_multiplier"],
+        },
+        {
+          type: "category",
+          label: "Decentralized Exchange",
+          link: {
+            type: "generated-index",
+            description: "The decentralized exchange to trade assets without the control of a single entity.",
+          },
+          items: ["auto/DEX", "auto/DEX_Fee_Structure"],
+        },
+        {
+          type: "category",
+          label: "Liquidity Mining",
+          link: {
+            type: "generated-index",
+            description: "Get a passive income with liquidity mining.",
+          },
+          items: [
+            "auto/Liquidity_Mining",
+            "auto/Liquidity_Token",
+            "auto/Liquidity_Mining_versus_Staking",
+            "auto/Impermanent_Loss",
+          ],
+        },
+        {
+          type: "category",
+          label: "dToken System",
+          link: {
+            type: "generated-index",
+            description: "All about dTokens (Tokenized assets on DeFiChain).",
+          },
+          items: [
+            "auto/Decentralized_Assets",
+            "auto/Tradable_dAssets_on_DeFiChain",
+            "auto/Vaults_Loans",
+            "auto/Collateral_Ratio",
+            "auto/Future_Swap",
+          ],
+        },
+        {
+          type: "category",
+          label: "Papers",
+          link: {
+            type: "generated-index",
+            description: "Read the technical papers about DeFiChain.",
+          },
+          items: [
+            "auto/Original_White_Paper",
+            "auto/Updated_White_Paper",
+            "auto/Pink_Paper",
+          ],
+        },
       ],
     },
     {
@@ -61,7 +104,9 @@ const sidebars = {
         "auto/Cashflow_Options",
         "auto/Jellyfish_tutorial",
         "auto/Lightwallet",
+        "auto/Lightwallet_change_Ocean",
         "auto/Testnet",
+        "auto/CustomTransaction",
       ],
     },
     {
