@@ -40,7 +40,8 @@ const sidebars = {
           label: "Decentralized Exchange",
           link: {
             type: "generated-index",
-            description: "The decentralized exchange to trade assets without the control of a single entity.",
+            description:
+              "The decentralized exchange to trade assets without the control of a single entity.",
           },
           items: ["auto/DEX", "auto/DEX_Fee_Structure"],
         },

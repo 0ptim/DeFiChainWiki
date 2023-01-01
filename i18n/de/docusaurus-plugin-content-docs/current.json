@@ -19,10 +19,10 @@
     "message": "Liquidity Mining",
     "description": "The label for category Liquidity Mining in sidebar tutorialSidebar"
   },
-    "sidebar.tutorialSidebar.category.Liquidity Mining.link.generated-index.description": {
+  "sidebar.tutorialSidebar.category.Liquidity Mining.link.generated-index.description": {
     "message": "Erziele ein passives Einkommen mit Liquidity Mining.",
     "description": "The generated-index page description for category Liquidity Mining in sidebar tutorialSidebar"
-  },  
+  },
   "sidebar.tutorialSidebar.category.dToken System": {
     "message": "dToken-System",
     "description": "The label for category dToken System in sidebar tutorialSidebar"
