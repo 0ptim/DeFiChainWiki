@@ -214,25 +214,4 @@ rewards</p></td>
 </tbody>
 </table>
 
-## Common Topics of Confusion {#common-topics-of-confusion}
-
-There are many ideas, concepts, and topics that may be confusing to
-beginners and average users. Here we will go through some of them, and
-remember, feel free to ask more questions in the official social media
-groups that were listed at the beginning of the article.
-
-### UTXO (more information needed) (verify) {#utxo-more-information-needed-verify}
-
-DeFiChain uses the **u**nspent transaction (**tx**) **o**utput model, or
-UTXO. There are two types of DFI, UTXO and token. UTXO DFI can be spent
-(sent to another wallet) through the blockchain; it is a user's
-available balance. The other form of DFI, token DFI, is received in
-liquidity mining. Because in every block, which occurs approximately
-every 30 seconds, rewards are distributed to liquidity providers,
-creating tons of UTXO transactions would be inefficient, spamming the
-blockchain with transactions, and raising the cost of a transaction that
-would make it unprofitable to liquidity mine. So, rewards are instead
-distributed by token, which does not include a transaction fee. Token
-DFI must be converted to UTXO DFI before it is possible to send any DFI.
-
 _Read the next tutorial [here](./DeFiChain_Intermediate_Tutorial.md)._
