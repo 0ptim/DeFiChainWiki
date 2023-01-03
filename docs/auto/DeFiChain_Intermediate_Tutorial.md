@@ -3,8 +3,6 @@ title: DeFiChain Intermediate Tutorial
 description: TODO - Short description of this page.
 ---
 
-This is the second tutorial in the series. If you have not read the previous tutorial, you should read it [here](./DeFiChain_Basics_Tutorial.md) before reading this tutorial. In this tutorial, we will talk about DeFiChain's decentralized exchange (often just called the DEX). We also will go over staking and liquidity mining, which are two different ways of getting cashflow on your crypto.
-
 ## The DEX {#the-dex}
 
 Embedded in DeFiChain is a decentralized exchange. All of the dTokens are listed on the DEX and paired with either DFI or DUSD, DeFiChain's stablecoin. The DEX works almost like a traditional exchange, but there are no orderbooks and no current way to buy or sell tokens except for what would be called a market order. All the information about the DEX can be found on the wallet being used or on [defiscan.live](https://defiscan.live), which aggregates DeFiChain's data and puts it on one website. You can find data about transactions, wallet balances, and more on defiscan.live as well.
