@@ -109,6 +109,7 @@ const sidebars = {
         "auto/Lightwallet_change_Ocean",
         "auto/Testnet",
         "auto/CustomTransaction",
+        "auto/Buy",
       ],
     },
     {
