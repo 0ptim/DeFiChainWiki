@@ -30,3 +30,17 @@ To avoid not-serious CFPs there is a fee of 1% of the requested amount of DFI to
 #### Discussions about CFPs {#discussions-about-cfps}
 
 Currently there are discussions within the community how to proceed with for-profit-CFPs. The main question is if they should be funded as the community would take the risk and the requester gets the upside. On the other hand a for-profit project can create indirect value to the DeFiChain-Ecosystem by bringing new users and funds to the chain. There is no final decision or rules-framework yet. You can follow the discussions on [reddit](https://www.reddit.com/r/defiblockchain/).
+
+## DFIPs and CFPs (TEMP FROM TUTORIAL) {#dfips-and-cfps-verify}
+
+DFIPs and CFPs are a large part of DeFiChain. Aside from normal development activity from the developers, there is also activity from the community, which should happen either way, as the point of decentralization is that the community eventually does all of the development, not a centralized team overseeing the development.
+
+### DFIPs (help needed) {#dfips-help-needed}
+
+DFIPs are made to improve DeFiChain itself in general with improvements to features/new features, implemented by the developers.
+
+An example of a DFIP would be using futures contracts to solve the premium of tokenized stocks on DeFiChain (read more about [DFIP-2203-A](https://github.com/DeFiCh/dfips/issues/127)), or allowing tokenized Ethereum to be used in a vault (read more about [DFIP-2203-B](https://github.com/DeFiCh/dfips/issues/128)).
+
+### CFPs {#cfps}
+
+CFPs are community proposals that community members create. Community proposals are used to get funding from DeFiChain's Community Fund, which is created by masternodes' block rewards. Community members can request funding for a DeFiChain project that are completing/would like to undertake. Many community projects that are found in DeFiChain are partly funded by our community fund.
