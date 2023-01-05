@@ -69,3 +69,20 @@ Occasionally it would be unprofitable to bid on a vault, and in that case the va
 #### Will I be liquidated when the collateral rules are not valid anymore in my vault? {#will-i-be-liquidated-when-the-collateral-rules-are-not-valid-anymore-in-my-vault}
 
 As stated above there are some collateral rules. Due to market-movements it is possible that you have a DUSD-loan which was initially correctly collaterized with 50% DFI is still above the liquidation ratio, but the DFI-value is below 50% of the collateral calue. Many users fear a liquidation at that time, but that will not happen. The consequence is just that you can not get more DUSD-loans until the collaterization level of 50% is reached again.
+
+## Collateral for Vaults (TEMP FROM TUTORIAL) {#collateral-for-vaults}
+
+A new feature that was recently introduced to DeFiChain is the ability to create a vault from which you can take out a loan and mint new tokens. A vault is similar to a bank, but it is decentralized and anyone can make their own. Users may deposit DFI, dBTC, dETH, DUSD, dUSDT, and dUSDC to their vault, and 50% of the vault must be collateralized with DFI or DUSD. Depending on which option borrowers chose for their vault, they can take out between $10.00 (for a vault that has a ratio of 1,000%, or $1 in loans for every $10 in collateral) to $66.66 (a vault with a ratio of 150%, or $6.66 in loans for every $10) in loans for every $100 of collateral. If the ratio of the vault falls below the ratio they chose, their vault is automatically sent to be liquidated, and people bid to take the collateral from the vault (there is more information in the section below).
+
+Users can take out DUSD stablecoins, or various stock-, ETF- and commodities-tokens. This allows an investor to go short on a token; as the value of the borrowed token decreases, the less money needed to pay back the loan. You also could leverage any crypto positions you have with the extra borrowed money. For further strategies see [[Investing & Trading with Decentralized Loans and Assets on DeFiChain]].
+
+### Advantages {#advantages}
+
+- Hedging against stocks
+- Leveraging crypto positions
+- Increasing supply of borrowed token (when you "borrow a token," you are actually minting new tokens, increasing the supply, which is good for DeFiChain)
+
+### Disadvantages {#disadvantages}
+
+- Risk of liquidation - can be significantly reduced by using Kügi's Bot [vault-maxi](https://github.com/kuegi/defichain_maxi)
+- Interest must be paid on borrowed tokens

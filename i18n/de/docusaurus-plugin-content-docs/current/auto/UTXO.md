@@ -1,5 +1,5 @@
 ---
-title: DeFiChain Grundlagen Tutorial
+title: UTXO
 description: TODO - Kurze Beschreibung dieser Seite.
 ---
 

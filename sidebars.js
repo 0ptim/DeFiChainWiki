@@ -25,6 +25,7 @@ const sidebars = {
         "auto/Introduction",
         "auto/Ecosystem",
         "auto/Block_Rewards",
+        "auto/UTXO",
         {
           type: "category",
           label: "Staking",
@@ -43,7 +44,7 @@ const sidebars = {
             description:
               "The decentralized exchange to trade assets without the control of a single entity.",
           },
-          items: ["auto/DEX", "auto/DEX_Fee_Structure"],
+          items: ["auto/DEX_TMP", "auto/DEX", "auto/DEX_Fee_Structure"],
         },
         {
           type: "category",
@@ -97,10 +98,6 @@ const sidebars = {
         description: "Guides which help you understand concepts better.",
       },
       items: [
-        "auto/Beginners_Guide",
-        "auto/DeFiChain_Advanced_Tutorial",
-        "auto/DeFiChain_Basics_Tutorial",
-        "auto/DeFiChain_Intermediate_Tutorial",
         "auto/Investing_Trading",
         "auto/Cashflow_Options",
         "auto/Jellyfish_tutorial",
@@ -108,6 +105,7 @@ const sidebars = {
         "auto/Lightwallet_change_Ocean",
         "auto/Testnet",
         "auto/CustomTransaction",
+        "auto/Buy",
       ],
     },
     {
@@ -118,6 +116,7 @@ const sidebars = {
         description: "Everything about the DeFiChain desktop wallet.",
       },
       items: [
+        "auto/Wallet_Introduction",
         {
           type: "category",
           label: "Installation",

@@ -1,6 +1,6 @@
 ---
-title: Yeni Başlayanlar İçin Rehber
-description: TODO - Bu sayfanın kısa açıklaması.
+title: Giriş
+description: TODO - Short description of this page.
 ---
 
 ## Hangi cüzdanı kullanmalısınız? {#decision-which-wallet-should-you-use}
@@ -60,41 +60,3 @@ DeFiChain ile yeni tanışanlar için Full Node Cüzdan ile başlamak önerilmez
 - Bu cüzdan her zaman tüm blok zincirini senkronize eder. Bu yüzden daha fazla bellek kapasitesine ve zamana ihtiyaç duyar.
 - 24 kelimelik bir tohum cümleniz yoktur. Full Node Cüzdan bir güvenlik dosyası kullanır. Paranıza erişmek için "wallet.dat" dosyasını ve şifrenizin her zaman güvende tutulması gerekir.
 - Buradan indirebilirsiniz: https://defichain.com/downloads (macOS, Windows ve Linux)
-
-## DFI Coin satın alma ("On-ramp") {#getting-your-first-dfi-coins-on-ramp}
-
-"On-Ramp" olarak da adlandırılan DFI-Coins satın alma işlemi, aşağıdaki paragraflarda gösterildiği gibi birkaç yolla mümkündür. Ücretler değişikliğe tabi olduğundan, burada bahsetmiyor ve sizden bunları şirketin web sitelerinde canlı olarak kontrol etmenizi rica ediyoruz.
-
-"Off-ramp" (coinleri nakite çevirmek), aynı şekilde çalışır (cake hariç).
-
-### Borsalar {#exchanges}
-
-Kripto borsaları, FIAT paranızı (USD, TL, gibi) Kripto para birimlerine dönüştürmenin geleneksel yoludur. Başlangıçta, seçtiğiniz bir borsada bir hesap açarsınız. Genellikle bu bir kullanıcı adı/şifre kombinasyonu ile yapılır. Çoğunlukla bir kimlik belgesi (örneğin pasaport) ile tanımlamanız gereken bir KYC süreci de vardır. Daha sonra hesabınız kullanılabilir hale gelir ve kredi kartı, banka havalesi veya paypal ile Euro, Dolar, İsviçre Frangı veya Türk Lirası borsaya aktarabilir ve DFI satın alabilirsiniz.
-
-Mevcut DeFiChain aşağıdaki borsalarda listelenmiştir:
-
-- Bittrex
-- Kucoin
-- Huobi
-- bit.com
-- bybit
-- Deepcoin
-- Hotbit
-- Latoken
-- bitrue
-- Hoo
-- Uniswap
-
-Ayrıntılı bilgi [burada](https://defichain-ecosystem.com/de/overview/exchanges/) bulunabilir.
-
-Satın alma işleminizden sonra DFI'lerinizi borsa hesabınızdan defichain cüzdanınıza gönderebilirsiniz. Bu işlem için çüzdanınızda bulabileceğiniz DeFiChain adresinize ihtiyacınız vardır. Bu işlem, bir bankadan diğerine bir banka EFT işlemi ile karşılaştırılabilir - sadece banka hesapları yerine kripto cüzdanları arasında gerçekleşir.
-
-Madeni paralar cüzdanınıza ulaşır ulaşmaz (genellikle 20 dakikadan az) harika DeFiChain dünyasının tüm olanaklarına sahip olursunuz.
-
-### DFX-Swiss {#dfx-swiss}
-
-DFX-Swiss, topluluk üyeleri tarafından kuruldu ve gerçek zamanlı olarak basit bir SEPA para transferi ile çok kolay bir rampa için hizmet sunuyor. Bu, paranızı banka hesabınızdan transfer ettiğiniz anda, birkaç dakika sonra cüzdanınızda Coin'lerinizi bulabileceğiniz anlamına gelir. [Bu WIki'nin DFX bölümlerinde](./DFX_FAQ.md) birçok ayrıntılı bilgi bulunabilir .
-
-### Cake {#cake}
-
-Bir Cake-Kullanıcısı olarak, para transferi ile DFI-Coin satın alabilir veya DFI'ye takas yapmak için Cake'de diğer kripto paraları (örneğin BTC, ETH) kullanabilirsiniz. Cake'in bir borsa olmadığını ve orada DFI'den geri değiştiremeyeceğinizi unutmayın. DFI-Coin'lerinizi cake'den defichain cüzdanınıza gönderebilirsiniz.

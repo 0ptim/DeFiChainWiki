@@ -1,5 +1,5 @@
 ---
-title: DeFiChain Tutorial für Fortgeschrittene
+title: DEX TEMP FROM TUTORIAL
 description: TODO - Kurze Beschreibung dieser Seite.
 ---
 

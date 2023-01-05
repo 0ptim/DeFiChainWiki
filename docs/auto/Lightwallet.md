@@ -15,8 +15,6 @@ The app is developed and actively maintained by Birthday Research – the R&D (R
 
 The app gets updated frequently so always check if you are using the latest version.
 
-You can find some more basics on all available wallets in the article [Beginners Guide](./Beginners_Guide.md)
-
 As the name already tells you, it is a light wallet. So, it does not require a full node having the whole blockchain data downloaded. Instead, an API is used to connect to servers that provides this data – on the DeFiChain this is the so called ocean API. You can specify the endpoint you want to use in the setting as described in the article [Lightwallet change Ocean](./Lightwallet_change_Ocean.md)
 
 Everytime you want to do a transaction on the blockcahin (like for example sending or swapping coins) you will have to provide your passcode. While the transaction is processed you see an information pop up in the lower end of the app. There is also a link to open the transaction on defiscan.info. You have to wait until a transaction was finished to be able to sign the next one.

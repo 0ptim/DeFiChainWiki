@@ -1,5 +1,5 @@
 ---
-title: DeFiChain Gelişmiş Öğretici
+title: Kuzen
 description: TODO - Bu sayfanın kısa açıklaması.
 ---
 

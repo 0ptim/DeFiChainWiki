@@ -1,5 +1,5 @@
 ---
-title: DeFiChain Orta Düzey Eğitimi
+title: UTXO
 description: TODO - Bu sayfanın kısa açıklaması.
 ---
 

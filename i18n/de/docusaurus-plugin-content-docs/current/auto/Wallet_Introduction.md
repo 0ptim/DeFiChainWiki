@@ -1,11 +1,7 @@
 ---
-title: Leitfaden für Anfänger
-description: TODO - Kurze Beschreibung dieser Seite.
+title: Einführung
+description: TODO - Short description of this page.
 ---
-
-Falls du Videos bevorzugst, kannst du [hier 🎬](https://www.youtube.com/watch?v=q4MUebLlLzM&list=PLc-FB8e3YKYtju2G0O7bcUB1FE2t2SD0j) starten. Bitte beachte dabei, dass Informationen aufgrund der permanenten Weiterentwicklung der DeFiChain und des Videoalters überholt sein können.
-
-Ansonsten haben wir hier noch etwas in Textform für dich vorbereitet.
 
 ## Entscheidung für eine Wallet {#decision-which-wallet-should-you-use}
 
@@ -66,41 +62,3 @@ Für einen Anfänger ist der Einstieg über die Full-Node-Wallet nicht unbedingt
 - Es wird stets die ganze Blockchain synchronisiert; dies braucht Zeit und Speicherplatz
 - Es werden keine Seed Phrases (24 Wörter) verwendet. Stattdessen arbeitet die Full-Node-Wallet mit einer Sicherungsdatei. Man muss die Datei "wallet.dat" und das Passwort sichern, um im Notfall eine Wiederherstellung durchführen und auf die Coins zugreifen zu können.
 - Den Download findest du hier: <https://defichain.com/downloads> für macOS, Windows und Linux
-
-## Die ersten DFI-Coins erwerben ("On-ramp") {#getting-your-first-dfi-coins-on-ramp}
-
-Das Erwerben deiner Coins -auch on-ramp genannt- funktioniert bei DeFiChain auf mehreren Wegen. Diese zeigen wir an dieser Stelle auf. Da sich Gebühren in einem ständigen Wandel befinden, verzichten wir auf die Angabe und bitten dich bei Bedarf und tagesaktuell beim jeweiligen Anbieter nachzusehen.
-
-Das Off-Ramp, also die Umwandlung von Kryptocoins in FIAT-Geld, funktioniert übrigens -außer bei Cake- über die gleichen Wege.
-
-### Börsen (Exchanges) {#exchanges}
-
-Krypto-Börsen sind der klassische Weg, um FIAT-Geld in Kryptowährungen umzuwandeln. Du musst dazu bei einer Exchange ein Benutzerkonto erstellen. In der Regel funktioniert dies mittels einer Benutzernamen / Passwort-Kombination. Zudem ist meistens ein KYC-Prozess erforderlich. Das heißt, du musst dich mit einem gültigen usweis legitimieren. Anschließend wird dein Konto freigeschaltet und du kannst z.B. per Überweisung, Kreditkarte oder Paypal deine Euros, Franken oder Dollar zur Börse transferieren und sodann DFI kaufen.
-
-Derzeit ist DeFiChain bei folgenden Börsen gelistet:
-
-- Bittrex
-- Kucoin
-- Huobi
-- bit.com
-- bybit
-- Deepcoin
-- Hotbit
-- Latoken
-- bitrue
-- Hoo
-- Uniswap
-
-Detailinformationen kannst du [hier](https://defichain-ecosystem.com/de/overview/exchanges/) abrufen.
-
-Nachdem du deine DFI auf der Börse gekauft hast, kannst du diese vom der Exchange an deine bereits eingerichtete Wallet senden. Du benötigst dazu deine DeFiChain-Adresse. Diese findest du in deiner Wallet-App. Diese Versenden-Transaktion ist vergleichbar mit einer Überweisung bzw. Umbuchung zwischen zwei Bankkonten - nur eben in der Kryptowelt.
-
-Sobald die Coins in deiner Wallet angekommen sind, stehen dir alle oben genannten wunderbaren Möglichkeiten des DeFiChains-Ökosystems offen.
-
-### DFX-Swiss {#dfx-swiss}
-
-DFX-Swiss ist aus der Community entstanden und bietet einen sehr einfachen On-ramp mittels SEPA-Überweisung, mittlerweile sogar in Echtzeit. Das heißt, wenn du von deiner Bank die Überweisung losgeschickt hast, findest du deine Coins innerhalb von wenigen Minuten in deiner Wallet und kannst loslegen. Viele Detailinformationen dazu gibt's im [DFX-Bereich](./DFX_FAQ.md) im Wiki.
-
-### Cake {#cake}
-
-Als Cake-Nutzer hast du auch die Möglichkeit, über eine Banküberweisung oder mittels anderer Kryptowährungen deine ersten DFI kaufen. Nach deinem Login bei Cake kannst du die DFI an deine Wallet senden.
