@@ -98,7 +98,6 @@ const sidebars = {
         description: "Guides which help you understand concepts better.",
       },
       items: [
-        "auto/Beginners_Guide",
         "auto/Investing_Trading",
         "auto/Cashflow_Options",
         "auto/Jellyfish_tutorial",
@@ -117,6 +116,7 @@ const sidebars = {
         description: "Everything about the DeFiChain desktop wallet.",
       },
       items: [
+        "auto/Wallet_Introduction",
         {
           type: "category",
           label: "Installation",
