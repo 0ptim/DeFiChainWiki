@@ -168,5 +168,3 @@ Bob is anticipating that dBTC will perform worse than DFI, and he has dBTC after
 
 - [Impermanent Loss](./Impermanent_Loss.md) (also called IL, read the article for more information)
 - Severe crashes in either token's price compared to the other will lead to significant losses
-
-_Read the next tutorial [here](./DeFiChain_Advanced_Tutorial.md)._

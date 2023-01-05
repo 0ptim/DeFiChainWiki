@@ -99,7 +99,6 @@ const sidebars = {
       },
       items: [
         "auto/Beginners_Guide",
-        "auto/DeFiChain_Advanced_Tutorial",
         "auto/Investing_Trading",
         "auto/Cashflow_Options",
         "auto/Jellyfish_tutorial",
