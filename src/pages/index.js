@@ -14,7 +14,7 @@ function HomepageHeader() {
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className={styles.mapBackground} />
 
-      {/* <BackgroundAnimation /> */}
+      <BackgroundAnimation />
 
       <div className={clsx("container", styles.container)}>
         <div className={styles.logo} />
