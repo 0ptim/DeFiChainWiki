@@ -8,7 +8,7 @@ DeFiChainWiki, your knowledgebase all around the DeFiChain ecosystem.
 
 Maintained by the DeFiChain community. ❤
 
-## Contributea
+## Contribute
 
 Help us build out the wiki. Translate existing pages, add new ones, correct mistakes, everything which helps is appreciated.
 
