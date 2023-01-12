@@ -13,6 +13,10 @@ With decentralized loans and assets on DefiChain, you can invest in different as
 
 ![basic investment scheme](./../media/investingtrading_EN_01.png)
 
+![basic investment scheme](./../media/investingtrading_EN_02.png)
+
+![basic investment scheme](./../media/investingtrading_EN_03.png)
+
 ### Long position - Neutral DFI
 
 #### Investment thesis
