@@ -9,7 +9,7 @@ There is a community suggestion on how best to use the DeFi app. Please read thi
 
 ## The DeFi Wallet does not start and I do not get an error message
 
-*DeFi Wallet does not start*  
+_DeFi Wallet does not start_  
 ![DeFi Wallet does not start](./../media/defiwalleterrors_EN_1.jpg)
 
 There are different causes for this problem and different solutions.

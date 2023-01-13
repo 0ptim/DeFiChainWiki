@@ -33,13 +33,13 @@ Auf defichain-analytics kann man den Verlauf des Premiums über die Zeit als Dia
 
 Durch diese Maßnahme lässt sich der Preis der dTokens in der +-5% Bandbreite halten. Sollte es zu einem höheren Premium bzw Discount kommen kann wie folgt arbitragiert werden. Für den Fall Premium Fall kurz vor dem Future Swap:
 
--   Mittels Vault den dToken minten (einen Kredit aufnehmen)
--   Für das Besicherungsverhältnis des Vaults wird der Oracle Preis (echter Preis ohne Premium) herangezogen
--   Die geminteten dToken über den DEX Pool verkaufen (also in DUSD tauschen)
--   Durch das Premium erhält man „zu viele“ DUSD
--   Mit diese DUSD einen Future Swap einstellen um die dToken zum Oracle Preis (also günstiger, da ohne Premium) zurück zu kaufen.
--   Bei Ausführung des Future Swaps erhält man mehr dToken als man gemintet hat.
--   Der Kredit (gemintete dToken) könne zurückgezahlt werden und die zusätzlich erhaltenen dToken bleiben als Gewinn in der Wallet.
+- Mittels Vault den dToken minten (einen Kredit aufnehmen)
+- Für das Besicherungsverhältnis des Vaults wird der Oracle Preis (echter Preis ohne Premium) herangezogen
+- Die geminteten dToken über den DEX Pool verkaufen (also in DUSD tauschen)
+- Durch das Premium erhält man „zu viele“ DUSD
+- Mit diese DUSD einen Future Swap einstellen um die dToken zum Oracle Preis (also günstiger, da ohne Premium) zurück zu kaufen.
+- Bei Ausführung des Future Swaps erhält man mehr dToken als man gemintet hat.
+- Der Kredit (gemintete dToken) könne zurückgezahlt werden und die zusätzlich erhaltenen dToken bleiben als Gewinn in der Wallet.
 
 ### Future Swap im Light Wallet
 
@@ -53,18 +53,18 @@ In der Konsole kann der Future Swap mit dem Befehl **futureswap** eingegeben wer
 
 Syntax:
 
-``` abap
+```abap
 futureswap "address" "amount" ( "destination" [{"txid":"hex","vout":n},...] )
 ```
 
 Zum Beispiel wenn 500 DUSD in kannNetflix Token getauscht werden sollen:
 
-``` abap
+```abap
 futureswap "dVvPfdjhfdjhfjd32dPWZoNYno7uBUn1KyU" "500@DUSD" dNFLX)
 ```
 
 Mit **getpendingfutureswaps** kann abgefragt werden welche Future Swaps bereits eingemeldet worden sind.
 
-``` abap
+```abap
 getpendingfutureswaps "address"
 ```

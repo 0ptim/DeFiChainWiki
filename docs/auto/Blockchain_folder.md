@@ -17,7 +17,7 @@ Follow this procedure:
 
 Example:
 
-``` ini
+```ini
 rpcauth=something
 rpcuser=something
 rpcpassword=something
@@ -47,7 +47,7 @@ Follow this procedure:
 
 Example:
 
-``` ini
+```ini
 rpcauth=something
 rpcuser=something
 rpcpassword=something

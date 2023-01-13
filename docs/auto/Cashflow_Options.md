@@ -15,7 +15,7 @@ The delta-neutral strategies are based on 40% APR in the dToken pool. Those delt
 
 Let's start with options that involve no or low risk.
 
-*Manual cashflow options on DeFiChain*  
+_Manual cashflow options on DeFiChain_  
 ![Manual cashflow options on DeFiChain](./../media/cashflow_options_EN_01.png)
 
 ### Staking DFI {#staking-dfi}
@@ -60,7 +60,7 @@ Vaults on DeFiChain are incredible tools, but to use them safely, you need to un
 
 Otherwise, follow me down the rabbit hole.
 
-*Vault strategies that can be done manually*  
+_Vault strategies that can be done manually_  
 ![Vault strategies that can be done manually](./../media/cashflow_options_EN_02.png)
 
 ### Looped DUSD vault {#looped-dusd-vault}
@@ -101,7 +101,7 @@ If you want to look deeper into bots, vault-maxi is a great option. v2.3 ([relea
 
 The following strategies assume a target collateral ratio of 160%.
 
-*Cashflow options via vault-maxi*  
+_Cashflow options via vault-maxi_  
 ![Cashflow options via vault-maxi](../media/cashflow_options_EN_03.png)
 
 ### DUSD vault + delta-neutral LM {#dusd-vault--delta-neutral-lm-1}
@@ -130,7 +130,7 @@ In the double-mint case, both DUSD and the dToken are minted from the vault and 
 
 ## Summary {#summary}
 
-*Overview of all different options*  
+_Overview of all different options_  
 ![Overview of all different options](../media/cashflow_options_EN_04.png)
 
 As you can see, there are multiple ways for cashflow in this beautiful ecosystem.

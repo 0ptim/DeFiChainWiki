@@ -25,7 +25,7 @@ export const BackgroundAnimation = () => {
           birdSize: 0.9,
           quantity: 3,
           separation: 100,
-          backgroundAlpha: 0
+          backgroundAlpha: 0,
         })
       );
     }
@@ -33,8 +33,5 @@ export const BackgroundAnimation = () => {
       if (vantaEffect) vantaEffect.destroy();
     };
   }, [vantaEffect]);
-  return (
-    <div className={styles.animationOverlay} ref={vantaRef}>
-    </div>
-  );
+  return <div className={styles.animationOverlay} ref={vantaRef}></div>;
 };

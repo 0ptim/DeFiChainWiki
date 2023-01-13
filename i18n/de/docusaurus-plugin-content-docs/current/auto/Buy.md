@@ -1,5 +1,5 @@
 ---
-title: DeFiChain Tutorial für Fortgeschrittene
+title: Kaufen
 description: TODO - Kurze Beschreibung dieser Seite.
 ---
 

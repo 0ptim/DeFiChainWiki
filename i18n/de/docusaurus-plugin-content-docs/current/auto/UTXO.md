@@ -1,5 +1,5 @@
 ---
-title: FAQ
+title: UTXO
 description: TODO - Kurze Beschreibung dieser Seite.
 ---
 

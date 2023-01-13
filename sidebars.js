@@ -22,28 +22,72 @@ const sidebars = {
         description: "Learn about the fundamental concepts of DeFiChain.",
       },
       items: [
+        "auto/Introduction",
         "auto/Ecosystem",
-        "auto/DeFiChain",
-        "auto/Original_White_Paper",
-        "auto/Updated_White_Paper",
-        "auto/Pink_Paper",
-        "auto/Liquidity_Mining",
-        "auto/Vaults_Loans",
-        "auto/Collateral_Ratio",
         "auto/Block_Rewards",
-        "auto/Liquidity_Mining_versus_Staking",
-        "auto/Impermanent_Loss",
-        "auto/FAQ",
-        "auto/Decentralized_Assets",
-        "auto/DEX",
-        "auto/DEX_Fee_Structure",
-        "auto/Liquidity_Token",
-        "auto/Staking",
-        "auto/Target_multiplier",
-        "auto/Tradable_dAssets_on_DeFiChain",
-        "auto/Lightwallet_change_Ocean",
-        "auto/CustomTransaction",
-        "auto/Future_Swap",
+        "auto/UTXO",
+        {
+          type: "category",
+          label: "Staking",
+          link: {
+            type: "generated-index",
+            description:
+              "Generate yield and help secure the network by staking.",
+          },
+          items: ["auto/Staking", "auto/Target_multiplier"],
+        },
+        {
+          type: "category",
+          label: "Decentralized Exchange",
+          link: {
+            type: "generated-index",
+            description:
+              "The decentralized exchange to trade assets without the control of a single entity.",
+          },
+          items: ["auto/DEX_TMP", "auto/DEX", "auto/DEX_Fee_Structure"],
+        },
+        {
+          type: "category",
+          label: "Liquidity Mining",
+          link: {
+            type: "generated-index",
+            description: "Get a passive income with liquidity mining.",
+          },
+          items: [
+            "auto/Liquidity_Mining",
+            "auto/Liquidity_Token",
+            "auto/Liquidity_Mining_versus_Staking",
+            "auto/Impermanent_Loss",
+          ],
+        },
+        {
+          type: "category",
+          label: "dToken System",
+          link: {
+            type: "generated-index",
+            description: "All about dTokens (Tokenized assets on DeFiChain).",
+          },
+          items: [
+            "auto/Decentralized_Assets",
+            "auto/Tradable_dAssets_on_DeFiChain",
+            "auto/Vaults_Loans",
+            "auto/Collateral_Ratio",
+            "auto/Future_Swap",
+          ],
+        },
+        {
+          type: "category",
+          label: "Papers",
+          link: {
+            type: "generated-index",
+            description: "Read the technical papers about DeFiChain.",
+          },
+          items: [
+            "auto/Original_White_Paper",
+            "auto/Updated_White_Paper",
+            "auto/Pink_Paper",
+          ],
+        },
       ],
     },
     {
@@ -51,19 +95,17 @@ const sidebars = {
       label: "Guides",
       link: {
         type: "generated-index",
-        description:
-          "Guides which help you understand concepts better.",
+        description: "Guides which help you understand concepts better.",
       },
       items: [
-        "auto/Beginners_Guide",
-        "auto/DeFiChain_Advanced_Tutorial",
-        "auto/DeFiChain_Basics_Tutorial",
-        "auto/DeFiChain_Intermediate_Tutorial",
         "auto/Investing_Trading",
         "auto/Cashflow_Options",
         "auto/Jellyfish_tutorial",
         "auto/Lightwallet",
+        "auto/Lightwallet_change_Ocean",
         "auto/Testnet",
+        "auto/CustomTransaction",
+        "auto/Buy",
       ],
     },
     {
@@ -74,6 +116,7 @@ const sidebars = {
         description: "Everything about the DeFiChain desktop wallet.",
       },
       items: [
+        "auto/Wallet_Introduction",
         {
           type: "category",
           label: "Installation",
@@ -127,6 +170,7 @@ const sidebars = {
           items: [
             "auto/API",
             "auto/CLI_Commands",
+            "auto/CLI_Vault_and_Loan",
             "auto/Bitcoin_Anchoring",
             "auto/Blockchain_folder",
             "auto/Dual_setup_App_and_Node",
@@ -136,6 +180,7 @@ const sidebars = {
             "auto/Read_out_private_key",
             "auto/Import_BTC_private_key_to_Electrum",
             "auto/Atomic_Swap",
+            "auto/Update_Masternode",
           ],
         },
         {
@@ -179,11 +224,10 @@ const sidebars = {
         type: "generated-index",
         description: "Voting, projects and more.",
       },
-      items: [        
+      items: [
         "auto/Proposals",
         "auto/Taxes",
         "auto/Services",
-        "auto/DeFiChain_ecosystem",
         "auto/DeFiChain-Masternode-Monitor",
         "auto/DeFiChain-Portfolio",
         "auto/Punks",
@@ -211,20 +255,20 @@ const sidebars = {
       label: "External Documentation",
       link: {
         type: "generated-index",
-        description: "Documentation resources on other websites .",
+        description: "Documentation resources on other websites.",
       },
       items: [
         {
           type: "link",
           label: "Jellyfish Documentation",
-          href: "https://jellyfish.defichain.com/"
+          href: "https://jellyfish.defichain.com/",
         },
         {
           type: "link",
           label: "Chain Documentation",
-          href: "https://github.com/DeFiCh/ain/wiki "
-        }
-      ]
+          href: "https://github.com/DeFiCh/ain/wiki ",
+        },
+      ],
     },
     {
       type: "category",
@@ -235,6 +279,7 @@ const sidebars = {
       },
       items: ["auto/Sharing_is_caring", "auto/Contribute"],
     },
+    "auto/Links",
   ],
 };
 

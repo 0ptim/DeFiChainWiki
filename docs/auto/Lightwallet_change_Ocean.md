@@ -11,13 +11,13 @@ The Lightwallet of DeFiChain interacts with the blockchain via Ocean infrastruct
 
 If you want to change the ocean infrastructure (e.g. default ocean is down and you want access to your funds), then you can do it in the settings menu.
 
-*Provider entry in the settings menu of the Lightwallet*
+_Provider entry in the settings menu of the Lightwallet_
 
 ![Provider entry in the settings menu of the Lightwallet](./../media/Lightwallet_settings_Provider.jpg)
 
-In the provider menu you can enter a new endpoint URL for the ocean infrastructure. The default setting is <https://ocean.defichain.com> and can also be restored with the button *Reset provider* (will be enabled after ocean was changed). You need your passcode to save the changes.
+In the provider menu you can enter a new endpoint URL for the ocean infrastructure. The default setting is <https://ocean.defichain.com> and can also be restored with the button _Reset provider_ (will be enabled after ocean was changed). You need your passcode to save the changes.
 
-*Provider menu to change the ocean infrastructure*
+_Provider menu to change the ocean infrastructure_
 
 ![Provider menu to change the ocean infrastructure](./../media/Lightwallet_provider_menu.jpg)
 

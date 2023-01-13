@@ -1,5 +1,5 @@
 ---
-title: DeFiChain ekosistemi
+title: UTXO
 description: TODO - Bu sayfanın kısa açıklaması.
 ---
 

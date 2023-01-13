@@ -1,5 +1,5 @@
 ---
-title: DeFiChain
+title: Update Masternode
 description: TODO - Kurze Beschreibung dieser Seite.
 ---
 

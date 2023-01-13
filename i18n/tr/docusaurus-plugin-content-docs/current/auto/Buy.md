@@ -1,5 +1,5 @@
 ---
-title: DeFiChain Temelleri Eğitimi
+title: Kuzen
 description: TODO - Bu sayfanın kısa açıklaması.
 ---
 

@@ -22,7 +22,6 @@ Sayfanın altındaki `Bu sayfayı düzenle` seçeneğine tıklayın.
 
 ![](./../media/contribute_TR_edit-this-page.png)
 
-
 ### 3. Editörü Etkinleştir
 
 ![](./../media/contribute_TR_enable-editor.png)

@@ -1,9 +1,49 @@
 {
-  "sidebar.tutorialSidebar.category.Contribute": {
-    "message": "Katkıda bulunun",
+  "sidebar.tutorialSidebar.category.Staking": {
+    "message": "Staking",
+    "description": "The label for category Staking in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Staking.link.generated-index.description": {
+    "message": "Verim elde edin ve stake ederek ağın güvenliğini sağlamaya yardımcı olun.",
+    "description": "The generated-index page description for category Staking in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Decentralized Exchange": {
+    "message": "Decentralized Exchange",
+    "description": "The label for category Decentralized Exchange in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Decentralized Exchange.link.generated-index.description": {
+    "message": "Tek bir varlığın kontrolü olmadan varlık ticareti yapmak için merkezi olmayan borsa.",
+    "description": "The generated-index page de scription for category Decentralized Exchange in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Liquidity Mining": {
+    "message": "Likidite Jetonu",
+    "description": "The label for category Liquidity Mining in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Liquidity Mining.link.generated-index.description": {
+    "message": "Likidite madenciliği ile pasif bir gelir elde edin.",
+    "description": "The generated-index page description for category Liquidity Mining in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.dToken System": {
+    "message": "dToken sistemi",
+    "description": "The label for category dToken System in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.dToken System.link.generated-index.description": {
+    "message": "dTokens hakkında her şey (DeFiChain'de tokenize edilmiş varlıklar).",
+    "description": "The generated-index page description for category dToken System in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Papers": {
+    "message": "Papers",
+    "description": "The label for category Papers in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Papers.link.generated-index.description": {
+    "message": "DeFiChain hakkındaki teknik makaleleri okuyun.",
+    "description": "The generated-index page description for category Papers in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.❤ Contribute": {
+    "message": "❤ Katkıda bulunun",
     "description": "The label for category Fundamentals in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Contribute.link.generated-index.description": {
+  "sidebar.tutorialSidebar.category.❤ Contribute.link.generated-index.description": {
     "message": "Viki'nin geliştirilmesine nasıl yardımcı olabileceğinizi öğrenin.",
     "description": "The generated-index page description for category Contribute in sidebar tutorialSidebar"
   },
@@ -94,5 +134,13 @@
   "sidebar.tutorialSidebar.category.DFX.link.generated-index.description": {
     "message": "DFX ve nasıl kullanılacağı hakkında bilgi.",
     "description": "The generated-index page description for category DFX in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.External Documentation": {
+    "message": "Harici Dokümantasyon",
+    "description": "The label for category External Documentation in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.External Documentation.link.generated-index.description": {
+    "message": "Diğer web sitelerindeki dokümantasyon kaynakları.",
+    "description": "The generated-index page description for category External Documentation in sidebar tutorialSidebar"
   }
 }

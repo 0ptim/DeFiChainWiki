@@ -1,9 +1,49 @@
 {
-  "sidebar.tutorialSidebar.category.Contribute": {
-    "message": "Mithelfen",
+  "sidebar.tutorialSidebar.category.Staking": {
+    "message": "Staking",
+    "description": "The label for category Staking in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Staking.link.generated-index.description": {
+    "message": "Erziele Erträge und hilf mit, das Netzwerk durch Staking zu sichern.",
+    "description": "The generated-index page description for category Staking in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Decentralized Exchange": {
+    "message": "Dezentrale Exchange",
+    "description": "The label for category Decentralized Exchange in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Decentralized Exchange.link.generated-index.description": {
+    "message": "Die dezentralisierte Exchange für den Handel mit Vermögenswerten ohne die Kontrolle durch eine einzelne Instanz.",
+    "description": "The generated-index page de scription for category Decentralized Exchange in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Liquidity Mining": {
+    "message": "Liquidity Mining",
+    "description": "The label for category Liquidity Mining in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Liquidity Mining.link.generated-index.description": {
+    "message": "Erziele ein passives Einkommen mit Liquidity Mining.",
+    "description": "The generated-index page description for category Liquidity Mining in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.dToken System": {
+    "message": "dToken-System",
+    "description": "The label for category dToken System in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.dToken System.link.generated-index.description": {
+    "message": "Alles über dTokens (Tokenisierte Vermögenswerte auf der DeFiChain).",
+    "description": "The generated-index page description for category dToken System in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Papers": {
+    "message": "Papers",
+    "description": "The label for category Papers in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Papers.link.generated-index.description": {
+    "message": "Lesen Sie die technischen Unterlagen über DeFiChain.",
+    "description": "The generated-index page description for category Papers in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.❤ Contribute": {
+    "message": "❤ Mithelfen",
     "description": "The label for category Fundamentals in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Contribute.link.generated-index.description": {
+  "sidebar.tutorialSidebar.category.❤ Contribute.link.generated-index.description": {
     "message": "Erfahre, wie du zur Verbesserung des Wikis beitragen kannst.",
     "description": "The generated-index page description for category Contribute in sidebar tutorialSidebar"
   },
@@ -94,5 +134,13 @@
   "sidebar.tutorialSidebar.category.DFX.link.generated-index.description": {
     "message": "Informationen über DFX und die Verwendung der App.",
     "description": "The generated-index page description for category DFX in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.External Documentation": {
+    "message": "Externe Dokumentationen",
+    "description": "The label for category External Documentation in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.External Documentation.link.generated-index.description": {
+    "message": "Dokumentationsressourcen auf anderen Websites.",
+    "description": "The generated-index page description for category External Documentation in sidebar tutorialSidebar"
   }
 }

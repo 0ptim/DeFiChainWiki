@@ -19,8 +19,9 @@ jobs:
       - name: Prettify code
         uses: creyD/prettier_action@v4.2
         with:
-          prettier_options: --write **/*.{js,css,md} --end-of-line lf
+          dry: True
           only_changed: True
+          prettier_options: --check **/*.{js,css,md} --end-of-line lf
 
   build:
     name: Create test build

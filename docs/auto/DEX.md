@@ -5,7 +5,7 @@ description: DEX - the decentralized exchange of the DeFiChain ecosystem. Liquid
 
 ## DEX and decentral trading
 
-*What is „the DEX“ and how does it enable trading?*
+_What is „the DEX“ and how does it enable trading?_
 
 DEX is short for decentral Exchange and describes the feature on the DefiChain that enables the trading of dTokens. Other than on a central exchange (CEX) there is no orderbook managed by a central entity. The trades are handled via trading pools instead. Such a pool is filled with two types of assets. The ratio between the amount of those assets in the pool results in the price of the assets. The exchange rate gets more or less calculated from this ratio.
 

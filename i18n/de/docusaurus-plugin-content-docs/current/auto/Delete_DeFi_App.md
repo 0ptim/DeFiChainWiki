@@ -14,19 +14,19 @@ Folgende Ordner müssen gelöscht werden:
 ### Windows: {#windows}
 
 C:\Users\\%username%\\.defi
-![C:\Users\\%username%\\.defi](./../media/deletedefiapp_DE_01.png)
+![](./../media/deletedefiapp_DE_01.png)
 
 C:\Users\\%username%\AppData\Local\defi-app-updater
-![C:\Users\\%username%\AppData\Local\defi-app-updater](./../media/deletedefiapp_DE_02.png)
+![](./../media/deletedefiapp_DE_02.png)
 
 C:\Users\\%username%\AppData\Local\Programs\defi-app
-![C:\Users\\%username%\AppData\Local\Programs\defi-app](./../media/deletedefiapp_DE_03.png)
+![](./../media/deletedefiapp_DE_03.png)
 
 C:\Users\\%username%\AppData\Roaming\DeFi Blockchain
-![C:\Users\\%username%\AppData\Roaming\DeFi Blockchain](./../media/deletedefiapp_DE_04.png)
+![](./../media/deletedefiapp_DE_04.png)
 
 C:\Users\\%username%\AppData\Roaming\defi-app
-![C:\Users\\%username%\AppData\Roaming\defi-app](./../media/deletedefiapp_DE_05.png)
+![](./../media/deletedefiapp_DE_05.png)
 
 ### Mac: {#mac}
 

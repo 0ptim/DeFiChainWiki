@@ -5,7 +5,7 @@ description: TODO - Short description of this page.
 
 ## Create a Masternode with a local APP wallet and a Masternode from a Service Provider: {#create-a-masternode-with-a-local-app-wallet-and-a-masternode-from-a-service-provider}
 
-*26 April 2021.*
+_26 April 2021._
 
 ### For this setup you need {#for-this-setup-you-need}
 
@@ -19,7 +19,7 @@ We assume that you already have a working and synchronized wallet running on you
 
 `getnewaddress "<label>" legacy`.
 
-Enter a freely selectable name as the label, e.g. "Masternode1". Alternatively, you can also create the legacy address in the GUI. To do this, go to your DFI wallet, select "Receive" and + New address. Don't forget to select the address type Legacy under the advanced options. The newly created address will then start with an *8*. Please make a note of this as the *"Owner Address"*.
+Enter a freely selectable name as the label, e.g. "Masternode1". Alternatively, you can also create the legacy address in the GUI. To do this, go to your DFI wallet, select "Receive" and + New address. Don't forget to select the address type Legacy under the advanced options. The newly created address will then start with an _8_. Please make a note of this as the _"Owner Address"_.
 
 Now you need the Operatoraddress from your Service-Provider. Switch to the command line (CLI) in the DeFi Wallet and enter:
 

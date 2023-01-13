@@ -22,7 +22,6 @@ Klicke auf `Diese Seite bearbeiten` am Ende der Seite.
 
 ![](./../media/contribute_DE_edit-this-page.png)
 
-
 ### 3. Editor aufrufen
 
 ![](./../media/contribute_DE_enable-editor.png)
@@ -49,4 +48,4 @@ Du hast erfolgreich eine Änderung eingereicht. 🔥
 
 **Dankeschön!** ❤
 
-> *Ein Wiki-Betreuer wird deine Anfrage bald überprüfen und akzeptieren oder ablehnen.*
+> _Ein Wiki-Betreuer wird deine Anfrage bald überprüfen und akzeptieren oder ablehnen._
