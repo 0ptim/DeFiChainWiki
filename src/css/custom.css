@@ -108,3 +108,11 @@ article a[href*="//"]:not([href*="defichainwiki.com"])::after
 {
   content: " ↗";
 }
+
+.theme-edit-this-page {
+  color: var(--ifm-link-color) !important;
+}
+
+.theme-edit-this-page::after {
+  content: "" !important;
+}
