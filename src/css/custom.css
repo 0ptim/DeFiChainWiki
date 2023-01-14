@@ -94,12 +94,25 @@ article img {
   border-radius: 6px;
 }
 
-article a[href*="//"]:not([href*="codepen.io"])
+article a[href*="//"]:not([href*="defichainwiki.com"])
+{
+  color: #008185;
+}
+
+[data-theme="dark"] article a[href*="//"]:not([href*="defichainwiki.com"])
 {
   color: #39f6fe;
 }
 
-article a[href*="//"]:not([href*="codepen.io"]):after
+article a[href*="//"]:not([href*="defichainwiki.com"])::after
 {
   content: " ↗";
+}
+
+.theme-edit-this-page {
+  color: var(--ifm-link-color) !important;
+}
+
+.theme-edit-this-page::after {
+  content: "" !important;
 }
