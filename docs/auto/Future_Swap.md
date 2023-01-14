@@ -1,6 +1,6 @@
 ---
 title: Future Swap
-description: TODO - Short description of this page.
+description: Future Swaps on DeFiChain. The way how the network uses futures to stabilize the dToken prices. 
 ---
 
 ## Future Swap

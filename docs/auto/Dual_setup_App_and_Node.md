@@ -1,6 +1,6 @@
 ---
 title: Dual setup (App + Node)
-description: TODO - Short description of this page.
+description: How to setup the DeFiChain app and node. Download directly from Github and then install.
 ---
 
 ## Draft for Dual Setup {#draft-for-dual-setup}

@@ -1,6 +1,6 @@
 ---
 title: Updated White Paper
-description: TODO - Short description of this page.
+description: The updated DeFiChain Whitepaper. The mission and idea of DeFiChain stays intact.
 ---
 
 ## White paper {#white-paper}

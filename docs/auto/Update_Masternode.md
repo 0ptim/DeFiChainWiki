@@ -1,6 +1,6 @@
 ---
 title: Update Masternode
-description: TODO - Short description of this page.
+description: How to update a masternode? Change owner address or reward addresses.
 ---
 
 The `updatemasternode` command can be used to change an existing Masternode. The Owner address (the address with 20K DFI Collateral), Operator address and the Reward address can be changed. You may change one address or multiple addresses at the same time. The time in TRANSFERRING state is only applied once. No matter how many addresses are changed. Therefore, it helps to reduce non-generating time for a Masternode by changing all addresses in one step. Please note that only those addresses are to be specified in the command that need to be changed. Those addresses that should be kept are not to be mentioned.

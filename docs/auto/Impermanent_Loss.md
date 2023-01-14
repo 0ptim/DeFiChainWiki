@@ -1,6 +1,6 @@
 ---
 title: Impermanent Loss
-description: TODO - Short description of this page.
+description: What is impermanent loss? How to calculate your impermanent loss - link to impermanent loss calculator
 ---
 
 Assets of a liquidity pool can have strong price fluctuations (in relation to each other). Arbitrageurs can arbitrage differences between exchanges, which is why liquidity pools stay balanced, but it comes at a cost to liquidity miners.

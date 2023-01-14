@@ -1,6 +1,6 @@
 ---
 title: Liquidity Mining
-description: TODO - Short description of this page.
+description: Providing liquidity to the DEX is called liquidity mining. Generate rewards and commission by providing liquidity and helping the network. 
 ---
 
 For the decentralized exchange on DeFiChain to work correctly, investors must provide the same value of liquidity to both sides of the liquidity pools (e.g. 50$ DFI + 50$ dBTC). That is known as "liquidity mining."

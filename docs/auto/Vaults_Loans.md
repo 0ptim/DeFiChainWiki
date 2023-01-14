@@ -1,6 +1,6 @@
 ---
 title: Vaults and Loans
-description: TODO - Short description of this page.
+description: DeFiChain vaults and how to take out a loan against a vault to mint new tokens. Collateral rules. Bidding on liquidated vaults.
 ---
 
 ## Vaults and Loans {#vaults-and-loans}

@@ -1,6 +1,6 @@
 ---
 title: Send all coins
-description: TODO - Short description of this page.
+description: Send all coins of the DeFiChain wallet. Respect the right order to complete the process without hurdles.
 ---
 
 Instructions how to send all coins and tokens of a DeFi Wallet:

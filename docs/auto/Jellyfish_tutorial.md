@@ -1,6 +1,6 @@
 ---
 title: Jellyfish tutorial
-description: TODO - Short description of this page.
+description: Set up the Jellyfish SDK to interact programmatically with the DeFiChain blockchain and develop lightweight DeFi Applications
 ---
 
 ## Setting up environment from scratch {#setting-up-environment-from-scratch}

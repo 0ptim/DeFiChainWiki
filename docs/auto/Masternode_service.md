@@ -1,6 +1,6 @@
 ---
 title: Masternode service
-description: TODO - Short description of this page.
+description: Create a Masternode with a local DeFiChain app and a Masternode from a Service Provider. Keep in control of your keys.
 ---
 
 ## Create a Masternode with a local APP wallet and a Masternode from a Service Provider: {#create-a-masternode-with-a-local-app-wallet-and-a-masternode-from-a-service-provider}

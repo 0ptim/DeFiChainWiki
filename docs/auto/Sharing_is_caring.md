@@ -1,6 +1,6 @@
 ---
 title: Sharing is caring
-description: TODO - Short description of this page.
+description: DeFiChain Wiki, a community driven wiki page to find everything you need to know about DeFiChain. Participate to help the community thrive.
 ---
 
 ## Hey DeFiChain Community, {#hey-defichain-community}

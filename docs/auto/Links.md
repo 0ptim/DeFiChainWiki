@@ -1,6 +1,6 @@
 ---
 title: Links
-description: TODO - Short description of this page.
+description: DefiChain links - general links, companies, twitter, instagram, youtube and more
 ---
 
 **🔗 A complete list with links can be found on [defilinks.io ↗](https://defilinks.io/)**

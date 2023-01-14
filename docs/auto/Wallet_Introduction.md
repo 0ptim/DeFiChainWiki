@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD:docs/auto/Beginners_Guide.md
 title: Beginners Guide
 description: A beginners guide to DefiChain. Choose the right wallet for your needs and buy DFI coins on an exchange.  
 ---
@@ -8,12 +7,6 @@ If you speak German and prefer videos you can start [here 🎬](https://www.yout
 
 You prefer written information? Here we go!
 
-=======
-title: Introduction
-description: TODO - Short description of this page.
----
-
->>>>>>> f2893f5f9e32fbbb90a74cd116e5339829bf94cf:docs/auto/Wallet_Introduction.md
 ## Decision: Which wallet should you use? {#decision-which-wallet-should-you-use}
 
 With a wallet-app you will be able to access your DFI-Coins, which are on the blockchain.
