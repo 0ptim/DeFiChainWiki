@@ -16,7 +16,7 @@ Diese Webseite beschreibt, wie man sich an der DFX.swiss Exchange registrieren k
 ![](../media/dfxregistration_DE_5.png)
 ![](../media/dfxregistration_DE_6.png)
 
-Login auf der [Seite ↗](https://payment.dfx.swiss/login).
+Login auf der [Seite](https://payment.dfx.swiss/login).
 
 ![](../media/dfxregistration_DE_7.png)
 ![](../media/dfxregistration_DE_8.png)

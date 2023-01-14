@@ -3,7 +3,7 @@ title: Links
 description: DefiChain links - general links, companies, twitter, instagram, youtube and more
 ---
 
-**🔗 A complete list with links can be found on [defilinks.io ↗](https://defilinks.io/)**
+**🔗 A complete list with links can be found on [defilinks.io](https://defilinks.io/)**
 
 ## Telegram channels
 

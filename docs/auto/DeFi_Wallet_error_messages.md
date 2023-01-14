@@ -47,7 +47,7 @@ Some users report that this error message occurs again and again. Afterwards, th
 
 As a remedy, it is recommended to work with backup solutions. Then the entire blockchain does not have to be reloaded, but only the blocks after creating the backup.
 
-[Create and use backup for blockchain data ↗](./Fullnode.md#create-and-use-backup-for-blockchain-data)
+[Create and use backup for blockchain data](./Fullnode.md#create-and-use-backup-for-blockchain-data)
 
 ## No data found
 
