@@ -1,7 +1,11 @@
 ---
-title: Guide
+title: Basic Guide
 description: TODO - Short description of this page.
 ---
+
+This guide shows you how you can make small edits on already existing pages. If you want to have more controll like adding new pages or changing the structure, have a look at the [Advanced Guide](./Contribute_Advanced.md).
+
+If you need assistance, ask in the [Telegram group](https://t.me/defichain_wiki) for help.
 
 ## Requirements
 
