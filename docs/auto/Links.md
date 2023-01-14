@@ -3,7 +3,7 @@ title: Links
 description: TODO - Short description of this page.
 ---
 
-**🔗 A complete list with links can be found on [defilinks.io ↗](https://defilinks.io/)**
+**🔗 A complete list with links can be found on [defilinks.io](https://defilinks.io/)**
 
 ## Telegram channels
 
