@@ -93,3 +93,13 @@ article img {
   box-shadow: 0px 0px 14px 0px rgb(0 0 0 / 35%);
   border-radius: 6px;
 }
+
+article a[href*="//"]:not([href*="codepen.io"])
+{
+  color: #39f6fe;
+}
+
+article a[href*="//"]:not([href*="codepen.io"]):after
+{
+  content: " ↗";
+}

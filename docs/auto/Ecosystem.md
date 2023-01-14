@@ -3,13 +3,13 @@ title: Ecosystem
 description: TODO - Short description of this page.
 ---
 
-**🔗 You can explore a complete list of all links on [defilinks.io ↗](https://defilinks.io/)**
+**🔗 You can explore a complete list of all links on [defilinks.io](https://defilinks.io/)**
 
-**🧭 For an overview on how tokens can be aquired, sold or transfered, have a look at [defichain-ecosystem.com ↗](https://defichain-ecosystem.com/)**
+**🧭 For an overview on how tokens can be aquired, sold or transfered, have a look at [defichain-ecosystem.com](https://defichain-ecosystem.com/)**
 
 ## 🌐 Main Website
 
-[defichain.com ↗](https://defichain.com/)
+[defichain.com](https://defichain.com/)
 
 The official DeFiChain website.
 
@@ -17,7 +17,7 @@ The official DeFiChain website.
 
 ## 🔍 Blockchain Explorer
 
-[defiscan.live ↗](https://defiscan.live/)
+[defiscan.live](https://defiscan.live/)
 
 The main blockchain explorer. See wallet addresses, blocks, transactions, liquidity mining pools and more.
 
@@ -25,7 +25,7 @@ The main blockchain explorer. See wallet addresses, blocks, transactions, liquid
 
 ## 📰 DeFiChain Blog
 
-[blog.defichain.com ↗](https://blog.defichain.com/)
+[blog.defichain.com](https://blog.defichain.com/)
 
 Blog which covers the latest topics around DeFiChain.
 
@@ -33,7 +33,7 @@ Blog which covers the latest topics around DeFiChain.
 
 ## 💬 Telegram
 
-[t.me/defiblockchain ↗](https://t.me/defiblockchain)
+[t.me/defiblockchain](https://t.me/defiblockchain)
 
 The official DeFiChain international Telegram group.
 
@@ -43,7 +43,7 @@ _You can find a list of all Telegram groups [here](./Links.md#telegram-channels)
 
 ## 🎬 On YouTube
 
-[YouTube channel ↗](https://www.youtube.com/c/DeFiChain/)
+[YouTube channel](https://www.youtube.com/c/DeFiChain/)
 
 Explainer videos, news show, community interviews, project presentations and more.
 
@@ -51,7 +51,7 @@ Explainer videos, news show, community interviews, project presentations and mor
 
 ## 📷 On Instagram
 
-[Instagram profile ↗](https://www.instagram.com/defichain.official/)
+[Instagram profile](https://www.instagram.com/defichain.official/)
 
 Follow DeFiChain on Instagram to get the latest news on your timeline.
 
@@ -59,6 +59,6 @@ Follow DeFiChain on Instagram to get the latest news on your timeline.
 
 ## 🗣️ On Reddit
 
-[Reddit ↗](https://reddit.com/r/defiblockchain/)
+[Reddit](https://reddit.com/r/defiblockchain/)
 
 ![](./../media/ecosystem_reddit.png)
