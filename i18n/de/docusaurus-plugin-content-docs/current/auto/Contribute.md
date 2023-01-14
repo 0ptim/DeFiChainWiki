@@ -1,11 +1,15 @@
 ---
-title: Anleitung
+title: Einfache Anleitung
 description: TODO - Kurze Beschreibung dieser Seite.
 ---
 
+Diese Anleitung zeigt dir, wie du kleine Änderungen an bereits bestehenden Seiten vornehmen kannst. Wenn du mehr Kontrolle haben brauchst, wie das Hinzufügen neuer Seiten oder das Ändern der Struktur, wirf einen Blick auf die [Erweiterte Anleitung](./Contribute_Advanced.md).
+
+Wenn Sie Hilfe benötigen, fragen Sie in der [Telegrammgruppe](https://t.me/defichain_wiki) nach.
+
 ## Voraussetzungen
 
-- Um an dem Wiki mitzuarbeiten, benötigst du ein GitHub-Konto. [hier](https://github.com/join) kannst du ein kostenloses Konto erstellen.
+- Ein GitHub-Konto. [hier](https://github.com/join) kannst du ein kostenloses Konto erstellen.
 - Alle Seiten sind in der **Markdown**-Syntax geschrieben. Hier ist eine praktische [Übersicht](https://www.markdownguide.org/cheat-sheet/) aller Formatierungen.
 
 ## Quick Edit

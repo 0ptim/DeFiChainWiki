@@ -3,13 +3,13 @@ title: Basic Guide
 description: TODO - Short description of this page.
 ---
 
-This guide shows you how you can make small edits on already existing pages. If you want to have more controll like adding new pages or changing the structure, have a look at the [Advanced Guide](./Contribute_Advanced.md).
+This guide shows you how you can make small edits on already existing pages. If you want to have more control like adding new pages or changing the structure, have a look at the [Advanced Guide](./Contribute_Advanced.md).
 
 If you need assistance, ask in the [Telegram group](https://t.me/defichain_wiki) for help.
 
 ## Requirements
 
-- To help work on the Wiki you need a GitHub account. You can create a free account [here](https://github.com/join).
+- A GitHub account. You can create a free account [here](https://github.com/join).
 - All the pages are written using the **Markdown** syntax. Here's a handy [cheat sheet](https://www.markdownguide.org/cheat-sheet/).
 
 ## Quick Edit

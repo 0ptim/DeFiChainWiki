@@ -1,11 +1,15 @@
 ---
-title: Kılavuz
+title: Temel Kılavuz
 description: TODO - Bu sayfanın kısa açıklaması.
 ---
 
+Bu kılavuz, mevcut sayfalarda nasıl küçük düzenlemeler yapabileceğinizi gösterir. Yeni sayfalar eklemek veya yapıyı değiştirmek gibi daha fazla kontrole sahip olmak istiyorsanız, [Gelişmiş Kılavuz](./Contribute_Advanced.md) bölümüne bir göz atın.
+
+Yardıma ihtiyacınız olursa, [Telegram grubu](https://t.me/defichain_wiki) üzerinden yardım isteyin.
+
 ## Gereksinimler
 
-- Wiki üzerinde çalışmaya yardımcı olmak için bir GitHub hesabına ihtiyacınız var. Ücretsiz bir hesap oluşturabilirsiniz [burada](https://github.com/join).
+- Bir GitHub hesabı. Ücretsiz bir hesap oluşturabilirsiniz [burada](https://github.com/join).
 - Tüm sayfalar **Markdown** sözdizimi kullanılarak yazılmıştır. İşte kullanışlı bir [hile sayfası](https://www.markdownguide.org/cheat-sheet/).
 
 ## Hızlı Düzenleme
