@@ -1,6 +1,6 @@
 ---
 title: DFI Staking at DFX
-description: TODO - Short description of this page.
+description: DFI staking and how it works on DFX. Stake without having 20,000 DFI.
 ---
 
 ![](./../media/dfxstaking_EN_1.jpg)

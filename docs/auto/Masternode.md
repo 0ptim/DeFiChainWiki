@@ -1,6 +1,6 @@
 ---
 title: Masternode
-description: TODO - Short description of this page.
+description: 20,000 DFI needed to run a Masternode. Help stabilize the network. Pros and cons of different ways to run a masternode
 ---
 
 ## DeFiChain Masternode {#defichain-masternode}

@@ -1,6 +1,6 @@
 ---
 title: Fullnode
-description: TODO - Short description of this page.
+description: Fullnodes secure the network. Install and run a fullnode using linux. Create a backup. Download a snapshot.
 ---
 
 ## DeFiChain Fullnode {#defichain-fullnode}

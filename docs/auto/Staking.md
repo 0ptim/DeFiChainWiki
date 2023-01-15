@@ -1,6 +1,6 @@
 ---
 title: Staking
-description: TODO - Short description of this page.
+description: Staking - DeFiChain's Proof of Stake mechanism to secure the network. Preventing malicious users to take over the network.
 ---
 
 (Work-In-Progress)

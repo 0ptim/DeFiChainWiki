@@ -1,11 +1,11 @@
 ---
 title: DFX Manual Registration
-description: TODO - Short description of this page.
+description: Register DFX.swiss. Step by step guide to start with DFX. Video tutorial in German.
 ---
 
 This web page describes how to register on the DFX.swiss Exchange.
 
-[Video tutorial](https://www.youtube.com/watch?v=0C50S1GhBu8) in german.
+[Video tutorial](https://www.youtube.com/watch?v=0C50S1GhBu8) in German.
 
 [Download](https://defichain.com/downloads/) link to Full Node Wallet.
 

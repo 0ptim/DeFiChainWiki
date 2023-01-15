@@ -1,6 +1,6 @@
 ---
 title: Liquidity Mining versus Staking
-description: TODO - Short description of this page.
+description: Liquidity mining vs. staking. Which platforms to use and a comparison of those. Solo staking, Cake Defi, DFX.swiss, and more.
 ---
 
 This small guide should help you decide whether to use Liquidity Mining or Staking, if you are debating the two. In addition, it also indicates the advantages and disadvantages whether you should directly use the DeFiChain or use a service provider like CakeDeFi (commonly referred to as Cake).

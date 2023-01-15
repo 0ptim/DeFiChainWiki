@@ -1,6 +1,6 @@
 ---
 title: Ecosystem
-description: TODO - Short description of this page.
+description: The most important DeFiChain socials, block explorer and more.
 ---
 
 **🔗 You can explore a complete list of all links on [defilinks.io](https://defilinks.io/)**

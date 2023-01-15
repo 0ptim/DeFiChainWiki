@@ -1,6 +1,6 @@
 ---
 title: Original White Paper
-description: TODO - Short description of this page.
+description: The Original DeFiChain Whitepaper. DeFiChain's mission and what problems are solved.
 ---
 
 ## White paper {#white-paper}

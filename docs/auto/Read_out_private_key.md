@@ -1,6 +1,6 @@
 ---
 title: Private key read out of the app
-description: TODO - Short description of this page.
+description: Read out the private key from the DeFiChain app. Use VPN for extra security.
 ---
 
 Description of how the private key can be read out of the app.

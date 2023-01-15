@@ -1,6 +1,6 @@
 ---
 title: Unable to start blockchain
-description: TODO - Short description of this page.
+description: DeFiChain app - Fix the 'Unable to start blockchain' error
 ---
 
 Error: Unable to start blockchain

@@ -1,6 +1,6 @@
 ---
 title: Kill defid Daemon
-description: TODO - Short description of this page.
+description: Stop a running DeFiChain daemon by killing the corresponding process. Find the PID and stop the process.
 ---
 
 ## Kill defid on Mac {#kill-defid-on-mac}

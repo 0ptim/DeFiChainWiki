@@ -1,6 +1,6 @@
 ---
 title: UTXO
-description: TODO - Short description of this page.
+description: DeFiChain uses the UTXO model. Differences between DFI in form of Token and UTXO.
 ---
 
 DeFiChain uses the **u**nspent transaction (**tx**) **o**utput model, or

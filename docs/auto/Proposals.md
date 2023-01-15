@@ -1,6 +1,6 @@
 ---
 title: Proposals
-description: TODO - Short description of this page.
+description: Official proposal mechanisms to improve DeFiChain and its ecosystem. DFIPs vs. DFPs. Learn how to make a proposal.
 ---
 
 ## DFIPs and CFPs {#dfips-and-cfps}

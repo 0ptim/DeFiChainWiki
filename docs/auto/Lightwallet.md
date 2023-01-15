@@ -1,6 +1,6 @@
 ---
 title: Lightwallet
-description: TODO - Short description of this page.
+description: The Lightwallet is the most used mobile app to access the DeFiChain ecosystem. IOS and Android. Easy to install and use. Basic functions explained. 
 ---
 
 ## Background and general infos

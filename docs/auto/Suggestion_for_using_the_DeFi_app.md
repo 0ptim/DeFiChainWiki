@@ -1,6 +1,6 @@
 ---
 title: Suggestion for using the DeFi app
-description: TODO - Short description of this page.
+description: Suggestion of how to use and operate the DeFiChain App the best way. 
 ---
 
 This text is a suggestion on how to best use and operate the DeFi App. It is not an official recommendation, but only the subjective opinion of some community members.
