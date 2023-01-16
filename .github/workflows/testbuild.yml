@@ -7,21 +7,16 @@ on:
 
 jobs:
   prettier:
-    name: Format files using Prettier
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-        with:
-          ref: ${{ github.head_ref }}
-          fetch-depth: 0
+    - name: Checkout code
+      uses: actions/checkout@v2
 
-      - name: Prettify code
-        uses: creyD/prettier_action@v4.2
-        with:
-          dry: True
-          only_changed: True
-          prettier_options: --check **/*.{js,css,md} --end-of-line lf
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Run Prettier
+      run: npm run prettier -- --check
 
   build:
     name: Create test build
