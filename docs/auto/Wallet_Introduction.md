@@ -1,6 +1,6 @@
 ---
 title: Beginners Guide
-description: A beginners guide to DefiChain. Choose the right wallet for your needs and buy DFI coins on an exchange.
+description: A beginners guide to DefiChain. Choose the right wallet for your needs and buy DFI coins on an exchange.  
 ---
 
 If you speak German and prefer videos you can start [here 🎬](https://www.youtube.com/watch?v=q4MUebLlLzM&list=PLc-FB8e3YKYtju2G0O7bcUB1FE2t2SD0j). Please be aware that information in the videos might be outdated due to continous development of DeFiChain and the production date of the video.

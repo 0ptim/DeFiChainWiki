@@ -1,6 +1,6 @@
 ---
 title: API
-description: An overview of the most frequently used API calls for DeFiChain. Get stats, addresses, transactions, blocks and DEX info.
+description: An overview of the most frequently used API calls for DeFiChain. Get stats, addresses, transactions, blocks and DEX info. 
 ---
 
 ## General {#general}

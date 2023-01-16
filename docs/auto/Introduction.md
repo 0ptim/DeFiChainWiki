@@ -1,6 +1,6 @@
 ---
 title: Introduction
-description: Decentralized Finance allows to do all kind of financial services without a central party. DeFiChain was created be a perfect fit for DeFi.
+description: Decentralized Finance allows to do all kind of financial services without a central party. DeFiChain was created be a perfect fit for DeFi. 
 ---
 
 DeFi stands for Decentralized Finance. It describes the idea of enabling people to become their own bank for these services and eliminate counterparty risks, without the need for a trusted third party to run financial services.
