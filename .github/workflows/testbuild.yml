@@ -16,7 +16,7 @@ jobs:
       run: npm ci
 
     - name: Run Prettier
-      run: npm run prettier -- --check
+      run: npm run prettier -- --check || exit 1
 
   build:
     name: Create test build
