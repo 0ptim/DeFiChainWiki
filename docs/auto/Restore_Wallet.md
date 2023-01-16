@@ -1,6 +1,6 @@
 ---
 title: Restore Wallet
-description: Restore your DeFiChain wallet using either .dat file or mnemonic seed. 
+description: Restore your DeFiChain wallet using either .dat file or mnemonic seed.
 ---
 
 Upfront information: At the time this article was created the latest version of the DeFiChain app is 2.3.0. The article was updated for version 2.5.2.

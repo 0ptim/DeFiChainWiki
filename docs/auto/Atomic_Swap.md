@@ -1,6 +1,6 @@
 ---
 title: Atomic Swap
-description: Atomic Swap explained. An Interchain Exchange to swap native BTC with DFI. Tutorial for usage via command line. 
+description: Atomic Swap explained. An Interchain Exchange to swap native BTC with DFI. Tutorial for usage via command line.
 ---
 
 `*** Atomic Swap is temporarily suspended ***`

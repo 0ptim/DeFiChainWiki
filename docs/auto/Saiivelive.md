@@ -1,6 +1,6 @@
 ---
 title: Saiive.live
-description: Saiive.live stpped all services since the end of June 2022. 
+description: Saiive.live stpped all services since the end of June 2022.
 ---
 
 The [saiive.live](https://www.saiive.live) - DeFi Wallet is a DeFiChain wallet from and for the community.
