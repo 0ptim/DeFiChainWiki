@@ -1,6 +1,6 @@
 ---
 title: Show hidden folders
-description: Show hidden DeFiChain app folders on Windows and Mac. 
+description: Show hidden DeFiChain app folders on Windows and Mac.
 ---
 
 ## Windows {#windows}

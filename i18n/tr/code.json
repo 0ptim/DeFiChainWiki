@@ -1,18 +1,10 @@
 {
-  "Homepage.Subtitle_beginning": {
-    "message": "DeFiChain ekosistemi hakkındaki tüm ",
+  "Homepage.Subtitle": {
+    "message": "DeFiChain ekosistemi hakkındaki tüm bilgi bankanız.",
     "description": "Alt başlığın ilk kısmı."
   },
-  "Homepage.Subtitle_highlight": {
-    "message": "bilgi bankanız",
-    "description": "Farklı renkte vurgulanması gereken kısım."
-  },
-  "Homepage.Subtitle_ending": {
-    "message": ".",
-    "description": "Alt başlığın son kısmı."
-  },
   "Homepage.Button.Get_Started": {
-    "message": "Başlayın ▶",
+    "message": "Başlayın",
     "description": "Bu düğme, bilgi tabanının ana sayfasını açmak için ana sayfada kullanılır."
   },
   "Homepage.Button.Contribute": {

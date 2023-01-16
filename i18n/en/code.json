@@ -1,18 +1,10 @@
 {
-  "Homepage.Subtitle_beginning": {
-    "message": "Your ",
+  "Homepage.Subtitle": {
+    "message": "Your knowledgebase all around the DeFiChain ecosystem.",
     "description": "First part of the subtitle."
   },
-  "Homepage.Subtitle_highlight": {
-    "message": "knowledgebase",
-    "description": "The part, which should be highlighted in different color."
-  },
-  "Homepage.Subtitle_ending": {
-    "message": " all around the DeFiChain ecosystem.",
-    "description": "The end part of the subtitle."
-  },
   "Homepage.Button.Get_Started": {
-    "message": "Get Started ▶",
+    "message": "Get Started",
     "description": "This button is used on the home page for opening the main page of the knowledge base."
   },
   "Homepage.Button.Contribute": {

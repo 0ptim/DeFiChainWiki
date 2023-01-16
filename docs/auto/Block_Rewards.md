@@ -1,6 +1,6 @@
 ---
 title: Block Rewards
-description: DeFiChain block rewards. Read all about masternode rewards, community fund and liquidity mining rewards. 
+description: DeFiChain block rewards. Read all about masternode rewards, community fund and liquidity mining rewards.
 ---
 
 ### DeFiChain Block Rewards {#defichain-block-rewards}
