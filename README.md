@@ -1,4 +1,4 @@
-[![Deploy to GitHub Pages](https://github.com/0ptim/DeFiChainWiki/actions/workflows/deploy.yml/badge.svg)](https://github.com/0ptim/DeFiChainWiki/actions/workflows/deploy.yml)
+[![Deploy to GitHub Pages](https://github.com/0ptim/DeFiChainWiki/actions/workflows/deploy.yml/badge.svg)](https://github.com/0ptim/DeFiChainWiki/actions/workflows/deploy.yml) [![Telegram](https://img.shields.io/badge/join-Telegram-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/defichain_wiki) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # DeFiChainWiki
 
