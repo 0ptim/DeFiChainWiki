@@ -1,6 +1,6 @@
 ---
 title: Masternode installation extended
-description: Full tutorial of how to set up a masternode. Local app and masternode in the cloud. 
+description: Full tutorial of how to set up a masternode. Local app and masternode in the cloud.
 ---
 
 ## Installation DefiChain Masternode with a local APP wallet and a masternode in the cloud: {#installation-defichain-masternode-with-a-local-app-wallet-and-a-masternode-in-the-cloud}

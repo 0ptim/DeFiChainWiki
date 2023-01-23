@@ -1,6 +1,6 @@
 ---
 title: Future Swap
-description: Future Swaps on DeFiChain. The way how the network uses futures to stabilize the dToken prices. 
+description: Future Swaps on DeFiChain. The way how the network uses futures to stabilize the dToken prices.
 ---
 
 ## Future Swap

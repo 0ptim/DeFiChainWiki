@@ -21,13 +21,10 @@
   --ifm-font-family-base: "Inter", sans-serif;
 }
 
-[data-theme="light"] .button {
-  --ifm-button-background-color: #3c3c3c;
-  color: var(--ifm-color-gray-100);
-}
-
-[data-theme="light"] .button:hover {
-  --ifm-button-background-color: #5a5a5a;
+.button {
+  background: linear-gradient(200deg, #fc1dae 21.58%, #00f6ff 103.79%);
+  border-width: 0;
+  color: var(--ifm-color-white) !important;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
