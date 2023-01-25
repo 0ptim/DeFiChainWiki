@@ -83,7 +83,6 @@ const sidebars = {
             description: "Read the technical papers about DeFiChain.",
           },
           items: [
-            "auto/Original_White_Paper",
             "auto/Updated_White_Paper",
             "auto/Pink_Paper",
           ],
