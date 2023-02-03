@@ -3,7 +3,7 @@ title: DeFiChain-Masternode-Monitor
 description: Überwache deine DeFiChain-Masternodes und schau dir die Aktivität direkt im Browser an.
 ---
 
-Schau nach was deine Masternode macht, ohne dass die DeFiChain Desktop-Wallet läuft. Du kannst die Aktivität deiner Masternodes direkt vom Handy oder einem Computer aus überprüfen. Dafür benötiigst du nur Internet und den DeFiChain-Masternode-Monitor.
+Schau nach was deine Masternode macht, ohne dass die DeFiChain Desktop-Wallet läuft. Du kannst die Aktivität deiner Masternodes direkt vom Handy oder einem Computer aus überprüfen. Dafür benötigst du nur Internet und den DeFiChain-Masternode-Monitor.
 
 https://www.defichain-masternode-monitor.com/
 
