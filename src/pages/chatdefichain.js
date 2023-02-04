@@ -4,7 +4,7 @@ import QA from "../components/QA";
 
 export default function Home() {
   return (
-    <Layout description="Wiki for the DeFiChain blockchain and it's ecosystem. Explanations and information around topics like DEX, Liquidity Mining, Staking, Vaults, Wallets and more.">
+    <Layout description="Ask questions about DeFiChain which will get answered.">
       <QA />
     </Layout>
   );
