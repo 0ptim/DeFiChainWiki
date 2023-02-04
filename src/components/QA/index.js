@@ -24,6 +24,12 @@ export default function QA() {
     }
   };
 
+  const handleKeyDown = (event) => {
+    if (event.keyCode === 13) {
+      handleSubmit();
+    }
+  };
+
   return (
     <div className={styles.container}>
       <div className={styles.window}>
@@ -34,6 +40,7 @@ export default function QA() {
           placeholder="How many DFI do I need to run my own masternode?"
           value={question}
           onChange={(e) => setQuestion(e.target.value)}
+          onKeyDown={handleKeyDown}
         />
         <button
           className={styles.button}
