@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import clsx from "clsx";
+import React, { useState, useEffect, useRef } from "react";
 import styles from "./styles.module.css";
+import Layout from "@theme/Layout";
 
-export default function QA() {
+function QA() {
   const [question, setQuestion] = useState("");
   const [answer, setAnswer] = useState("");
   const [loading, setLoading] = useState(false);
@@ -52,5 +52,13 @@ export default function QA() {
         <p className={styles.answer}>{answer}</p>
       </div>
     </div>
+  );
+}
+
+export default function Home() {
+  return (
+    <Layout description="Ask questions about DeFiChain which will get answered.">
+      <QA />
+    </Layout>
   );
 }
