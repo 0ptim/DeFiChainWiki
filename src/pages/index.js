@@ -7,7 +7,6 @@ import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import styles from "./index.module.css";
 import Translate from "@docusaurus/Translate";
 import { BackgroundAnimation } from "../components/Animation";
-import QA from "../components/QA";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -45,7 +44,6 @@ function HomepageHeader() {
 export default function Home() {
   return (
     <Layout description="Wiki for the DeFiChain blockchain and it's ecosystem. Explanations and information around topics like DEX, Liquidity Mining, Staking, Vaults, Wallets and more.">
-      <QA></QA>
       <HomepageHeader />
       <main>
         <HomepageFeatures />
