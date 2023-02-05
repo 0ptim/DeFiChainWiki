@@ -23,7 +23,6 @@ function QA() {
       });
       const data = await response.json();
       setAnswer(data.response.response);
-      setError(false);
     } catch (error) {
       console.error(error);
     } finally {
@@ -46,7 +45,10 @@ function QA() {
           type="text"
           placeholder="How many DFI do I need to run my own masternode?"
           value={question}
-          onChange={(e) => setQuestion(e.target.value)}
+          onChange={(e) => {
+            setQuestion(e.target.value);
+            setError(false);
+          }}
           onKeyDown={handleKeyDown}
         />
         <button
