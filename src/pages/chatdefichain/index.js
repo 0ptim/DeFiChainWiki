@@ -39,7 +39,7 @@ function QA() {
   return (
     <div className={styles.container}>
       <div className={styles.window}>
-        <h1>State: {loading ? "Generating answer" : "Ask a question"}</h1>
+        <h1>{loading ? "Generating answer" : "Ask a question"}</h1>
         <input
           className={`${styles.input} ${error ? styles.error : ""}`}
           type="text"
