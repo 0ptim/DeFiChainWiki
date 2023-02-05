@@ -6,8 +6,14 @@ function QA() {
   const [question, setQuestion] = useState("");
   const [answer, setAnswer] = useState("");
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(false);
 
   const handleSubmit = async () => {
+    if (!question) {
+      setError(true);
+      return;
+    }
+
     setLoading(true);
     try {
       const response = await fetch("https://chatdefichain.fly.dev/ask", {
@@ -17,6 +23,7 @@ function QA() {
       });
       const data = await response.json();
       setAnswer(data.response.response);
+      setError(false);
     } catch (error) {
       console.error(error);
     } finally {
@@ -35,7 +42,7 @@ function QA() {
       <div className={styles.window}>
         <h1>State: {loading ? "Generating answer" : "Ask a question"}</h1>
         <input
-          className={styles.input}
+          className={`${styles.input} ${error ? styles.error : ""}`}
           type="text"
           placeholder="How many DFI do I need to run my own masternode?"
           value={question}

@@ -30,6 +30,10 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.error {
+  background-color: rgb(255, 227, 227);
+}
+
 .button {
   width: 100%;
   border: none;
