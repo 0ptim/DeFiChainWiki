@@ -5,6 +5,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+[data-theme="dark"] .container {
+  background-image: url("/static/img/map_dark.svg");
+}
+
+[data-theme="light"] .container {
+  background-image: url("/static/img/map_light.svg");
 }
 
 .window {
