@@ -39,7 +39,8 @@ function QA() {
   return (
     <div className={styles.container}>
       <div className={styles.window}>
-        <h1>{loading ? "Generating answer" : "Ask a question"}</h1>
+        <h1>{loading ? "Generating answer" : "Ask Jelly"}</h1>
+        <p>Ask any question about DeFiChain</p>
         <input
           className={`${styles.input} ${error ? styles.error : ""}`}
           type="text"
@@ -56,9 +57,10 @@ function QA() {
           onClick={handleSubmit}
           disabled={loading}
         >
-          Ask
+          Send
         </button>
         <p className={styles.answer}>{answer}</p>
+        <div className={styles.question}>?</div>
       </div>
     </div>
   );

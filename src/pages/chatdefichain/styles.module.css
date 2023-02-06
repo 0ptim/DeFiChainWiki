@@ -1,6 +1,5 @@
 .container {
   padding: 100px 0;
-  background-color: rgba(0, 0, 0, 0.7);
   z-index: 100;
   display: flex;
   justify-content: center;
@@ -19,24 +18,25 @@
 }
 
 .window {
+  position: relative;
   background-color: #fff;
-  width: 70%;
+  max-width: 600px;
+  flex-grow: 1;
   border-radius: 20px;
   padding: 40px;
   display: flex;
-  gap: 20px;
   flex-direction: column;
   align-items: center;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 12px 24px rgba(0, 0, 0, 0.25);
 }
 
 .input {
   width: 100%;
   border: none;
   outline: none;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   padding: 20px;
-  background-color: #ededed;
+  background-color: #e4e4e4;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -49,13 +49,14 @@
   width: 100%;
   border: none;
   outline: none;
-  font-size: 1.8rem;
-  padding: 20px;
-  background-color: #333;
+  font-size: 1.4rem;
+  padding: 15px;
+  background: linear-gradient(229.5deg, #fc1dae 21.58%, #00f6ff 103.79%);
   border-radius: 10px;
   color: #fff;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  margin: 12px 0;
 }
 
 .button:hover {
@@ -66,9 +67,24 @@
   width: 100%;
   border: none;
   outline: none;
-  font-size: 1.8rem;
+  font-size: 1rem;
   padding: 20px;
-  background-color: #ededed;
+  min-height: 165px;
+  background-color: #e4e4e4;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #e4e4e4;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
