@@ -17,7 +17,7 @@ There are many ways of investing in decentralized Assets (so called "dAssets") u
 
 </div>
 
-The examples are made for the input investment of DFI, but it can be replaced with all crypto tokens of DeFiChain ecosystem (f.e. dBTC, dETH, dUSDT,...).  
+The examples are made for the input investment of DFI, but it can be replaced with all crypto tokens of DeFiChain ecosystem (f.e. dBTC, dETH, dUSDT,...).
 
 ### Long position - Neutral DFI
 
@@ -27,11 +27,11 @@ The future price of the dAsset will be higher than it is today.
 
 #### DefiChain procedure
 
-- sell DFI on the DEX for DUSD
-- buy preferred dAsset on the DEX with X amount of DUSD
+- sell DFI on the DEX for **X amount of DUSD**
+- buy preferred dAsset on the DEX with **X amount of DUSD**
 - The goal of the investment
-  - sell the dAsset for Y amount of DUSD
-  - Profit: (Y-X) DUSD
+  - sell the dAsset for **Y amount of DUSD**
+  - Profit: **(Y-X) DUSD**
 
 #### Remarks
 
@@ -41,13 +41,15 @@ The future price of the dAsset will be higher than it is today.
 - any price movement of DFI has no effect on the investment
 - whole capital is invested
 
-#### Example
+:::info Example
 
-When DFI price is $2.50, then **280 DFI can be swapped to 700 DUSD**. For those 700 DUSD 1 dTSLA  can be bought.
+When **DFI** price is **$2.50**, then **280 DFI** can be swapped to **700 DUSD**. For those **700 DUSD 1 dTSLA** can be bought.
 
-After some time the dTSLA price rises to 1000 DUSD and the DFI price rises to $4.00. The dTSLA can be sold for 1000 DUSD and **makes 300 DUSD profit**, but the 1000 DUSD can be swapped back **only to 250 DFI**, because the DFI price went up.
+After some time the **dTSLA** price rises to **1000 DUSD** and the **DFI** price rises to **$4.00.** The dTSLA can be sold for 1000 DUSD and makes **300 DUSD profit**, but the **1000 DUSD** can be swapped back **only to 250 DFI**, because the DFI price went up.
 
 **→ The best case for this investment: Only the price of dAsset increases.**
+
+:::
 
 ### Long position - Long DFI (leverage)
 
@@ -58,11 +60,11 @@ The future price of the dAsset and DFI will be higher than it is today.
 #### DefiChain procedure
 
 - put DFI in vault as the collateral for a decentralized loan and mint **x amount of DUSD**
-- buy preferred dAsset on the DEX with **x amount of DUSD**
+- buy preferred dAsset on the DEX with **X amount of DUSD**
 - The Goal of the investment
-  - sell the dAsset for **y amount of DUSD**
-  - payback loan which equals **x amount of DUSD + interest**
-  - Profit: **(y-x) DUSD - interest**
+  - sell the dAsset for **Y amount of DUSD**
+  - payback loan which equals **X amount of DUSD + interest**
+  - Profit: **(Y-X) DUSD - interest**
 
 #### Remarks
 
@@ -71,19 +73,17 @@ The future price of the dAsset and DFI will be higher than it is today.
 - if the price of the collateral falls too low, the vault will be liquidated **→ pay attention to the collateral ratio**
 - not all capital is invested (2/3 – 1/10 with respect to collateral ratio) **→ the yield for long position on dAsset is reduced**
 
+:::info Example
 
-#### Example
+When **DFI** price is **$2.50**, the collateral of **280 DFI** equals **$700** and provides decentralized loan of **350 DUSD** with collateral ratio of 200%. Those **350 DUSD** can be swapped to **0.5 dTSLA** on the DEX.
 
-<div className="formula_map_bold">
+When after one year **dTSLA** price goes up to **$1000** and **DFI** price rises to **$4.00**, the **0.5 dTSLA** can be swapped for **500 DUSD.** The loan can be closed with **350 + 7 DUSD** (the interest included). **The profit is 500 - 357 = 143 DUSD.**
 
-When DFI price is $2.50, the collateral of **280 DFI equals $700 and provides** decentralized loan of 350 DUSD** with collateral ratio of 200%. Those 350 DUSD can be swapped to 0.5 dTSLA on the DEX.
-
-When after one year dTSLA price goes up to $1000 and DFI price rises to $4.00, the 0.5 dTSLA can be swapped for 500 DUSD. The loan can be closed with 350 + 7 DUSD (the interest included). **The profit is 500 - 357 = 143 DUSD.**
-
-**The price of DFI collateral is now $1120 which means an additional profit of $420**.
+The price of **DFI** collateral is now **$1120** which means an additional **profit of $420**.
 
 **→ The best case for this investment: dAsset price and DFI price increases**
-</div>
+
+:::
 
 ### Short position - Long DFI
 
@@ -93,12 +93,12 @@ The future price of the dAsset will be lower than it is today.
 
 #### DefiChain procedure
 
-- put DFI in vault as the collateral for a decentralized loan and mint **x amount of** preferred dAsset
-- sell the dAsset on the DEX and get **y amount of DUSD**
+- put DFI in vault as the collateral for a decentralized loan and mint **X amount of preferred dAsset**
+- sell the dAsset on the DEX and get **Y amount of DUSD**
 - The Goal of the investment
-  - buy **x amount of dAsset+loan interest** back with **z amount of DUSD** (after dAsset price drop)
-  - payback loan 
-  - Profit: **(y-z) DUSD**
+  - buy **X amount of dAsset+loan interest** back with **Z amount of DUSD** (after dAsset price drop)
+  - payback loan
+  - Profit: **(Y-Z) DUSD**
 
 #### Remarks
 
@@ -107,23 +107,22 @@ The future price of the dAsset will be lower than it is today.
 - if the price of the collateral falls too low, the vault will be liquidated **→ pay attention to the collateral ratio**
 - not all capital is invested (2/3 – 1/10 with respect to collateral ratio) **→ the yield for short position on dAsset is reduced**
 
-#### Example
+:::info Example
 
-<div className="formula_map">
-When DFI price is $2.50, the collateral of **280 DFI equals $700 and provides decentralized loan 0.5 dTSLA** (200% collateralization and dTLSA price of $700). This 0.5 dTSLA can be swapped on the DEX for 350 DUSD.
+When **DFI** price is **$2.50**, the collateral of **280 DFI** equals **$700** and provides decentralized loan **0.5 dTSLA** (200% collateralization and dTLSA price of $700). This **0.5 dTSLA** can be swapped on the DEX for **350 DUSD.**
 
-When after one year the dTSLA price drops to $500 and the DFI price increases to $4.00, the loan amount + interest is 0.51 dTSLA, which can be bought for 255 DUSD. **The profit is 350 - 255 = 95 DUSD.**
+When after one year the **dTSLA** price drops to **$500** and the **DFI** price increases to **$4.00,** the loan amount + interest is **0.51 dTSLA**, which can be bought for **255 DUSD. The profit is 350 - 255 = 95 DUSD.**
 
-**The price of DFI collateral is now $1120 which means an additional profit of $420.**
+The price of **DFI** collateral is now **$1120** which means an additional **profit of $420.**
 
 **→ The best case for this investment: The dAsset price decreases and DFI price increases.**
 
-</div>
+:::
 
 ## Part 2: Liquidity mining
 
- Liquidity mining (LM) is one of the fundaments of the whole DeFiChain. Further information can be founded [here](./Liquidity_Mining.md).  
- In case of investing & trading, liquidity mining can be used to generate cashflow. This chapter describes four different ways depending on the investment strategy. 
+Liquidity mining (LM) is one of the fundaments of the whole DeFiChain. Further information can be founded [here](./Liquidity_Mining.md).  
+ In case of investing & trading, liquidity mining can be used to generate cashflow. This chapter describes four different ways depending on the investment strategy.
 
 <div className="background_map">
 
@@ -131,9 +130,9 @@ When after one year the dTSLA price drops to $500 and the DFI price increases to
 
 </div>
 
-The examples are made for the input investment of DFI, but it can be replaced with all crypto tokens of DeFiChain ecosystem (f.e. dBTC, dETH, dUSDT,...). However, only dAsset-DUSD pools are used in the examples. 
+The examples are made for the input investment of DFI, but it can be replaced with all crypto tokens of DeFiChain ecosystem (f.e. dBTC, dETH, dUSDT,...). However, only dAsset-DUSD pools are used in the examples.
 
-### Liquidity Mining – Neutral DFI / Long dAsset
+### Neutral DFI / Long dAsset
 
 #### Investment thesis
 
@@ -142,55 +141,250 @@ The examples are made for the input investment of DFI, but it can be replaced wi
 
 #### DefiChain procedure
 
-- sell some DFI on the DEX for **x amount of DUSD**
-- buy preferred dAsset on the DEX with **x/2 amount of DUSD** 
+- sell some DFI on the DEX for **X amount of DUSD**
+- buy preferred dAsset on the DEX with **X/2 amount of DUSD**
 - put DUSD and dAsset token into the liquidity mining pool
 - The Goal of the investment
   - get DFI rewards with each minted block and commissions
-  - after some time remove liquidity and sell dAsset token for **y amount of DUSD**
-  - Profit: **(y-x) DUSD + LM rewards and commissions.**
+  - after some time remove liquidity and sell dAsset token for **Y amount of DUSD**
+  - Profit: **(Y-X) DUSD + LM rewards and commissions.**
 
 #### Remarks
 
-- trades (losses and gains) are measured in DUSD  = $1
+- trades (losses and gains) are measured in DUSD = $1
 - LM block rewards are paid in DFI
-- The commissions from LM are paid in dAsset and DUSD
+- the commissions from LM are paid in dAsset and DUSD
 - any price movements of DFI has no effect on the investment
 - whole capital is invested and generates cashflow
 
+:::info Example
 
-#### Example
+When **DFI** price is **$2.50,** the **560 DFI** can be swapped to **700 DUSD** and **1 dTSLA** with an overall value of **$1400.**
 
-<div className="formula_map">
-When DFI price is $2.50, the 560 DFI can be swapped to 700 DUSD and 1 dTSLA with an overall value of $1400.  
+Those tokens can be put into LM with the ratio:
 
-Those tokens can be put into LM with the ratio: 
+**700 DUSD \* $1 = 1dTSLA \* $700**
 
-`700 DUSD \* $1 = 1TSLA \* $700`  
-  
 that leads to following amount of liquidity tokens
 
-`√(1 \* 700) = 26.45`
+**√(1 \* 700) = 26.45**
 
-After some time the price of dTSLA increases to $1000. That means that the pool ratio is:
+After some time the price of **dTSLA** increases to **$1000**. That means that the pool ratio is:
 
-`x amount of DUSD \* $1 = y amount of dTSLA \* 1000`
+**X amount of DUSD \* $1 = Y amount of dTSLA \* 1000**
 
 The rule of the constant amount of LM tokens leads to:
 
-`√(x \* y) = 26.45 → x = (26.45^2)/y`
+**√(X \* Y) = 26.45 → X = (26.45^2)/Y**
 
 Back to the first equation with substitution:
 
-`(26.45^2)/y \* $1 = y \* $1000  → y = 0.836 → x = 836`  
+**(26.45^2)/Y \* $1 = Y \* $1000 → Y = 0.836 → X = 836**
 
-Removing liquidity and swapping the 0.836 dTSLA and 836 DUSD into USD will result in an overall amount of: 
+Removing liquidity and swapping the **0.836 dTSLA** into **DUSD** will result in an overall amount of:
 
-`2 \* $836 = $1672 = $1400 + $272`
+**2 \* $836 = $1672 = $1400 + $272**
 
-**Additional to Liquidity Mining rewards, the investment provides $272 profit from price movement of dTSLA.**
+Additional to Liquidity Mining rewards, the investment provides **$272 profit** from price movement of dTSLA.
 
-**When the DFI price went up to $4.00 in the same time period, the 1672 DUSD can be swapped back only to 418 DFI.**
+When the **DFI** price went up to **$4.00** in the same time period, the **1672** DUSD can be swapped back only to **418 DFI.**
 
 **→ The best case for this investment: Only the price of dAsset increases.**
+
+:::
+
+### Long DFI / Long dAsset
+
+#### Investment thesis
+
+- generate crypto cashflow with liquidity mining
+- the DFI and dAsset price will increase
+
+#### DefiChain procedure
+
+- put DFI in vault as the collateral for a decentralized loan and mint **X amount of DUSD**
+- sell the **X/2 DUSD** for **Y amount of dAsset**
+- put DUSD and dAsset into liquidity mining
+- The Goal of the investment
+  - get DFI rewards with each minted blocks + commissions
+  - remove liquidity (after dAsset price rise) = get **Z DUSD** and the same value in the dAsset
+  - swap **dAsset** back to **Z amount od DUSD**, where **Z > X/2**
+  - close loan by putting dUSD + loan interest back
+    Profit: **(2Z - X) + LM rewards + commissions - loan interest**
+
+#### Remarks
+
+- trades (losses and gains) are measured in DUSD = $1
+- LM block rewards are paid in DFI
+- the commissions from LM are paid in dAsset and DUSD
+- if the price of the DFI (collateral) falls too low, the vault will be liquidated **→ pay attention to the collateral ratio**
+- not all capital is invested (2/3 – 1/10 with respect to collateral ratio) **→ the yield for short position on dAsset is reduced**
+
+:::info Example
+
+When **DFI** price is **$2.50,** the collateral of **1120 DFI** equals **$2800** and provides decentralized loan **1400 DUSD** (200% collateralization). **$700 DUSD** can be swapped to **1 dTSLA**.
+
+Those tokens can be put into LM with the ratio:
+
+**700 DUSD \* $1 = 1dTSLA \* $700**
+
+that leads to following amount of liquidity tokens
+
+**√(1 \* 700) = 26.45**
+
+After some time the price of **dTSLA** increases to **$1000**. That means that the pool ratio is:
+
+**X amount of DUSD \* $1 = Y amount of dTSLA \* 1000**
+
+The rule of the constant amount of LM tokens leads to:
+
+**√(X \* Y) = 26.45 → X = (26.45^2)/Y**
+
+Back to the first equation with substitution:
+
+**(26.45^2)/Y \* $1 = Y \* $1000 → Y = 0.836 → X = 836**
+
+Removing liquidity and swapping the **0.836 dTSLA** into **DUSD** will result in an overall amount of:
+
+**2 \* $836 = $1672 = $1400 + $272**
+
+Additional to Liquidity Mining rewards, the investment provides **profit: ($272 -loan interest**) from price movement of dTSLA.
+
+When the **DFI** price went up to **$4.00** in the same time period, **1120 DFI** collateral (after closing the loan) has value of **$4480** which means additional **profit of $1680.**
+
+**→ The best case for this investment: The dAsset price decreases and DFI price increases.**
+
+:::
+
+### Long DFI / Neutral dAsset
+
+#### Investment thesis
+
+- generate crypto cashflow with liquidity mining.
+- long term the DFI price will increase and the dAsset price will stay unchanged.
+
+#### DefiChain procedure
+
+- put DFI in vault as the collateral for a decentralized loan and mint **DUSD and dAsset with same value**
+- put DUSD and dAsset into liquidity mining
+- The Goal of the investment
+  - get DFI rewards with each minted blocks + commissions
+  - after some time remove liquidity
+  - if the pool ratio is different get the needed amount of DUSD and dAsset (swap/buy if needed)
+  - close the loan by putting dAsset and dUSD (interest included) back
+    Profit: **LM rewards+commissions - interest - loss of pool ratio change**
+
+#### Remarks
+
+- trades (losses and gains) are measured in DUSD = $1
+- LM block rewards are paid in DFI
+- the commissions from LM are paid in dAsset and DUSD
+- pool ratio change reduces your overall profit **→ asset neutral position**
+- if the price of the DFI (collateral) falls too low, the vault will be liquidated **→ pay attention to the collateral ratio**
+- not all capital is invested (2/3 – 1/10 with respect to collateral ratio) **→ the yield for short position on dAsset is reduced**
+
+:::info Example
+
+When **DFI** price is **$2.50,** the collateral of **1120 DFI** equals **$2800** and provides decentralized loan **1dTSLA** and **700 DUSD** (200% collateralization).
+
+Those tokens can be put into LM with the ratio:
+
+**700 DUSD \* $1 = 1dTSLA \* $700**
+
+that leads to following amount of liquidity tokens
+
+**√(1 \* 700) = 26.45**
+
+After some time the price of **dTSLA** increases to **$1000**. That means that the pool ratio is:
+
+**X amount of DUSD \* $1 = Y amount of dTSLA \* 1000**
+
+The rule of the constant amount of LM tokens leads to:
+
+**√(X \* Y) = 26.45 → X = (26.45^2)/Y**
+
+Back to the first equation with substitution:
+
+**(26.45^2)/Y \* $1 = Y \* $1000 → Y = 0.836 → X = 836**
+
+Removing liquidity provides **0.164 less dTSLA** and **136 more dUSD**. Swapping the **136 dUSD** will result in an overall amount of **dTSLA = 0.836 + 0.136 = 0.972.**
+
+**0.028 dTSLA** is **missing** to close the loan and must be bought from reward income.
+
+If in the same time frame the **DFI** price inccreases to **$4.00,** it will make additional **profit of $1,680** with your **DFI** long position.
+
+**→ The best case for this investment: Pool ratio remains unchanged and DFI increases.**
+
+:::
+
+### Long DFI / Short dAsset
+
+#### Investment thesis
+- generate crypto cashflow with liquidity mining.
+- long term the DFI price will increase and the dAsset price will decrease.
+
+#### DefiChain procedure
+
+- put DFI in vault as the collateral for a decentralized loan and mint **X amount of dAsset**
+- swap **X/2 of dAsset to DUSD**
+- put DUSD and dAsset into liquidity mining
+- The Goal of the investment
+  - get DFI rewards with each minted blocks + commissions
+  - after some time (when the dAsset price decrease) remove liquidity
+  - swap the **DUSD** back to **Y amount of dAsset**, where **Y > X/2**
+  - close the loan by putting dAsset (interest included) back
+    Profit: **LM rewards + commissions - interest + unspent dAsset from pool ratio change**
+
+#### Remarks
+
+- trades (losses and gains) are measured in DUSD = $1
+- LM block rewards are paid in DFI
+- the commissions from LM are paid in dAsset and DUSD
+- negative price movement of dAsset generates more – for loan needed – dAsset in LM **→ Short position on dAsset**
+- if the price of the DFI (collateral) falls too low, the vault will be liquidated **→ pay attention to the collateral ratio**
+- not all capital is invested (2/3 – 1/10 with respect to collateral ratio) **→ the yield for short position on dAsset is reduced**
+
+:::info Example
+
+When **DFI** price is **$2.50,** the collateral of **1120 DFI** equals **$2800** and provides decentralized loan **2 dTSLA** (200% collateralization). **1 dTSLA** can be swapped to **700 DUSD**.
+
+Those tokens can be put into LM with the ratio:
+
+**700 DUSD \* $1 = 1dTSLA \* $700**
+
+that leads to following amount of liquidity tokens
+
+**√(1 \* 700) = 26.45**
+
+After some time the price of **dTSLA** decreases to **$500**. That means that the pool ratio is:
+
+**X amount of DUSD \* $1 = Y amount of dTSLA \* 500**
+
+The rule of the constant amount of LM tokens leads to:
+
+**√(X \* Y) = 26.45 → X = (26.45^2)/Y**
+
+Back to the first equation with substitution:
+
+**(26.45^2)/Y \* $1 = Y \* $500 → Y = 1,18 → X = 590**
+
+Removing liquidity and swapping the **590 DUSD** into **dTSLA** will result in an overall amount of **dTSLA = 2 * 1.18 = 2.36 = 2 + 0.36.**
+
+The additional **profit** from dAsset short position is **0,36 dTSLA - loan interest**.
+
+If in the same time frame **DFI** goes up to **$4.00,** it will make additional **profit of $1,680** with your **DFI** long position.
+
+**→ The best case for this investment: The price of the dAsset goes down and DFI price goes up.**
+
+:::
+
+## Part 3: Advanced trading methods - Leverage
+There are many advanced investing & trading methods. This chapter describes two different ways depending on the investment strategy.
+
+<div className="background_map">
+
+![basic investment scheme](./../media/investingtrading_EN_03.png)
+
 </div>
+
+The examples are made for the input investment of DFI, but it can be replaced with all crypto tokens of DeFiChain ecosystem (f.e. dBTC, dETH, dUSDT,...). However, only dAsset-DUSD pools are used in the examples.
