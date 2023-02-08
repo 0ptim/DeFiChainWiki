@@ -81,8 +81,8 @@ const config = {
             label: "📖 Fundamentals",
           },
           {
-            to: "/defi-jelly",
-            label: "💬 DeFi-Jelly",
+            to: "/jellychat",
+            label: "💬 JellyChat",
           },
           {
             type: "localeDropdown",

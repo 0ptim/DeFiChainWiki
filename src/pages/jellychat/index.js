@@ -40,7 +40,7 @@ function QA() {
   return (
     <div className={styles.container}>
       <div className={styles.window}>
-        <h1>{loading ? "Generating answer" : "DeFi-Jelly"}</h1>
+        <h1>{loading ? "Generating answer" : "JellyChat"}</h1>
         <p>Ask any question about DeFiChain</p>
         <input
           className={`${styles.input} ${error ? styles.error : ""}`}
@@ -61,7 +61,7 @@ function QA() {
           Send
         </button>
         <p className={styles.answer}>{answer}</p>
-        <Link className={styles.helpButton} to="/docs/auto/defijelly">
+        <Link className={styles.helpButton} to="/docs/auto/JellyChat">
           ?
         </Link>
       </div>
