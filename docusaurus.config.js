@@ -81,9 +81,8 @@ const config = {
             label: "📖 Fundamentals",
           },
           {
-            type: "doc",
-            docId: "auto/Ecosystem",
-            label: "🧭 Ecosystem",
+            to: "/defi-jelly",
+            label: "💬 DeFi-Jelly",
           },
           {
             type: "localeDropdown",

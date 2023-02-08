@@ -275,6 +275,7 @@ const sidebars = {
       },
       items: ["auto/Sharing_is_caring", "auto/Contribute"],
     },
+    "auto/DeFiJelly",
     "auto/Links",
   ],
 };

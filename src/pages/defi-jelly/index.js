@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import styles from "./styles.module.css";
 import Layout from "@theme/Layout";
+import Link from "@docusaurus/Link";
 
 function QA() {
   const [question, setQuestion] = useState("");
@@ -39,7 +40,7 @@ function QA() {
   return (
     <div className={styles.container}>
       <div className={styles.window}>
-        <h1>{loading ? "Generating answer" : "Ask Jelly"}</h1>
+        <h1>{loading ? "Generating answer" : "DeFi-Jelly"}</h1>
         <p>Ask any question about DeFiChain</p>
         <input
           className={`${styles.input} ${error ? styles.error : ""}`}
@@ -60,7 +61,9 @@ function QA() {
           Send
         </button>
         <p className={styles.answer}>{answer}</p>
-        <div className={styles.question}>?</div>
+        <Link className={styles.helpButton} to="/docs/auto/defijelly">
+          ?
+        </Link>
       </div>
     </div>
   );
