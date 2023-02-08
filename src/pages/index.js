@@ -7,6 +7,7 @@ import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import styles from "./index.module.css";
 import Translate from "@docusaurus/Translate";
 import { BackgroundAnimation } from "../components/Animation";
+import CookieConsent from "react-cookie-consent";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -48,6 +49,9 @@ export default function Home() {
       <main>
         <HomepageFeatures />
       </main>
+      <CookieConsent>
+        This website uses cookies to enhance the user experience.
+      </CookieConsent>
     </Layout>
   );
 }
