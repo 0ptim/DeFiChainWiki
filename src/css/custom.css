@@ -113,15 +113,24 @@ article a[href*="//"]:not([href*="defichainwiki.com"])::after
 .theme-edit-this-page::after {
   content: "" !important;
 }
+
 *::-webkit-scrollbar {
   height: 6px;
   width: 6px;
 }
 
 *::-webkit-scrollbar-thumb {
-  background: #84f2fd;
+  background: #3d7f85;
 }
 
 *::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+[data-theme="dark"] *::-webkit-scrollbar-thumb {
+  background: #84f2fd;
+}
+
+[data-theme="dark"] *::-webkit-scrollbar-track {
   background: #161616;
 }
