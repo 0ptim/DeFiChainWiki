@@ -54,7 +54,7 @@ function QA() {
           onKeyDown={handleKeyDown}
         />
         <button
-          className={styles.button}
+          className={styles.sendButton}
           onClick={handleSubmit}
           disabled={loading}
         >
