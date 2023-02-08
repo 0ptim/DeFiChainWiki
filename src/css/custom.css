@@ -113,3 +113,15 @@ article a[href*="//"]:not([href*="defichainwiki.com"])::after
 .theme-edit-this-page::after {
   content: "" !important;
 }
+*::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #84f2fd;
+}
+
+*::-webkit-scrollbar-track {
+  background: #161616;
+}
