@@ -1,6 +1,6 @@
 ---
 title: Wallet Encryption
-description: TODO - Short description of this page.
+description: Wallet encryption and why it is important. Keep the seed and a backup wallet.dat in a safe place.
 ---
 
 Disclaimer: The following might contain incorrect or incomplete information. Unfortunately, the following information will only describe and explain a certain scenario and prevention but cannot provide a solution for common problems that have been reported.

@@ -1,6 +1,6 @@
 ---
 title: LOCK Staking
-description: TODO - Short description of this page.
+description: LOCK staking - a staking provider. Vote and stake with less than 20000 DFI. Unstake at any time. Integrated in JellyWallet and DFX mobile app.
 ---
 
 This page contains the most frequently asked questions about LOCK.space. Please note that this page is a community page maintained by the community and not by LOCK itself.

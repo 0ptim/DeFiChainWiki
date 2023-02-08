@@ -1,6 +1,6 @@
 ---
 title: Sync stops
-description: TODO - Short description of this page.
+description: DeFiChain blockchain sync stopped. Check debug.log file. Check system clock.
 ---
 
 ## Sync stops \> 99% {#sync-stops--99}

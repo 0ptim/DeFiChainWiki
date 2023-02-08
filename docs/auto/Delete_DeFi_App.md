@@ -1,6 +1,6 @@
 ---
 title: Delete DeFi App
-description: TODO - Short description of this page.
+description: Completetly delete the DeFiChain App and all hidden files.
 ---
 
 Instructions to completely delete the DeFi App.

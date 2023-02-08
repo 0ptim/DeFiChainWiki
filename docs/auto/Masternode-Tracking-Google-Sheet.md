@@ -1,6 +1,6 @@
 ---
 title: Masternode-Tracking-Google-Sheet
-description: TODO - Short description of this page.
+description: Keep track of a masternode using a Google Sheet. Data like block rewards is automatically filled in.
 ---
 
 ## Masternode Tracking with Google Sheets {#masternode-tracking-with-google-sheets}

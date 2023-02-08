@@ -1,6 +1,6 @@
 ---
 title: Testnet
-description: TODO - Short description of this page.
+description: Use the testnet to test a newly developed feature. Functions are the same as in mainnet. Request DFI on testnet every 6 hours.
 ---
 
 ## Motivation

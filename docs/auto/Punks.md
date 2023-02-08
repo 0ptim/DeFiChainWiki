@@ -1,6 +1,6 @@
 ---
 title: Punks
-description: TODO - Short description of this page.
+description: Introduction to DeFiChain community NFTs. Buy DeFiChain NFTs on Opensea.
 ---
 
 ## Introduction {#introduction}

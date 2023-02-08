@@ -1,6 +1,6 @@
 ---
 title: Show hidden folders
-description: TODO - Short description of this page.
+description: Show hidden DeFiChain app folders on Windows and Mac.
 ---
 
 ## Windows {#windows}

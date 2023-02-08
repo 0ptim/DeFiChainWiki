@@ -1,6 +1,6 @@
 ---
 title: DEX
-description: TODO - Short description of this page.
+description: DEX - the decentralized exchange of the DeFiChain ecosystem. Liquidity mining and the role of DUSD.
 ---
 
 ## DEX and decentral trading

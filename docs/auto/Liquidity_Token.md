@@ -1,6 +1,6 @@
 ---
 title: Liquidity Token
-description: TODO - Short description of this page.
+description: Liquidty tokens are received for providing liquidity. The market share of a specific liquidity token defines how much rewards are received.
 ---
 
 If you provide liquidity in one of the pools on u/defichain you will see liquidity tokens in your wallet. Many users have questions regarding this token, which I try to answer here.

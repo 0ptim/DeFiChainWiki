@@ -1,6 +1,6 @@
 ---
 title: Services
-description: TODO - Short description of this page.
+description: Links to independent portals and telegram bots. Find DeFiChain lottery, bridge, ecosystem overview, taxes, block explorer and much more
 ---
 
 Links to independent portals with DeFiChain content

@@ -1,6 +1,6 @@
 ---
 title: Lightwallet change Ocean
-description: TODO - Short description of this page.
+description: Wallets can interact with DeFiChain blockchain via Ocean infrastructure. List of different Ocean infrastructures that are available.
 ---
 
 The Lightwallet of DeFiChain interacts with the blockchain via Ocean infrastructure. Every user action is saved in a signed transaction and send to Ocean, which then executes it. So, a running ocean infrastructure is mandatory to have access to your funds with the Lightwallet. DeFiChain is a decentralized project and has alternatives to the standard infrastructure here as well.

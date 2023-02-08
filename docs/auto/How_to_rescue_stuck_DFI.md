@@ -1,6 +1,6 @@
 ---
 title: How To "Rescue" Stuck DFI
-description: TODO - Short description of this page.
+description: Possible troubleshootings to resolve the issue of not being able to send DFI.
 ---
 
 **Disclaimer: Console should be used in care. We are not responsible if the wrong commands are issued resulting in lost coins!**

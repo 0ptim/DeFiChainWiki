@@ -1,6 +1,6 @@
 ---
 title: App Sync Boost
-description: TODO - Short description of this page.
+description: Boost your fullnode syncing times. Add nodes to your peerlist. List of fullnodes.
 ---
 
 Sometimes the Wallet-APP in Windows, Mac or Linux need a long time to sync the whole blockchain.

@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Anchoring
-description: TODO - Short description of this page.
+description: Bitcoin Anchoring and its purpose. Concept and technical documents. View anchor history and learn how to get the anchor bonus.
 ---
 
 Information about the Bitcoin Anchoring.

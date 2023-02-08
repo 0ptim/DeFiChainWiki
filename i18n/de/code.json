@@ -1,18 +1,10 @@
 {
-  "Homepage.Subtitle_beginning": {
-    "message": "Deine ",
+  "Homepage.Subtitle": {
+    "message": "Deine Wissensdatenbank rund um das DeFiChain-Ökosystem.",
     "description": "Erster Teil des Untertitels."
   },
-  "Homepage.Subtitle_highlight": {
-    "message": "Wissensdatenbank",
-    "description": "Der Teil, der in einer anderen Farbe hervorgehoben werden soll."
-  },
-  "Homepage.Subtitle_ending": {
-    "message": " rund um das DeFiChain-Ökosystem.",
-    "description": "Der letzte Teil des Untertitels."
-  },
   "Homepage.Button.Get_Started": {
-    "message": "Los geht's ▶",
+    "message": "Los geht's",
     "description": "Dieser Button wird auf der Haupt-Seite verwendet, um die Wissensdatenbank zu öffnen."
   },
   "Homepage.Button.Contribute": {

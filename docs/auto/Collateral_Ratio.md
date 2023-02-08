@@ -1,6 +1,6 @@
 ---
 title: Collateral Ratio
-description: TODO - Short description of this page.
+description: How to calculate the collateralization ratio? Different loan schemes on DeFiChain vaults explained.
 ---
 
 ## Calculation
