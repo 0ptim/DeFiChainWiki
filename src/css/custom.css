@@ -134,3 +134,33 @@ article a[href*="//"]:not([href*="defichainwiki.com"])::after
 [data-theme="dark"] *::-webkit-scrollbar-track {
   background: #161616;
 }
+
+.skeleton1 {
+  width: 300px;
+}
+
+.skeleton2 {
+  width: 150px;
+}
+
+.skeleton3 {
+  width: 200px;
+}
+
+.skeleton {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  background-color: #3e3f41;
+  border-radius: 6px;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}

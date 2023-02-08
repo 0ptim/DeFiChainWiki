@@ -16,6 +16,7 @@ function QA() {
     }
 
     setLoading(true);
+    setAnswer("");
     try {
       const response = await fetch("https://chatdefichain.fly.dev/ask", {
         method: "POST",
@@ -40,7 +41,7 @@ function QA() {
   return (
     <div className={styles.container}>
       <div className={styles.window}>
-        <h1>{loading ? "Generating answer" : "JellyChat"}</h1>
+        <h1>JellyChat</h1>
         <p>Ask any question about DeFiChain</p>
         <input
           className={`${styles.input} ${error ? styles.error : ""}`}
@@ -60,7 +61,16 @@ function QA() {
         >
           Send
         </button>
-        <p className={styles.answer}>{answer}</p>
+        <div className={styles.answer}>
+          <p>{answer}</p>
+          {loading && (
+            <div>
+              <div className={`skeleton skeleton1`}></div>
+              <div className={`skeleton skeleton2`}></div>
+              <div className={`skeleton skeleton3`}></div>
+            </div>
+          )}
+        </div>
         <Link className={styles.helpButton} to="/docs/auto/JellyChat">
           ?
         </Link>
