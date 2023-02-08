@@ -320,6 +320,7 @@ If in the same time frame the **DFI** price inccreases to **$4.00,** it will mak
 ### Long DFI / Short dAsset
 
 #### Investment thesis
+
 - generate crypto cashflow with liquidity mining.
 - long term the DFI price will increase and the dAsset price will decrease.
 
@@ -368,7 +369,7 @@ Back to the first equation with substitution:
 
 **(26.45^2)/Y \* $1 = Y \* $500 → Y = 1,18 → X = 590**
 
-Removing liquidity and swapping the **590 DUSD** into **dTSLA** will result in an overall amount of **dTSLA = 2 * 1.18 = 2.36 = 2 + 0.36.**
+Removing liquidity and swapping the **590 DUSD** into **dTSLA** will result in an overall amount of **dTSLA = 2 \* 1.18 = 2.36 = 2 + 0.36.**
 
 The additional **profit** from dAsset short position is **0,36 dTSLA - loan interest**.
 
@@ -379,6 +380,7 @@ If in the same time frame **DFI** goes up to **$4.00,** it will make additional 
 :::
 
 ## Part 3: Advanced trading methods - Leverage
+
 There are many advanced investing & trading methods. This chapter describes two different ways depending on the investment strategy.
 
 <div className="background_map">
