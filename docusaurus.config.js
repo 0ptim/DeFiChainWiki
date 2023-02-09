@@ -38,7 +38,7 @@ const config = {
           showLastUpdateTime: true,
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
+          customCss: require.resolve("./src/css/output.css"),
         },
         gtag: {
           trackingID: "G-1RQ320FPE8",

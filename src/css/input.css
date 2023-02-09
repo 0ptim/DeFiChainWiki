@@ -1,0 +1,170 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* Import main site font from google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@700&display=swap");
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #c20085;
+  --ifm-color-primary-dark: #af0078;
+  --ifm-color-primary-darker: #a50071;
+  --ifm-color-primary-darkest: #88005d;
+  --ifm-color-primary-light: #d50092;
+  --ifm-color-primary-lighter: #df0099;
+  --ifm-color-primary-lightest: #fc00ad;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family-base: "Inter", sans-serif;
+}
+
+.button {
+  background: linear-gradient(200deg, #fc1dae 21.58%, #00f6ff 103.79%);
+  border-width: 0;
+  color: var(--ifm-color-white) !important;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+  --ifm-background-color: #161616 !important;
+  --ifm-color-primary: #ff43c4;
+  --ifm-color-primary-dark: #ff23ba;
+  --ifm-color-primary-darker: #ff13b5;
+  --ifm-color-primary-darkest: #e1009b;
+  --ifm-color-primary-light: #ff63ce;
+  --ifm-color-primary-lighter: #ff73d3;
+  --ifm-color-primary-lightest: #ffa4e2;
+}
+
+.navbar__link {
+  white-space: nowrap;
+}
+
+.hero__title,
+.hero__subtitle {
+  text-shadow: 0 0 5px #0000004d;
+  color: #1c1e21;
+}
+
+.hero__title {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+[data-theme="dark"] .hero__title,
+[data-theme="dark"] .hero__subtitle {
+  text-shadow: 0 0 5px #ffffff4d;
+  color: #e3e3e3;
+}
+
+.header-icon-link:hover {
+  opacity: 0.6;
+}
+
+.header-icon-link::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: flex;
+}
+
+.header-icon-github::before {
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12'/%3E%3C/svg%3E");
+}
+
+[data-theme="dark"] .header-icon-github::before {
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='white' d='M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12'/%3E%3C/svg%3E");
+}
+
+.header-icon-telegram::before {
+  background: url("data:image/svg+xml,%3Csvg%20id%3D%22Livello_1%22%20data-name%3D%22Livello%201%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%20240%20240%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22linear-gradient%22%20x1%3D%22120%22%20y1%3D%22240%22%20x2%3D%22120%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23000000%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%232e2e2e%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Ctitle%3ETelegram_logo%3C%2Ftitle%3E%3Ccircle%20cx%3D%22120%22%20cy%3D%22120%22%20r%3D%22120%22%20fill%3D%22url(%23linear-gradient)%22%2F%3E%3Cpath%20d%3D%22M81.229%2C128.772l14.237%2C39.406s1.78%2C3.687%2C3.686%2C3.687%2C30.255-29.492%2C30.255-29.492l31.525-60.89L81.737%2C118.6Z%22%20fill%3D%22%23c8daea%22%2F%3E%3Cpath%20d%3D%22M100.106%2C138.878l-2.733%2C29.046s-1.144%2C8.9%2C7.754%2C0%2C17.415-15.763%2C17.415-15.763%22%20fill%3D%22%23a9c6d8%22%2F%3E%3Cpath%20d%3D%22M81.486%2C130.178%2C52.2%2C120.636s-3.5-1.42-2.373-4.64c.232-.664.7-1.229%2C2.1-2.2%2C6.489-4.523%2C120.106-45.36%2C120.106-45.36s3.208-1.081%2C5.1-.362a2.766%2C2.766%2C0%2C0%2C1%2C1.885%2C2.055%2C9.357%2C9.357%2C0%2C0%2C1%2C.254%2C2.585c-.009.752-.1%2C1.449-.169%2C2.542-.692%2C11.165-21.4%2C94.493-21.4%2C94.493s-1.239%2C4.876-5.678%2C5.043A8.13%2C8.13%2C0%2C0%2C1%2C146.1%2C172.5c-8.711-7.493-38.819-27.727-45.472-32.177a1.27%2C1.27%2C0%2C0%2C1-.546-.9c-.093-.469.417-1.05.417-1.05s52.426-46.6%2C53.821-51.492c.108-.379-.3-.566-.848-.4-3.482%2C1.281-63.844%2C39.4-70.506%2C43.607A3.21%2C3.21%2C0%2C0%2C1%2C81.486%2C130.178Z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fsvg%3E");
+}
+
+[data-theme="dark"] .header-icon-telegram::before {
+  background: url("data:image/svg+xml,%3Csvg%20id%3D%22Livello_1%22%20data-name%3D%22Livello%201%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%20240%20240%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22linear-gradient%22%20x1%3D%22120%22%20y1%3D%22240%22%20x2%3D%22120%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23dbdbdb%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23ffffff%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Ctitle%3ETelegram_logo%3C%2Ftitle%3E%3Ccircle%20cx%3D%22120%22%20cy%3D%22120%22%20r%3D%22120%22%20fill%3D%22url(%23linear-gradient)%22%2F%3E%3Cpath%20d%3D%22M81.229%2C128.772l14.237%2C39.406s1.78%2C3.687%2C3.686%2C3.687%2C30.255-29.492%2C30.255-29.492l31.525-60.89L81.737%2C118.6Z%22%20fill%3D%22%231f1f1f%22%2F%3E%3Cpath%20d%3D%22M100.106%2C138.878l-2.733%2C29.046s-1.144%2C8.9%2C7.754%2C0%2C17.415-15.763%2C17.415-15.763%22%20fill%3D%22%23000000%22%2F%3E%3Cpath%20d%3D%22M81.486%2C130.178%2C52.2%2C120.636s-3.5-1.42-2.373-4.64c.232-.664.7-1.229%2C2.1-2.2%2C6.489-4.523%2C120.106-45.36%2C120.106-45.36s3.208-1.081%2C5.1-.362a2.766%2C2.766%2C0%2C0%2C1%2C1.885%2C2.055%2C9.357%2C9.357%2C0%2C0%2C1%2C.254%2C2.585c-.009.752-.1%2C1.449-.169%2C2.542-.692%2C11.165-21.4%2C94.493-21.4%2C94.493s-1.239%2C4.876-5.678%2C5.043A8.13%2C8.13%2C0%2C0%2C1%2C146.1%2C172.5c-8.711-7.493-38.819-27.727-45.472-32.177a1.27%2C1.27%2C0%2C0%2C1-.546-.9c-.093-.469.417-1.05.417-1.05s52.426-46.6%2C53.821-51.492c.108-.379-.3-.566-.848-.4-3.482%2C1.281-63.844%2C39.4-70.506%2C43.607A3.21%2C3.21%2C0%2C0%2C1%2C81.486%2C130.178Z%22%20fill%3D%22%23383838%22%2F%3E%3C%2Fsvg%3E");
+}
+
+article img {
+  box-shadow: 0px 0px 14px 0px rgb(0 0 0 / 35%);
+  border-radius: 6px;
+}
+
+article a[href*="//"]:not([href*="defichainwiki.com"])
+{
+  color: #008185;
+}
+
+[data-theme="dark"] article a[href*="//"]:not([href*="defichainwiki.com"])
+{
+  color: #39f6fe;
+}
+
+article a[href*="//"]:not([href*="defichainwiki.com"])::after
+{
+  content: " ↗";
+}
+
+.theme-edit-this-page {
+  color: var(--ifm-link-color) !important;
+}
+
+.theme-edit-this-page::after {
+  content: "" !important;
+}
+
+*::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #3d7f85;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+[data-theme="dark"] *::-webkit-scrollbar-thumb {
+  background: #84f2fd;
+}
+
+[data-theme="dark"] *::-webkit-scrollbar-track {
+  background: #161616;
+}
+
+.skeleton1 {
+  width: 300px;
+}
+
+.skeleton2 {
+  width: 150px;
+}
+
+.skeleton3 {
+  width: 200px;
+}
+
+.skeleton {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  background-color: #3e3f41;
+  border-radius: 6px;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
