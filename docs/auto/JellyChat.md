@@ -11,6 +11,13 @@ JellyChat is a QA-bot (question/answering program) that answers questions about 
 
 JellyChat uses all information existing in DeFiChainWiki to answer your questions. Under the hood, it uses the OpenAI GPT-3 API to generate human-like answers.
 
+## Limitations
+
+- It can only answer questions that are already in the wiki.
+- It can only answer questions that are not too complex.
+- It can answer questions wrong. Don't take the answers as 100% correct.
+- It does not "learn" from your questions.
+
 ## How can I help?
 
 ### An answer is incorrect
