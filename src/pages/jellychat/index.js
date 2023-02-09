@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
+import Translate, { translate } from "@docusaurus/Translate";
 
 function QA() {
   const [question, setQuestion] = useState("");
@@ -40,14 +41,18 @@ function QA() {
   return (
     <div className="transition-color mapBackground py-16 flex justify-center items-center bg-center bg-cover bg-no-repeat md:py-28">
       <div className="relative flex flex-col items-center shadow-2xl max-w-2xl grow rounded-3xl p-6 bg-white dark:bg-backgroundDark md:p-10">
-        <h1>JellyChat</h1>
-        <p>Ask any question about DeFiChain</p>
+        <h1>
+          <Translate>JellyChat.Title</Translate>
+        </h1>
+        <p className="text-center">
+          <Translate>JellyChat.Instruction</Translate>
+        </p>
         <input
           className={`w-full outline-none text-xl p-5 rounded-lg shadow-md border border-transparent bg-elementLight hover:border-main-300 focus:border-main-700 dark:bg-elementDark  dark:hover:border-main-700 dark:focus:border-main-500 ${
             error ? "bg-red-100 dark:bg-main-900" : ""
           }`}
           type="text"
-          placeholder="What is DeFiChain?"
+          placeholder={translate({ message: "JellyChat.Placeholder" })}
           value={question}
           onChange={(e) => {
             setQuestion(e.target.value);
@@ -60,7 +65,7 @@ function QA() {
           onClick={handleSubmit}
           disabled={loading}
         >
-          Send
+          <Translate>JellyChat.Button</Translate>
         </button>
         <div className="w-full border-0 outline-none p-5 h-48 rounded-lg shadow-md overflow-auto bg-elementLight dark:bg-elementDark">
           {!loading && <p className="text-lg">{answer}</p>}
