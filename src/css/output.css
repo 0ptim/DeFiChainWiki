@@ -187,6 +187,14 @@
   width: 100%;
 }
 
+.w-72 {
+  width: 18rem;
+}
+
+.w-64 {
+  width: 16rem;
+}
+
 .max-w-2xl {
   max-width: 42rem;
 }
@@ -301,9 +309,22 @@
   padding: 1.25rem;
 }
 
+.p-6 {
+  padding: 1.5rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
 .py-28 {
   padding-top: 7rem;
   padding-bottom: 7rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .text-base {
@@ -550,4 +571,26 @@ article a[href*="//"]:not([href*="defichainwiki.com"])::after
 [data-theme="dark"] .dark\:focus\:border-main-500:focus {
   --tw-border-opacity: 1;
   border-color: rgb(251 64 193 / var(--tw-border-opacity));
+}
+
+@media (min-width: 640px) {
+  .sm\:p-10 {
+    padding: 2.5rem;
+  }
+
+  .sm\:py-28 {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:p-10 {
+    padding: 2.5rem;
+  }
+
+  .md\:py-28 {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
 }

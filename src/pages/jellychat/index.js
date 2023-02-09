@@ -38,8 +38,8 @@ function QA() {
   };
 
   return (
-    <div className="transition-color mapBackground py-28 flex justify-center items-center bg-center bg-cover bg-no-repeat">
-      <div className="relative flex flex-col items-center shadow-2xl max-w-2xl grow rounded-3xl p-10 bg-white dark:bg-backgroundDark">
+    <div className="transition-color mapBackground py-16 flex justify-center items-center bg-center bg-cover bg-no-repeat md:py-28">
+      <div className="relative flex flex-col items-center shadow-2xl max-w-2xl grow rounded-3xl p-6 bg-white dark:bg-backgroundDark md:p-10">
         <h1>JellyChat</h1>
         <p>Ask any question about DeFiChain</p>
         <input
@@ -66,7 +66,7 @@ function QA() {
           {!loading && <p>{answer}</p>}
           {loading && (
             <div>
-              <div className="w-80 h-4 animate-pulse mb-2 rounded-md bg-gray-700"></div>
+              <div className="w-64 h-4 animate-pulse mb-2 rounded-md bg-gray-700"></div>
               <div className="w-40 h-4 animate-pulse mb-2 rounded-md bg-gray-700"></div>
               <div className="w-48 h-4 animate-pulse mb-2 rounded-md bg-gray-700"></div>
             </div>
