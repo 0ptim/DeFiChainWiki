@@ -1,6 +1,6 @@
 ---
 title: JellyChat
-description: TODO
+description: TODO - Short description of this page.
 ---
 
 ## What is JellyChat?
@@ -22,7 +22,7 @@ JellyChat uses all information existing in DeFiChainWiki to answer your question
 
 ### An answer is incorrect
 
-If JellyChat answers your question incorrectly, there might be incomplete or outdated information in the wiki. Try to search the wiki using the search bar on the top right. If you find the location where JellyChat got the wrong information, you can help by fixing the information in the wiki. You can read more about how to contribute to the wiki in the [Contribution Guide](/docs/auto/Contribute.md).
+If JellyChat answers your question incorrectly, there might be incomplete or outdated information in the wiki. Try to search the wiki using the search bar on the top right. If you find the location where JellyChat got the wrong information, you can help by fixing the information in the wiki. You can read more about how to contribute to the wiki in the [Contribution Guide](./Contribute.md).
 
 ### It could not answer
 
