@@ -62,8 +62,8 @@ function QA() {
         >
           Send
         </button>
-        <div className="w-full border-0 outline-none text-base p-5 h-48 rounded-lg shadow-md overflow-auto bg-elementLight dark:bg-elementDark">
-          {!loading && <p>{answer}</p>}
+        <div className="w-full border-0 outline-none p-5 h-48 rounded-lg shadow-md overflow-auto bg-elementLight dark:bg-elementDark">
+          {!loading && <p className="text-lg">{answer}</p>}
           {loading && (
             <div>
               <div className="w-64 h-4 animate-pulse mb-2 rounded-md bg-gray-700"></div>
