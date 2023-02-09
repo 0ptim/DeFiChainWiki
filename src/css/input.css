@@ -139,32 +139,24 @@ article a[href*="//"]:not([href*="defichainwiki.com"])::after
   background: #161616;
 }
 
-.skeleton1 {
-  width: 300px;
+[data-theme="dark"] .mapBackground {
+  background-image: url("/static/img/map_dark.svg");
 }
 
-.skeleton2 {
-  width: 150px;
+[data-theme="light"] .mapBackground {
+  background-image: url("/static/img/map_light.svg");
 }
 
-.skeleton3 {
-  width: 200px;
+.sendButton {
+  background-size: 150% 100%;
+  transition: all 0.5s ease-in-out;
+  background-image: linear-gradient(90deg, #fc1dae, #00f6ff);
 }
 
-.skeleton {
-  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-  background-color: #3e3f41;
-  border-radius: 6px;
-  height: 20px;
-  margin-bottom: 10px;
-}
-
-@keyframes pulse {
-  0%,
-  100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.5;
-  }
+.sendButton:hover {
+  background-position: 100% 0;
+  moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
