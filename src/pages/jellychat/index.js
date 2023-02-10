@@ -41,17 +41,17 @@ function QA() {
   };
 
   return (
-    <div className="transition-color mapBackground py-16 flex justify-center items-center bg-center bg-cover bg-no-repeat md:py-28">
-      <div className="relative flex flex-col items-center shadow-2xl max-w-2xl grow rounded-3xl p-6 bg-white dark:bg-backgroundDark md:p-10">
+    <div className="transition-color mapBackground flex items-center justify-center bg-cover bg-center bg-no-repeat py-16 md:py-28">
+      <div className="relative flex max-w-2xl grow flex-col items-center rounded-3xl bg-white p-6 shadow-2xl dark:bg-backgroundDark md:p-10">
         <h1>
           <Translate>JellyChat.Title</Translate>
         </h1>
         <p className="text-center text-gray-600 dark:text-gray-200">
           <Translate>JellyChat.Instruction</Translate>
         </p>
-        <div className="w-full relative">
+        <div className="relative w-full">
           <input
-            className={`w-full outline-none text-xl p-5 rounded-lg shadow-md border border-transparent bg-elementLight hover:border-main-300 focus:border-main-700 dark:bg-elementDark  dark:hover:border-main-700 dark:focus:border-main-500 ${
+            className={`w-full rounded-lg border border-transparent bg-elementLight p-5 text-xl shadow-md outline-none hover:border-main-300 focus:border-main-700 dark:bg-elementDark  dark:hover:border-main-700 dark:focus:border-main-500 ${
               error ? "bg-main-100 dark:bg-main-900" : ""
             }`}
             type="text"
@@ -67,7 +67,7 @@ function QA() {
           <div className="absolute inset-y-0 right-3 flex items-center">
             {question && (
               <button
-                className="bg-gray-50 dark:bg-gray-500 border-0 rounded-full w-6 h-6 font-bold text-gray-600 dark:text-gray-800 text-xs cursor-pointer"
+                className="h-6 w-6 cursor-pointer rounded-full border-0 bg-gray-50 text-xs font-bold text-gray-600 dark:bg-gray-500 dark:text-gray-800"
                 onClick={() => {
                   setQuestion("");
                   inputRef.current.focus();
@@ -79,25 +79,25 @@ function QA() {
           </div>
         </div>
         <button
-          className="sendButton w-full outline-none border-none text-lg p-4 rounded-lg text-white cursor-pointer my-3"
+          className="sendButton my-3 w-full cursor-pointer rounded-lg border-none p-4 text-lg text-white outline-none"
           onClick={handleSubmit}
           disabled={loading}
         >
           <Translate>JellyChat.Button</Translate>
         </button>
-        <div className="w-full border-0 outline-none p-5 h-48 rounded-lg shadow-md overflow-auto bg-elementLight dark:bg-elementDark">
+        <div className="h-48 w-full overflow-auto rounded-lg border-0 bg-elementLight p-5 shadow-md outline-none dark:bg-elementDark">
           {!loading && <p className="text-lg">{answer}</p>}
           {loading && (
             <div>
-              <div className="w-64 h-4 animate-pulse mb-2 rounded-md bg-gray-700"></div>
-              <div className="w-40 h-4 animate-pulse mb-2 rounded-md bg-gray-700"></div>
-              <div className="w-48 h-4 animate-pulse mb-2 rounded-md bg-gray-700"></div>
+              <div className="mb-2 h-4 w-64 animate-pulse rounded-md bg-gray-700"></div>
+              <div className="mb-2 h-4 w-40 animate-pulse rounded-md bg-gray-700"></div>
+              <div className="mb-2 h-4 w-48 animate-pulse rounded-md bg-gray-700"></div>
             </div>
           )}
         </div>
-        <div className="jellyChatBeta absolute h-32 w-32 top-0 left-0 drop-shadow-md"></div>
+        <div className="jellyChatBeta absolute top-0 left-0 h-32 w-32 drop-shadow-md"></div>
         <Link
-          className="absolute top-5 right-5 shadow-md rounded-full w-10 h-10 flex items-center justify-center cursor-pointer font-bold bg-elementLight dark:bg-elementDark"
+          className="absolute top-5 right-5 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-elementLight font-bold shadow-md dark:bg-elementDark"
           to="/docs/auto/JellyChat"
         >
           ?
