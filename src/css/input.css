@@ -160,3 +160,7 @@ article a[href*="//"]:not([href*="defichainwiki.com"])::after
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
+
+.jellyChatBeta {
+  background-image: url("/static/img/beta.svg");
+}

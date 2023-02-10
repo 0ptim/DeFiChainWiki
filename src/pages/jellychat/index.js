@@ -77,6 +77,7 @@ function QA() {
             </div>
           )}
         </div>
+        <div className="jellyChatBeta absolute h-32 w-32 top-0 left-0 drop-shadow-md"></div>
         <Link
           className="absolute top-5 right-5 shadow-md rounded-full w-10 h-10 flex items-center justify-center cursor-pointer font-bold bg-elementLight dark:bg-elementDark"
           to="/docs/auto/JellyChat"
