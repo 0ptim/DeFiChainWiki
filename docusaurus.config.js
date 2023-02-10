@@ -80,10 +80,10 @@ const config = {
             docId: "/category/fundamentals",
             label: "📖 Fundamentals",
           },
-          {
-            to: "/jellychat",
-            label: "💬 JellyChat",
-          },
+          // {
+          //   to: "/jellychat",
+          //   label: "💬 JellyChat",
+          // },
           {
             type: "localeDropdown",
             position: "right",
