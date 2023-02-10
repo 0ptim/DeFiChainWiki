@@ -9,6 +9,8 @@ function QA() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
 
+  const inputRef = useRef(null);
+
   const handleSubmit = async () => {
     if (!question) {
       setError(true);
@@ -47,19 +49,35 @@ function QA() {
         <p className="text-center text-gray-600 dark:text-gray-200">
           <Translate>JellyChat.Instruction</Translate>
         </p>
-        <input
-          className={`w-full outline-none text-xl p-5 rounded-lg shadow-md border border-transparent bg-elementLight hover:border-main-300 focus:border-main-700 dark:bg-elementDark  dark:hover:border-main-700 dark:focus:border-main-500 ${
-            error ? "bg-main-100 dark:bg-main-900" : ""
-          }`}
-          type="text"
-          placeholder={translate({ message: "JellyChat.Placeholder" })}
-          value={question}
-          onChange={(e) => {
-            setQuestion(e.target.value);
-            setError(false);
-          }}
-          onKeyDown={handleKeyDown}
-        />
+        <div className="w-full relative">
+          <input
+            className={`w-full outline-none text-xl p-5 rounded-lg shadow-md border border-transparent bg-elementLight hover:border-main-300 focus:border-main-700 dark:bg-elementDark  dark:hover:border-main-700 dark:focus:border-main-500 ${
+              error ? "bg-main-100 dark:bg-main-900" : ""
+            }`}
+            type="text"
+            placeholder={translate({ message: "JellyChat.Placeholder" })}
+            value={question}
+            ref={inputRef}
+            onChange={(e) => {
+              setQuestion(e.target.value);
+              setError(false);
+            }}
+            onKeyDown={handleKeyDown}
+          />
+          <div className="absolute inset-y-0 right-3 flex items-center">
+            {question && (
+              <button
+                className="bg-gray-50 dark:bg-gray-500 border-0 rounded-full w-6 h-6 font-bold text-gray-600 dark:text-gray-800 text-xs cursor-pointer"
+                onClick={() => {
+                  setQuestion("");
+                  inputRef.current.focus();
+                }}
+              >
+                X
+              </button>
+            )}
+          </div>
+        </div>
         <button
           className="sendButton w-full outline-none border-none text-lg p-4 rounded-lg text-white cursor-pointer my-3"
           onClick={handleSubmit}
