@@ -49,7 +49,7 @@ function QA() {
         </p>
         <input
           className={`w-full outline-none text-xl p-5 rounded-lg shadow-md border border-transparent bg-elementLight hover:border-main-300 focus:border-main-700 dark:bg-elementDark  dark:hover:border-main-700 dark:focus:border-main-500 ${
-            error ? "bg-red-100 dark:bg-main-900" : ""
+            error ? "bg-main-100 dark:bg-main-900" : ""
           }`}
           type="text"
           placeholder={translate({ message: "JellyChat.Placeholder" })}

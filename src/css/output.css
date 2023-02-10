@@ -293,6 +293,11 @@
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-main-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 224 245 / var(--tw-bg-opacity));
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -334,6 +339,11 @@
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-bold {
