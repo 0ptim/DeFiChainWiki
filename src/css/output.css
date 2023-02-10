@@ -345,6 +345,31 @@
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(61 63 64 / var(--tw-text-opacity));
+}
+
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(135 139 142 / var(--tw-text-opacity));
+}
+
+.text-gray-200 {
+  --tw-text-opacity: 1;
+  color: rgb(177 180 182 / var(--tw-text-opacity));
+}
+
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(88 91 93 / var(--tw-text-opacity));
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(115 119 122 / var(--tw-text-opacity));
+}
+
 .shadow-2xl {
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
@@ -552,6 +577,16 @@ article a[href*="//"]:not([href*="defichainwiki.com"])::after
 [data-theme="dark"] .dark\:bg-main-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(89 2 62 / var(--tw-bg-opacity));
+}
+
+[data-theme="dark"] .dark\:text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(61 63 64 / var(--tw-text-opacity));
+}
+
+[data-theme="dark"] .dark\:text-gray-200 {
+  --tw-text-opacity: 1;
+  color: rgb(177 180 182 / var(--tw-text-opacity));
 }
 
 [data-theme="dark"] .dark\:hover\:border-main-700:hover {

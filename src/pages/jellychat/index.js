@@ -44,7 +44,7 @@ function QA() {
         <h1>
           <Translate>JellyChat.Title</Translate>
         </h1>
-        <p className="text-center">
+        <p className="text-center text-gray-600 dark:text-gray-200">
           <Translate>JellyChat.Instruction</Translate>
         </p>
         <input
