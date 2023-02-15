@@ -67,7 +67,7 @@ function QA() {
           <div className="absolute inset-y-0 right-3 flex items-center">
             {question && (
               <button
-                className="h-6 w-6 cursor-pointer rounded-full border-0 bg-gray-50 text-xs font-bold text-gray-600 dark:bg-gray-500 dark:text-gray-800"
+                className="flex h-6 w-6 cursor-pointer items-center justify-center rounded-full border-0 bg-gray-50 text-xs font-bold text-gray-600 dark:bg-gray-500 dark:text-gray-800"
                 onClick={() => {
                   setQuestion("");
                   inputRef.current.focus();
