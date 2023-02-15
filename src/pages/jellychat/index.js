@@ -51,7 +51,7 @@ function QA() {
         </p>
         <div className="relative w-full">
           <input
-            className={`w-full rounded-lg border border-transparent bg-elementLight p-5 text-xl shadow-md outline-none hover:border-main-300 focus:border-main-700 dark:bg-elementDark  dark:hover:border-main-700 dark:focus:border-main-500 ${
+            className={`w-full rounded-lg border border-transparent bg-elementLight p-5 pr-11 text-xl shadow-md outline-none hover:border-main-300 focus:border-main-700 dark:bg-elementDark  dark:hover:border-main-700 dark:focus:border-main-500 ${
               error ? "bg-main-100 dark:bg-main-900" : ""
             }`}
             type="text"
