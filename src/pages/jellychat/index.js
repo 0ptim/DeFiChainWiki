@@ -51,7 +51,7 @@ function QA() {
         </p>
         <div className="relative w-full">
           <input
-            className={`w-full rounded-lg border border-transparent bg-elementLight p-5 text-xl shadow-md outline-none hover:border-main-300 focus:border-main-700 dark:bg-elementDark  dark:hover:border-main-700 dark:focus:border-main-500 ${
+            className={`w-full rounded-lg border border-transparent bg-elementLight p-5 pr-11 text-xl shadow-md outline-none hover:border-main-300 focus:border-main-700 dark:bg-elementDark  dark:hover:border-main-700 dark:focus:border-main-500 ${
               error ? "bg-main-100 dark:bg-main-900" : ""
             }`}
             type="text"
@@ -67,7 +67,7 @@ function QA() {
           <div className="absolute inset-y-0 right-3 flex items-center">
             {question && (
               <button
-                className="h-6 w-6 cursor-pointer rounded-full border-0 bg-gray-50 text-xs font-bold text-gray-600 dark:bg-gray-500 dark:text-gray-800"
+                className="flex h-6 w-6 cursor-pointer items-center justify-center rounded-full border-0 bg-gray-50 text-xs font-bold text-gray-600 dark:bg-gray-500 dark:text-gray-800"
                 onClick={() => {
                   setQuestion("");
                   inputRef.current.focus();
