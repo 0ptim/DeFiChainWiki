@@ -80,6 +80,11 @@ const config = {
             docId: "/category/fundamentals",
             label: "📖 Fundamentals",
           },
+          {
+            type: "doc",
+            docId: "auto/Ecosystem",
+            label: "🧭 Ecosystem",
+          },
           // {
           //   to: "/jellychat",
           //   label: "💬 JellyChat",
