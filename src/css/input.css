@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -133,4 +137,30 @@ article a[href*="//"]:not([href*="defichainwiki.com"])::after
 
 [data-theme="dark"] *::-webkit-scrollbar-track {
   background: #161616;
+}
+
+[data-theme="dark"] .mapBackground {
+  background-image: url("/static/img/map_dark.svg");
+}
+
+[data-theme="light"] .mapBackground {
+  background-image: url("/static/img/map_light.svg");
+}
+
+.sendButton {
+  background-size: 150% 100%;
+  transition: all 0.5s ease-in-out;
+  background-image: linear-gradient(90deg, #fc1dae, #00f6ff);
+}
+
+.sendButton:hover {
+  background-position: 100% 0;
+  moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.jellyChatBeta {
+  background-image: url("/static/img/beta.svg");
 }
