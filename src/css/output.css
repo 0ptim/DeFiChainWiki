@@ -192,10 +192,6 @@
   height: 1.5rem;
 }
 
-.h-12 {
-  height: 3rem;
-}
-
 .w-10 {
   width: 2.5rem;
 }
@@ -222,10 +218,6 @@
 
 .w-full {
   width: 100%;
-}
-
-.w-12 {
-  width: 3rem;
 }
 
 .max-w-2xl {
@@ -350,14 +342,6 @@
 .py-16 {
   padding-top: 4rem;
   padding-bottom: 4rem;
-}
-
-.pr-8 {
-  padding-right: 2rem;
-}
-
-.pr-10 {
-  padding-right: 2.5rem;
 }
 
 .pr-11 {

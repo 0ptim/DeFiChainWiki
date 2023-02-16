@@ -266,15 +266,7 @@ const sidebars = {
         },
       ],
     },
-    {
-      type: "category",
-      label: "❤ Contribute",
-      link: {
-        type: "generated-index",
-        description: "Learn how you can help improve the wiki.",
-      },
-      items: ["auto/Sharing_is_caring", "auto/Contribute"],
-    },
+    "auto/Contribute",
     // "auto/JellyChat",
     "auto/Links",
   ],
