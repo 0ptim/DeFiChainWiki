@@ -1,7 +1,9 @@
 ---
-title: Guide
+title: ❤ Contribute
 description: Guide of how to contribute to DeFiChain Wiki. Edit pages directly on Github and propose changes.
 ---
+
+It would be appreciated if you joined our [Telegram group](https://t.me/defichain_wiki) to discuss any changes you want to make. This way we can avoid any unnecessary work and coordinate our efforts.
 
 ## Requirements
 
