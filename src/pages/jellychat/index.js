@@ -27,7 +27,7 @@ export default function JellyChat() {
     setCurrentId(0);
 
     try {
-      const response = await fetch("https://chatdefichain.fly.dev/ask", {
+      const response = await fetch("http://127.0.0.1:5000/ask", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question }),
@@ -69,6 +69,11 @@ export default function JellyChat() {
             currentId={currentId}
             selectedRating={selectedRating}
             ratingSelected={(rating) => setSelectedRating(rating)}
+          />
+          <Rating
+            selectedRating={selectedRating}
+            currentId={currentId}
+            setSelectedRating={setSelectedRating}
           />
           {currentId !== 0 && (
             <p className="absolute bottom-2 m-auto my-0 text-sm text-gray-700">
@@ -121,13 +126,7 @@ function Input({ error, onSubmit, question, setQuestion, inputRef, setError }) {
   );
 }
 
-function Answer({
-  answer,
-  loading,
-  currentId,
-  selectedRating,
-  ratingSelected,
-}) {
+function Rating({ selectedRating, currentId, setSelectedRating }) {
   const handleRating = async (rating) => {
     if (currentId === 0) return;
 
@@ -139,14 +138,44 @@ function Answer({
       });
 
       if (response.status === 200) {
-        ratingSelected(rating);
+        setSelectedRating(rating);
       }
     } catch (error) {
       console.error(error);
-    } finally {
     }
   };
 
+  return (
+    <div className="mt-2 flex w-full gap-2">
+      <div
+        className={`flex grow items-center justify-center rounded-t-sm rounded-br-sm rounded-bl-lg bg-gray-50 py-4 text-2xl transition-colors dark:bg-gray-800 
+    ${selectedRating === 0 ? "text-secondary-600" : ""}
+    ${
+      currentId === 0
+        ? "text-gray-300"
+        : "cursor-pointer shadow-lg hover:bg-gray-100 dark:hover:bg-gray-900"
+    }`}
+        onClick={() => handleRating(0)}
+      >
+        <FontAwesomeIcon icon={faThumbsDown} />
+      </div>
+      <div
+        className={`flex grow items-center justify-center rounded-t-sm rounded-bl-sm rounded-br-lg bg-gray-50 py-4 text-2xl transition-colors dark:bg-gray-800
+    ${selectedRating === 1 ? "text-main-600" : ""}
+    ${
+      currentId === 0
+        ? "text-gray-300"
+        : "cursor-pointer shadow-lg hover:bg-gray-100 dark:hover:bg-gray-900"
+    }`}
+        onClick={() => handleRating(1)}
+      >
+        <FontAwesomeIcon icon={faThumbsUp} />
+      </div>
+    </div>
+  );
+}
+
+function Answer({ answer, loading }) {
   return (
     <div className="w-full">
       <div className="h-48 overflow-auto rounded-t-lg rounded-b-sm border-0 bg-gray-50 p-5 shadow-md outline-none dark:bg-gray-800">
@@ -158,32 +187,6 @@ function Answer({
             <div className="mb-2 h-4 w-48 animate-pulse rounded-md bg-gray-100 dark:bg-gray-700"></div>
           </div>
         )}
-      </div>
-      <div className="mt-2 flex w-full gap-2">
-        <div
-          className={`flex grow items-center justify-center rounded-t-sm rounded-br-sm rounded-bl-lg bg-gray-50 py-4 text-2xl transition-colors dark:bg-gray-800 
-          ${selectedRating === 0 ? "text-secondary-600" : ""}
-          ${
-            currentId === 0
-              ? "text-gray-300"
-              : "cursor-pointer shadow-lg hover:bg-gray-100 dark:hover:bg-gray-900"
-          }`}
-          onClick={() => handleRating(0)}
-        >
-          <FontAwesomeIcon icon={faThumbsDown} />
-        </div>
-        <div
-          className={`flex grow items-center justify-center rounded-t-sm rounded-bl-sm rounded-br-lg bg-gray-50 py-4 text-2xl transition-colors dark:bg-gray-800
-          ${selectedRating === 1 ? "text-main-600" : ""}
-          ${
-            currentId === 0
-              ? "text-gray-300"
-              : "cursor-pointer shadow-lg hover:bg-gray-100 dark:hover:bg-gray-900"
-          }`}
-          onClick={() => handleRating(1)}
-        >
-          <FontAwesomeIcon icon={faThumbsUp} />
-        </div>
       </div>
     </div>
   );
