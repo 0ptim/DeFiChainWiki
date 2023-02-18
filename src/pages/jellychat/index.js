@@ -27,7 +27,7 @@ export default function JellyChat() {
     setCurrentId(0);
 
     try {
-      const response = await fetch("http://127.0.0.1:5000/ask", {
+      const response = await fetch("https://chatdefichain.fly.dev/ask", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question }),
@@ -131,7 +131,7 @@ function Rating({ selectedRating, currentId, setSelectedRating }) {
     if (currentId === 0) return;
 
     try {
-      const response = await fetch("http://127.0.0.1:5000/rate", {
+      const response = await fetch("https://chatdefichain.fly.dev/rate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ id: currentId, rating: rating }),
