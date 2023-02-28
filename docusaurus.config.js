@@ -81,14 +81,9 @@ const config = {
             label: "📖 Fundamentals",
           },
           {
-            type: "doc",
-            docId: "auto/Ecosystem",
-            label: "🧭 Ecosystem",
+            to: "/jellychat",
+            label: "💬 JellyChat",
           },
-          // {
-          //   to: "/jellychat",
-          //   label: "💬 JellyChat",
-          // },
           {
             type: "localeDropdown",
             position: "right",
