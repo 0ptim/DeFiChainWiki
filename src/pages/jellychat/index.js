@@ -43,7 +43,7 @@ export default function JellyChat() {
   };
 
   return (
-    <Layout description="Ask questions about DeFiChain which will get answered.">
+    <Layout description="Ask questions about DeFiChain which JellyChat will answer for you.">
       <div className="transition-color mapBackground flex items-center justify-center bg-cover bg-center bg-no-repeat py-16 md:py-28">
         <div className="relative flex max-w-2xl grow flex-col items-center rounded-3xl bg-white p-6 shadow-2xl dark:bg-backgroundDark md:p-10">
           <BetaFlag />
