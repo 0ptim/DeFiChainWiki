@@ -177,6 +177,10 @@
   margin-bottom: 0.75rem;
 }
 
+.-mb-2 {
+  margin-bottom: -0.5rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -697,11 +701,6 @@ article a[href*="//"]:not([href*="defichainwiki.com"])::after
 [data-theme="dark"] .dark\:bg-main-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(89 2 62 / var(--tw-bg-opacity));
-}
-
-[data-theme="dark"] .dark\:bg-gray-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(6 6 6 / var(--tw-bg-opacity));
 }
 
 [data-theme="dark"] .dark\:text-gray-200 {

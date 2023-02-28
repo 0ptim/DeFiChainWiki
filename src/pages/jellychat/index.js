@@ -146,31 +146,42 @@ function Rating({ selectedRating, currentId, setSelectedRating }) {
   };
 
   return (
-    <div className="mt-2 flex w-full gap-2">
-      <div
-        className={`flex grow items-center justify-center rounded-t-sm rounded-br-sm rounded-bl-lg bg-gray-50 py-4 text-2xl transition-colors dark:bg-gray-800 
+    <div className="w-full">
+      <div className="mt-2 flex gap-2">
+        <div
+          className={`flex grow items-center justify-center rounded-t-sm rounded-br-sm rounded-bl-lg bg-gray-50 py-4 text-2xl transition-colors dark:bg-gray-800 
     ${selectedRating === 0 ? "text-secondary-600" : ""}
     ${
       currentId === 0
         ? "text-gray-300"
         : "cursor-pointer shadow-lg hover:bg-gray-100 dark:hover:bg-gray-900"
     }`}
-        onClick={() => handleRating(0)}
-      >
-        <FontAwesomeIcon icon={faThumbsDown} />
-      </div>
-      <div
-        className={`flex grow items-center justify-center rounded-t-sm rounded-bl-sm rounded-br-lg bg-gray-50 py-4 text-2xl transition-colors dark:bg-gray-800
+          onClick={() => handleRating(0)}
+        >
+          <FontAwesomeIcon icon={faThumbsDown} />
+        </div>
+        <div
+          className={`flex grow items-center justify-center rounded-t-sm rounded-bl-sm rounded-br-lg bg-gray-50 py-4 text-2xl transition-colors dark:bg-gray-800
     ${selectedRating === 1 ? "text-main-600" : ""}
     ${
       currentId === 0
         ? "text-gray-300"
         : "cursor-pointer shadow-lg hover:bg-gray-100 dark:hover:bg-gray-900"
     }`}
-        onClick={() => handleRating(1)}
-      >
-        <FontAwesomeIcon icon={faThumbsUp} />
+          onClick={() => handleRating(1)}
+        >
+          <FontAwesomeIcon icon={faThumbsUp} />
+        </div>
       </div>
+      {selectedRating === 0 && (
+        <p className="mt-2 -mb-2 text-center text-lg">
+          <Translate>JellyChat.HelpImprove1</Translate>
+          <Link href="/docs/auto/JellyChat#how-can-i-help">
+            <Translate>JellyChat.HelpImprove2</Translate>
+          </Link>
+          <Translate>JellyChat.HelpImprove3</Translate>
+        </p>
+      )}
     </div>
   );
 }
