@@ -34,5 +34,33 @@
   "Homepage.Feature.Searchable.Description": {
     "message": "The whole wiki is indexed and all the content can be found in an instant.",
     "description": "Description of the: Searchable"
+  },
+  "JellyChat.Title": {
+    "message": "JellyChat",
+    "description": "Title of the Jelly Chat page."
+  },
+  "JellyChat.Instruction": {
+    "message": "Ask any question about DeFiChain.",
+    "description": "Instruction for the Jelly Chat page."
+  },
+  "JellyChat.Placeholder": {
+    "message": "Ask your question here...",
+    "description": "Input field placeholder for the Jelly Chat page."
+  },
+  "JellyChat.Button": {
+    "message": "Send",
+    "description": "Send button for the Jelly Chat page."
+  },
+  "JellyChat.HelpImprove1": {
+    "message": "Please help improve this answer. Click ",
+    "description": "First part of the help improve text."
+  },
+  "JellyChat.HelpImprove2": {
+    "message": "here",
+    "description": "Second part of the help improve text."
+  },
+  "JellyChat.HelpImprove3": {
+    "message": " to read more.",
+    "description": "Third part of the help improve text."
   }
 }

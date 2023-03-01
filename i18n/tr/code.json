@@ -34,5 +34,33 @@
   "Homepage.Feature.Searchable.Description": {
     "message": "Tüm wiki indekslenir ve her içerik anında bulunabilir.",
     "description": "Açıklaması: Aranabilir"
+  },
+  "JellyChat.Title": {
+    "message": "JellyChat",
+    "description": "Jelly Chat sayfasının başlığı."
+  },
+  "JellyChat.Instruction": {
+    "message": "DeFiChain hakkında soru sorunuz.",
+    "description": "Jelly Chat sayfasındaki talimatlar."
+  },
+  "JellyChat.Placeholder": {
+    "message": "Sorunuzu buradan sorun...",
+    "description": "Jelly Chat sayfası için giriş alanı yer tutucusu."
+  },
+  "JellyChat.Button": {
+    "message": "Gönder",
+    "description": "Jelly Chat sayfası için gönder düğmesi."
+  },
+  "JellyChat.HelpImprove1": {
+    "message": "Lütfen bu cevabı geliştirmeye yardımcı olun. Daha fazlasını okumak için ",
+    "description": "Yardımın ilk kısmı metni geliştirir."
+  },
+  "JellyChat.HelpImprove2": {
+    "message": "buraya",
+    "description": "Yardımın ikinci kısmı metni geliştirir."
+  },
+  "JellyChat.HelpImprove3": {
+    "message": " tıklayın.",
+    "description": "Yardımın üçüncü bölümü metni geliştirir."
   }
 }

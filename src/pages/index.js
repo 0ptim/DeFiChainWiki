@@ -33,7 +33,7 @@ function HomepageHeader() {
           </div>
         </div>
 
-        <Link className={styles.contribute} to="/docs/auto/Sharing_is_caring">
+        <Link className={styles.contribute} to="/docs/auto/Contribute">
           <Translate>Homepage.Button.Contribute</Translate>
         </Link>
       </div>
