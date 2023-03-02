@@ -34,46 +34,9 @@ const sidebars = {
             description:
               "Generate yield and help secure the network by staking.",
           },
-          items: ["auto/Staking", "auto/Target_multiplier"],
-        },
-        {
-          type: "category",
-          label: "Decentralized Exchange",
-          link: {
-            type: "generated-index",
-            description:
-              "The decentralized exchange to trade assets without the control of a single entity.",
-          },
-          items: ["auto/DEX_TMP", "auto/DEX", "auto/DEX_Fee_Structure"],
-        },
-        {
-          type: "category",
-          label: "Liquidity Mining",
-          link: {
-            type: "generated-index",
-            description: "Get a passive income with liquidity mining.",
-          },
           items: [
-            "auto/Liquidity_Mining",
-            "auto/Liquidity_Token",
-            "auto/Liquidity_Mining_versus_Staking",
-            "auto/Impermanent_Loss",
-          ],
-        },
-        {
-          type: "category",
-          label: "dToken System",
-          link: {
-            type: "generated-index",
-            description: "All about dTokens (Tokenized assets on DeFiChain).",
-          },
-          items: [
-            "auto/Decentralized_Assets",
-            "auto/Tradable_dAssets_on_DeFiChain",
-            "auto/Vaults_Loans",
-            "auto/Collateral_Ratio",
-            "auto/Future_Swap",
-          ],
+            "auto/Staking", 
+            "auto/Target_multiplier"],
         },
         {
           type: "category",
@@ -92,6 +55,52 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Decentralized Exchange",
+      link: {
+        type: "generated-index",
+        description:
+              "The decentralized exchange to trade assets without the control of a single entity.",
+          },
+        items: [
+            "auto/DEX_TMP", 
+            "auto/DEX", 
+            "auto/DEX_Fee_Structure",
+        
+            {
+            type: "category",
+            label: "Liquidity Mining",
+            link: {
+              type: "generated-index",
+              description: "Get a passive income with liquidity mining.",
+            },
+            items: [
+              "auto/Liquidity_Mining",
+              "auto/Liquidity_Token",
+              "auto/Liquidity_Mining_versus_Staking",
+              "auto/Impermanent_Loss",
+              ],
+           },
+          {
+            type: "category",
+            label: "dToken System",
+            link: {
+             type: "generated-index",
+             description: "All about dTokens (Tokenized assets on DeFiChain).",
+            },
+            items: [
+            "auto/Decentralized_Assets",
+            "auto/Tradable_dAssets_on_DeFiChain",
+            "auto/Vaults_Loans",
+            "auto/Collateral_Ratio",
+            "auto/Future_Swap",
+            ],
+          },
+        ]
+        },
+      
+    
+    {
+      type: "category",
       label: "Guides",
       link: {
         type: "generated-index",
@@ -103,11 +112,8 @@ const sidebars = {
         "auto/Jellyfish_tutorial",
         "auto/Lightwallet",
         "auto/Lightwallet_change_Ocean",
-        "auto/Testnet",
-        "auto/CustomTransaction",
-        "auto/Buy",
-      ],
-    },
+     
+
     {
       type: "category",
       label: "DeFi Wallet",
@@ -215,8 +221,35 @@ const sidebars = {
           },
           items: ["auto/V2.3.1", "auto/V2.3.2"],
         },
+
       ],
     },
+    "auto/Testnet",
+    "auto/CustomTransaction",
+    "auto/Buy",
+    {
+      type: "category",
+      label: "External Documentation",
+      link: {
+        type: "generated-index",
+        description: "Documentation resources on other websites.",
+      },
+      items: [
+        {
+          type: "link",
+          label: "Jellyfish Documentation",
+          href: "https://jellyfish.defichain.com/",
+        },
+        {
+          type: "link",
+          label: "Chain Documentation",
+          href: "https://github.com/DeFiCh/ain/wiki ",
+        },
+      ],
+    },
+
+  ],
+},
     {
       type: "category",
       label: "Community",
@@ -250,26 +283,7 @@ const sidebars = {
         },
       ],
     },
-    {
-      type: "category",
-      label: "External Documentation",
-      link: {
-        type: "generated-index",
-        description: "Documentation resources on other websites.",
-      },
-      items: [
-        {
-          type: "link",
-          label: "Jellyfish Documentation",
-          href: "https://jellyfish.defichain.com/",
-        },
-        {
-          type: "link",
-          label: "Chain Documentation",
-          href: "https://github.com/DeFiCh/ain/wiki ",
-        },
-      ],
-    },
+    
     {
       type: "category",
       label: "❤ Contribute",
