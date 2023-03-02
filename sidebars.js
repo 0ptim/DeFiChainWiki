@@ -45,11 +45,7 @@ const sidebars = {
             type: "generated-index",
             description: "Read the technical papers about DeFiChain.",
           },
-          items: [
-            "auto/Original_White_Paper",
-            "auto/Updated_White_Paper",
-            "auto/Pink_Paper",
-          ],
+          items: ["auto/Updated_White_Paper", "auto/Pink_Paper"],
         },
       ],
     },
@@ -293,6 +289,28 @@ const sidebars = {
       },
       items: ["auto/Sharing_is_caring", "auto/Contribute"],
     },
+    {
+      type: "category",
+      label: "External Documentation",
+      link: {
+        type: "generated-index",
+        description: "Documentation resources on other websites.",
+      },
+      items: [
+        {
+          type: "link",
+          label: "Jellyfish Documentation",
+          href: "https://jellyfish.defichain.com/",
+        },
+        {
+          type: "link",
+          label: "Chain Documentation",
+          href: "https://github.com/DeFiCh/ain/wiki ",
+        },
+      ],
+    },
+    "auto/Contribute",
+    // "auto/JellyChat",
     "auto/Links",
   ],
 };

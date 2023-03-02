@@ -38,7 +38,7 @@ const config = {
           showLastUpdateTime: true,
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
+          customCss: require.resolve("./src/css/output.css"),
         },
         gtag: {
           trackingID: "G-1RQ320FPE8",
@@ -54,7 +54,7 @@ const config = {
       announcementBar: {
         id: "improve_the_wiki",
         content:
-          'We are looking for community members which help improve our wiki. <a href="/docs/auto/Sharing_is_caring">Read more</a>',
+          'We are looking for community members which help improve our wiki. <a href="/docs/auto/Contribute">Read more</a>',
         backgroundColor: "#00F6FF",
         textColor: "#091E42",
         isCloseable: true,
@@ -81,9 +81,8 @@ const config = {
             label: "📖 Fundamentals",
           },
           {
-            type: "doc",
-            docId: "auto/Ecosystem",
-            label: "🧭 Ecosystem",
+            to: "/jellychat",
+            label: "💬 JellyChat",
           },
           {
             type: "localeDropdown",
