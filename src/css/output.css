@@ -177,16 +177,16 @@
   margin-bottom: 0.75rem;
 }
 
+.-mb-2 {
+  margin-bottom: -0.5rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
 
 .mt-2 {
   margin-top: 0.5rem;
-}
-
-.-mb-2 {
-  margin-bottom: -0.5rem;
 }
 
 .flex {
@@ -595,6 +595,11 @@ article img {
   border-radius: 6px;
 }
 
+[data-theme="dark"] article img {
+  box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 35%);
+  border-radius: 6px;
+}
+
 article a[href*="//"]:not([href*="defichainwiki.com"])
 {
   color: #008185;
@@ -616,6 +621,37 @@ article a[href*="//"]:not([href*="defichainwiki.com"])::after
 
 .theme-edit-this-page::after {
   content: "" !important;
+}
+
+.formula_bubble {
+  background: linear-gradient(0deg, #fc1dae 21.58%, #00f6ff 103.79%);
+  border-radius: 10px;
+  padding: 6px 6px 6px 6px;
+}
+
+.background_map {
+  background-image: url("/static/img/map_light.svg");
+  border-radius: 10px;
+  padding: 0px 0px 0px 0px;
+}
+
+.formula_map {
+  background-image: url("/static/img/map_light.svg");
+  border-radius: 10px;
+  padding: 30px 30px 10px 30px;
+}
+
+.formula_map_bold {
+  background-image: url("/static/img/map_light.svg");
+  border-radius: 10px;
+  padding: 30px 30px 10px 30px;
+  font-weight: bold;
+}
+
+[data-theme="dark"] .background_map,
+[data-theme="dark"] .formula_map_bold,
+[data-theme="dark"] .formula_map {
+  background-image: url("/static/img/map_dark.svg");
 }
 
 *::-webkit-scrollbar {

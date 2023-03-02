@@ -3,11 +3,7 @@ title: Investing and Trading
 description: The basic guide about investing and trading on DeFiChain.
 ---
 
-**This page was not fully converted yet to the new wiki format. Coming soon!**
-
-The source of this page can be found here: https://defichain-wiki.com/wiki/Investing_%26_Trading_with_Decentralized_Loans_and_Assets_on_DeFiChain
-
-## Part 1: Long and short positions with decentralized Assets
+## Long and short positions with decentralized Assets
 
 There are many ways of investing in decentralized Assets (so called "dAssets") using the DefiChain DEX. This chapter is focused on the three basic methods.
 
@@ -119,7 +115,7 @@ The price of **DFI** collateral is now **$1120** which means an additional **pro
 
 :::
 
-## Part 2: Liquidity mining
+## Liquidity mining
 
 Liquidity mining (LM) is one of the fundaments of the whole DeFiChain. Further information can be founded [here](./Liquidity_Mining.md).  
  In case of investing & trading, liquidity mining can be used to generate cashflow. This chapter describes four different ways depending on the investment strategy.
@@ -379,7 +375,7 @@ If in the same time frame **DFI** goes up to **$4.00,** it will make additional 
 
 :::
 
-## Part 3: Advanced trading methods - Leverage
+## Advanced trading methods - Leverage
 
 There are many advanced investing & trading methods. This chapter describes two different ways depending on the investment strategy.
 
@@ -498,9 +494,9 @@ When the **DFI** price is **$2.50**, then **100 DFI** is worth of **$250** and p
 
 :::
 
-Depending on the current (planned) collateral ratio, it can be decided which minimum collateral ratio fits to the strategy compared to the risk of liquidation. It should be considered, that the lower collateral ratios bring higher interest. 
+Depending on the current (planned) collateral ratio, it can be decided which minimum collateral ratio fits to the strategy compared to the risk of liquidation. It should be considered, that the lower collateral ratios bring higher interest.
 
-**The "allowed" decrease of collateral value for common schemes is evaluated in the table below. ↓**   
+**The "allowed" decrease of collateral value for common schemes is evaluated in the table below. ↓**
 
 <div className="background_map">
 
@@ -514,9 +510,9 @@ The leverage level depends on the number of iterativly created loans and converg
 
 :::info Example
 
-When the **DFI** price is **$2.50**, then **400 DFI** is worth of **$1000** and provides **500 DUSD loan** (collateralization ratio 200%). Those **500 DUSD** can be swapped for **200 DFI**  must stay above **$200**. The input investment of **400 DFI** provides holdings of **600 DFI**. 
+When the **DFI** price is **$2.50**, then **400 DFI** is worth of **$1000** and provides **500 DUSD loan** (collateralization ratio 200%). Those **500 DUSD** can be swapped for **200 DFI** must stay above **$200**. The input investment of **400 DFI** provides holdings of **600 DFI**.
 
-Then the leverage factor is: **600 / 400 = 1.5** 
+Then the leverage factor is: **600 / 400 = 1.5**
 
 :::
 
