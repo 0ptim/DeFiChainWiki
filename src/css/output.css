@@ -623,29 +623,11 @@ article a[href*="//"]:not([href*="defichainwiki.com"])::after
   content: "" !important;
 }
 
-.formula_bubble {
-  background: linear-gradient(0deg, #fc1dae 21.58%, #00f6ff 103.79%);
-  border-radius: 10px;
-  padding: 6px 6px 6px 6px;
-}
-
 .background_map {
   background-image: url("/static/img/map_light.svg");
+  background-size: cover;
   border-radius: 10px;
   padding: 0px 0px 0px 0px;
-}
-
-.formula_map {
-  background-image: url("/static/img/map_light.svg");
-  border-radius: 10px;
-  padding: 30px 30px 10px 30px;
-}
-
-.formula_map_bold {
-  background-image: url("/static/img/map_light.svg");
-  border-radius: 10px;
-  padding: 30px 30px 10px 30px;
-  font-weight: bold;
 }
 
 [data-theme="dark"] .background_map,
