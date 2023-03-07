@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[5548],{7254:e=>{e.exports=JSON.parse('{"title":"Fundamentals","description":"Learn about the fundamental concepts of DeFiChain.","slug":"/category/fundamentals","permalink":"/docs/category/fundamentals","navigation":{"next":{"title":"Introduction","permalink":"/docs/auto/Introduction"}}}')}}]);
