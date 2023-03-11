@@ -1,5 +1,5 @@
 ---
-title: Buy
+title: How to get the DFI
 description: TODO - Short description of this page.
 ---
 
