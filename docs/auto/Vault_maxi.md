@@ -5,7 +5,7 @@ description: Vault Maxi - a self custody bot to automatically manage and optimiz
 
 This page contains all information about the vault-maxi bot. For more information and statistics you can look at  [the official website](https://www.vault-maxi.live/). It is [open source](https://github.com/kuegi/defichain_maxi) the latest release is [2.5.1](https://github.com/kuegi/defichain_maxi/releases/tag/v2.5.1)
 
-# What it does
+## What it does
 In general the script checks the provided vault.
 * If the collateral ratio is above the threshold it takes loans and maybe collateral out of the vault (depending on the parameters) so that the collateral ratio comes into the range. The minted tokens will be put into the LM pool to produce rewards.
 * It can be used on DUSD-DFI and any dToken-DUSD pool. On DUSD-DFI, you need DFI in the vault and maxi takes the loan in DUSD and DFI from the collateral.
@@ -21,7 +21,7 @@ Wallets from DFX App work too. Unfortunately saiive wallets are not supported ri
 
 A series of videos explaining the architecture, reviewing the sourcecode etc. can be found on youtube: [DeFiChain vault-maxi explained ](https://www.youtube.com/playlist?list=PLgSw0rik-znfQa3wVO-EJ_6Of7RnWZm3_)
 
-# How it works
+## How it works
 The DeFiChain VaultMaxi script runs on AWS (Amazon Web Services) as a so-called Lambda function. AWS Lambda is a compute service that lets you run code without provisioning or managing servers. AWS Lambda can be used for our purpose as a free service.
 
 The instructions in this document explain how the script can be set up to run as a Lambda function, and how it can be configured to monitor a specific vault.
@@ -31,7 +31,7 @@ Once set up, the script is triggered with an interval of 15 minutes. During each
 Optionally, the script can send information about the actions it has executed to a Telegram bot. In this way, you can easily keep track of the actions that the script has executed on your vault. Instructions for setting up a Telegram bot are also provided in this document.
 
 
-# Disclaimer & Riskwarning
+## Disclaimer & Riskwarning
 
 Do not use this tool if you don't understand vaults on defichain. If you set the wrong parameter, you risk liquidating your vault and losing the whole collateral.
 
@@ -54,7 +54,7 @@ The **risks involved** contain (but are not limited to) the following list. Do N
 
 ***Always keep in mind that the code has full access to your wallet (not only this address, but the full wallet derived from your seed phrase). NEVER upload custom zips from anyone. We will NEVER send anyone a custom build zip to upload. Anyone who offers you one is a SCAMMER and tries to steal your funds. Please report them immediately.***
 
-# Pitfalls and other things to consider
+## Pitfalls and other things to consider
 
 * only one vault-maxi instance should run on an address to avoid bots interfering with each other. Means that one address can only have one managed vault. If you want to create multiple bots for multiple vaults, every vault needs a distinct address.
 * don’t forget to set up and test telegram notifications. As the bot will warn you if misconfigured or configuration doesn’t provide enough safety.
@@ -65,7 +65,7 @@ The **risks involved** contain (but are not limited to) the following list. Do N
 * skipping steps on telegram setup or way 2 steps. If you are skipping one step this might prevent you from running vault-maxi successfully.
 
 
-# Security and best practises
+## Security and best practises
 * on your AWS root account, make sure to use a long password, which is nowhere written down or saved into a file. There are multiple “how to create a strong password”, or use a password manager, which can generate and save really long passwords. Using a password manager in general is a great idea. This shifts the strong password problem to unlocking the password manager itself. Your choice
 * Make sure to enable MFA (multi factor authentication) or on other sites referred to as 2FA (two factor authentication). Which generates a 6 digit code that changes every 30 seconds. Means an attacker would need your password and your MFA-device (most likely your phone). How to activate MFA?
 
@@ -73,24 +73,24 @@ The **risks involved** contain (but are not limited to) the following list. Do N
 * As a best practice you should avoid using your root account as much as possible. Therefore the monitoring user can be created to have an user available to change parameters, without being able to inspect your seed. Additionally you want to create more users for different usages like checking billing information. This is based on personal preferences and therefore can’t be automated.
 https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html
 
-# Donations
+## Donations
 We are developing this thing in our free time. Noone is paying us for it. If you benefit from our work, it would be a nice gesture to give something back. Here are our DFI donation addresses:
 
-kügi: df1qqtlz4uw9w5s4pupwgucv4shl6atqw7xlz2wn07
+kügi: [df1qqtlz4uw9w5s4pupwgucv4shl6atqw7xlz2wn07](https://defiscan.live/address/df1qqtlz4uw9w5s4pupwgucv4shl6atqw7xlz2wn07)
 
-krysh: df1qw2yusvjqctn6p4esyfm5ajgsu5ek8zddvhv8jm
+krysh: [df1qw2yusvjqctn6p4esyfm5ajgsu5ek8zddvhv8jm](https://defiscan.live/address/df1qw2yusvjqctn6p4esyfm5ajgsu5ek8zddvhv8jm)
 	
 
 Since version 2.0, vault-maxi also has an auto-donation functionality. If the parameter is set to a value > 0, it automatically donates this percentage of any reinvest to us. We thank everyone for their donations to help fund our development and as a sign of appreciation of our work.
 
-# Support
+## Support
 Since this is our hobby-project we do not guarantee any support whatsoever. However there is a [discord server](https://discord.gg/DBUp4cqzBb) for our community where you can ask questions. 
 
 Issues can always be reported in the repository. 
 
 To get notified of new releases, we recommend you to subscribe to the repository. Any update will be an official release on github.
 
-# Reinvestpattern
+## Reinvestpattern
 With the new reinvest logic (since version 2.4.0), you can highly customize how vault-maxi (and also reinvest) uses the DFI rewards that come into your wallet.
 Everything is defined via a reinvest-pattern which is a string of (comma or space) separated reinvest-targets. each target can contain 3 parts:
 the target token (can be any token with a possible swap path from DFI, or any LM-token)
@@ -98,16 +98,16 @@ the percentage (0-100) from the reinvested amount that should be used for this t
 a target address or vaultId (vaultId is only valid if the token is a collateralToken). you can use wallet and vault as shortcut for your own address and vault
 if you leave the percentage empty (for all or some targets) the remaining percentage (after filling all defined percentage targets) is split equally over all targets without a specified percentage.
 if you leave the address/vaultId empty, collateralTokens are deposited to your own vault. All other tokens stay in your address.
-If the whole parameter is empty, it falls back to the pattern <mainCollateralAsset> which effectively deposits the amount as DFI or DUSD into your vault. so exactly the same behavior as before (means no action needed if you do not want to use the new functionality)
+If the whole parameter is empty, it falls back to the pattern `mainCollateralAsset` which effectively deposits the amount as DFI or DUSD into your vault. so exactly the same behavior as before (means no action needed if you do not want to use the new functionality)
 
-## examples
+### examples
 this pattern can be super simple in the usage, but is extremely powerful for those who need it. here are some examples:
 * just reinvest the DFI into the vault: `DFI` (1 target: coin = DFI, no percentage = split equally over targets, no address/vault= reinvest to own vault cause collateral Token)
 * split equally between DFI and DUSD and reinvest: `DFI,DUSD`
 * swap 20% to USDT and keep in wallet, split remaining to DFI and BTC, send the BTC to df1address1: `USDT:20:wallet,DFI,BTC::df1address1`
 * swap 10% to BTC-DFI, 15% to SPY-DUSD, 10% reinvest in other vault as DFI, 20% send as TLT-DUSD to address2, rest as DFI in own vault: `BTC-DFI:10,SPY-DUSD:15,DFI:10:vaultIdOfOther,TLT-DUSD:20:address2,DFI`
 
-# Setup via cloudformation template
+## Setup via cloudformation template
 
 The tool is built to be used as a lambda function on AWS. You need a LW address with a vault.
 There are two ways to set up everything. Both lead to the same outcome. 
@@ -129,13 +129,13 @@ setup the bot:
 finally:
 * Test the AWS setup
 
-## Setup an AWS account
+### Setup an AWS account
 
 * Create AWS account at https://aws.amazon.com/free
 * (optional but strongly recommended) Activate MFA
 * Make sure to create everything in one region. In this guide Frankfurt (eu-central-1) is used. Using the template is possible in eu-central-1, us-west-1 and ap-southeast-1. 
 
-## Create a secure parameter for your seedphrase
+### Create a secure parameter for your seedphrase
 
 Go to Systems Manager and open “Parameter Store” on the left side (direct link: https://eu-central-1.console.aws.amazon.com/systems-manager/parameters)
 
@@ -147,13 +147,13 @@ Type SecureString means it will be encrypted and stored and only on execution of
 *To ensure security, the script will only work if the seed is stored as a SecureString*
 
 The words need to be separated by `,` or by ` ` (a space). You can also enter the private key here as long it is a bech32 address.
-### example seed
+#### example seed
 car, house, apple, garden, wine
 or
 car house apple garden wine
 
 
-## Create Telegram bot for monitoring
+### Create Telegram bot for monitoring
 The script can notify you via telegram messages whenever something happens. The script also works without this, but it is highly recommended to activate this monitoring. You can enter 2 types of channels/chats: for notifications and for logs. Since version 2.5.0 vault-maxi has the logLevel parameter which allows you to define what type of message is sent to which channel. We recommend to have both channels activated but mute the logs.
 
 
@@ -181,7 +181,7 @@ In the response you should see an entry in “message” … search for “chat�
 To test your values, replace `<botToken>` with your token and `<chatId>` with your chatId in the following link and open it in your browser. If your chat shows a message “testMessage” from your bot, then your values are correct 
 `https://api.telegram.org/bot<botToken>/sendMessage?chat_id=<chatId>&text=textMessage`
 
-### (optional) Create a seperate group channel with your bot for logs
+#### (optional) Create a seperate group channel with your bot for logs
 This is only needed if you want to also receive the logs channel. Logs are being sent on every execution, therefore it might make sense to mute this group after creation.
 
 * create a new group in telegram and add your bot via the username with @ (if you can’t find your bot please check bot settings with BotFather like described in the FAQs.)
@@ -195,7 +195,7 @@ This is only needed if you want to also receive the logs channel. Logs are being
 to test same as above call following http request
 `https://api.telegram.org/bot<botToken>/sendMessage?chat_id=<chatId>&text=groupChatTest`
 
-## Use CloudFormationTemplate to set up vault-maxi
+### Use CloudFormationTemplate to set up vault-maxi
 The CloudFormationTemplate will create everything for you at once. 
 
 Just click this link and fill in your values. This template is only available for the regions `eu-central-1`, `us-west-1` and `ap-southeast-1` right now. Just change the region after you clicked the link:
@@ -213,7 +213,7 @@ Please be advised that the auto-donation feature applies to any fund that is add
 
 The creation will take 1-2 minutes. afterwards everything is set up and the trigger will execute the script in 15 minutes. You can do the Test Step to make sure everything is alright.
 
-## Test AWS setup
+### Test AWS setup
 
 Go to the testing section of your vault-maxi Lambda function. Either directly via https://eu-central-1.console.aws.amazon.com/lambda/home?region=eu-central-1#/functions/defichain-vault-maxi?tab=testing or
 * click on `Services` in the toolbar
@@ -233,16 +233,16 @@ and click on `Test`. If you want you can save this as an event for further use.
 
 After a few seconds, you should receive a telegram message which shows all the values that you configured. Please check and make sure that all values are as expected.
 
-# Applying an update
+## Applying an update
 
-# FAQ
+## FAQ
 
-## How do I set the batchsize for the stable arb?
+### How do I set the batchsize for the stable arb?
 When maxi finds an arbitrage opportunity, it takes collateral from the vault to do the arb trade. This means that you need free collateral for the trade. (vault-maxi doesn’t reduce exposure just to do arbitrage)
 The free collateral is the amount of collateral that can be withdrawn from the vault such that the minimum of collateralRatio and the next collateralRatio is still 1% higher than the minimum collateral ratio from the vault scheme.
 If your batchsize is bigger than the free collateral, maxi reduces the batchsize (for this one execution) to the free collateral, and warns you via telegram.
 
-### Example with numbers: 
+#### Example with numbers: 
 consider a vault with 10k collateralValue and 6.25k loanValue. The current ratio is 160%.
 to maintain a 151% ratio for 6.25k loanValue, we need 9.437k collateral. So we have 563$ of free collateral. In this case, any batchsize below $560 is fine.
 
@@ -250,14 +250,14 @@ to maintain a 151% ratio for 6.25k loanValue, we need 9.437k collateral. So we h
 
 When using singlemint, this gets a bit more complicated (as the collateral also changes over time). There, with 160% targetRatio, the batchsize could be up to 3.5% of the original collateral value.
 
-## Script fails with unclear error
+### Script fails with unclear error
 Make sure that all parameters are created. If you used the template to set everything up, make sure that you created the seed parameter manually (is not done via the template). Follow these steps if you haven’t done already: Create Secure Parameter for Seed
 
-## I am not sure if the script is running or not. How can I check it?
+### I am not sure if the script is running or not. How can I check it?
 The script should trigger every 15 minutes. If you use telegram logs, every execution will send you a message.
 If you do not have telegram logs active, you can go to https://eu-central-1.console.aws.amazon.com/lambda/home?region=eu-central-1#/functions/defichain-vault-maxi?tab=monitoring (need to change the region if you use a different one). There you should see log entries for each execution of the script. within those logentries you can also see messages in case of an error.
 
-## I can’t complete my update, because I get some strange errors
+### I can’t complete my update, because I get some strange errors
 
 > There was an error creating this change set
 > Parameter "...." must match pattern ----
@@ -265,42 +265,42 @@ If you do not have telegram logs active, you can go to https://eu-central-1.cons
 The error above is just one of many possible errors. As of version 1.0-b3 we have added input validation to our template. This means that per parameter only valid input is allowed. If you misconfigured a parameter, like in that example your TelegramNotificationToken, it means it hasn’t worked before. Please check your inputs and make sure you put in the correct value.
 Why did we add input validation? Because it should help you put in correct values and not that parts of the bot, or the bot itself are just not working as expected.
 
-## Script seems to run but I don’t get telegram messages.
-To test your telegram setup, replace <botToken> with your token and <chatId> with your chatId in the following link and open it in your browser. If your chat shows a message “test” from your bot, then your values are correct. Otherwise please go through the steps in the telegram setup again and make sure you got the right values. 
+### Script seems to run but I don’t get telegram messages.
+To test your telegram setup, replace `<botToken>` with your token and `<chatId>` with your chatId in the following link and open it in your browser. If your chat shows a message “test” from your bot, then your values are correct. Otherwise please go through the steps in the telegram setup again and make sure you got the right values. 
 
-https://api.telegram.org/bot<botToken>/sendMessage?chat_id=<chatId>&text=test
+`https://api.telegram.org/bot<botToken>/sendMessage?chat_id=<chatId>&text=test`
 
 The command above works, but your bot is still not sending you messages. Please recheck it again, something still seems to be misconfigured.
 
 As of version 1.0-b3 we have added input validation for all parameters including TelegramNotificationToken = botToken and TelegramNotificationChatId = chatId. If you can’t proceed it means you had the wrong values configured.
 
-## Telegram shows `[Maxi …] Configuration error. please check your values`
+### Telegram shows `[Maxi …] Configuration error. please check your values`
 Please check your parametervalues. minCollateral must be below maxCollateral. 
 also minCollateral needs to be higher than your minCollateralRatio of the loan scheme.
 
-## I can’t add my bot to a new Telegram group
+### I can’t add my bot to a new Telegram group
 Please talk to BotFather and check if bot settings → Allow groups? → is enabled.
 You will need to enable this setting in order to be able to add your bot to a new group.
 After you have created your group you can disable this setting again.
 
-## Inside AWS logs I see an error like this… what does it mean?
+### Inside AWS logs I see an error like this… what does it mean?
 `ERROR	(node:9) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.`
 Nothing critical. jellyfish packages which are used for DeFiChain wallet mobile applications are also used for our vault-maxi. Within one of those packages they are using an outdated (deprecated) call to initialize a Buffer. Sadly we can’t just fix it, we need to wait for jellyfish to update their packages.
 Sidenote: yes we could create a pull-request and fix it for us, but everything is about available time
 
-## Reinvest feature is not working, I have enough DFI and I am above the configured threshold
+### Reinvest feature is not working, I have enough DFI and I am above the configured threshold
 As of v1.0b2 we only check for token DFI, that means UTXOs are not yet considered. Please convert your UTXOs into DFI tokens and on next execution the script should automatically put it into your vault.
 Next version will respect UTXOs too and do a conversion if needed, while keeping UTXOs in your account to still do transactions. Similar to LW mobile app does it by keeping an amount of UTXOs in your address.
 
 With v1.0b3 UTXOs to token conversion is implemented and UTXOs are considered for reinvesting. Not all UTXOs will be converted, similar to LW mobile application. At least 1 DFI will stay as UTXOs to ensure having a big amount of fees available for executing new transactions.
 
-# My configured dToken for LM is not found
+### My configured dToken for LM is not found
 If you should run into troubles that a specific dToken was not found, please ensure that you have written it correctly without leading d. For example if you want to use vault maxi on dTSLA, please put TSLA-DUSD in as pair.
 
 
 If you still run into problems, please reach out via our discord server
 
-## How can I change parameter settings with my monitoring user?
+### How can I change parameter settings with my monitoring user?
 Your monitoring user has no access rights to the CloudFormation Stack. This is really important, because CloudFormation Stacks are very powerful and could upload new code to your Lambda.
 
 If you are logged in with your monitoring user. You can go to Systems Manager → Parameter Store → and change those parameters directly. Be aware that those changes will never be reflected in your CloudFormation Stack, as the stack caches its value from previous execution.
@@ -316,18 +316,18 @@ If you reduce the exposure manually: switch to the new token in the parameters b
 
 If you let the script reduce the exposure, wait for it to execute successfully, then switch the parameters back to the desired values (new dtoken and wanted range)
 
-## What exactly is the safety level shown in the logs? (safetylevel)
+### What exactly is the safety level shown in the logs? (safetylevel)
 This is the vault collateralization ratio vault-maxi would achieve by removing all available liquidity and paying back tokens. If this % number drops below 300 (on 150 loan scheme vaults), then you will receive a warning that vault-maxi will not be able to guard your vault in a secure way. You might see changes in the safety level, which are basically changes due to IL (impermanent loss).
 
-## Are USDT/C-DUSD pools supported by vault-maxi?
+### Are USDT/C-DUSD pools supported by vault-maxi?
 No. Neither of USDT nor USDC can be minted and aren’t available as main collateral. Therefore vault-maxi does not support those pools. If wanted, you can use LM-reinvest to reinvest your DFI rewards into this pool. Be careful your DFI will be swapped to USDT/C and DUSD in this process.
 
-## Can I use a different Ocean API with vault-maxi?
+### Can I use a different Ocean API with vault-maxi?
 Yes definitely, just use the parameter for oceanUrls.
 
 The good thing is that it automatically falls back to default Ocean API of defichain, if any error occurs.
 
-## How can I verify which zip sha256 hash got uploaded?
+### How can I verify which zip sha256 hash got uploaded?
 There are multiple ways, the easiest would be to stop the trigger of vault-maxi (like described in How to stop further execution of this script?). Upload whatever zip you want to update to. Go to your Lambdas and check the sha256 hash which is displayed on the page (you will need to scroll down).
 
 If you want to check an already uploaded Lambda, please just follow the same steps. Go to your Lambda, scroll down and check the SHA256 hash displayed in AWS against the version in our github repository.
@@ -338,7 +338,7 @@ Windows (PowerShell):
 Linux/MacOS:
 `cat vault-maxi.zip | openssl dgst -sha256 -binary | openssl enc -base64`
 
-## How to stop further execution of this script?
+### How to stop further execution of this script?
 Log into your AWS account and open “EventBridge” https://eu-central-1.console.aws.amazon.com/events/home?region=eu-central-1#/rules
 
 Select “vaultMaxiTrigger” and click “Disable”
