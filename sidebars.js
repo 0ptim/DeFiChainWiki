@@ -244,6 +244,7 @@ const sidebars = {
             "auto/DFX_manual_registration",
           ],
         },
+        "auto/Vault_maxi",
       ],
     },
     {
