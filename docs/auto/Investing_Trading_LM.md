@@ -3,7 +3,7 @@ title: Liquidity mining
 description: How to use LM in investing and trading on DeFiChain.
 ---
 
-Liquidity mining (LM) is one of the fundaments of the whole DeFiChain. Further information can be founded [here](./Liquidity_Mining.md).  
+Liquidity mining (LM) is one of the fundaments of the whole DeFiChain. Further information can be founded [here](../category/liquidity-mining).  
  In case of investing & trading, liquidity mining can be used to generate cashflow. This chapter describes four different ways depending on the investment strategy.
 
 <div className="background_map">
