@@ -3,19 +3,31 @@ title: Lightwallet change Ocean
 description: Wallets can interact with DeFiChain blockchain via Ocean infrastructure. List of different Ocean infrastructures that are available.
 ---
 
-The Lightwallet of DeFiChain interacts with the blockchain via Ocean infrastructure. Every user action is saved in a signed transaction and send to Ocean, which then executes it. So, a running ocean infrastructure is mandatory to have access to your funds with the Lightwallet. DeFiChain is a decentralized project and has alternatives to the standard infrastructure here as well.
+:::danger Attention
+Use only ocean infrastructures that you trust.
+:::
 
-**Attention: Use only ocean infrastructures that you trust.**
+The Lightwallet of DeFiChain interacts with the blockchain via Ocean infrastructure. Every user action is saved in a signed transaction and send to Ocean, which then executes it. So, a running ocean infrastructure is mandatory to have access to your funds with the Lightwallet. DeFiChain is a decentralized project and has alternatives to the standard infrastructure here as well.
 
 ## How to change Ocean infrastructure {#how-to-change-ocean-infrastructure}
 
-If you want to change the ocean infrastructure (e.g. default ocean is down and you want access to your funds), then you can do it in the settings menu.
+Below are described the steps to change the ocean infrastructure (e.g. default ocean is down and therefore access to the funds in the wallet is not possible).
+
+### Alow "Beta features" in About menu
+
+Firstly it is necessary to allow "Beta features" by clicking on the text "TRY BETA FEATURES" in the _About_ menu, which can be reached through the _Settings_ menu.
+
+_About menu in the Settings menu of the Lightwallet_
+
+![Provider entry in the settings menu of the Lightwallet](./../media/Lightwallet_about_menu.jpg)
+
+### Change provider in the settings menu
 
 _Provider entry in the settings menu of the Lightwallet_
 
 ![Provider entry in the settings menu of the Lightwallet](./../media/Lightwallet_settings_Provider.jpg)
 
-In the provider menu you can enter a new endpoint URL for the ocean infrastructure. The default setting is <https://ocean.defichain.com> and can also be restored with the button _Reset provider_ (will be enabled after ocean was changed). You need your passcode to save the changes.
+In the provider menu it can be entered a new endpoint URL for the ocean infrastructure. The default setting is <https://ocean.defichain.com> and can also be restored with the button _Reset provider_ (will be enabled after ocean was changed). Passcode is required to save the changes.
 
 _Provider menu to change the ocean infrastructure_
 
