@@ -56,7 +56,6 @@ const sidebars = {
           "The decentralized exchange to trade assets without the control of a single entity.",
       },
       items: [
-        "auto/DEX_TMP",
         "auto/DEX",
         "auto/DEX_Fee_Structure",
 
