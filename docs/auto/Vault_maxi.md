@@ -148,9 +148,9 @@ Type SecureString means it will be encrypted and stored and only on execution of
 
 The words need to be separated by `,` or by ` ` (a space). You can also enter the private key here as long it is a bech32 address.
 #### example seed
-car, house, apple, garden, wine
+`car, house, apple, garden, wine`
 or
-car house apple garden wine
+`car house apple garden wine`
 
 
 ### Create Telegram bot for monitoring
@@ -234,6 +234,19 @@ and click on `Test`. If you want you can save this as an event for further use.
 After a few seconds, you should receive a telegram message which shows all the values that you configured. Please check and make sure that all values are as expected.
 
 ## Applying an update
+When created via Template, the update also works via the CloudFormationTemplate.
+
+To update go to your cloudformation stack https://eu-central-1.console.aws.amazon.com/cloudformation/home?region=eu-central-1#/stacks select your stack `defichain-vault-maxi` and click on “Update”
+
+If you only want to change some parameters, select `Use current template` and follow the process to the parameter form.
+
+If you want to update to the newest release of the script, select `Replace current template` and `Amazon S3 URL`
+fill in `https://defichain-maxi-public.s3.eu-central-1.amazonaws.com/defichain-cloudtemplate.json` for the URL.
+Click on “Next” and follow through the whole process. This will update all associated values in your stack.
+
+**This will also update the source code of your lambda in case that a new version was released.**
+
+*Be aware that an update via template sometimes removes your environment variables. We didn’t find out when this happens. Please remember your environmentVariables before the update and make sure that you check/reset them afterwards.*
 
 ## FAQ
 
