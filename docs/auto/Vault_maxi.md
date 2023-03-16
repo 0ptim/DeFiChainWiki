@@ -62,12 +62,12 @@ The **risks involved** contain (but are not limited to) the following list. Do N
 * do not use weak security on your AWS account, treat it like your wallet private key. Look up best practices for securing your AWS account + IAM users as good as possible
 * do not just change your LM token without paying back loans of your old token. Please take a look at our FAQ: How can I switch the used dToken for LM?
 * do not set up way 1 and directly afterwards go through way 2 steps. Those are two completely different approaches and will conflict with each other.
-* skipping steps on telegram setup or way 2 steps. If you are skipping one step this might prevent you from running vault-maxi successfully.
+* skipping steps on the setup (telegram or maxi setup). If you are skipping one step this might prevent you from running vault-maxi successfully.
 
 
 ## Security and best practises
 * on your AWS root account, make sure to use a long password, which is nowhere written down or saved into a file. There are multiple “how to create a strong password”, or use a password manager, which can generate and save really long passwords. Using a password manager in general is a great idea. This shifts the strong password problem to unlocking the password manager itself. Your choice
-* Make sure to enable MFA (multi factor authentication) or on other sites referred to as 2FA (two factor authentication). Which generates a 6 digit code that changes every 30 seconds. Means an attacker would need your password and your MFA-device (most likely your phone). How to activate MFA?
+* Make sure to enable MFA (multi factor authentication) or on other sites referred to as 2FA (two factor authentication). Which generates a 6 digit code that changes every 30 seconds. Means an attacker would need your password and your MFA-device (most likely your phone). [How to activate MFA?](https://docs.google.com/document/d/1sb9VgeVHGYZpyLWQx8VsxsoeHO4JRz3fACj5_JjoVNs/edit#heading=h.ch5boblw47er)
 
 * Instead of doing everything in AWS with your root account, create a monitoring user like described in Create a monitoring user by using our CloudFormationTemplate.
 * As a best practice you should avoid using your root account as much as possible. Therefore the monitoring user can be created to have an user available to change parameters, without being able to inspect your seed. Additionally you want to create more users for different usages like checking billing information. This is based on personal preferences and therefore can’t be automated.
