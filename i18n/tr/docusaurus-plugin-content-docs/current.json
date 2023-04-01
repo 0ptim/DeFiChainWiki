@@ -63,6 +63,14 @@
     "message": "Kavramları daha iyi anlamanıza yardımcı olan kılavuzlar.",
     "description": "The generated-index page description for category Guides in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.Wallets": {
+    "message": "Cüzdanlar",
+    "description": "The label for category Wallets in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Wallets.link.generated-index.description": {
+    "message": "DeFiChain cüzdanları hakkında her şey.",
+    "description": "The generated-index page description for category Wallets in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.DeFi Wallet": {
     "message": "DeFi Cüzdan",
     "description": "The label for category DeFi Wallet in sidebar tutorialSidebar"
@@ -118,6 +126,30 @@
   "sidebar.tutorialSidebar.category.Version Specific Hints.link.generated-index.description": {
     "message": "Belirli uygulama sürümleri için bilgiler.",
     "description": "The generated-index page description for category Version Specific Hints in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Light Wallet": {
+    "message": "Lightwallet",
+    "description": "The label for category Light Wallet in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Light Wallet.link.generated-index.description": {
+    "message": "DeFiChain Lightwallet hakkında her şey.",
+    "description": "The generated-index page description for category Light Wallet in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Investing & Trading": {
+    "message": "Yatırım & Ticaret",
+    "description": "The label for category Investing & Trading in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Investing & Trading.link.generated-index.description": {
+    "message": "DeFiChain'de yatırım ve ticaret hakkında rehber.",
+    "description": "The generated-index page description for category Investing & Trading in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.For Developers": {
+    "message": "Geliştiriciler için",
+    "description": "The label for category For Developers in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.For Developers.link.generated-index.description": {
+    "message": "Kodlama kılavuzları ve kaynakları..",
+    "description": "The generated-index page description for category For Developers in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Community": {
     "message": "Topluluk",

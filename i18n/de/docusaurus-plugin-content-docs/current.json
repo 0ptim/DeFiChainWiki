@@ -63,6 +63,22 @@
     "message": "Leitfäden, die dir helfen, Konzepte besser zu verstehen.",
     "description": "The generated-index page description for category Guides in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.Investing & Trading": {
+    "message": "Investieren & Handeln",
+    "description": "The label for category Investing & Trading in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Investing & Trading.link.generated-index.description": {
+    "message": "Der Leitfaden zum Investieren und Handeln auf DeFiChain.",
+    "description": "The generated-index page description for category Investing & Trading in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Wallets": {
+    "message": "Wallets",
+    "description": "The label for category Wallets in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Wallets.link.generated-index.description": {
+    "message": "Alles über die DeFiChain Wallets.",
+    "description": "The generated-index page description for category Wallets in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.DeFi Wallet": {
     "message": "DeFi Wallet",
     "description": "The label for category DeFi Wallet in sidebar tutorialSidebar"
@@ -118,6 +134,14 @@
   "sidebar.tutorialSidebar.category.Version Specific Hints.link.generated-index.description": {
     "message": "Informationen für bestimmte App-Versionen.",
     "description": "The generated-index page description for category Version Specific Hints in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.For Developers": {
+    "message": "Für Entwickler",
+    "description": "The label for category For Developers in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.For Developers.link.generated-index.description": {
+    "message": "Kodierungsleitfäden und Ressourcen.",
+    "description": "The generated-index page description for category For Developers in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Community": {
     "message": "Gemeinschaft",
