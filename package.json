@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "concurrently \"npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch\" \"docusaurus start --locale de\"",
+    "start": "concurrently \"npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch\" \"docusaurus start\"",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
