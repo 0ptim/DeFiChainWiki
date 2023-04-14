@@ -27,7 +27,7 @@ If the ratio goes below the chosen ratio, the vault is automatically sent to a l
 
 Example: When taking e.g. dTSLA as a loan and dTSLA's price increases your loan gets a higher value and so the ratio goes down even if the collateral has not changed.
 
-Users can take out DUSD stablecoins, or various dToken such as stock-, ETF- and commodities-tokens. You can find a [list](./Tradable_dAssets_on_DeFiChain.md) of all tradable assets here. This allows an investor to take several positions (long/short/neutral) and several cashflow-positions. Going short on a token means take a loan, sell it immediately and buy it back cheaper later. As the value of the borrowed token decreases, the less money is needed to pay back the loan. You also could leverage any crypto positions you have with the extra borrowed money. For further strategies see [Investing and Trading](./Investing_Trading.md).
+Users can take out DUSD stablecoins, or various dToken such as stock-, ETF- and commodities-tokens. You can find a [list](./Tradable_dAssets_on_DeFiChain.md) of all tradable assets here. This allows an investor to take several positions (long/short/neutral) and several cashflow-positions. Going short on a token means take a loan, sell it immediately and buy it back cheaper later. As the value of the borrowed token decreases, the less money is needed to pay back the loan. You also could leverage any crypto positions you have with the extra borrowed money. For further strategies see [Investing and Trading](../category/investing--trading).
 
 ### DUSD-Loan 'specials' {#dusd-loan-specials}
 

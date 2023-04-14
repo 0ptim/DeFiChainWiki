@@ -27,7 +27,7 @@ Wenn die Quote unter die Liquidationsquote fällt, wird der Vault automatisch in
 
 Beispiel: Wenn du einen dTSLA-Loan aufnimmst und der Kurs von dTSLA steigt, hat dein Kredit einen höheren Wert und das Verhältnis von Sicherheiten zu Kredit verschlechtert sich, sofern sich die Sicherheiten nicht ebenfalls bewegen.
 
-Als Kredit sind DUSD oder diverse andere dToken möglich. Eine Liste aller [handelbaren dToken](./Tradable_dAssets_on_DeFiChain.md) findest du hier. Diese Möglichkeiten bieten verschiedene Marktstrategien (long/short/neutral) und verschiedene cashflow-Positionen. Einen Token shorten bedeutet, dass man einen Kredit in diesem Token aufnimmt, direkt verkauft und darauf spekuliert, diesen später günstiger zurückkaufen zu können, um den Loan zu tilgen. Weiterhin sind gehebelte Positionen möglichen. Strategien findest du unter [Investing & Trading](./Investing_Trading.md).
+Als Kredit sind DUSD oder diverse andere dToken möglich. Eine Liste aller [handelbaren dToken](./Tradable_dAssets_on_DeFiChain.md) findest du hier. Diese Möglichkeiten bieten verschiedene Marktstrategien (long/short/neutral) und verschiedene cashflow-Positionen. Einen Token shorten bedeutet, dass man einen Kredit in diesem Token aufnimmt, direkt verkauft und darauf spekuliert, diesen später günstiger zurückkaufen zu können, um den Loan zu tilgen. Weiterhin sind gehebelte Positionen möglichen. Strategien findest du unter [Investing & Trading](../category/investing--trading).
 
 ### DUSD-Loan-Besonderheiten {#dusd-loan-specials}
 
