@@ -4,6 +4,7 @@ import Link from "@docusaurus/Link";
 import Translate, { translate } from "@docusaurus/Translate";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faThumbsUp, faThumbsDown } from "@fortawesome/free-solid-svg-icons";
+import { v4 as uuidv4 } from "uuid";
 
 export default function JellyChat() {
   const [question, setQuestion] = useState("");
@@ -12,8 +13,21 @@ export default function JellyChat() {
   const [error, setError] = useState(false);
   const [currentId, setCurrentId] = useState(0);
   const [selectedRating, setSelectedRating] = useState(null);
+  const [userToken, setUserToken] = useState(null);
 
   const inputRef = useRef(null);
+
+  useEffect(() => {
+    const storedUserToken = localStorage.getItem("user_token");
+
+    if (storedUserToken) {
+      setUserToken(storedUserToken);
+    } else {
+      const newUserToken = uuidv4();
+      setUserToken(newUserToken);
+      localStorage.setItem("user_token", newUserToken);
+    }
+  }, []);
 
   const handleSubmit = async () => {
     if (!question) {
@@ -30,7 +44,7 @@ export default function JellyChat() {
       const response = await fetch("https://jellychat.fly.dev/ask", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ question }),
+        body: JSON.stringify({ question, user_token: userToken }),
       });
       const data = await response.json();
       setAnswer(data.response);
