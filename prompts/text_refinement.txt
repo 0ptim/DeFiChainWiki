@@ -1,0 +1,7 @@
+Please refine this text:
+
+```
+{{Text}}
+```
+
+Write in the style which is appropriate for a Wiki. Keep it simple and straight to the point. It should be easy to read. Reduce redundant information and optimize for conciseness.
