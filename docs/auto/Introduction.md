@@ -3,23 +3,17 @@ title: Introduction
 description: Decentralized Finance allows to do all kind of financial services without a central party. DeFiChain was created be a perfect fit for DeFi.
 ---
 
-DeFi stands for Decentralized Finance. It describes the idea of enabling people to become their own bank for these services and eliminate counterparty risks, without the need for a trusted third party to run financial services.
+## Overview
 
-## So what is DeFiChain?
+DeFiChain is a decentralized blockchain project created in 2019 by Uzyn Chua and Julian Hosp, who also co-founded CakeDeFi. Officially launched in 2020, DeFiChain is designed for decentralized finance (DeFi) services. Its main goal is to offer a secure, fast, and accessible infrastructure for various financial applications.
 
-Decentralized financial services rely on blockchain technology to provide a secure, fast, and accessible infrastructure.
+DeFiChain combines the security of the Bitcoin blockchain with the scalability of the Proof-of-Stake (PoS) algorithm. As a decentralized project, it doesn't have a CEO, and users can act as their own banks, minimizing counterparty risks. With DeFiChain, trusted third parties are unnecessary for financial services, which reduces dependency and encourages innovation in the DeFi ecosystem.
 
-While the Bitcoin blockchain was originally designed for decentralized and censorship-resistant value storage, it lacks the capabilities necessary for other DeFi services. Ethereum, while able to handle a wide range of functions, has faced security issues with its smart contracts.
+## DeFiChain Features
 
-:::info The solution
-DeFiChain aims to solve these problems by creating a blockchain specifically for DeFi services that prioritizes **security**, **speed**, and **accessibility**.
+DeFiChain provides decentralized financial services, such as:
 
-It also allows investors in the cryptocurrency market to generate **passive income** through staking and liquidity mining, regardless of market conditions.
-:::
-
-### DeFiChain highlights
-
-- Decentralized Loans
+- Decentralized loans
 - Decentralized wrapping of tokens
 - Oracles for decentralized price determination
 - Decentralized exchanges (DEX)
@@ -28,31 +22,24 @@ It also allows investors in the cryptocurrency market to generate **passive inco
 - Asset tokenization
 - Profit distribution
 
-## Technical origin
+Users can access these services using the platform's native coin, DFI, which powers all transactions on the blockchain.
 
-DeFiChain is built on top of Bitcoin, using a fork of Bitcoin's code. Its native coin, DFI, was distributed through staking rather than an initial coin offering (ICO). This means, that the price of DFI was only ever set by real supply and demand.
+## Native and Non-Native Coins
 
-DeFiChain's MainNet has been live since May 2020, and its network benefits from Bitcoin's strong security and high hashing power. Additionally, DeFiChain offers low fees and fast transaction speeds due to its use of the Proof of Stake algorithm.
+DFI is DeFiChain's native coin, much like ETH for Ethereum and BTC for Bitcoin. A native coin is the primary currency used for blockchain transactions, while tokens are considered non-native coins.
 
-Overall, DeFiChain combines the security and power of Bitcoin with the scalability of Proof of Stake, enabling efficient and cost-effective transactions in the DeFi space.
+DeFiChain also supports decentralized tokens, or non-native coins that represent real-world assets, such as stocks with 150% collateral backing and cryptocurrencies with 100% asset backing. These tokens function similarly to transacting traditional assets like real estate and commodities.
 
-## TEMPORARY FROM OTHER PAGES
+## Connection to Bitcoin Blockchain
 
-### A Short Introduction {#a-short-introduction}
+DeFiChain builds on the Bitcoin blockchain for safety and security, using a fork of Bitcoin's code to leverage its strong security features from a code perspective.
 
-DeFiChain has been designed specifically for decentralized finance, and it has its own blockchain. To make our blockchain stronger, it is connected, in a way, to the Bitcoin blockchain for extra security and safety, as Bitcoin has the oldest and arguably the most secure existing blockchain.
+## Technical Specifications
 
-The main coin of DeFiChain is DFI,
+DeFiChain's MainNet went live in May 2020, using the PoS algorithm to offer low fees and fast transaction speeds for efficient DeFi applications.
 
-DFI is the native coin of the blockchain. A native coin is basically the currency of the blockchain. To make some examples, ETH is Ethereum's native coin, and BTC is Bitcoin's native coin. An example of a non-native coin (which is called a token) is SHIB on the Ethereum blockchain. Just to clarify, SHIB is a token. Anything that is not native to a blockchain is a token. All transactions on the blockchain are powered by native coins. So, users must have DFI for transaction fees on DeFiChain, swapping between coins, and more. It can be compared to the euro in the E.U., peso in Mexico, or U.S. dollar in the U.S.; people must have it to interact with the economy.
+The platform's native coin, DFI, was distributed via staking rather than an initial coin offering (ICO), with the price determined by supply and demand.
 
-Here on DeFiChain, we also have non-native coins. We have decentralized tokens (non-native coins) that represent real stocks, 150% backed by people providing collateral, and tokens that represent real crypto and are 100% backed by the real asset. These tokens are like sending around assets in the real world. In the U.S. you pay dollars as fees/commissions for sending things around like real estate, stocks, etc, and that is how it is like in DeFiChain. The goal of our community is to make a world of decentralized finance, where everyone can interact with each other without having middlemen such as companies and organizations.
+## Conclusion
 
-There will be more information about the non-native tokens on DeFiChain in the section titled "The DeFiChain Ecosystem."
-
-Other questions/topics that might not be answered in this tutorial may be answered in the following tutorials, but if they are not, here are the official groups/social media of DeFiChain to ask questions and get answers. Please note: **Scammers are always present in these groups looking to steal money and personal information. Direct messages should be ignored and blocked. Community mods/admins/support will never start a conversation. Legitimacy concerns can be verified in the official groups if necessary.**
-
-- Telegram: <https://t.me/defiblockchain> (English)
-- Reddit: <https://www.reddit.com/r/defiblockchain/>
-- Twitter: <https://twitter.com/defichain>
-- Check the official DeFiChain website, [defichain.com](https://defichain.com/), for more information.
+DeFiChain aims to establish a world of decentralized finance where users can interact without traditional financial institutions. By providing various DeFi services, the platform empowers individuals to manage their finances independently, while enjoying the security, speed, and accessibility that DeFiChain offers.
