@@ -1,0 +1,13 @@
+Please improve/extend this text:
+
+```
+{{BaseText}}
+```
+
+With information from this text:
+
+```
+{{ImproveWith}}
+```
+
+Write in the style which is appropriate for a Wiki. Keep it simple and straight to the point. It should be easy to read.
