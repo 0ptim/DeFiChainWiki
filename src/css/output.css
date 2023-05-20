@@ -171,6 +171,14 @@
   margin-bottom: 0.5rem;
 }
 
+.mr-10 {
+  margin-right: 2.5rem;
+}
+
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
@@ -187,8 +195,8 @@
   height: 1.5rem;
 }
 
-.h-80 {
-  height: 20rem;
+.h-96 {
+  height: 24rem;
 }
 
 .w-10 {
@@ -209,6 +217,10 @@
 
 .max-w-2xl {
   max-width: 42rem;
+}
+
+.max-w-md {
+  max-width: 28rem;
 }
 
 .grow {
@@ -241,8 +253,8 @@
   justify-content: center;
 }
 
-.gap-1 {
-  gap: 0.25rem;
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .gap-3 {
@@ -353,6 +365,10 @@
   padding-bottom: 1rem;
 }
 
+.pr-1 {
+  padding-right: 0.25rem;
+}
+
 .pr-11 {
   padding-right: 2.75rem;
 }
@@ -380,13 +396,14 @@
   font-weight: 700;
 }
 
-.italic {
-  font-style: italic;
-}
-
 .text-gray-600 {
   --tw-text-opacity: 1;
   color: rgb(88 91 93 / var(--tw-text-opacity));
+}
+
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(61 63 64 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -443,6 +460,30 @@
   background: linear-gradient(200deg, #fc1dae 21.58%, #00f6ff 103.79%);
   border-width: 0;
   color: var(--ifm-color-white) !important;
+}
+
+.chatbubble_user {
+  background: linear-gradient(90deg, #ededee -20%, #00f6ff 300%);
+}
+
+.chatbubble_jelly {
+  background: linear-gradient(270deg, #ededee -20%, #fc1dae 300%);
+}
+
+.chatbubble_tool {
+  background: linear-gradient(270deg, #ededee -20%, #b0b4b7 300%);
+}
+
+[data-theme="dark"] .chatbubble_user {
+  background: linear-gradient(90deg, #212223 -20%, #00f6ff 300%);
+}
+
+[data-theme="dark"] .chatbubble_jelly {
+  background: linear-gradient(270deg, #212223 -20%, #fc1dae 300%);
+}
+
+[data-theme="dark"] .chatbubble_tool {
+  background: linear-gradient(90deg, #212223 -20%, #3b3d3f 300%);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -629,6 +670,11 @@ article a[href*="//"]:not([href*="defichainwiki.com"])::after
 [data-theme="dark"] .dark\:text-gray-200 {
   --tw-text-opacity: 1;
   color: rgb(177 180 182 / var(--tw-text-opacity));
+}
+
+[data-theme="dark"] .dark\:text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(156 160 162 / var(--tw-text-opacity));
 }
 
 [data-theme="dark"] .dark\:text-gray-800 {

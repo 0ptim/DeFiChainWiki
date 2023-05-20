@@ -2,10 +2,9 @@ import React, { useState, useEffect, useRef } from "react";
 import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import Translate, { translate } from "@docusaurus/Translate";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faThumbsUp, faThumbsDown } from "@fortawesome/free-solid-svg-icons";
 import { v4 as uuidv4 } from "uuid";
 import io from "socket.io-client";
+import ChatWindow from "../../components/ChatWindow";
 
 const socket = io("https://jellychat.fly.dev");
 
@@ -100,7 +99,7 @@ export default function JellyChat() {
             <Translate>JellyChat.Instruction</Translate>
           </p>
 
-          <div className="flex h-80 w-full flex-col gap-1 overflow-auto">
+          <ChatWindow messagesLength={messages.length}>
             {messages.map((message, index) => (
               <Message key={index} message={message} />
             ))}
@@ -109,7 +108,7 @@ export default function JellyChat() {
                 <p className="mb-0 animate-pulse text-lg">...</p>
               </div>
             )}
-          </div>
+          </ChatWindow>
 
           <Input
             setError={setError}
@@ -172,19 +171,21 @@ function Message({ message }) {
   return (
     <>
       {source === "human" && (
-        <div className="self-end rounded-lg border-0 bg-gray-50 py-4 px-4 shadow-md outline-none dark:bg-gray-800">
+        <div className="chatbubble_user max-w-md self-end rounded-lg border-0 bg-gray-50 py-4 px-4 shadow-md outline-none dark:bg-gray-800">
           <p className="mb-0 text-lg">{text}</p>
         </div>
       )}
 
       {source === "tool" && (
-        <div className="self-start rounded-lg border-0 bg-gray-50 py-2 px-4 shadow-md outline-none dark:bg-gray-800">
-          <p className="text-md mb-0 italic">*{text}*</p>
+        <div className="chatbubble_tool self-start rounded-lg border-0 bg-gray-50 py-2 px-4 shadow-md outline-none dark:bg-gray-800">
+          <p className="text-md mb-0 text-gray-700 dark:text-gray-300">
+            *{text}*
+          </p>
         </div>
       )}
 
       {source === "jelly" && (
-        <div className="self-start rounded-lg border-0 bg-gray-50 py-4 px-4 shadow-md outline-none dark:bg-gray-800">
+        <div className="chatbubble_jelly mr-10 self-start rounded-lg border-0 bg-gray-50 py-4 px-4 shadow-md outline-none dark:bg-gray-800">
           <p className="mb-0 text-lg">{text}</p>
         </div>
       )}
