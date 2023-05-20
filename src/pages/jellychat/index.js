@@ -38,8 +38,8 @@ export default function JellyChat() {
       setMessages((prevAnswers) => [
         ...prevAnswers,
         {
-          text: data.tool_name,
           source: "tool",
+          text: data.tool_name,
         },
       ]);
     });
@@ -50,8 +50,8 @@ export default function JellyChat() {
       setMessages((prevAnswers) => [
         ...prevAnswers,
         {
-          text: data.message,
           source: "jelly",
+          text: data.message,
         },
       ]);
       setLoading(false);
@@ -72,8 +72,8 @@ export default function JellyChat() {
     setMessages((prevAnswers) => [
       ...prevAnswers,
       {
-        text: userInput,
         source: "human",
+        text: userInput,
       },
     ]);
 
@@ -81,7 +81,7 @@ export default function JellyChat() {
     setuserInput("");
 
     try {
-      socket.emit("user_input", userInput, userToken);
+      socket.emit("user_input", userToken, userInput);
     } catch (error) {
       console.error(error);
     }
