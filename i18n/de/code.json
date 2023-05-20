@@ -50,17 +50,5 @@
   "JellyChat.Button": {
     "message": "Senden",
     "description": "Senden Button auf der Jelly Chat Seite."
-  },
-  "JellyChat.HelpImprove1": {
-    "message": "Bitte hilf, diese Antwort zu verbessern. Klicke ",
-    "description": "Der erste Teil der Hilfe verbessert den Text."
-  },
-  "JellyChat.HelpImprove2": {
-    "message": "hier",
-    "description": "Der zweite Teil der Hilfe verbessert den Text."
-  },
-  "JellyChat.HelpImprove3": {
-    "message": ", um mehr zu erfahren.",
-    "description": "Der dritte Teil der Hilfe verbessert den Text."
   }
 }

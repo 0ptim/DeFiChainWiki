@@ -5,14 +5,15 @@ import Translate, { translate } from "@docusaurus/Translate";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faThumbsUp, faThumbsDown } from "@fortawesome/free-solid-svg-icons";
 import { v4 as uuidv4 } from "uuid";
+import io from "socket.io-client";
+
+const socket = io("https://jellychat.fly.dev");
 
 export default function JellyChat() {
-  const [question, setQuestion] = useState("");
-  const [answer, setAnswer] = useState("");
+  const [userInput, setuserInput] = useState("");
+  const [messages, setMessages] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
-  const [currentId, setCurrentId] = useState(0);
-  const [selectedRating, setSelectedRating] = useState(null);
   const [userToken, setUserToken] = useState(null);
 
   const inputRef = useRef(null);
@@ -29,71 +30,96 @@ export default function JellyChat() {
     }
   }, []);
 
+  // Socket connection
+  useEffect(() => {
+    // Handle tool selection from jelly
+    socket.on("tool_start", (data) => {
+      console.log("Tool start: ", data.tool_name);
+      setMessages((prevAnswers) => [
+        ...prevAnswers,
+        {
+          text: data.tool_name,
+          source: "tool",
+        },
+      ]);
+    });
+
+    // Handle jelly's final message
+    socket.on("final_message", (data) => {
+      console.log("Final message: ", data.message);
+      setMessages((prevAnswers) => [
+        ...prevAnswers,
+        {
+          text: data.message,
+          source: "jelly",
+        },
+      ]);
+      setLoading(false);
+    });
+
+    return () => {
+      socket.disconnect();
+    };
+  }, []);
+
   const handleSubmit = async () => {
-    if (!question) {
+    if (!userInput) {
       setError(true);
       return;
     }
 
+    // Add user's input to the list of messages
+    setMessages((prevAnswers) => [
+      ...prevAnswers,
+      {
+        text: userInput,
+        source: "human",
+      },
+    ]);
+
     setLoading(true);
-    setAnswer("");
-    setSelectedRating(null);
-    setCurrentId(0);
+    setuserInput("");
 
     try {
-      const response = await fetch("https://jellychat.fly.dev/ask", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ question, user_token: userToken }),
-      });
-      const data = await response.json();
-      setAnswer(data.response);
-      setCurrentId(data.id);
+      socket.emit("user_input", userInput, userToken);
     } catch (error) {
       console.error(error);
-    } finally {
-      setLoading(false);
     }
   };
 
   return (
     <Layout description="Ask questions about DeFiChain which JellyChat will answer for you.">
       <div className="transition-color mapBackground flex items-center justify-center bg-cover bg-center bg-no-repeat py-16 md:py-28">
-        <div className="relative flex max-w-2xl grow flex-col items-center rounded-3xl bg-white p-6 shadow-2xl dark:bg-backgroundDark md:p-10">
+        <div className="relative flex max-w-2xl grow flex-col items-center gap-3 rounded-3xl bg-white p-6 shadow-2xl dark:bg-backgroundDark md:p-10">
           <BetaFlag />
           <DocsLink />
-          <h1>
+          <h1 className="mb-1">
             <Translate>JellyChat.Title</Translate>
           </h1>
-          <p className="text-center text-gray-600 dark:text-gray-200">
+          <p className="mb-2 text-center text-gray-600 dark:text-gray-200">
             <Translate>JellyChat.Instruction</Translate>
           </p>
+
+          <div className="flex h-80 w-full flex-col gap-1 overflow-auto">
+            {messages.map((message, index) => (
+              <Message key={index} message={message} />
+            ))}
+            {loading && (
+              <div className="self-start rounded-lg bg-gray-50 px-4 shadow-md outline-none dark:bg-gray-800">
+                <p className="mb-0 animate-pulse text-lg">...</p>
+              </div>
+            )}
+          </div>
+
           <Input
             setError={setError}
             error={error}
             onSubmit={handleSubmit}
-            question={question}
-            setQuestion={setQuestion}
+            question={userInput}
+            setQuestion={setuserInput}
             inputRef={inputRef}
           />
           <SendButton disabled={loading} onSubmit={handleSubmit} />
-          <Answer
-            answer={answer}
-            loading={loading}
-            currentId={currentId}
-            selectedRating={selectedRating}
-            ratingSelected={(rating) => setSelectedRating(rating)}
-          />
-          <Rating
-            selectedRating={selectedRating}
-            currentId={currentId}
-            setSelectedRating={setSelectedRating}
-          />
-          {currentId !== 0 && (
-            <p className="absolute bottom-2 m-auto my-0 text-sm text-gray-700">
-              Question: {currentId}
-            </p>
-          )}
         </div>
       </div>
     </Layout>
@@ -140,87 +166,36 @@ function Input({ error, onSubmit, question, setQuestion, inputRef, setError }) {
   );
 }
 
-function Rating({ selectedRating, currentId, setSelectedRating }) {
-  const handleRating = async (rating) => {
-    if (currentId === 0) return;
-
-    try {
-      const response = await fetch("https://jellychat.fly.dev/rate", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ id: currentId, rating: rating }),
-      });
-
-      if (response.status === 200) {
-        setSelectedRating(rating);
-      }
-    } catch (error) {
-      console.error(error);
-    }
-  };
+function Message({ message }) {
+  const { text, source } = message;
 
   return (
-    <div className="w-full">
-      <div className="mt-2 flex gap-2">
-        <div
-          className={`flex grow items-center justify-center rounded-t-sm rounded-br-sm rounded-bl-lg bg-gray-50 py-4 text-2xl transition-colors dark:bg-gray-800 
-    ${selectedRating === 0 ? "text-secondary-600" : ""}
-    ${
-      currentId === 0
-        ? "text-gray-300"
-        : "cursor-pointer shadow-lg hover:bg-gray-100 dark:hover:bg-gray-900"
-    }`}
-          onClick={() => handleRating(0)}
-        >
-          <FontAwesomeIcon icon={faThumbsDown} />
+    <>
+      {source === "human" && (
+        <div className="self-end rounded-lg border-0 bg-gray-50 py-4 px-4 shadow-md outline-none dark:bg-gray-800">
+          <p className="mb-0 text-lg">{text}</p>
         </div>
-        <div
-          className={`flex grow items-center justify-center rounded-t-sm rounded-bl-sm rounded-br-lg bg-gray-50 py-4 text-2xl transition-colors dark:bg-gray-800
-    ${selectedRating === 1 ? "text-main-600" : ""}
-    ${
-      currentId === 0
-        ? "text-gray-300"
-        : "cursor-pointer shadow-lg hover:bg-gray-100 dark:hover:bg-gray-900"
-    }`}
-          onClick={() => handleRating(1)}
-        >
-          <FontAwesomeIcon icon={faThumbsUp} />
-        </div>
-      </div>
-      {selectedRating === 0 && (
-        <p className="mt-2 -mb-2 text-center text-lg">
-          <Translate>JellyChat.HelpImprove1</Translate>
-          <Link href="/docs/auto/JellyChat#how-can-i-help">
-            <Translate>JellyChat.HelpImprove2</Translate>
-          </Link>
-          <Translate>JellyChat.HelpImprove3</Translate>
-        </p>
       )}
-    </div>
-  );
-}
 
-function Answer({ answer, loading }) {
-  return (
-    <div className="w-full">
-      <div className="h-48 overflow-auto rounded-t-lg rounded-b-sm border-0 bg-gray-50 p-5 shadow-md outline-none dark:bg-gray-800">
-        {!loading && <p className="text-lg">{answer}</p>}
-        {loading && (
-          <div>
-            <div className="mb-2 h-4 w-64 animate-pulse rounded-md bg-gray-100 dark:bg-gray-700"></div>
-            <div className="mb-2 h-4 w-40 animate-pulse rounded-md bg-gray-100 dark:bg-gray-700"></div>
-            <div className="mb-2 h-4 w-48 animate-pulse rounded-md bg-gray-100 dark:bg-gray-700"></div>
-          </div>
-        )}
-      </div>
-    </div>
+      {source === "tool" && (
+        <div className="self-start rounded-lg border-0 bg-gray-50 py-2 px-4 shadow-md outline-none dark:bg-gray-800">
+          <p className="text-md mb-0 italic">*{text}*</p>
+        </div>
+      )}
+
+      {source === "jelly" && (
+        <div className="self-start rounded-lg border-0 bg-gray-50 py-4 px-4 shadow-md outline-none dark:bg-gray-800">
+          <p className="mb-0 text-lg">{text}</p>
+        </div>
+      )}
+    </>
   );
 }
 
 function SendButton({ disabled, onSubmit }) {
   return (
     <button
-      className="sendButton my-3 w-full cursor-pointer rounded-lg border-none p-4 text-lg text-white outline-none"
+      className="sendButton w-full cursor-pointer rounded-lg border-none p-4 text-lg text-white outline-none"
       onClick={onSubmit}
       disabled={disabled}
     >
