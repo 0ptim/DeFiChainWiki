@@ -40,7 +40,7 @@
     "description": "Title of the Jelly Chat page."
   },
   "JellyChat.Instruction": {
-    "message": "Ask any question about DeFiChain.",
+    "message": "Your AI assistant for everything around DeFiChain.",
     "description": "Instruction for the Jelly Chat page."
   },
   "JellyChat.Placeholder": {

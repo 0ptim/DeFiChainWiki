@@ -95,7 +95,7 @@ export default function JellyChat() {
           <h1 className="mb-1">
             <Translate>JellyChat.Title</Translate>
           </h1>
-          <p className="mb-2 text-center text-gray-600 dark:text-gray-200">
+          <p className="mx-8 mb-2 text-center text-gray-600 dark:text-gray-200">
             <Translate>JellyChat.Instruction</Translate>
           </p>
 
