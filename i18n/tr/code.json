@@ -40,7 +40,7 @@
     "description": "Jelly Chat sayfasının başlığı."
   },
   "JellyChat.Instruction": {
-    "message": "DeFiChain hakkında soru sorunuz.",
+    "message": "DeFiChain etrafındaki her şey için yapay zeka asistanınız.",
     "description": "Jelly Chat sayfasındaki talimatlar."
   },
   "JellyChat.Placeholder": {
@@ -50,17 +50,5 @@
   "JellyChat.Button": {
     "message": "Gönder",
     "description": "Jelly Chat sayfası için gönder düğmesi."
-  },
-  "JellyChat.HelpImprove1": {
-    "message": "Lütfen bu cevabı geliştirmeye yardımcı olun. Daha fazlasını okumak için ",
-    "description": "Yardımın ilk kısmı metni geliştirir."
-  },
-  "JellyChat.HelpImprove2": {
-    "message": "buraya",
-    "description": "Yardımın ikinci kısmı metni geliştirir."
-  },
-  "JellyChat.HelpImprove3": {
-    "message": " tıklayın.",
-    "description": "Yardımın üçüncü bölümü metni geliştirir."
   }
 }
