@@ -31,6 +31,30 @@
   color: var(--ifm-color-white) !important;
 }
 
+.chatbubble_user {
+  background: linear-gradient(90deg, #ededee -20%, #00f6ff 300%);
+}
+
+.chatbubble_jelly {
+  background: linear-gradient(270deg, #ededee -20%, #fc1dae 300%);
+}
+
+.chatbubble_tool {
+  background: linear-gradient(270deg, #ededee -20%, #b0b4b7 300%);
+}
+
+[data-theme="dark"] .chatbubble_user {
+  background: linear-gradient(90deg, #212223 -20%, #00f6ff 300%);
+}
+
+[data-theme="dark"] .chatbubble_jelly {
+  background: linear-gradient(270deg, #212223 -20%, #fc1dae 300%);
+}
+
+[data-theme="dark"] .chatbubble_tool {
+  background: linear-gradient(90deg, #212223 -20%, #3b3d3f 300%);
+}
+
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
   --ifm-background-color: #161616 !important;
