@@ -6,7 +6,8 @@ import { v4 as uuidv4 } from "uuid";
 import io from "socket.io-client";
 import ChatWindow from "../../components/ChatWindow";
 
-const socket = io("https://jellychat.fly.dev");
+const backendUrl = "https://jellychat.fly.dev";
+const socket = io(backendUrl);
 
 export default function JellyChat() {
   const [userInput, setuserInput] = useState("");
@@ -29,6 +30,33 @@ export default function JellyChat() {
     }
   }, []);
 
+  useEffect(() => {
+    if (!userToken) return; // Do nothing if userToken is empty
+
+    console.log("Fetching chat history...");
+    console.log("User token: ", userToken);
+
+    const fetchChatHistory = async () => {
+      try {
+        const response = await fetch(`${backendUrl}/history`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ user_token: userToken }),
+        });
+        const data = await response.json();
+
+        console.log("Chat history: ", data);
+        // Update your state with the fetched chat history
+        setMessages(data);
+      } catch (error) {
+        console.error("Failed to fetch chat history.", error);
+      }
+    };
+
+    // Call the fetchChatHistory function when the userToken is set
+    fetchChatHistory();
+  }, [userToken]); // Add userToken as dependency, so the useEffect runs whenever userToken updates
+
   // Socket connection
   useEffect(() => {
     // Handle tool selection from jelly
@@ -37,8 +65,8 @@ export default function JellyChat() {
       setMessages((prevAnswers) => [
         ...prevAnswers,
         {
-          source: "tool",
-          text: data.tool_name,
+          message_type: "tool",
+          content: data.tool_name,
         },
       ]);
     });
@@ -49,8 +77,8 @@ export default function JellyChat() {
       setMessages((prevAnswers) => [
         ...prevAnswers,
         {
-          source: "jelly",
-          text: data.message,
+          message_type: "jelly",
+          content: data.message,
         },
       ]);
       setLoading(false);
@@ -71,8 +99,8 @@ export default function JellyChat() {
     setMessages((prevAnswers) => [
       ...prevAnswers,
       {
-        source: "human",
-        text: userInput,
+        message_type: "human",
+        content: userInput,
       },
     ]);
 
@@ -166,27 +194,27 @@ function Input({ error, onSubmit, question, setQuestion, inputRef, setError }) {
 }
 
 function Message({ message }) {
-  const { text, source } = message;
+  const { content, message_type } = message;
 
   return (
     <>
-      {source === "human" && (
+      {message_type === "human" && (
         <div className="chatbubble_user max-w-md self-end rounded-lg border-0 bg-gray-50 py-4 px-4 shadow-md outline-none dark:bg-gray-800">
-          <p className="mb-0 text-lg">{text}</p>
+          <p className="mb-0 text-lg">{content}</p>
         </div>
       )}
 
-      {source === "tool" && (
+      {message_type === "tool" && (
         <div className="chatbubble_tool self-start rounded-lg border-0 bg-gray-50 py-2 px-4 shadow-md outline-none dark:bg-gray-800">
           <p className="text-md mb-0 text-gray-700 dark:text-gray-300">
-            *{text}*
+            *{content}*
           </p>
         </div>
       )}
 
-      {source === "jelly" && (
+      {message_type === "jelly" && (
         <div className="chatbubble_jelly mr-10 self-start rounded-lg border-0 bg-gray-50 py-4 px-4 shadow-md outline-none dark:bg-gray-800">
-          <p className="mb-0 text-lg">{text}</p>
+          <p className="mb-0 text-lg">{content}</p>
         </div>
       )}
     </>
