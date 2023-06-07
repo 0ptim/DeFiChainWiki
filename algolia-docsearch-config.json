@@ -5,17 +5,21 @@
   "sitemap_alternate_links": true,
   "selectors": {
     "lvl0": {
-      "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
+      "selector": "(//ul[contains(@class,'breadcrumbs')]//li[contains(@class,'breadcrumbs__item')]//span[contains(@class, 'breadcrumbs__link')])[1]",
       "type": "xpath",
-      "global": true,
-      "default_value": "Documentation"
+      "global": true
     },
-    "lvl1": "header h1",
-    "lvl2": "article h2",
-    "lvl3": "article h3",
-    "lvl4": "article h4",
-    "lvl5": "article h5, article td:first-child",
-    "lvl6": "article h6",
+    "lvl1": {
+      "selector": "(//ul[contains(@class,'breadcrumbs')]//li[contains(@class,'breadcrumbs__item')]//span[contains(@class, 'breadcrumbs__link')])[2]",
+      "type": "xpath",
+      "global": true
+    },
+    "lvl2": "article h1",
+    "lvl3": "article h2",
+    "lvl4": "article h3",
+    "lvl5": "article h4",
+    "lvl6": "article h5, article td:first-child",
+    "lvl7": "article h6",
     "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
