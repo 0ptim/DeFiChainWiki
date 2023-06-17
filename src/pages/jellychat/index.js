@@ -15,6 +15,7 @@ export default function JellyChat() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
   const [userToken, setUserToken] = useState(null);
+  const [loadHistory, setLoadHistory] = useState(false);
 
   const inputRef = useRef(null);
 
@@ -38,6 +39,7 @@ export default function JellyChat() {
 
     const fetchChatHistory = async () => {
       try {
+        setLoadHistory(true);
         const response = await fetch(`${backendUrl}/history`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -51,11 +53,12 @@ export default function JellyChat() {
       } catch (error) {
         console.error("Failed to fetch chat history.", error);
       }
+      setLoadHistory(false);
     };
 
     // Call the fetchChatHistory function when the userToken is set
     fetchChatHistory();
-  }, [userToken]); // Add userToken as dependency, so the useEffect runs whenever userToken updates
+  }, [userToken]);
 
   // Socket connection
   useEffect(() => {
@@ -136,6 +139,7 @@ export default function JellyChat() {
                 <p className="mb-0 animate-pulse text-lg">...</p>
               </div>
             )}
+            {loadHistory && <SkeletonPlaceholder></SkeletonPlaceholder>}
           </ChatWindow>
 
           <Input
@@ -247,5 +251,37 @@ function DocsLink() {
 function BetaFlag() {
   return (
     <div className="jellyChatBeta absolute top-0 left-0 h-32 w-32 drop-shadow-md"></div>
+  );
+}
+
+function SkeletonPlaceholder() {
+  return (
+    <>
+      <div className="chatbubble_user max-w-md animate-pulse self-end rounded-lg border-0 bg-gray-50 py-4 px-4 shadow-md outline-none dark:bg-gray-800">
+        <p className="text-md mb-0 text-transparent dark:text-transparent">
+          Hey, I'm Bob.
+        </p>
+      </div>
+      <div className="chatbubble_tool animate-pulse self-start rounded-lg border-0 bg-gray-50 py-2 px-4 shadow-md outline-none dark:bg-gray-800">
+        <p className="text-md mb-0 text-transparent dark:text-transparent">
+          This is a tool.
+        </p>
+      </div>
+      <div className="chatbubble_jelly animate-pulse self-start rounded-lg border-0 bg-gray-50 py-4 px-4 shadow-md outline-none dark:bg-gray-800">
+        <p className="text-md mb-0 text-transparent dark:text-transparent">
+          Hello Bob, I'm Jelly.
+        </p>
+      </div>
+      <div className="chatbubble_user max-w-md animate-pulse self-end rounded-lg border-0 bg-gray-50 py-4 px-4 shadow-md outline-none dark:bg-gray-800">
+        <p className="text-md mb-0 text-transparent dark:text-transparent">
+          Hey, I'm Bob. And you are Jelly.
+        </p>
+      </div>
+      <div className="chatbubble_jelly animate-pulse self-start rounded-lg border-0 bg-gray-50 py-4 px-4 shadow-md outline-none dark:bg-gray-800">
+        <p className="text-md mb-0 text-transparent dark:text-transparent">
+          True! True! True! True! True! True! True! True!
+        </p>
+      </div>
+    </>
   );
 }

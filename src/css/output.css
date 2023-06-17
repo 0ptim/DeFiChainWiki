@@ -407,6 +407,10 @@
   color: rgb(61 63 64 / var(--tw-text-opacity));
 }
 
+.text-transparent {
+  color: transparent;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -681,6 +685,10 @@ article a[href*="//"]:not([href*="defichainwiki.com"])::after
 [data-theme="dark"] .dark\:text-gray-800 {
   --tw-text-opacity: 1;
   color: rgb(33 34 35 / var(--tw-text-opacity));
+}
+
+[data-theme="dark"] .dark\:text-transparent {
+  color: transparent;
 }
 
 [data-theme="dark"] .dark\:hover\:border-main-700:hover {
