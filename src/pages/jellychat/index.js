@@ -16,6 +16,7 @@ export default function JellyChat() {
   const [error, setError] = useState(false);
   const [userToken, setUserToken] = useState(null);
   const [loadHistory, setLoadHistory] = useState(false);
+  const [loadHistoryError, setLoadHistoryError] = useState(false);
 
   const inputRef = useRef(null);
 
@@ -45,13 +46,22 @@ export default function JellyChat() {
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ user_token: userToken }),
         });
-        const data = await response.json();
 
-        console.log("Chat history: ", data);
-        // Update your state with the fetched chat history
-        setMessages(data);
+        if (!response.ok) {
+          console.error(
+            "Failed to fetch chat history. Status code: ",
+            response.status
+          );
+          setLoadHistoryError(true);
+        } else {
+          const data = await response.json();
+          console.log("Chat history: ", data);
+          // Update your state with the fetched chat history
+          setMessages(data);
+        }
       } catch (error) {
         console.error("Failed to fetch chat history.", error);
+        setLoadHistoryError(true);
       }
       setLoadHistory(false);
     };
@@ -131,6 +141,13 @@ export default function JellyChat() {
           </p>
 
           <ChatWindow messagesLength={messages.length}>
+            {loadHistoryError ? (
+              <ErrorBanner
+                onRetry={() => {
+                  window.location.reload();
+                }}
+              />
+            ) : null}
             {messages.map((message, index) => (
               <Message key={index} message={message} />
             ))}
@@ -283,5 +300,23 @@ function SkeletonPlaceholder() {
         </p>
       </div>
     </>
+  );
+}
+
+function ErrorBanner({ onRetry }) {
+  return (
+    <div className="flex grow flex-col items-center justify-center">
+      <div className="flex flex-col items-center rounded-md bg-slate-100 p-6 dark:bg-slate-600">
+        <p className="text-center text-lg">
+          <Translate>JellyChat.Error</Translate>
+        </p>
+        <button
+          className="cursor-pointer rounded-md border-none bg-slate-300 p-4 text-base transition-colors hover:bg-slate-400 dark:bg-slate-700 dark:hover:bg-slate-800"
+          onClick={onRetry}
+        >
+          <Translate>JellyChat.Retry</Translate>
+        </button>
+      </div>
+    </div>
   );
 }
