@@ -280,6 +280,14 @@
   overflow: auto;
 }
 
+.whitespace-pre-line {
+  white-space: pre-line;
+}
+
+.whitespace-pre-wrap {
+  white-space: pre-wrap;
+}
+
 .rounded-3xl {
   border-radius: 1.5rem;
 }

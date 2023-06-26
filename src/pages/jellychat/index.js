@@ -220,13 +220,13 @@ function Message({ message }) {
   return (
     <>
       {message_type === "human" && (
-        <div className="chatbubble_user max-w-md self-end rounded-lg border-0 bg-gray-50 py-4 px-4 shadow-md outline-none dark:bg-gray-800">
+        <div className="chatbubble_user max-w-md self-end whitespace-pre-line rounded-lg border-0 bg-gray-50 px-4 py-4 shadow-md outline-none dark:bg-gray-800">
           <p className="mb-0 text-lg">{content}</p>
         </div>
       )}
 
       {message_type === "tool" && (
-        <div className="chatbubble_tool self-start rounded-lg border-0 bg-gray-50 py-2 px-4 shadow-md outline-none dark:bg-gray-800">
+        <div className="chatbubble_tool max-w-md self-start whitespace-pre-line rounded-lg border-0 bg-gray-50 px-4 py-2 shadow-md outline-none dark:bg-gray-800">
           <p className="text-md mb-0 text-gray-700 dark:text-gray-300">
             *{content}*
           </p>
@@ -234,7 +234,7 @@ function Message({ message }) {
       )}
 
       {message_type === "jelly" && (
-        <div className="chatbubble_jelly mr-10 self-start rounded-lg border-0 bg-gray-50 py-4 px-4 shadow-md outline-none dark:bg-gray-800">
+        <div className="chatbubble_jelly max-w-md self-start whitespace-pre-line rounded-lg border-0 bg-gray-50 px-4 py-4 shadow-md outline-none dark:bg-gray-800">
           <p className="mb-0 text-lg">{content}</p>
         </div>
       )}
@@ -257,7 +257,7 @@ function SendButton({ disabled, onSubmit }) {
 function DocsLink() {
   return (
     <Link
-      className="absolute top-5 right-5 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-gray-50 font-bold shadow-md dark:bg-gray-800"
+      className="absolute right-5 top-5 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-gray-50 font-bold shadow-md dark:bg-gray-800"
       to="/docs/auto/JellyChat"
     >
       ?
@@ -267,34 +267,34 @@ function DocsLink() {
 
 function BetaFlag() {
   return (
-    <div className="jellyChatBeta absolute top-0 left-0 h-32 w-32 drop-shadow-md"></div>
+    <div className="jellyChatBeta absolute left-0 top-0 h-32 w-32 drop-shadow-md"></div>
   );
 }
 
 function SkeletonPlaceholder() {
   return (
     <>
-      <div className="chatbubble_user max-w-md animate-pulse self-end rounded-lg border-0 bg-gray-50 py-4 px-4 shadow-md outline-none dark:bg-gray-800">
+      <div className="chatbubble_user max-w-md animate-pulse self-end rounded-lg border-0 bg-gray-50 px-4 py-4 shadow-md outline-none dark:bg-gray-800">
         <p className="text-md mb-0 text-transparent dark:text-transparent">
           Hey, I'm Bob.
         </p>
       </div>
-      <div className="chatbubble_tool animate-pulse self-start rounded-lg border-0 bg-gray-50 py-2 px-4 shadow-md outline-none dark:bg-gray-800">
+      <div className="chatbubble_tool animate-pulse self-start rounded-lg border-0 bg-gray-50 px-4 py-2 shadow-md outline-none dark:bg-gray-800">
         <p className="text-md mb-0 text-transparent dark:text-transparent">
           This is a tool.
         </p>
       </div>
-      <div className="chatbubble_jelly animate-pulse self-start rounded-lg border-0 bg-gray-50 py-4 px-4 shadow-md outline-none dark:bg-gray-800">
+      <div className="chatbubble_jelly animate-pulse self-start rounded-lg border-0 bg-gray-50 px-4 py-4 shadow-md outline-none dark:bg-gray-800">
         <p className="text-md mb-0 text-transparent dark:text-transparent">
           Hello Bob, I'm Jelly.
         </p>
       </div>
-      <div className="chatbubble_user max-w-md animate-pulse self-end rounded-lg border-0 bg-gray-50 py-4 px-4 shadow-md outline-none dark:bg-gray-800">
+      <div className="chatbubble_user max-w-md animate-pulse self-end rounded-lg border-0 bg-gray-50 px-4 py-4 shadow-md outline-none dark:bg-gray-800">
         <p className="text-md mb-0 text-transparent dark:text-transparent">
           Hey, I'm Bob. And you are Jelly.
         </p>
       </div>
-      <div className="chatbubble_jelly animate-pulse self-start rounded-lg border-0 bg-gray-50 py-4 px-4 shadow-md outline-none dark:bg-gray-800">
+      <div className="chatbubble_jelly animate-pulse self-start rounded-lg border-0 bg-gray-50 px-4 py-4 shadow-md outline-none dark:bg-gray-800">
         <p className="text-md mb-0 text-transparent dark:text-transparent">
           True! True! True! True! True! True! True! True!
         </p>
