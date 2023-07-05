@@ -6,7 +6,8 @@ import { v4 as uuidv4 } from "uuid";
 import io from "socket.io-client";
 import ChatWindow from "../../components/ChatWindow";
 
-const socket = io("https://jellychat.fly.dev");
+const backendUrl = "https://jellychat.fly.dev";
+const socket = io(backendUrl);
 
 export default function JellyChat() {
   const [userInput, setuserInput] = useState("");
@@ -14,6 +15,8 @@ export default function JellyChat() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
   const [userToken, setUserToken] = useState(null);
+  const [loadHistory, setLoadHistory] = useState(false);
+  const [loadHistoryError, setLoadHistoryError] = useState(false);
 
   const inputRef = useRef(null);
 
@@ -29,6 +32,44 @@ export default function JellyChat() {
     }
   }, []);
 
+  useEffect(() => {
+    if (!userToken) return; // Do nothing if userToken is empty
+
+    console.log("Fetching chat history...");
+    console.log("User token: ", userToken);
+
+    const fetchChatHistory = async () => {
+      try {
+        setLoadHistory(true);
+        const response = await fetch(`${backendUrl}/history`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ user_token: userToken }),
+        });
+
+        if (!response.ok) {
+          console.error(
+            "Failed to fetch chat history. Status code: ",
+            response.status
+          );
+          setLoadHistoryError(true);
+        } else {
+          const data = await response.json();
+          console.log("Chat history: ", data);
+          // Update your state with the fetched chat history
+          setMessages(data);
+        }
+      } catch (error) {
+        console.error("Failed to fetch chat history.", error);
+        setLoadHistoryError(true);
+      }
+      setLoadHistory(false);
+    };
+
+    // Call the fetchChatHistory function when the userToken is set
+    fetchChatHistory();
+  }, [userToken]);
+
   // Socket connection
   useEffect(() => {
     // Handle tool selection from jelly
@@ -37,8 +78,8 @@ export default function JellyChat() {
       setMessages((prevAnswers) => [
         ...prevAnswers,
         {
-          source: "tool",
-          text: data.tool_name,
+          message_type: "tool",
+          content: data.tool_name,
         },
       ]);
     });
@@ -49,8 +90,8 @@ export default function JellyChat() {
       setMessages((prevAnswers) => [
         ...prevAnswers,
         {
-          source: "jelly",
-          text: data.message,
+          message_type: "jelly",
+          content: data.message,
         },
       ]);
       setLoading(false);
@@ -71,8 +112,8 @@ export default function JellyChat() {
     setMessages((prevAnswers) => [
       ...prevAnswers,
       {
-        source: "human",
-        text: userInput,
+        message_type: "human",
+        content: userInput,
       },
     ]);
 
@@ -100,6 +141,13 @@ export default function JellyChat() {
           </p>
 
           <ChatWindow messagesLength={messages.length}>
+            {loadHistoryError ? (
+              <ErrorBanner
+                onRetry={() => {
+                  window.location.reload();
+                }}
+              />
+            ) : null}
             {messages.map((message, index) => (
               <Message key={index} message={message} />
             ))}
@@ -108,6 +156,7 @@ export default function JellyChat() {
                 <p className="mb-0 animate-pulse text-lg">...</p>
               </div>
             )}
+            {loadHistory && <SkeletonPlaceholder></SkeletonPlaceholder>}
           </ChatWindow>
 
           <Input
@@ -166,27 +215,27 @@ function Input({ error, onSubmit, question, setQuestion, inputRef, setError }) {
 }
 
 function Message({ message }) {
-  const { text, source } = message;
+  const { content, message_type } = message;
 
   return (
     <>
-      {source === "human" && (
-        <div className="chatbubble_user max-w-md self-end rounded-lg border-0 bg-gray-50 py-4 px-4 shadow-md outline-none dark:bg-gray-800">
-          <p className="mb-0 text-lg">{text}</p>
+      {message_type === "human" && (
+        <div className="chatbubble_user max-w-md self-end whitespace-pre-line rounded-lg border-0 bg-gray-50 px-4 py-4 shadow-md outline-none dark:bg-gray-800">
+          <p className="mb-0 text-lg">{content}</p>
         </div>
       )}
 
-      {source === "tool" && (
-        <div className="chatbubble_tool self-start rounded-lg border-0 bg-gray-50 py-2 px-4 shadow-md outline-none dark:bg-gray-800">
+      {message_type === "tool" && (
+        <div className="chatbubble_tool max-w-md self-start whitespace-pre-line rounded-lg border-0 bg-gray-50 px-4 py-2 shadow-md outline-none dark:bg-gray-800">
           <p className="text-md mb-0 text-gray-700 dark:text-gray-300">
-            *{text}*
+            *{content}*
           </p>
         </div>
       )}
 
-      {source === "jelly" && (
-        <div className="chatbubble_jelly mr-10 self-start rounded-lg border-0 bg-gray-50 py-4 px-4 shadow-md outline-none dark:bg-gray-800">
-          <p className="mb-0 text-lg">{text}</p>
+      {message_type === "jelly" && (
+        <div className="chatbubble_jelly max-w-md self-start whitespace-pre-line rounded-lg border-0 bg-gray-50 px-4 py-4 shadow-md outline-none dark:bg-gray-800">
+          <p className="mb-0 text-lg">{content}</p>
         </div>
       )}
     </>
@@ -208,7 +257,7 @@ function SendButton({ disabled, onSubmit }) {
 function DocsLink() {
   return (
     <Link
-      className="absolute top-5 right-5 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-gray-50 font-bold shadow-md dark:bg-gray-800"
+      className="absolute right-5 top-5 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-gray-50 font-bold shadow-md dark:bg-gray-800"
       to="/docs/auto/JellyChat"
     >
       ?
@@ -218,6 +267,56 @@ function DocsLink() {
 
 function BetaFlag() {
   return (
-    <div className="jellyChatBeta absolute top-0 left-0 h-32 w-32 drop-shadow-md"></div>
+    <div className="jellyChatBeta absolute left-0 top-0 h-32 w-32 drop-shadow-md"></div>
+  );
+}
+
+function SkeletonPlaceholder() {
+  return (
+    <>
+      <div className="chatbubble_user max-w-md animate-pulse self-end rounded-lg border-0 bg-gray-50 px-4 py-4 shadow-md outline-none dark:bg-gray-800">
+        <p className="text-md mb-0 text-transparent dark:text-transparent">
+          Hey, I'm Bob.
+        </p>
+      </div>
+      <div className="chatbubble_tool animate-pulse self-start rounded-lg border-0 bg-gray-50 px-4 py-2 shadow-md outline-none dark:bg-gray-800">
+        <p className="text-md mb-0 text-transparent dark:text-transparent">
+          This is a tool.
+        </p>
+      </div>
+      <div className="chatbubble_jelly animate-pulse self-start rounded-lg border-0 bg-gray-50 px-4 py-4 shadow-md outline-none dark:bg-gray-800">
+        <p className="text-md mb-0 text-transparent dark:text-transparent">
+          Hello Bob, I'm Jelly.
+        </p>
+      </div>
+      <div className="chatbubble_user max-w-md animate-pulse self-end rounded-lg border-0 bg-gray-50 px-4 py-4 shadow-md outline-none dark:bg-gray-800">
+        <p className="text-md mb-0 text-transparent dark:text-transparent">
+          Hey, I'm Bob. And you are Jelly.
+        </p>
+      </div>
+      <div className="chatbubble_jelly animate-pulse self-start rounded-lg border-0 bg-gray-50 px-4 py-4 shadow-md outline-none dark:bg-gray-800">
+        <p className="text-md mb-0 text-transparent dark:text-transparent">
+          True! True! True! True! True! True! True! True!
+        </p>
+      </div>
+    </>
+  );
+}
+
+function ErrorBanner({ onRetry }) {
+  return (
+    <div className="flex grow flex-col items-center justify-center">
+      <div className="flex flex-col items-center rounded-md bg-slate-100 p-6 dark:bg-slate-600">
+        <p className="text-center text-lg">
+          <Translate>JellyChat.Error</Translate>
+        </p>
+        <button
+          className="cursor-pointer rounded-md border-none bg-slate-300 p-4 text-base transition-colors hover:bg-slate-400 dark:bg-slate-700 dark:hover:bg-slate-800"
+          onClick={onRetry}
+        >
+          <Translate>JellyChat.Retry</Translate>
+        </button>
+      </div>
+    </div>
   );
 }
