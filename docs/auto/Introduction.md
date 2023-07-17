@@ -3,8 +3,6 @@ title: Introduction
 description: Decentralized Finance allows to do all kind of financial services without a central party. DeFiChain was created be a perfect fit for DeFi.
 ---
 
-TEST
-
 ## Overview
 
 DeFiChain is a decentralized blockchain project created in 2019 by Uzyn Chua and Julian Hosp, who also co-founded CakeDeFi. Officially launched in 2020, DeFiChain is designed for decentralized finance (DeFi) services. Its main goal is to offer a secure, fast, and accessible infrastructure for various financial applications.
