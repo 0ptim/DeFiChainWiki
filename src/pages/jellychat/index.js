@@ -17,9 +17,11 @@ export default function JellyChat() {
   const [userToken, setUserToken] = useState(null);
   const [loadHistory, setLoadHistory] = useState(false);
   const [loadHistoryError, setLoadHistoryError] = useState(false);
+  const [newToken, setNewToken] = useState();
 
   const inputRef = useRef(null);
 
+  // User token generation
   useEffect(() => {
     const storedUserToken = localStorage.getItem("user_token");
 
@@ -32,6 +34,7 @@ export default function JellyChat() {
     }
   }, []);
 
+  // Fetch history
   useEffect(() => {
     if (!userToken) return; // Do nothing if userToken is empty
 
@@ -56,7 +59,6 @@ export default function JellyChat() {
         } else {
           const data = await response.json();
           console.log("Chat history: ", data);
-          // Update your state with the fetched chat history
           setMessages(data);
         }
       } catch (error) {
@@ -69,6 +71,50 @@ export default function JellyChat() {
     // Call the fetchChatHistory function when the userToken is set
     fetchChatHistory();
   }, [userToken]);
+
+  // Update the last jelly message whenever a new token is received
+  useEffect(() => {
+    // If we are loading
+    if (loading) {
+      // Stop loading because the final answer is being generated
+      setLoading(false);
+      // Add a new jelly message for the new tokens to be added to
+      setMessages((prevAnswers) => [
+        ...prevAnswers,
+        {
+          message_type: "jelly",
+          content: "",
+        },
+      ]);
+    }
+
+    setMessages((prevMessages) => {
+      // Copy existing messages
+      const newMessages = [...prevMessages];
+
+      // Find the index of last message of type "jelly"
+      const lastJellyMessageIndex = newMessages
+        .slice()
+        .reverse()
+        .findIndex((message) => message.message_type === "jelly");
+
+      // Skip if there is no jelly message
+      if (lastJellyMessageIndex === -1) return prevMessages;
+
+      const realIndex = newMessages.length - 1 - lastJellyMessageIndex;
+
+      // Create a new object for the jelly message where the content is modified
+      const updatedJellyMessage = {
+        ...newMessages[realIndex],
+        content: newMessages[realIndex].content + newToken.token,
+      };
+
+      // Replace the old jelly message with the updated jelly message
+      newMessages[realIndex] = updatedJellyMessage;
+
+      return newMessages;
+    });
+  }, [newToken]);
 
   // Socket connection
   useEffect(() => {
@@ -84,17 +130,9 @@ export default function JellyChat() {
       ]);
     });
 
-    // Handle jelly's final message
-    socket.on("final_message", (data) => {
-      console.log("Final message: ", data.message);
-      setMessages((prevAnswers) => [
-        ...prevAnswers,
-        {
-          message_type: "jelly",
-          content: data.message,
-        },
-      ]);
-      setLoading(false);
+    // Handle jelly's final answer token by token
+    socket.on("final_answer_token", (data) => {
+      setNewToken(() => data);
     });
 
     return () => {
@@ -140,7 +178,7 @@ export default function JellyChat() {
             <Translate>JellyChat.Instruction</Translate>
           </p>
 
-          <ChatWindow messagesLength={messages.length}>
+          <ChatWindow messagesLength={messages.length} tokens={newToken}>
             {loadHistoryError ? (
               <ErrorBanner
                 onRetry={() => {
