@@ -159,7 +159,7 @@ export default function JellyChat() {
     setuserInput("");
 
     try {
-      socket.emit("user_message", userToken, userInput);
+      socket.emit("user_message", userToken, userInput, "wiki");
     } catch (error) {
       console.error(error);
     }
