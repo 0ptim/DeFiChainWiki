@@ -21,7 +21,7 @@ export default function JellyChat() {
 
   const inputRef = useRef(null);
 
-  // User token generation
+  // User token generation.
   useEffect(() => {
     const storedUserToken = localStorage.getItem("user_token");
 
