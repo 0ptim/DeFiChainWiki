@@ -52,11 +52,11 @@
     "description": "Send button for the Jelly Chat page."
   },
   "JellyChat.Error": {
-    "message": "🔧 🐠 We're experiencing some turbulence in our underwater communication system. Our aquatic engineers are working hard to resolve the issue. Please be patient and check back soon to resume your conversation! 🐟 🌊",
+    "message": "🔧 We're experiencing some turbulence in our underwater communication system. Our aquatic engineers are working hard to resolve the issue. Please be patient and check back soon to resume your conversation! 🌊",
     "description": "Error message for the Jelly Chat page."
   },
   "JellyChat.Retry": {
-    "message": "🐋 Give it another whirl! 🐬",
+    "message": "Give it another whirl 🐬",
     "description": "Retry button for the Jelly Chat page."
   }
 }

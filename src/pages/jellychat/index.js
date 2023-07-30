@@ -16,7 +16,7 @@ export default function JellyChat() {
   const [error, setError] = useState(false);
   const [userToken, setUserToken] = useState(null);
   const [loadHistory, setLoadHistory] = useState(false);
-  const [loadHistoryError, setLoadHistoryError] = useState(false);
+  const [fatalError, setFatalError] = useState(false);
   const [newToken, setNewToken] = useState();
 
   const inputRef = useRef(null);
@@ -55,7 +55,7 @@ export default function JellyChat() {
             "Failed to fetch chat history. Status code: ",
             response.status
           );
-          setLoadHistoryError(true);
+          setFatalError(true);
         } else {
           const data = await response.json();
           console.log("Chat history: ", data);
@@ -63,7 +63,7 @@ export default function JellyChat() {
         }
       } catch (error) {
         console.error("Failed to fetch chat history.", error);
-        setLoadHistoryError(true);
+        setFatalError(true);
       }
       setLoadHistory(false);
     };
@@ -135,6 +135,12 @@ export default function JellyChat() {
       setNewToken(() => data);
     });
 
+    socket.on("error", (error) => {
+      console.error(error);
+      setFatalError(true);
+      setLoading(false);
+    });
+
     return () => {
       socket.disconnect();
     };
@@ -179,16 +185,19 @@ export default function JellyChat() {
           </p>
 
           <ChatWindow messagesLength={messages.length} tokens={newToken}>
-            {loadHistoryError ? (
+            {fatalError ? (
               <ErrorBanner
                 onRetry={() => {
                   window.location.reload();
                 }}
               />
-            ) : null}
-            {messages.map((message, index) => (
-              <Message key={index} message={message} />
-            ))}
+            ) : (
+              <>
+                {messages.map((message, index) => (
+                  <Message key={index} message={message} />
+                ))}
+              </>
+            )}
             {loading && (
               <div className="self-start rounded-lg bg-gray-50 px-4 shadow-md outline-none dark:bg-gray-800">
                 <p className="mb-0 animate-pulse text-lg">...</p>

@@ -52,11 +52,11 @@
     "description": "Jelly Chat sayfası için gönder düğmesi."
   },
   "JellyChat.Error": {
-    "message": "🔧 🐠 Sualtı iletişim sistemimizde bazı türbülanslar yaşıyoruz. Su mühendislerimiz sorunu çözmek için çok çalışıyorlar. Lütfen sabırlı olun ve konuşmanıza devam etmek için yakında tekrar kontrol edin! 🐟 🌊",
+    "message": "🔧 Sualtı iletişim sistemimizde bazı türbülanslar yaşıyoruz. Su mühendislerimiz sorunu çözmek için çok çalışıyorlar. Lütfen sabırlı olun ve konuşmanıza devam etmek için yakında tekrar kontrol edin! 🌊",
     "description": "Jelly Chat sayfası için hata mesajı"
   },
   "JellyChat.Retry": {
-    "message": "🐋 Bir kez daha dene! 🐬",
+    "message": "Bir kez daha dene 🐬",
     "description": "Jelly Chat sayfası için yeniden dene düğmesi"
   }
 }
