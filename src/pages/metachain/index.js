@@ -17,27 +17,45 @@ export default function Metachain() {
 
   return (
     <Layout description="Find projects on DeFi Meta Chain">
-      <div className="flex flex-col items-center justify-center gap-8 py-20">
-        <h1>
-          <Translate>Metachain.Title</Translate>
-        </h1>
-        <Input />
-      </div>
-      <div className="grid grid-cols-2 gap-10 px-8 pb-8 lg:grid-cols-3 xl:grid-cols-4">
-        {projects &&
-          projects.map((project) => (
-            <div className="cursor-pointer overflow-hidden rounded-md bg-slate-800 transition-transform ease-out hover:scale-105 hover:shadow-lg">
-              <img src={project.img} className="" />
-              <div className="flex flex-col p-6">
-                <h2 className="mb-1 text-xl">{project.name}</h2>
-                <p className="text-md m-0 text-slate-400">
-                  {project.description}
-                </p>
+      <div className="px-8">
+        <div className="flex flex-col items-center justify-center gap-8 py-20">
+          <h1>
+            <Translate>Metachain.Title</Translate>
+          </h1>
+          <Input />
+        </div>
+        <h2>Popular Projects</h2>
+        <div className="mb-10 flex gap-10 overflow-scroll p-4">
+          {projects &&
+            projects.map((project) => (
+              <div className="">
+                <ProjectCard key={project.id} project={project} />
               </div>
-            </div>
-          ))}
+            ))}
+        </div>
+        <h2>New Projects</h2>
+        <div className="mb-10 flex gap-10 overflow-scroll">
+          {projects &&
+            projects.map((project) => (
+              <div className="">
+                <ProjectCard key={project.id} project={project} />
+              </div>
+            ))}
+        </div>
       </div>
     </Layout>
+  );
+}
+
+function ProjectCard({ project }) {
+  return (
+    <div className="w-80 cursor-pointer overflow-hidden rounded-md bg-slate-800 transition-transform ease-out hover:scale-105 hover:shadow-lg">
+      <img src={project.img} className="" />
+      <div className="flex flex-col p-6">
+        <h2 className="mb-1 text-xl">{project.name}</h2>
+        <p className="text-md m-0 text-slate-400">{project.description}</p>
+      </div>
+    </div>
   );
 }
 
