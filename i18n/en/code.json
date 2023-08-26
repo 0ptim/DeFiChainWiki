@@ -58,5 +58,13 @@
   "JellyChat.Retry": {
     "message": "Give it another whirl 🐬",
     "description": "Retry button for the Jelly Chat page."
+  },
+  "Metachain.Title": {
+    "message": "DeFi-Metachain Universe",
+    "description": "Title of the Metachain page."
+  },
+  "Metachain.Placeholder": {
+    "message": "Search for a project...",
+    "description": "Input field placeholder for the Metachain page."
   }
 }
