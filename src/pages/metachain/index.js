@@ -25,7 +25,7 @@ export default function Metachain() {
             <Translate>Metachain.Title</Translate>
           </h1>
           <Input onSubmit={onSubmit} />
-          <div className="flex flex-wrap justify-center gap-2">
+          <div className="flex flex-wrap justify-center gap-2 px-4 md:px-8">
             {tags &&
               tags.map((tag) => (
                 <Tag
