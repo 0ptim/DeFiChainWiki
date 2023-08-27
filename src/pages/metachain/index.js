@@ -29,7 +29,7 @@ export default function Metachain() {
             {tags &&
               tags.map((tag) => (
                 <Tag
-                  key={tag.id}
+                  key={tag.name}
                   tag={tag.name}
                   active={activeTags.includes(tag.name)}
                   onClick={() => handleTagClick(tag.name)}
