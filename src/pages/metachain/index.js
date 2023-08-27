@@ -31,6 +31,10 @@ export default function Metachain() {
       });
   }, []);
 
+  useEffect(() => {
+    setActiveTags(tags.map((tag) => tag.name));
+  }, [tags]);
+
   onsubmit = (inputValue) => {
     setSearchInput(inputValue.toLowerCase());
 
@@ -47,11 +51,17 @@ export default function Metachain() {
 
   const handleTagClick = (tag) => {
     setActiveTags((prevTags) => {
-      if (prevTags.includes(tag)) {
-        // if the tag is currently active, remove it from activeTags array
-        return prevTags.filter((t) => t !== tag);
+      if (prevTags.length === tags.length && prevTags.includes(tag)) {
+        // If all tags are active and clicked tag is currently active
+        // So only this tag should stay active and all other tags should be inactive
+        return [tag];
+      } else if (prevTags.includes(tag)) {
+        // The clicked tag is currently active and not all tags are active,
+        // So we remove this tag from activeTags. If no tags are left active, we return all tags
+        const newTags = prevTags.filter((t) => t !== tag);
+        return newTags.length !== 0 ? newTags : tags.map((tag) => tag.name);
       } else {
-        // if the tag is not active, add it to activeTags array
+        // clicked tag is not currently active, so add it back to activeTags
         return [...prevTags, tag];
       }
     });
