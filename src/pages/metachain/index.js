@@ -41,7 +41,7 @@ export default function Metachain() {
         {searchInput || activeTags.length !== tags.length ? (
           <div>
             <h2>Search results</h2>
-            <div className="mb-10 flex flex-wrap gap-10">
+            <div className="mb-10 flex flex-wrap gap-10 p-3 pb-5">
               {filteredProjects &&
                 filteredProjects.map((project) => (
                   <div key={project.id}>
@@ -53,7 +53,7 @@ export default function Metachain() {
         ) : (
           <div>
             <h2>Our Favourites</h2>
-            <div className="mb-10 flex gap-10 overflow-scroll p-4">
+            <div className="mb-10 flex gap-10 overflow-scroll p-3 pb-5">
               {projects &&
                 [...projects]
                   .filter((project) => project.fav)
@@ -64,7 +64,7 @@ export default function Metachain() {
                   ))}
             </div>
             <h2>New Projects</h2>
-            <div className="mb-10 flex gap-10 overflow-scroll p-4">
+            <div className="mb-10 flex gap-10 overflow-scroll p-3 pb-5">
               {projects &&
                 [...projects]
                   .sort((a, b) => b.id - a.id)
@@ -76,7 +76,7 @@ export default function Metachain() {
                   ))}
             </div>
             <h2>All Projects (A-Z)</h2>
-            <div className="mb-10 flex flex-wrap justify-between gap-10">
+            <div className="mb-10 flex flex-wrap justify-between gap-10 p-3 pb-5">
               {projects &&
                 [...projects]
                   .sort((a, b) => a.name.localeCompare(b.name))
