@@ -1,34 +1,19 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import Translate from "@docusaurus/Translate";
 import Layout from "@theme/Layout";
-import Link from "@docusaurus/Link";
 import Tag from "../../components/Tag";
 import ProjectCard from "../../components/ProjectCard";
 import Input from "../../components/Input";
+import useFetchProjects from "../../hooks/useFetchProjects";
+import useFetchTags from "../../hooks/useFetchTags";
 
 export default function Metachain() {
-  const [projects, setProjects] = useState([]);
+  const { projects = [] } = useFetchProjects();
+  const { tags = [] } = useFetchTags();
+
   const [filteredProjects, setFilteredProjects] = useState([]);
   const [searchInput, setSearchInput] = useState("");
-  const [tags, setTags] = useState([]);
   const [activeTags, setActiveTags] = useState([]);
-
-  useEffect(() => {
-    fetch("/projects.json")
-      .then((response) => response.json())
-      .then((data) => {
-        setProjects(data.projects);
-        setFilteredProjects(data.projects);
-      });
-  }, []);
-
-  useEffect(() => {
-    fetch("/tags.json")
-      .then((response) => response.json())
-      .then((data) => {
-        setTags(data.tags);
-      });
-  }, []);
 
   useEffect(() => {
     setActiveTags(tags.map((tag) => tag.name));
