@@ -35,35 +35,42 @@ export default function Metachain() {
     setActiveTags(tags.map((tag) => tag.name));
   }, [tags]);
 
-  onsubmit = (inputValue) => {
-    setSearchInput(inputValue.toLowerCase());
+  const filterProjects = (inputValue) => {
+    const lowerCaseInputValue = inputValue.toLowerCase();
 
-    var result = projects.filter(
+    const result = projects.filter(
       (project) =>
-        project.name.toLowerCase().includes(searchInput) ||
-        project.description.toLowerCase().includes(searchInput) ||
-        project.x.toLowerCase().includes(searchInput) ||
-        project.website.toLowerCase().includes(searchInput)
+        project.tags.some((tag) => activeTags.includes(tag)) &&
+        (project.name.toLowerCase().includes(lowerCaseInputValue) ||
+          project.description.toLowerCase().includes(lowerCaseInputValue) ||
+          project.x.toLowerCase().includes(lowerCaseInputValue) ||
+          project.website.toLowerCase().includes(lowerCaseInputValue))
     );
 
     setFilteredProjects(result);
   };
 
+  const onsubmit = (inputValue) => {
+    setSearchInput(inputValue);
+    filterProjects(inputValue);
+  };
+
   const handleTagClick = (tag) => {
     setActiveTags((prevTags) => {
+      let newTags;
       if (prevTags.length === tags.length && prevTags.includes(tag)) {
-        // If all tags are active and clicked tag is currently active
-        // So only this tag should stay active and all other tags should be inactive
-        return [tag];
+        newTags = [tag];
       } else if (prevTags.includes(tag)) {
-        // The clicked tag is currently active and not all tags are active,
-        // So we remove this tag from activeTags. If no tags are left active, we return all tags
-        const newTags = prevTags.filter((t) => t !== tag);
-        return newTags.length !== 0 ? newTags : tags.map((tag) => tag.name);
+        newTags = prevTags.filter((t) => t !== tag);
+        if (newTags.length === 0) newTags = tags.map((tag) => tag.name);
       } else {
-        // clicked tag is not currently active, so add it back to activeTags
-        return [...prevTags, tag];
+        newTags = [...prevTags, tag];
       }
+
+      // After determining the new active tags array, filter the projects
+      filterProjects(searchInput);
+
+      return newTags;
     });
   };
 
