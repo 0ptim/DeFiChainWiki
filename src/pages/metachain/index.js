@@ -1,32 +1,21 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Translate from "@docusaurus/Translate";
 import Layout from "@theme/Layout";
 import Tag from "../../components/Tag";
 import ProjectCard from "../../components/ProjectCard";
 import Input from "../../components/Input";
-import useFetchProjects from "../../hooks/useFetchProjects";
-import useFetchTags from "../../hooks/useFetchTags";
-import { filterProjects } from "../../utils/filterProjects";
+import useProjects from "../../hooks/useProjects";
 
 export default function Metachain() {
-  const { projects = [] } = useFetchProjects();
-  const { tags = [] } = useFetchTags();
-  const [filteredProjects, setFilteredProjects] = useState([]);
-  const [searchInput, setSearchInput] = useState("");
-  const [activeTags, setActiveTags] = useState([]);
-
-  useEffect(() => {
-    setActiveTags(tags.map((tag) => tag.name));
-  }, [tags]);
-
-  const filter = (inputValue) => {
-    setFilteredProjects(filterProjects(projects, activeTags, inputValue));
-  };
-
-  const onsubmit = (inputValue) => {
-    setSearchInput(inputValue);
-    filter(inputValue);
-  };
+  const {
+    projects,
+    filteredProjects,
+    activeTags,
+    setActiveTags,
+    onSubmit,
+    tags,
+    searchInput,
+  } = useProjects();
 
   const handleTagClick = (tag) => {
     setActiveTags((prevTags) => {
@@ -39,14 +28,9 @@ export default function Metachain() {
       } else {
         newTags = [...prevTags, tag];
       }
-
       return newTags;
     });
   };
-
-  useEffect(() => {
-    filter(searchInput);
-  }, [activeTags]);
 
   return (
     <Layout description="Find projects on DeFi Meta Chain">
@@ -55,7 +39,7 @@ export default function Metachain() {
           <h1>
             <Translate>Metachain.Title</Translate>
           </h1>
-          <Input onSubmit={onsubmit} />
+          <Input onSubmit={onSubmit} />
           <div className="flex flex-wrap justify-center gap-2">
             {tags &&
               tags.map((tag, index) => (
