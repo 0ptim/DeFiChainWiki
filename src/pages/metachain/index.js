@@ -75,7 +75,7 @@ export default function Metachain() {
                 ))}
             </div>
             <h2>All Projects (A-Z)</h2>
-            <div className="mb-10 grid grid-cols-4 gap-10">
+            <div className="mb-10 grid grid-cols-1 gap-10 md:grid-cols-2  lg:grid-cols-3">
               {projects &&
                 [...projects]
                   .sort((a, b) => a.name.localeCompare(b.name))
@@ -92,6 +92,29 @@ export default function Metachain() {
   );
 }
 
+function Tag({ tag }) {
+  const [tags, setTags] = useState([]);
+
+  useEffect(() => {
+    fetch("/tags.json")
+      .then((response) => response.json())
+      .then((data) => {
+        setTags(data.tags);
+      });
+  }, []);
+
+  const getCurrentTag = tags.find((t) => t.name === tag);
+
+  return (
+    <div
+      className={`flex items-center justify-center rounded-full px-2 py-1 text-xs font-bold leading-none text-white ${
+        getCurrentTag?.tailwindColor || "bg-main-500"
+      }`}
+    >
+      {tag}
+    </div>
+  );
+}
 function ProjectCard({ project }) {
   return (
     <div className="w-80 cursor-pointer overflow-hidden rounded-md bg-slate-800 transition-transform ease-out hover:scale-105 hover:shadow-lg">
@@ -99,6 +122,11 @@ function ProjectCard({ project }) {
       <div className="flex flex-col p-6">
         <h2 className="mb-1 text-xl">{project.name}</h2>
         <p className="text-md m-0 text-slate-400">{project.description}</p>
+        <div className="mt-4 flex flex-wrap gap-2">
+          {project.tags.map((tag) => (
+            <Tag tag={tag} />
+          ))}
+        </div>
       </div>
     </div>
   );
