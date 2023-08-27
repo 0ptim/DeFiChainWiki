@@ -7,6 +7,7 @@ export default function Metachain() {
   const [projects, setProjects] = useState([]);
   const [filteredProjects, setFilteredProjects] = useState([]);
   const [searchInput, setSearchInput] = useState("");
+  const [tags, setTags] = useState([]);
 
   useEffect(() => {
     fetch("/projects.json")
@@ -15,6 +16,14 @@ export default function Metachain() {
         console.log(data);
         setProjects(data.projects);
         setFilteredProjects(data.projects);
+      });
+  }, []);
+
+  useEffect(() => {
+    fetch("/tags.json")
+      .then((response) => response.json())
+      .then((data) => {
+        setTags(data.tags);
       });
   }, []);
 
@@ -29,17 +38,21 @@ export default function Metachain() {
         project.website.toLowerCase().includes(searchInput)
     );
 
-    setFilteredProjects(result); // set the filtered data to filteredProjects
+    setFilteredProjects(result);
   };
 
   return (
     <Layout description="Find projects on DeFi Meta Chain">
       <div className="px-8">
-        <div className="flex flex-col items-center justify-center gap-8 py-20">
+        <div className="flex flex-col items-center justify-center gap-8 px-40 py-20">
           <h1>
             <Translate>Metachain.Title</Translate>
           </h1>
           <Input onSubmit={onsubmit} />
+          <div className="flex flex-wrap justify-center gap-2">
+            {tags &&
+              tags.map((tag, index) => <Tag key={index} tag={tag.name} />)}
+          </div>
         </div>
 
         {searchInput ? (
@@ -115,6 +128,7 @@ function Tag({ tag }) {
     </div>
   );
 }
+
 function ProjectCard({ project }) {
   return (
     <div className="w-80 cursor-pointer overflow-hidden rounded-md bg-slate-800 transition-transform ease-out hover:scale-105 hover:shadow-lg">
@@ -139,7 +153,7 @@ function Input({ onSubmit }) {
 
   return (
     <input
-      className={`w-4/5 rounded-lg border border-transparent bg-gray-50 p-5 pr-11 text-xl shadow-md outline-none hover:border-main-300 focus:border-main-700 dark:bg-gray-800  dark:hover:border-main-700 dark:focus:border-main-500`}
+      className={`w-full rounded-lg border border-transparent bg-gray-50 p-5 pr-11 text-xl shadow-md outline-none hover:border-main-300 focus:border-main-700 dark:bg-gray-800  dark:hover:border-main-700 dark:focus:border-main-500`}
       type="text"
       placeholder={translate({ message: "Metachain.Placeholder" })}
       onChange={(e) => {
