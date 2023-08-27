@@ -1,7 +1,7 @@
 import React from "react";
 import Tag from "../Tag";
 
-export default function ProjectCard({ project }) {
+export default function ProjectCard({ project, allTags }) {
   return (
     <div className="w-80 cursor-pointer overflow-hidden rounded-md bg-slate-200 transition-all ease-out hover:scale-105 hover:shadow-md dark:bg-slate-800">
       <img src={project.img} className="" />
@@ -12,7 +12,7 @@ export default function ProjectCard({ project }) {
         </p>
         <div className="mt-4 flex flex-wrap gap-2">
           {project.tags.map((tag) => (
-            <Tag tag={tag} key={tag} active={true} />
+            <Tag key={tag} tag={tag} allTags={allTags} active={true} />
           ))}
         </div>
       </div>

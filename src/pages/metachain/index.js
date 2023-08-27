@@ -31,6 +31,7 @@ export default function Metachain() {
                 <Tag
                   key={tag.name}
                   tag={tag.name}
+                  allTags={tags}
                   active={activeTags.includes(tag.name)}
                   onClick={() => handleTagClick(tag.name)}
                 />
@@ -45,7 +46,7 @@ export default function Metachain() {
               {filteredProjects &&
                 filteredProjects.map((project) => (
                   <div key={project.id}>
-                    <ProjectCard project={project} />
+                    <ProjectCard project={project} allTags={tags} />
                   </div>
                 ))}
             </div>
@@ -59,7 +60,11 @@ export default function Metachain() {
                   .filter((project) => project.fav)
                   .map((project) => (
                     <div key={project.id}>
-                      <ProjectCard key={project.id} project={project} />
+                      <ProjectCard
+                        key={project.id}
+                        project={project}
+                        allTags={tags}
+                      />
                     </div>
                   ))}
             </div>
@@ -71,7 +76,11 @@ export default function Metachain() {
                   .slice(0, 5)
                   .map((project) => (
                     <div key={project.id}>
-                      <ProjectCard key={project.id} project={project} />
+                      <ProjectCard
+                        key={project.id}
+                        project={project}
+                        allTags={tags}
+                      />
                     </div>
                   ))}
             </div>
@@ -82,7 +91,7 @@ export default function Metachain() {
                   .sort((a, b) => a.name.localeCompare(b.name))
                   .map((project) => (
                     <div key={project.id}>
-                      <ProjectCard project={project} />
+                      <ProjectCard project={project} allTags={tags} />
                     </div>
                   ))}
             </div>

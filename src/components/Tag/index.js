@@ -1,18 +1,7 @@
-import React, { useState, useEffect } from "react";
-import classNames from "classnames";
+import React from "react";
 
-export default function Tag({ tag, active, onClick }) {
-  const [tags, setTags] = useState([]);
-
-  useEffect(() => {
-    fetch("/tags.json")
-      .then((response) => response.json())
-      .then((data) => {
-        setTags(data.tags);
-      });
-  }, []);
-
-  const getCurrentTag = tags.find((t) => t.name === tag);
+export default function Tag({ tag, allTags, active, onClick }) {
+  const getCurrentTag = allTags.find((t) => t.name === tag);
 
   return (
     <div
