@@ -76,7 +76,7 @@ export default function Metachain() {
                   ))}
             </div>
             <h2>All Projects (A-Z)</h2>
-            <div className="mb-10 grid grid-cols-1 gap-10 md:grid-cols-2  lg:grid-cols-3">
+            <div className="mb-10 flex flex-wrap justify-between gap-10">
               {projects &&
                 [...projects]
                   .sort((a, b) => a.name.localeCompare(b.name))
