@@ -1,7 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
-import Translate, { translate } from "@docusaurus/Translate";
+import Translate from "@docusaurus/Translate";
 import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
+import Tag from "../../components/Tag";
+import ProjectCard from "../../components/ProjectCard";
+import Input from "../../components/Input";
 
 export default function Metachain() {
   const [projects, setProjects] = useState([]);
@@ -102,63 +105,5 @@ export default function Metachain() {
         )}
       </div>
     </Layout>
-  );
-}
-
-function Tag({ tag }) {
-  const [tags, setTags] = useState([]);
-
-  useEffect(() => {
-    fetch("/tags.json")
-      .then((response) => response.json())
-      .then((data) => {
-        setTags(data.tags);
-      });
-  }, []);
-
-  const getCurrentTag = tags.find((t) => t.name === tag);
-
-  return (
-    <div
-      className={`flex items-center justify-center rounded-full px-2 py-1 text-xs font-bold leading-none text-white ${
-        getCurrentTag?.tailwindColor || "bg-main-500"
-      }`}
-    >
-      {tag}
-    </div>
-  );
-}
-
-function ProjectCard({ project }) {
-  return (
-    <div className="w-80 cursor-pointer overflow-hidden rounded-md bg-slate-800 transition-transform ease-out hover:scale-105 hover:shadow-lg">
-      <img src={project.img} className="" />
-      <div className="flex flex-col p-6">
-        <h2 className="mb-1 text-xl">{project.name}</h2>
-        <p className="text-md m-0 text-slate-400">{project.description}</p>
-        <div className="mt-4 flex flex-wrap gap-2">
-          {project.tags.map((tag) => (
-            <Tag tag={tag} />
-          ))}
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function Input({ onSubmit }) {
-  const handleKeyDown = (e) => {
-    onSubmit(e.target.value);
-  };
-
-  return (
-    <input
-      className={`w-full rounded-lg border border-transparent bg-gray-50 p-5 pr-11 text-xl shadow-md outline-none hover:border-main-300 focus:border-main-700 dark:bg-gray-800  dark:hover:border-main-700 dark:focus:border-main-500`}
-      type="text"
-      placeholder={translate({ message: "Metachain.Placeholder" })}
-      onChange={(e) => {
-        handleKeyDown(e);
-      }}
-    />
   );
 }
