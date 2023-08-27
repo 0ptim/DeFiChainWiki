@@ -11,6 +11,7 @@ export default function Metachain() {
   const [filteredProjects, setFilteredProjects] = useState([]);
   const [searchInput, setSearchInput] = useState("");
   const [tags, setTags] = useState([]);
+  const [activeTags, setActiveTags] = useState([]);
 
   useEffect(() => {
     fetch("/projects.json")
@@ -44,6 +45,18 @@ export default function Metachain() {
     setFilteredProjects(result);
   };
 
+  const handleTagClick = (tag) => {
+    setActiveTags((prevTags) => {
+      if (prevTags.includes(tag)) {
+        // if the tag is currently active, remove it from activeTags array
+        return prevTags.filter((t) => t !== tag);
+      } else {
+        // if the tag is not active, add it to activeTags array
+        return [...prevTags, tag];
+      }
+    });
+  };
+
   return (
     <Layout description="Find projects on DeFi Meta Chain">
       <div className="px-8">
@@ -54,14 +67,21 @@ export default function Metachain() {
           <Input onSubmit={onsubmit} />
           <div className="flex flex-wrap justify-center gap-2">
             {tags &&
-              tags.map((tag, index) => <Tag key={index} tag={tag.name} />)}
+              tags.map((tag, index) => (
+                <Tag
+                  key={index}
+                  tag={tag.name}
+                  active={activeTags.includes(tag.name)}
+                  onClick={() => handleTagClick(tag.name)}
+                />
+              ))}
           </div>
         </div>
 
         {searchInput ? (
           <div>
             <h2>Search results</h2>
-            <div className="mb-10 flex gap-10 overflow-scroll p-4">
+            <div className="mb-10 grid grid-cols-1 gap-10 md:grid-cols-2  lg:grid-cols-3">
               {filteredProjects &&
                 filteredProjects.map((project) => (
                   <div key={project.id}>
@@ -82,7 +102,7 @@ export default function Metachain() {
                 ))}
             </div>
             <h2>New Projects</h2>
-            <div className="mb-10 flex gap-10 overflow-scroll">
+            <div className="mb-10 flex gap-10 overflow-scroll p-4">
               {projects &&
                 projects.map((project) => (
                   <div>

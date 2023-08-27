@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
+import classNames from "classnames";
 
-export default function Tag({ tag }) {
+export default function Tag({ tag, active, onClick }) {
   const [tags, setTags] = useState([]);
 
   useEffect(() => {
@@ -15,9 +16,10 @@ export default function Tag({ tag }) {
 
   return (
     <div
-      className={`flex items-center justify-center rounded-full px-2 py-1 text-xs font-bold leading-none text-white ${
-        getCurrentTag?.tailwindColor || "bg-main-500"
-      }`}
+      className={`flex cursor-pointer items-center justify-center rounded-full px-2 py-1 text-xs font-bold leading-none text-white ${
+        getCurrentTag?.tailwindColor
+      } ${active ? "" : "brightness-50"}`}
+      onClick={onClick}
     >
       {tag}
     </div>

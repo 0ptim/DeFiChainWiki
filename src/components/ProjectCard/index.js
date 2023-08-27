@@ -10,7 +10,7 @@ export default function ProjectCard({ project }) {
         <p className="text-md m-0 text-slate-400">{project.description}</p>
         <div className="mt-4 flex flex-wrap gap-2">
           {project.tags.map((tag) => (
-            <Tag tag={tag} />
+            <Tag tag={tag} active={true} />
           ))}
         </div>
       </div>
