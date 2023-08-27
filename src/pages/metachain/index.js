@@ -66,11 +66,14 @@ export default function Metachain() {
             <h2>New Projects</h2>
             <div className="mb-10 flex gap-10 overflow-scroll p-4">
               {projects &&
-                projects.map((project) => (
-                  <div key={project.id}>
-                    <ProjectCard key={project.id} project={project} />
-                  </div>
-                ))}
+                [...projects]
+                  .sort((a, b) => b.id - a.id)
+                  .slice(0, 5)
+                  .map((project) => (
+                    <div key={project.id}>
+                      <ProjectCard key={project.id} project={project} />
+                    </div>
+                  ))}
             </div>
             <h2>All Projects (A-Z)</h2>
             <div className="mb-10 grid grid-cols-1 gap-10 md:grid-cols-2  lg:grid-cols-3">
