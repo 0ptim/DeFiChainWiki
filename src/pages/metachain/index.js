@@ -42,9 +42,9 @@ export default function Metachain() {
           <Input onSubmit={onSubmit} />
           <div className="flex flex-wrap justify-center gap-2">
             {tags &&
-              tags.map((tag, index) => (
+              tags.map((tag) => (
                 <Tag
-                  key={index}
+                  key={tag.id}
                   tag={tag.name}
                   active={activeTags.includes(tag.name)}
                   onClick={() => handleTagClick(tag.name)}
@@ -71,7 +71,7 @@ export default function Metachain() {
             <div className="mb-10 flex gap-10 overflow-scroll p-4">
               {projects &&
                 projects.map((project) => (
-                  <div>
+                  <div key={project.id}>
                     <ProjectCard key={project.id} project={project} />
                   </div>
                 ))}
@@ -80,7 +80,7 @@ export default function Metachain() {
             <div className="mb-10 flex gap-10 overflow-scroll p-4">
               {projects &&
                 projects.map((project) => (
-                  <div>
+                  <div key={project.id}>
                     <ProjectCard key={project.id} project={project} />
                   </div>
                 ))}
