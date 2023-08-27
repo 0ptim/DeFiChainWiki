@@ -5,6 +5,8 @@ import Link from "@docusaurus/Link";
 
 export default function Metachain() {
   const [projects, setProjects] = useState([]);
+  const [filteredProjects, setFilteredProjects] = useState([]);
+  const [searchInput, setSearchInput] = useState("");
 
   useEffect(() => {
     fetch("/projects.json")
@@ -12,8 +14,23 @@ export default function Metachain() {
       .then((data) => {
         console.log(data);
         setProjects(data.projects);
+        setFilteredProjects(data.projects);
       });
   }, []);
+
+  onsubmit = (inputValue) => {
+    setSearchInput(inputValue.toLowerCase());
+
+    var result = projects.filter(
+      (project) =>
+        project.name.toLowerCase().includes(searchInput) ||
+        project.description.toLowerCase().includes(searchInput) ||
+        project.x.toLowerCase().includes(searchInput) ||
+        project.website.toLowerCase().includes(searchInput)
+    );
+
+    setFilteredProjects(result); // set the filtered data to filteredProjects
+  };
 
   return (
     <Layout description="Find projects on DeFi Meta Chain">
@@ -22,26 +39,54 @@ export default function Metachain() {
           <h1>
             <Translate>Metachain.Title</Translate>
           </h1>
-          <Input />
+          <Input onSubmit={onsubmit} />
         </div>
-        <h2>Popular Projects</h2>
-        <div className="mb-10 flex gap-10 overflow-scroll p-4">
-          {projects &&
-            projects.map((project) => (
-              <div className="">
-                <ProjectCard key={project.id} project={project} />
-              </div>
-            ))}
-        </div>
-        <h2>New Projects</h2>
-        <div className="mb-10 flex gap-10 overflow-scroll">
-          {projects &&
-            projects.map((project) => (
-              <div className="">
-                <ProjectCard key={project.id} project={project} />
-              </div>
-            ))}
-        </div>
+
+        {searchInput ? (
+          <div>
+            <h2>Search results</h2>
+            <div className="mb-10 flex gap-10 overflow-scroll p-4">
+              {filteredProjects &&
+                filteredProjects.map((project) => (
+                  <div key={project.id}>
+                    <ProjectCard project={project} />
+                  </div>
+                ))}
+            </div>
+          </div>
+        ) : (
+          <div>
+            <h2>Popular Projects</h2>
+            <div className="mb-10 flex gap-10 overflow-scroll p-4">
+              {projects &&
+                projects.map((project) => (
+                  <div>
+                    <ProjectCard key={project.id} project={project} />
+                  </div>
+                ))}
+            </div>
+            <h2>New Projects</h2>
+            <div className="mb-10 flex gap-10 overflow-scroll">
+              {projects &&
+                projects.map((project) => (
+                  <div>
+                    <ProjectCard key={project.id} project={project} />
+                  </div>
+                ))}
+            </div>
+            <h2>All Projects (A-Z)</h2>
+            <div className="mb-10 grid grid-cols-4 gap-10">
+              {projects &&
+                [...projects]
+                  .sort((a, b) => a.name.localeCompare(b.name))
+                  .map((project) => (
+                    <div key={project.id}>
+                      <ProjectCard project={project} />
+                    </div>
+                  ))}
+            </div>
+          </div>
+        )}
       </div>
     </Layout>
   );
@@ -60,9 +105,8 @@ function ProjectCard({ project }) {
 }
 
 function Input({ onSubmit }) {
-  const [inputValue, setinputValue] = useState("");
-  const handleKeyDown = (event) => {
-    onSubmit();
+  const handleKeyDown = (e) => {
+    onSubmit(e.target.value);
   };
 
   return (
@@ -70,12 +114,9 @@ function Input({ onSubmit }) {
       className={`w-4/5 rounded-lg border border-transparent bg-gray-50 p-5 pr-11 text-xl shadow-md outline-none hover:border-main-300 focus:border-main-700 dark:bg-gray-800  dark:hover:border-main-700 dark:focus:border-main-500`}
       type="text"
       placeholder={translate({ message: "Metachain.Placeholder" })}
-      value={inputValue}
       onChange={(e) => {
-        setinputValue(e.target.value);
-        setError(false);
+        handleKeyDown(e);
       }}
-      onKeyDown={handleKeyDown}
     />
   );
 }
