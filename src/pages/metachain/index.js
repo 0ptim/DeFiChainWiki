@@ -41,7 +41,7 @@ export default function Metachain() {
         {searchInput || activeTags.length !== tags.length ? (
           <div>
             <h2>Search results</h2>
-            <div className="mb-10 grid grid-cols-1 gap-10 md:grid-cols-2  lg:grid-cols-3">
+            <div className="mb-10 flex flex-wrap gap-10">
               {filteredProjects &&
                 filteredProjects.map((project) => (
                   <div key={project.id}>
