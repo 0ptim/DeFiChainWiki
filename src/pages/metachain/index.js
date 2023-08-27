@@ -6,11 +6,11 @@ import ProjectCard from "../../components/ProjectCard";
 import Input from "../../components/Input";
 import useFetchProjects from "../../hooks/useFetchProjects";
 import useFetchTags from "../../hooks/useFetchTags";
+import { filterProjects } from "../../utils/filterProjects";
 
 export default function Metachain() {
   const { projects = [] } = useFetchProjects();
   const { tags = [] } = useFetchTags();
-
   const [filteredProjects, setFilteredProjects] = useState([]);
   const [searchInput, setSearchInput] = useState("");
   const [activeTags, setActiveTags] = useState([]);
@@ -19,24 +19,13 @@ export default function Metachain() {
     setActiveTags(tags.map((tag) => tag.name));
   }, [tags]);
 
-  const filterProjects = (inputValue) => {
-    const lowerCaseInputValue = inputValue.toLowerCase();
-
-    const result = projects.filter(
-      (project) =>
-        project.tags.some((tag) => activeTags.includes(tag)) &&
-        (project.name.toLowerCase().includes(lowerCaseInputValue) ||
-          project.description.toLowerCase().includes(lowerCaseInputValue) ||
-          project.x.toLowerCase().includes(lowerCaseInputValue) ||
-          project.website.toLowerCase().includes(lowerCaseInputValue))
-    );
-
-    setFilteredProjects(result);
+  const filter = (inputValue) => {
+    setFilteredProjects(filterProjects(projects, activeTags, inputValue));
   };
 
   const onsubmit = (inputValue) => {
     setSearchInput(inputValue);
-    filterProjects(inputValue);
+    filter(inputValue);
   };
 
   const handleTagClick = (tag) => {
@@ -56,7 +45,7 @@ export default function Metachain() {
   };
 
   useEffect(() => {
-    filterProjects(searchInput);
+    filter(searchInput);
   }, [activeTags]);
 
   return (
