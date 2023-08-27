@@ -11,26 +11,11 @@ export default function Metachain() {
     projects,
     filteredProjects,
     activeTags,
-    setActiveTags,
     onSubmit,
+    handleTagClick,
     tags,
     searchInput,
   } = useProjects();
-
-  const handleTagClick = (tag) => {
-    setActiveTags((prevTags) => {
-      let newTags;
-      if (prevTags.length === tags.length && prevTags.includes(tag)) {
-        newTags = [tag];
-      } else if (prevTags.includes(tag)) {
-        newTags = prevTags.filter((t) => t !== tag);
-        if (newTags.length === 0) newTags = tags.map((tag) => tag.name);
-      } else {
-        newTags = [...prevTags, tag];
-      }
-      return newTags;
-    });
-  };
 
   return (
     <Layout description="Find projects on DeFi Meta Chain">

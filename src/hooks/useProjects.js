@@ -23,6 +23,21 @@ export default function useProjects() {
     filter(inputValue);
   };
 
+  const handleTagClick = (tag) => {
+    setActiveTags((prevTags) => {
+      let newTags;
+      if (prevTags.length === tags.length && prevTags.includes(tag)) {
+        newTags = [tag];
+      } else if (prevTags.includes(tag)) {
+        newTags = prevTags.filter((t) => t !== tag);
+        if (newTags.length === 0) newTags = tags.map((tag) => tag.name);
+      } else {
+        newTags = [...prevTags, tag];
+      }
+      return newTags;
+    });
+  };
+
   useEffect(() => {
     filter(searchInput);
   }, [activeTags]);
@@ -31,8 +46,8 @@ export default function useProjects() {
     projects,
     filteredProjects,
     activeTags,
-    setActiveTags,
     onSubmit,
+    handleTagClick,
     tags,
     searchInput,
   };
