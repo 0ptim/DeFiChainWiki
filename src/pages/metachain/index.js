@@ -52,14 +52,16 @@ export default function Metachain() {
           </div>
         ) : (
           <div>
-            <h2>Popular Projects</h2>
+            <h2>Our Favourites</h2>
             <div className="mb-10 flex gap-10 overflow-scroll p-4">
               {projects &&
-                projects.map((project) => (
-                  <div key={project.id}>
-                    <ProjectCard key={project.id} project={project} />
-                  </div>
-                ))}
+                [...projects]
+                  .filter((project) => project.fav)
+                  .map((project) => (
+                    <div key={project.id}>
+                      <ProjectCard key={project.id} project={project} />
+                    </div>
+                  ))}
             </div>
             <h2>New Projects</h2>
             <div className="mb-10 flex gap-10 overflow-scroll p-4">
