@@ -17,7 +17,6 @@ export default function Metachain() {
     fetch("/projects.json")
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
         setProjects(data.projects);
         setFilteredProjects(data.projects);
       });
@@ -67,12 +66,13 @@ export default function Metachain() {
         newTags = [...prevTags, tag];
       }
 
-      // After determining the new active tags array, filter the projects
-      filterProjects(searchInput);
-
       return newTags;
     });
   };
+
+  useEffect(() => {
+    filterProjects(searchInput);
+  }, [activeTags]);
 
   return (
     <Layout description="Find projects on DeFi Meta Chain">
@@ -95,7 +95,7 @@ export default function Metachain() {
           </div>
         </div>
 
-        {searchInput ? (
+        {searchInput || activeTags.length !== tags.length ? (
           <div>
             <h2>Search results</h2>
             <div className="mb-10 grid grid-cols-1 gap-10 md:grid-cols-2  lg:grid-cols-3">
