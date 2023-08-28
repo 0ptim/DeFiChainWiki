@@ -15,7 +15,7 @@ export default function useProjects() {
   }, [tags]);
 
   const filter = (inputValue) => {
-    setFilteredProjects(filterProjects(projects, activeTags, inputValue));
+    setFilteredProjects(filterProjects(projects, activeTags, tags, inputValue));
   };
 
   const onSubmit = (inputValue) => {

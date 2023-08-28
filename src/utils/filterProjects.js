@@ -1,12 +1,14 @@
-export const filterProjects = (projects, activeTags, inputValue) => {
+export const filterProjects = (projects, activeTags, tags, inputValue) => {
   const lowerCaseInputValue = inputValue.toLowerCase();
 
   return projects.filter(
     (project) =>
-      activeTags.every((tag) => project.tags.includes(tag)) &&
+      (activeTags.length !== tags.length
+        ? activeTags.every((tag) => project.tags.includes(tag))
+        : true) &&
       (project.name.toLowerCase().includes(lowerCaseInputValue) ||
         project.description.toLowerCase().includes(lowerCaseInputValue) ||
-        project.x.toLowerCase().includes(lowerCaseInputValue) ||
-        project.website.toLowerCase().includes(lowerCaseInputValue))
+        project.longDescription.toLowerCase().includes(lowerCaseInputValue) ||
+        project.mainURL.toLowerCase().includes(lowerCaseInputValue))
   );
 };
