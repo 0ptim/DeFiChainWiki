@@ -5,7 +5,7 @@ export default function Tag({ tag, allTags, active, onClick }) {
 
   return (
     <div
-      className={`flex cursor-pointer items-center justify-center rounded-full px-2 py-1 text-xs font-bold leading-none text-white ${
+      className={`flex cursor-pointer items-center justify-center rounded-full px-2 py-1 text-xs font-bold leading-none text-gray-800 ${
         getCurrentTag?.tailwindColor
       } ${active ? "" : "brightness-50"}`}
       onClick={onClick}

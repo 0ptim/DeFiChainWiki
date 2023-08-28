@@ -207,7 +207,7 @@ article a[href*="//"]:not([href*="defichainwiki.com"])::after
 }
 
 .dmc-bg {
-  background-image: url("/static/img/dmc_universe_bg.jpg");
+  background-image: url("/static/img/dmc_universe_bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
