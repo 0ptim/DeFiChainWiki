@@ -205,3 +205,10 @@ article a[href*="//"]:not([href*="defichainwiki.com"])::after
 .jellyChatBeta {
   background-image: url("/static/img/beta.svg");
 }
+
+.dmc-bg {
+  background-image: url("/static/img/dmc_universe_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
