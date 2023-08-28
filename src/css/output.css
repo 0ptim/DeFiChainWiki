@@ -959,6 +959,13 @@ article a[href*="//"]:not([href*="defichainwiki.com"])::after
   border-color: rgb(251 64 193 / var(--tw-border-opacity));
 }
 
+@media (min-width: 640px) {
+  .sm\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:p-10 {
     padding: 2.5rem;

@@ -19,7 +19,7 @@ export default function Metachain() {
 
   return (
     <Layout description="Find projects on DeFi Meta Chain">
-      <div className="dmc-bg flex flex-col items-center justify-center gap-8 px-2 py-20 md:px-40 2xl:px-96">
+      <div className="dmc-bg flex flex-col items-center justify-center gap-8 px-4 py-20 sm:px-20 md:px-40 2xl:px-96">
         <h1>
           <Translate>Metachain.Title</Translate>
         </h1>
