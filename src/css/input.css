@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,9 +8,6 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
-
-/* Import main site font from google fonts */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@700&display=swap");
 
 /* You can override the default Infima variables here. */
 :root {

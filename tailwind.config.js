@@ -50,6 +50,9 @@ module.exports = {
           900: "#060606",
         },
       },
+      fontFamily: {
+        sedgwick: ['"Sedgwick Ave Display"', "cursive"],
+      },
     },
   },
   plugins: [require("prettier-plugin-tailwindcss")],
