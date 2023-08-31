@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Sedgwick+Ave+Display&display=swap");
 
 *, ::before, ::after{
   --tw-border-spacing-x: 0;
@@ -212,6 +212,10 @@
   height: 1.5rem;
 }
 
+.h-60{
+  height: 15rem;
+}
+
 .h-96{
   height: 24rem;
 }
@@ -226,6 +230,10 @@
 
 .w-6{
   width: 1.5rem;
+}
+
+.w-60{
+  width: 15rem;
 }
 
 .w-80{
@@ -344,6 +352,10 @@
 
 .border-0{
   border-width: 0px;
+}
+
+.border-2{
+  border-width: 2px;
 }
 
 .border-none{
@@ -542,13 +554,13 @@
   text-align: center;
 }
 
-.font-sedgwick{
-  font-family: "Sedgwick Ave Display", cursive;
+.font-ps2p{
+  font-family: "Press Start 2P", cursive;
 }
 
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-base{
@@ -635,8 +647,24 @@
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+.drop-shadow-strong{
+  --tw-drop-shadow: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.8));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.drop-shadow-logo{
+  --tw-drop-shadow: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.6));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 .filter{
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.backdrop-blur-sm{
+  --tw-backdrop-blur: blur(4px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
 .transition-all{
@@ -864,6 +892,15 @@ article a[href*="//"]:not([href*="defichainwiki.com"])::after
   background-position: center;
 }
 
+.dmc-logo {
+  background-image: url("/static/img/dmc_logo.svg");
+}
+
+.placeholder\:text-gray-200::placeholder{
+  --tw-text-opacity: 1;
+  color: rgb(177 180 182 / var(--tw-text-opacity));
+}
+
 .hover\:scale-105:hover{
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
@@ -891,9 +928,18 @@ article a[href*="//"]:not([href*="defichainwiki.com"])::after
   border-color: rgb(199 4 138 / var(--tw-border-opacity));
 }
 
+:is([data-theme="dark"] .dark\:border-main-700){
+  --tw-border-opacity: 1;
+  border-color: rgb(199 4 138 / var(--tw-border-opacity));
+}
+
 :is([data-theme="dark"] .dark\:bg-backgroundDark){
   --tw-bg-opacity: 1;
   background-color: rgb(22 22 22 / var(--tw-bg-opacity));
+}
+
+:is([data-theme="dark"] .dark\:bg-black\/40){
+  background-color: rgb(0 0 0 / 0.4);
 }
 
 :is([data-theme="dark"] .dark\:bg-gray-500){
@@ -950,6 +996,11 @@ article a[href*="//"]:not([href*="defichainwiki.com"])::after
   color: transparent;
 }
 
+:is([data-theme="dark"] .dark\:hover\:border-main-600:hover){
+  --tw-border-opacity: 1;
+  border-color: rgb(250 9 175 / var(--tw-border-opacity));
+}
+
 :is([data-theme="dark"] .dark\:hover\:border-main-700:hover){
   --tw-border-opacity: 1;
   border-color: rgb(199 4 138 / var(--tw-border-opacity));
@@ -990,6 +1041,16 @@ article a[href*="//"]:not([href*="defichainwiki.com"])::after
   .md\:py-28{
     padding-top: 7rem;
     padding-bottom: 7rem;
+  }
+}
+
+@media (min-width: 1024px){
+  .lg\:h-80{
+    height: 20rem;
+  }
+
+  .lg\:w-80{
+    width: 20rem;
   }
 }
 

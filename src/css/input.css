@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Sedgwick+Ave+Display&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -209,4 +209,8 @@ article a[href*="//"]:not([href*="defichainwiki.com"])::after
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.dmc-logo {
+  background-image: url("/static/img/dmc_logo.svg");
 }

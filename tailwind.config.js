@@ -51,7 +51,11 @@ module.exports = {
         },
       },
       fontFamily: {
-        sedgwick: ['"Sedgwick Ave Display"', "cursive"],
+        ps2p: ['"Press Start 2P"', "cursive"],
+      },
+      dropShadow: {
+        strong: "0 1px 1px rgba(0, 0, 0, 0.8)",
+        logo: "0 1px 3px rgba(0, 0, 0, 0.6)",
       },
     },
   },

@@ -20,7 +20,8 @@ export default function Metachain() {
   return (
     <Layout description="Find projects on DeFi Meta Chain">
       <div className="dmc-bg flex flex-col items-center justify-center gap-8 px-4 py-20 sm:px-20 md:px-40 2xl:px-96">
-        <h1 className="font-sedgwick text-5xl">
+        <div className="dmc-logo drop-shadow-logo h-60 w-60 lg:h-80 lg:w-80"></div>
+        <h1 className="text-center font-ps2p text-4xl text-white drop-shadow-strong">
           <Translate>Metachain.Title</Translate>
         </h1>
         <Input onSubmit={onSubmit} />
