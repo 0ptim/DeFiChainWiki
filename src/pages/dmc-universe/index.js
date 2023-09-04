@@ -55,7 +55,7 @@ export default function Metachain() {
         ) : (
           <div>
             <h2>Our Favourites</h2>
-            <div className="mb-10 flex gap-10 overflow-scroll p-3 pb-5">
+            <div className="mb-10 flex gap-10 overflow-scroll overflow-y-hidden p-3 pb-5">
               {projects &&
                 [...projects]
                   .filter((project) => project.fav)
@@ -70,7 +70,7 @@ export default function Metachain() {
                   ))}
             </div>
             <h2>New Projects</h2>
-            <div className="mb-10 flex gap-10 overflow-scroll p-3 pb-5">
+            <div className="mb-10 flex gap-10 overflow-scroll overflow-y-hidden p-3 pb-5">
               {projects &&
                 [...projects]
                   .sort((a, b) => b.id - a.id)
