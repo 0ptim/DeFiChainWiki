@@ -155,6 +155,10 @@
   right: 0.75rem;
 }
 
+.right-4{
+  right: 1rem;
+}
+
 .right-5{
   right: 1.25rem;
 }
@@ -163,12 +167,16 @@
   top: 0px;
 }
 
+.top-4{
+  top: 1rem;
+}
+
 .top-5{
   top: 1.25rem;
 }
 
-.z-\[-1\]{
-  z-index: -1;
+.z-10{
+  z-index: 10;
 }
 
 .m-0{
@@ -220,6 +228,10 @@
   height: 15rem;
 }
 
+.h-8{
+  height: 2rem;
+}
+
 .h-96{
   height: 24rem;
 }
@@ -246,6 +258,10 @@
 
 .w-60{
   width: 15rem;
+}
+
+.w-8{
+  width: 2rem;
 }
 
 .w-80{
@@ -554,10 +570,6 @@
   padding-bottom: 1rem;
 }
 
-.pb-10{
-  padding-bottom: 2.5rem;
-}
-
 .pb-5{
   padding-bottom: 1.25rem;
 }
@@ -615,6 +627,11 @@
   line-height: 1;
 }
 
+.text-black{
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .text-gray-600{
   --tw-text-opacity: 1;
   color: rgb(88 91 93 / var(--tw-text-opacity));
@@ -653,6 +670,12 @@
 .shadow-md{
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-sm{
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -921,6 +944,12 @@ article a[href*="//"]:not([href*="defichainwiki.com"])::after
 .hover\:scale-105:hover{
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:scale-110:hover{
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
