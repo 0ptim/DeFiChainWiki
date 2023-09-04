@@ -1,5 +1,4 @@
 import React from "react";
-import Translate from "@docusaurus/Translate";
 import Layout from "@theme/Layout";
 import Tag from "../../components/Tag";
 import ProjectCard from "../../components/ProjectCard";
@@ -26,7 +25,7 @@ export default function Metachain() {
         <div className="flex flex-col items-center justify-center gap-8 px-4 py-20 sm:px-20 md:px-40 2xl:px-96">
           <div className="dmc-logo h-60 w-60 drop-shadow-logo lg:h-80 lg:w-80"></div>
           <h1 className="text-center font-ps2p text-4xl text-white drop-shadow-strong">
-            <Translate>Metachain.Title</Translate>
+            DMC Universe
           </h1>
           <Input onSubmit={onSubmit} />
           <div className="flex flex-wrap justify-center gap-2 px-4 md:px-8">
