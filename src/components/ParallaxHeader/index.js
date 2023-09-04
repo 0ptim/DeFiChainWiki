@@ -33,7 +33,7 @@ export default function ParallaxHeader({ children, backgroundSrc = "" }) {
         }}
       />
       <div ref={starRef}>
-        <StarBackground count={50} />
+        <StarBackground count={333} />
       </div>
       <header className="relative h-full w-full">{children}</header>
     </div>
