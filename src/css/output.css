@@ -260,6 +260,10 @@
   height: 100%;
 }
 
+.h-1{
+  height: 0.25rem;
+}
+
 .min-h-\[80vh\]{
   min-height: 80vh;
 }
@@ -298,6 +302,10 @@
 
 .w-full{
   width: 100%;
+}
+
+.w-1{
+  width: 0.25rem;
 }
 
 .max-w-2xl{
@@ -739,6 +747,11 @@
 .outline-none{
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.blur-sm{
+  --tw-blur: blur(4px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .brightness-50{
