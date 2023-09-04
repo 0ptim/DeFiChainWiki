@@ -1,12 +1,19 @@
 import React from "react";
+import StarBackground from "../StarBackground";
 
 export default function ParallaxHeader({ children, backgroundSrc = "" }) {
-  const ref = React.useRef();
+  const backgroundRef = React.useRef();
+  const starRef = React.useRef();
 
   React.useEffect(() => {
     const onScroll = () => {
-      if (ref.current) {
-        ref.current.style.backgroundPositionY = `${window.scrollY * 0.5}px`;
+      if (backgroundRef.current && starRef.current) {
+        backgroundRef.current.style.backgroundPositionY = `${
+          window.scrollY * 0.5
+        }px`;
+        starRef.current.style.transform = `translateY(${
+          window.scrollY * 0.5
+        }px)`;
       }
     };
     window.addEventListener("scroll", onScroll);
@@ -14,19 +21,21 @@ export default function ParallaxHeader({ children, backgroundSrc = "" }) {
   }, []);
 
   return (
-    <div
-      className="relative flex min-h-[80vh] items-center justify-center"
-      style={{
-        backgroundImage: `url(${backgroundSrc})`,
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-      }}
-      ref={ref}
-    >
-      <header className="relative h-full w-full bg-transparent">
-        {children}
-      </header>
+    <div className="relative flex min-h-[80vh] items-center justify-center overflow-hidden">
+      <div
+        className="absolute inset-0"
+        ref={backgroundRef}
+        style={{
+          backgroundImage: `url(${backgroundSrc})`,
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+        }}
+      />
+      <div ref={starRef}>
+        <StarBackground count={50} />
+      </div>
+      <header className="relative h-full w-full">{children}</header>
     </div>
   );
 }

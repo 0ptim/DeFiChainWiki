@@ -57,6 +57,15 @@ module.exports = {
         strong: "0 1px 1px rgba(0, 0, 0, 0.8)",
         logo: "0 1px 3px rgba(0, 0, 0, 0.6)",
       },
+      animation: {
+        blink: "blink 5s infinite",
+      },
+      keyframes: {
+        blink: {
+          "0%, 100%": { opacity: "0" },
+          "50%": { opacity: "1" },
+        },
+      },
     },
   },
   plugins: [require("prettier-plugin-tailwindcss")],
