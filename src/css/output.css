@@ -244,6 +244,14 @@
   height: 100%;
 }
 
+.h-40{
+  height: 10rem;
+}
+
+.min-h-\[80vh\]{
+  min-height: 80vh;
+}
+
 .w-10{
   width: 2.5rem;
 }
@@ -270,6 +278,10 @@
 
 .w-full{
   width: 100%;
+}
+
+.w-40{
+  width: 10rem;
 }
 
 .max-w-2xl{
@@ -1070,6 +1082,14 @@ article a[href*="//"]:not([href*="defichainwiki.com"])::after
 }
 
 @media (min-width: 768px){
+  .md\:h-60{
+    height: 15rem;
+  }
+
+  .md\:w-60{
+    width: 15rem;
+  }
+
   .md\:p-10{
     padding: 2.5rem;
   }
@@ -1088,6 +1108,11 @@ article a[href*="//"]:not([href*="defichainwiki.com"])::after
     padding-top: 7rem;
     padding-bottom: 7rem;
   }
+
+  .md\:py-20{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
 }
 
 @media (min-width: 1024px){
@@ -1095,8 +1120,16 @@ article a[href*="//"]:not([href*="defichainwiki.com"])::after
     height: 20rem;
   }
 
+  .lg\:h-72{
+    height: 18rem;
+  }
+
   .lg\:w-80{
     width: 20rem;
+  }
+
+  .lg\:w-72{
+    width: 18rem;
   }
 }
 

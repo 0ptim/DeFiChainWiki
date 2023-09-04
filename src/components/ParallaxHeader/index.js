@@ -15,7 +15,7 @@ export default function ParallaxHeader({ children, backgroundSrc = "" }) {
 
   return (
     <div
-      className="relative flex h-[80vh] items-center justify-center"
+      className="relative flex min-h-[80vh] items-center justify-center"
       style={{
         backgroundImage: `url(${backgroundSrc})`,
         backgroundPosition: "center",

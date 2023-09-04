@@ -22,7 +22,7 @@ export default function Metachain() {
     <>
       <SocialButtons />
       <ParallaxHeader backgroundSrc="/img/dmc_universe_bg.png">
-        <div className="flex flex-col items-center justify-center gap-8 px-4 py-20 sm:px-20 md:px-40 2xl:px-96">
+        <div className="flex flex-col items-center justify-center gap-8 px-4 py-16 sm:px-20 md:px-40 md:py-20 2xl:px-96">
           <div className="dmc-logo h-60 w-60 drop-shadow-logo lg:h-80 lg:w-80"></div>
           <h1 className="text-center font-ps2p text-4xl text-white drop-shadow-strong">
             DMC Universe
