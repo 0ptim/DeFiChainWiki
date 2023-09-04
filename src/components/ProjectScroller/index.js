@@ -32,7 +32,10 @@ export default function ProjectScroller({ title, projects, tags }) {
   }, []);
 
   const scroll = (scrollOffset) => {
-    scrollerRef.current.scrollLeft += scrollOffset;
+    scrollerRef.current.scrollTo({
+      left: scrollerRef.current.scrollLeft + scrollOffset,
+      behavior: "smooth",
+    });
   };
 
   return (
@@ -41,7 +44,7 @@ export default function ProjectScroller({ title, projects, tags }) {
         <div className="absolute bottom-0 left-0 top-0 z-10 flex items-center">
           <button
             className="h-10 w-10 cursor-pointer rounded-full border-none bg-gray-700 transition-all ease-out hover:scale-110"
-            onClick={() => scroll(-200)}
+            onClick={() => scroll(-400)}
           >
             <FontAwesomeIcon icon={faChevronLeft} />
           </button>
@@ -52,7 +55,7 @@ export default function ProjectScroller({ title, projects, tags }) {
         <div className="absolute bottom-0 right-0 top-0 z-10 flex items-center">
           <button
             className="h-10 w-10 cursor-pointer rounded-full border-none bg-gray-600 transition-all ease-out hover:scale-110"
-            onClick={() => scroll(200)}
+            onClick={() => scroll(400)}
           >
             <FontAwesomeIcon icon={faChevronRight} />
           </button>
