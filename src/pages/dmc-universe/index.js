@@ -5,6 +5,7 @@ import Tag from "../../components/Tag";
 import ProjectCard from "../../components/ProjectCard";
 import Input from "../../components/Input";
 import useProjects from "../../hooks/useProjects";
+import ParallaxHeader from "../../components/ParallaxHeader";
 
 export default function Metachain() {
   const {
@@ -18,26 +19,28 @@ export default function Metachain() {
   } = useProjects();
 
   return (
-    <Layout description="Find projects on DeFi Meta Chain">
-      <div className="dmc-bg flex flex-col items-center justify-center gap-8 px-4 py-20 sm:px-20 md:px-40 2xl:px-96">
-        <div className="dmc-logo drop-shadow-logo h-60 w-60 lg:h-80 lg:w-80"></div>
-        <h1 className="text-center font-ps2p text-4xl text-white drop-shadow-strong">
-          <Translate>Metachain.Title</Translate>
-        </h1>
-        <Input onSubmit={onSubmit} />
-        <div className="flex flex-wrap justify-center gap-2 px-4 md:px-8">
-          {tags &&
-            tags.map((tag) => (
-              <Tag
-                key={tag.name}
-                tag={tag.name}
-                allTags={tags}
-                active={activeTags.includes(tag.name)}
-                onClick={() => handleTagClick(tag.name)}
-              />
-            ))}
+    <>
+      <ParallaxHeader backgroundSrc="/img/dmc_universe_bg.png">
+        <div className="flex flex-col items-center justify-center gap-8 px-4 py-20 sm:px-20 md:px-40 2xl:px-96">
+          <div className="dmc-logo h-60 w-60 drop-shadow-logo lg:h-80 lg:w-80"></div>
+          <h1 className="text-center font-ps2p text-4xl text-white drop-shadow-strong">
+            <Translate>Metachain.Title</Translate>
+          </h1>
+          <Input onSubmit={onSubmit} />
+          <div className="flex flex-wrap justify-center gap-2 px-4 md:px-8">
+            {tags &&
+              tags.map((tag) => (
+                <Tag
+                  key={tag.name}
+                  tag={tag.name}
+                  allTags={tags}
+                  active={activeTags.includes(tag.name)}
+                  onClick={() => handleTagClick(tag.name)}
+                />
+              ))}
+          </div>
         </div>
-      </div>
+      </ParallaxHeader>
 
       <div className="px-4 pt-8 md:px-8">
         {searchInput || activeTags.length !== tags.length ? (
@@ -99,6 +102,6 @@ export default function Metachain() {
           </div>
         )}
       </div>
-    </Layout>
+    </>
   );
 }

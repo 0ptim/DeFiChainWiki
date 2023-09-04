@@ -167,6 +167,10 @@
   top: 1.25rem;
 }
 
+.z-\[-1\]{
+  z-index: -1;
+}
+
 .m-0{
   margin: 0px;
 }
@@ -218,6 +222,14 @@
 
 .h-96{
   height: 24rem;
+}
+
+.h-\[80vh\]{
+  height: 80vh;
+}
+
+.h-full{
+  height: 100%;
 }
 
 .w-10{
@@ -324,6 +336,10 @@
 
 .overflow-scroll{
   overflow: scroll;
+}
+
+.overflow-y-hidden{
+  overflow-y: hidden;
 }
 
 .whitespace-pre-line{
@@ -456,6 +472,10 @@
   background-color: rgb(20 184 166 / var(--tw-bg-opacity));
 }
 
+.bg-transparent{
+  background-color: transparent;
+}
+
 .bg-violet-600{
   --tw-bg-opacity: 1;
   background-color: rgb(124 58 237 / var(--tw-bg-opacity));
@@ -532,6 +552,10 @@
 .py-4{
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.pb-10{
+  padding-bottom: 2.5rem;
 }
 
 .pb-5{
@@ -642,6 +666,11 @@
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+.drop-shadow-logo{
+  --tw-drop-shadow: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.6));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 .drop-shadow-md{
   --tw-drop-shadow: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -649,11 +678,6 @@
 
 .drop-shadow-strong{
   --tw-drop-shadow: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.8));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.drop-shadow-logo{
-  --tw-drop-shadow: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.6));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
@@ -883,13 +907,6 @@ article a[href*="//"]:not([href*="defichainwiki.com"])::after
 
 .jellyChatBeta {
   background-image: url("/static/img/beta.svg");
-}
-
-.dmc-bg {
-  background-image: url("/static/img/dmc_universe_bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .dmc-logo {
