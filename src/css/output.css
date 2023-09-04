@@ -179,6 +179,10 @@
   top: 1.25rem;
 }
 
+.bottom-4{
+  bottom: 1rem;
+}
+
 .z-10{
   z-index: 10;
 }

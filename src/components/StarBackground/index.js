@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useMemo } from "react";
 import Star from "../Star";
 
 const StarBackground = ({ count }) => {
-  const renderStars = () => {
-    let stars = [];
+  const stars = useMemo(() => {
+    let starsArray = [];
     for (let i = 0; i < count; i++) {
       let style = {
         left: Math.random() * 100 + "vw",
@@ -11,12 +11,12 @@ const StarBackground = ({ count }) => {
         animationDelay: Math.random() * 5000 + "ms",
         animationDuration: Math.random() * 3 + 2 + "s",
       };
-      stars.push(<Star key={i} style={style} />);
+      starsArray.push(<Star key={i} style={style} />);
     }
-    return stars;
-  };
+    return starsArray;
+  }, [count]);
 
-  return <>{renderStars()}</>;
+  return <>{stars}</>;
 };
 
 export default StarBackground;
