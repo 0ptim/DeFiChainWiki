@@ -6,6 +6,7 @@ import Input from "../../components/Input";
 import useProjects from "../../hooks/useProjects";
 import ParallaxHeader from "../../components/ParallaxHeader";
 import SocialButtons from "../../components/SocialButtons";
+import ProjectScroller from "../../components/ProjectScroller";
 
 export default function Metachain() {
   const {
@@ -58,37 +59,21 @@ export default function Metachain() {
           </div>
         ) : (
           <div>
-            <h2>Our Favourites</h2>
-            <div className="mb-10 flex gap-10 overflow-scroll overflow-y-hidden p-3 pb-5">
-              {projects &&
-                [...projects]
-                  .filter((project) => project.fav)
-                  .map((project) => (
-                    <div key={project.id}>
-                      <ProjectCard
-                        key={project.id}
-                        project={project}
-                        allTags={tags}
-                      />
-                    </div>
-                  ))}
-            </div>
-            <h2>New Projects</h2>
-            <div className="mb-10 flex gap-10 overflow-scroll overflow-y-hidden p-3 pb-5">
-              {projects &&
-                [...projects]
-                  .sort((a, b) => b.id - a.id)
-                  .slice(0, 5)
-                  .map((project) => (
-                    <div key={project.id}>
-                      <ProjectCard
-                        key={project.id}
-                        project={project}
-                        allTags={tags}
-                      />
-                    </div>
-                  ))}
-            </div>
+            <ProjectScroller
+              title="Our Favourites"
+              projects={
+                projects && [...projects].filter((project) => project.fav)
+              }
+              tags={tags}
+            />
+            <ProjectScroller
+              title="New Projects"
+              projects={
+                projects &&
+                [...projects].sort((a, b) => b.id - a.id).slice(0, 5)
+              }
+              tags={tags}
+            />
             <h2>All Projects (A-Z)</h2>
             <div className="mb-10 flex flex-wrap justify-between gap-10 p-3 pb-5">
               {projects &&
