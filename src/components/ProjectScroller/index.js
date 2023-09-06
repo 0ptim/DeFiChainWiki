@@ -41,24 +41,22 @@ export default function ProjectScroller({ title, projects, tags }) {
   return (
     <div className="relative">
       {canScrollLeft && (
-        <div className="absolute bottom-0 left-0 top-0 z-10 flex items-center">
-          <button
-            className="h-10 w-10 cursor-pointer rounded-full border-none bg-gray-700 transition-all ease-out hover:scale-110"
-            onClick={() => scroll(-400)}
-          >
-            <FontAwesomeIcon icon={faChevronLeft} />
-          </button>
+        <div className="absolute -left-5 bottom-0 top-0 z-10 flex items-center">
+          <a onClick={() => scroll(-400)}>
+            <div className="flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-black text-xl text-violet-200 opacity-80 shadow-sm transition-all ease-out hover:scale-110 hover:opacity-100">
+              <FontAwesomeIcon icon={faChevronLeft} />
+            </div>
+          </a>
         </div>
       )}
 
       {canScrollRight && (
-        <div className="absolute bottom-0 right-0 top-0 z-10 flex items-center">
-          <button
-            className="h-10 w-10 cursor-pointer rounded-full border-none bg-gray-600 transition-all ease-out hover:scale-110"
-            onClick={() => scroll(400)}
-          >
-            <FontAwesomeIcon icon={faChevronRight} />
-          </button>
+        <div className="absolute -right-5 bottom-0 top-0 z-10 flex items-center">
+          <a onClick={() => scroll(400)}>
+            <div className="flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-black text-xl text-violet-200 opacity-80 shadow-sm transition-all ease-out hover:scale-110 hover:opacity-100">
+              <FontAwesomeIcon icon={faChevronRight} />
+            </div>
+          </a>
         </div>
       )}
 
