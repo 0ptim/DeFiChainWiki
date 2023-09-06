@@ -7,6 +7,7 @@ import useProjects from "../../hooks/useProjects";
 import ParallaxHeader from "../../components/ParallaxHeader";
 import SocialButtons from "../../components/SocialButtons";
 import ProjectScroller from "../../components/ProjectScroller";
+import GoTop from "../../components/GoTop";
 
 export default function Metachain() {
   const {
@@ -21,6 +22,7 @@ export default function Metachain() {
 
   return (
     <>
+      <GoTop scrollStepInPx="50" delayInMs="16.66" />
       <SocialButtons />
       <ParallaxHeader backgroundSrc="/img/dmc_universe_bg.png">
         <div className="flex flex-col items-center justify-center gap-8 px-4 py-16 sm:px-20 md:px-40 md:py-20 2xl:px-96">
