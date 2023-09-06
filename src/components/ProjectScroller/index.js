@@ -5,6 +5,7 @@ import {
   faChevronLeft,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { motion, AnimatePresence } from "framer-motion";
 
 export default function ProjectScroller({ title, projects, tags }) {
   const scrollerRef = useRef(null);
@@ -40,25 +41,47 @@ export default function ProjectScroller({ title, projects, tags }) {
 
   return (
     <div className="relative">
-      {canScrollLeft && (
-        <div className="absolute -left-5 bottom-0 top-0 z-10 flex items-center">
-          <a onClick={() => scroll(-400)}>
-            <div className="flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-black text-xl text-violet-200 opacity-80 shadow-sm transition-all ease-out hover:scale-110 hover:opacity-100">
-              <FontAwesomeIcon icon={faChevronLeft} />
-            </div>
-          </a>
-        </div>
-      )}
+      <AnimatePresence>
+        {canScrollLeft && (
+          <motion.div
+            className="absolute -left-5 bottom-0 top-0 z-10 flex items-center"
+            initial={{ opacity: 0, x: -50 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: -50 }}
+          >
+            <a onClick={() => scroll(-400)}>
+              <motion.div
+                className="flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-black text-xl text-violet-200 opacity-80 shadow-sm transition-all ease-out hover:opacity-100"
+                whileTap={{ scale: 0.8 }}
+                whileHover={{ scale: 1.1 }}
+              >
+                <FontAwesomeIcon icon={faChevronLeft} />
+              </motion.div>
+            </a>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
-      {canScrollRight && (
-        <div className="absolute -right-5 bottom-0 top-0 z-10 flex items-center">
-          <a onClick={() => scroll(400)}>
-            <div className="flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-black text-xl text-violet-200 opacity-80 shadow-sm transition-all ease-out hover:scale-110 hover:opacity-100">
-              <FontAwesomeIcon icon={faChevronRight} />
-            </div>
-          </a>
-        </div>
-      )}
+      <AnimatePresence>
+        {canScrollRight && (
+          <motion.div
+            className="absolute -right-5 bottom-0 top-0 z-10 flex items-center"
+            initial={{ opacity: 0, x: 50 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: 50 }}
+          >
+            <a onClick={() => scroll(400)}>
+              <motion.div
+                className="flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-black text-xl text-violet-200 opacity-80 shadow-sm transition-all ease-out hover:opacity-100"
+                whileTap={{ scale: 0.8 }}
+                whileHover={{ scale: 1.1 }}
+              >
+                <FontAwesomeIcon icon={faChevronRight} />
+              </motion.div>
+            </a>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       <h2>{title}</h2>
       <div

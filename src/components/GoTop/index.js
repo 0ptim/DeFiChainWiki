@@ -29,22 +29,15 @@ export default function GoTop() {
     return () => window.removeEventListener("scroll", checkScrollTop);
   }, [showBttn]);
 
-  const buttonVariants = {
-    hidden: { opacity: 0, y: 50 },
-    visible: { opacity: 1, y: 0 },
-    exit: { opacity: 0, y: 50 },
-  };
-
   return (
     <AnimatePresence>
       {showBttn && (
         <motion.a
           onClick={scrollToTop}
           className="fixed bottom-6 right-6 z-20"
-          variants={buttonVariants}
-          initial="hidden"
-          animate="visible"
-          exit="exit"
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: 50 }}
         >
           <div className="flex h-12 w-12 cursor-pointer items-center justify-center rounded-full bg-black text-2xl text-violet-200 opacity-90 shadow-sm transition-all ease-out hover:scale-110 hover:opacity-100">
             <FontAwesomeIcon icon={faChevronCircleUp} />
