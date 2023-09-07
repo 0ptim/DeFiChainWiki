@@ -12,7 +12,7 @@ export default function ProjectCard({ project, allTags }) {
   return (
     <div
       onClick={handleClick}
-      className="w-80 cursor-pointer overflow-hidden rounded-md bg-slate-800 shadow-md transition-all ease-out hover:scale-105 hover:shadow-lg"
+      className="w-80 cursor-pointer overflow-hidden rounded-md bg-card shadow-md transition-all ease-out hover:scale-105 hover:shadow-lg"
     >
       <img src={project.img} className="" />
       <div className="flex flex-col p-6">
