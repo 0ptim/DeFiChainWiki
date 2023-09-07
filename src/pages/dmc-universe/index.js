@@ -9,8 +9,10 @@ import SocialButtons from "../../components/SocialButtons";
 import ProjectScroller from "../../components/ProjectScroller";
 import GoTop from "../../components/GoTop";
 import StarBackground from "../../components/StarBackground";
+import useScrollbar from "../../hooks/useScrollbar";
 
 export default function Metachain() {
+  useScrollbar("dmc-page");
   const {
     projects,
     filteredProjects,
@@ -22,7 +24,7 @@ export default function Metachain() {
   } = useProjects();
 
   return (
-    <>
+    <div className="dmc-page">
       <GoTop scrollStepInPx="50" delayInMs="16.66" />
       <SocialButtons />
       <ParallaxHeader backgroundSrc="/img/dmc_universe_bg.png">
@@ -94,6 +96,6 @@ export default function Metachain() {
           )}
         </div>
       </div>
-    </>
+    </div>
   );
 }

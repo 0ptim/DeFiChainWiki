@@ -157,6 +157,7 @@ article a[href*="//"]:not([href*="defichainwiki.com"])::after
 [data-theme="dark"] .formula_map {
   background-image: url("/static/img/map_dark.svg");
 }
+
 *::-webkit-scrollbar {
   height: 6px;
   width: 6px;
@@ -206,4 +207,30 @@ article a[href*="//"]:not([href*="defichainwiki.com"])::after
 
 .dmc-logo {
   background-image: url("/static/img/dmc_logo.svg");
+}
+
+body.dmc-page::-webkit-scrollbar,
+body.dmc-page *::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+body.dmc-page::-webkit-scrollbar-thumb,
+body.dmc-page *::-webkit-scrollbar-thumb {
+  background: #3d7f85;
+}
+
+body.dmc-page::-webkit-scrollbar-track,
+body.dmc-page *::-webkit-scrollbar-track {
+  background: #fafafa;
+}
+
+[data-theme="dark"] body.dmc-page::-webkit-scrollbar-thumb,
+[data-theme="dark"] body.dmc-page *::-webkit-scrollbar-thumb {
+  background: #a78bfa;
+}
+
+[data-theme="dark"] body.dmc-page::-webkit-scrollbar-track,
+[data-theme="dark"] body.dmc-page *::-webkit-scrollbar-track {
+  background: #161616;
 }
