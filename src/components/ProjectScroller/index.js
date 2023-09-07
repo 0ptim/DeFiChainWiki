@@ -60,9 +60,9 @@ export default function ProjectScroller({ title, projects, tags }) {
         {canScrollLeft && (
           <motion.div
             className="absolute -left-5 bottom-0 top-0 z-10 flex items-center"
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: -50 }}
+            initial={{ opacity: 0, scale: 0 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0 }}
           >
             <a onClick={() => scroll(-400)}>
               <motion.div
@@ -81,9 +81,9 @@ export default function ProjectScroller({ title, projects, tags }) {
         {canScrollRight && (
           <motion.div
             className="absolute -right-5 bottom-0 top-0 z-10 flex items-center"
-            initial={{ opacity: 0, x: 50 }}
-            animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: 50 }}
+            initial={{ opacity: 0, scale: 0 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0 }}
           >
             <a onClick={() => scroll(400)}>
               <motion.div
