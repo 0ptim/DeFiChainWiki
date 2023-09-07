@@ -364,6 +364,10 @@
   cursor: pointer;
 }
 
+.resize{
+  resize: both;
+}
+
 .flex-col{
   flex-direction: column;
 }

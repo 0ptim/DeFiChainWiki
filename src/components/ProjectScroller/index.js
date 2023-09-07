@@ -12,23 +12,38 @@ export default function ProjectScroller({ title, projects, tags }) {
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(false);
 
-  useEffect(() => {
-    const { scrollWidth, clientWidth } = scrollerRef.current;
-    setCanScrollRight(scrollWidth > clientWidth);
+  const checkScrollState = () => {
+    const { scrollLeft, scrollWidth, clientWidth } = scrollerRef.current;
+    setCanScrollLeft(scrollLeft > 0);
+    setCanScrollRight(scrollLeft < scrollWidth - clientWidth);
+    console.log(scrollLeft < scrollWidth - clientWidth);
+  };
 
+  useEffect(() => {
     const handleScroll = () => {
-      setCanScrollLeft(scrollerRef.current.scrollLeft > 0);
-      setCanScrollRight(
-        scrollerRef.current.scrollLeft < scrollWidth - clientWidth
-      );
+      checkScrollState();
     };
 
     scrollerRef.current.addEventListener("scroll", handleScroll);
+
+    checkScrollState();
 
     return () => {
       if (scrollerRef.current) {
         scrollerRef.current.removeEventListener("scroll", handleScroll);
       }
+    };
+  }, []);
+
+  useEffect(() => {
+    const handleResize = () => {
+      checkScrollState();
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
