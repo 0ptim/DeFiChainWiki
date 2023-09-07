@@ -6,6 +6,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { motion, AnimatePresence } from "framer-motion";
+import _ from "lodash"; // import Lodash for throttling
 
 export default function ProjectScroller({ title, projects, tags }) {
   const scrollerRef = useRef(null);
@@ -20,9 +21,9 @@ export default function ProjectScroller({ title, projects, tags }) {
   };
 
   useEffect(() => {
-    const handleScroll = () => {
+    const handleScroll = _.throttle(() => {
       checkScrollState();
-    };
+    }, 100);
 
     scrollerRef.current.addEventListener("scroll", handleScroll);
 
@@ -36,9 +37,9 @@ export default function ProjectScroller({ title, projects, tags }) {
   }, []);
 
   useEffect(() => {
-    const handleResize = () => {
+    const handleResize = _.throttle(() => {
       checkScrollState();
-    };
+    }, 100);
 
     window.addEventListener("resize", handleResize);
 
