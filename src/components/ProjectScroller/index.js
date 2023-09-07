@@ -100,7 +100,7 @@ export default function ProjectScroller({ title, projects, tags }) {
 
       <h2>{title}</h2>
       <div
-        className="mb-10 flex gap-10 overflow-scroll overflow-y-hidden p-3 pb-5"
+        className="mb-10 flex gap-10 overflow-x-auto overflow-y-hidden p-3 pb-5"
         ref={scrollerRef}
       >
         {projects &&
