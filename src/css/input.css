@@ -217,20 +217,10 @@ body.dmc-page *::-webkit-scrollbar {
 
 body.dmc-page::-webkit-scrollbar-thumb,
 body.dmc-page *::-webkit-scrollbar-thumb {
-  background: #3d7f85;
+  background: #a78bfa;
 }
 
 body.dmc-page::-webkit-scrollbar-track,
 body.dmc-page *::-webkit-scrollbar-track {
-  background: #fafafa;
-}
-
-[data-theme="dark"] body.dmc-page::-webkit-scrollbar-thumb,
-[data-theme="dark"] body.dmc-page *::-webkit-scrollbar-thumb {
-  background: #a78bfa;
-}
-
-[data-theme="dark"] body.dmc-page::-webkit-scrollbar-track,
-[data-theme="dark"] body.dmc-page *::-webkit-scrollbar-track {
   background: #161616;
 }
