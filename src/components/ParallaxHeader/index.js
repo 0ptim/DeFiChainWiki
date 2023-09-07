@@ -32,7 +32,7 @@ export default function ParallaxHeader({ children, backgroundSrc = "" }) {
           backgroundRepeat: "no-repeat",
         }}
       />
-      <div ref={starRef}>
+      <div ref={starRef} className="absolute inset-0">
         <StarBackground count={333} />
       </div>
       <header className="relative h-full w-full">{children}</header>
