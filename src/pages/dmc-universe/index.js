@@ -8,6 +8,7 @@ import ParallaxHeader from "../../components/ParallaxHeader";
 import SocialButtons from "../../components/SocialButtons";
 import ProjectScroller from "../../components/ProjectScroller";
 import GoTop from "../../components/GoTop";
+import StarBackground from "../../components/StarBackground";
 
 export default function Metachain() {
   const {
@@ -46,49 +47,52 @@ export default function Metachain() {
         </div>
       </ParallaxHeader>
 
-      <div className="px-4 pt-8 md:px-8">
-        {searchInput || activeTags.length !== tags.length ? (
-          <div>
-            <h2>Search results</h2>
-            <div className="mb-10 flex flex-wrap gap-10 p-3 pb-5">
-              {filteredProjects &&
-                filteredProjects.map((project) => (
-                  <div key={project.id}>
-                    <ProjectCard project={project} allTags={tags} />
-                  </div>
-                ))}
-            </div>
-          </div>
-        ) : (
-          <div>
-            <ProjectScroller
-              title="Our Favourites"
-              projects={
-                projects && [...projects].filter((project) => project.fav)
-              }
-              tags={tags}
-            />
-            <ProjectScroller
-              title="New Projects"
-              projects={
-                projects &&
-                [...projects].sort((a, b) => b.id - a.id).slice(0, 5)
-              }
-              tags={tags}
-            />
-            <h2>All Projects (A-Z)</h2>
-            <div className="mb-10 flex flex-wrap justify-between gap-10 p-3 pb-5">
-              {projects &&
-                [...projects]
-                  .sort((a, b) => a.name.localeCompare(b.name))
-                  .map((project) => (
+      <div className="relative bg-gradient-to-b from-indigo-950 to-black px-4 pt-8 md:px-8">
+        <StarBackground count={333} />
+        <div className="relative">
+          {searchInput || activeTags.length !== tags.length ? (
+            <div>
+              <h2>Search results</h2>
+              <div className="mb-10 flex flex-wrap gap-10 p-3 pb-5">
+                {filteredProjects &&
+                  filteredProjects.map((project) => (
                     <div key={project.id}>
                       <ProjectCard project={project} allTags={tags} />
                     </div>
                   ))}
+              </div>
             </div>
-          </div>
-        )}
+          ) : (
+            <div>
+              <ProjectScroller
+                title="Our Favourites"
+                projects={
+                  projects && [...projects].filter((project) => project.fav)
+                }
+                tags={tags}
+              />
+              <ProjectScroller
+                title="New Projects"
+                projects={
+                  projects &&
+                  [...projects].sort((a, b) => b.id - a.id).slice(0, 5)
+                }
+                tags={tags}
+              />
+              <h2>All Projects (A-Z)</h2>
+              <div className="mb-10 flex flex-wrap justify-between gap-10 p-3 pb-5">
+                {projects &&
+                  [...projects]
+                    .sort((a, b) => a.name.localeCompare(b.name))
+                    .map((project) => (
+                      <div key={project.id}>
+                        <ProjectCard project={project} allTags={tags} />
+                      </div>
+                    ))}
+              </div>
+            </div>
+          )}
+        </div>
       </div>
     </>
   );

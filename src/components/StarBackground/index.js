@@ -6,8 +6,9 @@ const StarBackground = ({ count }) => {
     let starsArray = [];
     for (let i = 0; i < count; i++) {
       let style = {
-        left: Math.random() * 100 + "vw",
-        top: Math.random() * 100 + "vh",
+        position: "absolute",
+        left: Math.random() * 100 + "%",
+        top: Math.random() * 100 + "%",
         animationDelay: Math.random() * 5000 + "ms",
         animationDuration: Math.random() * 3 + 2 + "s",
       };
