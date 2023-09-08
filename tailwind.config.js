@@ -49,6 +49,7 @@ module.exports = {
           800: "#212223",
           900: "#060606",
         },
+        card: "#14112f",
       },
       fontFamily: {
         ps2p: ['"Press Start 2P"', "cursive"],

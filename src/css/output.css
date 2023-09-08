@@ -483,10 +483,6 @@
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-black\/30{
-  background-color: rgb(0 0 0 / 0.3);
-}
-
 .bg-black\/40{
   background-color: rgb(0 0 0 / 0.4);
 }
@@ -494,6 +490,11 @@
 .bg-blue-500{
   --tw-bg-opacity: 1;
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
+.bg-card{
+  --tw-bg-opacity: 1;
+  background-color: rgb(20 17 47 / var(--tw-bg-opacity));
 }
 
 .bg-cyan-600{
@@ -584,11 +585,6 @@
 .bg-yellow-500{
   --tw-bg-opacity: 1;
   background-color: rgb(234 179 8 / var(--tw-bg-opacity));
-}
-
-.bg-card{
-  --tw-bg-opacity: 1;
-  background-color: rgb(20 17 47 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-b{
